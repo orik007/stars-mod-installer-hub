@@ -55,7 +55,7 @@ const tempDir = mkdtempSync(path.join(tmpdir(), 'manual-installation-override-')
 try {
   const extractedCatalog = readZipJson(latestCatalogZipPath, 'catalog.json');
   const extractedInstallation = readZipJson(latestCatalogZipPath, 'catalog_installation.json');
-  const changelogBytes = readZipEntry(latestCatalogZipPath, 'catalog-changelog.json');
+  const extractedChangelog = readZipJson(latestCatalogZipPath, 'catalog-changelog.json');
   const overrideInstallation = readJsonFile(overridesInstallationPath, 'overrides/catalog_installation.json');
 
   if (!Array.isArray(overrideInstallation.mods)) {
@@ -95,6 +95,7 @@ try {
 
   extractedInstallation.catalogVersion = newCatalogVersion;
   extractedCatalog.catalogVersion = newCatalogVersion;
+  extractedChangelog.catalogVersion = newCatalogVersion;
   const newMetadata = { ...metadata, catalogVersion: newCatalogVersion };
 
   console.log(`Old version: ${oldCatalogVersion}`);
@@ -111,7 +112,7 @@ try {
   const newChangelogJsonPath = path.join(outputDir, 'catalog-changelog.json');
   writeJsonFile(newCatalogJsonPath, extractedCatalog);
   writeJsonFile(newInstallationJsonPath, extractedInstallation);
-  writeFileSync(newChangelogJsonPath, changelogBytes);
+  writeJsonFile(newChangelogJsonPath, extractedChangelog);
 
   const newCatalogZipPath = path.join(tempDir, 'catalog.zip');
   execFileSync('zip', ['-X', '-q', newCatalogZipPath, 'catalog.json', 'catalog_installation.json', 'catalog-changelog.json'], {
@@ -125,10 +126,10 @@ try {
     mkdirSync(newHistoryDir, { recursive: true });
     writeJsonFile(latestMetadataPath, newMetadata);
     copyFileSync(newCatalogZipPath, latestCatalogZipPath);
-    writeFileSync(latestChangelogPath, changelogBytes);
+    writeJsonFile(latestChangelogPath, extractedChangelog);
     writeJsonFile(path.join(newHistoryDir, 'metadata.json'), newMetadata);
     copyFileSync(newCatalogZipPath, path.join(newHistoryDir, 'catalog.zip'));
-    writeFileSync(path.join(newHistoryDir, 'catalog-changelog.json'), changelogBytes);
+    writeJsonFile(path.join(newHistoryDir, 'catalog-changelog.json'), extractedChangelog);
     writeJsonFile(overridesCatalogPath, extractedCatalog);
     writeJsonFile(overridesInstallationPath, extractedInstallation);
   }

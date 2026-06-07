@@ -6,6 +6,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: manual-installation-override
+  cancel-in-progress: false
+
 jobs:
   apply-manual-installation-override:
     runs-on: ubuntu-latest
