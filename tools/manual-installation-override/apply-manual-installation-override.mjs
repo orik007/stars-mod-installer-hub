@@ -99,7 +99,6 @@ try {
   extractedInstallation.catalogVersion = newCatalogVersion;
   extractedCatalog.catalogVersion = newCatalogVersion;
   extractedChangelog.catalogVersion = newCatalogVersion;
-  extractedChangelog.previousCatalogVersion = oldCatalogVersion;
   const newMetadata = { ...metadata, catalogVersion: newCatalogVersion };
 
   console.log(`Old version: ${oldCatalogVersion}`);

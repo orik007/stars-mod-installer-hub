@@ -16,4 +16,4 @@ After a successful workflow run:
 - `overrides/catalog.json` is regenerated as a full copy of the newly published catalog.
 - `catalog.json` changes only `catalogVersion`.
 - `catalog_installation.json` changes only `catalogVersion` and the selected `installationProcess` overrides.
-- `catalog-changelog.json` changes only `catalogVersion` and `previousCatalogVersion`; no changelog entries are generated or edited by this workflow.
+- `catalog-changelog.json` changes only `catalogVersion`; `previousCatalogVersion` and changelog contents are preserved.
