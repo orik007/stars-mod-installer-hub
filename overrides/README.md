@@ -8,4 +8,10 @@
 4. Commit the changed working copy to `main`.
 5. Run the `Manual installation override` workflow.
 
-After a successful workflow run, `overrides/catalog_installation.json` is regenerated as a full copy of the newly published version.
+After a successful workflow run:
+
+- `overrides/catalog_installation.json` is regenerated as a full copy of the newly published installation catalog.
+- `overrides/catalog.json` is regenerated as a full copy of the newly published catalog.
+- `catalog.json` changes only `catalogVersion`.
+- `catalog_installation.json` changes only `catalogVersion` and the selected `installationProcess` overrides.
+- `catalog-changelog.json` changes only `catalogVersion`; no changelog entries are generated or edited by this workflow.
