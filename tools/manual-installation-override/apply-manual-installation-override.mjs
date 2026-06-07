@@ -61,6 +61,9 @@ try {
   if (!Array.isArray(overrideInstallation.mods)) {
     fail('overrides/catalog_installation.json mods must be an array.');
   }
+  if (overrideInstallation.mods.length === 0) {
+    fail('overrides/catalog_installation.json mods must keep at least one mod to override.');
+  }
   if (!Array.isArray(extractedInstallation.mods)) {
     fail('catalog_installation.json from latest/catalog.zip mods must be an array.');
   }
@@ -96,6 +99,7 @@ try {
   extractedInstallation.catalogVersion = newCatalogVersion;
   extractedCatalog.catalogVersion = newCatalogVersion;
   extractedChangelog.catalogVersion = newCatalogVersion;
+  extractedChangelog.previousCatalogVersion = oldCatalogVersion;
   const newMetadata = { ...metadata, catalogVersion: newCatalogVersion };
 
   console.log(`Old version: ${oldCatalogVersion}`);
