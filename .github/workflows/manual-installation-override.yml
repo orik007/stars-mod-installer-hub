@@ -1,0 +1,41 @@
+name: Manual installation override
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manual-installation-override
+  cancel-in-progress: false
+
+jobs:
+  apply-manual-installation-override:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Apply manual installation override
+        run: node tools/manual-installation-override/apply-manual-installation-override.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name stars-publish-bot
+          git config user.email stars-publish-bot@users.noreply.github.com
+          git add -A latest history overrides
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          new_catalog_version=$(node -p "require('./latest/metadata.json').catalogVersion")
+          git commit -m "Apply manual installation override ${new_catalog_version}"
+          git push
