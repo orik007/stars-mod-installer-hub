@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.023",
+  "catalogVersion": "v2026.06.024",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7679",
+      "title": "TS-54 in Mirny theme",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 122mm gun sound effect and exchaged tracks."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also explicitly mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7670",
+      "title": "Concept 5 in Mirny theme",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 130mm gun sound effect."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also explicitly mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7701",
@@ -578,12 +608,12 @@
       "title": "Dravec in Mirny theme",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 152mm gun sound."
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 152mm gun sound effect."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide targets mods/<version>; deleting data.wgpdc is an additional non-blocking note.",
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also explicitly mentions deleting data.wgpdc.",
         "deleteDataWgpdc": true
       }
     },
