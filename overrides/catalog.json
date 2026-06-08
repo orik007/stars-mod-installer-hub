@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.022",
-  "sourceHash": "006b78e2de3b10208abac23dd9dc05df14fd0c108e1aec033656c81e4eeda58b",
+  "catalogVersion": "v2026.06.023",
+  "sourceHash": "67ae143b0bce3c5170b3ee9d10fbeda6e38fea2563a027df32fd72e0fc01cbab",
   "sources": [
     "wgmods",
     "modhub"
@@ -1264,7 +1264,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>SpotMeter adds a dynamic minimap circle showing distance from&nbsp;<br>which your tank can currently be spotted, based on your real-time&nbsp;<br>camouflage state.&nbsp;<br><br>KEY FEATURES&nbsp;<br><br>* Live spot-distance circle on the minimap, updated every 0.2s&nbsp;<br>* Four colour states reflecting your current camo:&nbsp;<br>&nbsp; &nbsp;- Red &nbsp; &nbsp; &nbsp; &nbsp;- moving&nbsp;<br>&nbsp; &nbsp;- Green &nbsp; &nbsp; &nbsp;- still&nbsp;<br>&nbsp; &nbsp;- Dark green - still 3s+ with active camouflage net&nbsp;<br>&nbsp; &nbsp;- Orange &nbsp; &nbsp; - approximately 3 seconds after firing (fire penalty)&nbsp;<br>* Battle-time enemy picker (Numpad 8/2) re-scales the circle to a&nbsp;<br>&nbsp;SPECIFIC enemy tank's estimated view range&nbsp;<br>* Five toggles (Numpad 7/3/4/1/0) for assumed enemy bonuses:&nbsp;<br>&nbsp; &nbsp;- Combat Rations &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+4.30% crew amplifier)&nbsp;<br>&nbsp; &nbsp;- Brothers in Arms &nbsp; &nbsp; &nbsp; &nbsp; (+2.53% crew amplifier)&nbsp;<br>&nbsp; &nbsp;- Recon + Sit. Awareness &nbsp; (+7.39% bundled)&nbsp;<br>&nbsp; &nbsp;- Directives on equipment &nbsp;(x1.025 on auto-detected equipment)&nbsp;<br>&nbsp; &nbsp;- Field upgrades on VR &nbsp; &nbsp; (BETA, per-tank lookup)&nbsp;<br>* Coated Optics and Stereoscope are AUTO-DETECTED from the enemy's&nbsp;<br>&nbsp;vehicle descriptor - no manual toggle needed for equipment&nbsp;<br>* Siege modes (CS-63, str's) automatically&nbsp;<br>&nbsp;handled via the engine's CompositeVehicleDescriptor&nbsp;<br>* On-screen status overlay (Numpad 9) and full status snapshot&nbsp;<br>&nbsp;(NumpadEnter) printed to the in-battle chat channel&nbsp;<br>* In-battle config reload (NumpadPeriod) for fast iteration&nbsp;<br>* Numpad keys work with NumLock ON and OFF&nbsp;<br><br>HOW IT WORKS&nbsp;<br><br>The mod reads your vehicle's invisibility factors directly from the&nbsp;<br>client's own type descriptor (turret camo, crew/equipment multipliers,&nbsp;<br>optionalDevices). It uses the same formula as the game's&nbsp;<br>scripts/common/items/utils.py:getInvisibility() to compute camo, then&nbsp;<br>converts it to a spot radius via enemyViewRange * (1 - camo), clamped&nbsp;<br>to 50-445m.&nbsp;<br><br>Default enemy view range is your own VR (most realistic baseline).&nbsp;<br>Override via the picker to model a specific opponent.&nbsp;<br><br>CONFIGURATION&nbsp;<br><br>Optional spotmeter.json in mods/configs/ tunes:&nbsp;<br>* Every hotkey (numpad layout, configurable per key)&nbsp;<br>* Circle colours, alpha, tick interval&nbsp;<br>* All VR bonus multipliers (empirically calibrated on a 340m base VR&nbsp;<br>&nbsp;tank: Rations +14.62m, BIA +8.60m, Recon +9.79m, SitAware +15.33m)&nbsp;<br>* Per-tank field upgrade table for tanks with VR upgrades in their&nbsp;<br>&nbsp;post-progression tree&nbsp;<br><br>The mod works without a config too - sensible defaults built in.&nbsp;<br><br>LIMITATIONS&nbsp;<br><br>* Foliage / bush camo bonuses are computed via server-side raycasts&nbsp;<br>&nbsp;and are not modelled (out of scope)&nbsp;<br>* Other players' crew perks, active consumables, and field upgrades&nbsp;<br>&nbsp;are server-private; the picker toggles let you model expected&nbsp;<br>&nbsp;enemy configurations rather than read real values&nbsp;<br><br>SOURCE &amp; SUPPORT&nbsp;<br><br>Open source under MIT licence at github.com/M1ikus/spotmeter&nbsp;<br>Full documentation, formula derivations, and the optional config file&nbsp;<br>are available there. Issues and feedback welcome.</p>",
       "installationGuideHtml": "<p>1. Copy spotmeter-v5.6.2.wotmod into your World of Tanks folder under&nbsp;<br>&nbsp; mods/2.2.1.3/. The game loads it automatically on next launch.&nbsp;<br><br>2. (Optional) Download spotmeter.json from github.com/M1ikus/spotmeter&nbsp;<br>&nbsp; and place it in mods/configs/ to customise hotkeys, colours, or VR&nbsp;<br>&nbsp; bonus values. The mod uses sensible defaults without it.&nbsp;<br><br>3. Launch the game and enter a battle. A second minimap circle will&nbsp;<br>&nbsp; appear, showing your current spot distance.&nbsp;<br><br>To uninstall: just delete spotmeter-v5.6.2.wotmod from mods/2.2.1.3/.&nbsp;<br><br>For full hotkey reference, picker walkthrough, and the technical&nbsp;<br>formula breakdown, see github.com/M1ikus/spotmeter.</p>",
@@ -1276,6 +1276,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v6.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v6.0.0.wotmod",
+          "updatedAt": "2026-06-08T09:21:08.664Z",
+          "sizeBytes": 169518,
+          "fileName": "spotmeter-v6.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "v6.0.0 - built for WoT 2.3.0.0.\n\nA major update on top of the minimap spot-distance circle:\n\nNEW\n- In-battle picker panel: lists every enemy with its view range; identical tanks group into one row. Shows the spot-distance of the picked target (or your own tank). Pick by clicking a row or with Numpad 2/8. Draggable.\n- Garage panel: pre-configure perk/equipment levels before battle, with a live preview.\n- PageDown: show/hide the panel (battle + garage); stays hidden until pressed again.\n- Auto-pick (Numpad /): auto-targets the nearest enemy, with per-class presets.\n- Optics / Vents / CVS as manual cyclable levels (Numpad 6 / + / -).\n- Auto-hide while holding TAB/N or when garage windows are open.\n- English + Polish interface, auto-detected from the client.\n\nFIXED\n- Panel no longer reappears by itself after being hidden with PageDown.\n- Garage performance cleanup."
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "5.6.2",
@@ -1298,9 +1308,9 @@
         }
       ],
       "latest": {
-        "fileName": "spotmeter-v5.6.2.wotmod",
-        "changeLog": "Compatibility update for World of Tanks 2.2.1.3.\nNo functional or behavioral changes vs v5.6.1 — only the target game version was bumped and the .pyc recompiled.",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "spotmeter-v6.0.0.wotmod",
+        "changeLog": "v6.0.0 - built for WoT 2.3.0.0.\n\nA major update on top of the minimap spot-distance circle:\n\nNEW\n- In-battle picker panel: lists every enemy with its view range; identical tanks group into one row. Shows the spot-distance of the picked target (or your own tank). Pick by clicking a row or with Numpad 2/8. Draggable.\n- Garage panel: pre-configure perk/equipment levels before battle, with a live preview.\n- PageDown: show/hide the panel (battle + garage); stays hidden until pressed again.\n- Auto-pick (Numpad /): auto-targets the nearest enemy, with per-class presets.\n- Optics / Vents / CVS as manual cyclable levels (Numpad 6 / + / -).\n- Auto-hide while holding TAB/N or when garage windows are open.\n- English + Polish interface, auto-detected from the client.\n\nFIXED\n- Panel no longer reappears by itself after being hidden with PageDown.\n- Garage performance cleanup.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -13235,7 +13245,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p><strong>v1.3 Update has been released and has overhauled the mod significantly.&nbsp;</strong><br><strong>- All maps should now be darker and more \"night\"-like than the previous version due to modified lighting, fog and colour correction settings</strong><br><strong>- All maps now use modified probes folder to try to maintain a more consistent appearance across them. It's not perfect but it's better than it was before</strong><br><strong>- Modified skybox settings to be consistent across maps. They use a slow, low frequency value so you may notice it ghosting sometimes. I still feel this is better than making it static</strong><br><strong>- Added a hangar edit</strong><br><strong>- Added an optional mod to assist with visibility through a modified 3D Attachment</strong><br><strong>- As I'm limited by character limit, for more information please see my threads on WoTCord or WoT Infocord</strong><br><br><strong>This mod is an edit to the Night Sky mod found in Aslain's Modpack. While this mod functions standalone without requiring you to use Aslain's, I feel obliged to state that this is NOT my original mod.</strong></p><p>&nbsp;</p><p>This mod takes Aslain's Night Sky mod and, as the name implies, edits the lighting settings of the maps to better fit the night aesthetic. The lighting may still feel brighter than you'd expect night to be but I wanted maps to be somewhat playable. This affects the following maps:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU\">https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a></p><p>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/&nbsp;</a></p><p>&nbsp;</p><p>Some final notes:<br>- This mod <strong>SHOULD</strong> work with SD/Simplified HD Graphics. Simplified graphics however have a bit of scuff with water appearance. I've done all I can do make it work but on some maps it will look off<br>- I shouldn't have to say this but I want to make it clear: <strong>this mod is dark</strong>. This will likely lead to some disorientation at first and will likely be uncomfortable for those with poor eyesight. Please keep that in mind. An optional mod has been included that may help with this and I highly recommend my <a href=\"https://wgmods.net/7050/\">Actual Lights</a> mod alongside this one<br>- Various ambient map effects may stand out as jarringly bright compared to the overall lighting. Unfortunately I do not know a way to fix this while maintaining the appearance, I apologise for this<br>- Aslain's original Night Sky mod edits various event mode maps as well. I have however removed them (with v1.3) and chosen not to include them since I cannot test them and maintaining event maps that may never return just increases mod size<br><strong>- do not attempt to run this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues and cause the mod to not function as intended</strong></p>",
       "installationGuideHtml": "<p>This mod features two different installation options:<br><strong>wotmod version:</strong> drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.0.0.1\\[WOTMOD GOES HERE]</p><p>Do NOT run the wotmod version alongside Aslain's original Night Sky.</p><p><strong>res_mods version (ideal if you are already using Night Sky from Aslain's, allow it to replace all existing files):</strong> drag or extract the included \"spaces\" folder into your WoT Game files and place it in the [PATCH FOLDER] in \"res_mods\". For example: C:\\Games\\World_of_Tanks\\res_mods\\2.0.0.1\\[FOLDER GOES HERE]</p>",
@@ -13247,6 +13257,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_Night_Sky_Edit_v1.4.rar",
+          "updatedAt": "2026-06-08T09:15:48.703Z",
+          "sizeBytes": 65603320,
+          "fileName": "Aslains_Night_Sky_Edit_v1.4.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.5 Update for 2.3.0.0:\n- Updated Night Light optional mod for Patch 2.3 3D Attachment changes"
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.3",
@@ -13299,9 +13319,9 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_Night_Sky_Edit_v1.3_JXPDLF9.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Aslains_Night_Sky_Edit_v1.4.rar",
+        "changeLog": "v1.5 Update for 2.3.0.0:\n- Updated Night Light optional mod for Patch 2.3 3D Attachment changes",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -20934,7 +20954,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>This is an experimental mod which adds functional lights to all 3D Styles with volume lights on them, casting light in front of the vehicle to make it seem like the lights are actually <i>active</i>. The effectiveness of this varies on a map-by-map basis and may not always look quite so good; particularly, <strong>I advise using a sky mod that darkens the game lighting such as Mirny Sky or Night Sky</strong>.</p><p>This mod affects the following styles:<br><strong>USA:</strong> \"M4A3(76)W Sherman\", King Tiger (Captured) \"Nox Tenebris\", \"T-832\", \"Rambo\", M-V-Y \"Comedian\", T57 Heavy \"Sworn Brother\", M53/M55 \"Amphibious\"<br><strong>Germany:</strong> MKpz 68 (P) \"Wind of Arrakis\", Panther II/E-50/E-50M \"Revenant Mk. II\", Leopard 1 \"Blitzlicht\", Pz. VII \"Vorhut\", Maus \"Wüstenschiff\", Jagdpanzer E-100 \"Dunkel\"<br><strong>USSR:</strong> K-91 \"Oblivion\", Obj. 140 \"Swallow\", IS-7 \"Rhyolite\", ST-II \"Footcruiser\", Obj. 268 \"Svyatogor\"<br><strong>UK:</strong> Manticore \"Pointer\", Centurion Action X \"Primipilus\" and \"British Steel\", Concept 5 \"Unto the Breach\", \"Churchill Crocodile\", Tortoise \"The Tortoise\", Badger \"Lancelot\"<br><strong>France:</strong> \"Char de Transition\", AMX 50B \"Charles Martel\", AMX M4 54 \"Gascon\", Foch B \"Églantier\"<br><strong>Czechoslovakia:</strong> \"Projekt ION\", Skoda T 50 \"Orlík\", TVP T 50/51 \"Party Wagon\", Vz. 55 \"Quintessence\"<br><strong>Japan:</strong> Type 5 Heavy \"Hanmā\"<br><strong>China:</strong> 122 TM \"Special Guest\"<br><strong>Poland:</strong> CS-63 \"Błyskawica\"<br><strong>Sweden:</strong> UDES 15/16 \"Svadilfari\", Strv K \"Spirit of War\"<br><strong>Italy:</strong> Rinoceronte \"Nyx\"</p><p>This includes special effects to the lights:<br>- the 122 TM Now has a tiny omnilight for the candle<br>- the T-832's light activates when the gun fires. I must acknowledge that it is slightly out of sync, I couldn't seem to fix this<br>- the Tortoise's lights flicker when the vehicle takes a hit<br>- the Skoda T 50's Light turns on at the start of the battle<br>- the Vz. 55's lights turn on on first previewing it in the hangar/start of the battle, flicker when the vehicle takes a hit and an additional light when the gun fires<br><br>As stated, this mod is experimental at best. To better expand on this:<br>- lights do not appear in sniper mode<br>- lights may sometimes look a bit odd on certain objects/terrain. This is just how it ends up displayed<br>- lights (mostly) have a distance of about 120m, though they fade out the further away they are so you won't really be seeing them at that distance<br>- almost every light is angled slightly down, that way they're displayed better on terrain in front of the vehicle<br>- I couldn't figure out a way to make the lights anything but a cone spotlight. This means more boxy lights might look a bit off. That's just a limitation of my knowledge<br>- I tried to make the lights generally match the appearance of the volume lights on their respective tanks. This may not always be a perfect match however<br><br>This mod will <strong>not</strong> conflict with my other mods (such as <a href=\"https://wgmods.net/3176/\">Customisation Edits</a>/<a href=\"https://wgmods.net/6565/\">Mirny Revamped</a>), nor the Actual Lights Add-on for Mirny Revamped. It <strong>will</strong> however conflict with <a href=\"https://wgmods.net/5134/\">Brighter Lights</a>, but like Mirny Revamped increases the lightMultiplier for those lights anyway.</p>",
       "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE]</p><p>This mod should run fine regardless of patch version.</p>",
@@ -20945,6 +20965,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.12",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.12.rar",
+          "updatedAt": "2026-06-08T09:15:43.331Z",
+          "sizeBytes": 35993,
+          "fileName": "Actual_Lights_v1.12.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.12 Update for 2.3.0.0:\n- Added lights to the new BC 25t \"Fennec\", CS-63 \"Dromedary\" and WZ-113G FT \"Addax\" 3D Styles\n- Modified lights for the AMX 50 B \"Charles Martel\", AMX M4 54 \"Gascon\", Centurion Action X \"Primipilus\", FV217 Badger \"Lancelot\", Obj. 268 \"Svyatogor\" and CS-63 \"Błyskawica\" to fix jumping light issue"
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.11",
@@ -20997,9 +21027,9 @@
         }
       ],
       "latest": {
-        "fileName": "Actual_Lights_v1.11_EgAvtTb.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Actual_Lights_v1.12.rar",
+        "changeLog": "v1.12 Update for 2.3.0.0:\n- Added lights to the new BC 25t \"Fennec\", CS-63 \"Dromedary\" and WZ-113G FT \"Addax\" 3D Styles\n- Modified lights for the AMX 50 B \"Charles Martel\", AMX M4 54 \"Gascon\", Centurion Action X \"Primipilus\", FV217 Badger \"Lancelot\", Obj. 268 \"Svyatogor\" and CS-63 \"Błyskawica\" to fix jumping light issue",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -22044,6 +22074,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.5.rar",
+          "updatedAt": "2026-06-08T09:16:01.686Z",
+          "sizeBytes": 19398717,
+          "fileName": "Lootbox_Tanks_National_Colours_v1.5.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.5 Update for 2.3.0.0:\n- Updated scripts for Patch 2.3 3D Attachment changes"
+        },
+        {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.4_4KE30Za.rar",
@@ -22095,9 +22135,9 @@
         }
       ],
       "latest": {
-        "fileName": "Lootbox_Tanks_National_Colours_v1.4_4KE30Za.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Lootbox_Tanks_National_Colours_v1.5.rar",
+        "changeLog": "v1.5 Update for 2.3.0.0:\n- Updated scripts for Patch 2.3 3D Attachment changes",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25494,6 +25534,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.9.rar",
+          "updatedAt": "2026-06-08T09:16:06.535Z",
+          "sizeBytes": 20528475,
+          "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.9.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.9 Update for 2.3.0.0:\n- Updated UML Components"
+        },
+        {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8_12gjflY.rar",
@@ -25545,9 +25595,9 @@
         }
       ],
       "latest": {
-        "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8_12gjflY.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.9.rar",
+        "changeLog": "v1.9 Update for 2.3.0.0:\n- Updated UML Components",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25570,6 +25620,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.9.rar",
+          "updatedAt": "2026-06-08T09:16:10.246Z",
+          "sizeBytes": 16568987,
+          "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.9.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.9 Update for 2.3.0.0:\n- Updated script for Patch 2.3 3D Attachment changes\n- Updated UML Components"
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.8",
@@ -25622,9 +25682,9 @@
         }
       ],
       "latest": {
-        "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8_8HFPJmc.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.9.rar",
+        "changeLog": "v1.9 Update for 2.3.0.0:\n- Updated script for Patch 2.3 3D Attachment changes\n- Updated UML Components",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25647,6 +25707,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.7.rar",
+          "updatedAt": "2026-06-08T09:16:13.203Z",
+          "sizeBytes": 29320396,
+          "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.7.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.7 Update for 2.3.0.0:\n- Updated script for Patch 2.3 3D Attachment changes"
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.6",
@@ -25699,9 +25769,9 @@
         }
       ],
       "latest": {
-        "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6_3O4s8Ue.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.7.rar",
+        "changeLog": "v1.7 Update for 2.3.0.0:\n- Updated script for Patch 2.3 3D Attachment changes",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25854,7 +25924,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>[The mod is fully-released as of v1.0!</p><p>Please inform me of any issues. I can be found in the WoT Discord under Desyatnik_Pansy [EU] and will probably have a dedicated mod thread for any problems]</p><p>&nbsp;</p><p>This mod involves edits to most of the Mirny-13 Related styles by adding effects from the mode itself or other styles (to be clear though the previews use a colour filter to look better, <strong>they will vary greatly in-game depending on map lighting and viewing angle</strong>).</p><p><strong>This will conflict with mods that edit multiple scripts as well as vehicle-specific files. Please be aware of this when installing the mod as any remodels/reskins related to the vehicles edited here will likely result in problems.</strong></p><p>It includes the following:</p><p><strong>Halloween 2020 Styles (AMX 13 90 Hornet, Centurion 7/1 Cerberus, M103 Goliath, T49 Grenadier, T-54 Malachite):</strong></p><p>-added (blue) Mirium effect to the collector tank on the back of the vehicle turret, custom lights to the hulls, custom camo/paint masks and restored Mirny 2019 Stage I Camo/Stripes</p><p><strong>Halloween 2019 Styles (Revenant Mk. I for AMX 13 90, Centurion 7/1, M103, T49, T-54):</strong><br>-added collector tanks with (red) Mirium effect (thanks to FastestClassic!), added custom lights to the turret/hulls and restored Mirny 2019 Stage II Stripes</p><p><strong>Event Store Styles (Centurion Action X Symbiote, IS-7 Rhyolite, Leopard 1 Blitzlicht, Lynx 6x6 Trapper, Manticore Pointer, Obsidian, Tornvagn Proteus):</strong></p><p>Rhyolite: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle turret, adjusted turret light</p><p>Blitzlicht: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle turret</p><p>Trapper: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle turret and custom Stage III Stripe from Mirny 2019. Additionally custom lights were added to the turret and hull. The style has also been given the \"Dark Knight\" 2D Style</p><p>Pointer: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle hull. Additionally added custom lights to the turret and hull</p><p>Obsidian: added custom Mirium effect to the collector tank. This effect will transition from blue to red Mirium effect after 300s have passed, though it only works properly with the player vehicle</p><p>Proteus: added custom lights to the turret and hull</p><p><strong>Waffentrager Styles (M48A5 Thunderbolt, Obj. 140 Resistor, BC 25 t Foudre, TVP T 50/51 Pojistka):</strong><br>-added a light glow to the collector tanks</p><p>-added custom engine sound from the \"Pojistka\" to the other three styles</p><p><strong>2D Styles:</strong></p><p>-Dark Knight: added Stage III Stripe from Mirny 2019</p><p>-Anti-Radiation Lining: replaced with Stage 0 Camo from Mirny 2019, with paint</p><p>-Premonition: replaced with Stage I Camo/Stripe from Mirny 2019, with paint</p><p>-Lead:&nbsp;replaced with Stage II Camo/Stripe from Mirny 2019, with paint and effect</p><p>&nbsp;</p><p><strong>No, I won't be taking any requests to add these effects to other vehicles</strong></p>",
       "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE]<br><br>With Patch 1.27.1.0 WG Added a persistent data cache to decrease load times. While it does achieve that it causes issues with the mod loading due to the mod editing scripts.&nbsp;</p><p>To make sure the mod loads, either do a \"Check and Repair\" through the WGC (slow) or delete the \"data.wgpdc\" file in your WoT Game files. <strong>Note that you will have to do the same after UNINSTALLING the mod as well (otherwise the persistent data cache will continue to load the modded files).</strong></p>",
@@ -25865,6 +25935,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.49",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.0.0_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.49.rar",
+          "updatedAt": "2026-06-08T09:15:57.988Z",
+          "sizeBytes": 214749113,
+          "fileName": "2.3.0.0_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.49.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.49 Update for 2.3.0.0:\n- Initial support for Patch 2.3\n- Updated Optional Add-ons"
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.48",
@@ -25917,9 +25997,9 @@
         }
       ],
       "latest": {
-        "fileName": "2.2.1.3_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.48.rar",
-        "changeLog": "v1.48 Update for 2.2.1.3:\n- Updated support for Patch 2.2.1.3",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "2.3.0.0_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.49.rar",
+        "changeLog": "v1.49 Update for 2.3.0.0:\n- Initial support for Patch 2.3\n- Updated Optional Add-ons",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -26574,6 +26654,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansys_Custom_Gonsalo_Model_v1.8.rar",
+          "updatedAt": "2026-06-08T09:16:17.189Z",
+          "sizeBytes": 15988828,
+          "fileName": "Pansys_Custom_Gonsalo_Model_v1.8.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.8 Update for 2.3.0.0:\n- Updated script for Patch 2.3 3D Attachment changes"
+        },
+        {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansys_Custom_Gonsalo_Model_v1.7_4mpF1nj.rar",
@@ -26625,9 +26715,9 @@
         }
       ],
       "latest": {
-        "fileName": "Pansys_Custom_Gonsalo_Model_v1.7_4mpF1nj.rar",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Pansys_Custom_Gonsalo_Model_v1.8.rar",
+        "changeLog": "v1.8 Update for 2.3.0.0:\n- Updated script for Patch 2.3 3D Attachment changes",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -32843,52 +32933,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "3214",
-      "title": "Old male Japanese Voiceover",
-      "ownerUsername": "TheDiamondBladeHD",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>This Mod changes the current new Japanese voices back the the old ones (pre-1.4).</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/1DtZ6YfePKA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/1DtZ6YfePKA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/IJfPB7RL7KQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/IJfPB7RL7KQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<ol><li>Download the .wotmod file</li><li>Drag it into your WoT mod folder (for example C:/Games/World of Tanks/mods/<i><strong>version</strong></i>)</li><li>Start your game and enjoy this mod!</li></ol>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/icon_5gOLDzb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/3214/",
-      "tagIds": [
-        "17"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.1.1.0",
-          "modVersion": "3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Old_Japanese_Voice_2.1.1.wotmod",
-          "updatedAt": "2026-01-20T20:39:29.597Z",
-          "sizeBytes": 28402704,
-          "fileName": "Old_Japanese_Voice_2.1.1.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "- Updated to current WWISE engine\n- Reworked timing of sound events\n- Mixing and Mastering of Audio Volume\n- Added a few missing Voice Lines"
-        },
-        {
-          "wotGameVersion": "1.11.1.3",
-          "modVersion": "2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Old_Japanese_Voice_1.11.1.wotmod",
-          "updatedAt": "2021-02-12T08:40:54.274Z",
-          "sizeBytes": 40684213,
-          "fileName": "Old_Japanese_Voice_1.11.1.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated to new WWISE sound engine after WoT 1.10.1"
-        }
-      ],
-      "latest": {
-        "fileName": "Old_Japanese_Voice_2.1.1.wotmod",
-        "changeLog": "- Updated to current WWISE engine\n- Reworked timing of sound events\n- Mixing and Mastering of Audio Volume\n- Added a few missing Voice Lines",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "3176",
       "title": "Pansy's Customisation Edits",
       "ownerUsername": "Desyatnik_Pansy",
@@ -32896,7 +32940,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>This mod includes modifications to:</p><p>-attachments</p><p>-camouflages</p><p>-decals</p><p>-insignias (MoEs)</p><p>-paints</p><p>-projection decals</p><p>-sequences</p><p>-styles</p><h2>&nbsp;</h2><p>In a bit more depth:</p><p>-a lot of camos have been replaced with either improved versions (from Milky's old camo pack from years ago) or completely new camos. Multiple camos have had colours removed to utilise transparency and thus allow for more customisation using the Paint system, and many camos have received new colour palettes.</p><p>-some nation decals have been replaced with decals by other modders or edits of my own. These decals are not meant to be 100% Accurate and should not be treated as such.</p><p>-the German MoEs have been replaced with versions that stand out more and multiple new MoEs have been added for custom styles.</p><p>-national paints have been largely modified, making use of loosely historical-based colours, colours from FastestClassic's skin packs and colours to match national camouflage patterns. This includes modified GUI Icons to reflect the changes.</p><p>-styles have been modified as can be seen in the images. The extent of these edits vary greatly</p><p>-this mod includes all elements of <a href=\"https://wgmods.net/6565/\">my Mirny Revamped mod</a></p><p>&nbsp;</p><p>If you check the python log it gets a little fussy with regards to selecting styles that have modified elements, but AFAIK, this causes absolutely no issues in-game whatsoever.</p><p>Otherwise, due to how the modhub handles updates, updates may take awhile to be reviewed and if you're unsure whether an update is available or not you can ping on the official WoT Discord under Desyatnik_Pansy [EU] where I will probably have my own dedicated mod thread for this</p>",
       "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE]<br><br>With Patch 1.27.1.0 WG Added a persistent data cache to decrease load times. While it does achieve that it causes issues with the mod loading due to the mod editing scripts.&nbsp;</p><p>To make sure the mod loads, either do a \"Check and Repair\" through the WGC (slow) or delete the \"data.wgpdc\" file in your WoT Game files. <strong>Note that you will have to do the same after UNINSTALLING the mod as well (otherwise the persistent data cache will continue to load the modded files).</strong></p>",
@@ -32907,6 +32951,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.133",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.0.0_Pansys_Customisation_Edits_v1.133.rar",
+          "updatedAt": "2026-06-08T09:15:28.083Z",
+          "sizeBytes": 362205829,
+          "fileName": "2.3.0.0_Pansys_Customisation_Edits_v1.133.rar",
+          "fileExt": ".rar",
+          "changeLog": "v1.133 Update for 2.3.0.0:\n- Initial support for Patch 2.3\n- Updated Optional Add-ons"
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.132",
@@ -32959,9 +33013,9 @@
         }
       ],
       "latest": {
-        "fileName": "2.2.1.3_Pansys_Customisation_Edits_v1.132.rar",
-        "changeLog": "v1.132 Update for 2.2.1.3:\n- Updated support for Patch 2.2.1.3",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "2.3.0.0_Pansys_Customisation_Edits_v1.133.rar",
+        "changeLog": "v1.133 Update for 2.3.0.0:\n- Initial support for Patch 2.3\n- Updated Optional Add-ons",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

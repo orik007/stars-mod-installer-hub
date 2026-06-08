@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.022",
+  "catalogVersion": "v2026.06.023",
   "mods": [
     {
       "source": "wgmods",
@@ -8521,21 +8521,6 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive package (.zip) and guide says unpack the mod to the main directory of the game (game root).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "3214",
-      "title": "Old male Japanese Voiceover",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the .wotmod file Drag it into your WoT mod folder (for example C:/Games/World of Tanks/mods/ version ) Start your game and enjoy this mod!"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide explicitly says to drag/place the .wotmod into the game's mods/<version> folder.",
         "deleteDataWgpdc": false
       }
     },
