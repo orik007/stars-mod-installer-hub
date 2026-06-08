@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.021",
-  "sourceHash": "3d7cbf60cac85bb6452565cf3831d885c0185bf217541d34040dcf1effe15b3b",
+  "catalogVersion": "v2026.06.022",
+  "sourceHash": "006b78e2de3b10208abac23dd9dc05df14fd0c108e1aec033656c81e4eeda58b",
   "sources": [
     "wgmods",
     "modhub"
@@ -7596,7 +7596,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>Addendum: with additional testing I can comfortably say the mod runs fine on SD/HD Clients. However, even though 1.29.1 Removed minimum graphics, running the \"Simplified\" graphics option still loads various \"forward\" settings, meaning the mod will not work as intended using that setting.&nbsp;</strong><br><strong>While I could potentially modify this, I must admit that I have no interest in doing so. As such, unless you're running the \"Improved\" graphics option I do not recommend using this mod</strong><br><br>Like my previous Revamped Skies mods, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-3-mod-preview-y0pqnIN\">https://imgur.com/a/wot-revamped-skies-volume-3-mod-preview-y0pqnIN</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><ul><li>must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can look funny but should be for the most part irrelevant (the only real exception to this is Glacier Night where the ice being reflective affects the setting quite a bit. I'm still happy with the look of the map but I want to make sure you're aware of this)<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- Some maps feature rain as part of an experimental test. This reuses assets from the WT Game mode, as well as the probes folders taken from the Rainy Weather mod in Aslain's, credit to Aslain/Pharaon for that. I have also reused some assets from my Aslain's Night Sky Edit, so credit again to Aslain/Pharaon for those.<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: if you're running this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues with the skybox. Do not try to run this alongside any other sky-related mod, or try to run both versions included at the same time</strong></li></ul><p>&nbsp;</p><p>Again this mod is <strong>NOT </strong>intended as a replacement for the original Revamped Skies mod or the Volume 2 Version, but simply an additional rework of every map. You can comfortably swap between any of my Revamped Skies mod from time to time to change up the feel of the game.</p>",
       "installationGuideHtml": "<p>To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.1.1.0\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -7608,6 +7608,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.3_Iv3SL4w.rar",
+          "updatedAt": "2026-06-08T04:39:27.219Z",
+          "sizeBytes": 138838275,
+          "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_Iv3SL4w.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.3",
@@ -7657,22 +7667,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_3_v1.0_8p7krqH.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "v1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.0_7cAItzF.rar",
-          "updatedAt": "2026-03-07T04:40:39.607Z",
-          "sizeBytes": 127669662,
-          "fileName": "Pansy_Revamped_Skies_Volume_3_v1.0_7cAItzF.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_nnFYCbv.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_Iv3SL4w.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10713,6 +10713,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_CrHjIcg.rar",
+          "updatedAt": "2026-06-08T04:41:01.298Z",
+          "sizeBytes": 2070736,
+          "fileName": "Decalless_Gift_Tanks_v1.1_CrHjIcg.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_AsfOpmr.rar",
@@ -10761,22 +10771,12 @@
           "fileName": "Decalless_Gift_Tanks_v1.1_e5sBBFd.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_eXIcAtU.rar",
-          "updatedAt": "2026-03-21T19:47:23.174Z",
-          "sizeBytes": 2070736,
-          "fileName": "Decalless_Gift_Tanks_v1.1_eXIcAtU.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Decalless_Gift_Tanks_v1.1_AsfOpmr.rar",
+        "fileName": "Decalless_Gift_Tanks_v1.1_CrHjIcg.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -13294,16 +13294,6 @@
           "updatedAt": "2026-03-07T04:40:45.612Z",
           "sizeBytes": 780560,
           "fileName": "Aslains_Night_Sky_Edit_v1.2_6y5BzN9.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.2",
-          "modVersion": "v1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_Night_Sky_Edit_v1.2_2lZEKuv.rar",
-          "updatedAt": "2026-02-19T07:16:04.204Z",
-          "sizeBytes": 780560,
-          "fileName": "Aslains_Night_Sky_Edit_v1.2_2lZEKuv.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
@@ -15881,7 +15871,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p><strong>v1.4 Update has been released and has overhauled the mod significantly.&nbsp;</strong><br><strong>- Fog/bloom/glare have been modified (reduced) across all maps to improve overall visibility</strong><br><strong>- Lighting/colour correction has been modified on most maps as well, including full on replacing them in some cases. The appearance of most maps should be similar to before but some maps have been redone completely</strong><br><strong>- As I'm limited by character limit, for more information please see my threads on WoTCord or WoT Infocord</strong><br><br><br>Like the original Revamped Skies, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map: <a href=\"https://imgur.com/a/wot-revamped-skies-volume-2-mod-preview-RYMHj24\">https://imgur.com/a/wot-revamped-skies-volume-2-mod-preview-RYMHj24</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><p>I must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can look funny but should be for the most part irrelevant<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- like Himmelsdorf in the original Revamped Skies, (small) Ensk seems to have a lighting issue that requires you to enter sniper mode to make the map use the correct lighting. I have no idea why this happens or how to actually fix it, but yeah, just entering sniper mode will correct it<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: do not try to run this alongside any other sky-related mod, including the other version within the mod. It WILL cause conflicts as the game tries to load both mods</strong></p><p>&nbsp;</p><p>As a final note, this mod is <strong>NOT </strong>intended as a replacement for the original Revamped Skies mod, but simply an alternate take on every map. You can comfortably continue using the original mod if you aren't a fan of this one, or change between the two to try to make the game feel a bit more fresh.</p>",
       "installationGuideHtml": "<p>To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.29.1.0\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -15893,6 +15883,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_2_v1.6_q0qSLIK.rar",
+          "updatedAt": "2026-06-08T04:39:25.220Z",
+          "sizeBytes": 138908209,
+          "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_q0qSLIK.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.6",
@@ -15942,22 +15942,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_2_v1.4.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "v1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_2_v1.4_Zk5CkIy.rar",
-          "updatedAt": "2026-03-07T09:26:09.876Z",
-          "sizeBytes": 133530879,
-          "fileName": "Pansy_Revamped_Skies_Volume_2_v1.4_Zk5CkIy.rar",
-          "fileExt": ".rar",
-          "changeLog": "v1.4 Update for 2.2.0.0:\n- overhauled mod. For more details, please check out my mod sections on WoTCord or WoT Infocord\n- reduced/reworked fog/bloom/glare settings across every map\n- modified the sun/sky position slightly on various maps where they weren't properly lined up previously\n- reworked lighting/colour correction on various maps to reduce dark shadows or to just improve appearance\n- replaced skybox and map settings on various maps\n- added rain to various maps"
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_7F0TxVA.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_q0qSLIK.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -21004,16 +20994,6 @@
           "fileName": "Actual_Lights_v1.11_vrrDRva.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.11_fHoeA63.rar",
-          "updatedAt": "2026-03-21T19:47:27.179Z",
-          "sizeBytes": 34563,
-          "fileName": "Actual_Lights_v1.11_fHoeA63.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -22112,16 +22092,6 @@
           "fileName": "Lootbox_Tanks_National_Colours_v1.4_kzoloLa.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.4_ILYC4NK.rar",
-          "updatedAt": "2026-03-21T19:47:25.169Z",
-          "sizeBytes": 19480532,
-          "fileName": "Lootbox_Tanks_National_Colours_v1.4_ILYC4NK.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -23218,7 +23188,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>v1.8 Update has been released and has overhauled the mod significantly.&nbsp;</strong><br><strong>- All environment xmls were updated to the latest versions</strong><br><strong>- Fog/bloom/glare have been modified (reduced) across all maps to improve overall visibility</strong><br><strong>- Lighting/colour correction has been modified on most maps as well, including full on replacing them in some cases. The appearance of most maps should be similar to before</strong><br><strong>- As I'm limited by character limit, for more information please see my threads on WoTCord or WoT Infocord</strong><br><br><br>This mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-1-v1-8-update-mod-preview-dL7VAuS\">https://imgur.com/a/wot-revamped-skies-volume-1-v1-8-update-mod-preview-dL7VAuS</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 2:&nbsp;<a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3:&nbsp;<a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Aslain's Night Sky Edit:&nbsp;<a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a><br><br>I must make note of some issues (I'm listing these to state that I am aware of them, not that I am going to/can fix them. I'm obliged to make you aware of them for transparency):<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can lead to issues but should be for the most part irrelevant<br>- Ambient effects. I could not figure out how to remove (or add) particles and as such these can look off with the new ambience. This most notably affects Airfield and Fata Morgana with offshore lightning<br>- Some maps use the \"probes\" folder of another map to help change the map feel but this leads to issues related to a map's shadow grid and other elements, leading to sudden dark or illuminated spots. I actively tried to avoid this due to issues but did use this for the following maps: <strong>Abbey, Ensk, Karelia, Prokhorovka. </strong>This can unfortunately cause issues with the Skybox Randomiser mod (either failing to load the probes folder or loading it on other versions)<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: do not try to run this alongside any other sky-related mod, including the other version within the mod. It WILL cause conflicts as the game tries to load both mods</strong></p><p><br>I want to thank the user \"no one / nocac\" <strong>significantly</strong> for introducing me to this, helping me learning how to do it and especially for providing older files that I did not have. I also want to thank Rom4n_ and _DEVA For playtesting the mod for me and providing feedback, as well as FastestClassic and Avalon304 For helping with screenshots for this page.</p>",
       "installationGuideHtml": "<p>To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.1.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -23230,6 +23200,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v1.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_1_v1.11_Szz2Dq1.rar",
+          "updatedAt": "2026-06-08T04:39:21.218Z",
+          "sizeBytes": 199996296,
+          "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_Szz2Dq1.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "v1.11",
@@ -23279,22 +23259,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_1_v1.9.rar",
           "fileExt": ".rar",
           "changeLog": "v1.9 Update for 2.2.0.1:\n- corrected skybox/cloud direction on various maps so that it looks more natural\n- reworked the following maps: Live Oaks (the swamp should be a bit more foggy), Highway (repositioned sun to differentiate the map more from Highway Vol. 3 When using the Randomiser mod) and Hangar v4 (added a skybox and made it darker to better emphasise it being night)"
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "v1.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_1_v1.8_JhJBfyz.rar",
-          "updatedAt": "2026-03-07T04:40:17.579Z",
-          "sizeBytes": 188536487,
-          "fileName": "Pansy_Revamped_Skies_Volume_1_v1.8_JhJBfyz.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_JYTsh4F.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_Szz2Dq1.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25572,16 +25542,6 @@
           "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8_0wvw8mt.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.1",
-          "modVersion": "v1.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8.rar",
-          "updatedAt": "2026-02-16T12:13:04.150Z",
-          "sizeBytes": 20525126,
-          "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8.rar",
-          "fileExt": ".rar",
-          "changeLog": "v1.8 Update for 2.1.1.1:\n- Updated UML Components to most recent UML Update"
         }
       ],
       "latest": {
@@ -25659,16 +25619,6 @@
           "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8_HjOKYyv.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.1",
-          "modVersion": "v1.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8.rar",
-          "updatedAt": "2026-02-16T12:13:22.279Z",
-          "sizeBytes": 16565582,
-          "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8.rar",
-          "fileExt": ".rar",
-          "changeLog": "v1.8 Update for 2.1.1.1:\n- Updated UML Components to most recent UML Update"
         }
       ],
       "latest": {
@@ -25746,16 +25696,6 @@
           "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6_VmLloB1.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.1",
-          "modVersion": "v1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6.rar",
-          "updatedAt": "2026-02-16T12:12:44.193Z",
-          "sizeBytes": 29320350,
-          "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6.rar",
-          "fileExt": ".rar",
-          "changeLog": "v1.6 Update for 2.1.1.1:\n- Updated support for Patch 2.1.1.1"
         }
       ],
       "latest": {
@@ -25974,16 +25914,6 @@
           "fileName": "2.2.0.2_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.46.rar",
           "fileExt": ".rar",
           "changeLog": "v1.46 Update for 2.2.0.2:\n- Updated support for Patch 2.2.0.2 (support for the Bobr Bundles)"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "v1.45",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.0.1_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.45_X57fsgh.rar",
-          "updatedAt": "2026-04-01T00:47:45.359Z",
-          "sizeBytes": 214581294,
-          "fileName": "2.2.0.1_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.45_X57fsgh.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -26690,16 +26620,6 @@
           "updatedAt": "2026-04-01T00:47:49.355Z",
           "sizeBytes": 16039107,
           "fileName": "Pansys_Custom_Gonsalo_Model_v1.7_ToFd6v0.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansys_Custom_Gonsalo_Model_v1.7_AnJXHQV.rar",
-          "updatedAt": "2026-03-21T19:47:31.162Z",
-          "sizeBytes": 16039107,
-          "fileName": "Pansys_Custom_Gonsalo_Model_v1.7_AnJXHQV.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
@@ -33036,16 +32956,6 @@
           "fileName": "2.2.0.2_Pansys_Customisation_Edits_v1.130.rar",
           "fileExt": ".rar",
           "changeLog": "v1.130 Update for 2.2.0.2:\n- Updated support for Patch 2.2.0.2 (support for the Bobr Bundles)"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "v1.129",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.0.1_Pansys_Customisation_Edits_v1.129_FoTP1FP.rar",
-          "updatedAt": "2026-04-01T00:47:42.447Z",
-          "sizeBytes": 362368999,
-          "fileName": "2.2.0.1_Pansys_Customisation_Edits_v1.129_FoTP1FP.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
