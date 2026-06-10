@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.025",
-  "sourceHash": "74b0f607cdf896adfa3bba6d4bdcc942105b81eb2e3866f2b8fbde639a7f0e19",
+  "catalogVersion": "v2026.06.026",
+  "sourceHash": "192af7feb3ef5ce0e0b21e4f6d7773dcfee077a398414b80bbcb30cacdfefbc2",
   "sources": [
     "wgmods",
     "modhub"
@@ -465,9 +465,9 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<h2>This mod adds a fully customisable progress bar which shows your progress in:</h2><ul><li><strong>Module and vehicle research</strong><ul><li>See how close you are to researching modules and vehicles <i>without entering any menu</i>.</li><li>On tier X vehicles you can <i>optionally</i> show progress towards hypothetical future Tier 11 vehicles <i>that might be added in the future</i>.</li></ul></li><li><strong>Field modifications</strong><ul><li>See how close you are to unlocking each field modification level <i>without entering any menu</i>.</li><li>Each level shows what options are available, or will be available once unlocked.</li><li><i>Optionally</i> the bar can stay displayed even after field modification research to quickly check what upgrade is selected <i>without entering any menu</i>.</li></ul></li><li><strong>Tier 11 upgrades system</strong><ul><li>See how close you are to unlocking next upgrade <i>without entering any menu</i>.</li><li>Still helpful to see overall progress, even though a flat progress bar cannot display the complex upgrade tree.</li></ul></li><li><strong>Elite level progress</strong><ul><li>See how close you are to reaching next elite badge style.</li><li><i>Optionally</i> the bar can display cosmetic elements tied to elite level available for Tier 11 vehicles.</li></ul></li></ul><h2>Other features of the mod:</h2><ul><li>Different XP types are taken into account:<ul><li>Separate calculation for research using vehicle XP only. (<i>Displayed in green</i>)</li><li>Separate calculation for research using vehicle XP + free XP. (<i>Displayed in yellow</i>)</li><li>Elite level progress is calculated based on base XP.</li></ul></li><li><i>Optional</i> warning messages:<ul><li><strong>Research now!</strong> message when you have enough vehicle XP to research all available items.</li><li><strong>Accelerate crew training!</strong> message when you have already researched all available items.</li></ul></li></ul><h2>Issues Or Ideas</h2><p>If you'd like to report a bug or other issue, or pass an idea or other feedback for the mod, you can do so on <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/issues\">GitHub</a>.</p><h2>Source Code</h2><p>Source code of the mod is public and is available on <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/tree/master/mods/research-progress-bar\">GitHub</a>.</p>",
+      "recommended": true,
+      "mark": 5,
+      "descriptionHtml": "<h2>This mod adds a fully customisable progress bar which shows your progress in:</h2><ul><li><strong>Module and vehicle research</strong><ul><li>See how close you are to researching modules and vehicles <i>without entering any menu</i>.</li><li>On tier X vehicles you can <i>optionally</i> show progress towards hypothetical future Tier 11 vehicles <i>that might be added in the future</i>.</li></ul></li><li><strong>Field modifications</strong><ul><li>See how close you are to unlocking each field modification level <i>without entering any menu</i>.</li><li>Each level shows what options are available, or will be available once unlocked.</li><li><i>Optionally</i> the bar can stay displayed even after field modification research to quickly check what upgrade is selected <i>without entering any menu</i>.</li></ul></li><li><strong>Tier 11 upgrades system</strong><ul><li>See how close you are to unlocking next upgrade <i>without entering any menu</i>.</li><li>Still helpful to see overall progress, even though a flat progress bar cannot display the complex upgrade tree.</li></ul></li><li><strong>Elite level progress</strong><ul><li>See how close you are to reaching next elite badge style.</li><li>Shows progress towards cosmetic elements tied to elite level available for Tier 11 vehicles.</li><li><i>Optionally</i> the bar can display progress towards elite level badges.</li></ul></li></ul><h2>Other features of the mod:</h2><ul><li>Different XP types are taken into account:<ul><li>Separate calculation for research using vehicle XP only. (<i>Displayed in green</i>)</li><li>Separate calculation for research using vehicle XP + free XP. (<i>Displayed in yellow</i>)</li><li>Elite level progress is calculated based on base XP.</li></ul></li><li><i>Optional</i> warning messages:<ul><li><strong>Research now!</strong> message when you have enough vehicle XP to research all available items.</li><li><strong>Accelerate crew training!</strong> message when you have already researched all available items.</li></ul></li></ul><h2>Issues Or Ideas</h2><p>If you'd like to report a bug or other issue, or pass an idea or other feedback for the mod, you can do so on <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/issues\">GitHub</a>.</p><h2>Source Code</h2><p>Source code of the mod is public and is available on <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/tree/master/mods/research-progress-bar\">GitHub</a>.</p>",
       "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7691/",
@@ -30387,17 +30387,17 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KorbenTeamModpack_2.3.0.0_v1.exe",
-          "updatedAt": "2026-06-03T12:01:39.168Z",
-          "sizeBytes": 26205019,
-          "fileName": "KorbenTeamModpack_2.3.0.0_v1.exe",
+          "modVersion": "2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KorbenTeamModpack_2.3.0.0_v2.exe",
+          "updatedAt": "2026-06-10T08:53:15.487Z",
+          "sizeBytes": 26205613,
+          "fileName": "KorbenTeamModpack_2.3.0.0_v2.exe",
           "fileExt": ".exe",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "KorbenTeamModpack_2.3.0.0_v1.exe",
+        "fileName": "KorbenTeamModpack_2.3.0.0_v2.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -31459,16 +31459,6 @@
           "fileName": "OldCrew_0.6.7_BlFhweS.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.25.1.1"
-        },
-        {
-          "wotGameVersion": "1.24.0.1",
-          "modVersion": "v1.24.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/OldCrew_0.6.7_eP2ibLt.zip",
-          "updatedAt": "2024-03-29T09:16:29.694Z",
-          "sizeBytes": 3589846,
-          "fileName": "OldCrew_0.6.7_eP2ibLt.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.24.0.1"
         }
       ],
       "latest": {
@@ -31725,16 +31715,6 @@
           "fileName": "JakWW2_QJPZSHQ.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.23.1.0",
-          "modVersion": "v1.23.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/JakWW2_A7TTJAH.zip",
-          "updatedAt": "2024-01-20T13:03:34.121Z",
-          "sizeBytes": 4953936,
-          "fileName": "JakWW2_A7TTJAH.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.23.1.0"
         }
       ],
       "latest": {
@@ -32336,16 +32316,6 @@
           "fileName": "CrewSoundsWiedzmin.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.23.1.0",
-          "modVersion": "v1.23.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSoundsWiedzmin_oa5d8om.zip",
-          "updatedAt": "2024-01-20T13:03:08.697Z",
-          "sizeBytes": 3390075,
-          "fileName": "CrewSoundsWiedzmin_oa5d8om.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.23.1.0"
         }
       ],
       "latest": {
@@ -32645,16 +32615,6 @@
           "fileName": "Kobitki_WAPhE2Q.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.23.1.0",
-          "modVersion": "v1.23.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Kobitki_9vOPalu.zip",
-          "updatedAt": "2024-01-20T13:02:23.897Z",
-          "sizeBytes": 1406540,
-          "fileName": "Kobitki_9vOPalu.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.23.1.0"
         }
       ],
       "latest": {
@@ -32731,16 +32691,6 @@
           "fileName": "Pancerni_cvdwzlv.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.24.0.0",
-          "modVersion": "v1.24.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pancerni_WTkl0Ck.zip",
-          "updatedAt": "2024-03-09T06:15:42.522Z",
-          "sizeBytes": 4999550,
-          "fileName": "Pancerni_WTkl0Ck.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.24.0.0"
         }
       ],
       "latest": {
@@ -32817,16 +32767,6 @@
           "fileName": "KrolJulian_hBxoEA4.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.23.1.0",
-          "modVersion": "v1.23.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KrolJulian.zip",
-          "updatedAt": "2024-01-20T13:01:39.165Z",
-          "sizeBytes": 3590320,
-          "fileName": "KrolJulian.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.23.1.0"
         }
       ],
       "latest": {
@@ -32903,16 +32843,6 @@
           "fileName": "CrewSoundsByVito_MGhoP6z.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.23.1.0",
-          "modVersion": "v1.23.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSoundsByVito.zip",
-          "updatedAt": "2024-01-20T13:02:48.818Z",
-          "sizeBytes": 16612911,
-          "fileName": "CrewSoundsByVito.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.23.1.0"
         }
       ],
       "latest": {
@@ -32989,16 +32919,6 @@
           "fileName": "TeamFortress_RVA8dDE.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.24.0.0",
-          "modVersion": "v1.24.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TeamFortress_gF0aFdG.zip",
-          "updatedAt": "2024-03-09T05:52:58.386Z",
-          "sizeBytes": 2098669,
-          "fileName": "TeamFortress_gF0aFdG.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.24.0.0"
         }
       ],
       "latest": {
@@ -34873,16 +34793,6 @@
           "fileName": "PingwinyPrzyjaciele_ksh2vF4.zip",
           "fileExt": ".zip",
           "changeLog": "Zaktualizowano do v1.24.0.1"
-        },
-        {
-          "wotGameVersion": "1.24.0.0",
-          "modVersion": "v1.24.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PingwinyPrzyjaciele_DA2Ob2y.zip",
-          "updatedAt": "2024-03-06T21:23:00.679Z",
-          "sizeBytes": 3701019,
-          "fileName": "PingwinyPrzyjaciele_DA2Ob2y.zip",
-          "fileExt": ".zip",
-          "changeLog": "Zaktualizowano do v1.24.0.0"
         }
       ],
       "latest": {
