@@ -1,11 +1,233 @@
 {
-  "catalogVersion": "v2026.06.026",
-  "sourceHash": "192af7feb3ef5ce0e0b21e4f6d7773dcfee077a398414b80bbcb30cacdfefbc2",
+  "catalogVersion": "v2026.06.027",
+  "sourceHash": "4470217c71d28903daeed8e03f3fd0917ecb5dc1d8aa5fe4f6bec53aa0c9201b",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7708",
+      "title": "Custom Sixth Sense",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Custom Sixth Sense replaces the Sixth Sense indicator with a fully customizable one that you set up in the garage.</strong></p><p>Pick a static or animated icon, move it anywhere on the screen, and adjust how it looks. It comes with a large set of ready-made icons, and you can add your own.</p><p>Options:<br>• Choose a static or animated icon, or add your own<br>• Drag the icon and the optional countdown timer anywhere on screen<br>• Adjust the display time, icon scale, opacity and an attention pulse<br>• Optional countdown timer with custom size, color and format</p><p>Your own icons: put a SixthSense.png file in a new folder inside mods/configs/Aslain/customsixthsense/static, then restart the game. Animated icons go in mods/configs/Aslain/customsixthsense/animated with their frames and a config.json.</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\customsixthsense\\customsixthsense.json</p><p>Fair play: the optional countdown is only a fixed reminder based on known game timings that you set yourself. It does not read or show the real live spotted state, and when it ends it does not mean you are no longer spotted. The mod does not reveal any hidden information.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, here 2.3.0.0, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CustomSixthSense_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7708/",
+      "tagIds": [
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.1.zip",
+          "updatedAt": "2026-06-10T16:18:45.737Z",
+          "sizeBytes": 22286531,
+          "fileName": "CustomSixthSense_1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "CustomSixthSense_1.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7707",
+      "title": "BalCalcMod",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>BalCalcMod is a ballistic distance helper. It lets you lock the current aiming distance so your shells do not fly over a target that moves or hides behind cover.</strong></p><p>Hold the lock key to keep the current distance to the target. After that the shell keeps the same range even if you move the crosshair up onto the sky, a ridge, or terrain behind the enemy, so it no longer flies over the target.</p><p>How to use it: set the correct distance first, then press and hold the lock key before the target disappears. Keep the crosshair on the point you want to hit and fire while holding the key. It is most useful against enemies that peek and quickly pull back behind hills, rocks or buildings. It works in sniper, arcade and artillery view.</p><p>Options:<br>• Lock key or mouse button (default Q)<br>• Distance indicator color, font, position and shadow<br>• Automatic lock when the crosshair is on a tank, with adjustable hold time (sniper view)<br>• Shell trajectory correction so the aim does not jump to maximum range when pointed at the sky<br>• Mouse wheel step for adjusting the locked distance in artillery view</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\configs\\BalCalc\\BalCalc.json</p><p>This mod has been reviewed by Wargaming and confirmed as allowed. Using it cannot result in a ban.</p><p>Credits: original BalCalcMod by Evgeni Kiselev (ktod), later maintained by Ktulho. This GUI edition by Aslain.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.0, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/BalCalcMod_big_gWyO9WS.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7707/",
+      "tagIds": [
+        "15",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "2.3.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.3.3.zip",
+          "updatedAt": "2026-06-10T14:49:23.564Z",
+          "sizeBytes": 392410,
+          "fileName": "BalCalcMod_2.3.3.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "BalCalcMod_2.3.3.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7706",
+      "title": "AutoAim Indication+",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>AutoAim Indication+ makes it easier to activate the game's standard auto-aim and shows its state on screen.</strong></p><p>It adds no aimbot behavior. It only triggers the normal in-game auto-aim, and only on a target you are actively aiming at. Put your reticle (the center aiming point) on a spotted enemy so the game highlights it with the usual outline, and the mod then locks the standard auto-aim on that target. If the enemy is behind cover, or you cannot place your reticle on it to highlight it, the mod does nothing. It never aims at weak spots, never calculates lead, and never locks through obstacles.</p><p>A slider sets how long the mod keeps waiting for a highlighted target after you press the key (0 means until you toggle it off).</p><p>While auto-aim is active, an indicator near the center of the screen shows the state. It can display the name of the targeted tank or your own custom text.</p><p>Options:<br>• Toggle key to enable or disable the mod during battle<br>• Activation time (how long it waits for a highlighted target)<br>• Indicator text, color and font (several built-in game fonts)<br>• Indicator position (horizontal and vertical offset)<br>• Optional support for wheeled vehicles</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\AutoaimIndication\\AutoaimIndication.json</p><p>Because it only helps activate the standard auto-aim on a target in your line of sight and adds nothing beyond the vanilla aim lock, this mod complies with the Wargaming Fair Play Policy. It has been reviewed by Wargaming and confirmed as allowed, and using it cannot result in a ban.</p><p>Credits: original mod by Krzysztof Chodak; maintained over the years by OldSkool, RaJCeL, Ktulho, budyx69 and Heliomalt. Current version by Aslain.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.0, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Autoaim_indication_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7706/",
+      "tagIds": [
+        "15",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "2.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AutoAim_Indication_Plus_2.0.3.zip",
+          "updatedAt": "2026-06-10T14:48:23.575Z",
+          "sizeBytes": 438643,
+          "fileName": "AutoAim_Indication_Plus_2.0.3.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "AutoAim_Indication_Plus_2.0.3.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7705",
+      "title": "STK 2",
+      "ownerUsername": "Inquisitor_117",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>ES: Apóyame suscribiéndote y siguiéndome en Youtube: &nbsp;</p><p>EN: Support me by subscribing and following me on Youtube:<br><br>https://www.youtube.com/@SKINSWORLDOFTANKS</p><p>The skin:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=NdafXc4QLqU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/NdafXc4QLqU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>⭐⭐⭐ PREMIUM SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=3rgum_Z3PGA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/3rgum_Z3PGA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "installationGuideHtml": "<p>Copy and paste the .wotmod file to :&nbsp;<br><br>Games\\World_of_Tanks\\mods\\Latest game version folder</p><p>&nbsp;</p><p>I've added lights headlights to the tank models, but since the game isn't designed to remove 2D styles, decals, or paint jobs from a model with lights, make sure to: Remove any 2D styles or customizations before installing a skin. (This isn't mandatory, just if you want to remove something.) Otherwise, the game may freeze due to conflicts.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/STK2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7705/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/STK2.wotmod",
+          "updatedAt": "2026-06-10T14:04:10.656Z",
+          "sizeBytes": 83923848,
+          "fileName": "STK2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "STK2.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7704",
+      "title": "Imbattable",
+      "ownerUsername": "Inquisitor_117",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>ES: Apóyame suscribiéndote y siguiéndome en Youtube: &nbsp;</p><p>EN: Support me by subscribing and following me on Youtube:<br><br>https://www.youtube.com/@SKINSWORLDOFTANKS</p><p>The skin:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=NdafXc4QLqU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/NdafXc4QLqU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>⭐⭐⭐ PREMIUM SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=M0kJxKCPb4g\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/M0kJxKCPb4g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "installationGuideHtml": "<p>Copy and paste the .wotmod file to :&nbsp;<br><br>Games\\World_of_Tanks\\mods\\Latest game version folder</p><p>&nbsp;</p><p>I've added lights headlights to the tank models, but since the game isn't designed to remove 2D styles, decals, or paint jobs from a model with lights, make sure to: Remove any 2D styles or customizations before installing a skin. (This isn't mandatory, just if you want to remove something.) Otherwise, the game may freeze due to conflicts.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/IMBA.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7704/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Imbattable.wotmod",
+          "updatedAt": "2026-06-10T14:02:09.525Z",
+          "sizeBytes": 41394963,
+          "fileName": "Imbattable.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Imbattable.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7703",
+      "title": "Object 432U",
+      "ownerUsername": "Inquisitor_117",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>ES: Apóyame suscribiéndote y siguiéndome en Youtube: &nbsp;</p><p>EN: Support me by subscribing and following me on Youtube:<br><br>https://www.youtube.com/@SKINSWORLDOFTANKS</p><p>The skin:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=NdafXc4QLqU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/NdafXc4QLqU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>⭐⭐⭐ PREMIUM SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=d1TCwtaRZC8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/d1TCwtaRZC8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "installationGuideHtml": "<p>Copy and paste the .wotmod file to :&nbsp;<br><br>Games\\World_of_Tanks\\mods\\Latest game version folder</p><p>&nbsp;</p><p>I've added lights headlights to the tank models, but since the game isn't designed to remove 2D styles, decals, or paint jobs from a model with lights, make sure to: Remove any 2D styles or customizations before installing a skin. (This isn't mandatory, just if you want to remove something.) Otherwise, the game may freeze due to conflicts.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/432U.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7703/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/OBJ432U.wotmod",
+          "updatedAt": "2026-06-10T14:02:01.830Z",
+          "sizeBytes": 110899058,
+          "fileName": "OBJ432U.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "OBJ432U.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7679",
@@ -32257,7 +32479,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.3,
       "descriptionHtml": "<p>Dźwięki załogi z popularnej gry<br><strong>Wiedźmin</strong></p><p>Próbka dźwięków na youtube<br><a href=\"https://youtu.be/CZ944-k_J8E\">Wiedźmin</a></p><p>Oficjalny temat na forum World of Tanks<br><a href=\"http://forum.worldoftanks.eu/index.php?/topic/559822-audio092101-pingwiny-kroljulian-pancerni-bombablokekipa-kobitki-teamfortress-by-automatyk-aktualizacja-15122017/\">Dźwięki załóg by Automatyk</a></p>",
       "installationGuideHtml": "<p>Mod rozpakowujemy do głównego katalogu z grą<br>domyślnie *<i>dysk:\\Games\\World_of_Tanks*</i></p>",
@@ -32267,6 +32489,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.0",
+          "modVersion": "v2.3.0.0_0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSoundsWiedzmin_ga3CTMW.zip",
+          "updatedAt": "2026-06-10T14:01:27.810Z",
+          "sizeBytes": 3395649,
+          "fileName": "CrewSoundsWiedzmin_ga3CTMW.zip",
+          "fileExt": ".zip",
+          "changeLog": "Upgraded to v2.3.0.0_0"
+        },
         {
           "wotGameVersion": "2.2.0.2",
           "modVersion": "v2.2.0.2",
@@ -32319,9 +32551,9 @@
         }
       ],
       "latest": {
-        "fileName": "CrewSoundsWiedzmin_xn27X3K.zip",
-        "changeLog": "Zaktualizowano do v2.2.0.2",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "CrewSoundsWiedzmin_ga3CTMW.zip",
+        "changeLog": "Upgraded to v2.3.0.0_0",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
