@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.029",
+  "catalogVersion": "v2026.06.030",
   "mods": [
     {
       "source": "wgmods",
@@ -608,12 +608,12 @@
       "title": "SpotMeter",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "1. Copy spotmeter-v5.6.2.wotmod into your World of Tanks folder under mods/2.2.1.3/. The game loads it automatically on next launch. 2. (Optional) Download spotmeter.json from github.com/M1ikus/spotmeter and place it in mods/configs/ to customise hotkeys, colours, or VR bonus values. The mod uses sensible defaults without it. 3. Launch the game and enter a battle. A second minimap circle will appear, showing your current spot distance. To uninstall: just delete spotmeter-v5.6.2.wotmod from mods/2.2.1.3/. For full hotkey reference, picker walkthrough, and the technical formula breakdown, see github.com/M1ikus/spotmeter."
+        "latestInstallGuide": "1. Copy spotmeter-vX.X.X.wotmod into your World of Tanks folder under latest mods/X.X.X.X/. The game loads it automatically on next launch. 2. (Optional) Download spotmeter.json from github.com/M1ikus/spotmeter and place it in mods/configs/ to customise hotkeys, colours, or VR bonus values. The mod uses sensible defaults without it. 3. Launch the game and enter a battle. A second minimap circle will appear, showing your current spot distance. To uninstall: just delete spotmeter-vX.X.X.wotmod from mods/X.X.X.X/. For full hotkey reference, picker walkthrough, and the technical formula breakdown, see github.com/M1ikus/spotmeter."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide clearly targets mods/<version>; optional config in mods/configs is non-blocking.",
+        "decisionReason": "Plain .wotmod file and guide clearly places it into mods/<version>; optional config in mods/configs is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
