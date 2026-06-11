@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.030",
+  "catalogVersion": "v2026.06.031",
   "mods": [
     {
       "source": "wgmods",
@@ -4610,6 +4610,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7272",
+      "title": "Duke",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\1.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod into the game mods version folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7270",
       "title": "DARK // WZ-111 Model 6 - BLITZTRAGER",
       "classificationInput": {
@@ -6654,12 +6669,12 @@
       "title": "Centered Camera",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "put the .wotmod file here \"C:\\Games\\World_of_Tanks_EU\\mods\\2.3.0.0\""
+        "latestInstallGuide": "put the .wotmod file here \"C:\\Games\\World_of_Tanks_EU\\mods\\2.3.0.1\""
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide clearly points to mods/<version>.",
+        "decisionReason": "Plain .wotmod package and guide points directly to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -6690,21 +6705,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Package is a .rar archive and guide says unpack and paste the mod folder into mods/2.1.1.0 (mods/<version>).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6692",
-      "title": "XVM Modpack by Heliomalt",
-      "classificationInput": {
-        "latestFileExt": ".exe",
-        "latestInstallGuide": "Download installer, start, select mods, done. Updates are displayed in the hangar, simply run the installer again to update. Since Wargaming always needs several days to review and approve the latest version after a patch, you can also download the installer directly from the mod page. https://heliomalt.blogspot.com/"
-      },
-      "installationProcess": {
-        "installationTemplate": "RunExternalInstaller",
-        "installableByApp": false,
-        "decisionReason": "Package is an .exe and guide instructs downloading and running the installer and using its UI to select mods.",
         "deleteDataWgpdc": false
       }
     },
