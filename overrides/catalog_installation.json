@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.031",
+  "catalogVersion": "v2026.06.032",
   "mods": [
     {
       "source": "wgmods",
@@ -2077,13 +2077,13 @@
       "sourceId": "7512",
       "title": "WotVSWAPS",
       "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "How to install : Just paste the \"vehicles\" and \"scripts\" folders in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folders \"vehicles and scripts\" replace them with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game. THIS MOD DOES NOT NEED AN UPDATE (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)"
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "How to install : Just paste the .wotmod folder in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game. THIS MOD DOES NOT NEED AN UPDATE (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installationTemplate": "CopyAllToResMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .zip archive and guide instructs copying the vehicles and scripts folders into WOT\\res_mods\\(latest version); guide also instructs deleting data.wgpdc.",
+        "decisionReason": "Plain .wotmod package and guide points to res_mods/<version>; guide also mentions deleting data.wgpdc.",
         "deleteDataWgpdc": true
       }
     },
@@ -4614,12 +4614,12 @@
       "title": "Duke",
       "classificationInput": {
         "latestFileExt": ".7z",
-        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\1.x.x.x"
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod into the game mods version folder.",
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod file there.",
         "deleteDataWgpdc": false
       }
     },
