@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.06.032",
-  "sourceHash": "95c807637820c9b9d6cda0af72dfe1db9ed55faac4cf888a495f3f9a5be43c0e",
+  "catalogVersion": "v2026.06.033",
+  "sourceHash": "fc3c3f0778d3a298f6177dbda88a3cadc9fdacf48f97f7bbe81e1d95896327d0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7710",
+      "title": "IS-3-II <PROPER METAL>",
+      "ownerUsername": "Trick4Funz",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This is my first model, it's not the best but if you think it looks good you can download it :)</p>",
+      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/IS_3_II_4.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7710/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/IS-3-II.wotmod",
+          "updatedAt": "2026-06-11T20:43:19.243Z",
+          "sizeBytes": 73184723,
+          "fileName": "IS-3-II.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "IS-3-II.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7708",
@@ -29,6 +66,16 @@
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.1_o0615ay.zip",
+          "updatedAt": "2026-06-11T22:29:02.428Z",
+          "sizeBytes": 22379572,
+          "fileName": "CustomSixthSense_1.0.1_o0615ay.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi v1.1.2 (bug fix)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.1_Tyt1ziL.zip",
           "updatedAt": "2026-06-11T08:30:09.714Z",
           "sizeBytes": 22286531,
@@ -48,8 +95,8 @@
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.1_Tyt1ziL.zip",
-        "changeLog": "",
+        "fileName": "CustomSixthSense_1.0.1_o0615ay.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi v1.1.2 (bug fix)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -62,9 +109,9 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p><strong>BalCalcMod is a ballistic distance helper. It lets you lock the current aiming distance so your shells do not fly over a target that moves or hides behind cover.</strong></p><p>Hold the lock key to keep the current distance to the target. After that the shell keeps the same range even if you move the crosshair up onto the sky, a ridge, or terrain behind the enemy, so it no longer flies over the target.</p><p>How to use it: set the correct distance first, then press and hold the lock key before the target disappears. Keep the crosshair on the point you want to hit and fire while holding the key. It is most useful against enemies that peek and quickly pull back behind hills, rocks or buildings. It works in sniper, arcade and artillery view.</p><p>Options:<br>• Lock key or mouse button (default Q)<br>• Distance indicator color, font, position and shadow<br>• Automatic lock when the crosshair is on a tank, with adjustable hold time (sniper view)<br>• Shell trajectory correction so the aim does not jump to maximum range when pointed at the sky<br>• Mouse wheel step for adjusting the locked distance in artillery view</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\configs\\BalCalc\\BalCalc.json</p><p>This mod has been reviewed by Wargaming and confirmed as allowed. Using it cannot result in a ban.</p><p>Credits: original BalCalcMod by Evgeni Kiselev (ktod), later maintained by Ktulho. This GUI edition by Aslain.</p>",
+      "recommended": true,
+      "mark": 5,
+      "descriptionHtml": "<p><strong>BalCalcMod is a ballistic distance helper. It lets you lock the current aiming distance so your shells do not fly over a target that moves or hides behind cover.</strong></p><p>Hold the lock key to keep the current distance to the target. After that the shell keeps the same range even if you move the crosshair up onto the sky, a ridge, or terrain behind the enemy, so it no longer flies over the target.</p><p>How to use it: set the correct distance first, then press and hold the lock key before the target disappears. Keep the crosshair on the point you want to hit and fire while holding the key. It is most useful against enemies that peek and quickly pull back behind hills, rocks or buildings. It works in sniper, arcade and artillery view.</p><p>Options:<br>• Lock key or mouse button (default Q)<br>• Distance indicator color, font, position and shadow<br>• Automatic lock when the crosshair is on a tank, with adjustable hold time (sniper view)<br>• Shell trajectory correction so the aim does not jump to maximum range when pointed at the sky<br>• Mouse wheel step for adjusting the locked distance in artillery view</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\balcalc\\BalCalc.json</p><p>This mod has been reviewed by Wargaming and confirmed as allowed. Using it cannot result in a ban.</p><p>Credits: original BalCalcMod by Evgeni Kiselev (ktod), later maintained by Ktulho. This GUI edition by Aslain.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.0, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/BalCalcMod_big_gWyO9WS.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7707/",
@@ -73,6 +120,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.3.4.zip",
+          "updatedAt": "2026-06-11T22:33:14.099Z",
+          "sizeBytes": 447497,
+          "fileName": "BalCalcMod_2.3.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.3",
@@ -95,8 +152,8 @@
         }
       ],
       "latest": {
-        "fileName": "BalCalcMod_2.3.3_dDCDXjI.zip",
-        "changeLog": "",
+        "fileName": "BalCalcMod_2.3.4.zip",
+        "changeLog": "- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -111,7 +168,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p><strong>AutoAim Indication+ makes it easier to activate the game's standard auto-aim and shows its state on screen.</strong></p><p>It adds no aimbot behavior. It only triggers the normal in-game auto-aim, and only on a target you are actively aiming at. Put your reticle (the center aiming point) on a spotted enemy so the game highlights it with the usual outline, and the mod then locks the standard auto-aim on that target. If the enemy is behind cover, or you cannot place your reticle on it to highlight it, the mod does nothing. It never aims at weak spots, never calculates lead, and never locks through obstacles.</p><p>A slider sets how long the mod keeps waiting for a highlighted target after you press the key (0 means until you toggle it off).</p><p>While auto-aim is active, an indicator near the center of the screen shows the state. It can display the name of the targeted tank or your own custom text.</p><p>Options:<br>• Toggle key to enable or disable the mod during battle<br>• Activation time (how long it waits for a highlighted target)<br>• Indicator text, color and font (several built-in game fonts)<br>• Indicator position (horizontal and vertical offset)<br>• Optional support for wheeled vehicles</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\AutoaimIndication\\AutoaimIndication.json</p><p>Because it only helps activate the standard auto-aim on a target in your line of sight and adds nothing beyond the vanilla aim lock, this mod complies with the Wargaming Fair Play Policy. It has been reviewed by Wargaming and confirmed as allowed, and using it cannot result in a ban.</p><p>Credits: original mod by Krzysztof Chodak; maintained over the years by OldSkool, RaJCeL, Ktulho, budyx69 and Heliomalt. Current version by Aslain.</p>",
+      "descriptionHtml": "<p><strong>AutoAim Indication+ makes it easier to activate the game's standard auto-aim and shows its state on screen.</strong></p><p>It adds no aimbot behavior. It only triggers the normal in-game auto-aim, and only on a target you are actively aiming at. Put your reticle (the center aiming point) on a spotted enemy so the game highlights it with the usual outline, and the mod then locks the standard auto-aim on that target. If the enemy is behind cover, or you cannot place your reticle on it to highlight it, the mod does nothing. It never aims at weak spots, never calculates lead, and never locks through obstacles.</p><p>A slider sets how long the mod keeps waiting for a highlighted target after you press the key (0 means until you toggle it off).</p><p>While auto-aim is active, an indicator near the center of the screen shows the state. It can display the name of the targeted tank or your own custom text.</p><p>Options:<br>• Toggle key to enable or disable the mod during battle<br>• Activation time (how long it waits for a highlighted target)<br>• Indicator text, color and font (several built-in game fonts)<br>• Indicator position (horizontal and vertical offset)<br>• Optional support for wheeled vehicles</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\autoaimindication\\AutoaimIndication.json</p><p>Because it only helps activate the standard auto-aim on a target in your line of sight and adds nothing beyond the vanilla aim lock, this mod complies with the Wargaming Fair Play Policy. It has been reviewed by Wargaming and confirmed as allowed, and using it cannot result in a ban.</p><p>Credits: original mod by Krzysztof Chodak; maintained over the years by OldSkool, RaJCeL, Ktulho, budyx69 and Heliomalt. Current version by Aslain.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.0, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Autoaim_indication_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7706/",
@@ -120,6 +177,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AutoAim_Indication_Plus_2.0.4_a5SvsJN.zip",
+          "updatedAt": "2026-06-11T22:29:07.891Z",
+          "sizeBytes": 495197,
+          "fileName": "AutoAim_Indication_Plus_2.0.4_a5SvsJN.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0.3",
@@ -142,8 +209,8 @@
         }
       ],
       "latest": {
-        "fileName": "AutoAim_Indication_Plus_2.0.3_1JGbqqK.zip",
-        "changeLog": "",
+        "fileName": "AutoAim_Indication_Plus_2.0.4_a5SvsJN.zip",
+        "changeLog": "- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -514,6 +581,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.absurd_recoil_1.0.0_hJpP2ub.wotmod",
+          "updatedAt": "2026-06-11T22:20:45.407Z",
+          "sizeBytes": 6135,
+          "fileName": "pruszko.absurd_recoil_1.0.0_hJpP2ub.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
+        {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.absurd_recoil_1.0.0.wotmod",
@@ -525,9 +602,9 @@
         }
       ],
       "latest": {
-        "fileName": "pruszko.absurd_recoil_1.0.0.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.absurd_recoil_1.0.0_hJpP2ub.wotmod",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3413,6 +3490,16 @@
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.6.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
+          "updatedAt": "2026-06-11T22:19:46.657Z",
+          "sizeBytes": 261747,
+          "fileName": "Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added more logging for debugging."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.6.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pade-armor-calculator-1.6.0-UNZIP-ME_nUyAYK0.zip",
           "updatedAt": "2026-06-11T13:25:00.011Z",
           "sizeBytes": 261063,
@@ -3459,21 +3546,11 @@
           "fileName": "pademinune-armor-calc-1.5.1-UNZIP-ME.zip",
           "fileExt": ".zip",
           "changeLog": "- Added an armor angle label\n- Added settings gui for angle label\n- Significant performance improvement"
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "1.4.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pademinune-armor-calc-1.4.0-UNZIP-ME_89u1mzl.zip",
-          "updatedAt": "2026-05-14T15:47:12.985Z",
-          "sizeBytes": 258590,
-          "fileName": "pademinune-armor-calc-1.4.0-UNZIP-ME_89u1mzl.zip",
-          "fileExt": ".zip",
-          "changeLog": "Reupload for new update."
         }
       ],
       "latest": {
-        "fileName": "Pade-armor-calculator-1.6.0-UNZIP-ME_nUyAYK0.zip",
-        "changeLog": "",
+        "fileName": "Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
+        "changeLog": "Added more logging for debugging.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3873,7 +3950,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.2,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
@@ -3885,6 +3962,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.3_K6P8sSg.exe",
+          "updatedAt": "2026-06-11T20:42:49.942Z",
+          "sizeBytes": 154904869,
+          "fileName": "Way_to_Valhalla_1.3_K6P8sSg.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.2",
@@ -3937,9 +4024,9 @@
         }
       ],
       "latest": {
-        "fileName": "Way_to_Valhalla_1.2.exe",
+        "fileName": "Way_to_Valhalla_1.3_K6P8sSg.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -6017,7 +6104,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>This mod allows you to use an in-game interface to select from a large list of commander voices. It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation.&nbsp;</p>",
-      "installationGuideHtml": "<p>Put the .wotmod in World_of_Tanks\\mods\\<strong>current version</strong></p><p>This version of the mod relies on the following mods to be present, which should happen if you use Protanki mods already. Thanks to those modmakers for creating these mods!&nbsp;</p><ul><li>izeberg.modssettingsapi_*.wotmod</li><li>me.poliroid.modslistapi_*.wotmod</li><li>net.openwg.gameface_*.wotmod</li></ul><p>Please report any bugs to loadfastermods@ gmail</p>",
+      "installationGuideHtml": "<p>Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\<strong>current version</strong></p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Commander_Selector_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7529/",
       "tagIds": [
@@ -6073,16 +6160,6 @@
           "fileName": "commander_selector_1.3.0_09kSDxp.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "No changes needed."
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "1.3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.0.wotmod",
-          "updatedAt": "2026-03-25T09:54:53.512Z",
-          "sizeBytes": 722167,
-          "fileName": "commander_selector_1.3.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "An option to randomly play commanders from a group has been added. One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation. "
         }
       ],
       "latest": {
@@ -6102,8 +6179,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Most of the time in the game, in my experience, when one of your teammates says to \"Fall back!\", they are doing it for selfish reasons. Because they don't want you in a bush that they wanted to be in, or they don't want you to get damage because they want to get that damage. This is really annoying.&nbsp;<br><br>This mod is made to address that problem. The first option in the mod is to merely silence the person who tells you to retreat. It will instantly silence them for the rest of that match, but not blacklist them. The second option in the mod is to silence them immediately + add them to your blacklist.&nbsp;<br><br>When another player is silenced, Mr. T will say, \"Be quiet fool!\"&nbsp;</p><p>This version of the mod works best when following mods are present, which should happen if you use Protanki mods already. Thanks to those modmakers for creating these mods!&nbsp;</p><ul><li>izeberg.modssettingsapi_*.wotmod</li><li>me.poliroid.modslistapi_*.wotmod</li><li>net.openwg.gameface_*.wotmod</li></ul>",
-      "installationGuideHtml": "<p>Put the .wotmod in World_of_Tanks\\mods\\<strong>current version</strong></p><p>Please report any bugs to loadfastermods@ gmail</p>",
+      "descriptionHtml": "<p>Most of the time in the game, in my experience, when one of your teammates says to \"Fall back!\", they are doing it for selfish reasons. Because they don't want you in a bush that they wanted to be in, or they don't want you to get damage because they want to get that damage. This is really annoying.&nbsp;<br><br>This mod is made to address that problem. The first option in the mod is to merely silence the person who tells you to retreat. It will instantly silence them for the rest of that match, but not blacklist them. The second option in the mod is to silence them immediately + add them to your blacklist.&nbsp;<br><br>When another player is silenced, Mr. T will say, \"Be quiet fool!\"&nbsp;</p>",
+      "installationGuideHtml": "<p>Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\<strong>current version</strong></p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Mr_T_Be_Quiet_Fool_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7528/",
       "tagIds": [
@@ -6160,16 +6237,6 @@
           "fileName": "be_quiet_fool_1.0.1_YhzCJXL.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Bug fix for displayed name of silenced player"
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/be_quiet_fool_1.0.1_QW8SYZp.wotmod",
-          "updatedAt": "2026-03-19T15:38:53.742Z",
-          "sizeBytes": 93797,
-          "fileName": "be_quiet_fool_1.0.1_QW8SYZp.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "No changes, just verified it works with new version."
         }
       ],
       "latest": {
@@ -9711,6 +9778,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.carousel_warn_remover_1.0.1_OLSZvvH.zip",
+          "updatedAt": "2026-06-11T22:20:27.265Z",
+          "sizeBytes": 51202,
+          "fileName": "pruszko.carousel_warn_remover_1.0.1_OLSZvvH.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
+        {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.carousel_warn_remover_1.0.1_HRcdFEk.zip",
@@ -9759,22 +9836,12 @@
           "fileName": "pruszko.carousel_warn_remover_1.0.1_NHEq311.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.carousel_warn_remover_1.0.1_lcc17Z1.zip",
-          "updatedAt": "2026-03-26T19:16:03.559Z",
-          "sizeBytes": 51202,
-          "fileName": "pruszko.carousel_warn_remover_1.0.1_lcc17Z1.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.carousel_warn_remover_1.0.1_HRcdFEk.zip",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.carousel_warn_remover_1.0.1_OLSZvvH.zip",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10911,7 +10978,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/b92726c8-5b42-4a89-97d9-db28258d1cda.png\"></figure><p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reducing client reticle input lag movement <strong>from 100 ms to 1 ms</strong>.</p><p>For server reticle, it slightly increases reticle movement consistency.</p><h2>Notes</h2><ul><li>disabled for SPG because ... it's complicated</li><li>disabled in replays</li><li>disabled for hull-controlled tanks (like Strv 103B)</li><li>has some smaller impact on FPS due to more frequent reticle position updates</li></ul><h2>FAQ</h2><p><strong>1. Should I have enabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate.</li><li>I saw some people using this mod with server reticle specifically for that subtle side-effect, so it seems useful through.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>Due to increased reticle position update frequency, <strong>it may lower FPS</strong> a little bit, but on good PC it is a very good trade-off for very noticeable reticle responsiveness.</li></ul><p><strong>4. I'm playing SPG and Strv tanks, but I don't see increased reticle responsiveness, why?</strong></p><ul><li>Mod is disabled for Strv tanks due to them controlling reticle by hull movement - and hull movement is server side, which cannot get increased responsiveness from this mod.</li><li>It is also disabled for SPG due to it being buggy in top-down view. Also this mod is not useful for SPG, so the easiest compromise was to just disable this mod for them.</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.responsive_reticle_X.wotmod</strong>\" into \"[WoT game directory]/mods/[version]/\" directory</p>",
@@ -10923,6 +10990,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.3_9rjPUkV.wotmod",
+          "updatedAt": "2026-06-11T22:24:55.615Z",
+          "sizeBytes": 10346,
+          "fileName": "pruszko.responsive_reticle_1.0.3_9rjPUkV.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.0.3",
@@ -10972,22 +11049,12 @@
           "fileName": "pruszko.responsive_reticle_1.0.3.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.3_lxeOtEk.wotmod",
-          "updatedAt": "2026-03-26T19:19:43.772Z",
-          "sizeBytes": 10346,
-          "fileName": "pruszko.responsive_reticle_1.0.3_lxeOtEk.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.responsive_reticle_1.0.3_bOAKykm.wotmod",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.responsive_reticle_1.0.3_9rjPUkV.wotmod",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -13099,7 +13166,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>A simple mod that enables self tank contours during sniper mode on collision with other tanks.</p><p>Useful on tank face-hugs to visually see if your gun collides with enemy gun, by displaying gun contours.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ba7a7bd0-2347-41b8-9f69-01881283afe5.png\"></figure><h2>Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ShowGunCollision\">Github repo here</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ShowGunCollision/issues\">GitHub issues here</a>.</li></ul><h2>Trivia</h2><p>This \"feature\" once existed as a bug in vanilla WoT around 1.29.0.0 version, but was fixed the next patch.<br>Some users actually want that bug, so I reproduced it, lmao</p>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.show_gun_collision.wotmod</strong>\" file into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory</p>",
@@ -13111,6 +13178,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.show_gun_collision_1.0.3_4icEn3G.wotmod",
+          "updatedAt": "2026-06-11T22:21:06.559Z",
+          "sizeBytes": 3997,
+          "fileName": "pruszko.show_gun_collision_1.0.3_4icEn3G.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.0.3",
@@ -13160,22 +13237,12 @@
           "fileName": "pruszko.show_gun_collision_1.0.3_E6XteT1.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.show_gun_collision_1.0.3_ccBMsny.wotmod",
-          "updatedAt": "2026-03-26T19:15:37.541Z",
-          "sizeBytes": 3997,
-          "fileName": "pruszko.show_gun_collision_1.0.3_ccBMsny.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.show_gun_collision_1.0.3_djLQqao.wotmod",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.show_gun_collision_1.0.3_4icEn3G.wotmod",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -16295,7 +16362,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>With this mod you can bypass the fps limit of 60 in hangar.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download and place into mods directory and respective version of the game.</p>",
       "coverCatalogUrl": "",
@@ -20641,7 +20708,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>A mod displaying configurable achievement notification during battle.</p><h2>Features</h2><ul><li>displaying most possible achievements to get</li><li>displaying asterisk (*) on some achievements indicating uncertainty of some survive/win/being top conditions</li><li>configurable display mode (compact, detailed), vertical position and display length</li><li>ability do enable/disable specific achievements</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/152d0726-e9cd-4475-8e67-54f6aaf567e0.png\"></figure><p>Configurable using Mod Configurator by IzeBerg <strong>using \"&lt;&gt;\" button in right-bottom corner in the garage</strong>.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/7345582a-b53a-48ea-b8a0-e0cf1bd34cd0.png\"></figure><h2>Source code &amp; feedback</h2><p>Mod is open-source and present on <a href=\"https://github.com/Pruszko/AchievementNotification\">Github repository</a>.</p><p>You can contact me:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/AchievementNotification/issues\">GitHub issues here</a></li></ul><h2>Contributions</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li></ul>",
       "installationGuideHtml": "<p>Copy \"AchievementNotification_X.wotmod\" and other \"*.wotmod\" files <strong>extracted from downloaded zip</strong> into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory<br><br>Config file location: &nbsp;<br>* <strong>[WoT game directory]/mods/configs/AchievementNotification/config.json</strong><br>&nbsp;</p>",
@@ -20652,6 +20719,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.2.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.achievement_notification_1.2.5_229XGDx.zip",
+          "updatedAt": "2026-06-11T22:20:03.385Z",
+          "sizeBytes": 568254,
+          "fileName": "pruszko.achievement_notification_1.2.5_229XGDx.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.2.5",
@@ -20701,22 +20778,12 @@
           "fileName": "pruszko.achievement_notification_1.2.5_5WCa4eP.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.2.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.achievement_notification_1.2.5_lBttnEK.zip",
-          "updatedAt": "2026-03-26T19:16:41.586Z",
-          "sizeBytes": 568254,
-          "fileName": "pruszko.achievement_notification_1.2.5_lBttnEK.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.achievement_notification_1.2.5.zip",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.achievement_notification_1.2.5_229XGDx.zip",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -24067,7 +24134,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=I6F6BUIbAdU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/I6F6BUIbAdU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
@@ -24079,6 +24146,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.43.33",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.33.exe",
+          "updatedAt": "2026-06-11T20:42:34.968Z",
+          "sizeBytes": 4417878,
+          "fileName": "mod_battle_observer_v1.43.33.exe",
+          "fileExt": ".exe",
+          "changeLog": "2.3.0.1 update. Core upgrade.\n2.3.0.1. Оновлення ядра.\n\ninstaller will no longer overwrite the configuration when updating the mod via the installer (if it was already installed)\nінсталятор більше не буде перезаписувати конфігурацію при оновленні мода через інсталятор. (якщо вже було інстальовано)\n\nFixed the visibility of the dispersion timer during the stage (waiting/countdown) before the start of the battle.\nВиправлена видимість таймера зведення на єтапі (очикування/відліку) до старту боя."
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.43.32",
@@ -24101,9 +24178,9 @@
         }
       ],
       "latest": {
-        "fileName": "mod_battle_observer_v1.43.32.exe",
-        "changeLog": "wot 2.3.0.0 update, crew accelerate 11 lvl threshold module",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "mod_battle_observer_v1.43.33.exe",
+        "changeLog": "2.3.0.1 update. Core upgrade.\n2.3.0.1. Оновлення ядра.\n\ninstaller will no longer overwrite the configuration when updating the mod via the installer (if it was already installed)\nінсталятор більше не буде перезаписувати конфігурацію при оновленні мода через інсталятор. (якщо вже було інстальовано)\n\nFixed the visibility of the dispersion timer during the stage (waiting/countdown) before the start of the battle.\nВиправлена видимість таймера зведення на єтапі (очикування/відліку) до старту боя.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25408,7 +25485,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>A mod displaying customizable markers with a distance to tanks.</p><h2>Features</h2><ul><li>draggable with mouse during battle (holding CTRL button)</li><li>customizable text color and shadow, position, distance precision</li><li>displaying either for all tanks or only enemies</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/f645f50f-c403-46c3-8b00-4ffbd4bb81f8.jpg\"></figure><p>Configurable using Mod Configurator by IzeBerg <strong>using \"&lt;&gt;\" button in right-bottom corner in the garage</strong>.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ac359398-4295-42f0-8e26-0d4f683b9a04.png\"></figure><h2>Source code &amp; feedback</h2><p>Mod is open-source and present on <a href=\"https://github.com/Pruszko/DistanceMarker\">Github repository</a>.</p><p>You can contact me:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/DistanceMarker/issues\">GitHub issues here</a></li></ul><h2>Contributions</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li><li>shuxue - for Russian translations</li><li>eugenescodes - for Ukrainian translations</li><li>Siro256 - for Japanese translations</li></ul>",
       "installationGuideHtml": "<p>Copy \"DistanceMarker_X.wotmod\" and other \"*.wotmod\" files <strong>extracted from downloaded zip</strong> into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory</p><p>Configuration is done in Mod Configurator <strong>using \"&lt;&gt;\" button in right-bottom corner in the garage</strong>.</p><p>Config file location:</p><ul><li><strong>[WoT game directory]/mods/configs/DistanceMarker/config.json</strong></li></ul>",
@@ -25420,6 +25497,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.2.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.distance_marker_2.2.3_jpFi18o.zip",
+          "updatedAt": "2026-06-11T22:21:55.467Z",
+          "sizeBytes": 478346,
+          "fileName": "pruszko.distance_marker_2.2.3_jpFi18o.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "2.2.3",
@@ -25469,22 +25556,12 @@
           "fileName": "pruszko.distance_marker_2.2.3_mlqGWOO.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "2.2.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.distance_marker_2.2.3_8xeyX1B.zip",
-          "updatedAt": "2026-03-26T19:17:44.054Z",
-          "sizeBytes": 478346,
-          "fileName": "pruszko.distance_marker_2.2.3_8xeyX1B.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.distance_marker_2.2.3.zip",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.distance_marker_2.2.3_jpFi18o.zip",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -27013,7 +27090,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>Very simple mod removing reticle size limit that is noticeable when reticle on the screen becomes small enough (around 32 pixels or less).</p><h2>Source code</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/ReticleSizeLimitRemover\">GitHub repository</a>.</p><h2>Compatibility</h2><p>This mod should be compatible with pretty much everything, including my other mods.</p>",
       "installationGuideHtml": "<p>Copy \"ReticleSizeLimitRemover.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory</p>",
@@ -27025,6 +27102,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ReticleSizeLimitRemover_1.0.1.wotmod",
+          "updatedAt": "2026-06-11T22:18:33.799Z",
+          "sizeBytes": 2657,
+          "fileName": "ReticleSizeLimitRemover_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.0.1",
@@ -27074,22 +27161,12 @@
           "fileName": "ReticleSizeLimitRemover_1.0.1_ncWoSna.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ReticleSizeLimitRemover_1.0.1_OWIRFYA.wotmod",
-          "updatedAt": "2026-03-26T19:17:21.627Z",
-          "sizeBytes": 2657,
-          "fileName": "ReticleSizeLimitRemover_1.0.1_OWIRFYA.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "ReticleSizeLimitRemover_1.0.1_nYYR2Nw.wotmod",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "ReticleSizeLimitRemover_1.0.1.wotmod",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -27986,7 +28063,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>Based on the original design by J1mB091.</p><p>If you enjoy this set of contour icons, please leave a like - thank you :)</p>",
       "installationGuideHtml": "<p>Copy the .wotmod file to your WoT mods directory (for example \"C:\\Wargaming.net\\World_of_Tanks_EU\\mods\\&lt;version&gt;\\\")</p>",
@@ -27997,6 +28074,16 @@
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1_v1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Alfalis_Contour_J1mB091_2.3.0.1_v1.wotmod",
+          "updatedAt": "2026-06-11T20:43:06.844Z",
+          "sizeBytes": 20431193,
+          "fileName": "Alfalis_Contour_J1mB091_2.3.0.1_v1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "2.3.0.0_v1",
@@ -28049,9 +28136,9 @@
         }
       ],
       "latest": {
-        "fileName": "Alfalis_Contour_J1mB091_2.3.0.0_v1.wotmod",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Alfalis_Contour_J1mB091_2.3.0.1_v1.wotmod",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -29713,7 +29800,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Sometimes, for some users, game permanently loses connection during battle (and all tanks stops responding). It can even happen in hangar.</p><p>Because there are no buttons for disconnect in such scenario, either you have to:</p><ul><li>wait 40 seconds timeout in battle or</li><li>restart a game (~20 seconds depending on PC)</li></ul><p>... to again see Login Screen and reconnect.</p><p>This mod allows you to <strong>instantly kick you to Login Screen</strong> skipping above delays to help you reconnect MUCH faster (from there you only have to login and wait for map loading).</p><p>Depending on PC, you can come back into battle in <strong>less than 10 seconds</strong> since noticing a connection loss.</p><h2>features</h2><ul><li><strong>CTRL+K</strong> shortcut to <strong>instantly disconnect you</strong> from anywhere to Login Screen</li></ul><h2>How to use</h2><ul><li>When you notice permanent connection loss, hit <strong>CTRL+K</strong> (like Control Kick) shortcut. This will <strong>quickly kick you to Login Screen.</strong></li><li>Login again to rejoin a battle.</li></ul><p>By this, you don't have to restart a game or wait for timeout to rejoin a battle as fast as possible.</p><h2>NOTE</h2><p>Shortcut <strong>CTRL+K</strong> works <strong>ANYWHERE</strong> except for replays.</p><p>Use it wisely.</p><h2>SOURCE CODE</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/FastReconnect\">Github repository</a>.</p>",
       "installationGuideHtml": "<p>Copy \"FastReconnect.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory</p>",
@@ -29723,6 +29810,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FastReconnect_PmwegtX.wotmod",
+          "updatedAt": "2026-06-11T22:21:26.576Z",
+          "sizeBytes": 2567,
+          "fileName": "FastReconnect_PmwegtX.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.0.0",
@@ -29772,22 +29869,12 @@
           "fileName": "FastReconnect_smwwyAc.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FastReconnect_4j1AdSr.wotmod",
-          "updatedAt": "2026-03-26T19:17:07.613Z",
-          "sizeBytes": 2567,
-          "fileName": "FastReconnect_4j1AdSr.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "FastReconnect_rHwh5Km.wotmod",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "FastReconnect_PmwegtX.wotmod",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -29924,7 +30011,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Updated and completely reworked mod that adds additional circle displaying fully focused dispersion of a gun.</p><p>Original idea by <strong>StranikS_Scan</strong>, completely reworked by me.</p><p>Also, over time, this mod now contains <strong>following mutually compatible mods</strong>:</p><ul><li>Focused reticle</li><li>Server reticle</li><li>Hybrid reticle (smooth combination of client and server reticle)</li><li>Reticle Size (adjustment in config file)</li></ul><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7d0ce2af-5f50-462b-a391-a51c7ad1509b.png\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/5fc3b666-83d1-4f66-846f-51fc753db7d2.jpg\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7bcf386e-968c-4907-a987-83fd7cf06dec.png\"></figure><h2>Features</h2><p>All of those features can be enabled/adjusted independently.<br><br>They are also compatible with \"Use server aim\" from in-game option.</p><p><strong>Focused reticle</strong> (enabled by default):</p><ul><li>adds green reticle displaying fully focused dispersion alongside other reticles</li></ul><p><strong>Server reticle</strong>:</p><ul><li>adds purple server-side reticle alongside with client-side reticle</li></ul><p><strong>Hybrid reticle</strong>:</p><ul><li>adds green reticle displaying current server-side dispersion to client-side reticle</li><li>useful if you want to know server-side dispersion, but still want client-side responsiveness</li></ul><p><strong>Extended variants of above reticles</strong>:</p><ul><li>have much more customization options</li><li>visually inspired by <strong>AwfulTanker's Server Marker</strong></li></ul><p><strong>Reticle size</strong>:</p><ul><li>controlled by \"reticle-size-multiplier\" option</li><li>WG's displayed reticle dispersion is noticeably bigger than actual gun dispersion</li><li>it was discovered by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others</li><li>by this setting you can scale it to actual displayed dispersion</li><li>good known values:<ul><li>1.0 (default \"wrong\" WG dispersion)</li><li>0.5814 (factor determined by me programmatically)</li><li>0.5848 (factor determined by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others)</li></ul></li></ul><h2>Configuration</h2><p>All features from config file <strong>are reloadable on-the-fly</strong> using <strong>CTRL + P</strong> hotkey in the game <strong>anywhere</strong>.</p><p>This mod also supports <strong>Mod Configurator by IzeBerg</strong> allowing for configuring this mod using its GUI in garage.</p><h2>Source code &amp; feedback</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/DispersionReticle\">Github repository</a>.</p><p>You can also:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/DispersionReticle/issues\">GitHub issues here</a></li></ul><h2>CONTRIBUTIONS</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li><li>shuxue - for Russian translations</li><li>yinx2002 - for Chinese translations</li><li>Kurzdor - for occasional help</li></ul><h2>Compatibility</h2><p>This mod <strong>IS NOT</strong> compatible with other mods with similar features as mine.</p><p>Current known incompatible mods:</p><ul><li>AwfulTanker's Server Marker (and other similar)</li><li>Jak_Atackka's Fix Reticle Size (and other similar)</li></ul><p>Use preferred options from above features for similar functionality instead.</p><p>However, it should be compatible with any crosshair mods that changes<br>how crosshair or reticle looks like.<br>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy <strong>\"DispersionReticle.wotmod\"</strong> file (and optionally other *.wotmod files) extracted from zip into <strong>\"[WoT game directory]/mods/[version]/\"</strong> directory</li><li>Run a game with mod installed to <strong>generate default config file</strong></li><li>Adjust config to your liking</li><li>Reload it in-game whenever you want using <strong>CTRL + P hotkey</strong></li><li>(with Mod Configurator) Open button with \"&lt;&gt;\" icon in garage and find <strong>DispersionReticle section</strong> to configure mod</li></ol><p>&nbsp;</p><p>Full config file location: <strong>\"[WoT game directory]/mods/configs/DispersionReticle/config.json\"</strong></p><p>Use some text editor (preferably <strong>Notepad++</strong>) to edit config file.<br>&nbsp;</p>",
@@ -29936,6 +30023,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "3.1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.4_tRG68Vx.zip",
+          "updatedAt": "2026-06-11T22:22:29.496Z",
+          "sizeBytes": 908107,
+          "fileName": "pruszko.dispersion_reticle_3.1.4_tRG68Vx.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated for WoT 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "3.1.4",
@@ -29985,22 +30082,12 @@
           "fileName": "pruszko.dispersion_reticle_3.1.4.zip",
           "fileExt": ".zip",
           "changeLog": "Version 3.1.4 comes with code adjustments for Gorilla tank in WoT 2.2.1.0"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "3.1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.3_IYNEsr0.zip",
-          "updatedAt": "2026-03-26T19:18:49.065Z",
-          "sizeBytes": 904948,
-          "fileName": "pruszko.dispersion_reticle_3.1.3_IYNEsr0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.2.0.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.dispersion_reticle_3.1.4_XzhSd1Y.zip",
-        "changeLog": "Updated for WoT 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "pruszko.dispersion_reticle_3.1.4_tRG68Vx.zip",
+        "changeLog": "Updated for WoT 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34767,7 +34854,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 2.7,
       "descriptionHtml": "<p>-xvm = XVM &nbsp;!!! NEUSTE !!!<br>-Carusell einstellbar<br>-Top Minimap letzte Position<br>-Bessere Statistik<br>-Goldmuni Anzeige usw…<br>-Hitlog<br>-AutoEquip &amp; Manschaft<br>-Player Ratings WN8<br>-Capture Info<br>-Ingame Uhrzeit und auch im Hangar<br>-Neue TankIcon 3D / Made of SicFunzler<br>-Ingame Damage Log<br>-Sixth Sense Audio Mod und mit SicFunzler LOGO und verbleibende Zeit</p><ul><li>Gunmarks mit SicFunzler LOGO<br>-Erweiterte Gefechtsauswertung<br>-Tank View Range</li></ul><p>-Gold Premium Tank und kaufbar oder nicht.</p><p>Alle Änderungen werden auf meiner Homepage aufgelistet:</p><p><a href=\"http://www.gaisboeck.at/SicFunzler/index.htm\">SicFunzler-Mod-Seite</a></p><p>Ein kleines Video vom Mod:&nbsp;</p><p><a href=\"https://www.youtube.com/watch?v=OM66h7GCrrk\">So spielt man mit diesen Mod&nbsp;</a></p><p>Wer will, der kann:</p><p><a href=\"https://www.paypal.com/paypalme/SicFunzler\">Spende</a></p><p>MFG</p><p>SicFunzler</p>",
       "installationGuideHtml": "<p><strong>Wichtig Einstellungen ganz einfach unter:</strong></p><p>Laufwerk\\Games\\World_of_Tanks\\res_mods\\configs\\xvm\\SicFunzler\\einstellen</p><p>Standart Faben für WOT:</p><p>FarbEinstellungen.xc</p><p>ZoomFaktor:</p><p>KameraZoom.xc</p><p>StartZoom:</p><p>StartZoom.xc</p><p>Laufwerk\\Games\\World_of_Tanks_EU\\res_mods\\configs\\xvm\\SicFunzler\\einstellen\\XVM</p><p>true = Eingeschalted</p><p>false = Ausgeschalted</p><p>Anzeige des TD &amp; Arty wirkbereiches</p><p>Aimingbereich.xc</p><p>Handbremse bei TD´s ausschalten</p><p>TdHandbremse.xc</p><p>&nbsp;</p>",
@@ -34779,6 +34866,16 @@
         "13"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "V302",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V302_Installer.exe",
+          "updatedAt": "2026-06-11T20:42:43.051Z",
+          "sizeBytes": 295495847,
+          "fileName": "SicFunzler-Mod_V302_Installer.exe",
+          "fileExt": ".exe",
+          "changeLog": "Update 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "V300",
@@ -34831,9 +34928,9 @@
         }
       ],
       "latest": {
-        "fileName": "SicFunzler-Mod_V300_Installer.exe",
-        "changeLog": "Mit eigenen Installer jetzt zum Auswählen ",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "SicFunzler-Mod_V302_Installer.exe",
+        "changeLog": "Update 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -35024,6 +35121,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "01",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_01.exe",
+          "updatedAt": "2026-06-11T23:05:55.954Z",
+          "sizeBytes": 57531571,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_01.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #01 (11-06-2026):\n- Updated few protanki mods\n- Updated SpotMeter\n- Updated enhanced modsSettingsApi v1.1.2\n- Updated Show Vehicle in Sniper Mode (rework by Aslain v2.0.0: fixed stuck sniper zoom & shifted zoom levels, new settings menu)\n- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_00.exe",
           "updatedAt": "2026-06-11T12:24:00.749Z",
@@ -35031,62 +35138,12 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_00.exe",
           "fileExt": ".exe",
           "changeLog": "v2.3.0.1 #00 (11-06-2026):\n- Initial compatibility with WoT 2.3.0.1\n- Updated XVM 13.1.0_0031\n- Updated The anti-mirror for non-XVM contour icons\n- Updated Change client language EN\n- Updated Clean Camo\n- Updated Battle Equipment\n- Updated Random tank selection v1\n- Updated SpotMeter\n- Updated Challenges\n- Updated Player Panel Pro\n- Installer: preview freezes traced to the CDN and eliminated (previews now load directly from the server)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "06",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.0_06.exe",
-          "updatedAt": "2026-06-10T20:20:31.371Z",
-          "sizeBytes": 57480121,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.0_06.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.0 #06 (10-06-2026):\n- Installer: improved mod preview stability against preview‑server issues\n- Updated enhanced modsSettingsApi v1.1.1\n- Updated champi.settingsgui dependency\n- Updated Custom Sixth Sense (the countdown timer now works also when the \"Sixth Sense enabled\" option is unchecked, options that have no effect are greyed out, and fresh installs start with this option unchecked)"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "05",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.0_05.exe",
-          "updatedAt": "2026-06-08T22:53:19.826Z",
-          "sizeBytes": 57451884,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.0_05.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.0 #05 (08‑06‑2026):\n-Installer: added sound‑preview mute button.\n-Added Aslain’s enhanced modsSettingsApi: collapse/expand mods, A‑Z sort, jump by letter, image previews, instant language switch [#1499].\n-Added Custom Sixth Sense: choose icon/timer in garage, drag icon in battle; custom icons via SixthSense.png in mods/configs/Aslain/customsixthsense/static.\n-Added Research Progress Bar.\n-Updated BalCalcMod (language select, fixes), AutoAim Indication+, Limpid Stickers (MoE toggle), Marked ammo icons, SpotMeter (battle/garage panels, auto‑target, hide key, PL/EN), Steel Hunter Helper.\n-Removed static/animated non‑XVM Sixth Sense icons (replaced by Custom Sixth Sense; re‑select options in garage)."
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.0_04.exe",
-          "updatedAt": "2026-06-04T18:57:02.313Z",
-          "sizeBytes": 58506169,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.0_04.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.0 #04 (04-06-2026):\n- Updated contour icons: Golkosh\n- Updated Random tank selection v1\n- Updated Armor Penetration Calculator\n- Updated BalCalcMod (minor in-garage menu tidy-up)\n- Updated AutoAim Indication+ (fixed the wheeled vehicles option; the mod now comes back automatically after reconnecting to a battle, e.g. after a crash)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.0_03.exe",
-          "updatedAt": "2026-06-03T19:05:58.880Z",
-          "sizeBytes": 58504966,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.0_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.0 #02 (03-06-2026):\n- Installer: Improved the auto-updater\n- Updated Challenges \n- Updated FastestClassic+Gnomefather's Historical Realism Sounds\n- Updated Minimap images: YaYa tactical (Updated maps on Klondike, Murovanka and Tundra)\n- Info: These mods remain disabled: Battle WN8/EFF Calculator ProTanki, Aiming timer\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.0_02.exe",
-          "updatedAt": "2026-06-03T17:11:04.736Z",
-          "sizeBytes": 58019749,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.0_02.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.0 #02 (03-06-2026):\n- Installer: Improved the auto-updater\n- Updated Challenges \n- Updated FastestClassic+Gnomefather's Historical Realism Sounds\n- Updated Minimap images: YaYa tactical (Updated maps on Klondike, Murovanka and Tundra)\n- Info: These mods remain disabled: Battle WN8/EFF Calculator ProTanki, Aiming timer\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.0_06.exe",
-        "changeLog": "v2.3.0.0 #06 (10-06-2026):\n- Installer: improved mod preview stability against preview‑server issues\n- Updated enhanced modsSettingsApi v1.1.1\n- Updated champi.settingsgui dependency\n- Updated Custom Sixth Sense (the countdown timer now works also when the \"Sixth Sense enabled\" option is unchecked, options that have no effect are greyed out, and fresh installs start with this option unchecked)",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_01.exe",
+        "changeLog": "v2.3.0.1 #01 (11-06-2026):\n- Updated few protanki mods\n- Updated SpotMeter\n- Updated enhanced modsSettingsApi v1.1.2\n- Updated Show Vehicle in Sniper Mode (rework by Aslain v2.0.0: fixed stuck sniper zoom & shifted zoom levels, new settings menu)\n- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
