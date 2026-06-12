@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.032",
+  "catalogVersion": "v2026.06.033",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7710",
+      "title": "IS-3-II <PROPER METAL>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7708",
@@ -1943,12 +1958,12 @@
       "title": "Commander Selector",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Put the .wotmod in World_of_Tanks\\mods\\ current version This version of the mod relies on the following mods to be present, which should happen if you use Protanki mods already. Thanks to those modmakers for creating these mods! izeberg.modssettingsapi_*.wotmod me.poliroid.modslistapi_*.wotmod net.openwg.gameface_*.wotmod Please report any bugs to loadfastermods@ gmail"
+        "latestInstallGuide": "Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide explicitly says to put the .wotmod into World_of_Tanks\\mods\\<current version>.",
+        "decisionReason": ".wotmod package and guide targets mods/<version>; mention of zip file is ignored because package type is .wotmod.",
         "deleteDataWgpdc": false
       }
     },
@@ -1958,12 +1973,12 @@
       "title": "Be Quiet Fool!",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Put the .wotmod in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
+        "latestInstallGuide": "Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide explicitly says to put the .wotmod into World_of_Tanks\\mods\\<current version>.",
+        "decisionReason": ".wotmod package and guide targets mods/<version>; mention of zip file is ignored because package type is .wotmod.",
         "deleteDataWgpdc": false
       }
     },
