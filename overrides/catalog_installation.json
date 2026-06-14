@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.034",
+  "catalogVersion": "v2026.06.035",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7713",
+      "title": "Kaucja Dravec",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "(World_of_Tanks_Eu > mods > *version of game*) put .wotmod here and enjoy :)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7712",
+      "title": "Заміна лапочки шостого відчуття \"Емоджі\"",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Закидайте мод у папку з грою C:\\Games\\World_of_Tanks_EU\\mods\\2.3.0.1"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7702",
+      "title": "Custix ModPack",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "⚙️ Installer features Auto-detects the game folder and checks the version (2.3.0.0). Asks you to close the game before installing. Convenient component selection with a description for each. Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays. Installer languages: Ukrainian and English. 💾 Installation Close World of Tanks. Run the installer — it will find the game folder automatically (set it manually if needed). Select components (exactly one statistics option) and click Install."
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Package is .exe and guide describes running installer UI with component selection.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7637",
+      "title": "ANIME MODEL (NOT Skin) <Lenna> Girls' Frontline 2  + E50 FR",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Put the file .wotmod into <WoT Installed Directory>\\mods\\<current version>\\ If you have installed other E50 mod , please remove it."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<current version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7711",
@@ -292,13 +352,13 @@
       "sourceId": "7692",
       "title": "Legacy interface UI",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "1. Copy the compiled file `renovo.legacyhangar_1.0.wotmod` to the folder of the current game version inside the `mods` directory: `<Game_Folder>/mods/<Current_Version>/` *(Example: `C:/Games/World_of_Tanks/mods/2.3.0.0/`)* 2. Launch the game client."
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: <Game_Folder>/mods/<Current_Version>/ (Example: C:/Games/World_of_Tanks/mods/x.x.x.x/) Note for Open.WG: If not already installed, the Open.WG library must be placed in the following subdirectory: <Game_Folder>/mods/<Current_Version>/net.openwg/ Launch the game client."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires files in mods/<version> and also an additional custom subpath mods/<version>/net.openwg.",
         "deleteDataWgpdc": false
       }
     },
@@ -1972,13 +2032,13 @@
       "sourceId": "7529",
       "title": "Commander Selector",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": ".wotmod package and guide targets mods/<version>; mention of zip file is ignored because package type is .wotmod.",
+        "decisionReason": "Archive package and guide points to mods/<current version> with no blocking variant choice.",
         "deleteDataWgpdc": false
       }
     },
@@ -1987,13 +2047,13 @@
       "sourceId": "7528",
       "title": "Be Quiet Fool!",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": ".wotmod package and guide targets mods/<version>; mention of zip file is ignored because package type is .wotmod.",
+        "decisionReason": "Archive package and guide points to mods/<current version> with no blocking variant choice.",
         "deleteDataWgpdc": false
       }
     },
@@ -2108,12 +2168,12 @@
       "title": "WotVSWAPS",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "How to install : Just paste the .wotmod folder in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game. THIS MOD DOES NOT NEED AN UPDATE (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)"
+        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game. THIS MOD DOES NOT NEED AN UPDATE (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToResMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to res_mods/<version>; guide also mentions deleting data.wgpdc.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Guide requires copying specific folders into res_mods/<version> and additionally deleting/replacing folders, making it a multi-step unsupported operation.",
         "deleteDataWgpdc": true
       }
     },
@@ -7765,12 +7825,12 @@
       "title": "Girls und Panzer Katyusha Arty Sound",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip the folders into your ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\soundExploring.mp3"
+        "latestInstallGuide": "Unzip the folders into your ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\soundExploring.mp3"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide explicitly instructs unzipping folders into res_mods/2.1.1.0 (versioned res_mods folder).",
+        "decisionReason": "Archive package and guide points to res_mods/<version> by copying top-level folders there.",
         "deleteDataWgpdc": false
       }
     },
@@ -7795,12 +7855,12 @@
       "title": "Girls und Panzer Nishi Kinuyo Arty Sound",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip the folders into your ?:\\World_of_Tanks\\res_mods\\2.1.0.0\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.1.0.0\\audioww\\soundExploring.mp3"
+        "latestInstallGuide": "Unzip the folders into your ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\soundExploring.mp3"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide instructs unzipping folders into res_mods/2.1.0.0 (versioned res_mods folder).",
+        "decisionReason": "Archive package and guide points to res_mods/<version> by copying top-level folders there.",
         "deleteDataWgpdc": false
       }
     },
@@ -7810,12 +7870,12 @@
       "title": "Girls und Panzer Katyusha Sixth Sense + Arty Sound",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\soundExploring.mp3 ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\gui\\flash\\sixthSense.swf"
+        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\soundExploring.mp3 ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\gui\\flash\\sixthSense.swf"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs unzipping multiple top-level folders (audioww and gui) into res_mods/2.1.1.0 (versioned res_mods folder).",
+        "decisionReason": "Archive package and guide points to res_mods/<version> by copying complete top-level folders audioww and gui there.",
         "deleteDataWgpdc": false
       }
     },
@@ -7825,12 +7885,12 @@
       "title": "Girls und Panzer Nishi Kinuyo Sixth Sense + Arty Sound",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\soundExploring.mp3 ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\gui\\flash\\sixthSense.swf"
+        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\soundExploring.mp3 ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\gui\\flash\\sixthSense.swf"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs unzipping both folders into res_mods/2.1.1.0 (versioned res_mods folder).",
+        "decisionReason": "Archive package and guide points to res_mods/<version> by copying complete top-level folders audioww and gui there.",
         "deleteDataWgpdc": false
       }
     },
@@ -8755,12 +8815,12 @@
       "title": "Girls und Panzer Katyusha Sixth Sense Mod",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\gui\\flash\\sixthSense.swf"
+        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\gui\\flash\\sixthSense.swf"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide explicitly instructs unzipping folders into a versioned res_mods/<version> folder.",
+        "decisionReason": "Archive package and guide points to res_mods/<version> by copying complete top-level folders audioww and gui there.",
         "deleteDataWgpdc": false
       }
     },
@@ -8860,12 +8920,12 @@
       "title": "Girls und Panzer Nishi Kinuyo Sixth Sense Mod",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.1.1.0\\gui\\flash\\sixthSense.swf"
+        "latestInstallGuide": "Unzip both folders into your ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\ folder and run the game. The resulting file structure should be: ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\audioww\\sixthSense.mp3 and ?:\\World_of_Tanks\\res_mods\\2.3.0.1\\gui\\flash\\sixthSense.swf"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide instructs unzipping folders into a versioned res_mods/<version> folder.",
+        "decisionReason": "Archive package and guide points to res_mods/<version> by copying complete top-level folders audioww and gui there.",
         "deleteDataWgpdc": false
       }
     },
