@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.038",
-  "sourceHash": "2a739131b051b0910ce97e14e6d7dc941f1dc9fb0394749662e50b9b49285521",
+  "catalogVersion": "v2026.06.039",
+  "sourceHash": "4187bb2e7c802159304387205d5c838a198da3a0ac9daf48aa31b7c15fd8515e",
   "sources": [
     "wgmods",
     "modhub"
@@ -90,7 +90,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form&nbsp;<br>⚠️ <i>Currently this mode works only for players located in Ukraine.</i></li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>✍️ Authorship</strong> The core mods of the pack — <strong>BattleStats</strong>, <strong>Message Center</strong>, <strong>Message Center filter</strong>, <strong>Remember server</strong>, and <strong>READY button for the platoon commander</strong> — are developed by <strong>Custix</strong>.</p><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
+      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form&nbsp;</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>✍️ Authorship</strong> The core mods of the pack — <strong>BattleStats</strong>, <strong>Message Center</strong>, <strong>Message Center filter</strong>, <strong>Remember server</strong>, and <strong>READY button for the platoon commander</strong> — are developed by <strong>Custix</strong>.</p><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version (2.3.0.0).</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v2_compression.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
@@ -251,6 +251,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.3.zip",
+          "updatedAt": "2026-06-15T15:51:10.469Z",
+          "sizeBytes": 16150997,
+          "fileName": "CustomSixthSense_1.0.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors, smooth playback of animations)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.2.zip",
           "updatedAt": "2026-06-14T17:37:20.801Z",
@@ -271,8 +281,8 @@
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.2.zip",
-        "changeLog": "- Updated Custom Sixth Sense 1.0.2 (fixed FPS drop on the first sixth-sense animation)",
+        "fileName": "CustomSixthSense_1.0.3.zip",
+        "changeLog": "- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors, smooth playback of animations)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1023,7 +1033,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.8,
       "descriptionHtml": "<p><strong>Legacy Hangar UI</strong> <strong>Author:</strong> Renovo</p><p><strong>Compatible Client Version:</strong> 2.3.0.0+ (World of Tanks 2.0)</p><p><strong>Concept &amp; Features</strong></p><p>Tired of the new modern Gameface hangar and want to return to the classic nostalgic feeling? <strong>Legacy Hangar UI</strong> allows you to force the classic Flash-based (Scaleform) hangar interface inside World of Tanks 2.0!</p><p>With this mod, you can dynamically switch between the modern Gameface UI and the nostalgic classic Scaleform hangar on the fly:</p><p><strong>Instant Toggling:</strong> Press <strong>Ctrl + I</strong> inside the hangar to instantly switch the interface between the classic Scaleform hangar and the modern Gameface hangar.</p><p><strong>Classic Navigation:</strong> Restores the classic navigation buttons and elements to provide a visual look-alike of the old hangar UI layout.<br><strong>Custom NavBar &amp; Installation: </strong>The navigation menu has been added as a separate modification to give users full freedom of choice. If for any reason you do not wish to use it, please install only the LegacyHangar .wotmod file into your game client.</p><p><strong>Important Note &amp; Limitations</strong></p><p><strong>Mode Selector &amp; Navigation:</strong> The game mode selector button is accessible directly within the top navigation menu.</p><p><strong>No Promo Banners:</strong> Banners are completely removed and there are no plans to add them. If you need to check them out, you can find them in the Modern UI.</p><p><strong>Platoon Creation:</strong> The \"Create Platoon\" button is located at the bottom of the screen, just like in the Modern UI.</p><p><strong>Upgrade Menu for Tier XI:</strong> The Field Modification button works seamlessly for both Tier XI and lower-tier vehicles. For Tier XI, it opens the Upgrades menu, while for Tier X and below, it triggers the standard Field Modification menu.</p><p>If you need to view banners or adjust other settings using the new Gameface UI, simply press <strong>Ctrl + I</strong> to switch back to the modern interface on the fly, and then press it again to return to the classic hangar!</p><p><i><strong>Please note that this mod only changes the visual appearance of the hangar interface itself. It does NOT restore the legacy style of other screens, such as the post-battle statistics window, store, storage, or other lobby views.</strong></i></p><p><strong>Known Issues</strong></p><p><strong>Pet System:</strong> Access to the Pet System does not function while in Legacy UI mode, making it impossible to claim Pet rewards due to Scaleform compatibility limitations. However, rewards and the Pet menu can still be accessed normally in the Modern UI. If you want to avoid switching back and forth every time, you can use the <strong>Pet Gift Auto Claim</strong> mod by <i>Gravity_Assist</i>, available here: <a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/ <i>(Example: C:/Games/World_of_Tanks/mods/x.x.x.x/)</i></li><li><strong>Note for Open.WG:</strong> If not already installed, the Open.WG library must be placed in the following subdirectory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/net.openwg/</li><li>Launch the game client.<br>&nbsp;</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-06-03_222423703.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -19127,7 +19137,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Makes the aiming circle more visible with thicker borders and a highlighted circle. Useful if you have a hard time seeing the reticle (like myself).<br><br><strong>Works with mods that alter or reduce the reticle size.</strong><br><br><strong>Important:</strong> This mod only works with the Circle II, III, or IV settings, it will NOT work properly with Circle I, see Installation for details.</p><p>Additionally supports the Leopard 120 and the <a href=\"https://drive.proton.me/urls/MGZER8VPXW#aqipF8hZa7lz\">Gorilla</a> reticles.<br><br>Other vehicles with unique reticles (like UK double barrels) will be supported eventually.</p><p>For any issue or suggestions, you can contact me by joining the <a href=\"https://discord.gg/world-of-tanks\">Official World of Tanks Discord</a> and messaging \"senarei\".</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong><br>- Copy the \".wotmod\" file to /mods/x.x.x.x/ in your World of Tanks installation folder.<br>- Delete \"data.wgpdc\" in the World of Tanks folder if present (cache file).<br>- Set \"Aiming\" to \"Circle II\", \"Circle III\", or \"Circle IV\".&nbsp;</p>",
@@ -19138,6 +19148,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/me.juliette.morevisible_2.3.0.1.wotmod",
+          "updatedAt": "2026-06-15T20:41:08.939Z",
+          "sizeBytes": 598596,
+          "fileName": "me.juliette.morevisible_2.3.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "- Updated for 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "2.3.0.0",
@@ -19190,9 +19210,9 @@
         }
       ],
       "latest": {
-        "fileName": "me.juliette.morevisible_2.3.0.0.wotmod",
-        "changeLog": "- Updated for 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "me.juliette.morevisible_2.3.0.1.wotmod",
+        "changeLog": "- Updated for 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25366,7 +25386,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.8,
       "descriptionHtml": "<p>Just a simple mod that adds names and the tier to the icons so you can make the panel smaller. Premiums and rewards have the tier colour as gold.</p><p>For any issue or suggestions, you can contact me by joining the <a href=\"https://discord.gg/world-of-tanks\">Official World of Tanks Discord</a> and messaging \"senarei\".</p><p><strong>Thanks:</strong><br>- <a href=\"https://roman.st/TankIconMaker\">Roman's TankIconMaker</a> for the ability to make your own custom icons AND <a href=\"https://github.com/MaggzWOT/TankIconMaker\">Maggz for updating it to support newer versions</a>.</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong><br>- Make sure you have a mod that prevents enemy icons from being flipped (see below for details).<br>- Copy the \".wotmod\" file to \\mods\\x.x.x.x\\ in your World of Tanks installation folder.<br>- Delete \"data.wgpdc\" in the World of Tanks folder if present (cache file).<br>- Delete any other contour mods you may have in:<br>\\res_mods\\x.x.x.x\\gui\\flash\\atlases<br>\\res_mods\\x.x.x.x\\gui\\maps\\icons\\vehicle\\contour</p><p><strong>Preventing mirrored enemy icons (if you don't have XVM):</strong><br>- (WGMods hosted) Install any contour icon mod from <a href=\"https://wgmods.net/46/\">Aslain's Modpack</a> and then copy my folder *after* the installation and replace any files it asks.<br>- Google \"Aslain's Anti-Mirror mod\" and find the thread on KoreanRandom</p>",
@@ -25378,6 +25398,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/me.juliette.nameplateicons_2.3.0.1.wotmod",
+          "updatedAt": "2026-06-15T20:41:15.101Z",
+          "sizeBytes": 41751117,
+          "fileName": "me.juliette.nameplateicons_2.3.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "- Updated for 2.3.0.1"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "2.3.0.0",
@@ -25430,9 +25460,9 @@
         }
       ],
       "latest": {
-        "fileName": "me.juliette.nameplateicons_2.3.0.0.wotmod",
-        "changeLog": "- Updated for 2.3.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "me.juliette.nameplateicons_2.3.0.1.wotmod",
+        "changeLog": "- Updated for 2.3.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -27322,6 +27352,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.1.04",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.06.15.2.zip",
+          "updatedAt": "2026-06-15T17:45:16.639Z",
+          "sizeBytes": 7817171,
+          "fileName": "tomatogg_2026.06.15.2.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.1.03",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.06.15.1.zip",
           "updatedAt": "2026-06-15T10:37:52.809Z",
@@ -27369,20 +27409,10 @@
           "fileName": "tomatogg_2026.05.30.00.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "1.7.18",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.04.21.01_DLj4fqR.zip",
-          "updatedAt": "2026-05-17T16:03:07.366Z",
-          "sizeBytes": 4323686,
-          "fileName": "tomatogg_2026.04.21.01_DLj4fqR.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "tomatogg_2026.06.15.1.zip",
+        "fileName": "tomatogg_2026.06.15.2.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -35427,6 +35457,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
+          "updatedAt": "2026-06-15T16:04:33.209Z",
+          "sizeBytes": 58348333,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #03 (15-06-2026):\n- Updated Camo Selector 1.6 (bug fixes)\n- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors: smooth atlas animations in their menus)\n- Updated Tomato.gg (stats are now shown in three locations: player panels, TAB menu, and battle results)\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_02.exe",
           "updatedAt": "2026-06-14T17:15:25.027Z",
@@ -35457,8 +35497,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_02.exe",
-        "changeLog": "v2.3.0.1 #02 (14-06-2026):\n- Updated enhanced modsSettingsApi v1.2.0 (new options for mod authors, long hotkey labels no longer cut off, fixed dropdown selection highlight, minor fixes)\n- Updated Dispersion Reticle by Pruszko\n- Updated Show vehicle body in the sniper view 2.0.1 (zoom slider limited to x0.5-1.0 as lower values broke the game; x1 value shown again; new option to turn off the extra wide view of your own tank)\n- Updated Custom Sixth Sense 1.0.2 (fixed FPS drop on the first sixth-sense animation)\n- Updated Show vehicle body in the sniper view 2.0.2 (fixed invisible turret when watching replays)\n- Updated Pet Gift Auto Claim (cleaned up code and fixed double notifications; claiming a Gift now triggers a random pet animation)\n- Added Camo Selector (by Gravity_Assist) [mod #992]\n- Added Crosshair Ballistics Info (by Gravity_Assist) [mod #737]\n- Added Gravity_Assist preset to the top drop-down menu\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
+        "changeLog": "v2.3.0.1 #03 (15-06-2026):\n- Updated Camo Selector 1.6 (bug fixes)\n- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors: smooth atlas animations in their menus)\n- Updated Tomato.gg (stats are now shown in three locations: player panels, TAB menu, and battle results)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
