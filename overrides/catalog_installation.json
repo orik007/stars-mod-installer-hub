@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.040",
+  "catalogVersion": "v2026.06.041",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7715",
+      "title": "x5 XP Multiplier Counter",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy the .wotmod file into: World_of_Tanks/mods/<game version>/ Then restart the game. The \"x5: N\" indicator appears in the Garage. Drag it with the left mouse button to position it."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7713",
