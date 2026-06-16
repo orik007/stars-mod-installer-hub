@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.039",
+  "catalogVersion": "v2026.06.040",
   "mods": [
     {
       "source": "wgmods",
@@ -89,6 +89,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7709",
+      "title": "Tank Icons",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Copy gui [WoT game directory]/ res_mods /[version]/"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy the top-level gui folder into res_mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
