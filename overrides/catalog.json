@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.046",
-  "sourceHash": "5b1c380b95ed764a23ec8c398b8b9af4fec2dc6ea8ea9f2daf8a72f969d79530",
+  "catalogVersion": "v2026.06.047",
+  "sourceHash": "bf1824fadd6ac1bfdaa06413e3dac5a6eaef11ee042f691bdbbe9b7d19e3b82d",
   "sources": [
     "wgmods",
     "modhub"
@@ -126,8 +126,8 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.7,
-      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form&nbsp;</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>✍️ Authorship</strong> The core mods of the pack — <strong>BattleStats</strong>, <strong>Message Center</strong>, <strong>Message Center filter</strong>, <strong>Remember server</strong>, and <strong>READY button for the platoon commander</strong> — are developed by <strong>Custix</strong>.</p><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
+      "mark": 4,
+      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version (2.3.0.0).</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v2_compression.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
@@ -214,18 +214,28 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.0.1.1.7.wotmod",
-          "updatedAt": "2026-06-16T18:48:53.327Z",
-          "sizeBytes": 188003,
-          "fileName": "gravity.camo_selector.2.3.0.1.1.7.wotmod",
+          "modVersion": "1.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.0.1.1.9.wotmod",
+          "updatedAt": "2026-06-18T16:24:58.046Z",
+          "sizeBytes": 209927,
+          "fileName": "gravity.camo_selector.2.3.0.1.1.9.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "With 1.7 your creations are now visible to other players who are also using the mod, if you want to disable this you can do so by clicking on \"Style Share\" in the exterior, doing so also prevents you from seeing other peoples styles."
+          "changeLog": "Fixed various special 2D Styles, such as Polish Independence, Redcoat, Rattlesnake and many more not showing correctly."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.0.1.1.8.wotmod",
+          "updatedAt": "2026-06-18T14:57:49.289Z",
+          "sizeBytes": 217824,
+          "fileName": "gravity.camo_selector.2.3.0.1.1.8.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed 3D attachments not showing for style share.\nAdded replay support, replays played with the mod now contain the custom outfit, watching such a replay with the mod installed will show those custom outfits. (This includes outfits that got shared through Style Share.)"
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.0.1.1.7.wotmod",
-        "changeLog": "With 1.7 your creations are now visible to other players who are also using the mod, if you want to disable this you can do so by clicking on \"Style Share\" in the exterior, doing so also prevents you from seeing other peoples styles.",
+        "fileName": "gravity.camo_selector.2.3.0.1.1.9.wotmod",
+        "changeLog": "Fixed various special 2D Styles, such as Polish Independence, Redcoat, Rattlesnake and many more not showing correctly.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3024,16 +3034,6 @@
           "fileName": "T.F.D._WoT_NP8QHDo.zip",
           "fileExt": ".zip",
           "changeLog": "No change"
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T.F.D._WoT_lxIbKi6.zip",
-          "updatedAt": "2026-04-28T11:52:23.683Z",
-          "sizeBytes": 53671613,
-          "fileName": "T.F.D._WoT_lxIbKi6.zip",
-          "fileExt": ".zip",
-          "changeLog": "Add about 10 voices as player's command.\nAdd 3 musics as garage and battle-loading music."
         }
       ],
       "latest": {
@@ -19186,7 +19186,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.4,
       "descriptionHtml": "<p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This program allows you to update/download clean camo mods, when updating it only downloads the changes instead of the entire new mod, as a result of that you can update your clean camo mods way faster as you only need to download the changes which are usually between 10MB and 100MB instead of 3GB.<br><br>Compatible with:</p><ul><li><a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a> <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/ </a><a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></li><li><a href=\"https://wgmods.net/6998/\">https://wgmods.net/6998/</a></li></ul><p><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p>",
       "installationGuideHtml": "<p>Place the program into your world of tanks directory and execute it.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image3_GPZJC2u.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -21526,16 +21526,6 @@
           "fileName": "HBR_WoT.zip",
           "fileExt": ".zip",
           "changeLog": "No change"
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "5.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HBR_WoT_gYmGZfs.zip",
-          "updatedAt": "2026-04-23T08:24:54.990Z",
-          "sizeBytes": 772312212,
-          "fileName": "HBR_WoT_gYmGZfs.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -29054,16 +29044,6 @@
           "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_wpsqDJD.rar",
           "fileExt": ".rar",
           "changeLog": "Updated for WoT 2.2.1.2\nAdd auto updater support for all WoT client types (WGC, Steam, Common Test, etc..)"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "2.2.1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_9uWGiur.rar",
-          "updatedAt": "2026-04-29T23:03:29.000Z",
-          "sizeBytes": 46628437,
-          "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_9uWGiur.rar",
-          "fileExt": ".rar",
-          "changeLog": "Updated for WoT 2.2.1.2"
         }
       ],
       "latest": {
@@ -33743,16 +33723,6 @@
           "fileName": "ASMC_12-Year_Anniversary_Mod_Pack.rar",
           "fileExt": ".rar",
           "changeLog": "Updated for WoT 2.2.1.2\nAdd auto updater support for all WoT client types (WGC, Steam, Common Test, etc..)"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "2.2.1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_4V7GyN0.rar",
-          "updatedAt": "2026-04-29T23:03:36.657Z",
-          "sizeBytes": 46628437,
-          "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_4V7GyN0.rar",
-          "fileExt": ".rar",
-          "changeLog": "Updated for WoT 2.2.1.2"
         }
       ],
       "latest": {
@@ -35317,16 +35287,6 @@
           "fileName": "SicFunzler-Mod_V220.exe",
           "fileExt": ".exe",
           "changeLog": "Wot update 2.2.1.3"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "V 206",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V206.exe",
-          "updatedAt": "2026-05-09T15:01:52.733Z",
-          "sizeBytes": 292856137,
-          "fileName": "SicFunzler-Mod_V206.exe",
-          "fileExt": ".exe",
-          "changeLog": "kleine optimierungen "
         }
       ],
       "latest": {
