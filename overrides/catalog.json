@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.043",
-  "sourceHash": "8f22bea4c22542f18a6bd92b0e383990a5c439c122f9e9f14f2f9c627fced9c9",
+  "catalogVersion": "v2026.06.044",
+  "sourceHash": "60b3fb6bb4d7c6a8ca21b1b6e4d7b4f722e85268745096decbb52474f8a80ade",
   "sources": [
     "wgmods",
     "modhub"
@@ -19214,7 +19214,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.7,
       "descriptionHtml": "<p>Makes the aiming circle more visible with thicker borders and a highlighted circle. Useful if you have a hard time seeing the reticle (like myself).<br><br><strong>Works with mods that alter or reduce the reticle size.</strong><br><br><strong>Important:</strong> This mod only works with the Circle II, III, or IV settings, it will NOT work properly with Circle I, see Installation for details.</p><p>Additionally supports the Leopard 120 and the <a href=\"https://drive.proton.me/urls/MGZER8VPXW#aqipF8hZa7lz\">Gorilla</a> reticles.<br><br>Other vehicles with unique reticles (like UK double barrels) will be supported eventually.</p><p>For any issue or suggestions, you can contact me by joining the <a href=\"https://discord.gg/world-of-tanks\">Official World of Tanks Discord</a> and messaging \"senarei\".</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong><br>- Copy the \".wotmod\" file to /mods/x.x.x.x/ in your World of Tanks installation folder.<br>- Delete \"data.wgpdc\" in the World of Tanks folder if present (cache file).<br>- Set \"Aiming\" to \"Circle II\", \"Circle III\", or \"Circle IV\".&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_Ozd3e2K.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -35513,6 +35513,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "04",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_04.exe",
+          "updatedAt": "2026-06-17T22:36:54.774Z",
+          "sizeBytes": 58580444,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_04.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #04 (17-06-2026):\n- Updated enhanced modsSettingsApi 1.3.0 (every mod now has its own reset button by its on/off switch that restores that mod's options and hotkeys to defaults; a search box reachable with Ctrl+F to quickly find a mod by name; and new options for mod authors)\n- Updated Tomato.gg (fixed playerpanels showing stats even when disabled)\n- Updated BalCalcMod 2.3.5, AutoAim Indication+ 2.0.5 and Show vehicle body in the sniper view 2.0.3 (small internal fix: they no longer re-save their config needlessly on every game start)\n- Updated Camo Selector 1.7 (added Style Share, custom styles now visible to other players using the mod, toggleable in the Customization menu)\n- Updated Pet Gift Auto Claim (static texts now follow the installed game language; some languages still unsupported)\n- Updated Research Progress Bar\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "03",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
           "updatedAt": "2026-06-15T16:04:33.209Z",
@@ -35553,8 +35563,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
-        "changeLog": "v2.3.0.1 #03 (15-06-2026):\n- Updated Camo Selector 1.6 (bug fixes)\n- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors: smooth atlas animations in their menus)\n- Updated Tomato.gg (stats are now shown in three locations: player panels, TAB menu, and battle results)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_04.exe",
+        "changeLog": "v2.3.0.1 #04 (17-06-2026):\n- Updated enhanced modsSettingsApi 1.3.0 (every mod now has its own reset button by its on/off switch that restores that mod's options and hotkeys to defaults; a search box reachable with Ctrl+F to quickly find a mod by name; and new options for mod authors)\n- Updated Tomato.gg (fixed playerpanels showing stats even when disabled)\n- Updated BalCalcMod 2.3.5, AutoAim Indication+ 2.0.5 and Show vehicle body in the sniper view 2.0.3 (small internal fix: they no longer re-save their config needlessly on every game start)\n- Updated Camo Selector 1.7 (added Style Share, custom styles now visible to other players using the mod, toggleable in the Customization menu)\n- Updated Pet Gift Auto Claim (static texts now follow the installed game language; some languages still unsupported)\n- Updated Research Progress Bar\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
