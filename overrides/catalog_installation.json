@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.049",
+  "catalogVersion": "v2026.06.050",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7716",
+      "title": "A-20 <RACING CUPS>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: Delete the data.wgdpc present in the game files of wot, it will reset the game cache, allowing the new exhaust fumes and gun sounds to load."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7717",
+      "title": "Pz I C <Centurion Racer>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: Delete the data.wgdpc present in the game files of wot, it will reset the game cache, allowing the new exhaust fumes and gun sounds to load."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7715",
