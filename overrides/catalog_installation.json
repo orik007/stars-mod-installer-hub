@@ -1,11 +1,41 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.053",
+  "catalogVersion": "v2026.06.054",
   "mods": [
     {
       "source": "wgmods",
+      "sourceId": "7719",
+      "title": "Vehicle Contour Icons - Colored by class (with or without XVM)",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Just download the .wotmod file to your WorldofTanks>mods>(current version)> folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7720",
+      "title": "Scheduled Personal Reserves",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7718",
-      "title": "Crew Book Auto-Claim",
+      "title": "Crew Book Auto Claim",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
