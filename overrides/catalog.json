@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.053",
-  "sourceHash": "0457997e25307b17067bf45bb806091fc125d2fff010543b4651394690186e4f",
+  "catalogVersion": "v2026.06.054",
+  "sourceHash": "078b2ed12ea32046f76514936754503dc7dd78fa560e6cd8516b18e482ad5500",
   "sources": [
     "wgmods",
     "modhub"
@@ -8,8 +8,44 @@
   "mods": [
     {
       "source": "wgmods",
-      "sourceId": "7718",
-      "title": "Crew Book Auto-Claim",
+      "sourceId": "7719",
+      "title": "Vehicle Contour Icons - Colored by class (with or without XVM)",
+      "ownerUsername": "FartsInTanks",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Icons for showing vehicle class by color:</p><p>Black - Heavy Tank</p><p>Red - Artillery</p><p>Green - Medium Tank</p><p>Blue - Tank Destroyer</p><p>White - Light Tank</p><p>&nbsp;</p><p>Works with or without XVM Icon Mirroring</p>",
+      "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ColoredCovershot_pBXL9iE.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7719/",
+      "tagIds": [
+        "14"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.0.1.wotmod",
+          "updatedAt": "2026-06-20T11:37:27.874Z",
+          "sizeBytes": 20231675,
+          "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.0.1.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7720",
+      "title": "Scheduled Personal Reserves",
       "ownerUsername": "Gravity_Assist",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -17,7 +53,44 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Automatically claims the Crew Book rewards from the 6-perk crew XP system. 📚&nbsp;<br><br>Once a crew member has 6 perks, extra XP goes into the post-progression pool. When there is enough XP for a Crew Book reward, this mod claims it for you.&nbsp;<br><br>No buttons to press, no menu to check — just play and let it collect the books in the background.&nbsp;<br><br>Features:&nbsp;<br>📚 Auto-claims Crew Book rewards&nbsp;<br>👥 For crews with 6 perks&nbsp;<br>🔔 Uses the normal in-game reward messages&nbsp;<br>⚙️ No settings needed<br>&nbsp;</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "descriptionHtml": "<p>Stops your Personal Reserves from starting while you are still stuck in a fight. ⏳💥 Pick a Personal Reserve like normal, and this mod will hold it until you leave the battle or the battle is decided. That means less wasted boost time and better timing for your next match. No menus to babysit, no awkward waiting — just choose your reserve and keep playing.&nbsp;<br><br>Features:&nbsp;<br>⏳ Starts Personal Reserves when you leave the battle or when the battle is decided&nbsp;<br>💥 Helps prevent wasted boost minutes&nbsp;<br>🎯 Works from the garage and in battle&nbsp;<br>🔔 Shows hangar notifications in your game’s language<br>⚡ Instantly activate scheduled reserves anytime with Ctrl + Alt + A&nbsp;<br>❌ Cancel scheduled reserves anytime with Ctrl + Alt + R&nbsp;<br>⚙️ No settings needed&nbsp;<br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/scheduled_personal_reserves.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7720/",
+      "tagIds": [
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.1.2.wotmod",
+          "updatedAt": "2026-06-20T12:15:54.444Z",
+          "sizeBytes": 28388,
+          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed only one reserve activating when leaving battle with multiple reserves scheduled. All eligible scheduled reserves are now dispatched before exiting."
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.2.wotmod",
+        "changeLog": "Fixed only one reserve activating when leaving battle with multiple reserves scheduled. All eligible scheduled reserves are now dispatched before exiting.",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7718",
+      "title": "Crew Book Auto Claim",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Automatically claims the Crew Book rewards from the 6-perk crew XP system. 📚&nbsp;<br><br>Once a crew member has 6 perks, extra XP goes into the post-progression pool. When there is enough XP for a Crew Book reward, this mod claims it for you.&nbsp;<br><br>No buttons to press, no menu to check — just play and let it collect the books in the background.&nbsp;<br><br>Features:&nbsp;<br>📚 Auto claims Crew Book rewards&nbsp;<br>👥 For crews with 6 perks&nbsp;<br>🔔 Uses the normal in-game reward messages&nbsp;<br>⚙️ No settings needed<br>&nbsp;</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-06-19_195158752.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7718/",
@@ -28,18 +101,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/crew.book.autoclaim.2.3.0.1.1.0.wotmod",
-          "updatedAt": "2026-06-19T20:11:07.817Z",
-          "sizeBytes": 14700,
-          "fileName": "crew.book.autoclaim.2.3.0.1.1.0.wotmod",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/crew.book.autoclaim.2.3.0.1.1.1.wotmod",
+          "updatedAt": "2026-06-20T10:35:41.056Z",
+          "sizeBytes": 19014,
+          "fileName": "crew.book.autoclaim.2.3.0.1.1.1.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": ""
+          "changeLog": "Fixed delayed automatic claims and incorrect crew book notifications."
         }
       ],
       "latest": {
-        "fileName": "crew.book.autoclaim.2.3.0.1.1.0.wotmod",
-        "changeLog": "",
+        "fileName": "crew.book.autoclaim.2.3.0.1.1.1.wotmod",
+        "changeLog": "Fixed delayed automatic claims and incorrect crew book notifications.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -239,7 +312,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 4.1,
       "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version (2.3.0.0).</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v2_compression.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -259,16 +332,6 @@
           "fileName": "Custix_ModPack_for_2.3.0.1_v2.23.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Додано поведінку прев'ю модів у вікні вибору компонентів; Оновлено custix.battlestats_0.8.4.wotmod (Виправлено баг з анонімами і виправлено сильну просадку FPS під час натискання TAB) ---- [EN]: Added mod preview functionality to the component selection window; Updated custix.battlestats_0.8.4.wotmod (Fixed a bug with anonymous players and fixed a significant FPS drop when pressing TAB)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.22",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.22.exe",
-          "updatedAt": "2026-06-13T19:43:27.959Z",
-          "sizeBytes": 3890873,
-          "fileName": "Custix_ModPack_for_2.3.0.1_v2.22.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Мод custix.platoonready оновлено до версії 0.5.1 - «Кнопка ГОТОВИЙ для командира взвода»: перемикання готовності без відкриття взвода або клавішами Alt+R; колір фону кнопки — власний стан (сірий «не готовий», зелений «готовий»); центральна лампочка показує готовність решти взводу. \n[EN]: Updated the custix.platoonready mod to version 0.5.1 - \"READY button for the platoon commander\": toggle readiness without opening the platoon or with Alt+R; the button background shows your own state (gray \"not ready\", green \"ready\"); a centered LED shows the rest of the platoon's readiness."
         }
       ],
       "latest": {
@@ -324,7 +387,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.6,
       "descriptionHtml": "<h2>⚠️<strong>The mod doesnt allow you to buy things you normally cant buy </strong>⚠️</h2><h2><br>🎨 Universal Customization Mod</h2><p>Customize your vehicles with almost any customization element that exists in the game.</p><p>The mod allows you to apply:</p><ul><li>2D styles</li><li>Camouflages</li><li>Paints</li><li>Decals</li><li>3D styles</li><li>Progressive 3D styles</li><li>3D attachments</li><li>Inscriptions</li><li>Emblems</li><li>Effects</li></ul><p>Mix and match different customization elements to create unique vehicle appearances and experiment with combinations that are normally not available together.</p><h2>🌐 Style Share</h2><p>Style Share lets other players who also use the mod see your custom battle appearance.</p><p>You can enable or disable Style Share from the Exterior menu.<br><i>It is enabled by default.</i></p><p>When enabled:</p><p>Your selected custom style can be shared in battle.<br>You can see shared custom styles from other players who also have the mod enabled.<br>Players without the mod will not see these shared styles.<br>If you disable Style Share, your style will not be shared and you will not see shared styles from others.</p><h2>🛠️ How to use</h2><ol><li>Open the <strong>Exterior</strong> menu for the vehicle you want to customize.</li><li>Apply any camouflage that you own.</li><li>Purchase or confirm the camouflage, then leave the Exterior menu.</li><li>Open the Exterior menu again.</li><li>Apply any 2D style, camouflage, paint, decal, 3D style, 3D attachment, inscription, or emblem you want.</li><li>Leave the Exterior menu by pressing <strong>Escape</strong>.</li><li>Your selected customization will now be applied to the vehicle.</li></ol><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/WnMGZgt9Xqk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/WnMGZgt9Xqk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>✨ Recommended: Clean Camo</h2><p>For the best visual experience, using <strong>Clean Camo</strong> alongside this mod is recommended.</p><p><strong>Part 1:</strong> <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a></p><p><strong>Part 2:</strong> <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a></p><p><strong>Part 3:</strong> <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><h2><br>✨ Recommended: Extra Style Filters</h2><p>Since the mod unlocks everything, having the ability to search and favourite styles / paints etc. is very helpful.<br><br><strong>Download: </strong><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><h2>ℹ️ Important</h2><p>Have fun creating your own unique tank designs! 🎨<br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-06-12_120610066.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -28885,7 +28948,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Custom Vehicle Icons</p><p>Icons with the Tank Name, Tier, and colored by class. No need to use the expanded players panel, all the relevant info in one icon.</p><p>Black -Heavy, Green -Medium, White -Light, Blue -TD, Red -SPG</p><p>Turn off 'Show Vehicle Tier' in Settings.</p><p>Requires the use of an 'icon mirroring' mod, such as XVM.</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Roman Starkov</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p><p>Either XVM, or an Icon Mirroring Mod will be needed, otherwise the enemy in player panel will be mirrored.</p>",
@@ -28898,20 +28961,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "2.2.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor_2.2.0.0.wotmod",
-          "updatedAt": "2026-04-03T09:44:16.965Z",
-          "sizeBytes": 21361661,
-          "fileName": "FiT.Graphics.TankContourIconsColor_2.2.0.0.wotmod",
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor_2.3.0.1.wotmod",
+          "updatedAt": "2026-06-20T11:37:30.722Z",
+          "sizeBytes": 20232735,
+          "fileName": "FiT.Graphics.TankContourIconsColor_2.3.0.1.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.TankContourIconsColor_2.2.0.0.wotmod",
+        "fileName": "FiT.Graphics.TankContourIconsColor_2.3.0.1.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30448,7 +30511,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Simple mod to change all of the gun marks on barrels to the more visible orange stripe of the Swedish tanks.</p><p>Please rate this modification if you use it! Thank you!</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p>",
@@ -30461,20 +30524,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.1.1.1",
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.SwGunMarks_2.0.wotmod",
-          "updatedAt": "2026-02-12T21:50:54.447Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.SwGunMarks_2.0_iPWGJQi.wotmod",
+          "updatedAt": "2026-06-20T12:23:06.832Z",
           "sizeBytes": 667941,
-          "fileName": "FiT.Graphics.SwGunMarks_2.0.wotmod",
+          "fileName": "FiT.Graphics.SwGunMarks_2.0_iPWGJQi.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.SwGunMarks_2.0.wotmod",
+        "fileName": "FiT.Graphics.SwGunMarks_2.0_iPWGJQi.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31888,7 +31951,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Running into the flat train cars? Can't see the trains? For the colorblind and hard of seeing. Maybe now you can unblock Ensk :)</p><p>Please rate this modification if you use it! Thank you!</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
@@ -31901,20 +31964,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.2.0.2",
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.VisibleRailcars_2.0_7cOEsvi.wotmod",
-          "updatedAt": "2026-04-04T02:08:20.288Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.VisibleRailcars_2.0.wotmod",
+          "updatedAt": "2026-06-20T12:21:58.775Z",
           "sizeBytes": 1399966,
-          "fileName": "FiT.Graphics.VisibleRailcars_2.0_7cOEsvi.wotmod",
+          "fileName": "FiT.Graphics.VisibleRailcars_2.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.VisibleRailcars_2.0_7cOEsvi.wotmod",
+        "fileName": "FiT.Graphics.VisibleRailcars_2.0.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -32015,7 +32078,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.1,
       "descriptionHtml": "<p>Simple mod to change all of the gun marks on barrels to the more visible white stripe of the UK and French tanks.</p><p>Please rate this modification if you use it! Thank you!</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p>",
@@ -32028,20 +32091,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.2.0.2",
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.UkFrGunMarks_2.0_jTE11eM.wotmod",
-          "updatedAt": "2026-04-04T02:08:48.306Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.UkFrGunMarks_2.0.wotmod",
+          "updatedAt": "2026-06-20T12:21:23.562Z",
           "sizeBytes": 667941,
-          "fileName": "FiT.Graphics.UkFrGunMarks_2.0_jTE11eM.wotmod",
+          "fileName": "FiT.Graphics.UkFrGunMarks_2.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.UkFrGunMarks_2.0_jTE11eM.wotmod",
+        "fileName": "FiT.Graphics.UkFrGunMarks_2.0.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -35566,6 +35629,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
+          "updatedAt": "2026-06-20T09:24:34.968Z",
+          "sizeBytes": 58604862,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #06 (20-06-2026):\n- Added Crew Book Auto Claim (by Gravity_Assist) [mod #1102]\n- Updated enhanced modsSettingsApi 1.3.2 (fixed an issue that could leave the mods settings menu empty for some mods; minor fix for mod authors)\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "05",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_05.exe",
           "updatedAt": "2026-06-19T17:44:06.434Z",
@@ -35613,21 +35686,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_01.exe",
           "fileExt": ".exe",
           "changeLog": "v2.3.0.1 #01 (11-06-2026):\n- Updated few protanki mods\n- Updated SpotMeter\n- Updated enhanced modsSettingsApi v1.1.2\n- Updated Show Vehicle in Sniper Mode (rework by Aslain v2.0.0: fixed stuck sniper zoom & shifted zoom levels, new settings menu)\n- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "00",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_00.exe",
-          "updatedAt": "2026-06-11T12:24:00.749Z",
-          "sizeBytes": 57483533,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_00.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #00 (11-06-2026):\n- Initial compatibility with WoT 2.3.0.1\n- Updated XVM 13.1.0_0031\n- Updated The anti-mirror for non-XVM contour icons\n- Updated Change client language EN\n- Updated Clean Camo\n- Updated Battle Equipment\n- Updated Random tank selection v1\n- Updated SpotMeter\n- Updated Challenges\n- Updated Player Panel Pro\n- Installer: preview freezes traced to the CDN and eliminated (previews now load directly from the server)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_05.exe",
-        "changeLog": "v2.3.0.1 #05 (19-06-2026):\n- Installer: Fixed searching a mod by number made its name invisible on light-themed Windows (now bold/underlined, like searching by name)\n- Updated enhanced modsSettingsApi 1.3.1 (overlapping fix; new option for mod authors)\n- Updated Minimap images: YaYa tactical (updated maps: Airfield, Lakeville and Safe Haven)\n- Updated Camo Selector 1.10 (fixed missing 2D styles + 3D attachments; added replay support for custom outfits; Disabled the purchase button when a not owned Element is applied)\n- Updated Danger Lights (removed old/new selections from the modpack; now only main entry, details set in‑garage mod menu)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
+        "changeLog": "v2.3.0.1 #06 (20-06-2026):\n- Added Crew Book Auto Claim (by Gravity_Assist) [mod #1102]\n- Updated enhanced modsSettingsApi 1.3.2 (fixed an issue that could leave the mods settings menu empty for some mods; minor fix for mod authors)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
