@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.054",
+  "catalogVersion": "v2026.06.055",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7721",
+      "title": "Visible Enemy Spotted icons",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Just download the .wotmod file to your WorldofTanks>mods>(current version)> folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7719",
