@@ -1,11 +1,87 @@
 {
-  "catalogVersion": "v2026.06.056",
-  "sourceHash": "f48e9520478137e6cc99d8b92439b5c599935559c57db1adf96fd6d98f63bf5e",
+  "catalogVersion": "v2026.06.057",
+  "sourceHash": "d3123d44704fc9961e11d868cdb00c209bfd76b1c876a1f48d8a82ce2f0951e0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7723",
+      "title": "Current DPM and dispersion HUD",
+      "ownerUsername": "Stig97_1203219",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>I was interested to see the actual DPM in events and with perks active. Later added dispersion (100m and meters to target) to have a reason to rage on with actual proof :)<br>Shows your tank's current DPM (damage per minute) in battle, live,<br>for every gun type - plus gun accuracy (dispersion) at the tank you<br>are aiming at and at 100 m. The label is draggable.</p><p>----------------------------------------------------------------<br>USING IT<br>----------------------------------------------------------------<br>- The DPM appears as on-screen text, e.g. &nbsp;DPM: 2,480<br>- Switch shells (1 / 2 / 3) and the DPM updates to that shell.<br>- Below it: accuracy at 100 m, and - when you aim at a tank - the<br>&nbsp;dispersion at that tank's distance.</p><p>- MOVE IT: hold CTRL and left-click-drag the label. Release to drop.<br>&nbsp;The position is saved and restored for your next battle.</p><p>----------------------------------------------------------------<br>NOTES<br>----------------------------------------------------------------<br>- Tested on World of Tanks PC (EU/NA/Asia), client version 2.3.0.1.<br>&nbsp;It should keep working on later client versions unless Wargaming<br>&nbsp;changes the relevant game code; if a new version breaks it, copy<br>&nbsp;the .wotmod into the new version folder and report any issue.</p><p>- Settings are stored in &nbsp;mods\\configs\\dpm_display.json &nbsp;(text<br>&nbsp;colour and on-screen position). You normally don't need to touch<br>&nbsp;this - just drag the label in battle.</p><p>- This is an unofficial fan-made mod, not affiliated with Wargaming.<br>&nbsp;Released under the MIT License (see LICENSE). Use at your own risk.<br><br><br><br>MIT License</p><p>Copyright (c) 2026 Komarov</p><p>Permission is hereby granted, free of charge, to any person obtaining a copy<br>of this software and associated documentation files (the \"Software\"), to deal<br>in the Software without restriction, including without limitation the rights<br>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell<br>copies of the Software, and to permit persons to whom the Software is<br>furnished to do so, subject to the following conditions:</p><p>The above copyright notice and this permission notice shall be included in all<br>copies or substantial portions of the Software.</p><p>THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<br>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,<br>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE<br>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER<br>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,<br>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE<br>SOFTWARE.</p><p>This is an unofficial fan-made modification for World of Tanks. It is not<br>created by, affiliated with, or endorsed by Wargaming. \"World of Tanks\" is a<br>trademark of Wargaming.<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Locate your game folder, e.g.:<br>&nbsp; &nbsp; &nbsp;C:\\Games\\World_of_Tanks_EU</p><p>2. Copy the file<br>&nbsp; &nbsp; &nbsp;com.komarov.dpmdisplay_0.6.0.wotmod<br>&nbsp; into the \"mods\" sub-folder named for your CURRENT game version:<br>&nbsp; &nbsp; &nbsp;...\\World_of_Tanks_EU\\mods\\&lt;version&gt;\\</p><p>&nbsp; Example:<br>&nbsp; &nbsp; &nbsp;...\\World_of_Tanks_EU\\mods\\2.3.0.1\\com.komarov.dpmdisplay_0.6.0.wotmod</p><p>&nbsp; The version folder name must match the version the game is<br>&nbsp; actually running. If you are unsure, use the highest-numbered<br>&nbsp; folder already inside \"mods\".</p><p>3. If you had an older version of this mod, delete it from that<br>&nbsp; folder first (otherwise the label shows twice).</p><p>4. Start the game and enter a battle.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-06-21_08-56-44.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7723/",
+      "tagIds": [
+        "11",
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "6.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/com.komarov.dpmdisplay_0.6.0.wotmod",
+          "updatedAt": "2026-06-21T10:55:06.344Z",
+          "sizeBytes": 34869,
+          "fileName": "com.komarov.dpmdisplay_0.6.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "com.komarov.dpmdisplay_0.6.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7722",
+      "title": "Tank Info in Hangar",
+      "ownerUsername": "Z4imon",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info.</p><p>Created by <strong>Z4imon</strong></p><p>&nbsp;</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
+      "installationGuideHtml": "<p>Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion<br><br>If you already have gameface installed, only copy the tank_info_in_hangar file</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Titelbild_8yVI9Dj.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7722/",
+      "tagIds": [
+        "18",
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.0.zip",
+          "updatedAt": "2026-06-21T10:48:28.438Z",
+          "sizeBytes": 46156,
+          "fileName": "Z4imon.tank_info_in_hangar_1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Z4imon.tank_info_in_hangar_1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7721",
@@ -350,7 +426,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.1,
+      "mark": 4,
       "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version (2.3.0.0).</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v2_compression.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -363,6 +439,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.24",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.24.exe",
+          "updatedAt": "2026-06-21T10:55:35.893Z",
+          "sizeBytes": 4683426,
+          "fileName": "Custix_ModPack_for_2.3.0.1_v2.24.exe",
+          "fileExt": ".exe",
+          "changeLog": "[UA]: Оновлено моди custix.messagecenterbattlestab, custix.messagecenterfilter, custix.battlestats (Виправлення не значних помилок і багів, додано кеш результатів боїв щоб після перезавантаження гри результати боїв залишалися) ---- [EN]: Updated the custix.messagecenterbattlestab, custix.messagecenterfilter, and custix.battlestats mods (Fixed minor errors and bugs; added a battle results cache so that battle results are retained after restarting the game)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.23",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.23.exe",
           "updatedAt": "2026-06-19T07:57:04.439Z",
@@ -373,8 +459,8 @@
         }
       ],
       "latest": {
-        "fileName": "Custix_ModPack_for_2.3.0.1_v2.23.exe",
-        "changeLog": "[UA]: Додано поведінку прев'ю модів у вікні вибору компонентів; Оновлено custix.battlestats_0.8.4.wotmod (Виправлено баг з анонімами і виправлено сильну просадку FPS під час натискання TAB) ---- [EN]: Added mod preview functionality to the component selection window; Updated custix.battlestats_0.8.4.wotmod (Fixed a bug with anonymous players and fixed a significant FPS drop when pressing TAB)",
+        "fileName": "Custix_ModPack_for_2.3.0.1_v2.24.exe",
+        "changeLog": "[UA]: Оновлено моди custix.messagecenterbattlestab, custix.messagecenterfilter, custix.battlestats (Виправлення не значних помилок і багів, додано кеш результатів боїв щоб після перезавантаження гри результати боїв залишалися) ---- [EN]: Updated the custix.messagecenterbattlestab, custix.messagecenterfilter, and custix.battlestats mods (Fixed minor errors and bugs; added a battle results cache so that battle results are retained after restarting the game)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1540,8 +1626,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.6,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This mod is part 3 of 3 mods, please download the other 2 mods aswell:<br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a><br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder &nbsp;(if not there already)</li><li>Place the 5 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) &nbsp;(replace x.x.x.x with the current version of WoT)<br>&nbsp;</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-05-30_104249386.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5623,18 +5709,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.dynamic_flashlight.2.3.0.1.1.2.zip",
-          "updatedAt": "2026-06-20T19:33:14.365Z",
-          "sizeBytes": 420417,
-          "fileName": "gravity.dynamic_flashlight.2.3.0.1.1.2.zip",
+          "modVersion": "1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.dynamic_flashlight.2.3.0.1.1.3.zip",
+          "updatedAt": "2026-06-21T09:56:39.337Z",
+          "sizeBytes": 381308,
+          "fileName": "gravity.dynamic_flashlight.2.3.0.1.1.3.zip",
           "fileExt": ".zip",
-          "changeLog": "Moved configuration storage to the persistent World of Tanks preferences folder, preventing settings loss during clean modpack installations."
+          "changeLog": "Fixed the settings not showing up."
         }
       ],
       "latest": {
-        "fileName": "gravity.dynamic_flashlight.2.3.0.1.1.2.zip",
-        "changeLog": "Moved configuration storage to the persistent World of Tanks preferences folder, preventing settings loss during clean modpack installations.",
+        "fileName": "gravity.dynamic_flashlight.2.3.0.1.1.3.zip",
+        "changeLog": "Fixed the settings not showing up.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -19380,7 +19466,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This program allows you to update/download clean camo mods, when updating it only downloads the changes instead of the entire new mod, as a result of that you can update your clean camo mods way faster as you only need to download the changes which are usually between 10MB and 100MB instead of 3GB.<br><br>Compatible with:</p><ul><li><a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a> <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/ </a><a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></li><li><a href=\"https://wgmods.net/6998/\">https://wgmods.net/6998/</a></li></ul><p><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p>",
       "installationGuideHtml": "<p>Place the program into your world of tanks directory and execute it.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image3_GPZJC2u.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -22351,7 +22437,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.7,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This mod is part 1 of 3 mods, please download the other 2 mods aswell<br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a><br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: The extracted mod files take up 2.93GB, this is not a bug.Please report any bugged tanks i will fix / exclude them.<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder &nbsp;(if not there already)</li><li>Place the 5 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) &nbsp;(replace x.x.x.x with the current version of WoT)<br>&nbsp;</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2025-04-18_042721.png.302x170_q85_crop_detail_replace_alpha-white.jpg",

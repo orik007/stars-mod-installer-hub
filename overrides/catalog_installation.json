@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.056",
+  "catalogVersion": "v2026.06.057",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7723",
+      "title": "Current DPM and dispersion HUD",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Locate your game folder, e.g.: C:\\Games\\World_of_Tanks_EU 2. Copy the file com.komarov.dpmdisplay_0.6.0.wotmod into the \"mods\" sub-folder named for your CURRENT game version: ...\\World_of_Tanks_EU\\mods/<version>\\ Example: ...\\World_of_Tanks_EU\\mods\\2.3.0.1\\com.komarov.dpmdisplay_0.6.0.wotmod The version folder name must match the version the game is actually running. If you are unsure, use the highest-numbered folder already inside \"mods\". 3. If you had an older version of this mod, delete it from that folder first (otherwise the label shows twice). 4. Start the game and enter a battle."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide clearly targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7722",
+      "title": "Tank Info in Hangar",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion If you already have gameface installed, only copy the tank_info_in_hangar file"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive targets mods/<version> but guide requires a blocking manual choice because only one file should be copied if Gameface is already installed.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7721",
