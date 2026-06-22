@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.059",
+  "catalogVersion": "v2026.06.060",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7724",
+      "title": "the Dynamic Playlists Mod",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "INSTALLATION ------------ 1. Find your current WoT client version folder name. It's the subfolder name under your WoT install directory's \"mods\" folder, e.g.: <WoT install>\\mods\\2.3.0.1\\ (open version.xml in your WoT root if you're not sure which version you're on) 2. Copy the .wotmod file from this archive's \"manual-install\" folder directly into that \"mods/<version>\\\" folder. 3. Restart World of Tanks completely (not just the garage - a full client restart is required for the mod to register). 4. Open Garage -> Fahrzeuge -> Fahrzeuglisten (Vehicle Lists). You should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\", \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>; manual-install mention is just source location note.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7723",
@@ -2182,13 +2197,13 @@
       "sourceId": "7529",
       "title": "Commander Selector",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\ current version' folder on your PC. Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version> for the extracted .wotmod file.",
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -2197,13 +2212,13 @@
       "sourceId": "7528",
       "title": "Be Quiet Fool!",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\ current version ' folder on your PC. Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version> for the extracted .wotmod file.",
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
