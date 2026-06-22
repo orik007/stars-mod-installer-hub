@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.06.059",
-  "sourceHash": "3425ca05790f9fa74458e3483e4ae04bb14bd6a3511ee829a8f4ec5f677d609d",
+  "catalogVersion": "v2026.06.060",
+  "sourceHash": "abab09340564a55cf8f589c464c8a3ca97dfc0b06efc9df36cca8579ffc5a72f",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7724",
+      "title": "the Dynamic Playlists Mod",
+      "ownerUsername": "Oooompf",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>WoT Dynamic Playlists<br>======================<br>by mjrd</p><p>WHAT THIS DOES<br>--------------<br>mod_dynamic_playlists.wotmod<br>&nbsp;Automatically fills WoT's native \"Vehicle Lists\" feature (garage -&gt;<br>&nbsp;Fahrzeuge -&gt; Fahrzeuglisten / Vehicle Lists dropdown) with 5 always-<br>&nbsp;up-to-date lists, refreshed every time your garage data syncs (login,<br>&nbsp;after battles, etc.) - no manual editing needed, ever:</p><p>&nbsp; &nbsp;# Mark 1 65% &nbsp; - vehicles close to their 1st Mark of Excellence<br>&nbsp; &nbsp;# Mark 2 85% &nbsp; - vehicles close to their 2nd Mark of Excellence<br>&nbsp; &nbsp;# Mark 3 95% &nbsp; - vehicles close to their 3rd Mark of Excellence<br>&nbsp; &nbsp;# Mark 4 100% &nbsp;- vehicles that already have all 3 marks, but whose<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; live damage rating is still below a perfect 100%<br>&nbsp; &nbsp;# Upgrades &nbsp; &nbsp; - vehicles with Field Mods / Tier XI Skill Tree not<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; yet fully completed (only shown if upgrades are<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; actually available right now - Elite, not rented/<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; locked)</p><p>&nbsp;A vehicle automatically drops out of a list the moment you actually<br>&nbsp;earn that mark / hit 100% / finish that upgrade. Nothing to clean up<br>&nbsp;by hand.</p><p>&nbsp;You'll also get a small in-game popup the moment a vehicle leaves one<br>&nbsp;of these lists because you genuinely achieved it (not just because<br>&nbsp;its rating dipped or you sold the tank) - e.g. \"Sherman Firefly hat<br>&nbsp;seine erste Gunmark erreicht. Wurde aus der Playlist '# Mark 1 65%'<br>&nbsp;entfernt.\"</p><p>&nbsp;It also writes a one-time debug dump of every vehicle's marks/rating<br>&nbsp;to your python.log on each session start. Purely a log entry, no<br>&nbsp;in-game UI effect - safe to ignore.</p>",
+      "installationGuideHtml": "<p>INSTALLATION<br>------------<br>1. Find your current WoT client version folder name. It's the<br>&nbsp; subfolder name under your WoT install directory's \"mods\" folder,<br>&nbsp; e.g.:<br>&nbsp; &nbsp; &nbsp; &lt;WoT install&gt;\\mods\\2.3.0.1\\<br>&nbsp; (open version.xml in your WoT root if you're not sure which<br>&nbsp; version you're on)</p><p>2. Copy the .wotmod file from this archive's \"manual-install\"<br>&nbsp; folder directly into that \"mods\\&lt;version&gt;\\\" folder.</p><p>3. Restart World of Tanks completely (not just the garage - a full<br>&nbsp; client restart is required for the mod to register).</p><p>4. Open Garage -&gt; Fahrzeuge -&gt; Fahrzeuglisten (Vehicle Lists). You<br>&nbsp; should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\",<br>&nbsp; \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/discord-avatar.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7724/",
+      "tagIds": [
+        "18",
+        "13",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "v1.2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_dynamic_playlists_v1.2.1_KUZLPht.wotmod",
+          "updatedAt": "2026-06-22T15:14:03.561Z",
+          "sizeBytes": 22270,
+          "fileName": "mod_dynamic_playlists_v1.2.1_KUZLPht.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "some smoll adjustements"
+        }
+      ],
+      "latest": {
+        "fileName": "mod_dynamic_playlists_v1.2.1_KUZLPht.wotmod",
+        "changeLog": "some smoll adjustements",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7723",
@@ -4804,28 +4842,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.3.0.1.1.3.zip",
-          "updatedAt": "2026-06-22T10:40:09.049Z",
-          "sizeBytes": 80575,
-          "fileName": "gravity.custom_personal_record.2.3.0.1.1.3.zip",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.3.0.1.1.4.zip",
+          "updatedAt": "2026-06-22T15:11:53.443Z",
+          "sizeBytes": 91767,
+          "fileName": "gravity.custom_personal_record.2.3.0.1.1.4.zip",
           "fileExt": ".zip",
-          "changeLog": "Added client-side access to all Service Record medals and levels, with local layout saving, unowned-medal tinting, ownership counters, and improved previews."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.3.0.1.1.2.wotmod",
-          "updatedAt": "2026-06-20T19:33:44.386Z",
-          "sizeBytes": 10462,
-          "fileName": "gravity.custom_personal_record.2.3.0.1.1.2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Moved configuration storage to the persistent World of Tanks preferences folder, preventing settings loss during clean modpack installations."
+          "changeLog": "Award medals have been expanded, with more medals now available for browsing and use in Personal Record customization. Players with an active WoT+ Pro subscription will keep the normal ribbon and background behaviour, while the added medal customization options remain available."
         }
       ],
       "latest": {
-        "fileName": "gravity.custom_personal_record.2.3.0.1.1.3.zip",
-        "changeLog": "Added client-side access to all Service Record medals and levels, with local layout saving, unowned-medal tinting, ownership counters, and improved previews.",
+        "fileName": "gravity.custom_personal_record.2.3.0.1.1.4.zip",
+        "changeLog": "Award medals have been expanded, with more medals now available for browsing and use in Personal Record customization. Players with an active WoT+ Pro subscription will keep the normal ribbon and background behaviour, while the added medal customization options remain available.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6736,6 +6764,16 @@
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.0.wotmod",
+          "updatedAt": "2026-06-22T14:53:29.797Z",
+          "sizeBytes": 726424,
+          "fileName": "commander_selector_1.3.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Reverted to a single .wotmod file instead of a zip file with two files."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.0_with_loadfaster_core_ui.zip",
           "updatedAt": "2026-06-12T16:15:48.547Z",
           "sizeBytes": 146976,
@@ -6785,8 +6823,8 @@
         }
       ],
       "latest": {
-        "fileName": "commander_selector_1.3.0_with_loadfaster_core_ui.zip",
-        "changeLog": "Mod is updated to not conflict with the garage UIs of other mods.",
+        "fileName": "commander_selector_1.3.0.wotmod",
+        "changeLog": "Reverted to a single .wotmod file instead of a zip file with two files.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6810,6 +6848,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/be_quiet_fool_1.0.1_NMOCjUr.wotmod",
+          "updatedAt": "2026-06-22T14:53:33.481Z",
+          "sizeBytes": 97820,
+          "fileName": "be_quiet_fool_1.0.1_NMOCjUr.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Reverted back to a single .wotmod file instead of a zip file. "
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.1",
@@ -6862,8 +6910,8 @@
         }
       ],
       "latest": {
-        "fileName": "be_quiet_fool_1.0.1_with_loadfaster_core_ui.zip",
-        "changeLog": "Improved compatibility with other mods with UIs. Added a LoadFaster mod core mod for the UIs. ",
+        "fileName": "be_quiet_fool_1.0.1_NMOCjUr.wotmod",
+        "changeLog": "Reverted back to a single .wotmod file instead of a zip file. ",
         "wotGameVersionCompatibility": "safe"
       }
     },
