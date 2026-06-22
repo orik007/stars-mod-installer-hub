@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.057",
+  "catalogVersion": "v2026.06.058",
   "mods": [
     {
       "source": "wgmods",
@@ -173,12 +173,12 @@
       "title": "Custix ModPack",
       "classificationInput": {
         "latestFileExt": ".exe",
-        "latestInstallGuide": "⚙️ Installer features Auto-detects the game folder and checks the version (2.3.0.0). Asks you to close the game before installing. Convenient component selection with a description for each. Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays. Installer languages: Ukrainian and English. 💾 Installation Close World of Tanks. Run the installer — it will find the game folder automatically (set it manually if needed). Select components (exactly one statistics option) and click Install."
+        "latestInstallGuide": "⚙️ Installer features Auto-detects the game folder and checks the version. Asks you to close the game before installing. Convenient component selection with a description for each. Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays. Installer languages: Ukrainian and English. 💾 Installation Close World of Tanks. Run the installer — it will find the game folder automatically (set it manually if needed). Select components (exactly one statistics option) and click Install."
       },
       "installationProcess": {
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "Package is .exe and guide describes running installer UI with component selection.",
+        "decisionReason": "Package is an .exe and the guide describes running an installer with UI component selection.",
         "deleteDataWgpdc": false
       }
     },
