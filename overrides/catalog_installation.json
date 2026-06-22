@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.058",
+  "catalogVersion": "v2026.06.059",
   "mods": [
     {
       "source": "wgmods",
@@ -1612,13 +1612,13 @@
       "sourceId": "7592",
       "title": "Personal Record Customisation",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide directs to place it into the mod directory WorldofTanks\\mods\\x.x.x.x (versioned mods folder); app can copy the .wotmod into mods/<version>.",
+        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -2183,12 +2183,12 @@
       "title": "Commander Selector",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
+        "latestInstallGuide": "Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\ current version' folder on your PC. Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<current version> with no blocking variant choice.",
+        "decisionReason": "Archive package and guide points to mods/<version> for the extracted .wotmod file.",
         "deleteDataWgpdc": false
       }
     },
@@ -2198,12 +2198,12 @@
       "title": "Be Quiet Fool!",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Open the zip file and put the two .wotmod files in World_of_Tanks\\mods\\ current version Please report any bugs to loadfastermods@ gmail"
+        "latestInstallGuide": "Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\ current version ' folder on your PC. Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<current version> with no blocking variant choice.",
+        "decisionReason": "Archive package and guide points to mods/<version> for the extracted .wotmod file.",
         "deleteDataWgpdc": false
       }
     },
