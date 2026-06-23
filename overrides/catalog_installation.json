@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.061",
+  "catalogVersion": "v2026.06.062",
   "mods": [
     {
       "source": "wgmods",
@@ -5555,6 +5555,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7181",
+      "title": "Tiger 131 with crew",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the wotmod file there after extraction.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7179",
       "title": "Winter/Holiday UI",
       "classificationInput": {
@@ -7510,12 +7525,12 @@
       "title": "T832-800",
       "classificationInput": {
         "latestFileExt": ".7z",
-        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\1.x.x.x"
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.7z) and guide says drop the .wotmod into (game)\\mods\\1.x.x.x — archive targets mods/<version>.",
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the wotmod file there after extraction.",
         "deleteDataWgpdc": false
       }
     },
@@ -7771,6 +7786,21 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive (.zip) and guide explicitly says to extract the zip archive into the game folder (game root).",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "5917",
+      "title": "Cromwell Berlin improved",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the wotmod file there after extraction.",
         "deleteDataWgpdc": false
       }
     },
@@ -8566,6 +8596,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package (.zip) and guide instructs copying desired .wotmod file into WorldofTanks->mods->(current version).",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4454",
+      "title": "TOG II *** Holiday Camp",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Wotmod file to drop in (your game)\\mods\\1.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the wotmod file there after extraction.",
         "deleteDataWgpdc": false
       }
     },

@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.061",
-  "sourceHash": "f2fe986043b6d6972351ea98c77f5c400451d69f08165bb13db742b12043160a",
+  "catalogVersion": "v2026.06.062",
+  "sourceHash": "49e6c7a208d8bbaaeec3817eb019dda08169e9066b899f708f8a6eacecf3315d",
   "sources": [
     "wgmods",
     "modhub"
@@ -102,8 +102,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info.</p><p>Created by <strong>Z4imon</strong></p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
       "installationGuideHtml": "<p>Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion<br><br>If you already have gameface installed, only copy the tank_info_in_hangar file</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Titelbild2_DXyUI4L.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -19745,6 +19745,44 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7181",
+      "title": "Tiger 131 with crew",
+      "ownerUsername": "grumpf44",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>I started from cerberus' Tiger 131 (<a href=\"https://wgmods.net/6785/\">https://wgmods.net/6785/)</a> and added some crew.</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
+      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Start.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7181/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1x",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Tiger131_Crew_NiSpjnc.7z",
+          "updatedAt": "2026-06-23T15:57:33.132Z",
+          "sizeBytes": 12042871,
+          "fileName": "Tiger131_Crew_NiSpjnc.7z",
+          "fileExt": ".7z",
+          "changeLog": "Up"
+        }
+      ],
+      "latest": {
+        "fileName": "Tiger131_Crew_NiSpjnc.7z",
+        "changeLog": "Up",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7179",
       "title": "Winter/Holiday UI",
       "ownerUsername": "BoosDaralo",
@@ -20805,7 +20843,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.4,
       "descriptionHtml": "<h2>Lightweight and modern modpack for World of Tanks</h2><p>The problem of all modpacks is their large size.<br>This modpack downloads only those mods that the user selected at runtime.<br>Also it has a modern Web interface.<br>Supports all client versions (including CT and SB)</p><blockquote><p>Please note that the modpack version does <strong>NOT</strong> necessarily have to match the client version!</p></blockquote><p><a href=\"https://github.com/SuperZombi/wot-modpack\">Github</a></p>",
       "installationGuideHtml": "<p>Run the installer, select the necessary mods. Click Next.<br><br>To remove mods, click \"Reset\" on the mod selection page and then Next.</p><blockquote><p>For the first installation, it is recommended to check the «Delete mod configs» option to avoid conflicts with previous modpacks.</p></blockquote>",
@@ -20816,30 +20854,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "3.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack.exe",
-          "updatedAt": "2026-06-07T07:47:59.388Z",
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "3.1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack_Cr4DxLh.exe",
+          "updatedAt": "2026-06-23T14:22:35.678Z",
           "sizeBytes": 19715252,
-          "fileName": "Web.Modpack.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "3.0.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack_2lmIaXm.exe",
-          "updatedAt": "2026-06-03T16:53:50.055Z",
-          "sizeBytes": 19704455,
-          "fileName": "Web.Modpack_2lmIaXm.exe",
+          "fileName": "Web.Modpack_Cr4DxLh.exe",
           "fileExt": ".exe",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Web.Modpack.exe",
+        "fileName": "Web.Modpack_Cr4DxLh.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28024,7 +28052,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>The Terminator change once the tank is destroyed</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
-      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\1.x.x.x</p>",
+      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_031_igSelS5.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6323/",
       "tagIds": [
@@ -28033,40 +28061,30 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.0.1.1",
-          "modVersion": "1.1xV2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T832-800_463kPWw.7z",
-          "updatedAt": "2025-11-18T06:09:31.194Z",
-          "sizeBytes": 7269683,
-          "fileName": "T832-800_463kPWw.7z",
-          "fileExt": ".7z",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.28.1.1",
-          "modVersion": "1.1X V2",
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1XV2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T832-800.7z",
-          "updatedAt": "2025-06-02T19:34:05.885Z",
+          "updatedAt": "2026-06-23T16:04:21.017Z",
           "sizeBytes": 7269683,
           "fileName": "T832-800.7z",
           "fileExt": ".7z",
-          "changeLog": ""
+          "changeLog": "Up\n"
         },
         {
-          "wotGameVersion": "1.29.0.0",
-          "modVersion": "1.1x  V2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T832-800_iMamJat.7z",
-          "updatedAt": "2025-06-02T19:27:48.081Z",
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1XV2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T832-800_6h8mPZN.7z",
+          "updatedAt": "2026-06-23T15:59:28.159Z",
           "sizeBytes": 7269683,
-          "fileName": "T832-800_iMamJat.7z",
+          "fileName": "T832-800_6h8mPZN.7z",
           "fileExt": ".7z",
-          "changeLog": ""
+          "changeLog": "Up"
         }
       ],
       "latest": {
-        "fileName": "T832-800_463kPWw.7z",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "T832-800.7z",
+        "changeLog": "Up\n",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28999,6 +29017,44 @@
         "fileName": "champi.crewcontrolcenter_1.08.007_2.1.0.2.zip",
         "changeLog": "- adapted for current WoT patch\n- remaining XP/ Battles information until next perk available is now also visible in the overall vehicle view (SPACE key) and in the tooltip of the current crew member ",
         "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "5917",
+      "title": "Cromwell Berlin improved",
+      "ownerUsername": "grumpf44",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": true,
+      "mark": 3.8,
+      "descriptionHtml": "<p>Also some small changes in the storage boxes and fenders.</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
+      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_072_XszuLWs.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/5917/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1X",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Cromwell_Berlin_Improved_Bn9QJbb.7z",
+          "updatedAt": "2026-06-23T16:01:20.833Z",
+          "sizeBytes": 22685608,
+          "fileName": "Cromwell_Berlin_Improved_Bn9QJbb.7z",
+          "fileExt": ".7z",
+          "changeLog": "Up"
+        }
+      ],
+      "latest": {
+        "fileName": "Cromwell_Berlin_Improved_Bn9QJbb.7z",
+        "changeLog": "Up",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30762,16 +30818,6 @@
           "fileName": "pruszko.dispersion_reticle_3.1.4_5CztFgu.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.2.1.2"
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "3.1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.4_6z4pFfP.zip",
-          "updatedAt": "2026-04-23T16:43:06.226Z",
-          "sizeBytes": 908107,
-          "fileName": "pruszko.dispersion_reticle_3.1.4_6z4pFfP.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.2.1.1"
         }
       ],
       "latest": {
@@ -32216,6 +32262,54 @@
       ],
       "latest": {
         "fileName": "FiT.Graphics.VisibleInjuredCrew_2.1_SpRQDxb.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4454",
+      "title": "TOG II *** Holiday Camp",
+      "ownerUsername": "grumpf44",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": true,
+      "mark": 4.3,
+      "descriptionHtml": "<p>Of course the smoke is linked to the new position of the exhausts.</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
+      "installationGuideHtml": "<p>Wotmod file to drop in (your game)\\mods\\1.x.x.x</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_127-1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/4454/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1X",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TOG_II_PinUp_pNg0lPZ.7z",
+          "updatedAt": "2026-06-23T16:13:57.539Z",
+          "sizeBytes": 26619222,
+          "fileName": "TOG_II_PinUp_pNg0lPZ.7z",
+          "fileExt": ".7z",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1X",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TOG_II_PinUp.7z",
+          "updatedAt": "2026-06-23T16:12:23.306Z",
+          "sizeBytes": 26619222,
+          "fileName": "TOG_II_PinUp.7z",
+          "fileExt": ".7z",
+          "changeLog": "Up"
+        }
+      ],
+      "latest": {
+        "fileName": "TOG_II_PinUp_pNg0lPZ.7z",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
