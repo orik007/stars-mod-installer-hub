@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.062",
+  "catalogVersion": "v2026.06.063",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7728",
+      "title": "Crew Skills Pro",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Archive installs to multiple target paths under the game folder: mods/<version> and mods/configs.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7724",
@@ -263,12 +278,12 @@
       "title": "Custom Sixth Sense",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, here 2.3.0.0, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
       },
       "installationProcess": {
         "installationTemplate": "MixedCustomPathButDeterministic",
         "installableByApp": false,
-        "decisionReason": "Archive installs to multiple target paths: mods/<version> and mods/configs.",
+        "decisionReason": "Archive installs to multiple target paths under the game folder: mods/<version> and mods/configs.",
         "deleteDataWgpdc": false
       }
     },
