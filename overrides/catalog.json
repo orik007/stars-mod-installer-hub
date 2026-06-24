@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.06.062",
-  "sourceHash": "49e6c7a208d8bbaaeec3817eb019dda08169e9066b899f708f8a6eacecf3315d",
+  "catalogVersion": "v2026.06.063",
+  "sourceHash": "a5e3a531539ba5b8476d15f2b4e47e072b989d700223837b0f868a221b467a47",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7728",
+      "title": "Crew Skills Pro",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Crew Skills Pro puts your whole crew on screen, live in battle. Every crewman is shown with all of their skills and perks and the exact training percentage of each, so you always know what your crew can do.&nbsp;<br><br>• All skills and perks per crewman, with their training % (the perk currently in training is highlighted)&nbsp;<br>• Crew portraits or clean role icons, whichever you prefer&nbsp;<br>• The tank's mounted equipment and directives, shown next to the crew&nbsp;<br>• Detailed tooltip on hover, including the crew efficiency bonus and exactly where it comes from (commander, Brotherhood, equipment and optional devices)&nbsp;<br>• Compact mode, fully draggable, place it anywhere on screen&nbsp;<br>• Adjustable panel scale and background opacity&nbsp;<br>• Everything is configured in the in-garage settings menu&nbsp;<br>• Works in replays (but for the full info, the battle must be played with this mod installed)<br><br>A modern, all-in-one replacement for Crew Skills Informer and other similar mods.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CrewSkillsPro_0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7728/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.0.zip",
+          "updatedAt": "2026-06-23T22:18:27.467Z",
+          "sizeBytes": 482958,
+          "fileName": "CrewSkillsPro_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "CrewSkillsPro_1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7724",
@@ -665,7 +701,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p><strong>Custom Sixth Sense replaces the Sixth Sense indicator with a fully customizable one that you set up in the garage.</strong></p><p>Pick a static or animated icon, move it anywhere on the screen, and adjust how it looks. It comes with a large set of ready-made icons, and you can add your own.</p><p>Options:<br>• Choose a static or animated icon, or add your own<br>• Drag the icon and the optional countdown timer anywhere on screen<br>• Adjust the display time, icon scale, opacity and an attention pulse<br>• Optional countdown timer with custom size, color and format</p><p>Your own icons: put a SixthSense.png file in a new folder inside mods/configs/Aslain/customsixthsense/static, then restart the game. Animated icons go in mods/configs/Aslain/customsixthsense/animated with their frames and a config.json.</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\customsixthsense\\customsixthsense.json</p><p>Fair play: the optional countdown is only a fixed reminder based on known game timings that you set yourself. It does not read or show the real live spotted state, and when it ends it does not mean you are no longer spotted. The mod does not reveal any hidden information.</p>",
-      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, here 2.3.0.0, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CustomSixthSense_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7708/",
       "tagIds": [
@@ -677,7 +713,7 @@
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.3.zip",
-          "updatedAt": "2026-06-15T15:51:10.469Z",
+          "updatedAt": "2026-06-23T21:17:49.256Z",
           "sizeBytes": 16150997,
           "fileName": "CustomSixthSense_1.0.3.zip",
           "fileExt": ".zip",
@@ -35875,6 +35911,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "07",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
+          "updatedAt": "2026-06-23T22:43:30.694Z",
+          "sizeBytes": 58424009,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #07 (23-06-2026):\n- Installer: Added Turkish initial localization by rootforce\n- Updated Personal Record Customisation\n- Updated Dispersion Reticle by Pruszko (comes with change for armor flashlight, making it follow client reticle instead of server reticle, when either client+server or hybrid reticles are enabled)\n- Updated BalCalcMod (more reliable settings saving)\n- Updated AutoAim Indication+ (more reliable settings saving)\n- Updated Custom Sixth Sense (optimization; more reliable settings saving)\n- Added Scheduled Personal Reserves (by Gravity_Assist) [mod #1107] (replacement for Personal Reserves Auto Activation)\n- Added Contact Cleaner (by OldSkool) [mod #1092] (as a replacement for the Blacklist Cleaner)\n- Added Crew Skills Pro (by Aslain) [mod #703] (as an replacement for Crew Skills Informer)\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "06",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
           "updatedAt": "2026-06-20T09:24:34.968Z",
@@ -35922,21 +35968,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_02.exe",
           "fileExt": ".exe",
           "changeLog": "v2.3.0.1 #02 (14-06-2026):\n- Updated enhanced modsSettingsApi v1.2.0 (new options for mod authors, long hotkey labels no longer cut off, fixed dropdown selection highlight, minor fixes)\n- Updated Dispersion Reticle by Pruszko\n- Updated Show vehicle body in the sniper view 2.0.1 (zoom slider limited to x0.5-1.0 as lower values broke the game; x1 value shown again; new option to turn off the extra wide view of your own tank)\n- Updated Custom Sixth Sense 1.0.2 (fixed FPS drop on the first sixth-sense animation)\n- Updated Show vehicle body in the sniper view 2.0.2 (fixed invisible turret when watching replays)\n- Updated Pet Gift Auto Claim (cleaned up code and fixed double notifications; claiming a Gift now triggers a random pet animation)\n- Added Camo Selector (by Gravity_Assist) [mod #992]\n- Added Crosshair Ballistics Info (by Gravity_Assist) [mod #737]\n- Added Gravity_Assist preset to the top drop-down menu\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_01.exe",
-          "updatedAt": "2026-06-11T23:05:55.954Z",
-          "sizeBytes": 57531571,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #01 (11-06-2026):\n- Updated few protanki mods\n- Updated SpotMeter\n- Updated enhanced modsSettingsApi v1.1.2\n- Updated Show Vehicle in Sniper Mode (rework by Aslain v2.0.0: fixed stuck sniper zoom & shifted zoom levels, new settings menu)\n- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
-        "changeLog": "v2.3.0.1 #06 (20-06-2026):\n- Added Crew Book Auto Claim (by Gravity_Assist) [mod #1102]\n- Updated enhanced modsSettingsApi 1.3.2 (fixed an issue that could leave the mods settings menu empty for some mods; minor fix for mod authors)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
+        "changeLog": "v2.3.0.1 #07 (23-06-2026):\n- Installer: Added Turkish initial localization by rootforce\n- Updated Personal Record Customisation\n- Updated Dispersion Reticle by Pruszko (comes with change for armor flashlight, making it follow client reticle instead of server reticle, when either client+server or hybrid reticles are enabled)\n- Updated BalCalcMod (more reliable settings saving)\n- Updated AutoAim Indication+ (more reliable settings saving)\n- Updated Custom Sixth Sense (optimization; more reliable settings saving)\n- Added Scheduled Personal Reserves (by Gravity_Assist) [mod #1107] (replacement for Personal Reserves Auto Activation)\n- Added Contact Cleaner (by OldSkool) [mod #1092] (as a replacement for the Blacklist Cleaner)\n- Added Crew Skills Pro (by Aslain) [mod #703] (as an replacement for Crew Skills Informer)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
