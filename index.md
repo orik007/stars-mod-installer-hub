@@ -10,6 +10,14 @@ No manual downloads. No copying files into game folders. No checking mod pages a
 
 [Join Discord](https://discord.gg/YOUR-DISCORD-LINK)
 
+## Screenshots
+
+![My Mods](assets/screenshots/my-mods.png)
+
+![Browse Mods](assets/screenshots/browse-mods.png)
+
+![Settings](assets/screenshots/settings.png)
+
 ## How it works
 
 1. Install Stars Mod Installer.
