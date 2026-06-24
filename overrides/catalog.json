@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.064",
-  "sourceHash": "6274811e6c00c182d253c57adec663394596cc6ed71627dc8bf773789701f096",
+  "catalogVersion": "v2026.06.065",
+  "sourceHash": "9fd7af191f5a0efe9de8940f5278e326c9cf8f3e5019ca39c6d42a550619826a",
   "sources": [
     "wgmods",
     "modhub"
@@ -9324,7 +9324,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.8,
       "descriptionHtml": "<h2>YaYa's Tactical Minimap Mod:&nbsp;</h2><p>This mod is intended to give new and seasoned players a guide to map starting positions as well as some neat angles to leverage. It is strongly recommended to visit YaYa's Map Website (https://wotmapsbyyaya.com/) as each map has positional information and explanations that put everything into perspective. Should you have questions or give feedback, join our discord: <a href=\"https://discord.gg/D9z2m2Q7ka\">https://discord.gg/D9z2m2Q7ka</a></p><p>Mod Usage Instructions</p><p>A hot-key combination has been created to rebind the default key (ALT) to another during battle: Press ENTER to open the chat and then press CTRL+SHIFT+K to activate key rebinding. A chat message will appear in your in-game battle chat. Once complete, the rebind is then stored in the mod’s xml file for future use.</p><p><br>Note: This procedure must be completed every time the mod is updated including if updating with Aslain’s mod.</p><p>Standalone Installation</p><p>Copy archive content into the mods folder of the game.<br>E.g.: C:\\Games\\World_of_Tanks_EU\\mods<br><br>By default the Mod is set up to show all icons upon pressing the toggle. However, should you wish to turn off the icons, this can be done within the “yayatacticmap” xml located in the “\\mods\\configs\\locastan” folder. Instructions are provided within the xml.</p><p>Map Preview images: &nbsp;</p><p>Ruinberg, Erlenberg, Malinovka, Serene Coast and the Style Guide.</p>",
       "installationGuideHtml": "<p>Copy archive content into mods folder of the game.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_cover.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -30873,6 +30873,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "3.1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.6.zip",
+          "updatedAt": "2026-06-24T07:55:52.006Z",
+          "sizeBytes": 908735,
+          "fileName": "pruszko.dispersion_reticle_3.1.6.zip",
+          "fileExt": ".zip",
+          "changeLog": "Version 3.1.6 comes with change for armor flashlight, making it follow client reticle instead of server reticle, when either client+server or hybrid reticles are enabled"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "3.1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.5.zip",
           "updatedAt": "2026-06-12T16:16:44.652Z",
@@ -30923,8 +30933,8 @@
         }
       ],
       "latest": {
-        "fileName": "pruszko.dispersion_reticle_3.1.5.zip",
-        "changeLog": "Version 3.1.5 comes with smaller code adjustments",
+        "fileName": "pruszko.dispersion_reticle_3.1.6.zip",
+        "changeLog": "Version 3.1.6 comes with change for armor flashlight, making it follow client reticle instead of server reticle, when either client+server or hybrid reticles are enabled",
         "wotGameVersionCompatibility": "safe"
       }
     },
