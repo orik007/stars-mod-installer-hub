@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.06.063",
-  "sourceHash": "a5e3a531539ba5b8476d15f2b4e47e072b989d700223837b0f868a221b467a47",
+  "catalogVersion": "v2026.06.064",
+  "sourceHash": "6274811e6c00c182d253c57adec663394596cc6ed71627dc8bf773789701f096",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7729",
+      "title": "Show vehicle body in the sniper view",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Displays your own tank's hull in sniper mode, so you can see your vehicle while you aim.<br><br>The battle can start directly in the wide hull view, and one scroll down below the normal zoom levels brings it back at any time. The toggle hotkey shows or hides the hull instantly (default F11, rebindable, CTRL/ALT combinations supported). All options are available in the in-game mod settings menu.&nbsp;<br><br>Note: how the hull looks depends on the tank. On some tanks little of it is visible, and on others the hull or turret sticks into the camera and gets in the way. For tanks like that you have two options: add them to the Vehicle blacklist in the mod settings (the tooltip explains step by step how to find the tank ID), or simply hide the hull in battle with the toggle hotkey (default F11).<br><br>Credits: &nbsp;mod originally by Polyacov_Yury, totally reworked by Aslain</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Show_Vehicle_1_FbOWgJk.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7729/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShowVehicle_2.0.4_2.3.0.1.zip",
+          "updatedAt": "2026-06-24T07:30:54.933Z",
+          "sizeBytes": 313407,
+          "fileName": "ShowVehicle_2.0.4_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ShowVehicle_2.0.4_2.3.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7728",
@@ -17,7 +53,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Crew Skills Pro puts your whole crew on screen, live in battle. Every crewman is shown with all of their skills and perks and the exact training percentage of each, so you always know what your crew can do.&nbsp;<br><br>• All skills and perks per crewman, with their training % (the perk currently in training is highlighted)&nbsp;<br>• Crew portraits or clean role icons, whichever you prefer&nbsp;<br>• The tank's mounted equipment and directives, shown next to the crew&nbsp;<br>• Detailed tooltip on hover, including the crew efficiency bonus and exactly where it comes from (commander, Brotherhood, equipment and optional devices)&nbsp;<br>• Compact mode, fully draggable, place it anywhere on screen&nbsp;<br>• Adjustable panel scale and background opacity&nbsp;<br>• Everything is configured in the in-garage settings menu&nbsp;<br>• Works in replays (but for the full info, the battle must be played with this mod installed)<br><br>A modern, all-in-one replacement for Crew Skills Informer and other similar mods.</p>",
+      "descriptionHtml": "<p>Crew Skills Pro puts your whole crew on screen, live in battle. Every crewman is shown with all of their skills and perks and the exact training percentage of each, so you always know what your crew can do.</p><p>• All skills and perks per crewman, with their training % (the perk currently in training is highlighted)<br>• Crew portraits or clean role icons, whichever you prefer<br>• The tank's mounted equipment and directives, shown next to the crew<br>• Detailed tooltip on hover, including the crew efficiency bonus and exactly where it comes from (commander, Brotherhood, equipment and optional devices)<br>• Compact mode, fully draggable, place it anywhere on screen<br>• Adjustable panel scale and background opacity<br>• Everything is configured in the in-garage settings menu<br>• Works in replays. The crew, their skills and the equipment show in any replay; the battle directives and the crew efficiency bonus appear only when the replay was recorded with the mod installed</p><p>A modern, all-in-one replacement for Crew Skills Informer.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CrewSkillsPro_0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7728/",
@@ -711,6 +747,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.4_2.3.0.1.zip",
+          "updatedAt": "2026-06-24T07:30:07.685Z",
+          "sizeBytes": 15551220,
+          "fileName": "CustomSixthSense_1.0.4_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "1.0.4\n- more reliable settings saving\n- completely overhauled the flash method"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.3.zip",
           "updatedAt": "2026-06-23T21:17:49.256Z",
@@ -741,8 +787,8 @@
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.3.zip",
-        "changeLog": "- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors, smooth playback of animations)",
+        "fileName": "CustomSixthSense_1.0.4_2.3.0.1.zip",
+        "changeLog": "1.0.4\n- more reliable settings saving\n- completely overhauled the flash method",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -758,7 +804,7 @@
       "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p><strong>BalCalcMod is a ballistic distance helper. It lets you lock the current aiming distance so your shells do not fly over a target that moves or hides behind cover.</strong></p><p>Hold the lock key to keep the current distance to the target. After that the shell keeps the same range even if you move the crosshair up onto the sky, a ridge, or terrain behind the enemy, so it no longer flies over the target.</p><p>How to use it: set the correct distance first, then press and hold the lock key before the target disappears. Keep the crosshair on the point you want to hit and fire while holding the key. It is most useful against enemies that peek and quickly pull back behind hills, rocks or buildings. It works in sniper, arcade and artillery view.</p><p>Options:<br>• Lock key or mouse button (default Q)<br>• Distance indicator color, font, position and shadow<br>• Automatic lock when the crosshair is on a tank, with adjustable hold time (sniper view)<br>• Shell trajectory correction so the aim does not jump to maximum range when pointed at the sky<br>• Mouse wheel step for adjusting the locked distance in artillery view</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\balcalc\\BalCalc.json</p><p>This mod has been reviewed by Wargaming and confirmed as allowed. Using it cannot result in a ban.</p><p>Credits: original BalCalcMod by Evgeni Kiselev (ktod), later maintained by Ktulho. This GUI edition by Aslain.</p>",
-      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.0, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/BalCalcMod_big_gWyO9WS.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7707/",
       "tagIds": [
@@ -766,6 +812,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.3.6_2.3.0.1.zip",
+          "updatedAt": "2026-06-24T07:30:16.606Z",
+          "sizeBytes": 316675,
+          "fileName": "BalCalcMod_2.3.6_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "2.3.5/2.3.6\n- more reliable settings saving\n- optimization"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.4",
@@ -798,8 +854,8 @@
         }
       ],
       "latest": {
-        "fileName": "BalCalcMod_2.3.4.zip",
-        "changeLog": "- Updated BalCalcMod 2.3.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)",
+        "fileName": "BalCalcMod_2.3.6_2.3.0.1.zip",
+        "changeLog": "2.3.5/2.3.6\n- more reliable settings saving\n- optimization",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -823,6 +879,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.0.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Autoaim_indicator_Plus_2.0.6_2.3.0.1.zip",
+          "updatedAt": "2026-06-24T07:30:11.238Z",
+          "sizeBytes": 318544,
+          "fileName": "Autoaim_indicator_Plus_2.0.6_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "2.0.5/2.0.6\n- more reliable settings saving and loading"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0.4",
@@ -855,8 +921,8 @@
         }
       ],
       "latest": {
-        "fileName": "AutoAim_Indication_Plus_2.0.4_a5SvsJN.zip",
-        "changeLog": "- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)",
+        "fileName": "Autoaim_indicator_Plus_2.0.6_2.3.0.1.zip",
+        "changeLog": "2.0.5/2.0.6\n- more reliable settings saving and loading",
         "wotGameVersionCompatibility": "safe"
       }
     },
