@@ -8,7 +8,7 @@ No manual downloads. No copying files into game folders. No checking mod pages a
 
 [Download for Windows](https://github.com/orik007/stars-mod-installer-hub/releases/latest/download/StarsModInstaller-win-Setup.exe)
 
-[Join Discord](https://discord.gg/YOUR-DISCORD-LINK)
+[Join Discord](https://discord.gg/CyeFA8T4UP)
 
 ## Screenshots
 
