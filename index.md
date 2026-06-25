@@ -14,7 +14,7 @@ No manual downloads. No copying files into game folders. No checking mod pages a
 
 ![My Mods](assets/screenshots/my-mods.png)
 
-![Browse Mods](assets/screenshots/browse-mods.png)
+![Browse Mods](assets/screenshots/browse-catalog.png)
 
 ![Settings](assets/screenshots/settings.png)
 
