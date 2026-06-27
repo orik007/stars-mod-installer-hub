@@ -10,11 +10,17 @@ Found a bug or have an idea? Join us on [Discord](https://discord.gg/CyeFA8T4UP)
 
 ## Screenshots
 
-![My Mods](assets/screenshots/my-mods.png)
+[![My Mods screen](assets/screenshots/my-mods.png)](assets/screenshots/my-mods.png)
 
-![Browse Mods](assets/screenshots/browse-catalog.png)
+**My Mods** — see selected mods and their current install state.
 
-![Settings](assets/screenshots/settings.png)
+[![Browse Mods screen](assets/screenshots/browse-catalog.png)](assets/screenshots/browse-catalog.png)
+
+**Browse Mods** — choose which mods you want Stars Mod Installer to keep updated.
+
+[![Settings screen](assets/screenshots/settings.png)](assets/screenshots/settings.png)
+
+**Settings** — control automatic updates and reinstall behavior.
 
 ## How it works
 
