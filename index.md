@@ -1,14 +1,12 @@
-# Stars Mod Installer
-
-Choose your World of Tanks mods once. Keep them updated automatically.
-
 Stars Mod Installer keeps your selected mods up to date when a new mod version is released or when World of Tanks is updated.
 
 No manual downloads. No copying files into game folders. No checking mod pages after every game update.
 
-[Download for Windows](https://github.com/orik007/stars-mod-installer-hub/releases/latest/download/StarsModInstaller-win-Setup.exe)
+## Alpha version
 
-[Join Discord](https://discord.gg/CyeFA8T4UP)
+Stars Mod Installer is currently in alpha. Some things may still change, and some mods may not be supported yet.
+
+Found a bug or have an idea? Join us on [Discord](https://discord.gg/CyeFA8T4UP) and let us know.
 
 ## Screenshots
 
@@ -26,14 +24,6 @@ No manual downloads. No copying files into game folders. No checking mod pages a
 
 When a compatible update is available, Stars Mod Installer downloads and installs it for you.
 
-## Why use it
-
-- Your selected mods stay up to date automatically
-- Mods are updated after new mod releases or World of Tanks updates
-- No need to manually download mod files
-- No need to copy files into game folders
-- The installer waits when World of Tanks is running
-
 ## Requirements
 
 - Windows
@@ -41,4 +31,4 @@ When a compatible update is available, Stars Mod Installer downloads and install
 
 ## Note
 
-Stars Mod Installer is an independent community tool and is not affiliated with Wargaming.
+Stars Mod Installer is an independent tool and is not affiliated with Wargaming.
