@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.06.066",
-  "sourceHash": "05310f5c2e37ff57f119959e19a919608438c40755db33e21d1da905ffae09bc",
+  "catalogVersion": "v2026.06.067",
+  "sourceHash": "c72019319eeda15324f0a85228746aeb392e99cf0f5f0078da0e1b9bdcad5b97",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7736",
+      "title": "Hitmarker Pro",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each hit type: damage, penetration, critical, fire, kill, ricochet and no-penetration&nbsp;<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/HitmarkerPro_1_KAsWEtf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7736/",
+      "tagIds": [
+        "15"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HitmarkerPro_1.0.0_2.3.0.1.zip",
+          "updatedAt": "2026-06-28T18:07:45.236Z",
+          "sizeBytes": 496751,
+          "fileName": "HitmarkerPro_1.0.0_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "HitmarkerPro_1.0.0_2.3.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7729",
@@ -63,6 +99,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.2_2.3.0.1.zip",
+          "updatedAt": "2026-06-28T18:07:53.292Z",
+          "sizeBytes": 496493,
+          "fileName": "CrewSkillsPro_1.0.2_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Crew Skills Pro (added a support for a replays)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.1.zip",
           "updatedAt": "2026-06-25T07:10:07.542Z",
@@ -83,8 +129,8 @@
         }
       ],
       "latest": {
-        "fileName": "CrewSkillsPro_1.0.1.zip",
-        "changeLog": "1.0.1:\n- optimization\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)",
+        "fileName": "CrewSkillsPro_1.0.2_2.3.0.1.zip",
+        "changeLog": "Crew Skills Pro (added a support for a replays)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -363,7 +409,7 @@
     {
       "source": "wgmods",
       "sourceId": "7716",
-      "title": "A-20 <RACING CUPS>",
+      "title": "A-20 <OPEN ENGINE>",
       "ownerUsername": "Trick4Funz",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -661,43 +707,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7710",
-      "title": "IS-3-II <PROPER METAL>",
-      "ownerUsername": "Trick4Funz",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>This is my first model, it's not the best but if you think it looks good you can download it :)</p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/IS_3_II_4.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7710/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/IS-3-II.wotmod",
-          "updatedAt": "2026-06-11T20:43:19.243Z",
-          "sizeBytes": 73184723,
-          "fileName": "IS-3-II.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "IS-3-II.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7709",
       "title": "Tank Icons",
       "ownerUsername": "JonnyPwnz",
@@ -757,6 +766,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.6_2.3.0.1.zip",
+          "updatedAt": "2026-06-28T18:08:01.475Z",
+          "sizeBytes": 16332403,
+          "fileName": "CustomSixthSense_1.0.6_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "added a support for a replays"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.5.zip",
           "updatedAt": "2026-06-25T07:10:17.663Z",
@@ -767,8 +786,8 @@
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.5.zip",
-        "changeLog": "1.0.5:\n- fixed the icon not showing up in battle when XVM is installed\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)",
+        "fileName": "CustomSixthSense_1.0.6_2.3.0.1.zip",
+        "changeLog": "added a support for a replays",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -4811,7 +4830,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p><strong>Recommended in combination with:&nbsp;</strong><a href=\"https://wgmods.net/7578/\"><strong>https://wgmods.net/7578/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod shows you your current MOE rating, projected MOE rating, and damage needed to sustain current MOE rating in battle. As well as your current moving average damage and the new moving average damage.<br>You can drag the overlay around.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-21_191230701.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -35967,6 +35986,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "10",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
+          "updatedAt": "2026-06-28T16:33:43.380Z",
+          "sizeBytes": 58785213,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #10 (28-06-2026):\n- Updated contour icons: man1aq\n- Updated enhanced modsSettingsApi 1.4.1 (new option for mod authors)\n- Updated Custom Sixth Sense (added a support for a replays)\n- Updated Crew Skills Pro (added a support for a replays)\n- Updated In Battle Statistics (settings now survive reinstallation)\n- Updated majority of CHAMPi's mods\n- Updated Research Progress Bar\n- Removed Damage Panel: Better (it wasn`t working after all)\n- Added Hitmarker Pro (by Aslain) [mod #683] (replaces the old Hitmarker 2.0): shows a marker on your crosshair whenever you hit an enemy, with its own colour for each hit type, adjustable size, animated or static style and an optional hit sound, all set up in the garage (Mod configurator menu). Your previous Hitmarker selection is not carried over, so re-select it and configure it there. The mod can be found in the crosshairs branch, where you have to re-select it again.\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "09",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
           "updatedAt": "2026-06-25T08:04:31.616Z",
@@ -35974,61 +36003,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
           "fileExt": ".exe",
           "changeLog": "v2.3.0.1 #09 (25-06-2026):\n- Fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree (unfortunately, this mod contains contour icon files that are used by other mods, and I always have to removed them manually from this mod .wotmod file to prevent such issues)\n\nv2.3.0.1 #08 (24-06-2026):\n- Installer: Optimized mod preview loading\n- Updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)\n- Updated Scheduled Personal Reserves (added a fix attempt for issue with the wrong args)\n- Updated Advanced Tech-tree\n- Updated MoE on the Tech-Tree\n- Updated Crew Skills Pro\n- Updated Custom Sixth Sense (fixed the icon not showing up in battle when XVM is installed)\n\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "07",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
-          "updatedAt": "2026-06-23T22:43:30.694Z",
-          "sizeBytes": 58424009,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #07 (23-06-2026):\n- Installer: Added Turkish initial localization by rootforce\n- Updated Personal Record Customisation\n- Updated Dispersion Reticle by Pruszko (comes with change for armor flashlight, making it follow client reticle instead of server reticle, when either client+server or hybrid reticles are enabled)\n- Updated BalCalcMod (more reliable settings saving)\n- Updated AutoAim Indication+ (more reliable settings saving)\n- Updated Custom Sixth Sense (optimization; more reliable settings saving)\n- Added Scheduled Personal Reserves (by Gravity_Assist) [mod #1107] (replacement for Personal Reserves Auto Activation)\n- Added Contact Cleaner (by OldSkool) [mod #1092] (as a replacement for the Blacklist Cleaner)\n- Added Crew Skills Pro (by Aslain) [mod #703] (as an replacement for Crew Skills Informer)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "06",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
-          "updatedAt": "2026-06-20T09:24:34.968Z",
-          "sizeBytes": 58604862,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_06.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #06 (20-06-2026):\n- Added Crew Book Auto Claim (by Gravity_Assist) [mod #1102]\n- Updated enhanced modsSettingsApi 1.3.2 (fixed an issue that could leave the mods settings menu empty for some mods; minor fix for mod authors)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "05",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_05.exe",
-          "updatedAt": "2026-06-19T17:44:06.434Z",
-          "sizeBytes": 58601534,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_05.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #05 (19-06-2026):\n- Installer: Fixed searching a mod by number made its name invisible on light-themed Windows (now bold/underlined, like searching by name)\n- Updated enhanced modsSettingsApi 1.3.1 (overlapping fix; new option for mod authors)\n- Updated Minimap images: YaYa tactical (updated maps: Airfield, Lakeville and Safe Haven)\n- Updated Camo Selector 1.10 (fixed missing 2D styles + 3D attachments; added replay support for custom outfits; Disabled the purchase button when a not owned Element is applied)\n- Updated Danger Lights (removed old/new selections from the modpack; now only main entry, details set in‑garage mod menu)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_04.exe",
-          "updatedAt": "2026-06-17T22:36:54.774Z",
-          "sizeBytes": 58580444,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_04.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #04 (17-06-2026):\n- Updated enhanced modsSettingsApi 1.3.0 (every mod now has its own reset button by its on/off switch that restores that mod's options and hotkeys to defaults; a search box reachable with Ctrl+F to quickly find a mod by name; and new options for mod authors)\n- Updated Tomato.gg (fixed playerpanels showing stats even when disabled)\n- Updated BalCalcMod 2.3.5, AutoAim Indication+ 2.0.5 and Show vehicle body in the sniper view 2.0.3 (small internal fix: they no longer re-save their config needlessly on every game start)\n- Updated Camo Selector 1.7 (added Style Share, custom styles now visible to other players using the mod, toggleable in the Customization menu)\n- Updated Pet Gift Auto Claim (static texts now follow the installed game language; some languages still unsupported)\n- Updated Research Progress Bar\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
-          "updatedAt": "2026-06-15T16:04:33.209Z",
-          "sizeBytes": 58348333,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #03 (15-06-2026):\n- Updated Camo Selector 1.6 (bug fixes)\n- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors: smooth atlas animations in their menus)\n- Updated Tomato.gg (stats are now shown in three locations: player panels, TAB menu, and battle results)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
-        "changeLog": "v2.3.0.1 #09 (25-06-2026):\n- Fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree (unfortunately, this mod contains contour icon files that are used by other mods, and I always have to removed them manually from this mod .wotmod file to prevent such issues)\n\nv2.3.0.1 #08 (24-06-2026):\n- Installer: Optimized mod preview loading\n- Updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)\n- Updated Scheduled Personal Reserves (added a fix attempt for issue with the wrong args)\n- Updated Advanced Tech-tree\n- Updated MoE on the Tech-Tree\n- Updated Crew Skills Pro\n- Updated Custom Sixth Sense (fixed the icon not showing up in battle when XVM is installed)\n\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
+        "changeLog": "v2.3.0.1 #10 (28-06-2026):\n- Updated contour icons: man1aq\n- Updated enhanced modsSettingsApi 1.4.1 (new option for mod authors)\n- Updated Custom Sixth Sense (added a support for a replays)\n- Updated Crew Skills Pro (added a support for a replays)\n- Updated In Battle Statistics (settings now survive reinstallation)\n- Updated majority of CHAMPi's mods\n- Updated Research Progress Bar\n- Removed Damage Panel: Better (it wasn`t working after all)\n- Added Hitmarker Pro (by Aslain) [mod #683] (replaces the old Hitmarker 2.0): shows a marker on your crosshair whenever you hit an enemy, with its own colour for each hit type, adjustable size, animated or static style and an optional hit sound, all set up in the garage (Mod configurator menu). Your previous Hitmarker selection is not carried over, so re-select it and configure it there. The mod can be found in the crosshairs branch, where you have to re-select it again.\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
