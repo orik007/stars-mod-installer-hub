@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.065",
-  "sourceHash": "9fd7af191f5a0efe9de8940f5278e326c9cf8f3e5019ca39c6d42a550619826a",
+  "catalogVersion": "v2026.06.066",
+  "sourceHash": "05310f5c2e37ff57f119959e19a919608438c40755db33e21d1da905ffae09bc",
   "sources": [
     "wgmods",
     "modhub"
@@ -63,6 +63,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.1.zip",
+          "updatedAt": "2026-06-25T07:10:07.542Z",
+          "sizeBytes": 646043,
+          "fileName": "CrewSkillsPro_1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "1.0.1:\n- optimization\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.0.zip",
           "updatedAt": "2026-06-23T22:18:27.467Z",
@@ -73,8 +83,8 @@
         }
       ],
       "latest": {
-        "fileName": "CrewSkillsPro_1.0.0.zip",
-        "changeLog": "",
+        "fileName": "CrewSkillsPro_1.0.1.zip",
+        "changeLog": "1.0.1:\n- optimization\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -176,7 +186,7 @@
       ],
       "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info.</p><p>Created by <strong>Z4imon</strong></p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
+      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info.</p><p>Created by <strong>Z4imon</strong></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
       "installationGuideHtml": "<p>Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion<br><br>If you already have gameface installed, only copy the tank_info_in_hangar file</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Titelbild2_DXyUI4L.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7722/",
@@ -546,10 +556,10 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 4.1,
       "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v2_compression.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v6.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
       "tagIds": [
         "12",
@@ -747,48 +757,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.4_2.3.0.1.zip",
-          "updatedAt": "2026-06-24T07:30:07.685Z",
-          "sizeBytes": 15551220,
-          "fileName": "CustomSixthSense_1.0.4_2.3.0.1.zip",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.5.zip",
+          "updatedAt": "2026-06-25T07:10:17.663Z",
+          "sizeBytes": 16199465,
+          "fileName": "CustomSixthSense_1.0.5.zip",
           "fileExt": ".zip",
-          "changeLog": "1.0.4\n- more reliable settings saving\n- completely overhauled the flash method"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.3.zip",
-          "updatedAt": "2026-06-23T21:17:49.256Z",
-          "sizeBytes": 16150997,
-          "fileName": "CustomSixthSense_1.0.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors, smooth playback of animations)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.2.zip",
-          "updatedAt": "2026-06-14T17:37:20.801Z",
-          "sizeBytes": 22492889,
-          "fileName": "CustomSixthSense_1.0.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Updated Custom Sixth Sense 1.0.2 (fixed FPS drop on the first sixth-sense animation)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.1_o0615ay.zip",
-          "updatedAt": "2026-06-11T22:29:02.428Z",
-          "sizeBytes": 22379572,
-          "fileName": "CustomSixthSense_1.0.1_o0615ay.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Updated enhanced modsSettingsApi v1.1.2 (bug fix)"
+          "changeLog": "1.0.5:\n- fixed the icon not showing up in battle when XVM is installed\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)"
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.4_2.3.0.1.zip",
-        "changeLog": "1.0.4\n- more reliable settings saving\n- completely overhauled the flash method",
+        "fileName": "CustomSixthSense_1.0.5.zip",
+        "changeLog": "1.0.5:\n- fixed the icon not showing up in battle when XVM is installed\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1474,7 +1454,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Original author was <a href=\"https://wgmods.net/6053/\"><strong>Pepelus</strong></a></p><p>I decided to remake this mod for WoT 2.0</p><p>Added letters for all the ammo types and other missing icons.</p><p>All 29 ammo's that are in the game.</p>",
+      "descriptionHtml": "<p>Original author was <a href=\"https://wgmods.net/6053/\"><strong>Pepelus</strong></a></p><p>I decided to remake this mod for WoT 2.0</p><p>Added letters for all the ammo types and other missing icons.</p><p>All ammo's that are in the game.</p>",
       "installationGuideHtml": "<p>Place the .wotmod file into:</p><p>\"game installation folder\"\\mods\\\"game version\"</p><p>For example:</p><p>\"W:\\World_of_Tanks_EU\\mods\\2.3.0.0\"</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod-cover.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7695/",
@@ -4003,7 +3983,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.7,
       "descriptionHtml": "<p><strong>Armor Modpack</strong> is now available on <strong>WGMODS</strong></p><p>One of the longest-standing projects in the tanking community has officially moved to wgmods.net. With over 10 years of development behind it, the modpack has built up a collection of unique features many of which you won’t typically find in other popular setups.</p><p><strong>Armor Modpack</strong> focuses on functionality that goes beyond the usual “standard” bundles:</p><ul><li>A full <strong>account manager</strong> with multi-login support, allowing you to switch accounts quickly without leaving the game.</li><li>An <strong>AFK indicator</strong> to spot inactive players, along with the Observers mod.</li><li>An <strong>incognito </strong>mode that lets you stream your favorite game without worrying about streamsnipers.</li><li>An in-game <strong>radio </strong>and <strong>colored wrecks of destroyed tanks</strong>, making it easier to navigate cluttered battlefields.</li></ul><p>Overall, it’s a reliable and well-optimized option for players who want more than just updated sights offering specialized tools to enhance gameplay and fine-tune the client to their preferences.<br><br>If you have any questions about mods or settings, feel free to ask me on <strong>Telegram </strong>or <strong>Discord </strong>(buttons in the modpack)<br><br>If the author is not indicated, and the author wants to indicate it, please write to the Discord or Telegram channel and I will add it without any problems</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong></p><ul><li>Run the installer file.</li><li>Point it to your World of Tanks installation directory.</li><li>Select the desired mods and configuration options.</li><li>To modify your setup later, simply re-run the installer; your previous selections will be saved automatically.</li></ul><p><strong>Updating:</strong></p><ul><li>Keep the existing modpack installed — do not remove it.</li><li>Download and execute the latest installer version (your prior settings will be retained).</li><li>Follow the installation steps to complete the update.</li></ul><p><strong>Uninstallation:</strong></p><ul><li>Remove the modpack via Windows “Apps &amp; Features” (Add or Remove Programs) in the Control Panel.</li></ul>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Armor_ModPAck_T1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -4259,7 +4239,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>Please report issues on the <a href=\"https://github.com/pademinune/Armor-Penetration-Calculator/issues\">Github repo</a>.</p><p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>They don't compute and display the exact probability of penetrating. You would have to estimate this in the moment based on your shell's penetration and their armor. This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</p><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to pen someone</li><li>Great performance since the mod uses the calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail-upscaled.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -4831,7 +4811,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.5,
       "descriptionHtml": "<p><strong>Recommended in combination with:&nbsp;</strong><a href=\"https://wgmods.net/7578/\"><strong>https://wgmods.net/7578/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod shows you your current MOE rating, projected MOE rating, and damage needed to sustain current MOE rating in battle. As well as your current moving average damage and the new moving average damage.<br>You can drag the overlay around.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-21_191230701.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5450,7 +5430,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.5,
       "descriptionHtml": "<p><strong>Recommended in combination with: </strong><a href=\"https://wgmods.net/7596/\"><strong>https://wgmods.net/7596/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Yes it is yet another Moe Mod but compared to others this stays in the Hangar and is minimalistic and due to the fact that it doesnt show in battle it is less likely to break, the Overlay Position is stored in preferences.xml so the overlay stays at the same place.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-15_163541761.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -20946,7 +20926,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.5,
       "descriptionHtml": "<h2>Lightweight and modern modpack for World of Tanks</h2><p>The problem of all modpacks is their large size.<br>This modpack downloads only those mods that the user selected at runtime.<br>Also it has a modern Web interface.<br>Supports all client versions (including CT and SB)</p><blockquote><p>Please note that the modpack version does <strong>NOT</strong> necessarily have to match the client version!</p></blockquote><p><a href=\"https://github.com/SuperZombi/wot-modpack\">Github</a></p>",
       "installationGuideHtml": "<p>Run the installer, select the necessary mods. Click Next.<br><br>To remove mods, click \"Reset\" on the mod selection page and then Next.</p><blockquote><p>For the first installation, it is recommended to check the «Delete mod configs» option to avoid conflicts with previous modpacks.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/maxresdefault_v3Ma3ob.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -35987,6 +35967,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "09",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
+          "updatedAt": "2026-06-25T08:04:31.616Z",
+          "sizeBytes": 58436554,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #09 (25-06-2026):\n- Fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree (unfortunately, this mod contains contour icon files that are used by other mods, and I always have to removed them manually from this mod .wotmod file to prevent such issues)\n\nv2.3.0.1 #08 (24-06-2026):\n- Installer: Optimized mod preview loading\n- Updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)\n- Updated Scheduled Personal Reserves (added a fix attempt for issue with the wrong args)\n- Updated Advanced Tech-tree\n- Updated MoE on the Tech-Tree\n- Updated Crew Skills Pro\n- Updated Custom Sixth Sense (fixed the icon not showing up in battle when XVM is installed)\n\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "07",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
           "updatedAt": "2026-06-23T22:43:30.694Z",
@@ -36034,21 +36024,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_03.exe",
           "fileExt": ".exe",
           "changeLog": "v2.3.0.1 #03 (15-06-2026):\n- Updated Camo Selector 1.6 (bug fixes)\n- Updated Custom Sixth Sense 1.0.3 (further optimizations, animations are now png atlas files)\n- Updated enhanced modsSettingsApi 1.2.1 (new option for mod authors: smooth atlas animations in their menus)\n- Updated Tomato.gg (stats are now shown in three locations: player panels, TAB menu, and battle results)\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_02.exe",
-          "updatedAt": "2026-06-14T17:15:25.027Z",
-          "sizeBytes": 57621496,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_02.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #02 (14-06-2026):\n- Updated enhanced modsSettingsApi v1.2.0 (new options for mod authors, long hotkey labels no longer cut off, fixed dropdown selection highlight, minor fixes)\n- Updated Dispersion Reticle by Pruszko\n- Updated Show vehicle body in the sniper view 2.0.1 (zoom slider limited to x0.5-1.0 as lower values broke the game; x1 value shown again; new option to turn off the extra wide view of your own tank)\n- Updated Custom Sixth Sense 1.0.2 (fixed FPS drop on the first sixth-sense animation)\n- Updated Show vehicle body in the sniper view 2.0.2 (fixed invisible turret when watching replays)\n- Updated Pet Gift Auto Claim (cleaned up code and fixed double notifications; claiming a Gift now triggers a random pet animation)\n- Added Camo Selector (by Gravity_Assist) [mod #992]\n- Added Crosshair Ballistics Info (by Gravity_Assist) [mod #737]\n- Added Gravity_Assist preset to the top drop-down menu\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_07.exe",
-        "changeLog": "v2.3.0.1 #07 (23-06-2026):\n- Installer: Added Turkish initial localization by rootforce\n- Updated Personal Record Customisation\n- Updated Dispersion Reticle by Pruszko (comes with change for armor flashlight, making it follow client reticle instead of server reticle, when either client+server or hybrid reticles are enabled)\n- Updated BalCalcMod (more reliable settings saving)\n- Updated AutoAim Indication+ (more reliable settings saving)\n- Updated Custom Sixth Sense (optimization; more reliable settings saving)\n- Added Scheduled Personal Reserves (by Gravity_Assist) [mod #1107] (replacement for Personal Reserves Auto Activation)\n- Added Contact Cleaner (by OldSkool) [mod #1092] (as a replacement for the Blacklist Cleaner)\n- Added Crew Skills Pro (by Aslain) [mod #703] (as an replacement for Crew Skills Informer)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
+        "changeLog": "v2.3.0.1 #09 (25-06-2026):\n- Fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree (unfortunately, this mod contains contour icon files that are used by other mods, and I always have to removed them manually from this mod .wotmod file to prevent such issues)\n\nv2.3.0.1 #08 (24-06-2026):\n- Installer: Optimized mod preview loading\n- Updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)\n- Updated Scheduled Personal Reserves (added a fix attempt for issue with the wrong args)\n- Updated Advanced Tech-tree\n- Updated MoE on the Tech-Tree\n- Updated Crew Skills Pro\n- Updated Custom Sixth Sense (fixed the icon not showing up in battle when XVM is installed)\n\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
