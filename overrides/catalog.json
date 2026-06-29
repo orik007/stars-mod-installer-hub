@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.067",
-  "sourceHash": "c72019319eeda15324f0a85228746aeb392e99cf0f5f0078da0e1b9bdcad5b97",
+  "catalogVersion": "v2026.06.068",
+  "sourceHash": "41a4b6853b41b1eada0f7f689c7cecf3a0932f0f89363d36513cac000eb3c354",
   "sources": [
     "wgmods",
     "modhub"
@@ -17,7 +17,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each hit type: damage, penetration, critical, fire, kill, ricochet and no-penetration&nbsp;<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p>",
+      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each hit type: damage, penetration, critical, fire, kill, ricochet and no-penetration&nbsp;<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p><p>Note: This version is not compatible with other mods based on audio_<i>mods.xml. To make it work, you would have to delete the audio</i>_<i>mods.xml inside this mod’s .wotmod and then add this mod's sound bank: hitmarkerpro.bnk manually to the existing audio</i>_mods.xml in res_mods/x.x.x.x/audioww/</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/HitmarkerPro_1_KAsWEtf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7736/",
@@ -106,26 +106,6 @@
           "fileName": "CrewSkillsPro_1.0.2_2.3.0.1.zip",
           "fileExt": ".zip",
           "changeLog": "Crew Skills Pro (added a support for a replays)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.1.zip",
-          "updatedAt": "2026-06-25T07:10:07.542Z",
-          "sizeBytes": 646043,
-          "fileName": "CrewSkillsPro_1.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "1.0.1:\n- optimization\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.0.zip",
-          "updatedAt": "2026-06-23T22:18:27.467Z",
-          "sizeBytes": 482958,
-          "fileName": "CrewSkillsPro_1.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -773,16 +753,6 @@
           "fileName": "CustomSixthSense_1.0.6_2.3.0.1.zip",
           "fileExt": ".zip",
           "changeLog": "added a support for a replays"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.5.zip",
-          "updatedAt": "2026-06-25T07:10:17.663Z",
-          "sizeBytes": 16199465,
-          "fileName": "CustomSixthSense_1.0.5.zip",
-          "fileExt": ".zip",
-          "changeLog": "1.0.5:\n- fixed the icon not showing up in battle when XVM is installed\n- updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)"
         }
       ],
       "latest": {
@@ -887,36 +857,6 @@
           "fileName": "Autoaim_indicator_Plus_2.0.6_2.3.0.1.zip",
           "fileExt": ".zip",
           "changeLog": "2.0.5/2.0.6\n- more reliable settings saving and loading"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.0.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AutoAim_Indication_Plus_2.0.4_a5SvsJN.zip",
-          "updatedAt": "2026-06-11T22:29:07.891Z",
-          "sizeBytes": 495197,
-          "fileName": "AutoAim_Indication_Plus_2.0.4_a5SvsJN.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Updated AutoAim Indication+ 2.0.4 (config relocated to the mods\\Aslain subfolder in appdata, auto-migrated)\n- Updated enhanced modsSettingsApi v1.1.2 (bug fix)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AutoAim_Indication_Plus_2.0.3_1JGbqqK.zip",
-          "updatedAt": "2026-06-11T08:30:03.177Z",
-          "sizeBytes": 438643,
-          "fileName": "AutoAim_Indication_Plus_2.0.3_1JGbqqK.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "2.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AutoAim_Indication_Plus_2.0.3.zip",
-          "updatedAt": "2026-06-10T14:48:23.575Z",
-          "sizeBytes": 438643,
-          "fileName": "AutoAim_Indication_Plus_2.0.3.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -3557,43 +3497,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7625",
-      "title": "Ho-Ri 3 <APOCALYPSE 3D STYLE>",
-      "ownerUsername": "Trick4Funz",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>This is a custom remake of the Ho-ri 3 3D style from Mir Tankov (I don't own the textures), I remade the 2D textures so it looks like the tank was abandoned for decades, It is possible to add a 2D style on top of it since it overwrites the base texture of the tank, some combinations work, some don't :) Moss might create some weird things with the 2D styles tho.</p><p><br>&nbsp;</p>",
-      "installationGuideHtml": "<p>Paste the wotmod into the mods folder, latest version usually all the way down<br>ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.04.13_-_21.09.30.52_cEXs7bT.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7625/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TZ-HoRi3-2.2.0.2.wotmod",
-          "updatedAt": "2026-04-14T09:29:34.981Z",
-          "sizeBytes": 26133227,
-          "fileName": "TZ-HoRi3-2.2.0.2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "TZ-HoRi3-2.2.0.2.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7626",
       "title": "WT auf E 100 Phonix",
       "ownerUsername": "Inquisitor_117",
@@ -3706,7 +3609,7 @@
     {
       "source": "wgmods",
       "sourceId": "7624",
-      "title": "Type-71 <LEVIATHAN 3D STYLE>",
+      "title": "Type-71 <MAGNUS STYLE>",
       "ownerUsername": "Trick4Funz",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -3714,9 +3617,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>This is a custom remake of the Magnus 3D style from Mir Tankov (I don't own the textures), I remade the 2D textures so it looks like a mix between immortal and Leviathan, It is possible to add a 2D style on top of it since it overwrites the base texture of the tank, some combinations work, some don't :)</p>",
+      "descriptionHtml": "<p>This is a custom remake of the Magnus 3D style from Mir Tankov, I remade the 2D textures so it looks like a mix between immortal and Leviathan, The model will not be overwrited by a 2D style so you'll be able to put a 2D style on it without it modifiying the look of the tank</p>",
       "installationGuideHtml": "<p>Paste the wotmod into the mods folder, latest version usually all the way down<br>ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.04.13_-_19.42.41.70_pbG5yWa.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.06.29_-_15.11.25.65_kQOlvOR.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7624/",
       "tagIds": [
         "16",
@@ -3753,7 +3656,7 @@
       "mark": null,
       "descriptionHtml": "<p>This is a custom remake of the Kinetic 3D style from Mir Tankov (I don't own the textures), I remade the 2D textures so it looks like a 3D skin from the Waffentrager event, Barrel does glow like on the image, It is possible to add a 2D style on top of it since it overwrites the base texture of the tank, some combinations work, some don't :)</p>",
       "installationGuideHtml": "<p>Paste the wotmod into the mods folder, latest version usually all the way down<br>ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there<br>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.04.13_-_19.49.33.59_xnOwXJ5.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7623/",
       "tagIds": [
         "16",
@@ -4905,7 +4808,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>Hello</p><p>This is a voice pack mod for World of Tanks with voices from every major school.</p><p><strong>Includes:</strong></p><p>Every Oarai Team</p><p>BC Freedom Academy - Marie, Andou, Oshida</p><p>St. Gloriana Girls High School - Darjeeling, Rukuriri, and Rosehip</p><p>Saunders Girls High School - Kay, Alisa, and Naomi</p><p>Anzio High School - Anchovy, Carpaccio, Pepperoni</p><p>Pravda Girls High School - Katyusha, Nonna, Nina, Alina, and Klara</p><p>Kuromorimine Girls Academy - Maho, Erika, Koume, and Miho</p><p>Chi-Ha-Tan Academy - Nishi, Fukuda, Tamada, Hosomi</p><p>Jatkosota High School - Mika, Aki, Mikko</p><p>All-Stars University Team - Alice, Azumi, Megumi, and Rumi</p><p>This mod also includes Tatenashi High School:</p><p>Shizuka Tsuruki and Rin Matsukaze</p><p>You can choose whatever voice you want. For example, if you want only Marie, <strong>go to Settings → Sound → Voice Messages in Battle</strong> and select Marie. If you want all three Marie, Andou, and Oshida, select BC, the choice is yours.</p><p><strong>Gameplay:</strong></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OmbVnw1Y3As?si=PrfxC9cmyy6Hv5iu\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OmbVnw1Y3As\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>Unzip the folder and copy the files into the latest game version inside the mods folder where your game folder is stored. Also if dont want version that does not replace the detection,ally,death, and reload notifications just delete GuP(Version)_audio_VoiceSelector_ver.18.0.1_xml.wotmod</p>",
@@ -4915,6 +4818,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.2.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mods.zip",
+          "updatedAt": "2026-06-29T13:34:08.633Z",
+          "sizeBytes": 747703812,
+          "fileName": "mods.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.2.0.2",
           "modVersion": "2.2.0.1",
@@ -4927,9 +4840,9 @@
         }
       ],
       "latest": {
-        "fileName": "mods_oa98RHR.zip",
+        "fileName": "mods.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -35986,6 +35899,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_11.exe",
+          "updatedAt": "2026-06-29T12:35:33.441Z",
+          "sizeBytes": 58785990,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_11.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.0.1 #11 (29-06-2026):\n- Fixed conflict between Hitmarker Pro and mods using audio_mods.xml"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "10",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
           "updatedAt": "2026-06-28T16:33:43.380Z",
@@ -36006,8 +35929,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
-        "changeLog": "v2.3.0.1 #10 (28-06-2026):\n- Updated contour icons: man1aq\n- Updated enhanced modsSettingsApi 1.4.1 (new option for mod authors)\n- Updated Custom Sixth Sense (added a support for a replays)\n- Updated Crew Skills Pro (added a support for a replays)\n- Updated In Battle Statistics (settings now survive reinstallation)\n- Updated majority of CHAMPi's mods\n- Updated Research Progress Bar\n- Removed Damage Panel: Better (it wasn`t working after all)\n- Added Hitmarker Pro (by Aslain) [mod #683] (replaces the old Hitmarker 2.0): shows a marker on your crosshair whenever you hit an enemy, with its own colour for each hit type, adjustable size, animated or static style and an optional hit sound, all set up in the garage (Mod configurator menu). Your previous Hitmarker selection is not carried over, so re-select it and configure it there. The mod can be found in the crosshairs branch, where you have to re-select it again.\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_11.exe",
+        "changeLog": "v2.3.0.1 #11 (29-06-2026):\n- Fixed conflict between Hitmarker Pro and mods using audio_mods.xml",
         "wotGameVersionCompatibility": "safe"
       }
     },
