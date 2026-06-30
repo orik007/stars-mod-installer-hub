@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.069",
-  "sourceHash": "e1fd27f8768afae35316ae19f8a43dcfb581907bdf3feb8b76896daf84789479",
+  "catalogVersion": "v2026.06.070",
+  "sourceHash": "b86da8aa5e829a30d82ac7ba5c9e7c6a1a8fdac6df1414c072af3bda422b3a39",
   "sources": [
     "wgmods",
     "modhub"
@@ -8,8 +8,45 @@
   "mods": [
     {
       "source": "wgmods",
+      "sourceId": "7726",
+      "title": "Wot Mod Creator (Icons)",
+      "ownerUsername": "Hyster",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Easily create custom Marks of Excellence (Insignia), cap circles, damage stickers, carousel icons, and tech tree icons (which are also used for battle results). The application takes care of the entire process—from designing your assets to building a ready-to-use .wotmod file. Just copy the generated .wotmod into mods/{version}/ and you're ready to go.</p><p>The Tank Icon Builder is a more advanced feature and may take some practice to master.<br><br>Some test images are included, feel free to add your own.</p>",
+      "installationGuideHtml": "<p>unzip to its own folder and run WoTModCreator.exe. no installation needed.<br>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wmc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7726/",
+      "tagIds": [
+        "14",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "V4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Wot-Mod-Creator-v4-portable-win-x64.zip",
+          "updatedAt": "2026-06-30T08:43:52.019Z",
+          "sizeBytes": 38996050,
+          "fileName": "Wot-Mod-Creator-v4-portable-win-x64.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Wot-Mod-Creator-v4-portable-win-x64.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7737",
-      "title": "Ho-Ri 3 <AMARANTHINE DRAGON>",
+      "title": "Ho-Ri 3 <PURPLE DRAGON 3D STYLE>",
       "ownerUsername": "Trick4Funz",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -487,6 +524,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.2.wotmod",
+          "updatedAt": "2026-06-30T08:44:30.374Z",
+          "sizeBytes": 75395,
+          "fileName": "Z4imon.tank_info_in_hangar_1.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed a bug, where the tank info does not get automatically refreshed when switching a tank after a previous match was left early"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.1.zip",
           "updatedAt": "2026-06-22T08:30:40.955Z",
@@ -497,8 +544,8 @@
         }
       ],
       "latest": {
-        "fileName": "Z4imon.tank_info_in_hangar_1.1.zip",
-        "changeLog": "Fixed errors on different resolutions",
+        "fileName": "Z4imon.tank_info_in_hangar_1.2.wotmod",
+        "changeLog": "Fixed a bug, where the tank info does not get automatically refreshed when switching a tank after a previous match was left early",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1832,6 +1879,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.researchprogressbar_1.1.0.zip",
+          "updatedAt": "2026-06-30T08:44:03.311Z",
+          "sizeBytes": 874748,
+          "fileName": "zanju.researchprogressbar_1.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "\n- Settings now survive a modpack reinstall instead of being reset to defaults.\n- In-game settings now use Aslain's ModsSettings menu, with search, collapsible mods, and a reset-to-defaults button."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.researchprogressbar_1.0.1.zip",
           "updatedAt": "2026-06-18T08:04:03.324Z",
@@ -1852,8 +1909,8 @@
         }
       ],
       "latest": {
-        "fileName": "zanju.researchprogressbar_1.0.1.zip",
-        "changeLog": "- The progress bar now lays out correctly at non-default interface scaling (e.g. x2) instead of stretching off both edges of the screen. [[#2](https://github.com/przemyslaw-zan/zanju-wot-mods/issues/2)]\n- Korean and other non-Latin characters now display correctly in the mod's tooltips — module names, upgrade names and descriptions, and field-modification stats — instead of appearing as empty boxes. [[#3](https://github.com/przemyslaw-zan/zanju-wot-mods/issues/3)]",
+        "fileName": "zanju.researchprogressbar_1.1.0.zip",
+        "changeLog": "\n- Settings now survive a modpack reinstall instead of being reset to defaults.\n- In-game settings now use Aslain's ModsSettings menu, with search, collapsible mods, and a reset-to-defaults button.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7646,7 +7703,7 @@
     {
       "source": "wgmods",
       "sourceId": "7512",
-      "title": "WotVSWAPS",
+      "title": "WoTVSWAPS",
       "ownerUsername": "Trick4Funz",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -7654,7 +7711,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré) Custom 3D Style (Placeholder)</li><li>B-C 25 t : skin (Placeholder) Custom 3D Style (Placeholder)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)&nbsp;</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li><li>Burza : skin (simple gun replacement)</li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret and gun)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
+      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré) Custom 3D Style (Placeholder)</li><li>B-C 25 t : skin (Placeholder) Custom 3D Style (Placeholder)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li><li>Burza : skin (simple gun replacement)</li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret and gun)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
       "installationGuideHtml": "<p>How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down</p><p>How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game.</p><p>THIS MOD DOES NOT NEED AN UPDATE</p><p>(THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/WotVSWAPS_ZGdPm6a.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7512/",
