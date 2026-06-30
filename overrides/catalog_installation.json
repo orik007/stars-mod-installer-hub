@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.069",
+  "catalogVersion": "v2026.06.070",
   "mods": [
     {
       "source": "wgmods",
+      "sourceId": "7726",
+      "title": "Wot Mod Creator (Icons)",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "unzip to its own folder and run WoTModCreator.exe. no installation needed."
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Archive guide only instructs running an included executable and provides no supported manual file-copy target.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7737",
-      "title": "Ho-Ri 3 <AMARANTHINE DRAGON>",
+      "title": "Ho-Ri 3 <PURPLE DRAGON 3D STYLE>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
@@ -187,13 +202,13 @@
       "sourceId": "7722",
       "title": "Tank Info in Hangar",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion If you already have gameface installed, only copy the tank_info_in_hangar file"
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive targets mods/<version> but guide requires a blocking manual choice because only one file should be copied if Gameface is already installed.",
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide targets mods/<version>; optional note about copying only one file if another mod is already installed is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -2450,7 +2465,7 @@
     {
       "source": "wgmods",
       "sourceId": "7512",
-      "title": "WotVSWAPS",
+      "title": "WoTVSWAPS",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game. THIS MOD DOES NOT NEED AN UPDATE (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)"
