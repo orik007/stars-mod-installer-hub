@@ -1,7 +1,112 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.06.068",
+  "catalogVersion": "v2026.06.069",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7737",
+      "title": "Ho-Ri 3 <AMARANTHINE DRAGON>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7733",
+      "title": "DARK // KV-2-2-2 and KV-2x9",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7734",
+      "title": "DARK //  FV4005 - Reverse & 4 guns",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7735",
+      "title": "IS-3-II <OPEN ENGINE LANDSHIP 3D STYLE>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: You will have to delete the data.wgpdc file present in your WorldofTanks folder to load the new exhausts look"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7732",
+      "title": "DARK // STB-1 - NEW WARFARE",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself. Dependency note does not change the file operation.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7731",
+      "title": "DARK // Char MURAT - NEW GENERATION",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself. Dependency note does not change the file operation.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7730",
+      "title": "DARK // AMX M4 mle. 54 - NEW WARFARE",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself. Dependency note does not change the file operation.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7736",
@@ -127,13 +232,13 @@
       "sourceId": "7720",
       "title": "Scheduled Personal Reserves",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
