@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.000",
+  "catalogVersion": "v2026.07.001",
   "mods": [
     {
       "source": "wgmods",
@@ -65,7 +65,7 @@
     {
       "source": "wgmods",
       "sourceId": "7735",
-      "title": "IS-3-II <OPEN ENGINE LANDSHIP 3D STYLE>",
+      "title": "IS-3-II <BATTLESHIP 3D STYLE>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: You will have to delete the data.wgpdc file present in your WorldofTanks folder to load the new exhausts look"
@@ -2467,13 +2467,13 @@
       "sourceId": "7512",
       "title": "WoTVSWAPS",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version), head to X:\\WOT and delete the data.wgpdc file, it will allow newer sound mods to load if they don't load in game. THIS MOD DOES NOT NEED AN UPDATE (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD, you can choose to only see historical paintjobs, which will prevent other vehicles from looking weird)"
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version). (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)"
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Guide requires copying specific folders into res_mods/<version> and additionally deleting/replacing folders, making it a multi-step unsupported operation.",
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract the top-level folders Vehicles and Scripts into res_mods/<version>; guide also mentions deleting data.wgpdc.",
         "deleteDataWgpdc": true
       }
     },
