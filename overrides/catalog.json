@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.06.071",
-  "sourceHash": "77218c9c2d9b1fb6fb86bd2cb9031ebaeef767793fdfca416831ec1b9548e74e",
+  "catalogVersion": "v2026.07.000",
+  "sourceHash": "ba53d7d3c03442f4eeeb974de2736fe9a95b3f7d550a7eb25f5437e6dc3f5208",
   "sources": [
     "wgmods",
     "modhub"
@@ -2241,7 +2241,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Shows distance, dynamic damage, and dynamic penetration at your crosshair.&nbsp;<br>Especially useful for Deep Rifled Guns.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-05-23_215433533.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7681/",
       "tagIds": [
@@ -2249,6 +2249,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crosshair.ballistics.info.2.3.0.1.1.2.zip",
+          "updatedAt": "2026-06-30T20:46:38.284Z",
+          "sizeBytes": 76539,
+          "fileName": "gravity.crosshair.ballistics.info.2.3.0.1.1.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Moved the overlay to Gameface."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.1",
@@ -2261,8 +2271,8 @@
         }
       ],
       "latest": {
-        "fileName": "crosshair.ballistics.info.2.3.0.1.1.1.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.crosshair.ballistics.info.2.3.0.1.1.2.zip",
+        "changeLog": "Moved the overlay to Gameface.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3393,7 +3403,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<h2>Allows you to play challenges with OR AGAINST your platoon mates</h2><p>Do you want to play challenges with your platoon mates?<br><br>How about reaching 120k combined damage in 10 battles with two of your buddys?<br><br>With this mod you can do this. The values you achieved in battles are combined with the values of your platoon mates. <strong>HAVE FUN!</strong></p><h2>EXPLANATION WITH GAMEFACE</h2><p>(Damage) races are only available if you use gameface, see the installation instructions to see, how to install gameface.</p><p><strong>Start a challenge: </strong>Select if you want to play a race or in co-op, then select the stat to play the challenge/race with, enter the maximum amount of battles to reach the value in and finally the goal. Start the challenge</p><h2>&nbsp;</h2><h2>EXPLANATION WITHOUT GAMEFACE</h2><p><strong>Start a challenge: </strong>click any challenge (e.g. [1] 120k Combined Damage)<br><strong>Cancel an active challenge:</strong> Click [Cancel] while a challenge is running<br><strong>Edit challenge templates:</strong> Click [Edit challenges] to open challenges.json directly</p><p><strong>Customizing challenge templates (challenges.json):</strong></p><p>&nbsp;Each entry has four fields:<br>&nbsp;- name — display name<br>&nbsp;- type — COMBINED, DAMAGE, KILLS, SPOTTING, SURVIVE or WINS<br>&nbsp;- target — the goal value (e.g. 120000 for 120k damage)<br>&nbsp;- max_battles — battle limit to reach the target</p><p>&nbsp;Moving the overlay: Drag it anywhere you want</p><p>Error fixes: Delete the file to generate a new file with the standard challenges. Make sure there is a comma behind all entries <strong>EXCEPT THE LAST ONE</strong></p><p>&nbsp;Note: Challenges track progress across platoon battles — each platoon member's stats count to the combined progression except for wins and survived.</p><p>I always play challenges with my platoon mates, each of us has to pick a new random tank for each battle. If you are interested in that too, have a look at my other mod: <a href=\"https://wgmods.net/7575/\">Random Tank Picker</a></p><p>If you need help ask here: <a href=\" https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a> (Official WoT Discord)</p><p>made by <strong>Z4imon</strong></p>",
       "installationGuideHtml": "<p>Move the downloaded file to the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion</p><p>&nbsp;</p><p><strong>To use the new GUI (Gameface) it is necessary to have the gameface mod installed</strong></p><p>If you are using a modpack this should be installed automatically. The mod should be named like: net.openwg.gameface_x.x.x.wotmod<br>Gameface might be in a subdirectory called like: net.openwg<br><br>If you do not have the gameface mod and want to use the new GUI, you can get it from here: https://gitlab.com/openwg/wot.gameface/-/releases<br><br>Download the .wotmod file from the link above and paste it into your mod folder: yourWoTInstallation/mods/currentGameVersion</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/GFchallenge_0x9Kovg.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3801,7 +3811,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod displays a simple overlay in battle when pressing the Alt key that shows the loading cycles when playing an autoreloader and displays the fastest loading shell, the overlay can be dragged by pressing the Alt + Control key and then dragging it.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-04-15_180107685.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7631/",
       "tagIds": [
@@ -3809,6 +3819,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.autoreloader_overlay.2.3.0.1.1.1.zip",
+          "updatedAt": "2026-06-30T20:46:34.829Z",
+          "sizeBytes": 71877,
+          "fileName": "gravity.autoreloader_overlay.2.3.0.1.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Moved the overlay to Gameface."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0",
@@ -3821,8 +3841,8 @@
         }
       ],
       "latest": {
-        "fileName": "autoreloader_overlay.2.3.0.1.1.0.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.autoreloader_overlay.2.3.0.1.1.1.zip",
+        "changeLog": "Moved the overlay to Gameface.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5086,7 +5106,7 @@
       "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>Recommended in combination with:&nbsp;</strong><a href=\"https://wgmods.net/7578/\"><strong>https://wgmods.net/7578/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod shows you your current MOE rating, projected MOE rating, and damage needed to sustain current MOE rating in battle. As well as your current moving average damage and the new moving average damage.<br>You can drag the overlay around.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-21_191230701.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7596/",
       "tagIds": [
@@ -5095,6 +5115,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_moe_overlay.2.3.0.1.1.4.zip",
+          "updatedAt": "2026-06-30T20:46:32.030Z",
+          "sizeBytes": 109786,
+          "fileName": "gravity.battle_moe_overlay.2.3.0.1.1.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "Moved the overlay to Gameface."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.3",
@@ -5107,8 +5137,8 @@
         }
       ],
       "latest": {
-        "fileName": "battle_moe_overlay.2.3.0.1.1.3.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.battle_moe_overlay.2.3.0.1.1.4.zip",
+        "changeLog": "Moved the overlay to Gameface.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5491,7 +5521,7 @@
       "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod displays a simple overlay in battle when pressing the Alt key that shows the caliber of the installed gun, the overlay can be dragged by pressing the Alt + Control key and then dragging it.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-17_201827270.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7587/",
       "tagIds": [
@@ -5499,6 +5529,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.gun_caliber_overlay.2.3.0.1.1.1.zip",
+          "updatedAt": "2026-06-30T20:46:28.661Z",
+          "sizeBytes": 71087,
+          "fileName": "gravity.gun_caliber_overlay.2.3.0.1.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Moved the overlay to Gameface."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0",
@@ -5511,8 +5551,8 @@
         }
       ],
       "latest": {
-        "fileName": "gun_caliber_overlay.2.3.0.1.1.0.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.gun_caliber_overlay.2.3.0.1.1.1.zip",
+        "changeLog": "Moved the overlay to Gameface.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5715,7 +5755,7 @@
       "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p><strong>Recommended in combination with: </strong><a href=\"https://wgmods.net/7596/\"><strong>https://wgmods.net/7596/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Yes it is yet another Moe Mod but compared to others this stays in the Hangar and is minimalistic and due to the fact that it doesnt show in battle it is less likely to break, the Overlay Position is stored in preferences.xml so the overlay stays at the same place.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-15_163541761.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7578/",
       "tagIds": [
@@ -5724,6 +5764,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_tracker.2.3.0.1.1.1.zip",
+          "updatedAt": "2026-06-30T20:46:02.934Z",
+          "sizeBytes": 82444,
+          "fileName": "gravity.moe_tracker.2.3.0.1.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0",
@@ -5736,7 +5786,7 @@
         }
       ],
       "latest": {
-        "fileName": "moe_tracker.2.3.0.1.1.0.wotmod",
+        "fileName": "gravity.moe_tracker.2.3.0.1.1.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -7511,7 +7561,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This displays the mastery requirements for the selected tank in the hangar.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-02-23_204045193.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7524/",
       "tagIds": [
@@ -7520,6 +7570,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.garage_mastery.2.3.0.1.1.6.zip",
+          "updatedAt": "2026-06-30T20:46:22.943Z",
+          "sizeBytes": 78655,
+          "fileName": "gravity.garage_mastery.2.3.0.1.1.6.zip",
+          "fileExt": ".zip",
+          "changeLog": "Moved the overlay to Gameface."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.5",
@@ -7532,8 +7592,8 @@
         }
       ],
       "latest": {
-        "fileName": "garage_mastery.2.3.0.1.1.5.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.garage_mastery.2.3.0.1.1.6.zip",
+        "changeLog": "Moved the overlay to Gameface.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -9036,7 +9096,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>Addendum: with additional testing I can comfortably say the mod runs fine on SD/HD Clients. However, even though 1.29.1 Removed minimum graphics, running the \"Simplified\" graphics option still loads various \"forward\" settings, meaning the mod will not work as intended using that setting.&nbsp;</strong><br><strong>While I could potentially modify this, I must admit that I have no interest in doing so. As such, unless you're running the \"Improved\" graphics option I do not recommend using this mod</strong><br><br>Like my previous Revamped Skies mods, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-3-mod-preview-y0pqnIN\">https://imgur.com/a/wot-revamped-skies-volume-3-mod-preview-y0pqnIN</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><ul><li>must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can look funny but should be for the most part irrelevant (the only real exception to this is Glacier Night where the ice being reflective affects the setting quite a bit. I'm still happy with the look of the map but I want to make sure you're aware of this)<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- Some maps feature rain as part of an experimental test. This reuses assets from the WT Game mode, as well as the probes folders taken from the Rainy Weather mod in Aslain's, credit to Aslain/Pharaon for that. I have also reused some assets from my Aslain's Night Sky Edit, so credit again to Aslain/Pharaon for those.<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: if you're running this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues with the skybox. Do not try to run this alongside any other sky-related mod, or try to run both versions included at the same time</strong></li></ul><p>&nbsp;</p><p>Again this mod is <strong>NOT </strong>intended as a replacement for the original Revamped Skies mod or the Volume 2 Version, but simply an additional rework of every map. You can comfortably swap between any of my Revamped Skies mod from time to time to change up the feel of the game.</p>",
       "installationGuideHtml": "<p>To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.1.1.0\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -9048,6 +9108,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "v1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.3_60OxU4f.rar",
+          "updatedAt": "2026-06-30T22:31:38.679Z",
+          "sizeBytes": 138838275,
+          "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_60OxU4f.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "v1.3",
@@ -9097,22 +9167,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_3_v1.1.rar",
           "fileExt": ".rar",
           "changeLog": "v1.1 Update for 2.2.0.2:\n- modified sky/cloud shadow direction on basically every map to look more natural\n- slightly modified the following maps: Karelia, Malinovka, Province, Himmelsdorf (Day), Ensk Region, Lakeville, Murovanka, Erlenberg (Night), Siegfried Line, Cliff, Abbey (On Fire), Fjords, Steppes, Mannerheim Line and Tundra\n- reworked the following maps: Prokhorovka, Abbey (Day), Westfield, Sand River and Serene Coast (Day)\n- added Himmelsdorf (On Fire) for the Dark Maps version (at user request)\n- experimented with an edit to the sh_grid to remove the bright glare from the ice on Glacier (Day + Night)\n- added Cosmic Sky skybox (this will fix the Volume 1 Hangar sometimes having no skybox when using the Skybox Randomiser mod)"
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.0_8p7krqH.rar",
-          "updatedAt": "2026-03-21T18:54:33.403Z",
-          "sizeBytes": 127669662,
-          "fileName": "Pansy_Revamped_Skies_Volume_3_v1.0_8p7krqH.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_Iv3SL4w.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_60OxU4f.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14675,7 +14735,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p><strong>v1.3 Update has been released and has overhauled the mod significantly.&nbsp;</strong><br><strong>- All maps should now be darker and more \"night\"-like than the previous version due to modified lighting, fog and colour correction settings</strong><br><strong>- All maps now use modified probes folder to try to maintain a more consistent appearance across them. It's not perfect but it's better than it was before</strong><br><strong>- Modified skybox settings to be consistent across maps. They use a slow, low frequency value so you may notice it ghosting sometimes. I still feel this is better than making it static</strong><br><strong>- Added a hangar edit</strong><br><strong>- Added an optional mod to assist with visibility through a modified 3D Attachment</strong><br><strong>- As I'm limited by character limit, for more information please see my threads on WoTCord or WoT Infocord</strong><br><br><strong>This mod is an edit to the Night Sky mod found in Aslain's Modpack. While this mod functions standalone without requiring you to use Aslain's, I feel obliged to state that this is NOT my original mod.</strong></p><p>&nbsp;</p><p>This mod takes Aslain's Night Sky mod and, as the name implies, edits the lighting settings of the maps to better fit the night aesthetic. The lighting may still feel brighter than you'd expect night to be but I wanted maps to be somewhat playable. This affects the following maps:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU\">https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a></p><p>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/&nbsp;</a></p><p>&nbsp;</p><p>Some final notes:<br>- This mod <strong>SHOULD</strong> work with SD/Simplified HD Graphics. Simplified graphics however have a bit of scuff with water appearance. I've done all I can do make it work but on some maps it will look off<br>- I shouldn't have to say this but I want to make it clear: <strong>this mod is dark</strong>. This will likely lead to some disorientation at first and will likely be uncomfortable for those with poor eyesight. Please keep that in mind. An optional mod has been included that may help with this and I highly recommend my <a href=\"https://wgmods.net/7050/\">Actual Lights</a> mod alongside this one<br>- Various ambient map effects may stand out as jarringly bright compared to the overall lighting. Unfortunately I do not know a way to fix this while maintaining the appearance, I apologise for this<br>- Aslain's original Night Sky mod edits various event mode maps as well. I have however removed them (with v1.3) and chosen not to include them since I cannot test them and maintaining event maps that may never return just increases mod size<br><strong>- do not attempt to run this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues and cause the mod to not function as intended</strong></p>",
       "installationGuideHtml": "<p>This mod features two different installation options:<br><strong>wotmod version:</strong> drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.0.0.1\\[WOTMOD GOES HERE]</p><p>Do NOT run the wotmod version alongside Aslain's original Night Sky.</p><p><strong>res_mods version (ideal if you are already using Night Sky from Aslain's, allow it to replace all existing files):</strong> drag or extract the included \"spaces\" folder into your WoT Game files and place it in the [PATCH FOLDER] in \"res_mods\". For example: C:\\Games\\World_of_Tanks\\res_mods\\2.0.0.1\\[FOLDER GOES HERE]</p>",
@@ -14687,6 +14747,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "v1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_Night_Sky_Edit_v1.4_NztVzaQ.rar",
+          "updatedAt": "2026-06-30T22:32:53.816Z",
+          "sizeBytes": 65603320,
+          "fileName": "Aslains_Night_Sky_Edit_v1.4_NztVzaQ.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "v1.5",
@@ -14736,22 +14806,12 @@
           "fileName": "Aslains_Night_Sky_Edit_v1.2.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "v1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_Night_Sky_Edit_v1.2_6y5BzN9.rar",
-          "updatedAt": "2026-03-07T04:40:45.612Z",
-          "sizeBytes": 780560,
-          "fileName": "Aslains_Night_Sky_Edit_v1.2_6y5BzN9.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Aslains_Night_Sky_Edit_v1.4.rar",
-        "changeLog": "v1.5 Update for 2.3.0.0:\n- Updated Night Light optional mod for Patch 2.3 3D Attachment changes",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Aslains_Night_Sky_Edit_v1.4_NztVzaQ.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -17368,7 +17428,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p><strong>v1.4 Update has been released and has overhauled the mod significantly.&nbsp;</strong><br><strong>- Fog/bloom/glare have been modified (reduced) across all maps to improve overall visibility</strong><br><strong>- Lighting/colour correction has been modified on most maps as well, including full on replacing them in some cases. The appearance of most maps should be similar to before but some maps have been redone completely</strong><br><strong>- As I'm limited by character limit, for more information please see my threads on WoTCord or WoT Infocord</strong><br><br><br>Like the original Revamped Skies, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map: <a href=\"https://imgur.com/a/wot-revamped-skies-volume-2-mod-preview-RYMHj24\">https://imgur.com/a/wot-revamped-skies-volume-2-mod-preview-RYMHj24</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><p>I must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can look funny but should be for the most part irrelevant<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- like Himmelsdorf in the original Revamped Skies, (small) Ensk seems to have a lighting issue that requires you to enter sniper mode to make the map use the correct lighting. I have no idea why this happens or how to actually fix it, but yeah, just entering sniper mode will correct it<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: do not try to run this alongside any other sky-related mod, including the other version within the mod. It WILL cause conflicts as the game tries to load both mods</strong></p><p>&nbsp;</p><p>As a final note, this mod is <strong>NOT </strong>intended as a replacement for the original Revamped Skies mod, but simply an alternate take on every map. You can comfortably continue using the original mod if you aren't a fan of this one, or change between the two to try to make the game feel a bit more fresh.</p>",
       "installationGuideHtml": "<p>To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.29.1.0\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -17380,6 +17440,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "v1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_2_v1.6_8mFqZFv.rar",
+          "updatedAt": "2026-06-30T22:31:37.753Z",
+          "sizeBytes": 138908209,
+          "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_8mFqZFv.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "v1.6",
@@ -17429,22 +17499,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_2_v1.4_mnzhCWX.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_2_v1.4.rar",
-          "updatedAt": "2026-03-21T18:54:33.404Z",
-          "sizeBytes": 133530879,
-          "fileName": "Pansy_Revamped_Skies_Volume_2_v1.4.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_q0qSLIK.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_8mFqZFv.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -21209,7 +21269,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.5,
+      "mark": 3.4,
       "descriptionHtml": "<h2>Lightweight and modern modpack for World of Tanks</h2><p>The problem of all modpacks is their large size.<br>This modpack downloads only those mods that the user selected at runtime.<br>Also it has a modern Web interface.<br>Supports all client versions (including CT and SB)</p><blockquote><p>Please note that the modpack version does <strong>NOT</strong> necessarily have to match the client version!</p></blockquote><p><a href=\"https://github.com/SuperZombi/wot-modpack\">Github</a></p>",
       "installationGuideHtml": "<p>Run the installer, select the necessary mods. Click Next.<br><br>To remove mods, click \"Reset\" on the mod selection page and then Next.</p><blockquote><p>For the first installation, it is recommended to check the «Delete mod configs» option to avoid conflicts with previous modpacks.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/maxresdefault_v3Ma3ob.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -24643,7 +24703,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>v1.8 Update has been released and has overhauled the mod significantly.&nbsp;</strong><br><strong>- All environment xmls were updated to the latest versions</strong><br><strong>- Fog/bloom/glare have been modified (reduced) across all maps to improve overall visibility</strong><br><strong>- Lighting/colour correction has been modified on most maps as well, including full on replacing them in some cases. The appearance of most maps should be similar to before</strong><br><strong>- As I'm limited by character limit, for more information please see my threads on WoTCord or WoT Infocord</strong><br><br><br>This mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-1-v1-8-update-mod-preview-dL7VAuS\">https://imgur.com/a/wot-revamped-skies-volume-1-v1-8-update-mod-preview-dL7VAuS</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 2:&nbsp;<a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3:&nbsp;<a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Aslain's Night Sky Edit:&nbsp;<a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a><br><br>I must make note of some issues (I'm listing these to state that I am aware of them, not that I am going to/can fix them. I'm obliged to make you aware of them for transparency):<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can lead to issues but should be for the most part irrelevant<br>- Ambient effects. I could not figure out how to remove (or add) particles and as such these can look off with the new ambience. This most notably affects Airfield and Fata Morgana with offshore lightning<br>- Some maps use the \"probes\" folder of another map to help change the map feel but this leads to issues related to a map's shadow grid and other elements, leading to sudden dark or illuminated spots. I actively tried to avoid this due to issues but did use this for the following maps: <strong>Abbey, Ensk, Karelia, Prokhorovka. </strong>This can unfortunately cause issues with the Skybox Randomiser mod (either failing to load the probes folder or loading it on other versions)<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: do not try to run this alongside any other sky-related mod, including the other version within the mod. It WILL cause conflicts as the game tries to load both mods</strong></p><p><br>I want to thank the user \"no one / nocac\" <strong>significantly</strong> for introducing me to this, helping me learning how to do it and especially for providing older files that I did not have. I also want to thank Rom4n_ and _DEVA For playtesting the mod for me and providing feedback, as well as FastestClassic and Avalon304 For helping with screenshots for this page.</p>",
       "installationGuideHtml": "<p>To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.1.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -24655,6 +24715,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "v1.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_1_v1.11_rpmQI1H.rar",
+          "updatedAt": "2026-06-30T22:31:34.035Z",
+          "sizeBytes": 199996296,
+          "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_rpmQI1H.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "v1.11",
@@ -24704,22 +24774,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_1_v1.9_U3dmwMF.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "v1.9",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_1_v1.9.rar",
-          "updatedAt": "2026-03-21T20:34:30.813Z",
-          "sizeBytes": 195542501,
-          "fileName": "Pansy_Revamped_Skies_Volume_1_v1.9.rar",
-          "fileExt": ".rar",
-          "changeLog": "v1.9 Update for 2.2.0.1:\n- corrected skybox/cloud direction on various maps so that it looks more natural\n- reworked the following maps: Live Oaks (the swamp should be a bit more foggy), Highway (repositioned sun to differentiate the map more from Highway Vol. 3 When using the Randomiser mod) and Hangar v4 (added a skybox and made it darker to better emphasise it being night)"
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_Szz2Dq1.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_rpmQI1H.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -36250,38 +36310,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_11.exe",
-          "updatedAt": "2026-06-29T12:35:33.441Z",
-          "sizeBytes": 58785990,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_11.exe",
+          "modVersion": "13",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_13.exe",
+          "updatedAt": "2026-06-30T19:33:59.947Z",
+          "sizeBytes": 58845545,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_13.exe",
           "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #11 (29-06-2026):\n- Fixed conflict between Hitmarker Pro and mods using audio_mods.xml"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "10",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
-          "updatedAt": "2026-06-28T16:33:43.380Z",
-          "sizeBytes": 58785213,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_10.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #10 (28-06-2026):\n- Updated contour icons: man1aq\n- Updated enhanced modsSettingsApi 1.4.1 (new option for mod authors)\n- Updated Custom Sixth Sense (added a support for a replays)\n- Updated Crew Skills Pro (added a support for a replays)\n- Updated In Battle Statistics (settings now survive reinstallation)\n- Updated majority of CHAMPi's mods\n- Updated Research Progress Bar\n- Removed Damage Panel: Better (it wasn`t working after all)\n- Added Hitmarker Pro (by Aslain) [mod #683] (replaces the old Hitmarker 2.0): shows a marker on your crosshair whenever you hit an enemy, with its own colour for each hit type, adjustable size, animated or static style and an optional hit sound, all set up in the garage (Mod configurator menu). Your previous Hitmarker selection is not carried over, so re-select it and configure it there. The mod can be found in the crosshairs branch, where you have to re-select it again.\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "09",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
-          "updatedAt": "2026-06-25T08:04:31.616Z",
-          "sizeBytes": 58436554,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_09.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.0.1 #09 (25-06-2026):\n- Fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree (unfortunately, this mod contains contour icon files that are used by other mods, and I always have to removed them manually from this mod .wotmod file to prevent such issues)\n\nv2.3.0.1 #08 (24-06-2026):\n- Installer: Optimized mod preview loading\n- Updated enhanced modsSettingsApi 1.3.3 (value retention on template edits; fixed per‑mod reset defaults)\n- Updated Scheduled Personal Reserves (added a fix attempt for issue with the wrong args)\n- Updated Advanced Tech-tree\n- Updated MoE on the Tech-Tree\n- Updated Crew Skills Pro\n- Updated Custom Sixth Sense (fixed the icon not showing up in battle when XVM is installed)\n\n"
+          "changeLog": "- Fixed conflict between Hitmarker Pro and mods using audio_mods.xml (accidentally re‑introduced a bug I had already fixed)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_11.exe",
-        "changeLog": "v2.3.0.1 #11 (29-06-2026):\n- Fixed conflict between Hitmarker Pro and mods using audio_mods.xml",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_13.exe",
+        "changeLog": "- Fixed conflict between Hitmarker Pro and mods using audio_mods.xml (accidentally re‑introduced a bug I had already fixed)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
