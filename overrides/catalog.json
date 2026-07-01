@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.002",
-  "sourceHash": "4774095ab1957c1f6cee63ad0befcab1910f796a4c9c6b554afc067765f4fdca",
+  "catalogVersion": "v2026.07.003",
+  "sourceHash": "9fb5bbcda4fb9b166b25e25506e1a6bf3ef5daad577d855ef91d799dbd1f2038",
   "sources": [
     "wgmods",
     "modhub"
@@ -665,18 +665,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.1.6.zip",
-          "updatedAt": "2026-06-29T23:15:29.078Z",
-          "sizeBytes": 110709,
-          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.6.zip",
+          "modVersion": "1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.1.7.zip",
+          "updatedAt": "2026-07-01T18:35:20.372Z",
+          "sizeBytes": 116011,
+          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.7.zip",
           "fileExt": ".zip",
-          "changeLog": "Fixed Auto Renew attempting to activate reserves that are still active, preventing incorrect WRONG_ARGS notifications."
+          "changeLog": "Scheduled Personal Reserves now remain scheduled when switching servers. Switching accounts cancels the previous account’s schedule and displays a notification."
         }
       ],
       "latest": {
-        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.6.zip",
-        "changeLog": "Fixed Auto Renew attempting to activate reserves that are still active, preventing incorrect WRONG_ARGS notifications.",
+        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.7.zip",
+        "changeLog": "Scheduled Personal Reserves now remain scheduled when switching servers. Switching accounts cancels the previous account’s schedule and displays a notification.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -926,6 +926,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.25",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.25.exe",
+          "updatedAt": "2026-07-01T18:43:34.851Z",
+          "sizeBytes": 4677154,
+          "fileName": "Custix_ModPack_for_2.3.0.1_v2.25.exe",
+          "fileExt": ".exe",
+          "changeLog": "[UA]: Оновлено мод custix.battlestats (Оптимізовано роботу hide-elite/нашивок: кешування виконується один раз на машину без просадки FPS; для Ranked/Epic режимів приховування й оверлей працюють через спільні класи та патчі панелей; TAB/Alt тепер працюють без мікро-фрізів завдяки легшій обробці позиційних оновлень і exinfo-шляху для Alt)\n---- [EN]: Updated the custix.battlestats mod (Optimized hide-elite/badges handling: caching is done once per vehicle without FPS drops; hiding and overlay support for Ranked/Epic modes now use shared classes and panel patches; TAB/Alt now work without micro-freezes thanks to lighter positional update handling and the exinfo path for Alt)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.24",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.24.exe",
           "updatedAt": "2026-06-21T10:55:35.893Z",
@@ -936,8 +946,8 @@
         }
       ],
       "latest": {
-        "fileName": "Custix_ModPack_for_2.3.0.1_v2.24.exe",
-        "changeLog": "[UA]: Оновлено моди custix.messagecenterbattlestab, custix.messagecenterfilter, custix.battlestats (Виправлення не значних помилок і багів, додано кеш результатів боїв щоб після перезавантаження гри результати боїв залишалися) ---- [EN]: Updated the custix.messagecenterbattlestab, custix.messagecenterfilter, and custix.battlestats mods (Fixed minor errors and bugs; added a battle results cache so that battle results are retained after restarting the game)",
+        "fileName": "Custix_ModPack_for_2.3.0.1_v2.25.exe",
+        "changeLog": "[UA]: Оновлено мод custix.battlestats (Оптимізовано роботу hide-elite/нашивок: кешування виконується один раз на машину без просадки FPS; для Ranked/Epic режимів приховування й оверлей працюють через спільні класи та патчі панелей; TAB/Alt тепер працюють без мікро-фрізів завдяки легшій обробці позиційних оновлень і exinfo-шляху для Alt)\n---- [EN]: Updated the custix.battlestats mod (Optimized hide-elite/badges handling: caching is done once per vehicle without FPS drops; hiding and overlay support for Ranked/Epic modes now use shared classes and panel patches; TAB/Alt now work without micro-freezes thanks to lighter positional update handling and the exinfo path for Alt)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -4525,7 +4535,7 @@
       "mark": 4.6,
       "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>They don't compute and display the exact probability of penetrating. You would have to estimate this in the moment based on your shell's penetration and their armor. This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</p><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to pen someone</li><li>Great performance since the mod uses the calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail-upscaled.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/armor-pen-aislain_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7605/",
       "tagIds": [
         "18",
@@ -7743,7 +7753,7 @@
       "mark": null,
       "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li><li>Burza : skin (simple gun replacement)</li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret and gun)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
       "installationGuideHtml": "<p>How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down</p><p>PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update</p><p>How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version).</p><p>(THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/WotVSWAPS_ZGdPm6a.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wotVSWAPS_miniature_nb1eTnL.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7512/",
       "tagIds": [
         "16",
