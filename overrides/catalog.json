@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.004",
-  "sourceHash": "3b01918003369316b59b59450739507942fbb4c6b549a7f4773677a527dc5953",
+  "catalogVersion": "v2026.07.005",
+  "sourceHash": "c397ba470c8b86462ba5caa06cd82730cd763e28dbd8323c354064aa54a26f29",
   "sources": [
     "wgmods",
     "modhub"
@@ -318,7 +318,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each hit type: damage, penetration, critical, fire, kill, ricochet and no-penetration&nbsp;<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p><p>Note: This version is not compatible with other mods based on audio_<i>mods.xml. To make it work, you would have to delete the audio</i>_<i>mods.xml inside this mod’s .wotmod and then add this mod's sound bank: hitmarkerpro.bnk manually to the existing audio</i>_mods.xml in res_mods/x.x.x.x/audioww/</p>",
+      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each damage type: regular damage, fire, kill<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p><p>Note: This version is not compatible with other mods based on audio_<i>mods.xml. To make it work, you would have to delete the audio</i>_<i>mods.xml inside this mod’s .wotmod and then add this mod's sound bank: hitmarkerpro.bnk manually to the existing audio</i>_mods.xml in res_mods/x.x.x.x/audioww/</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/HitmarkerPro_1_KAsWEtf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7736/",
@@ -426,7 +426,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WoT Dynamic Playlists<br>======================<br>by mjrd</p><p>WHAT THIS DOES<br>--------------<br>mod_dynamic_playlists.wotmod<br>&nbsp;Automatically fills WoT's native \"Vehicle Lists\" feature (garage -&gt;<br>&nbsp;Fahrzeuge -&gt; Fahrzeuglisten / Vehicle Lists dropdown) with 5 always-<br>&nbsp;up-to-date lists, refreshed every time your garage data syncs (login,<br>&nbsp;after battles, etc.) - no manual editing needed, ever:</p><p>&nbsp; &nbsp;# Mark 1 65% &nbsp; - vehicles close to their 1st Mark of Excellence<br>&nbsp; &nbsp;# Mark 2 85% &nbsp; - vehicles close to their 2nd Mark of Excellence<br>&nbsp; &nbsp;# Mark 3 95% &nbsp; - vehicles close to their 3rd Mark of Excellence<br>&nbsp; &nbsp;# Mark 4 100% &nbsp;- vehicles that already have all 3 marks, but whose<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; live damage rating is still below a perfect 100%<br>&nbsp; &nbsp;# Upgrades &nbsp; &nbsp; - vehicles with Field Mods / Tier XI Skill Tree not<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; yet fully completed (only shown if upgrades are<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; actually available right now - Elite, not rented/<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; locked)</p><p>&nbsp;A vehicle automatically drops out of a list the moment you actually<br>&nbsp;earn that mark / hit 100% / finish that upgrade. Nothing to clean up<br>&nbsp;by hand.</p><p>&nbsp;You'll also get a small in-game popup the moment a vehicle leaves one<br>&nbsp;of these lists because you genuinely achieved it (not just because<br>&nbsp;its rating dipped or you sold the tank) - e.g. \"Sherman Firefly hat<br>&nbsp;seine erste Gunmark erreicht. Wurde aus der Playlist '# Mark 1 65%'<br>&nbsp;entfernt.\"</p><p>&nbsp;It also writes a one-time debug dump of every vehicle's marks/rating<br>&nbsp;to your python.log on each session start. Purely a log entry, no<br>&nbsp;in-game UI effect - safe to ignore.</p>",
+      "descriptionHtml": "<p>WoT Dynamic Playlists — by mjrd</p><p>Automatically maintains up-to-date vehicle lists in your garage filter, refreshed after every battle and on login. No manual editing, ever. Comes as separate .wotmod files — install only the modules you want.</p><p><br>MOD_DYNPL_MARKS</p><p># Mark 1 65% — Vehicles within 10 percentage points of earning their 1st Mark of Excellence<br># Mark 2 85% — Vehicles within 10 percentage points of earning their 2nd Mark of Excellence<br># Mark 3 95% — Vehicles within 10 percentage points of earning their 3rd Mark of Excellence<br># Mark 4 100% — Vehicles with all 3 marks earned, but live damage rating still below 100%. Sorted by closest to perfect first.</p><p><br>MOD_DYNPL_UPGRADES</p><p># Upgrades — Vehicles with Field Modifications or Tier XI Skill Tree available but not yet fully completed. Only shown when upgrades are actually available (Elite status, not rented or locked).</p><p><br>MOD_DYNPL_WEEKLY</p><p># Weekly — Vehicles eligible for the current Weekly Missions, sorted by priority: missing upgrades first, then those close to a Mark of Excellence, then all remaining eligible vehicles by tier. Updates automatically on weekly reset.</p><p><br>MOD_DYNPL_T11GRIND (coming soon)</p><p># grinding for TXI — Tech tree Tier X vehicles whose Tier XI successor isn't in your garage yet and haven't reached the 326,000 XP threshold. Sorted by XP already farmed — closest to the goal first.</p><p><br>A vehicle drops out of a list the moment you earn that mark, hit 100%, or finish that upgrade. You'll also get a small in-game notification when it happens for a genuine achievement — not just because a rating dipped or you sold the tank.</p>",
       "installationGuideHtml": "<p>INSTALLATION<br>------------<br>1. Find your current WoT client version folder name. It's the<br>&nbsp; subfolder name under your WoT install directory's \"mods\" folder,<br>&nbsp; e.g.:<br>&nbsp; &nbsp; &nbsp; &lt;WoT install&gt;\\mods\\2.3.0.1\\<br>&nbsp; (open version.xml in your WoT root if you're not sure which<br>&nbsp; version you're on)</p><p>2. Copy the .wotmod file from this archive's \"manual-install\"<br>&nbsp; folder directly into that \"mods\\&lt;version&gt;\\\" folder.</p><p>3. Restart World of Tanks completely (not just the garage - a full<br>&nbsp; client restart is required for the mod to register).</p><p>4. Open Garage -&gt; Fahrzeuge -&gt; Fahrzeuglisten (Vehicle Lists). You<br>&nbsp; should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\",<br>&nbsp; \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/discord-avatar.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7724/",
@@ -645,18 +645,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.10",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.1.10.zip",
-          "updatedAt": "2026-07-01T23:26:38.529Z",
-          "sizeBytes": 133784,
-          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.10.zip",
+          "modVersion": "2.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.2.0.0.zip",
+          "updatedAt": "2026-07-02T09:35:39.642Z",
+          "sizeBytes": 134300,
+          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.0.zip",
           "fileExt": ".zip",
-          "changeLog": "Added click-to-toggle scheduling and support for scheduling alternate booster tiers during battle. Schedulable cards now use a cleaner enabled appearance, with scheduled variants clearly marked by plasma effects."
+          "changeLog": "Fixed scheduled reserves creating duplicate, inactive notifications when changed during battle. A single updated control notification now appears after returning to the Garage."
         }
       ],
       "latest": {
-        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.1.10.zip",
-        "changeLog": "Added click-to-toggle scheduling and support for scheduling alternate booster tiers during battle. Schedulable cards now use a cleaner enabled appearance, with scheduled variants clearly marked by plasma effects.",
+        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.0.zip",
+        "changeLog": "Fixed scheduled reserves creating duplicate, inactive notifications when changed during battle. A single updated control notification now appears after returning to the Garage.",
         "wotGameVersionCompatibility": "safe"
       }
     },
