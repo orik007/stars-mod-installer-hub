@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.005",
-  "sourceHash": "c397ba470c8b86462ba5caa06cd82730cd763e28dbd8323c354064aa54a26f29",
+  "catalogVersion": "v2026.07.006",
+  "sourceHash": "2e15efc608cfc72a8ac0fa15c08a5e15c4860c48e85098133169a249b0874c4c",
   "sources": [
     "wgmods",
     "modhub"
@@ -5097,18 +5097,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_moe_overlay.2.3.0.1.1.6.zip",
-          "updatedAt": "2026-07-01T10:34:42.560Z",
-          "sizeBytes": 111154,
-          "fileName": "gravity.battle_moe_overlay.2.3.0.1.1.6.zip",
+          "modVersion": "1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_moe_overlay.2.3.0.1.1.7.zip",
+          "updatedAt": "2026-07-02T13:40:54.323Z",
+          "sizeBytes": 116627,
+          "fileName": "gravity.battle_moe_overlay.2.3.0.1.1.7.zip",
           "fileExt": ".zip",
-          "changeLog": "Fixed overlay positions not being restored from saved settings."
+          "changeLog": "Fixed the Battle MOE Overlay showing 0.00% when entering battle immediately after selecting a vehicle. Confirmed garage MOE statistics are now cached and restored when reconnecting directly into an active battle. Incomplete dossier data will no longer overwrite valid cached values."
         }
       ],
       "latest": {
-        "fileName": "gravity.battle_moe_overlay.2.3.0.1.1.6.zip",
-        "changeLog": "Fixed overlay positions not being restored from saved settings.",
+        "fileName": "gravity.battle_moe_overlay.2.3.0.1.1.7.zip",
+        "changeLog": "Fixed the Battle MOE Overlay showing 0.00% when entering battle immediately after selecting a vehicle. Confirmed garage MOE statistics are now cached and restored when reconnecting directly into an active battle. Incomplete dossier data will no longer overwrite valid cached values.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5716,7 +5716,7 @@
       "mark": 4.5,
       "descriptionHtml": "<p><strong>Recommended in combination with: </strong><a href=\"https://wgmods.net/7596/\"><strong>https://wgmods.net/7596/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Yes it is yet another Moe Mod but compared to others this stays in the Hangar and is minimalistic and due to the fact that it doesnt show in battle it is less likely to break, the Overlay Position is stored in preferences.xml so the overlay stays at the same place.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-02_172017045.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7578/",
       "tagIds": [
         "18",
@@ -8171,7 +8171,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod replaces the anonymized name of players in the new battle result with the real name and puts the anonymized name to be shown when hovering over the eye icon.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7507/",
       "tagIds": [
@@ -8181,18 +8181,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/battle_result_unanonymizer.2.3.0.1.1.3.wotmod",
-          "updatedAt": "2026-06-11T08:23:21.364Z",
-          "sizeBytes": 5648,
-          "fileName": "battle_result_unanonymizer.2.3.0.1.1.3.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_result_unanonymizer.2.3.0.1.1.4.zip",
+          "updatedAt": "2026-07-02T17:16:28.176Z",
+          "sizeBytes": 61524,
+          "fileName": "gravity.battle_result_unanonymizer.2.3.0.1.1.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "Improved the battle-results unanonymizer for the overview screen. Anonymized players now display their real account name, clan tag, anonymizer eye icon, and correct vehicle instead of a covered tank with missing vehicle information. Existing team-score and detailed-player behavior remains unchanged. Restored unanonymization support for Frontline and Frontline Training results. Onslaught modes remain excluded until they can be tested against the active game mode."
         }
       ],
       "latest": {
-        "fileName": "battle_result_unanonymizer.2.3.0.1.1.3.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.battle_result_unanonymizer.2.3.0.1.1.4.zip",
+        "changeLog": "Improved the battle-results unanonymizer for the overview screen. Anonymized players now display their real account name, clan tag, anonymizer eye icon, and correct vehicle instead of a covered tank with missing vehicle information. Existing team-score and detailed-player behavior remains unchanged. Restored unanonymization support for Frontline and Frontline Training results. Onslaught modes remain excluded until they can be tested against the active game mode.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -12566,18 +12566,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/playlistsync.2.3.0.1.1.0.wotmod",
-          "updatedAt": "2026-06-11T08:25:25.468Z",
-          "sizeBytes": 6800,
-          "fileName": "playlistsync.2.3.0.1.1.0.wotmod",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.playlistsync.2.3.0.1.1.1.wotmod",
+          "updatedAt": "2026-07-02T14:17:53.894Z",
+          "sizeBytes": 7757,
+          "fileName": "gravity.playlistsync.2.3.0.1.1.1.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": ""
+          "changeLog": "Fixed repeated log spam and unnecessary playlist fetch retries when loading directly into battle. Playlist syncing now waits until the player returns to the hangar before retrying."
         }
       ],
       "latest": {
-        "fileName": "playlistsync.2.3.0.1.1.0.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.playlistsync.2.3.0.1.1.1.wotmod",
+        "changeLog": "Fixed repeated log spam and unnecessary playlist fetch retries when loading directly into battle. Playlist syncing now waits until the player returns to the hangar before retrying.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -25238,7 +25238,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.1,
+      "mark": 4,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=I6F6BUIbAdU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/I6F6BUIbAdU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
