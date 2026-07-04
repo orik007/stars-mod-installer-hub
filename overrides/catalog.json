@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.010",
-  "sourceHash": "5bab6df60c0256cc07d4001a281f52e23094d3ef91687e6d8613effe48e890e7",
+  "catalogVersion": "v2026.07.011",
+  "sourceHash": "ad093eb0cd8ba4202f8e9a1cded767fdb778c42266424ac10589e400b329e28d",
   "sources": [
     "wgmods",
     "modhub"
@@ -16,8 +16,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.2,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -475,6 +475,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.4.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_dynamic_playlist_v1.4.4.zip",
+          "updatedAt": "2026-07-04T07:49:29.691Z",
+          "sizeBytes": 58206,
+          "fileName": "mod_dynamic_playlist_v1.4.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "MOD_DYNPL_T11GRIND\n\n# XP grind for TXI — Tech tree Tier X vehicles whose Tier XI successor is not yet in your garage and haven't reached the 326,000 XP threshold yet. Sorted by XP already farmed - closest to the goal first. Vehicles without a known T11 line are included too, as WG will eventually add one.  Updates automatically when you purchase a T11."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.4.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_dynamic_playlists_v1.4.3.wotmod",
           "updatedAt": "2026-06-23T11:33:20.973Z",
@@ -495,8 +505,8 @@
         }
       ],
       "latest": {
-        "fileName": "mod_dynamic_playlists_v1.4.3.wotmod",
-        "changeLog": "# Weekly Playlist (new)\n\nA new automatic playlist that displays vehicles matching the current 3-week missions — filtered according to their vehicle restrictions (sub-role, class, nation, level). Sorted by priority within the list: first vehicles with missing Field Mods, then vehicles close to a Gunmark, then the rest. Is automatically rebuilt when you reroll a mission.",
+        "fileName": "mod_dynamic_playlist_v1.4.4.zip",
+        "changeLog": "MOD_DYNPL_T11GRIND\n\n# XP grind for TXI — Tech tree Tier X vehicles whose Tier XI successor is not yet in your garage and haven't reached the 326,000 XP threshold yet. Sorted by XP already farmed - closest to the goal first. Vehicles without a known T11 line are included too, as WG will eventually add one.  Updates automatically when you purchase a T11.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6145,9 +6155,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Replaces the vanilla texture of the Grille 15 with the new marathon 3D style</p><p>(In the case that the mod isn't updated for the latest version of the game, it doesn't change anything, will still work for every version)</p><p><br>&nbsp;</p>",
-      "installationGuideHtml": "<p>How to install : Just paste the \".wotmod\" &nbsp;folder in Wot/mods/(latest version) the latest version is usually all the way down</p><p>To update the mod after a wot update, just go into the folder where you put \"vehicles\" copy, and then paste it into the newer version (ex: 2.2.0.0), no need to redownload it on the site</p><p>(2D styles might look weird, if you don't want enemies to have 2D camos on and ruin the look, switch the \"Non-historical and fictive camos\" in general settings to only historical)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.03.08_-_16.09.25.34_E4mCXui.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>Replaces the vanilla texture of the Grille 15 with the new marathon 3D style</p><p>2D Styles will overwrite the base texture, Not every 2D style will look good</p><p>(In the case that the mod isn't updated for the latest version of the game, it doesn't change anything, will still work for every version)</p><p><br>&nbsp;</p>",
+      "installationGuideHtml": "<p>How to install : Just paste the \".wotmod\" &nbsp;folder in Wot/mods/(latest version) the latest version is usually all the way down</p><p>To update the mod after a wot update, just go into the folder where you put the wotmod copy, and then paste it into the newer version (ex: 2.2.0.0), no need to redownload it on the site</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.07.04_-_11.09.16.08.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7564/",
       "tagIds": [
         "16",
@@ -7738,7 +7748,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li><li>Burza : skin (simple gun replacement)</li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret and gun)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
+      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li><li>Burza : skin (simple gun replacement)</li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret and gun)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
       "installationGuideHtml": "<p>How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down</p><p>PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update</p><p>How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version).</p><p>(THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wotVSWAPS_miniature_nb1eTnL.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7512/",
@@ -7797,16 +7807,6 @@
           "fileName": "WotVSWAPS-V1.5.2.zip",
           "fileExt": ".zip",
           "changeLog": "Optimized performance, added new tanks, fixed some issues, check trick-floor.fr for details"
-        },
-        {
-          "wotGameVersion": "2.1.1.2",
-          "modVersion": "1.5.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.5.1.zip",
-          "updatedAt": "2026-02-22T10:09:52.973Z",
-          "sizeBytes": 244910658,
-          "fileName": "WotVSWAPS-V1.5.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "Centurion Action X as Triumphant\nobj 752 as peerless\nAdded M4A1 turret and gun to sherman Jumbo's top turret\nmodfied IS-7 3D style\nVK 100 01 P with Mauerbrecher turret and gun\nType 4H with type 5 H kaiju style\nOI exp with Saryuda turret and gun and 122 double sound effect\nMitsu 108 with Kame turret and gun\nReplaced CS-63 with Hurricane\nSU-85 replaced with SU-100i\nSU-100Y now has a mortar\nSU-130 PM replaced with its 3D style\nIS-4 replaced with its 3D style\nM10 Wolverine now has skorpion gun and turret + 130mm gun sound\nM36 slagger now has tier 8 rhm turret and gun with 3D style +130mm gun sound\nT14 now has Bzyg turret +120mm gun sound\nOptimised files to reduce file size.\n\n"
         }
       ],
       "latest": {
@@ -12015,7 +12015,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>Mod for Strongholds. Displays the ELO rating of the enemy team and yours, ELO gain, as well as win rate and number of battles over the last 28 days.</p>",
-      "installationGuideHtml": "<p>Extract the contents of the archive into the game folder</p>",
+      "installationGuideHtml": "<p>Unzip the contents of the archive into the “mods” folder, then apply the current version of the patch</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_001_iolUcFi.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7415/",
       "tagIds": [
@@ -21237,6 +21237,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack.exe",
+          "updatedAt": "2026-07-04T07:49:43.372Z",
+          "sizeBytes": 19717241,
+          "fileName": "Web.Modpack.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "3.1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack_Cr4DxLh.exe",
           "updatedAt": "2026-06-23T14:22:35.678Z",
@@ -21247,7 +21257,7 @@
         }
       ],
       "latest": {
-        "fileName": "Web.Modpack_Cr4DxLh.exe",
+        "fileName": "Web.Modpack.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -29885,7 +29895,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.2,
       "descriptionHtml": "<p>Hello, I have been updating this mod for a long time because I liked it and that is why I kept using it.</p><p>It has been used and updated from version 0.9.18.0 to the current one. Any error can be reported.</p><p>Crew voices of Katyusha, Nonna and side character.</p><p>Preview</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=6J8bsdz7iz0\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/6J8bsdz7iz0\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>1.- Download</p><p>2.-<strong> </strong>Place file in folder mods/#version/</p><p>3.- Go to Settings - Sound - Sound Environment Elements and select the you want</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/3024a104-5642-49e3-9315-fdc71738973b.jpg\"><figcaption>Two sound modes options</figcaption></figure>",
@@ -29896,6 +29906,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pravda_VoiceSelector.wotmod",
+          "updatedAt": "2026-07-04T06:36:05.434Z",
+          "sizeBytes": 72289373,
+          "fileName": "Pravda_VoiceSelector.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.2.1.1",
           "modVersion": "2.2.1.1",
@@ -29945,22 +29965,12 @@
           "fileName": "Pravda_VoiceSelector_K2GBjxu.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.0",
-          "modVersion": "2.1.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pravda_VoiceSelector_BK1JQba.wotmod",
-          "updatedAt": "2026-01-15T16:43:51.296Z",
-          "sizeBytes": 72289373,
-          "fileName": "Pravda_VoiceSelector_BK1JQba.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pravda_VoiceSelector_0Bbh7gM.wotmod",
+        "fileName": "Pravda_VoiceSelector.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.010",
+  "catalogVersion": "v2026.07.011",
   "mods": [
     {
       "source": "wgmods",
@@ -187,14 +187,15 @@
       "sourceId": "7724",
       "title": "the Dynamic Playlists Mod",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "INSTALLATION ------------ 1. Find your current WoT client version folder name. It's the subfolder name under your WoT install directory's \"mods\" folder, e.g.: <WoT install>\\mods\\2.3.0.1\\ (open version.xml in your WoT root if you're not sure which version you're on) 2. Copy the .wotmod file from this archive's \"manual-install\" folder directly into that \"mods/<version>\\\" folder. 3. Restart World of Tanks completely (not just the garage - a full client restart is required for the mod to register). 4. Open Garage -> Fahrzeuge -> Fahrzeuglisten (Vehicle Lists). You should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\", \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
         "installableByApp": true,
-        "decisionReason": ".wotmod package and guide targets mods/<version>; manual-install mention is just source location note.",
-        "deleteDataWgpdc": false
+        "decisionReason": "Archive guide explicitly says to copy the .wotmod from the named folder \"manual-install\" into mods/<version>.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "manual-install"
       }
     },
     {
@@ -2063,12 +2064,12 @@
       "title": "Grille 15 (New marathon style replacement)",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "How to install : Just paste the \".wotmod\" folder in Wot/mods/(latest version) the latest version is usually all the way down To update the mod after a wot update, just go into the folder where you put \"vehicles\" copy, and then paste it into the newer version (ex: 2.2.0.0), no need to redownload it on the site (2D styles might look weird, if you don't want enemies to have 2D camos on and ruin the look, switch the \"Non-historical and fictive camos\" in general settings to only historical)"
+        "latestInstallGuide": "How to install : Just paste the \".wotmod\" folder in Wot/mods/(latest version) the latest version is usually all the way down To update the mod after a wot update, just go into the folder where you put the wotmod copy, and then paste it into the newer version (ex: 2.2.0.0), no need to redownload it on the site"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs pasting the .wotmod into Wot/mods/(latest version).",
+        "decisionReason": "Plain .wotmod package and guide targets the versioned mods/<version> folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -3669,12 +3670,12 @@
       "title": "CalculationElo",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract the contents of the archive into the game folder"
+        "latestInstallGuide": "Unzip the contents of the archive into the “mods” folder, then apply the current version of the patch"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Archive guide explicitly instructs extracting the contents into the main game folder (game root).",
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Archive guide only says to unzip into the mods folder and apply the current patch, but does not clearly identify a supported final target such as mods/<version>, res_mods/<version>, or game root.",
         "deleteDataWgpdc": false
       }
     },
