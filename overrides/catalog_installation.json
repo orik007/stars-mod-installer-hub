@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.009",
+  "catalogVersion": "v2026.07.010",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7739",
+      "title": "Bizzord Modpack",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "Installation is quick and easy. Everything is intuitive and straightforward. You can find the complete modpack installation guide here:"
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Package type is .exe, which requires running an external installer.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7726",
