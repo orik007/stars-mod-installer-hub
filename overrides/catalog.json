@@ -1,11 +1,86 @@
 {
-  "catalogVersion": "v2026.07.012",
-  "sourceHash": "16ef7004f712caaf5244bef2ce46a680eb7c58309c2310ef4fef6795334a2fc4",
+  "catalogVersion": "v2026.07.013",
+  "sourceHash": "bf02c5757eee21436e252283b1c14da2f98f434b55ce509823da0495d3540805",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7743",
+      "title": "Watch",
+      "ownerUsername": "_Under_Pressure_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A simple watch for the garage and the battle</p>",
+      "installationGuideHtml": "<p>Unzip the contents of the archive into the “mods” folder, then apply the current version of the patch</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ClockFlash.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7743/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/watch.zip",
+          "updatedAt": "2026-07-05T09:49:45.368Z",
+          "sizeBytes": 427345,
+          "fileName": "watch.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "watch.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7740",
+      "title": "Garage Progress Bar",
+      "ownerUsername": "14th_ua",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
+      "installationGuideHtml": "<h2>Requirements</h2><p>- <a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</p><p>- <a href=\"https://github.com/IzeBerg/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+<br>&nbsp;</p><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/research_G6747NB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7740/",
+      "tagIds": [
+        "18",
+        "13",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.5.0.zip",
+          "updatedAt": "2026-07-05T09:49:25.131Z",
+          "sizeBytes": 216949,
+          "fileName": "GarageProgressBar_0.5.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Actionable, self-clearing done ticks — a researched module tick now buys and mounts the module and clears itself; field-mod done ticks clear when you open the screen.\nEstimated battles remaining — tooltips now show an ≈ M–N battles estimate beside the XP shortfall, calibrated from your best-game pace and average, with reserve/first-win bonuses factored in."
+        }
+      ],
+      "latest": {
+        "fileName": "GarageProgressBar_0.5.0.zip",
+        "changeLog": "Actionable, self-clearing done ticks — a researched module tick now buys and mounts the module and clears itself; field-mod done ticks clear when you open the screen.\nEstimated battles remaining — tooltips now show an ≈ M–N battles estimate beside the XP shortfall, calibrated from your best-game pace and average, with reserve/first-win bonuses factored in.",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7739",
@@ -17,7 +92,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.9,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -475,6 +550,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.4.4.",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/the_dynamic_playlist_mod_1.4.4.zip",
+          "updatedAt": "2026-07-05T09:49:39.215Z",
+          "sizeBytes": 58207,
+          "fileName": "the_dynamic_playlist_mod_1.4.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "1.4.4 - Split into four separate .wotmod files (marks, upgrades, weekly,\n        t11grind). Users can now install only the lists they want.\n        Added \"# XP grind for TXI\" list tracking T10 vehicles that still\n        need XP before their T11 successor can be purchased.\n\t- Switched mod_dynpl_t11grind to language-independent internal\n        vehicle name matching - works correctly on all client locales.\n        Fixed T11 predecessor detection for Objekt 430U, Concept No. 5,\n        Leopard 1 and Bat.-Chatillon 25 t."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.4.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_dynamic_playlists_v1.4.3.wotmod",
           "updatedAt": "2026-06-23T11:33:20.973Z",
@@ -495,8 +580,8 @@
         }
       ],
       "latest": {
-        "fileName": "mod_dynamic_playlists_v1.4.3.wotmod",
-        "changeLog": "# Weekly Playlist (new)\n\nA new automatic playlist that displays vehicles matching the current 3-week missions — filtered according to their vehicle restrictions (sub-role, class, nation, level). Sorted by priority within the list: first vehicles with missing Field Mods, then vehicles close to a Gunmark, then the rest. Is automatically rebuilt when you reroll a mission.",
+        "fileName": "the_dynamic_playlist_mod_1.4.4.zip",
+        "changeLog": "1.4.4 - Split into four separate .wotmod files (marks, upgrades, weekly,\n        t11grind). Users can now install only the lists they want.\n        Added \"# XP grind for TXI\" list tracking T10 vehicles that still\n        need XP before their T11 successor can be purchased.\n\t- Switched mod_dynpl_t11grind to language-independent internal\n        vehicle name matching - works correctly on all client locales.\n        Fixed T11 predecessor detection for Objekt 430U, Concept No. 5,\n        Leopard 1 and Bat.-Chatillon 25 t.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -682,18 +767,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.2.0.0.zip",
-          "updatedAt": "2026-07-02T09:35:39.642Z",
-          "sizeBytes": 134300,
-          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.0.zip",
+          "modVersion": "2.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.2.0.1.zip",
+          "updatedAt": "2026-07-05T11:04:10.317Z",
+          "sizeBytes": 146910,
+          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.1.zip",
           "fileExt": ".zip",
-          "changeLog": "Fixed scheduled reserves creating duplicate, inactive notifications when changed during battle. A single updated control notification now appears after returning to the Garage."
+          "changeLog": "Improved scheduled booster visibility across the mono header, hover tooltip, and booster view. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them."
         }
       ],
       "latest": {
-        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.0.zip",
-        "changeLog": "Fixed scheduled reserves creating duplicate, inactive notifications when changed during battle. A single updated control notification now appears after returning to the Garage.",
+        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.1.zip",
+        "changeLog": "Improved scheduled booster visibility across the mono header, hover tooltip, and booster view. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -950,16 +1035,6 @@
           "fileName": "Custix_ModPack_for_2.3.0.1_v2.25.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлено мод custix.battlestats (Оптимізовано роботу hide-elite/нашивок: кешування виконується один раз на машину без просадки FPS; для Ranked/Epic режимів приховування й оверлей працюють через спільні класи та патчі панелей; TAB/Alt тепер працюють без мікро-фрізів завдяки легшій обробці позиційних оновлень і exinfo-шляху для Alt)\n---- [EN]: Updated the custix.battlestats mod (Optimized hide-elite/badges handling: caching is done once per vehicle without FPS drops; hiding and overlay support for Ranked/Epic modes now use shared classes and panel patches; TAB/Alt now work without micro-freezes thanks to lighter positional update handling and the exinfo path for Alt)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.24",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.24.exe",
-          "updatedAt": "2026-06-21T10:55:35.893Z",
-          "sizeBytes": 4683426,
-          "fileName": "Custix_ModPack_for_2.3.0.1_v2.24.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлено моди custix.messagecenterbattlestab, custix.messagecenterfilter, custix.battlestats (Виправлення не значних помилок і багів, додано кеш результатів боїв щоб після перезавантаження гри результати боїв залишалися) ---- [EN]: Updated the custix.messagecenterbattlestab, custix.messagecenterfilter, and custix.battlestats mods (Fixed minor errors and bugs; added a battle results cache so that battle results are retained after restarting the game)"
         }
       ],
       "latest": {
@@ -4531,6 +4606,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.7.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-ME-pademinune-armor-pen-calc-1.7.0L.zip",
+          "updatedAt": "2026-07-05T09:49:31.239Z",
+          "sizeBytes": 263242,
+          "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Added a label for showing probability of killing a tank.\n- Changed default colors to be more vibrant.\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.6.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
           "updatedAt": "2026-06-11T22:19:46.657Z",
@@ -4581,8 +4666,8 @@
         }
       ],
       "latest": {
-        "fileName": "Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
-        "changeLog": "Added more logging for debugging.",
+        "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L.zip",
+        "changeLog": "- Added a label for showing probability of killing a tank.\n- Changed default colors to be more vibrant.\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7740,6 +7825,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.7.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.7.1.zip",
+          "updatedAt": "2026-07-05T09:49:00.133Z",
+          "sizeBytes": 378165587,
+          "fileName": "WotVSWAPS-V1.7.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed an issue regarding the E100, added Conway Swap, Fixed missing textures for the Canopener"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.7.zip",
           "updatedAt": "2026-07-01T08:02:35.831Z",
@@ -7790,8 +7885,8 @@
         }
       ],
       "latest": {
-        "fileName": "WotVSWAPS-V1.7.zip",
-        "changeLog": "Reduced file size immensly while still keeping all tanks, Optimized gaming performance and fixed bug issues with some 3D styles getting overwrited by 2D styles, added :\nTier V Leopard (racer hull)\nHo-Ri 3 custom purple dragon 3D style\nMitsu 108\nSU 100Y\nIS 3 II was modified\nfixed bugs with leo\nimported  E100 booster tank from lesta to wg E100\nReplaced Type 62's 150mm with its logic 120mm from steel hunter\nFixed cromwell And cromwell B\nadded pawlack tank\n\n",
+        "fileName": "WotVSWAPS-V1.7.1.zip",
+        "changeLog": "Fixed an issue regarding the E100, added Conway Swap, Fixed missing textures for the Canopener",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -12005,6 +12100,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/calculationelo_w5M2tmD.zip",
+          "updatedAt": "2026-07-05T09:48:38.634Z",
+          "sizeBytes": 521120,
+          "fileName": "calculationelo_w5M2tmD.zip",
+          "fileExt": ".zip",
+          "changeLog": "moved to Gameface"
+        },
+        {
           "wotGameVersion": "2.2.0.2",
           "modVersion": "1.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/calculationelo_qi6frgj.zip",
@@ -12026,9 +12131,9 @@
         }
       ],
       "latest": {
-        "fileName": "calculationelo_qi6frgj.zip",
-        "changeLog": "Added support for Na and ASIA",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "calculationelo_w5M2tmD.zip",
+        "changeLog": "moved to Gameface",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

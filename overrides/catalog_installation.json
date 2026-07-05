@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.012",
+  "catalogVersion": "v2026.07.013",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7743",
+      "title": "Watch",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Unzip the contents of the archive into the “mods” folder, then apply the current version of the patch"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to the versioned mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7740",
+      "title": "Garage Progress Bar",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Requirements - OpenWG GameFace 1.1.6+ - ModsSettingsAPI 1.7.0+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.garageprogressbar_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package with manual instruction to copy the .wotmod into mods/<version>; dependency notes and deleting older copies do not change the supported target.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7739",
@@ -187,14 +217,15 @@
       "sourceId": "7724",
       "title": "the Dynamic Playlists Mod",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "INSTALLATION ------------ 1. Find your current WoT client version folder name. It's the subfolder name under your WoT install directory's \"mods\" folder, e.g.: <WoT install>\\mods\\2.3.0.1\\ (open version.xml in your WoT root if you're not sure which version you're on) 2. Copy the .wotmod file from this archive's \"manual-install\" folder directly into that \"mods/<version>\\\" folder. 3. Restart World of Tanks completely (not just the garage - a full client restart is required for the mod to register). 4. Open Garage -> Fahrzeuge -> Fahrzeuglisten (Vehicle Lists). You should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\", \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide says to copy the .wotmod into mods/<version>; mention of a manual-install folder does not change the final supported target for a non-archive package.",
-        "deleteDataWgpdc": false
+        "decisionReason": "Archive package and guide says to copy contents from the named folder into mods/<version>.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "manual-install"
       }
     },
     {
