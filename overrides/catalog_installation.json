@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.011",
+  "catalogVersion": "v2026.07.012",
   "mods": [
     {
       "source": "wgmods",
@@ -187,15 +187,14 @@
       "sourceId": "7724",
       "title": "the Dynamic Playlists Mod",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "INSTALLATION ------------ 1. Find your current WoT client version folder name. It's the subfolder name under your WoT install directory's \"mods\" folder, e.g.: <WoT install>\\mods\\2.3.0.1\\ (open version.xml in your WoT root if you're not sure which version you're on) 2. Copy the .wotmod file from this archive's \"manual-install\" folder directly into that \"mods/<version>\\\" folder. 3. Restart World of Tanks completely (not just the garage - a full client restart is required for the mod to register). 4. Open Garage -> Fahrzeuge -> Fahrzeuglisten (Vehicle Lists). You should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\", \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive guide explicitly says to copy the .wotmod from the named folder \"manual-install\" into mods/<version>.",
-        "deleteDataWgpdc": false,
-        "manualFolder": "manual-install"
+        "decisionReason": "Package is a .wotmod and guide says to copy the .wotmod into mods/<version>; mention of a manual-install folder does not change the final supported target for a non-archive package.",
+        "deleteDataWgpdc": false
       }
     },
     {
