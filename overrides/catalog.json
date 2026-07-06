@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.013",
-  "sourceHash": "bf02c5757eee21436e252283b1c14da2f98f434b55ce509823da0495d3540805",
+  "catalogVersion": "v2026.07.014",
+  "sourceHash": "6bf320a7979d8e64b600d54b407abaeb87830b930b1f36dc5ba76770b44e2b33",
   "sources": [
     "wgmods",
     "modhub"
@@ -66,6 +66,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.6.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.2.zip",
+          "updatedAt": "2026-07-06T08:30:51.397Z",
+          "sizeBytes": 158956,
+          "fileName": "GarageProgressBar_0.6.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed a phantom Potential Tier XI bar. Tier-X vehicles whose Tier XI successor you have already researched no longer show a stray \"potential\" bar.\nFixed the Tier XI skill-tree \"done\" marker. Completing the upgrade tree now correctly turns the chip into its green done marker even when there's no remaining frontier.\nFixed the saved bar position drifting between resolutions. The bar's position is no longer stored as raw pixels, so it stays where you put it when your screen resolution or window size changes. (Existing setups: use Reset if the bar lands off-screen.)\nSmoother hovering and no more stale tooltips. Reduced per-frame work while hovering the bar, and tooltips no longer linger after the underlying tick changes."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "0.5.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.5.0.zip",
           "updatedAt": "2026-07-05T09:49:25.131Z",
@@ -76,8 +86,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar_0.5.0.zip",
-        "changeLog": "Actionable, self-clearing done ticks — a researched module tick now buys and mounts the module and clears itself; field-mod done ticks clear when you open the screen.\nEstimated battles remaining — tooltips now show an ≈ M–N battles estimate beside the XP shortfall, calibrated from your best-game pace and average, with reserve/first-win bonuses factored in.",
+        "fileName": "GarageProgressBar_0.6.2.zip",
+        "changeLog": "Fixed a phantom Potential Tier XI bar. Tier-X vehicles whose Tier XI successor you have already researched no longer show a stray \"potential\" bar.\nFixed the Tier XI skill-tree \"done\" marker. Completing the upgrade tree now correctly turns the chip into its green done marker even when there's no remaining frontier.\nFixed the saved bar position drifting between resolutions. The bar's position is no longer stored as raw pixels, so it stays where you put it when your screen resolution or window size changes. (Existing setups: use Reset if the bar lands off-screen.)\nSmoother hovering and no more stale tooltips. Reduced per-frame work while hovering the bar, and tooltips no longer linger after the underlying tick changes.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -92,7 +102,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 4,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1103,18 +1113,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.0.1.1.11.wotmod",
-          "updatedAt": "2026-06-20T19:34:16.164Z",
-          "sizeBytes": 235987,
-          "fileName": "gravity.camo_selector.2.3.0.1.1.11.wotmod",
+          "modVersion": "2.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.0.1.2.0.1.wotmod",
+          "updatedAt": "2026-07-06T10:25:45.771Z",
+          "sizeBytes": 245363,
+          "fileName": "gravity.camo_selector.2.3.0.1.2.0.1.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Moved configuration storage to the persistent World of Tanks preferences folder, preventing settings loss during clean modpack installations."
+          "changeLog": "Fixed enemy vehicles incorrectly inheriting the player’s locally saved custom outfit for the same tank type. Custom outfits now apply only to the player’s own vehicle during battle."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.0.1.1.11.wotmod",
-        "changeLog": "Moved configuration storage to the persistent World of Tanks preferences folder, preventing settings loss during clean modpack installations.",
+        "fileName": "gravity.camo_selector.2.3.0.1.2.0.1.wotmod",
+        "changeLog": "Fixed enemy vehicles incorrectly inheriting the player’s locally saved custom outfit for the same tank type. Custom outfits now apply only to the player’s own vehicle during battle.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -29497,7 +29507,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.9,
       "descriptionHtml": "<p>Also some small changes in the storage boxes and fenders.</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
       "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_072_XszuLWs.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -32191,7 +32201,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p>Guns Sound Mod</p><p>&nbsp;</p><p>Sounds of guns of different calibers</p><p>If you appreciate my work and input, you can support me :</p><p><a href=\"https://wgmods.net/5178/\">War Mod</a></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory, the res_mods folder</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/2560x1600_pfcP2a2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
