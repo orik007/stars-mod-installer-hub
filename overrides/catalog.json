@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.014",
-  "sourceHash": "6bf320a7979d8e64b600d54b407abaeb87830b930b1f36dc5ba76770b44e2b33",
+  "catalogVersion": "v2026.07.015",
+  "sourceHash": "b33ac0d7b98cf90e975d3d0608082a65e62c1766b19912b52405e3654eca40c4",
   "sources": [
     "wgmods",
     "modhub"
@@ -102,13 +102,15 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 3.9,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7739/",
       "tagIds": [
-        "12"
+        "12",
+        "18",
+        "13"
       ],
       "files": [
         {
@@ -30241,7 +30243,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.5,
       "descriptionHtml": "<p><i><strong>IMPORTANT NOTE:</strong> Join </i><a href=\"https://discord.gg/nsGPxNv\"><i><strong>WoT InfoCord (my WoT Info/News Discord Server)</strong> for update notifications (usually on patch days), complete changelogs, sneak peaks and more!&nbsp;</i></a></p><p><i>Likewise, any comments, questions, bug reports, etc. should be posted to the </i><a href=\"https://discord.gg/nsGPxNv\"><i>#modding-discussion channel in the WoT Infocord Discord server</i></a><i>, since the comments section on WGmods is non-functional.</i></p><p><strong>This is my (Classic's) update to the Historical Realism Engine/Gun Sounds mod (revival of Gnomefather's original sound mod)</strong>, which adds a <strong>wide variety of new engine &amp; gun sounds (some ported forward from Gnome's mod, some BRAND-NEW!)</strong>, <strong>support for new vehicles </strong>introduced into the game since Zorgane's version was last updated (cca. November 2020), an <strong>extensive set of additional tweaks/fixes</strong>, <strong>and more!</strong></p><blockquote><p><i>Thanks to help from Shimada_Sama, Zorgane, and documentation on the WoT/KoreanRandom forums/WWISE's website, a number of <strong>new gun sounds</strong> have been introduced since I started working on this mod!</i></p><p>Furthermore, I have introduced a huge number of <strong>new engine sounds</strong>, including<strong> </strong>a mix of some ported from Gnomefather's original mod + <strong>many BRAND-NEW sounds, sourced from real vehicles wherever possible</strong>!</p><p><i><strong>100+ NEW ENGINE SOUNDS (more-than-tripling the original roster!) and around ~40 NEW GUN SOUNDS have been introduced to the mod since 2021, along with the expansion of many engines to other players' vehicles + a vast number of other improvements/fixes. Enjoy!</strong></i></p></blockquote><h2>Mod info</h2><p>Volume is controlled separately for guns and engines from within the game's sound settings menu.&nbsp;</p><p><strong>RECOMMENDED SETTINGS:</strong></p><blockquote><p><strong>Vehicles:</strong> ~80-100%</p><p><strong>Effects:</strong> ~60-80% (suggested to be around ~20% lower than the \"vehicles\" slider)</p></blockquote><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/4924df46-85cf-4349-90a5-d03d581c1f6a.jpg\"></figure><h2>IMPORTANT: In case the mod does not function after an update</h2><blockquote><p>Assuming the mod has been installed correctly, you will be prompted to restart your game on the first startup with the mod enabled. This causes the following files to generate automatically:</p><ul><li>C:\\Games\\World_of_Tanks\\res_<i>mods\\&lt;CURRENT GAME VERSION NUMBER&gt;\\<strong>engine_config.xml</strong></i></li><li>C:\\Games\\World_of_Tanks\\res_<i>mods\\&lt;CURRENT GAME VERSION NUMBER&gt;\\audioww\\<strong>audio_mods.xml</strong></i></li></ul><p>If you experience issues with sounds after installing a new update, deleting these two files and starting up the game again + following the popup instructions (click shutdown/restart) will cause these two files to refresh, which should fix most of these issues.</p><h2>IMPORTANT: In case reload sounds do not function after an update</h2></blockquote><blockquote><p>Due to the new caching feature introduced in Update 1.27.1, reload sounds will sometimes fail to appear in-game, even if installed correctly.</p><p>If modded reload sounds stop functioning in-game (assuming you have installed the mod correctly), go to your WoT install directory (by default: C:\\Games\\World_of_Tanks_EU\\) and delete the \"data.wgpdc\" file (may be displayed without file extension, i.e. just a file named \"data\"). Alternatively, <strong>performing the \"Check and Repair\" function in WGC (under Game Settings) will also clear the game cache, fixing the issue</strong>.</p></blockquote>",
       "installationGuideHtml": "<p>To install, <strong>open the downloaded .ZIP file, then extract the included \"mods\" folder to your WoT install directory </strong>(for example: C:\\Games\\World_of_Tanks\\).</p><p>Once this is done, start your game and follow the popup instructions (click shutdown/restart).</p><blockquote><p>Please carefully follow the install instructions above to ensure proper functionality of the mod. <strong>The following folders (+ their included contents) MUST be present for the mod to function, so if you are having trouble with the mod, please ensure these folders are present after completing the install process:</strong></p><ul><li>C:\\Games\\World_of_Tanks\\<i>mods\\&lt;CURRENT GAME VERSION NUMBER&gt;\\</i><strong>classic+zorg_sounds</strong></li><li>C:\\Games\\World_of_Tanks\\<i>mods\\configs\\PYmods\\</i><strong>SoundEventInjector</strong></li></ul><p>If any of the above folder(s) are missing, please make sure to follow the mod install instructions properly. If the modded sounds still do not work even with all of the above folders present, check to make sure no other mods are conflicting with this one.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/20_classic_hrmod_wgmods_thumb_v2_302px_1jNRLqr.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36362,6 +36364,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "18",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
+          "updatedAt": "2026-07-06T17:44:26.879Z",
+          "sizeBytes": 58821196,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Dynamic Playlists\n- Updated Camo Selector (fixed enemy vehicles incorrectly inheriting the player’s locally saved custom outfit for the same tank type. Custom outfits now apply only to the player’s own vehicle during battle)\n- Updated Anime Music: Vinyl Edition, Spring Edition, Summer Edition, Autumn Edition, Winter Edition and Farewell Edition; restored Anime The Steel Maiden Edition\n- Updated Scheduled Personal Reserves 2.0.1 (improved scheduled booster visibility. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them)\n- Updated Armor Penetration Calculator (added a kill chance label; changed default colors to be more vibrant)\n- Added Anime Tech-Tree icons and Anime Tank Carousel icons by NyanDora_Mech_Tank\n- Added Research Progress Bar (by 14th_ua) [mod #1083]\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "17",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_17.exe",
           "updatedAt": "2026-07-03T14:21:22.285Z",
@@ -36372,8 +36384,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_17.exe",
-        "changeLog": "- Updated Garage Mastery by Gravity_Assist 1.9, Ballistics Info 1.5, MoE Overlay 1.8, Autoreloader Loading Overlay 1.4, MoE Tracker 1.4 and Gun Caliber Overlay 1.4 (fixed a bug where overlays could become stuck in the bottom-right corner and could not be moved on 4K or UI-scaled displays)",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
+        "changeLog": "- Updated Dynamic Playlists\n- Updated Camo Selector (fixed enemy vehicles incorrectly inheriting the player’s locally saved custom outfit for the same tank type. Custom outfits now apply only to the player’s own vehicle during battle)\n- Updated Anime Music: Vinyl Edition, Spring Edition, Summer Edition, Autumn Edition, Winter Edition and Farewell Edition; restored Anime The Steel Maiden Edition\n- Updated Scheduled Personal Reserves 2.0.1 (improved scheduled booster visibility. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them)\n- Updated Armor Penetration Calculator (added a kill chance label; changed default colors to be more vibrant)\n- Added Anime Tech-Tree icons and Anime Tank Carousel icons by NyanDora_Mech_Tank\n- Added Research Progress Bar (by 14th_ua) [mod #1083]\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
