@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.07.016",
-  "sourceHash": "a73bbe4c8c81b3bd0a0887152cbf6dcfac23caffb6d002ee7d26d75170e0ddbc",
+  "catalogVersion": "v2026.07.017",
+  "sourceHash": "efdd8c916e8e7a193061011055f06d537d1d2700c34611560f744340cd2c2c50",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7744",
+      "title": "UDES 14 alt 5 <modified turret>",
+      "ownerUsername": "Trick4Funz",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Simply replaces the vanilla turret of the Udes 14 alt 5 with a better looking one from lesta, (tier IX british light tank called \"CVT spider\")</p>",
+      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.07.08_-_17.25.01.26_QYT6xZp.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7744/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UDES-14-5.wotmod",
+          "updatedAt": "2026-07-08T17:38:45.439Z",
+          "sizeBytes": 2783750,
+          "fileName": "UDES-14-5.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "UDES-14-5.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7743",
@@ -488,18 +525,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.0.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShowVehicle_2.0.5_2.3.0.1.zip",
-          "updatedAt": "2026-07-02T22:59:35.011Z",
-          "sizeBytes": 530349,
-          "fileName": "ShowVehicle_2.0.5_2.3.0.1.zip",
+          "modVersion": "2.0.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShowVehicle_2.0.6_2.3.0.1.zip",
+          "updatedAt": "2026-07-08T17:35:23.449Z",
+          "sizeBytes": 553430,
+          "fileName": "ShowVehicle_2.0.6_2.3.0.1.zip",
           "fileExt": ".zip",
-          "changeLog": "fixed settings loading when the Windows profile path contains special characters"
+          "changeLog": "- fixed the hotkey on dual-gun tanks\n- fixed the tank exclusion list to match exact names\n- added multi-column settings layout"
         }
       ],
       "latest": {
-        "fileName": "ShowVehicle_2.0.5_2.3.0.1.zip",
-        "changeLog": "fixed settings loading when the Windows profile path contains special characters",
+        "fileName": "ShowVehicle_2.0.6_2.3.0.1.zip",
+        "changeLog": "- fixed the hotkey on dual-gun tanks\n- fixed the tank exclusion list to match exact names\n- added multi-column settings layout",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -658,28 +695,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.2.wotmod",
-          "updatedAt": "2026-06-30T08:44:30.374Z",
-          "sizeBytes": 75395,
-          "fileName": "Z4imon.tank_info_in_hangar_1.2.wotmod",
+          "modVersion": "1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.3_XQWCKH5.wotmod",
+          "updatedAt": "2026-07-08T17:35:30.642Z",
+          "sizeBytes": 77864,
+          "fileName": "Z4imon.tank_info_in_hangar_1.3_XQWCKH5.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Fixed a bug, where the tank info does not get automatically refreshed when switching a tank after a previous match was left early"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.1.zip",
-          "updatedAt": "2026-06-22T08:30:40.955Z",
-          "sizeBytes": 46468,
-          "fileName": "Z4imon.tank_info_in_hangar_1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fixed errors on different resolutions"
+          "changeLog": "Added Onslought Hangar capabilities. Bugfixes"
         }
       ],
       "latest": {
-        "fileName": "Z4imon.tank_info_in_hangar_1.2.wotmod",
-        "changeLog": "Fixed a bug, where the tank info does not get automatically refreshed when switching a tank after a previous match was left early",
+        "fileName": "Z4imon.tank_info_in_hangar_1.3_XQWCKH5.wotmod",
+        "changeLog": "Added Onslought Hangar capabilities. Bugfixes",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7825,7 +7852,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li><li>Burza : skin (simple gun replacement)</li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret and gun)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
+      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li><li><strong>Pz I c : Custom Style (centurion)</strong></li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
       "installationGuideHtml": "<p>How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down</p><p>PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update</p><p>How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version).</p><p>(THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wotVSWAPS_miniature_nb1eTnL.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7512/",
@@ -8394,7 +8421,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Fix inconsistent and confusing reskinned tank names. This mod replaces all names of reskins with the base vehicle name + a configurable identifier across the garage and in battle.</p><h2>FEATURES</h2><ul><li><strong>Two renaming modes:</strong><ul><li><strong>Skin initials</strong> - follows Wargaming's naming conventions closely<br><i>&nbsp;Example: Jade Coil → GSOR 1008 JC</i></li><li><strong>Custom suffix </strong>- configurable suffix, including the option for no suffix&nbsp;<br><i>Examples: Jade Coil → GSOR 1008*</i> or <i>Jade Coil → GSOR 1008</i></li></ul></li><li>Includes<strong> all reskinned vehicles</strong></li><li><strong>In-game settings menu </strong>(via ModsSettingsApi; not required)</li><li>Short names optimized to <strong>avoid truncation in the team list </strong>in skin initials mode<br><i>Example: Alembic → ASTRON R. A</i></li><li>Also changes<strong> full names</strong> to include the base vehicle name</li><li>Intercepts the name lookup system<strong> instead of &nbsp;modifying game resource files, </strong>so it remains compatible across game version.</li></ul><h2>CONFIGURATION</h2><p>Click the <strong>⚭</strong> button in the bottom right corner of the garage and choose <strong>Mod configurator</strong> to open the settings menu.<br><i><strong>Note: </strong>Changes made will only apply after restarting the game. This is a game limitation.</i></p><p>Advanced users can also modify the JSON file in <i>/mods/configs/breeeze</i> directly. The file will automatically get generated on first launch.</p><h2>CONTACT, FEEDBACK &amp; BUG REPORTS</h2><p><a href=\"https://discord.com/channels/161053416796323840/1471822012627554415\">Mod thread on the World of Tanks Discord&nbsp;</a></p><p>Discord DM: <strong>@breeeze.</strong></p><p>In-game DM: <strong>breeeze</strong></p><h2>ACKNOWLEDGEMENTS</h2><p>Thanks to:</p><ul><li><strong>CRUSHERX8 </strong>-<strong> </strong>for help with gathering vehicle data &amp; testing, aswell as creating the cover image.</li><li><strong>izeberg </strong>-<strong> </strong>for the ModsSettingsApi, enabling the in-game settings menu.</li><li><strong>poliroid </strong>- for ModsList and OpenWG Gameface, to make ModsSettingsApi work.</li></ul><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unpack the zip and place all the .wotmod files into <strong>[WoT folder]/mods/[WoT version].</strong></p><p><i>Example: C:\\Games\\World_of_Tanks_EU\\mods\\2.2.1.3</i></p>",
@@ -8404,6 +8431,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/breeeze.vehicle_reskin_renamer_1.1.0_Mpz8bVm.zip",
+          "updatedAt": "2026-07-08T18:41:18.612Z",
+          "sizeBytes": 412651,
+          "fileName": "breeeze.vehicle_reskin_renamer_1.1.0_Mpz8bVm.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.2.1.3",
           "modVersion": "1.1.0",
@@ -8453,22 +8490,12 @@
           "fileName": "breeeze.vehicle_reskin_renamer_1.0.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.2",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/breeeze.vehicle_reskin_renamer_1.0.1_UCil4Mj.zip",
-          "updatedAt": "2026-02-19T08:54:27.054Z",
-          "sizeBytes": 407029,
-          "fileName": "breeeze.vehicle_reskin_renamer_1.0.1_UCil4Mj.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Added KV-2 (R)"
         }
       ],
       "latest": {
-        "fileName": "breeeze.vehicle_reskin_renamer_1.1.0.zip",
+        "fileName": "breeeze.vehicle_reskin_renamer_1.1.0_Mpz8bVm.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30609,16 +30636,6 @@
           "fileName": "RNG_Modpack_2.2.1.2_01.exe",
           "fileExt": ".exe",
           "changeLog": "Adaptation to latest patch (2.2.1.2).\nUpdated XVM nightly to 13.1.0_0022.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated iKurzdor Battle Equipment.\nUpdated Kid9N_Prokhorovka_Legend Old Battle Results.\nUpdated Phantasm Hangar Switcher.\nUpdated ProTanki Aim Timer.\nUpdated ProTanki Destroyed White Tanks.\nUpdated ProTanki Efficiency."
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "2.2.1.1_01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG_Modpack_2.2.1.1_01.exe",
-          "updatedAt": "2026-04-24T15:03:21.350Z",
-          "sizeBytes": 459750955,
-          "fileName": "RNG_Modpack_2.2.1.1_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "Adaptation to latest patch (2.2.1.1).\nUpdated XVM nightly to 13.1.0_0017.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated Pansy Revamped Skies Vol1, Vol2 & Vol3.\nUpdated Reven86 BattleAssistant.\nNOTE: Mods which are disabled till updated - Jak_Atackka Better Reticle Size."
         }
       ],
       "latest": {
