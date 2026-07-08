@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.015",
-  "sourceHash": "b33ac0d7b98cf90e975d3d0608082a65e62c1766b19912b52405e3654eca40c4",
+  "catalogVersion": "v2026.07.016",
+  "sourceHash": "a73bbe4c8c81b3bd0a0887152cbf6dcfac23caffb6d002ee7d26d75170e0ddbc",
   "sources": [
     "wgmods",
     "modhub"
@@ -102,7 +102,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 4,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -2029,7 +2029,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": null,
+      "mark": 4.6,
       "descriptionHtml": "<p>First Move displays a minimap heatmap overlay showing the most common opening routes for your current vehicle. Mod is aimed to support players who are sometimes not sure what initial paths to choose.</p><p>The heatmaps are generated from approximately <strong>26,000 best battle replays</strong> from wot-record starting from 2.0 and are based on routes taken by players who achieved strong battle results. The mod helps you quickly understand where successful players typically deploy at the start of a match and which areas are most frequently contested. This is best effort, which means that for unpopular tanks some processed replays have lower masteries or in rare cases no overlay data is available.&nbsp;</p><p>Features</p><ul><li>Vehicle-specific heatmaps.</li><li>Opening route visualization directly on the minimap.</li><li>Based on real player battle data.</li><li>Lightweight in-game overlay.</li><li>Hotkey support.</li></ul><p>Supported Vehicles</p><ul><li>Light Tanks (Tier X–XI)</li><li>Medium Tanks (Tier X–XI)</li><li>Heavy Tanks (Tier X–XI)</li><li>Tank Destroyers (Tier X–XI)</li><li>• Popular premium tanks (Tiers VIII–IX)</li></ul><p>Controls</p><ul><li>Ctrl+H — Enable / Disable heatmap overlay.</li></ul><p>In case of bugs or requests please contact me in Discord: dscorp</p>",
       "installationGuideHtml": "<p>\"Unzip here\" in root game folder. In case game version differs from 2.3.0.0 - move files from mods/2.3.0.0 folder to folder of actual game version.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/111_oJYqaui.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36364,6 +36364,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "19",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_19.exe",
+          "updatedAt": "2026-07-07T23:00:23.991Z",
+          "sizeBytes": 58916675,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_19.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.6.0 (a toolbar switch spreads the mods across up to 4 columns; mods can flag their newly added options with a red flare and a counter on the mod's title, like the game's own Settings; new options for mod authors)\n- Updated champi.settingsgui_1.72 (dependecy used in CHAMPi mods)\n- Updated Show Vehicle 2.0.6 (fixed the hotkey on dual-gun tanks; fixed the tank exclusion list to match exact names; added multi-column settings layout)\n- Updated BalCalcMod 2.3.8 (fixed the aim-point correction option; minor fixes)\n- Updated Crew Skills Pro 1.0.4 , Hitmarker Pro 1.0.5, AutoAim Indication+ 2.0.8 and Custom Sixth Sense 1.0.8 (added multi-column settings layout)\n- Updated Research Progress Bar by Zanju 1.2\n"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "18",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
           "updatedAt": "2026-07-06T17:44:26.879Z",
@@ -36384,8 +36394,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
-        "changeLog": "- Updated Dynamic Playlists\n- Updated Camo Selector (fixed enemy vehicles incorrectly inheriting the player’s locally saved custom outfit for the same tank type. Custom outfits now apply only to the player’s own vehicle during battle)\n- Updated Anime Music: Vinyl Edition, Spring Edition, Summer Edition, Autumn Edition, Winter Edition and Farewell Edition; restored Anime The Steel Maiden Edition\n- Updated Scheduled Personal Reserves 2.0.1 (improved scheduled booster visibility. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them)\n- Updated Armor Penetration Calculator (added a kill chance label; changed default colors to be more vibrant)\n- Added Anime Tech-Tree icons and Anime Tank Carousel icons by NyanDora_Mech_Tank\n- Added Research Progress Bar (by 14th_ua) [mod #1083]\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_19.exe",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.6.0 (a toolbar switch spreads the mods across up to 4 columns; mods can flag their newly added options with a red flare and a counter on the mod's title, like the game's own Settings; new options for mod authors)\n- Updated champi.settingsgui_1.72 (dependecy used in CHAMPi mods)\n- Updated Show Vehicle 2.0.6 (fixed the hotkey on dual-gun tanks; fixed the tank exclusion list to match exact names; added multi-column settings layout)\n- Updated BalCalcMod 2.3.8 (fixed the aim-point correction option; minor fixes)\n- Updated Crew Skills Pro 1.0.4 , Hitmarker Pro 1.0.5, AutoAim Indication+ 2.0.8 and Custom Sixth Sense 1.0.8 (added multi-column settings layout)\n- Updated Research Progress Bar by Zanju 1.2\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
