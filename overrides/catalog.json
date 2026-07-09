@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.07.018",
-  "sourceHash": "d33b48ccaaf67e916be93dec94528e17a5ff11f96c0179848af3b4de602aa3f1",
+  "catalogVersion": "v2026.07.019",
+  "sourceHash": "8350d3dba09bc146208092d7dc791eac5bd7db739dfc8ad92f20305008433e2c",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7746",
+      "title": "BP II <BLACK JUGGERNAUT>",
+      "ownerUsername": "Trick4Funz",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This is a custom style of the BP II, I felt it was too underwhelming so I upgraded it a little, added armor plates, added type of shovel, Guns are longer, the turret is now the top turret of the Chopper which I find a lot better looking.</p>",
+      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-07-09_172203.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7746/",
+      "tagIds": [
+        "16",
+        "21",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BP-II.wotmod",
+          "updatedAt": "2026-07-09T17:43:13.242Z",
+          "sizeBytes": 14176809,
+          "fileName": "BP-II.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "BP-II.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7744",
@@ -1077,6 +1115,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.26",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.26.exe",
+          "updatedAt": "2026-07-09T17:43:46.723Z",
+          "sizeBytes": 5312963,
+          "fileName": "Custix_ModPack_for_2.3.0.1_v2.26.exe",
+          "fileExt": ".exe",
+          "changeLog": "[UA]: Оновлено custix.battlestats і додано custix.sessionstats (У BattleStats додано вибір розміру шрифта в бокових панелях, а також новий пункт для округлення статистики до цілих чисел. SessionStats додає WN8/WNX у стандартне вікно статистики сесії гри поруч із WTR та показує рейтинг за поточну ігрову сесію і його зміну. Конфіги BattleStats у модпаку спрощено: кожен варіант встановлення зберігає тільки потрібний rating-mode) ---- [EN]: Updated custix.battlestats and added custix.sessionstats (BattleStats now has a font size option for the side panels, plus a new option to round statistics to whole numbers. SessionStats adds WN8/WNX to the built-in game session statistics window next to WTR and shows the rating for the current play session and how it changed. BattleStats configs in the modpack were simplified: each install option now stores only the required rating-mode)"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.25",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.25.exe",
           "updatedAt": "2026-07-01T18:43:34.851Z",
@@ -1087,8 +1135,8 @@
         }
       ],
       "latest": {
-        "fileName": "Custix_ModPack_for_2.3.0.1_v2.25.exe",
-        "changeLog": "[UA]: Оновлено мод custix.battlestats (Оптимізовано роботу hide-elite/нашивок: кешування виконується один раз на машину без просадки FPS; для Ranked/Epic режимів приховування й оверлей працюють через спільні класи та патчі панелей; TAB/Alt тепер працюють без мікро-фрізів завдяки легшій обробці позиційних оновлень і exinfo-шляху для Alt)\n---- [EN]: Updated the custix.battlestats mod (Optimized hide-elite/badges handling: caching is done once per vehicle without FPS drops; hiding and overlay support for Ranked/Epic modes now use shared classes and panel patches; TAB/Alt now work without micro-freezes thanks to lighter positional update handling and the exinfo path for Alt)",
+        "fileName": "Custix_ModPack_for_2.3.0.1_v2.26.exe",
+        "changeLog": "[UA]: Оновлено custix.battlestats і додано custix.sessionstats (У BattleStats додано вибір розміру шрифта в бокових панелях, а також новий пункт для округлення статистики до цілих чисел. SessionStats додає WN8/WNX у стандартне вікно статистики сесії гри поруч із WTR та показує рейтинг за поточну ігрову сесію і його зміну. Конфіги BattleStats у модпаку спрощено: кожен варіант встановлення зберігає тільки потрібний rating-mode) ---- [EN]: Updated custix.battlestats and added custix.sessionstats (BattleStats now has a font size option for the side panels, plus a new option to round statistics to whole numbers. SessionStats adds WN8/WNX to the built-in game session statistics window next to WTR and shows the rating for the current play session and how it changed. BattleStats configs in the modpack were simplified: each install option now stores only the required rating-mode)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1140,7 +1188,7 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<h2>⚠️<strong>The mod doesnt allow you to buy things you normally cant buy </strong>⚠️</h2><h2><br>🎨 Universal Customization Mod</h2><p>Customize your vehicles with almost any customization element that exists in the game.</p><p>The mod allows you to apply:</p><ul><li>2D styles</li><li>Camouflages</li><li>Paints</li><li>Decals</li><li>3D styles</li><li>Progressive 3D styles</li><li>3D attachments</li><li>Inscriptions</li><li>Emblems</li><li>Effects</li></ul><p>Mix and match different customization elements to create unique vehicle appearances and experiment with combinations that are normally not available together.</p><h2>🌐 Style Share</h2><p>Style Share lets other players who also use the mod see your custom battle appearance.</p><p>You can enable or disable Style Share from the Exterior menu.<br><i>It is enabled by default.</i></p><p>When enabled:</p><p>Your selected custom style can be shared in battle.<br>You can see shared custom styles from other players who also have the mod enabled.<br>Players without the mod will not see these shared styles.<br>If you disable Style Share, your style will not be shared and you will not see shared styles from others.</p><h2>🛠️ How to use</h2><ol><li>Open the <strong>Exterior</strong> menu for the vehicle you want to customize.</li><li>Apply any camouflage that you own.</li><li>Purchase or confirm the camouflage, then leave the Exterior menu.</li><li>Open the Exterior menu again.</li><li>Apply any 2D style, camouflage, paint, decal, 3D style, 3D attachment, inscription, or emblem you want.</li><li>Leave the Exterior menu by pressing <strong>Escape</strong>.</li><li>Your selected customization will now be applied to the vehicle.</li></ol><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/WnMGZgt9Xqk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/WnMGZgt9Xqk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>✨ Recommended: Clean Camo</h2><p>For the best visual experience, using <strong>Clean Camo</strong> alongside this mod is recommended.</p><p><strong>Part 1:</strong> <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a></p><p><strong>Part 2:</strong> <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a></p><p><strong>Part 3:</strong> <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><h2><br>✨ Recommended: Extra Style Filters</h2><p>Since the mod unlocks everything, having the ability to search and favourite styles / paints etc. is very helpful.<br><br><strong>Download: </strong><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><h2>ℹ️ Important</h2><p>Have fun creating your own unique tank designs! 🎨<br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "descriptionHtml": "<h2>⚠️<strong>The mod doesnt allow you to buy things you normally cant buy </strong>⚠️</h2><h2><br>🎨 Universal Customization Mod</h2><p>Customize your vehicles with almost any customization element that exists in the game.</p><p>The mod allows you to apply:<br>• 2D styles<br>• Camouflages<br>• Paints<br>•&nbsp;Decals<br>•&nbsp;3D styles<br>•&nbsp;Progressive 3D styles<br>•&nbsp;3D attachments<br>•&nbsp;Inscriptions<br>•&nbsp;Emblems<br>•&nbsp;Effects</p><p>Mix and match different customization elements to create unique vehicle appearances and experiment with combinations that are normally not available together.</p><h2>🌐 Style Share</h2><p>Style Share lets other players who also use the mod see your custom battle appearance.</p><p>You can enable or disable Style Share from the Exterior menu.<br><i>It is enabled by default.</i></p><p>When enabled:</p><p>Your selected custom style can be shared in battle.<br>You can see shared custom styles from other players who also have the mod enabled.<br>Players without the mod will not see these shared styles.<br>If you disable Style Share, your style will not be shared and you will not see shared styles from others.</p><h2>🛠️ How to use</h2><ol><li>Open the <strong>Exterior</strong> menu for the vehicle you want to customize.</li><li>Apply any camouflage that you own.</li><li>Purchase or confirm the camouflage, then leave the Exterior menu.</li><li>Open the Exterior menu again.</li><li>Apply any 2D style, camouflage, paint, decal, 3D style, 3D attachment, inscription, or emblem you want.</li><li>Leave the Exterior menu by pressing <strong>Escape</strong>.</li><li>Your selected customization will now be applied to the vehicle.</li></ol><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/WnMGZgt9Xqk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/WnMGZgt9Xqk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>✨ Recommended: Clean Camo</h2><p>For the best visual experience, using <strong>Clean Camo</strong> alongside this mod is recommended.</p><p><strong>Part 1:</strong> <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a></p><p><strong>Part 2:</strong> <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a></p><p><strong>Part 3:</strong> <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><h2><br>✨ Recommended: Extra Style Filters</h2><p>Since the mod unlocks everything, having the ability to search and favourite styles / paints etc. is very helpful.<br><br><strong>Download: </strong><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><h2>ℹ️ Important</h2><p>Have fun creating your own unique tank designs! 🎨<br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-06-12_120610066.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7711/",
@@ -4654,7 +4702,7 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>They don't compute and display the exact probability of penetrating. You would have to estimate this in the moment based on your shell's penetration and their armor. This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</p><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to pen someone</li><li>Great performance since the mod uses the calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
+      "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>1. They don't compute and display the exact probability of penetrating.</p><ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</li></ul><p>2. This mod has more features and receives regular updates.</p><ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Computes and displays probability of killing a low hp tank<ul><li>Takes into account their armor and hp</li></ul></li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/armor-pen-aislain_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7605/",
@@ -5137,7 +5185,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.5,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -30619,6 +30667,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.0.1_03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG_Modpack_2.3.0.1_03.exe",
+          "updatedAt": "2026-07-09T17:43:31.281Z",
+          "sizeBytes": 534938034,
+          "fileName": "RNG_Modpack_2.3.0.1_03.exe",
+          "fileExt": ".exe",
+          "changeLog": "Updated RNG Update Checker."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.0.1_02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG_Modpack_2.3.0.1_02.exe",
           "updatedAt": "2026-06-12T19:46:39.279Z",
@@ -30669,8 +30727,8 @@
         }
       ],
       "latest": {
-        "fileName": "RNG_Modpack_2.3.0.1_02.exe",
-        "changeLog": "Adaptation to latest patch (2.3.0.1).\nUpdated XVM nightly to 13.1.0_0031.\nUpdated ProTanki Aim Timer.\nUpdated ProTanki Efficiency.",
+        "fileName": "RNG_Modpack_2.3.0.1_03.exe",
+        "changeLog": "Updated RNG Update Checker.",
         "wotGameVersionCompatibility": "safe"
       }
     },
