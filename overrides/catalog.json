@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.017",
-  "sourceHash": "efdd8c916e8e7a193061011055f06d537d1d2700c34611560f744340cd2c2c50",
+  "catalogVersion": "v2026.07.018",
+  "sourceHash": "d33b48ccaaf67e916be93dec94528e17a5ff11f96c0179848af3b4de602aa3f1",
   "sources": [
     "wgmods",
     "modhub"
@@ -103,6 +103,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.6.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.3.zip",
+          "updatedAt": "2026-07-09T13:28:23.743Z",
+          "sizeBytes": 160200,
+          "fileName": "GarageProgressBar_0.6.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "Coexists with other Gameface mods. The bar now detects which garage sub-views are already occupied and places itself on the first free one, so it no longer blanks out (or gets blanked by) other Gameface-based mods. If you ran into two garage bars fighting over the same spot, this fixes it."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "0.6.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.2.zip",
           "updatedAt": "2026-07-06T08:30:51.397Z",
@@ -123,8 +133,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar_0.6.2.zip",
-        "changeLog": "Fixed a phantom Potential Tier XI bar. Tier-X vehicles whose Tier XI successor you have already researched no longer show a stray \"potential\" bar.\nFixed the Tier XI skill-tree \"done\" marker. Completing the upgrade tree now correctly turns the chip into its green done marker even when there's no remaining frontier.\nFixed the saved bar position drifting between resolutions. The bar's position is no longer stored as raw pixels, so it stays where you put it when your screen resolution or window size changes. (Existing setups: use Reset if the bar lands off-screen.)\nSmoother hovering and no more stale tooltips. Reduced per-frame work while hovering the bar, and tooltips no longer linger after the underlying tick changes.",
+        "fileName": "GarageProgressBar_0.6.3.zip",
+        "changeLog": "Coexists with other Gameface mods. The bar now detects which garage sub-views are already occupied and places itself on the first free one, so it no longer blanks out (or gets blanked by) other Gameface-based mods. If you ran into two garage bars fighting over the same spot, this fixes it.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -139,7 +149,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 4.1,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1054,7 +1064,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.1,
+      "mark": 4.2,
       "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v6.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -2916,6 +2926,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "6.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v6.1.0.wotmod",
+          "updatedAt": "2026-07-09T13:26:05.620Z",
+          "sizeBytes": 174064,
+          "fileName": "spotmeter-v6.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "In-game settings + cleaner defaults:\nNEW\n- In-game configurator: with a mods-settings menu installed (Aslain's aslainMenu, or izeberg's ModsSettingsAPI - both optional, the mod works without either) SpotMeter gets a settings page: panel visibility, identical-tank grouping, auto-hide, panel hotkey (key combos supported), minimap circle on/off, circle opacity, language, the battle-start loadout, per-class auto-pick presets (class dropdown), and a full rebindable hotkey list. Changes apply live and save to spotmeter.json.\n- \"Panel only\" mode: showMinimapCircle turns the minimap circle off independently of the panel.\nCHANGED\n- The battle panel starts HIDDEN by default (PageDown shows it). The separate garage panel is gone - its settings live in the configurator now.\n- Config moved to AppData (survives modpack reinstalls); an old config is migrated automatically."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "6.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v6.0.1.wotmod",
           "updatedAt": "2026-06-11T12:21:51.527Z",
@@ -2956,8 +2976,8 @@
         }
       ],
       "latest": {
-        "fileName": "spotmeter-v6.0.1.wotmod",
-        "changeLog": "Adaptation to 2.3.0.1",
+        "fileName": "spotmeter-v6.1.0.wotmod",
+        "changeLog": "In-game settings + cleaner defaults:\nNEW\n- In-game configurator: with a mods-settings menu installed (Aslain's aslainMenu, or izeberg's ModsSettingsAPI - both optional, the mod works without either) SpotMeter gets a settings page: panel visibility, identical-tank grouping, auto-hide, panel hotkey (key combos supported), minimap circle on/off, circle opacity, language, the battle-start loadout, per-class auto-pick presets (class dropdown), and a full rebindable hotkey list. Changes apply live and save to spotmeter.json.\n- \"Panel only\" mode: showMinimapCircle turns the minimap circle off independently of the panel.\nCHANGED\n- The battle panel starts HIDDEN by default (PageDown shows it). The separate garage panel is gone - its settings live in the configurator now.\n- Config moved to AppData (survives modpack reinstalls); an old config is migrated automatically.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6220,7 +6240,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod allows you to change all 3 colours of the flashlight, it also lets you change the transparency of the flashlight.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-09_105627797.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -12140,6 +12160,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/calculationelo.zip",
+          "updatedAt": "2026-07-09T13:28:05.688Z",
+          "sizeBytes": 520852,
+          "fileName": "calculationelo.zip",
+          "fileExt": ".zip",
+          "changeLog": "Responsive battle panel scaling + save position in fullscreen/windowed; remove title; v - 2.0.1"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/calculationelo_w5M2tmD.zip",
           "updatedAt": "2026-07-05T09:48:38.634Z",
@@ -12170,8 +12200,8 @@
         }
       ],
       "latest": {
-        "fileName": "calculationelo_w5M2tmD.zip",
-        "changeLog": "moved to Gameface",
+        "fileName": "calculationelo.zip",
+        "changeLog": "Responsive battle panel scaling + save position in fullscreen/windowed; remove title; v - 2.0.1",
         "wotGameVersionCompatibility": "safe"
       }
     },
