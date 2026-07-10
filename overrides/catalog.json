@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.020",
-  "sourceHash": "d14e0be5bcd4ad63b4bee7f2dacc6ad50db68cf56940faa7807832ef509acd74",
+  "catalogVersion": "v2026.07.021",
+  "sourceHash": "241d844806805f7af03d61964354a175780e11a503e72dfd7682f15e468fe20f",
   "sources": [
     "wgmods",
     "modhub"
@@ -250,6 +250,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.6.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.4.zip",
+          "updatedAt": "2026-07-10T17:33:00.799Z",
+          "sizeBytes": 160638,
+          "fileName": "GarageProgressBar_0.6.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "Correct research XP cost on convergent tech-tree nodes. Vehicle unlocks are now priced from the game's own tech-tree data (cheapest-available parent, with any blueprint discount already applied) instead of the currently-selected vehicle's edge. On a vehicle reachable from more than one parent with different costs the bar's confirmation dialog previously showed a higher XP cost than the native research button and could have overcharged the unlock. Both now match the game exactly."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "0.6.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.3.zip",
           "updatedAt": "2026-07-09T13:28:23.743Z",
@@ -280,8 +290,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar_0.6.3.zip",
-        "changeLog": "Coexists with other Gameface mods. The bar now detects which garage sub-views are already occupied and places itself on the first free one, so it no longer blanks out (or gets blanked by) other Gameface-based mods. If you ran into two garage bars fighting over the same spot, this fixes it.",
+        "fileName": "GarageProgressBar_0.6.4.zip",
+        "changeLog": "Correct research XP cost on convergent tech-tree nodes. Vehicle unlocks are now priced from the game's own tech-tree data (cheapest-available parent, with any blueprint discount already applied) instead of the currently-selected vehicle's edge. On a vehicle reachable from more than one parent with different costs the bar's confirmation dialog previously showed a higher XP cost than the native research button and could have overcharged the unlock. Both now match the game exactly.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -646,6 +656,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HitmarkerPro_1.0.5_2.3.0.1.zip",
+          "updatedAt": "2026-07-10T17:31:31.602Z",
+          "sizeBytes": 780264,
+          "fileName": "HitmarkerPro_1.0.5_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "• Menu: extra columns in multi-column mode - General, then Preview and Colors, then Sound in its own column, so a wide window shows everything at once\n• Fixed: a corrupted or invalid config file no longer makes the settings menu disappear - the mod falls back to defaults and keeps working\n• Fixed: the hit marker now follows the camera correctly after you rewind a replay, including when switching between sniper and arcade view"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HitmarkerPro_1.0.4_2.3.0.1.zip",
           "updatedAt": "2026-07-02T22:59:32.056Z",
@@ -656,8 +676,8 @@
         }
       ],
       "latest": {
-        "fileName": "HitmarkerPro_1.0.4_2.3.0.1.zip",
-        "changeLog": "fixed settings loading when the Windows profile path contains special characters",
+        "fileName": "HitmarkerPro_1.0.5_2.3.0.1.zip",
+        "changeLog": "• Menu: extra columns in multi-column mode - General, then Preview and Colors, then Sound in its own column, so a wide window shows everything at once\n• Fixed: a corrupted or invalid config file no longer makes the settings menu disappear - the mod falls back to defaults and keeps working\n• Fixed: the hit marker now follows the camera correctly after you rewind a replay, including when switching between sniper and arcade view",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -718,6 +738,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.4_2.3.0.1.zip",
+          "updatedAt": "2026-07-10T17:31:24.399Z",
+          "sizeBytes": 793959,
+          "fileName": "CrewSkillsPro_1.0.4_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "• New: multi-column layout - in multi-column mode the settings spread across three columns (Behavior, what to show, size & opacity), so a wide window shows everything at once\n• Fixed: a flood of repeated log errors that could occur with certain show-mode settings"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.3_2.3.0.1.zip",
           "updatedAt": "2026-07-02T22:59:37.223Z",
@@ -728,8 +758,8 @@
         }
       ],
       "latest": {
-        "fileName": "CrewSkillsPro_1.0.3_2.3.0.1.zip",
-        "changeLog": "fixed settings loading when the Windows profile path contains special characters",
+        "fileName": "CrewSkillsPro_1.0.4_2.3.0.1.zip",
+        "changeLog": "• New: multi-column layout - in multi-column mode the settings spread across three columns (Behavior, what to show, size & opacity), so a wide window shows everything at once\n• Fixed: a flood of repeated log errors that could occur with certain show-mode settings",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -827,43 +857,6 @@
       "latest": {
         "fileName": "com.komarov.dpmdisplay_0.6.0.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7722",
-      "title": "Tank Info in Hangar",
-      "ownerUsername": "Z4imon",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": true,
-      "mark": 5,
-      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info.</p><p>Created by <strong>Z4imon</strong></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
-      "installationGuideHtml": "<p>Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion<br><br>If you already have gameface installed, only copy the tank_info_in_hangar file</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Titelbild2_DXyUI4L.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7722/",
-      "tagIds": [
-        "18",
-        "13"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.3_XQWCKH5.wotmod",
-          "updatedAt": "2026-07-08T17:35:30.642Z",
-          "sizeBytes": 77864,
-          "fileName": "Z4imon.tank_info_in_hangar_1.3_XQWCKH5.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Added Onslought Hangar capabilities. Bugfixes"
-        }
-      ],
-      "latest": {
-        "fileName": "Z4imon.tank_info_in_hangar_1.3_XQWCKH5.wotmod",
-        "changeLog": "Added Onslought Hangar capabilities. Bugfixes",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1375,6 +1368,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.8_2.3.0.1.zip",
+          "updatedAt": "2026-07-10T17:31:28.506Z",
+          "sizeBytes": 16463411,
+          "fileName": "CustomSixthSense_1.0.8_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "• Menu: up to 4 columns in multi-column mode, so a wide window shows more options at once\n• Fixed: a corrupted or invalid config file no longer breaks the mod - it falls back to the default icon position and safe defaults"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.7_2.3.0.1.zip",
           "updatedAt": "2026-07-02T22:59:39.188Z",
@@ -1385,8 +1388,8 @@
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.7_2.3.0.1.zip",
-        "changeLog": "fixed settings loading when the Windows profile path contains special characters",
+        "fileName": "CustomSixthSense_1.0.8_2.3.0.1.zip",
+        "changeLog": "• Menu: up to 4 columns in multi-column mode, so a wide window shows more options at once\n• Fixed: a corrupted or invalid config file no longer breaks the mod - it falls back to the default icon position and safe defaults",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1412,6 +1415,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.3.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.3.8_2.3.0.1.zip",
+          "updatedAt": "2026-07-10T17:31:20.710Z",
+          "sizeBytes": 640176,
+          "fileName": "BalCalcMod_2.3.8_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "• Fixed: shell trajectory correction (correctAim) now actually adjusts your aim - previously it did nothing\n• Fixed: the distance indicator no longer shows through when the HUD is hidden (sniper mode or interface toggled off)\n• Fixed: a corrupted or invalid config file no longer disables the mod - it falls back to the default settings\n•Menu: the distance-lock key field greys out when a mouse button is bound for distance-lock, matching the tooltip"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.3.7_2.3.0.1.zip",
           "updatedAt": "2026-07-02T22:59:44.238Z",
@@ -1422,8 +1435,8 @@
         }
       ],
       "latest": {
-        "fileName": "BalCalcMod_2.3.7_2.3.0.1.zip",
-        "changeLog": "fixed settings loading when the Windows profile path contains special characters",
+        "fileName": "BalCalcMod_2.3.8_2.3.0.1.zip",
+        "changeLog": "• Fixed: shell trajectory correction (correctAim) now actually adjusts your aim - previously it did nothing\n• Fixed: the distance indicator no longer shows through when the HUD is hidden (sniper mode or interface toggled off)\n• Fixed: a corrupted or invalid config file no longer disables the mod - it falls back to the default settings\n•Menu: the distance-lock key field greys out when a mouse button is bound for distance-lock, matching the tooltip",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1449,6 +1462,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "2.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Autoaim_indicator_Plus_2.0.8_2.3.0.1.zip",
+          "updatedAt": "2026-07-10T17:31:12.757Z",
+          "sizeBytes": 643944,
+          "fileName": "Autoaim_indicator_Plus_2.0.8_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "• New: 4-column settings layout in multi-column mode, so a wide window shows every option at once\n• Fixed: a corrupted or invalid config file no longer stops the mod from loading - it falls back to the default settings"
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Autoaim_indicator_Plus_2.0.7_2.3.0.1.zip",
           "updatedAt": "2026-07-02T22:59:42.024Z",
@@ -1459,8 +1482,8 @@
         }
       ],
       "latest": {
-        "fileName": "Autoaim_indicator_Plus_2.0.7_2.3.0.1.zip",
-        "changeLog": "fixed settings loading when the Windows profile path contains special characters",
+        "fileName": "Autoaim_indicator_Plus_2.0.8_2.3.0.1.zip",
+        "changeLog": "• New: 4-column settings layout in multi-column mode, so a wide window shows every option at once\n• Fixed: a corrupted or invalid config file no longer stops the mod from loading - it falls back to the default settings",
         "wotGameVersionCompatibility": "safe"
       }
     },
