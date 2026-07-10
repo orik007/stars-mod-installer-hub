@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.020",
+  "catalogVersion": "v2026.07.021",
   "mods": [
     {
       "source": "wgmods",
@@ -315,21 +315,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide clearly targets mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7722",
-      "title": "Tank Info in Hangar",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion If you already have gameface installed, only copy the tank_info_in_hangar file"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide targets mods/<version>; optional note about copying only one file if another mod is already installed is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
