@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.019",
+  "catalogVersion": "v2026.07.020",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7748",
+      "title": "Chat Filter",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Archive package with empty guide, so install target and operation are unclear.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7749",
+      "title": "Gun Reloaded Sounds",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive contents are copied by placing the included mods folder into the World of Tanks game folder, which is a root extraction operation; extra audio_mods.xml note is non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7747",
+      "title": "Personal Mission 2 Auto Reset",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive contents are copied by placing the included mods folder into the World of Tanks game folder, which is a root extraction operation.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7746",
@@ -203,12 +248,12 @@
       "title": "Hitmarker Pro",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
       },
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to copy the included mods folder into the World of Tanks game folder; extraction to game root puts files into mods/<version>.",
+        "decisionReason": "Archive contents are copied by placing the included mods folder into the World of Tanks game folder, which is a root extraction operation; extra audio_mods.xml and settings notes are non-blocking.",
         "deleteDataWgpdc": false
       }
     },

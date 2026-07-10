@@ -1,11 +1,120 @@
 {
-  "catalogVersion": "v2026.07.019",
-  "sourceHash": "8350d3dba09bc146208092d7dc791eac5bd7db739dfc8ad92f20305008433e2c",
+  "catalogVersion": "v2026.07.020",
+  "sourceHash": "d14e0be5bcd4ad63b4bee7f2dacc6ad50db68cf56940faa7807832ef509acd74",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7748",
+      "title": "Chat Filter",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Chat Filter hides toxic, insulting and hateful battle chat the moment it arrives, and keeps you from being reported for your own messages.</strong> You keep the useful part of the chat - map calls, tactics, teamwork - while the poison never reaches your screen.</p><p>Everything is set up in the garage through the in-game Mod configurator (mod settings menu).</p><p>Options:<br>• Two levels: ordinary swearing is simply hidden, while serious abuse (slurs, hate speech, racism, wishes of death or illness) can also auto-hide, ignore or report the sender<br>• Hard to fool: catches words disguised with numbers, symbols, dots or spaces (n.o.o.b, l4me) or hidden inside longer words, with a whitelist to protect innocent ones<br>• Self-censor blocks your own rule-breaking messages before they are sent, so you do not get reported in the heat of the moment<br>• Hide chat from players below a chosen rating (XVM WN8 or the Wargaming personal rating)<br>• Anti-spam for repeated messages and flooders<br>• Editable word lists, menu available in 8 languages</p><p>Configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\chatfilter\\chatfilter.json</p><p>Credits: based on the original Chat Filter by Krzysztof_Chodak. This version by Aslain.</p>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7748/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ChatFilter_1.0.0_2.3.0.1.zip",
+          "updatedAt": "2026-07-09T20:22:24.169Z",
+          "sizeBytes": 443612,
+          "fileName": "ChatFilter_1.0.0_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ChatFilter_1.0.0_2.3.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7749",
+      "title": "Gun Reloaded Sounds",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Gun Reloaded Sounds plays a sound the moment your gun is reloaded and ready to fire.</strong> No more staring at the reload timer - you hear when you can shoot, so you can keep your eyes on the battle.</p><p>Everything is set up in the garage through the in-game Mod configurator (mod settings menu).</p><p>Options:<br>• Choose your reload sound from a list, with a preview button right in the menu<br>• Magazine-aware: on autoloaders and autoreloaders it plays when the whole magazine is ready, not on every shell in the clip<br>• Minimum reload-time filter, so fast-firing autocannons do not spam the sound<br>• Adjustable volume<br>• Menu available in 9 languages</p><p>Configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\gunreloadedsounds\\gunreloadedsounds.json</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br><br>To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7749/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GunReloadedSounds_1.0.0_2.3.0.1.zip",
+          "updatedAt": "2026-07-09T20:22:21.869Z",
+          "sizeBytes": 927247,
+          "fileName": "GunReloadedSounds_1.0.0_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "GunReloadedSounds_1.0.0_2.3.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7747",
+      "title": "Personal Mission 2 Auto Reset",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Personal Mission 2 Auto Reset clears a wasted Personal Mission attempt for you, automatically.</strong> Finish a battle series of the Second Front campaign with zero successes and the failed run just sits on the mission - this mod resets it right away, so you always start from a clean attempt instead of clearing it by hand.</p><p>It works on the Second Front campaign (Personal Missions 2) - the reward vehicles Excalibur, Chimera and Object 279 (e).</p><p>Everything is set up in the garage through the in-game Mod configurator (mod settings menu).</p><p>Options:<br>• Also reset a failed Honors (Advanced) attempt, or leave it for you to handle manually<br>• Protect any campaign from auto-reset with its own checkbox (Excalibur, Chimera, Object 279)<br>• A notification whenever a reset happens, or run fully silent<br>• Debug logging to python.log for diagnostics<br>• Menu available in 8 languages</p><p>Configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\pm2autoreset\\pm2autoreset.json</p><p>Credits: based on the original mod by AnNE_DoMini. This version by Aslain.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7747/",
+      "tagIds": [
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pm2autoreset_1.0.0_2.3.0.1.zip",
+          "updatedAt": "2026-07-09T19:12:47.137Z",
+          "sizeBytes": 384078,
+          "fileName": "pm2autoreset_1.0.0_2.3.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "pm2autoreset_1.0.0_2.3.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7746",
@@ -527,8 +636,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each damage type: regular damage, fire, kill<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p><p>Note: This version is not compatible with other mods based on audio_<i>mods.xml. To make it work, you would have to delete the audio</i>_<i>mods.xml inside this mod’s .wotmod and then add this mod's sound bank: hitmarkerpro.bnk manually to the existing audio</i>_mods.xml in res_mods/x.x.x.x/audioww/</p>",
-      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each damage type: regular damage, fire, kill<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br><br>To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder<br><br>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/HitmarkerPro_1_KAsWEtf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7736/",
       "tagIds": [
@@ -854,18 +963,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.2.0.1.zip",
-          "updatedAt": "2026-07-05T11:04:10.317Z",
-          "sizeBytes": 146910,
-          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.1.zip",
+          "modVersion": "2.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.3.0.1.2.0.3_HKKRiYg.zip",
+          "updatedAt": "2026-07-09T21:29:17.402Z",
+          "sizeBytes": 139784,
+          "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.3_HKKRiYg.zip",
           "fileExt": ".zip",
-          "changeLog": "Improved scheduled booster visibility across the mono header, hover tooltip, and booster view. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them."
+          "changeLog": "Fixed scheduled personal reserve visuals."
         }
       ],
       "latest": {
-        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.1.zip",
-        "changeLog": "Improved scheduled booster visibility across the mono header, hover tooltip, and booster view. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them.",
+        "fileName": "gravity.scheduled_personal_reserves.2.3.0.1.2.0.3_HKKRiYg.zip",
+        "changeLog": "Fixed scheduled personal reserve visuals.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1103,7 +1212,7 @@
       ],
       "recommended": true,
       "mark": 4.2,
-      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
+      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>📈 Session statistics (SessionStats)</strong><br>This mod extends the game's built-in session statistics window and adds <strong>WN8</strong> and <strong>WNX</strong> next to WTR.</p><ul><li>Shows the rating for the current play session.</li><li>Shows how much the rating changed during the session.</li><li>Does not create a separate external window; it neatly extends the standard game UI.</li><li>Helps you quickly evaluate the current session not only by WTR, but also by familiar WN8/WNX ratings.</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v6.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
@@ -1122,16 +1231,6 @@
           "fileName": "Custix_ModPack_for_2.3.0.1_v2.26.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлено custix.battlestats і додано custix.sessionstats (У BattleStats додано вибір розміру шрифта в бокових панелях, а також новий пункт для округлення статистики до цілих чисел. SessionStats додає WN8/WNX у стандартне вікно статистики сесії гри поруч із WTR та показує рейтинг за поточну ігрову сесію і його зміну. Конфіги BattleStats у модпаку спрощено: кожен варіант встановлення зберігає тільки потрібний rating-mode) ---- [EN]: Updated custix.battlestats and added custix.sessionstats (BattleStats now has a font size option for the side panels, plus a new option to round statistics to whole numbers. SessionStats adds WN8/WNX to the built-in game session statistics window next to WTR and shows the rating for the current play session and how it changed. BattleStats configs in the modpack were simplified: each install option now stores only the required rating-mode)"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.25",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.25.exe",
-          "updatedAt": "2026-07-01T18:43:34.851Z",
-          "sizeBytes": 4677154,
-          "fileName": "Custix_ModPack_for_2.3.0.1_v2.25.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлено мод custix.battlestats (Оптимізовано роботу hide-elite/нашивок: кешування виконується один раз на машину без просадки FPS; для Ranked/Epic режимів приховування й оверлей працюють через спільні класи та патчі панелей; TAB/Alt тепер працюють без мікро-фрізів завдяки легшій обробці позиційних оновлень і exinfo-шляху для Alt)\n---- [EN]: Updated the custix.battlestats mod (Optimized hide-elite/badges handling: caching is done once per vehicle without FPS drops; hiding and overlay support for Ranked/Epic modes now use shared classes and panel patches; TAB/Alt now work without micro-freezes thanks to lighter positional update handling and the exinfo path for Alt)"
         }
       ],
       "latest": {
@@ -7920,7 +8019,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li><li><strong>Pz I c : Custom Style (centurion)</strong></li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
+      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p>Currently 85 vehicles swapped, the list below is not complete</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style (Shovel militia)</strong></li><li><strong>Pz38 n.A. : Custom Style (Bush)</strong></li><li>E 75 : skin (Steel Hunter replacement)</li><li>E50M : skin (Black market skin)</li><li><strong>Pz.Sfl. IVc : Custom Style (FOREST ASSASSIN)</strong></li><li>Pz.Kpfw. IV : skin (Complete steel hunter overhaul)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li><li><strong>Pz I c : Custom Style (centurion)</strong></li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter turret and gun sound)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style (Warrior)</strong></li><li><strong>BZ-58 : Custom Style (Warrior added working boosters)</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style (Heavily Armored)</strong></li><li><strong>T3 : Custom Style (One Hit half Health 120mm gun sound)</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style (Steel hunter)</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style (KV-13-S)</strong></li><li>SU-100Y : skin (Mortar)</li><li><strong>KV-5 : Custom Style (Armored rammer)</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style (Long distance artillery)</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style (Landcruiser)</strong></li><li>Obj 752 : skin (Peerless)</li><li>Obj 268 : skin (lesta style)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style (Ashigaru)</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style (Landcruiser)</strong></li><li>Ho-Ri 3 : skin (Apocalypse from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter explode ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (100mm gun sound)</li><li>60TP &nbsp;: skin (Onslaught style)</li><li>CS-63 : skin (Frost from lesta)</li><li><strong>Kilana : Custom Style (Desert guard)</strong></li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (cant remember but its one of the 2)</li><li>UDES 15/16 : skin (desert)</li><li>UDES 14/5 : skin (turret)</li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
       "installationGuideHtml": "<p>How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down</p><p>PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update</p><p>How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version).</p><p>(THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wotVSWAPS_miniature_nb1eTnL.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7512/",
@@ -36469,38 +36568,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
-          "modVersion": "19",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_19.exe",
-          "updatedAt": "2026-07-07T23:00:23.991Z",
-          "sizeBytes": 58916675,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_19.exe",
+          "modVersion": "20",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_20.exe",
+          "updatedAt": "2026-07-09T20:56:07.708Z",
+          "sizeBytes": 59173936,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_20.exe",
           "fileExt": ".exe",
-          "changeLog": "- Updated enhanced modsSettingsApi 1.6.0 (a toolbar switch spreads the mods across up to 4 columns; mods can flag their newly added options with a red flare and a counter on the mod's title, like the game's own Settings; new options for mod authors)\n- Updated champi.settingsgui_1.72 (dependecy used in CHAMPi mods)\n- Updated Show Vehicle 2.0.6 (fixed the hotkey on dual-gun tanks; fixed the tank exclusion list to match exact names; added multi-column settings layout)\n- Updated BalCalcMod 2.3.8 (fixed the aim-point correction option; minor fixes)\n- Updated Crew Skills Pro 1.0.4 , Hitmarker Pro 1.0.5, AutoAim Indication+ 2.0.8 and Custom Sixth Sense 1.0.8 (added multi-column settings layout)\n- Updated Research Progress Bar by Zanju 1.2\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "18",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
-          "updatedAt": "2026-07-06T17:44:26.879Z",
-          "sizeBytes": 58821196,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_18.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Dynamic Playlists\n- Updated Camo Selector (fixed enemy vehicles incorrectly inheriting the player’s locally saved custom outfit for the same tank type. Custom outfits now apply only to the player’s own vehicle during battle)\n- Updated Anime Music: Vinyl Edition, Spring Edition, Summer Edition, Autumn Edition, Winter Edition and Farewell Edition; restored Anime The Steel Maiden Edition\n- Updated Scheduled Personal Reserves 2.0.1 (improved scheduled booster visibility. Fixed an issue where standard and premium booster variants could be mismatched when scheduling or highlighting them)\n- Updated Armor Penetration Calculator (added a kill chance label; changed default colors to be more vibrant)\n- Added Anime Tech-Tree icons and Anime Tank Carousel icons by NyanDora_Mech_Tank\n- Added Research Progress Bar (by 14th_ua) [mod #1083]\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "17",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.0.1_17.exe",
-          "updatedAt": "2026-07-03T14:21:22.285Z",
-          "sizeBytes": 58836491,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_17.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Garage Mastery by Gravity_Assist 1.9, Ballistics Info 1.5, MoE Overlay 1.8, Autoreloader Loading Overlay 1.4, MoE Tracker 1.4 and Gun Caliber Overlay 1.4 (fixed a bug where overlays could become stuck in the bottom-right corner and could not be moved on 4K or UI-scaled displays)"
+          "changeLog": "- Updated Dynamic Playlists (added 3 missing options)\n- Updated Tank Info in Garage\n- Updated Research Progress Bar by 14th_ua\n- Updated enhanced modsSettingsApi 1.6.2\n- Updated champi.settingsgui_1.73 (dependancy used in CHAMPi mods)\n- Updated Scheduled Personal Reserves (fixed crash/freeze on hotkey reserve activation, cleaned glow effect, removed GameFace log error.)\n- Added Chat Filter (by Aslain) (in place of the old mod, added menu in garage, config is now placed in the appdata)\n- Added SpotMeter (added menu in garage, config is now placed in the appdata, removed panel in garage, fixes)\n- Added Personal Mission 2 Auto Reset (by Aslain) (in place of the old mod; menu in garage)\n- Added Gun Reloaded Sounds (by Aslain) (in place of the old mod; the sound and volume are now chosen in the garage menu, and on autoloaders it plays only after the full magazine reloads. Your previous mod selection is not carried over, so configure it in garage) [mod #1134]\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_19.exe",
-        "changeLog": "- Updated enhanced modsSettingsApi 1.6.0 (a toolbar switch spreads the mods across up to 4 columns; mods can flag their newly added options with a red flare and a counter on the mod's title, like the game's own Settings; new options for mod authors)\n- Updated champi.settingsgui_1.72 (dependecy used in CHAMPi mods)\n- Updated Show Vehicle 2.0.6 (fixed the hotkey on dual-gun tanks; fixed the tank exclusion list to match exact names; added multi-column settings layout)\n- Updated BalCalcMod 2.3.8 (fixed the aim-point correction option; minor fixes)\n- Updated Crew Skills Pro 1.0.4 , Hitmarker Pro 1.0.5, AutoAim Indication+ 2.0.8 and Custom Sixth Sense 1.0.8 (added multi-column settings layout)\n- Updated Research Progress Bar by Zanju 1.2\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.0.1_20.exe",
+        "changeLog": "- Updated Dynamic Playlists (added 3 missing options)\n- Updated Tank Info in Garage\n- Updated Research Progress Bar by 14th_ua\n- Updated enhanced modsSettingsApi 1.6.2\n- Updated champi.settingsgui_1.73 (dependancy used in CHAMPi mods)\n- Updated Scheduled Personal Reserves (fixed crash/freeze on hotkey reserve activation, cleaned glow effect, removed GameFace log error.)\n- Added Chat Filter (by Aslain) (in place of the old mod, added menu in garage, config is now placed in the appdata)\n- Added SpotMeter (added menu in garage, config is now placed in the appdata, removed panel in garage, fixes)\n- Added Personal Mission 2 Auto Reset (by Aslain) (in place of the old mod; menu in garage)\n- Added Gun Reloaded Sounds (by Aslain) (in place of the old mod; the sound and volume are now chosen in the garage menu, and on autoloaders it plays only after the full magazine reloads. Your previous mod selection is not carried over, so configure it in garage) [mod #1134]\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
