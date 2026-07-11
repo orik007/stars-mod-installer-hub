@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.023",
-  "sourceHash": "674edc0a4be69595d2eaf9b1a4c6a43f327b5331b84b314024d40e83236940fe",
+  "catalogVersion": "v2026.07.024",
+  "sourceHash": "3de79c602b94dcb6f4481b5dbe7e4f44be5bd6b52b57abb475f5719dd8262ce3",
   "sources": [
     "wgmods",
     "modhub"
@@ -289,6 +289,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.7.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.7.0.zip",
+          "updatedAt": "2026-07-11T14:21:09.841Z",
+          "sizeBytes": 162539,
+          "fileName": "GarageProgressBar_0.7.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Richer buff tooltips. Field-modification and skill-tree buff lines now render like the game's own perk tooltip: the parameter icon, the change value colored green for a buff / red for a nerf (orange in color-blind mode), and the stat it affects — e.g. +50 HP to vehicle hit points, -0.10 s to aiming time. Absolute values now show their unit; the buff/nerf color follows the game's own classification, so a beneficial reduction still reads as green. Fix: sub-unit buff numbers are no longer dropped from upgrade tooltips. A small add KPI on a dispersion-scale hundredth (e.g. gun dispersion -0.01) used to lose its figure, so the tooltip showed only the qualitative sentence with no magnitude. The number now survives while a genuine ~zero still collapses."
+        },
+        {
+          "wotGameVersion": "2.3.0.1",
           "modVersion": "0.6.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.4.zip",
           "updatedAt": "2026-07-10T17:33:00.799Z",
@@ -329,8 +339,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar_0.6.4.zip",
-        "changeLog": "Correct research XP cost on convergent tech-tree nodes. Vehicle unlocks are now priced from the game's own tech-tree data (cheapest-available parent, with any blueprint discount already applied) instead of the currently-selected vehicle's edge. On a vehicle reachable from more than one parent with different costs the bar's confirmation dialog previously showed a higher XP cost than the native research button and could have overcharged the unlock. Both now match the game exactly.",
+        "fileName": "GarageProgressBar_0.7.0.zip",
+        "changeLog": "Richer buff tooltips. Field-modification and skill-tree buff lines now render like the game's own perk tooltip: the parameter icon, the change value colored green for a buff / red for a nerf (orange in color-blind mode), and the stat it affects — e.g. +50 HP to vehicle hit points, -0.10 s to aiming time. Absolute values now show their unit; the buff/nerf color follows the game's own classification, so a beneficial reduction still reads as green. Fix: sub-unit buff numbers are no longer dropped from upgrade tooltips. A small add KPI on a dispersion-scale hundredth (e.g. gun dispersion -0.01) used to lose its figure, so the tooltip showed only the qualitative sentence with no magnitude. The number now survives while a genuine ~zero still collapses.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -19787,7 +19797,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 3.5,
+      "mark": 3.6,
       "descriptionHtml": "<p>The <strong>WOTInspector Heatmaps</strong> Mod automatically records every battle event — movements, shots, penetrations, and damages — and transforms them into detailed interactive heatmaps available at <a href=\"https://map.wotinspector.com\">https://map.wotinspector.com</a>.</p><p>This mod helps you uncover battle trends, optimize your strategies, and dominate the battlefield with data-driven insights.</p><p>Mod users can build their personal heatmaps.</p>",
       "installationGuideHtml": "<ol><li>Download wotmod file</li><li>Copy to <strong>mods/&lt;version&gt;</strong> folder</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-05-22_162558_2_uo7M62U.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36461,16 +36471,6 @@
           "fileName": "SicFunzler-Mod_V226.exe",
           "fileExt": ".exe",
           "changeLog": "kleine optimierungen"
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "V 220",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V220.exe",
-          "updatedAt": "2026-05-14T20:04:48.085Z",
-          "sizeBytes": 290624238,
-          "fileName": "SicFunzler-Mod_V220.exe",
-          "fileExt": ".exe",
-          "changeLog": "Wot update 2.2.1.3"
         }
       ],
       "latest": {
