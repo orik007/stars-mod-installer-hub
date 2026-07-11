@@ -1,11 +1,50 @@
 {
-  "catalogVersion": "v2026.07.021",
-  "sourceHash": "241d844806805f7af03d61964354a175780e11a503e72dfd7682f15e468fe20f",
+  "catalogVersion": "v2026.07.022",
+  "sourceHash": "f6a6eb578b930cc10a7e2fe0d74688057c9bcaf76264cb0460bc9cf64abde152",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7745",
+      "title": "14th_ua's MoE Calculator",
+      "ownerUsername": "14th_ua",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Track your <strong>Marks of Excellence (MoE)</strong> progress for the vehicle you have selected, in the Garage and live in battle. The mod reads the game's own MoE data and renders it with the client's own mark art and interface styling.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at <strong>65% / 85% / 95%</strong> — the 1 / 2 / 3-mark thresholds — each drawn with the client's own mark art. Every tick is labelled with the combined damage that mark requires, and the bar fills to your current standing. Above it, a readout shows your current average combined damage and your current mark percentage for the selected vehicle.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li></ul><p>&nbsp;</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
+      "installationGuideHtml": "<h2>Requirements</h2><p>- <a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+<br>&nbsp;</p><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle_kM1xcgc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7745/",
+      "tagIds": [
+        "11",
+        "18",
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "0.2.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_0.2.2.zip",
+          "updatedAt": "2026-07-10T21:54:32.442Z",
+          "sizeBytes": 111215,
+          "fileName": "MoECalculator_0.2.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fresher MoE thresholds. The per-tank mark targets from the official Wargaming API now refresh on a 7-day cycle instead of monthly, so the combined-damage goals stay current with the game's rebalances. When Wargaming publishes updated numbers, the mod notices on the next fetch and quietly re-pulls the whole set rather than waiting out the cache."
+        }
+      ],
+      "latest": {
+        "fileName": "MoECalculator_0.2.2.zip",
+        "changeLog": "Fresher MoE thresholds. The per-tank mark targets from the official Wargaming API now refresh on a 7-day cycle instead of monthly, so the combined-damage goals stay current with the game's rebalances. When Wargaming publishes updated numbers, the mod notices on the next fetch and quietly re-pulls the whole set rather than waiting out the cache.",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7748",
@@ -856,6 +895,43 @@
       ],
       "latest": {
         "fileName": "com.komarov.dpmdisplay_0.6.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7722",
+      "title": "Tank Info in Hangar",
+      "ownerUsername": "Z4imon",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": true,
+      "mark": 5,
+      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info.</p><p>&nbsp;</p><p>Created by <strong>Z4imon</strong></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
+      "installationGuideHtml": "<p>Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion<br><br>If you already have gameface installed, only copy the tank_info_in_hangar file</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Titelbild2_DXyUI4L.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7722/",
+      "tagIds": [
+        "18",
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.0.1",
+          "modVersion": "1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.3.zip",
+          "updatedAt": "2026-07-10T21:54:40.246Z",
+          "sizeBytes": 47402,
+          "fileName": "Z4imon.tank_info_in_hangar_1.3.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Z4imon.tank_info_in_hangar_1.3.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -5307,7 +5383,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.5,
+      "mark": 3.4,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -30470,7 +30546,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p><i><strong>IMPORTANT NOTE:</strong> Join </i><a href=\"https://discord.gg/nsGPxNv\"><i><strong>WoT InfoCord (my WoT Info/News Discord Server)</strong> for update notifications (usually on patch days), complete changelogs, sneak peaks and more!&nbsp;</i></a></p><p><i>Likewise, any comments, questions, bug reports, etc. should be posted to the </i><a href=\"https://discord.gg/nsGPxNv\"><i>#modding-discussion channel in the WoT Infocord Discord server</i></a><i>, since the comments section on WGmods is non-functional.</i></p><p><strong>This is my (Classic's) update to the Historical Realism Engine/Gun Sounds mod (revival of Gnomefather's original sound mod)</strong>, which adds a <strong>wide variety of new engine &amp; gun sounds (some ported forward from Gnome's mod, some BRAND-NEW!)</strong>, <strong>support for new vehicles </strong>introduced into the game since Zorgane's version was last updated (cca. November 2020), an <strong>extensive set of additional tweaks/fixes</strong>, <strong>and more!</strong></p><blockquote><p><i>Thanks to help from Shimada_Sama, Zorgane, and documentation on the WoT/KoreanRandom forums/WWISE's website, a number of <strong>new gun sounds</strong> have been introduced since I started working on this mod!</i></p><p>Furthermore, I have introduced a huge number of <strong>new engine sounds</strong>, including<strong> </strong>a mix of some ported from Gnomefather's original mod + <strong>many BRAND-NEW sounds, sourced from real vehicles wherever possible</strong>!</p><p><i><strong>100+ NEW ENGINE SOUNDS (more-than-tripling the original roster!) and around ~40 NEW GUN SOUNDS have been introduced to the mod since 2021, along with the expansion of many engines to other players' vehicles + a vast number of other improvements/fixes. Enjoy!</strong></i></p></blockquote><h2>Mod info</h2><p>Volume is controlled separately for guns and engines from within the game's sound settings menu.&nbsp;</p><p><strong>RECOMMENDED SETTINGS:</strong></p><blockquote><p><strong>Vehicles:</strong> ~80-100%</p><p><strong>Effects:</strong> ~60-80% (suggested to be around ~20% lower than the \"vehicles\" slider)</p></blockquote><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/4924df46-85cf-4349-90a5-d03d581c1f6a.jpg\"></figure><h2>IMPORTANT: In case the mod does not function after an update</h2><blockquote><p>Assuming the mod has been installed correctly, you will be prompted to restart your game on the first startup with the mod enabled. This causes the following files to generate automatically:</p><ul><li>C:\\Games\\World_of_Tanks\\res_<i>mods\\&lt;CURRENT GAME VERSION NUMBER&gt;\\<strong>engine_config.xml</strong></i></li><li>C:\\Games\\World_of_Tanks\\res_<i>mods\\&lt;CURRENT GAME VERSION NUMBER&gt;\\audioww\\<strong>audio_mods.xml</strong></i></li></ul><p>If you experience issues with sounds after installing a new update, deleting these two files and starting up the game again + following the popup instructions (click shutdown/restart) will cause these two files to refresh, which should fix most of these issues.</p><h2>IMPORTANT: In case reload sounds do not function after an update</h2></blockquote><blockquote><p>Due to the new caching feature introduced in Update 1.27.1, reload sounds will sometimes fail to appear in-game, even if installed correctly.</p><p>If modded reload sounds stop functioning in-game (assuming you have installed the mod correctly), go to your WoT install directory (by default: C:\\Games\\World_of_Tanks_EU\\) and delete the \"data.wgpdc\" file (may be displayed without file extension, i.e. just a file named \"data\"). Alternatively, <strong>performing the \"Check and Repair\" function in WGC (under Game Settings) will also clear the game cache, fixing the issue</strong>.</p></blockquote>",
       "installationGuideHtml": "<p>To install, <strong>open the downloaded .ZIP file, then extract the included \"mods\" folder to your WoT install directory </strong>(for example: C:\\Games\\World_of_Tanks\\).</p><p>Once this is done, start your game and follow the popup instructions (click shutdown/restart).</p><blockquote><p>Please carefully follow the install instructions above to ensure proper functionality of the mod. <strong>The following folders (+ their included contents) MUST be present for the mod to function, so if you are having trouble with the mod, please ensure these folders are present after completing the install process:</strong></p><ul><li>C:\\Games\\World_of_Tanks\\<i>mods\\&lt;CURRENT GAME VERSION NUMBER&gt;\\</i><strong>classic+zorg_sounds</strong></li><li>C:\\Games\\World_of_Tanks\\<i>mods\\configs\\PYmods\\</i><strong>SoundEventInjector</strong></li></ul><p>If any of the above folder(s) are missing, please make sure to follow the mod install instructions properly. If the modded sounds still do not work even with all of the above folders present, check to make sure no other mods are conflicting with this one.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/20_classic_hrmod_wgmods_thumb_v2_302px_1jNRLqr.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",

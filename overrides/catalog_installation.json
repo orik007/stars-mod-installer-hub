@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.021",
+  "catalogVersion": "v2026.07.022",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7745",
+      "title": "14th_ua's MoE Calculator",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Requirements - OpenWG GameFace 1.1.6+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.moe_calculator_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide provides a manual .wotmod install to mods/<version>; dependency note and deleting older copy do not change the target operation.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7748",
@@ -315,6 +330,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide clearly targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7722",
+      "title": "Tank Info in Hangar",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion If you already have gameface installed, only copy the tank_info_in_hangar file"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to unpack and move .wotmod files into mods/<version>; optional note about an already-installed dependency is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
