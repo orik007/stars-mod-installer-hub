@@ -2,7 +2,7 @@ Stars Mod Installer keeps your selected mods **up to date** when a new mod versi
 
 **Set it up once. After that, the app starts automatically with Windows and runs quietly in the system tray. You do not need to launch a mod installer again after every game update.**
 
-![Stars Mod Installer running in the Windows system tray](assets/screenshots/system-tray.svg)
+![Stars Mod Installer running in the Windows system tray](assets/screenshots/system-tray.png)
 
 **System tray** — Stars Mod Installer stays running in the background and keeps compatible mods updated automatically.
 
