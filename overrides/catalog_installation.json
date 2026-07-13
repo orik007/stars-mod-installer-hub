@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.025",
+  "catalogVersion": "v2026.07.026",
   "mods": [
     {
       "source": "wgmods",
@@ -8,12 +8,12 @@
       "title": "14th_ua's MoE Calculator",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Requirements - OpenWG GameFace 1.1.6+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.moe_calculator_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
+        "latestInstallGuide": "Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.moe_calculator_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide provides a manual .wotmod install to mods/<version>; dependency note and deleting older copy do not change the target operation.",
+        "decisionReason": "Archive package and manual install instructions say to copy the .wotmod into mods/<version>; dependency notes and deleting older mod copy are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -113,12 +113,12 @@
       "title": "Garage Progress Bar",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Requirements - OpenWG GameFace 1.1.6+ - ModsSettingsAPI 1.7.0+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.garageprogressbar_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
+        "latestInstallGuide": "Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.garageprogressbar_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package with manual instruction to copy the .wotmod into mods/<version>; dependency notes and deleting older copies do not change the supported target.",
+        "decisionReason": "Archive package and manual install instructions say to copy the .wotmod into mods/<version>; dependency notes and deleting older mod copy are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -8243,15 +8243,15 @@
     {
       "source": "wgmods",
       "sourceId": "5668",
-      "title": "Classic's HRMOD Gun + Engine Sounds (Continuation of Zorgane's/Gnomefather's Historical Realism Sounds)",
+      "title": "Classic's ZorGnome HRMOD Gun + Engine Sounds (Continuation of Zorgane's/Gnomefather's Historical Realism Sounds)",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "To install, open the downloaded .ZIP file, then extract the included \"mods\" folder to your WoT install directory (for example: C:\\Games\\World_of_Tanks\\). Once this is done, start your game and follow the popup instructions (click shutdown/restart). Please carefully follow the install instructions above to ensure proper functionality of the mod. The following folders (+ their included contents) MUST be present for the mod to function, so if you are having trouble with the mod, please ensure these folders are present after completing the install process: C:\\Games\\World_of_Tanks\\ mods\\<CURRENT GAME VERSION NUMBER>\\ classic+zorg_sounds C:\\Games\\World_of_Tanks\\ mods\\configs\\PYmods\\ SoundEventInjector If any of the above folder(s) are missing, please make sure to follow the mod install instructions properly. If the modded sounds still do not work even with all of the above folders present, check to make sure no other mods are conflicting with this one."
+        "latestInstallGuide": "To install, open the downloaded .ZIP file, then extract the included \"mods\" folder to your WoT install directory (for example: C:\\Games\\World_of_Tanks\\). Once this is done, start your game and follow the popup instructions (click shutdown/restart). Please carefully follow the install instructions above to ensure proper functionality of the mod. The following folders (+ their included contents) MUST be present for the mod to function, so if you are having trouble with the mod, please ensure these folders are present after completing the install process: C:\\Games\\World_of_Tanks\\ mods\\<CURRENT GAME VERSION NUMBER>\\ classic+zorgnome_sounds C:\\Games\\World_of_Tanks\\ mods\\ configs\\PYmods\\ SoundEventInjector If any of the above folder(s) are missing, please make sure to follow the mod install instructions properly. If the modded sounds still do not work even with all of the above folders present, check to make sure no other mods are conflicting with this one."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide instructs extracting the included 'mods' folder to the WoT install directory (copy top-level mods into game root).",
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Archive must be extracted to game root and the guide also requires specific content in multiple different target paths including mods/<version>/classic+zorgnome_sounds and mods/configs/PYmods/SoundEventInjector.",
         "deleteDataWgpdc": false
       }
     },
