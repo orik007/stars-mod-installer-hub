@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.026",
+  "catalogVersion": "v2026.07.027",
   "mods": [
     {
       "source": "wgmods",
@@ -6046,21 +6046,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7156",
-      "title": "Web Modpack",
-      "classificationInput": {
-        "latestFileExt": ".exe",
-        "latestInstallGuide": "Run the installer, select the necessary mods. Click Next. To remove mods, click \"Reset\" on the mod selection page and then Next. For the first installation, it is recommended to check the «Delete mod configs» option to avoid conflicts with previous modpacks."
-      },
-      "installationProcess": {
-        "installationTemplate": "RunExternalInstaller",
-        "installableByApp": false,
-        "decisionReason": "Package is an .exe and guide describes running an installer with UI steps (Next, component selection, etc.).",
         "deleteDataWgpdc": false
       }
     },

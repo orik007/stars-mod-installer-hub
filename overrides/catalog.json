@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.026",
-  "sourceHash": "71b82a10a38d8bb4f087cf74d4454c61733eb5e06d6d02c3a13df430a8d8c214",
+  "catalogVersion": "v2026.07.027",
+  "sourceHash": "1c8f439cf953030124216678cb7e8374afc733e2064702ced76d3775d61b628c",
   "sources": [
     "wgmods",
     "modhub"
@@ -346,16 +346,6 @@
           "fileName": "GarageProgressBar_0.6.2.zip",
           "fileExt": ".zip",
           "changeLog": "Fixed a phantom Potential Tier XI bar. Tier-X vehicles whose Tier XI successor you have already researched no longer show a stray \"potential\" bar.\nFixed the Tier XI skill-tree \"done\" marker. Completing the upgrade tree now correctly turns the chip into its green done marker even when there's no remaining frontier.\nFixed the saved bar position drifting between resolutions. The bar's position is no longer stored as raw pixels, so it stays where you put it when your screen resolution or window size changes. (Existing setups: use Reset if the bar lands off-screen.)\nSmoother hovering and no more stale tooltips. Reduced per-frame work while hovering the bar, and tooltips no longer linger after the underlying tick changes."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "0.5.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.5.0.zip",
-          "updatedAt": "2026-07-05T09:49:25.131Z",
-          "sizeBytes": 216949,
-          "fileName": "GarageProgressBar_0.5.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Actionable, self-clearing done ticks — a researched module tick now buys and mounts the module and clears itself; field-mod done ticks clear when you open the screen.\nEstimated battles remaining — tooltips now show an ≈ M–N battles estimate beside the XP shortfall, calibrated from your best-game pace and average, with reserve/first-win bonuses factored in."
         }
       ],
       "latest": {
@@ -4151,16 +4141,6 @@
           "fileName": "T.F.D._WoT_gbIakCk.zip",
           "fileExt": ".zip",
           "changeLog": "Add about 15 voices as player-command, battle-start, fire-result, and so on.\nAdd an event to stop battle-loading-music in Front Line mode."
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T.F.D._WoT_NP8QHDo.zip",
-          "updatedAt": "2026-04-29T19:36:29.575Z",
-          "sizeBytes": 53671613,
-          "fileName": "T.F.D._WoT_NP8QHDo.zip",
-          "fileExt": ".zip",
-          "changeLog": "No change"
         }
       ],
       "latest": {
@@ -6130,7 +6110,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.3,
       "descriptionHtml": "<p><strong>Recommended in combination with: </strong><a href=\"https://wgmods.net/7596/\"><strong>https://wgmods.net/7596/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Yes it is yet another Moe Mod but compared to others this stays in the Hangar and is minimalistic and due to the fact that it doesnt show in battle it is less likely to break, the Overlay Position is stored in preferences.xml so the overlay stays at the same place.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-02_172017045.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -21647,43 +21627,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7156",
-      "title": "Web Modpack",
-      "ownerUsername": "SuperZombiYT",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en",
-        "ru"
-      ],
-      "recommended": true,
-      "mark": 3.4,
-      "descriptionHtml": "<h2>Lightweight and modern modpack for World of Tanks</h2><p>The problem of all modpacks is their large size.<br>This modpack downloads only those mods that the user selected at runtime.<br>Also it has a modern Web interface.<br>Supports all client versions (including CT and SB)</p><blockquote><p>Please note that the modpack version does <strong>NOT</strong> necessarily have to match the client version!</p></blockquote><p><a href=\"https://github.com/SuperZombi/wot-modpack\">Github</a></p>",
-      "installationGuideHtml": "<p>Run the installer, select the necessary mods. Click Next.<br><br>To remove mods, click \"Reset\" on the mod selection page and then Next.</p><blockquote><p>For the first installation, it is recommended to check the «Delete mod configs» option to avoid conflicts with previous modpacks.</p></blockquote>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/maxresdefault_v3Ma3ob.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7156/",
-      "tagIds": [
-        "12"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "3.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack.exe",
-          "updatedAt": "2026-07-04T07:49:43.372Z",
-          "sizeBytes": 19717241,
-          "fileName": "Web.Modpack.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "Web.Modpack.exe",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7145",
       "title": "Disable Unique Voiceovers",
       "ownerUsername": "Dexatroph",
@@ -22664,16 +22607,6 @@
           "fileName": "HBR_WoT_Vbxb2qx.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "5.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HBR_WoT.zip",
-          "updatedAt": "2026-04-29T19:33:38.239Z",
-          "sizeBytes": 772312212,
-          "fileName": "HBR_WoT.zip",
-          "fileExt": ".zip",
-          "changeLog": "No change"
         }
       ],
       "latest": {
