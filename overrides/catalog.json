@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.07.034",
-  "sourceHash": "a32b5dd730426e1deb118f4eb273a5eb41dd51f19a56ab30a201600ef735cbd1",
+  "catalogVersion": "v2026.07.035",
+  "sourceHash": "4196e5c27c161d3cefaa3cf01cf8cade6e02264d553ab8b55c64e1a5beb026e1",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7756",
+      "title": "Archer Voicepack",
+      "ownerUsername": "SevenTiki",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Quotemine — Archer Crew Voices&nbsp;<br>==============================&nbsp;<br><br>Crew voiceover pack: lines from the animated series Archer, matched to World of Tanks standard-battle events. Built with Quotemine (https://github.com/MerrillFraz/quotemine).&nbsp;<br><br>117 clips across 17 battle events.&nbsp;</p>",
+      "installationGuideHtml": "<p>&nbsp;Drop the .wotmod into `World_of_Tanks/mods/&lt;game_version&gt;/`<br>and launch. Remove the file to uninstall.&nbsp;<br><br>This is an additive voiceover mod (it does not overwrite WG banks).</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Archer-Tank.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7756/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Quotemine_Archer_Crew_Voices.wotmod",
+          "updatedAt": "2026-07-16T12:10:35.928Z",
+          "sizeBytes": 7741632,
+          "fileName": "Quotemine_Archer_Crew_Voices.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Quotemine_Archer_Crew_Voices.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7755",
@@ -102,7 +138,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.2,
       "descriptionHtml": "<p>Track your <strong>Marks of Excellence (MoE)</strong> progress for the vehicle you have selected, in the Garage and live in battle. The mod reads the game's own MoE data and renders it with the client's own mark art and interface styling.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at <strong>65% / 85% / 95%</strong> — the 1 / 2 / 3-mark thresholds — each drawn with the client's own mark art. Every tick is labelled with the combined damage that mark requires, and the bar fills to your current standing. Above it, a readout shows your current average combined damage and your current mark percentage for the selected vehicle.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li></ul><p>&nbsp;</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/IzeBerg/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle_kM1xcgc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -113,6 +149,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.2.0.zip",
+          "updatedAt": "2026-07-16T12:09:03.739Z",
+          "sizeBytes": 236199,
+          "fileName": "MoECalculator_1.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "More accurate live MoE % — the in-battle projection now follows a smooth curve fitted to the\nreal percentile scale, so the live percentage tracks your garage mark percentage far more\nclosely instead of drifting apart.\nSelf-calibrating projection — the overlay learns your account's own damage-averaging\nbehaviour from your battles and tunes the live estimate to it automatically. No setup; it kicks\nin after a handful of battles and is remembered per account."
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1.0",
@@ -155,8 +201,8 @@
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_1.1.0.zip",
-        "changeLog": "Battle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE.\nIn-battle overlay alignment — the overlay rows now line up with the game's native\nefficiency panel instead of sitting slightly high.\nBackdrop drift fixed — the row backdrops no longer creep out of alignment with their\ntext as rows stack.",
+        "fileName": "MoECalculator_1.2.0.zip",
+        "changeLog": "More accurate live MoE % — the in-battle projection now follows a smooth curve fitted to the\nreal percentile scale, so the live percentage tracks your garage mark percentage far more\nclosely instead of drifting apart.\nSelf-calibrating projection — the overlay learns your account's own damage-averaging\nbehaviour from your battles and tunes the live estimate to it automatically. No setup; it kicks\nin after a handful of battles and is remembered per account.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -440,8 +486,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.6,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/IzeBerg/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/research_G6747NB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -501,16 +547,6 @@
           "fileName": "GarageProgressBar_0.6.3.zip",
           "fileExt": ".zip",
           "changeLog": "Coexists with other Gameface mods. The bar now detects which garage sub-views are already occupied and places itself on the first free one, so it no longer blanks out (or gets blanked by) other Gameface-based mods. If you ran into two garage bars fighting over the same spot, this fixes it."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "0.6.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.2.zip",
-          "updatedAt": "2026-07-06T08:30:51.397Z",
-          "sizeBytes": 158956,
-          "fileName": "GarageProgressBar_0.6.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fixed a phantom Potential Tier XI bar. Tier-X vehicles whose Tier XI successor you have already researched no longer show a stray \"potential\" bar.\nFixed the Tier XI skill-tree \"done\" marker. Completing the upgrade tree now correctly turns the chip into its green done marker even when there's no remaining frontier.\nFixed the saved bar position drifting between resolutions. The bar's position is no longer stored as raw pixels, so it stays where you put it when your screen resolution or window size changes. (Existing setups: use Reset if the bar lands off-screen.)\nSmoother hovering and no more stale tooltips. Reduced per-frame work while hovering the bar, and tooltips no longer linger after the underlying tick changes."
         }
       ],
       "latest": {
@@ -5273,7 +5309,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>1. They don't compute and display the exact probability of penetrating.</p><ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</li></ul><p>2. This mod has more features and receives regular updates.</p><ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Computes and displays probability of killing a low hp tank<ul><li>Takes into account their armor and hp</li></ul></li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
@@ -5284,6 +5320,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.7.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-ME-pademinune-armor-pen-calc-1.7.1L.zip",
+          "updatedAt": "2026-07-16T10:03:11.820Z",
+          "sizeBytes": 263573,
+          "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.1L.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Fixed lag and crashing caused from client code changes introduced in 2.3.1.0."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.7.0",
@@ -5336,9 +5382,9 @@
         }
       ],
       "latest": {
-        "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L.zip",
-        "changeLog": "- Added a label for showing probability of killing a tank.\n- Changed default colors to be more vibrant.\n",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.1L.zip",
+        "changeLog": "- Fixed lag and crashing caused from client code changes introduced in 2.3.1.0.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10389,16 +10435,6 @@
           "fileName": "YaYa_tactical_minimaps2213b.zip",
           "fileExt": ".zip",
           "changeLog": "Updated maps for Murovanka, Westfield, Studzianki, Glacier, Mountain Pass and Ruinberg."
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "2213",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2213.zip",
-          "updatedAt": "2026-05-14T14:21:18.808Z",
-          "sizeBytes": 49428357,
-          "fileName": "YaYa_tactical_minimaps2213.zip",
-          "fileExt": ".zip",
-          "changeLog": "Folder name changed for the lootbox event minipatch. -.-"
         }
       ],
       "latest": {
@@ -21912,6 +21948,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack.exe",
+          "updatedAt": "2026-07-16T10:03:47.362Z",
+          "sizeBytes": 19671357,
+          "fileName": "Web.Modpack.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Web.Modpack_MJ2jSIi.exe",
           "updatedAt": "2026-07-13T22:02:44.113Z",
@@ -21922,7 +21968,7 @@
         }
       ],
       "latest": {
-        "fileName": "Web.Modpack_MJ2jSIi.exe",
+        "fileName": "Web.Modpack.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -31865,6 +31911,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "3.1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.7.zip",
+          "updatedAt": "2026-07-16T10:58:18.821Z",
+          "sizeBytes": 908243,
+          "fileName": "pruszko.dispersion_reticle_3.1.7.zip",
+          "fileExt": ".zip",
+          "changeLog": "Version 3.1.7 comes with fix for stuttering in sniper view when aiming at tank, when armor penetration indicator mods are present"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "3.1.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.6_A8sBieg.zip",
           "updatedAt": "2026-07-15T11:47:00.910Z",
@@ -31912,21 +31968,11 @@
           "fileName": "pruszko.dispersion_reticle_3.1.4_XzhSd1Y.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.3.0.0"
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "3.1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.4_xD0Zsth.zip",
-          "updatedAt": "2026-05-14T17:48:44.253Z",
-          "sizeBytes": 908107,
-          "fileName": "pruszko.dispersion_reticle_3.1.4_xD0Zsth.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.2.1.3"
         }
       ],
       "latest": {
-        "fileName": "pruszko.dispersion_reticle_3.1.6_A8sBieg.zip",
-        "changeLog": "Updated for WoT 2.3.1.0",
+        "fileName": "pruszko.dispersion_reticle_3.1.7.zip",
+        "changeLog": "Version 3.1.7 comes with fix for stuttering in sniper view when aiming at tank, when armor penetration indicator mods are present",
         "wotGameVersionCompatibility": "safe"
       }
     },
