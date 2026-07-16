@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.035",
-  "sourceHash": "4196e5c27c161d3cefaa3cf01cf8cade6e02264d553ab8b55c64e1a5beb026e1",
+  "catalogVersion": "v2026.07.036",
+  "sourceHash": "d81485fad3e4a6340a7c3226a23cc5b2e31f08988056227156c266f3889f9d3c",
   "sources": [
     "wgmods",
     "modhub"
@@ -138,7 +138,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<p>Track your <strong>Marks of Excellence (MoE)</strong> progress for the vehicle you have selected, in the Garage and live in battle. The mod reads the game's own MoE data and renders it with the client's own mark art and interface styling.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at <strong>65% / 85% / 95%</strong> — the 1 / 2 / 3-mark thresholds — each drawn with the client's own mark art. Every tick is labelled with the combined damage that mark requires, and the bar fills to your current standing. Above it, a readout shows your current average combined damage and your current mark percentage for the selected vehicle.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li></ul><p>&nbsp;</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/IzeBerg/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle_kM1xcgc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -565,7 +565,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
@@ -578,6 +578,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BizzordModapack_2_ElJxk0M.exe",
+          "updatedAt": "2026-07-16T14:36:14.894Z",
+          "sizeBytes": 165959153,
+          "fileName": "BizzordModapack_2_ElJxk0M.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BizzordModpack.exe",
@@ -589,9 +599,9 @@
         }
       ],
       "latest": {
-        "fileName": "BizzordModpack.exe",
+        "fileName": "BizzordModapack_2_ElJxk0M.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2795,7 +2805,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This mod is part 3 of 3 mods, please download the other 2 mods aswell:<br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a><br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder &nbsp;(if not there already)</li><li>Place the 5 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) &nbsp;(replace x.x.x.x with the current version of WoT)<br>&nbsp;</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-05-30_104249386.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5793,8 +5803,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": 3.4,
+      "recommended": true,
+      "mark": 3.5,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5805,6 +5815,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.4.exe",
+          "updatedAt": "2026-07-16T14:33:42.634Z",
+          "sizeBytes": 154866169,
+          "fileName": "Way_to_Valhalla_1.4.exe",
+          "fileExt": ".exe",
+          "changeLog": "for new game version"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.3",
@@ -5857,9 +5877,9 @@
         }
       ],
       "latest": {
-        "fileName": "Way_to_Valhalla_1.3_K6P8sSg.exe",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "Way_to_Valhalla_1.4.exe",
+        "changeLog": "for new game version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -7750,7 +7770,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.8,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
@@ -7762,6 +7782,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.3.1.0.exe",
+          "updatedAt": "2026-07-16T14:33:46.273Z",
+          "sizeBytes": 116731551,
+          "fileName": "Nagleishiy_ModPack_for_2.3.1.0.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0",
@@ -7814,9 +7844,9 @@
         }
       ],
       "latest": {
-        "fileName": "Nagleishiy_ModPack_for_2.3.0.1.exe",
-        "changeLog": "-Модпак став в розмірі трішки меньше\n-Оновлено мод \"NGL освітлення\" Тепер є всі пресети на всіх картах                                                                                  -Є два варіанта робочих позначок                                 \n-Мод \"рожеві крони дерев\" мігрував на 5 сторінку до моду \"NGL Оствітлення\", та тепер у вас є можливість вибрати лише один",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "Nagleishiy_ModPack_for_2.3.1.0.exe",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -7838,6 +7868,16 @@
         "12"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2026.07.16.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.07.16.1.exe",
+          "updatedAt": "2026-07-16T13:11:58.304Z",
+          "sizeBytes": 13564604,
+          "fileName": "yam_2026.07.16.1.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2026.07.15.1",
@@ -7887,20 +7927,10 @@
           "fileName": "yam_2026.04.21.01_PRNcymc.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "2026.04.21.01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.04.21.01_X9L50zP.exe",
-          "updatedAt": "2026-04-23T10:24:40.831Z",
-          "sizeBytes": 11841245,
-          "fileName": "yam_2026.04.21.01_X9L50zP.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "yam_2026.07.15.1.exe",
+        "fileName": "yam_2026.07.16.1.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -10374,7 +10404,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<h2>YaYa's Tactical Minimap Mod:&nbsp;</h2><p>This mod is intended to give new and seasoned players a guide to map starting positions as well as some neat angles to leverage. It is strongly recommended to visit YaYa's Map Website (https://wotmapsbyyaya.com/) as each map has positional information and explanations that put everything into perspective. Should you have questions or give feedback, join our discord: <a href=\"https://discord.gg/D9z2m2Q7ka\">https://discord.gg/D9z2m2Q7ka</a></p><p>Mod Usage Instructions</p><p>A hot-key combination has been created to rebind the default key (ALT) to another during battle: Press ENTER to open the chat and then press CTRL+SHIFT+K to activate key rebinding. A chat message will appear in your in-game battle chat. Once complete, the rebind is then stored in the mod’s xml file for future use.</p><p><br>Note: This procedure must be completed every time the mod is updated including if updating with Aslain’s mod.</p><p>Standalone Installation</p><p>Copy archive content into the mods folder of the game.<br>E.g.: C:\\Games\\World_of_Tanks_EU\\mods<br><br>By default the Mod is set up to show all icons upon pressing the toggle. However, should you wish to turn off the icons, this can be done within the “yayatacticmap” xml located in the “\\mods\\configs\\locastan” folder. Instructions are provided within the xml.</p><p>Map Preview images: &nbsp;</p><p>Ruinberg, Erlenberg, Malinovka, Serene Coast and the Style Guide.</p>",
       "installationGuideHtml": "<p>Copy archive content into mods folder of the game.</p>",
@@ -10386,6 +10416,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2310",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2310.zip",
+          "updatedAt": "2026-07-16T14:32:09.331Z",
+          "sizeBytes": 47321309,
+          "fileName": "YaYa_tactical_minimaps2310.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated map for Klondike."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2301",
@@ -10438,9 +10478,9 @@
         }
       ],
       "latest": {
-        "fileName": "YaYa_tactical_minimaps2301.zip",
-        "changeLog": "Updated maps on Airfield, Lakeville and Safe Haven.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "YaYa_tactical_minimaps2310.zip",
+        "changeLog": "Updated map for Klondike.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31174,7 +31214,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.8,
       "descriptionHtml": "<p>RNG is a minimalistic modpack, focused on quality and simplicity, it features minor UI customizations (almost entirely stock UI) and basic utility mods.</p><p>This pack is intentionally designed to be lightweight and fast to update after patches.</p><h2>There's an installation mode for everyone:</h2><ul><li>Full: The full RNG experience (my personal mod setup).</li><li>Minimal: For those who prefer a more-vanilla experience.</li><li>Custom: The <i>\"make it yours\" </i>mode<i>.</i></li></ul><p><strong>If you have any requests or require any support please join our </strong><a href=\"https://discord.gg/jkSS5vAvmG\"><strong>Discord</strong></a><strong> server!</strong></p><h2><strong>Notes:</strong></h2><p>Whilst the modpack heavily relies on XVM's features for the main customization, you do not need to use the statistics features it offers.<br>Simply don't activate the online services and you can enjoy all the benefits of XVM without seeing the stats of your allies or enemies.</p><h2><strong>Features:</strong></h2><p><strong>Core:</strong></p><ul><li>RNG modpack version checker.</li></ul><p><strong>XVM Options:</strong></p><p>General:</p><ul><li>Disable in-battle hints (Such as the \"Press N to display progress\" popup at the start of battles).</li><li>Display Hit-log (appears in the top left of the screen).</li><li>Display of win chance percentage.</li><li>Display ping servers on the login and garage screens.</li><li>Disable general chat in garage.</li><li>Extra info on post-battle results.</li><li>Enable automatic return of crew.</li><li>Display friendly and enemy HP remaining on the player panels with \"Alt\".</li><li>Display players nicks on the mini-map with \"Alt\".</li></ul><p>Carousel:</p><ul><li>Adjustable carousel size (default and small).</li><li>Adjustable carousel rows.</li><li>Small/Condensed carousel features extra information such as Battle Tiers, Win Rate, Mastery Class (1st/2nd/3rd/Ace) and Marks of Excellence.</li><li>Custom carousel sorting criteria (tier, class, nation).</li></ul><p>Sixth sense:</p><ul><li>Additional sixth sense icons.</li><li>Adjustable sixth sense icon duration (default 2 and 10 seconds).</li></ul><p>Icons:</p><ul><li>Custom RNG contour Icons (Vanilla icons with better colours for vehicle&nbsp;classes).</li><li>Custom RNG carousel Icons (Vanilla icons with gold premium/collectors tanks).</li></ul><p>Stats (If you choose to active online services):</p><ul><li>10 level XVM colour scale by WotLabs.net.</li></ul><p><strong>Optional Mods:</strong></p><p>Unfortunately due to the many optional mods, I cannot include them here, but a full list of included mods can be found within the installer on the information screen.</p>",
       "installationGuideHtml": "<p>Installation:&nbsp;<br>1). Run the installer.&nbsp;<br>2). Select your World of Tanks directory.&nbsp;<br>3). Select your installation mode (or choose the mods/options you want from the list).&nbsp;<br>4). Choose whether to wipe existing mods or not (Backup stats cache is for existing installs).&nbsp;<br><br>In order to update/change your existing mods simply download the new/relaunch the existing installer and make your changes as necessary.&nbsp;<br>The installer will remember the options you have selected each time, so updating without wanting to make any changes is as simple as clicking next all the way to the end.&nbsp;<br><br>In order to uninstall the modpack, simply run the included \"Uninstall RNG Modpack\" option from the start menu or use the \"Add or Remove programs feature\" in Windows.</p>",
@@ -31184,6 +31224,16 @@
         "12"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.3.1.0_01",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG_Modpack_2.3.1.0_01.exe",
+          "updatedAt": "2026-07-16T14:32:44.282Z",
+          "sizeBytes": 536280336,
+          "fileName": "RNG_Modpack_2.3.1.0_01.exe",
+          "fileExt": ".exe",
+          "changeLog": "Adaptation to latest patch (2.3.1.0).\nUpdated XVM nightly to 13.1.0_0033.\nUpdated _Under_Pressure_ CalculationElo.\nUpdated AtotIK Fog Remover.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated iKurzdor Auto Equipment Return.\nUpdated iKurzdor Battle Equipment.\nUpdated Kid9N_Prokhorovka_Legend Old Battle Results.\nUpdated Lebwa MoE Calculator.\nUpdated Pansy Actual Lights.\nUpdated Poliroid & Goldflag Tomato.gg Mod.\nUpdated Poliroid BattleHits.\nUpdated Poliroid PMOD.\nUpdated ProTanki Aim Timer.\nUpdated ProTanki Destroyed White Tanks.\nUpdated Pruszko Dispersion Reticle.\nUpdated Reven86 BattleAssistant.\nUpdated Tomonik Session Statistics.\nAdded Aslain Personal Mission Auto Reset."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.0.1_03",
@@ -31236,9 +31286,9 @@
         }
       ],
       "latest": {
-        "fileName": "RNG_Modpack_2.3.0.1_03.exe",
-        "changeLog": "Updated RNG Update Checker.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "RNG_Modpack_2.3.1.0_01.exe",
+        "changeLog": "Adaptation to latest patch (2.3.1.0).\nUpdated XVM nightly to 13.1.0_0033.\nUpdated _Under_Pressure_ CalculationElo.\nUpdated AtotIK Fog Remover.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated iKurzdor Auto Equipment Return.\nUpdated iKurzdor Battle Equipment.\nUpdated Kid9N_Prokhorovka_Legend Old Battle Results.\nUpdated Lebwa MoE Calculator.\nUpdated Pansy Actual Lights.\nUpdated Poliroid & Goldflag Tomato.gg Mod.\nUpdated Poliroid BattleHits.\nUpdated Poliroid PMOD.\nUpdated ProTanki Aim Timer.\nUpdated ProTanki Destroyed White Tanks.\nUpdated Pruszko Dispersion Reticle.\nUpdated Reven86 BattleAssistant.\nUpdated Tomonik Session Statistics.\nAdded Aslain Personal Mission Auto Reset.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -37141,7 +37191,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p><strong>Simple XVM config by Flemishpiotr</strong></p><p>Remember to turn off anonymizer if you want to see other players xvm stats ingame.</p><p>This is not a modpack, it’s a configuration of the xvm mod.</p><p><strong>XVM’s default features include:</strong></p><ul><li>extra stats ingame for your teammates and enemies: wn8, winrates and battles fought</li><li>extra stats in the garage: wn8, winrates and battles fought</li><li>some easy game features like automatically returning crews<br>customized vehicule markers and minimap</li><li>…</li></ul><p><strong>The main difference from xvm default config:</strong></p><ul><li>The ingame XVM damage and hitlogs are turned off.</li><li>The default WoT damage/hitlog panel is used</li></ul><p><strong>Other smaller differences include:</strong></p><ul><li>larger zoom-in (up to 25) and zoom-out</li><li>the sixth sense icon stays onscreen longer (10s instead of 2s) and the game default image and sound are used</li><li>the little xvm colored ribbon on the hp bar of a players marker looks prettier</li><li>the circles on the minimap are thinner</li><li>the lines on the minimap are thinner</li><li>the larger playerpanel has wn8 colors on the vehicles aswell</li><li>stat widget in the garare is turned off</li></ul><p>__</p><p><strong>Extra Mods</strong></p><p>Pet gift auto claim mod by Gravity Assist<br><a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>Better Reticle Size by Jak_Atackka<br><a href=\"https://wgmods.net/6349/\">https://wgmods.net/6349/</a></p><p>Clan Rewards Auto Claim by AnNE_DoMini<br><a href=\"https://wgmods.net/6711/\">https://wgmods.net/6711/</a></p>",
       "installationGuideHtml": "<p><strong>Close the game down before installing this modpack.</strong><br><br><i>I. download this modepack</i><br><i>II. unzip the downloaded file to a folder using for example 7-zip or WinRar</i><br><i>III. open this unzipped folder, these are the modpack files</i><br><i>IV. find your game folder, for example C:\\Games\\World_of_Tanks</i><br><i>V. </i>delete the /mods and /res_mods folders inside your world of tanks folder<br><i>VI. </i>copy the /mods and /res_mods folder from the downloaded pack into your world of tank folder<br><br>Do not copy the installation-instruction.txt or the mod_description.txt files to the game folder!<br><br><i><strong>Now activate xvm:</strong></i><br><br>I. go to https://modxvm.com/<br>II. login<br>III. in the top menu bar, activate services&nbsp;<br>(xvm remains active for 14 days, so you need to prolong it every 14 days)<br>IV. in the top menu bar, settings:<br>- xvm services -&gt; check all<br>- scale -&gt; default<br>- rating -&gt; wn8<br>_<br><strong>play game</strong></p><p>Remember to turn off anonymizer if you want to see other players xvm stats ingame.</p>",
@@ -37152,6 +37202,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/flemishpiotr-simple-xvm-config-2.3.1.0.zip",
+          "updatedAt": "2026-07-16T14:33:22.521Z",
+          "sizeBytes": 12845293,
+          "fileName": "flemishpiotr-simple-xvm-config-2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated to latest xvm\nRebuild after xvm update treewide: use UTF8 without BOM "
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.0.1",
@@ -37204,9 +37264,9 @@
         }
       ],
       "latest": {
-        "fileName": "flemishpiotr-simple-xvm-config-2.3.0.1.zip",
-        "changeLog": "Updated xvm",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "flemishpiotr-simple-xvm-config-2.3.1.0.zip",
+        "changeLog": "Updated to latest xvm\nRebuild after xvm update treewide: use UTF8 without BOM ",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
