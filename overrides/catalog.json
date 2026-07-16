@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.07.033",
-  "sourceHash": "82b606dd329bddaa4f7b199ba995db4ac533dd7100dd75ba2da43508d6bfbccc",
+  "catalogVersion": "v2026.07.034",
+  "sourceHash": "a32b5dd730426e1deb118f4eb273a5eb41dd51f19a56ab30a201600ef735cbd1",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7755",
+      "title": "Crucible Progress Overlay",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>🛡️ <strong>Crucible Progress Overlay</strong> shows your active Crucible mission status directly on-screen, both in the hangar and during battle.</p><p>Features:</p><p>✅ Shows active Crucible difficulty: <strong>Fighter, Elite, or Ace</strong><br>✅ Shows current mission name and stage<br>✅ Displays remaining shields as clear dots<br>✅ Shows the current mission condition<br>✅ Draggable overlay with saved position<br>✅ Separate positions for hangar and battle<br>✅ Full and compact display modes<br>✅ Automatically updates when you change or restart a Crucible mission</p><p>The shield dots make it easy to see how many attempts you have left before the Crucible fails, without needing to open the mission screen.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7755/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crucible_progress_overlay.2.3.1.0.1.0.0.zip",
+          "updatedAt": "2026-07-15T21:08:36.592Z",
+          "sizeBytes": 112584,
+          "fileName": "gravity.crucible_progress_overlay.2.3.1.0.1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.crucible_progress_overlay.2.3.1.0.1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7754",
@@ -78,6 +115,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.1.0.zip",
+          "updatedAt": "2026-07-15T23:29:02.394Z",
+          "sizeBytes": 228243,
+          "fileName": "MoECalculator_1.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Battle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE.\nIn-battle overlay alignment — the overlay rows now line up with the game's native\nefficiency panel instead of sitting slightly high.\nBackdrop drift fixed — the row backdrops no longer creep out of alignment with their\ntext as rows stack."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.0.0.zip",
           "updatedAt": "2026-07-15T07:25:28.319Z",
@@ -108,8 +155,8 @@
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_1.0.0.zip",
-        "changeLog": "World of Tanks 2.3.1.0 support — the mod is retargeted to the 2.3.1.0 client.\nBattle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE.",
+        "fileName": "MoECalculator_1.1.0.zip",
+        "changeLog": "Battle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE.\nIn-battle overlay alignment — the overlay rows now line up with the game's native\nefficiency panel instead of sitting slightly high.\nBackdrop drift fixed — the row backdrops no longer creep out of alignment with their\ntext as rows stack.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -406,6 +453,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_1.1.0.zip",
+          "updatedAt": "2026-07-15T23:29:31.570Z",
+          "sizeBytes": 66669,
+          "fileName": "GarageProgressBar_1.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "New \"Ignore Free XP\" option (off by default) — count only the combat XP earned on each vehicle toward its progress instead of your account's spendable Free XP. When on, the fill, per-item affordability, tooltips and the battles estimate all reflect combat XP only, and the bar shows the Combat-XP icon. Toggle it in the Modification list window (ModsSettingsAPI)."
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "0.8.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.8.0.zip",
@@ -457,9 +514,9 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar_0.8.0.zip",
-        "changeLog": "Switch bar modes from the title. A vehicle often qualifies for several bar modes at once (research / field modifications, elite system / elite rewards). The next available mode's title now shows dimmed beside the current heading — hover to brighten it, click to swap the bar to that mode. With two modes it toggles A↔B; with three or more it cycles forward. Your choice is remembered per vehicle across restarts.\nLocalized settings panel. The ModsSettingsAPI settings panel now follows the client's language. Bar stays put on resolution / UI-scale changes. Switching resolution or UI scale (e.g. 4K→1080p) live no longer leaves the bar shifted — auto positions re-derive and pinned positions rescale proportionally, and the settings panel shows the correct default for the new viewport.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "GarageProgressBar_1.1.0.zip",
+        "changeLog": "New \"Ignore Free XP\" option (off by default) — count only the combat XP earned on each vehicle toward its progress instead of your account's spendable Free XP. When on, the fill, per-item affordability, tooltips and the battles estimate all reflect combat XP only, and the bar shows the Combat-XP icon. Toggle it in the Modification list window (ModsSettingsAPI).",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1182,6 +1239,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.0.wotmod",
+          "updatedAt": "2026-07-15T23:22:44.149Z",
+          "sizeBytes": 20282110,
+          "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.0.1.wotmod",
@@ -1193,9 +1260,9 @@
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.0.1.wotmod",
+        "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.0.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2464,7 +2531,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.8,
+      "mark": 4.9,
       "descriptionHtml": "<p><strong>Legacy Hangar UI</strong> <strong>Author:</strong> Renovo</p><p><strong>Compatible Client Version:</strong> 2.3.0.0+ (World of Tanks 2.0)</p><p><strong>Concept &amp; Features</strong></p><p>Tired of the new modern Gameface hangar and want to return to the classic nostalgic feeling? <strong>Legacy Hangar UI</strong> allows you to force the classic Flash-based (Scaleform) hangar interface inside World of Tanks 2.0!</p><p>With this mod, you can dynamically switch between the modern Gameface UI and the nostalgic classic Scaleform hangar on the fly:</p><p><strong>Instant Toggling:</strong> Press <strong>Ctrl + I</strong> inside the hangar to instantly switch the interface between the classic Scaleform hangar and the modern Gameface hangar.</p><p><strong>Classic Navigation:</strong> Restores the classic navigation buttons and elements to provide a visual look-alike of the old hangar UI layout.<br><strong>Custom NavBar &amp; Installation: </strong>The navigation menu has been added as a separate modification to give users full freedom of choice. If for any reason you do not wish to use it, please install only the LegacyHangar .wotmod file into your game client.</p><p><strong>Important Note &amp; Limitations</strong></p><p><strong>Mode Selector &amp; Navigation:</strong> The game mode selector button is accessible directly within the top navigation menu.</p><p><strong>No Promo Banners:</strong> Banners are completely removed and there are no plans to add them. If you need to check them out, you can find them in the Modern UI.</p><p><strong>Platoon Creation:</strong> The \"Create Platoon\" button is located at the bottom of the screen, just like in the Modern UI.</p><p><strong>Upgrade Menu for Tier XI:</strong> The Field Modification button works seamlessly for both Tier XI and lower-tier vehicles. For Tier XI, it opens the Upgrades menu, while for Tier X and below, it triggers the standard Field Modification menu.</p><p>If you need to view banners or adjust other settings using the new Gameface UI, simply press <strong>Ctrl + I</strong> to switch back to the modern interface on the fly, and then press it again to return to the classic hangar!</p><p><i><strong>Please note that this mod only changes the visual appearance of the hangar interface itself. It does NOT restore the legacy style of other screens, such as the post-battle statistics window, store, storage, or other lobby views.</strong></i></p><p><strong>Known Issues</strong></p><p><strong>Pet System:</strong> Access to the Pet System does not function while in Legacy UI mode, making it impossible to claim Pet rewards due to Scaleform compatibility limitations. However, rewards and the Pet menu can still be accessed normally in the Modern UI. If you want to avoid switching back and forth every time, you can use the <strong>Pet Gift Auto Claim</strong> mod by <i>Gravity_Assist</i>, available here: <a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/ <i>(Example: C:/Games/World_of_Tanks/mods/x.x.x.x/)</i></li><li><strong>Note for Open.WG:</strong> If not already installed, the Open.WG library must be placed in the following subdirectory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/net.openwg/</li><li>Launch the game client.<br>&nbsp;</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-06-03_222423703.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3446,7 +3513,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>SpotMeter adds a dynamic circle to your minimap showing the distance from which your tank can currently be spotted - so you always know how close an enemy has to be to see you.&nbsp;<br><br>The circle updates live and changes colour with your state:&nbsp;<br>- red while moving&nbsp;<br>- green while stationary&nbsp;<br>- dark green after 3s stationary with a camouflage net active&nbsp;<br>- orange for ~3s after firing (camo penalty)&nbsp;<br><br>WHAT IT READS AUTOMATICALLY&nbsp;<br>Everything in your own tank's data: base view range, crew, optics, binoculars, camo net, siege modes (CS-63, Strv, etc.) and the after-shot penalty. By default the circle assumes the enemy sees as far as you do.&nbsp;<br><br>ENEMY PICKER&nbsp;<br>Pick a specific enemy (click a row in the panel, or Numpad 2/8) and the circle switches to that tank's view range. Because the server no longer sends enemy equipment, you set the assumed optics / vents / CVS as quick cyclable levels (Numpad 6 / + / -) and toggle the likely crew perks (Rations, BIA, Recon + Situational Awareness). The estimate matches the in-game view-range formula.&nbsp;<br><br>IN-BATTLE PANEL (v7 - Gameface)&nbsp;<br>A modern HTML overlay: every enemy with its view range, identical tanks grouped (e.g. \"Dravec x5\"), a target line with the spot-distance, and the AUTO state. Click a row to pick a target; click the loadout cells to change the assumed optics/perks. Drag it by the header (position saved); a collapse arrow shrinks it to just the picked vehicle + spot distance. PageDown shows/hides it.&nbsp;<br>- Auto-pick (Numpad /) tracks the nearest enemy, with per-class loadout presets.&nbsp;<br>- Optional in-garage configurator via a mods-settings menu (aslainMenu / ModsSettingsAPI). Without a menu, edit the auto-created spotmeter.json (path logged at startup).&nbsp;<br><br>REQUIRES&nbsp;<br>net.openwg.gameface (free, MIT; already in common modpacks) for the panel. The minimap circle and the hotkeys work even without it.&nbsp;<br><br>LANGUAGE&nbsp;<br>English and Polish, auto-detected from your game client.&nbsp;<br><br>FAIR PLAY&nbsp;<br>SpotMeter only computes values the client already has and shows the result geometrically. It does NOT reveal hidden enemies, automate aiming or movement, or read server-private data - the same category as the view-range circles already built into the game.&nbsp;<br><br>Hotkeys are on the numpad and work with NumLock on or off; everything is configurable in spotmeter.json.</p>",
       "installationGuideHtml": "<p>1. Install net.openwg.gameface (free; already in most modpacks, or from the OpenWG project). SpotMeter's panel needs it.&nbsp;<br><br>2. Download spotmeter-v7.0.0.wotmod.&nbsp;<br><br>3. Copy it into: &nbsp;&lt;WoT&gt;\\mods\\2.3.1.0\\&nbsp;<br>&nbsp; Example: &nbsp;D:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0\\&nbsp;<br>&nbsp; (create the folder if it does not exist)&nbsp;<br><br>4. Launch the game. On first launch it briefly restarts once to register the panel (net.openwg.gameface rebuilds its resource map) - this is normal. The minimap circle works right away; in battle, PageDown shows/hides the panel and you drag it by the header.&nbsp;<br><br>5. (Optional) Install a mods-settings menu (aslainMenu / ModsSettingsAPI) to configure in the garage, or edit:&nbsp;<br>&nbsp; %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\spotmeter\\spotmeter.json&nbsp;<br><br>To uninstall: delete the .wotmod from mods\\2.3.1.0\\. Requires WoT 2.3.1.0 + net.openwg.gameface.</p>",
@@ -3458,6 +3525,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "7.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v7.0.0.wotmod",
+          "updatedAt": "2026-07-15T23:25:52.320Z",
+          "sizeBytes": 130061,
+          "fileName": "spotmeter-v7.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "v7.0.0 - for WoT 2.3.1.0.\n\nMajor update: the in-battle panel is rebuilt on Gameface.\n\nCHANGED\n- The panel is now a Gameface overlay instead of a Scaleform/GUIFlash SWF. SpotMeter ships NO SWF anymore, so it can never collide with another GUIFlash mod's saved window positions. The minimap circle and the whole spot-distance engine are unchanged.\n\nNEW\n- Requires net.openwg.gameface (free, in common modpacks). Without it the circle + hotkeys still work.\n- Modern look: transparent panel, white text, green for the enabled options.\n- Drag the panel by its header (position saved).\n- Collapse arrow: shrink it to just the picked vehicle + spot distance (state remembered).\n\nCleaner log: benign status lines are INFO now (no more warning-looking noise)."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "6.1.0",
@@ -3510,9 +3587,9 @@
         }
       ],
       "latest": {
-        "fileName": "spotmeter-v6.1.0.wotmod",
-        "changeLog": "In-game settings + cleaner defaults:\nNEW\n- In-game configurator: with a mods-settings menu installed (Aslain's aslainMenu, or izeberg's ModsSettingsAPI - both optional, the mod works without either) SpotMeter gets a settings page: panel visibility, identical-tank grouping, auto-hide, panel hotkey (key combos supported), minimap circle on/off, circle opacity, language, the battle-start loadout, per-class auto-pick presets (class dropdown), and a full rebindable hotkey list. Changes apply live and save to spotmeter.json.\n- \"Panel only\" mode: showMinimapCircle turns the minimap circle off independently of the panel.\nCHANGED\n- The battle panel starts HIDDEN by default (PageDown shows it). The separate garage panel is gone - its settings live in the configurator now.\n- Config moved to AppData (survives modpack reinstalls); an old config is migrated automatically.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "spotmeter-v7.0.0.wotmod",
+        "changeLog": "v7.0.0 - for WoT 2.3.1.0.\n\nMajor update: the in-battle panel is rebuilt on Gameface.\n\nCHANGED\n- The panel is now a Gameface overlay instead of a Scaleform/GUIFlash SWF. SpotMeter ships NO SWF anymore, so it can never collide with another GUIFlash mod's saved window positions. The minimap circle and the whole spot-distance engine are unchanged.\n\nNEW\n- Requires net.openwg.gameface (free, in common modpacks). Without it the circle + hotkeys still work.\n- Modern look: transparent panel, white text, green for the enabled options.\n- Drag the panel by its header (position saved).\n- Collapse arrow: shrink it to just the picked vehicle + spot distance (state remembered).\n\nCleaner log: benign status lines are INFO now (no more warning-looking noise).",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5196,7 +5273,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": true,
+      "recommended": false,
       "mark": 4.6,
       "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>1. They don't compute and display the exact probability of penetrating.</p><ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</li></ul><p>2. This mod has more features and receives regular updates.</p><ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Computes and displays probability of killing a low hp tank<ul><li>Takes into account their armor and hp</li></ul></li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
@@ -5207,16 +5284,6 @@
         "22"
       ],
       "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.7.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-ME-pademinune-armor-pen-calc-1.7.0L_MLucbVp.zip",
-          "updatedAt": "2026-07-14T18:33:21.305Z",
-          "sizeBytes": 263242,
-          "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L_MLucbVp.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Reupload for 2.3.1.0"
-        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.7.0",
@@ -5269,9 +5336,9 @@
         }
       ],
       "latest": {
-        "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L_MLucbVp.zip",
-        "changeLog": "- Reupload for 2.3.1.0",
-        "wotGameVersionCompatibility": "safe"
+        "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L.zip",
+        "changeLog": "- Added a label for showing probability of killing a tank.\n- Changed default colors to be more vibrant.\n",
+        "wotGameVersionCompatibility": "warning"
       }
     },
     {
@@ -5741,16 +5808,6 @@
           "fileName": "Way_to_Valhalla_0.9.exe",
           "fileExt": ".exe",
           "changeLog": "Added by replay manager"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "0.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_0.8.exe",
-          "updatedAt": "2026-04-29T23:05:20.505Z",
-          "sizeBytes": 153462375,
-          "fileName": "Way_to_Valhalla_0.8.exe",
-          "fileExt": ".exe",
-          "changeLog": "Updated for the game version and added mod for removing equipment"
         }
       ],
       "latest": {
@@ -7708,16 +7765,6 @@
           "fileName": "NaGLeiSHiY_ModPack_0.2_for_2.2.1.3.exe",
           "fileExt": ".exe",
           "changeLog": "В цій версії модпака радо представляю вам мод \"NGL Освітлення\" воно дозволяє власноруч керувати освітленням в грі, як в ангарі налаштувати, так і по кнопці (F12) під час бою, також оновлений модик на \"Майстрів\""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "0.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/NaGLeiSHiY_ModPack_0.2_for_2.2.1.2.exe",
-          "updatedAt": "2026-04-29T12:34:10.308Z",
-          "sizeBytes": 277483865,
-          "fileName": "NaGLeiSHiY_ModPack_0.2_for_2.2.1.2.exe",
-          "fileExt": ".exe",
-          "changeLog": "В цій версії оновився модик на майстрів, в ньому тепер можна переглядати прогресію по позначці"
         }
       ],
       "latest": {
@@ -7832,6 +7879,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.3.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.4.wotmod",
+          "updatedAt": "2026-07-15T23:26:55.231Z",
+          "sizeBytes": 726869,
+          "fileName": "commander_selector_1.3.4.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Added Far Cry Commanders"
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.0.wotmod",
@@ -7883,9 +7940,9 @@
         }
       ],
       "latest": {
-        "fileName": "commander_selector_1.3.0.wotmod",
-        "changeLog": "Reverted to a single .wotmod file instead of a zip file with two files.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "commander_selector_1.3.4.wotmod",
+        "changeLog": "Added Far Cry Commanders",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -7908,6 +7965,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/be_quiet_fool_1.0.2.wotmod",
+          "updatedAt": "2026-07-15T23:22:19.584Z",
+          "sizeBytes": 98576,
+          "fileName": "be_quiet_fool_1.0.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Code fixes. Same functionality."
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.1",
@@ -7960,9 +8027,9 @@
         }
       ],
       "latest": {
-        "fileName": "be_quiet_fool_1.0.1_NMOCjUr.wotmod",
-        "changeLog": "Reverted back to a single .wotmod file instead of a zip file. ",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "be_quiet_fool_1.0.2.wotmod",
+        "changeLog": "Code fixes. Same functionality.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8232,6 +8299,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.3_7I9nPJb.wotmod",
+          "updatedAt": "2026-07-15T23:23:53.948Z",
+          "sizeBytes": 20969,
+          "fileName": "no_notifications_1.0.3_7I9nPJb.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.3_vfzNfUp.wotmod",
@@ -8283,9 +8360,9 @@
         }
       ],
       "latest": {
-        "fileName": "no_notifications_1.0.3_vfzNfUp.wotmod",
+        "fileName": "no_notifications_1.0.3_7I9nPJb.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8298,7 +8375,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.2,
       "descriptionHtml": "<p>This mod replaces all crew voiceovers in battle with phrases from the anime “Girls und Panzer.” Penetration sounds have been replaced with moans + the phrase “Uncle Sasha” (those who understand, understand).</p>",
       "installationGuideHtml": "<p>1) Choose the desired voice pack version—go to the appropriate folder, copy everything inside the folder (the audioww folder and the gui folder), and move them to the worldOfTanks/res_mods/*current game version* folder<br>2) Launch the game and set the crew voice to “Standard” or ‘Shelest’<br>3) Click the “Test” button—you should hear moans or the voices of anime girls speaking Japanese<br>4) Click “Into Battle” and enjoy)<br>5) To use the custom “Sixth Sense” sound, go to the game settings, select ‘Sounds’ &gt; “Sixth Sense” &gt; “Custom Version”</p><p>The mod may have some bugs or not work; I would really appreciate your feedback)<br>If you encounter bugs or the mod doesn’t work, please leave a comment under the video where I released this mod</p><p>I’ve also added two versions—one with the phrase “Uncle Sasha” and one without, with the corresponding name)</p><p>Peace and kindness to all of us!</p><p>P.S.<br>And remember—always stay human!</p><p>P.S.S.<br>Spread kindness in this world)</p><p>Translated with DeepL.com (free version)</p>",
@@ -8308,6 +8385,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Shelest_soundmod_wB3HgD0.zip",
+          "updatedAt": "2026-07-15T23:22:34.340Z",
+          "sizeBytes": 9873278,
+          "fileName": "Shelest_soundmod_wB3HgD0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.2",
@@ -8360,9 +8447,9 @@
         }
       ],
       "latest": {
-        "fileName": "Shelest_soundmod_2Sc2lXu.zip",
+        "fileName": "Shelest_soundmod_wB3HgD0.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30116,7 +30203,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Custom Vehicle Icons</p><p>Icons with the Tank Name, Tier, and colored by class. No need to use the expanded players panel, all the relevant info in one icon.</p><p>Black -Heavy, Green -Medium, White -Light, Blue -TD, Red -SPG</p><p>Turn off 'Show Vehicle Tier' in Settings.</p><p>Requires the use of an 'icon mirroring' mod, such as XVM.</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Roman Starkov</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p><p>Either XVM, or an Icon Mirroring Mod will be needed, otherwise the enemy in player panel will be mirrored.</p>",
@@ -30129,6 +30216,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor_2.3.1.0.wotmod",
+          "updatedAt": "2026-07-15T23:26:40.914Z",
+          "sizeBytes": 20365070,
+          "fileName": "FiT.Graphics.TankContourIconsColor_2.3.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor_2.3.0.1.wotmod",
@@ -30140,9 +30237,9 @@
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.TankContourIconsColor_2.3.0.1.wotmod",
+        "fileName": "FiT.Graphics.TankContourIconsColor_2.3.1.0.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39268,6 +39365,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "V308",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V308.exe",
+          "updatedAt": "2026-07-15T23:24:08.053Z",
+          "sizeBytes": 296513704,
+          "fileName": "SicFunzler-Mod_V308.exe",
+          "fileExt": ".exe",
+          "changeLog": "Update \n2.3.1.0"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "V306",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V306.exe",
           "updatedAt": "2026-07-11T16:16:07.300Z",
@@ -39318,8 +39425,8 @@
         }
       ],
       "latest": {
-        "fileName": "SicFunzler-Mod_V306.exe",
-        "changeLog": "",
+        "fileName": "SicFunzler-Mod_V308.exe",
+        "changeLog": "Update \n2.3.1.0",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -39423,6 +39530,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.81.07",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PMOD_ver_81-07.zip",
+          "updatedAt": "2026-07-15T23:32:00.196Z",
+          "sizeBytes": 3238598,
+          "fileName": "PMOD_ver_81-07.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.81.06",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PMOD_ver_81-06.zip",
           "updatedAt": "2026-07-14T13:38:57.954Z",
@@ -39470,20 +39587,10 @@
           "fileName": "PMOD_ver_81-03_5KDgSLk.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "1.81.03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PMOD_ver_81-03_oodlRQI.zip",
-          "updatedAt": "2026-04-23T10:17:36.172Z",
-          "sizeBytes": 3242161,
-          "fileName": "PMOD_ver_81-03_oodlRQI.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "PMOD_ver_81-06.zip",
+        "fileName": "PMOD_ver_81-07.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -39511,6 +39618,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "02",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_02.exe",
+          "updatedAt": "2026-07-15T20:37:10.296Z",
+          "sizeBytes": 57706509,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_02.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Battle Equipment\n- Updated Pet Gift Auto Claim\n- Updated the scripts in the Hitzone skins: Esthete (smart)\n- Known issue: stuttering in sniper view, linked to penetration indicator / dispersion reticle mods. Remove one if affected until it's sorted out.\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "01",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_01.exe",
           "updatedAt": "2026-07-15T13:52:25.457Z",
@@ -39521,8 +39638,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_01.exe",
-        "changeLog": "- Updated enhanced modsSettingsApi 1.6.3 (faster and more reliable menu loading)\n- Updated few mods by Aslain (fixes)\n- Updated Custom Outline Colors by CHAMPi\n- Updated WoT Tweaker Plus\n- Updated Battle Equipment\n- Updated Change client language\n- Updated Pet Gift Auto Claim\n- Updated SpotMeter\n- Updated Show Gun Collision\n- Updated mods by Kurzdor\n- Removed Armor Penetration Calculator (due to bugs)",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_02.exe",
+        "changeLog": "- Updated Battle Equipment\n- Updated Pet Gift Auto Claim\n- Updated the scripts in the Hitzone skins: Esthete (smart)\n- Known issue: stuttering in sniper view, linked to penetration indicator / dispersion reticle mods. Remove one if affected until it's sorted out.\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
