@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.034",
+  "catalogVersion": "v2026.07.035",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7756",
+      "title": "Archer Voicepack",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Drop the .wotmod into `World_of_Tanks/mods/<game_version>/` and launch. Remove the file to uninstall. This is an additive voiceover mod (it does not overwrite WG banks)."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7755",
