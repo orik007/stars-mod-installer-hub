@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.037",
+  "catalogVersion": "v2026.07.038",
   "mods": [
     {
       "source": "wgmods",
@@ -7801,21 +7801,6 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive (.zip) and guide says extract the zip-archive in your game folder — extract to game root is supported.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6349",
-      "title": "Better Reticle Size",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "You can find where your game is installed using this button: From there, open the mods folder, then open the folder for the current game version (right now it's 1.22.1.0 ). Open the downloaded ZIP file, copy everything inside of the ZIP file , and paste it in the mods/ folder for this game version. If Windows asks if you want to replace existing files, select Yes ."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs copying the contents into the mods folder for the current game version — extract and copy into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
