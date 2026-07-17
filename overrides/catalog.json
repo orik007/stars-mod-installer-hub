@@ -1,11 +1,85 @@
 {
-  "catalogVersion": "v2026.07.038",
-  "sourceHash": "7323fd75cea99fb9aee3a7d64fe35fa646f8756cd4724f655a3190e5e572c71e",
+  "catalogVersion": "v2026.07.039",
+  "sourceHash": "53adab26d825d5058c15f5b4ca62166baa813780aef0d4693737b563bf6814a7",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7759",
+      "title": "[replaceAnyTank] Bandkanon1C",
+      "ownerUsername": "atacms",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Stand-alone remodel, change any tank you’re controlling without affecting others.</p><p>profile name: &nbsp;<strong>N31_Bandkanon1C</strong></p><ul><li>all assets imported or derived from Internet source</li><li>crash model included</li><li>animated loader mechanism&nbsp;</li><li>animated casing ejection</li></ul><p>important:<a href=\"https://wgmods.net/6776/\"> mod UML</a> required.</p>",
+      "installationGuideHtml": "<p>1.make sure <a href=\"https://wgmods.net/6776/\">UML</a> is installed<br>2.extract and place <strong>wotmod</strong> file to <strong>mods/VERSION/</strong><br>3.start WoT, enter hangar. This will generate ownModel.xml if there isn't one.<br>4.open UML config file (mods/configs/UML/ownModel.xml), look for config section<strong> &lt;N31_Bandkanon1C&gt;</strong> , which should be near the end of the file.<br>5.Set the config accordingly (<a href=\"http://forum.worldoftanks.eu/index.php?/topic/457839-1202universal-model-loader-uml-change-only-the-appearance-of-your-own-tank//\">UML main topic</a>, [Configuration] section), for example<br>- set &lt;enabled&gt; to true<br>- make sure &lt;swapNPC&gt; is false to prevent other player’s tank from being affected<br>- make sure &lt;useWhitelist&gt; is true if you want to apply this remodel to certain tanks you’re playing, instead of all tanks.<br>- set &lt;whitelist&gt; to a list of standard tankenames, like A120_M48A5, A67_T57_58</p><p>6.Press “F5” if the game is still running and in hangar. This will refresh config into the game.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/preview_640_yQiSPBb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7759/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/atacmsN31_Bandkanon1Cv1.0.rar",
+          "updatedAt": "2026-07-17T11:32:16.724Z",
+          "sizeBytes": 47370192,
+          "fileName": "atacmsN31_Bandkanon1Cv1.0.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "atacmsN31_Bandkanon1Cv1.0.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7760",
+      "title": "Crucible Progress Tracker",
+      "ownerUsername": "WGmods",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod adds a Crucible tab to the Team Composition menu (opened with the Tab key), allowing you to track the progress of your current Crucible mission without leaving the battle.<br><br><strong>Work in progress:</strong> This is the first public version of the mod. More features, improvements, and additional mission support will be added in future updates.<br><br>Due to technical limitations, not every Crucible mission can be tracked accurately in real time.<br><br>Supported Crucible missions:<br>🟢 Deal 3,000 damage<br>🟢 Block 3,000 damage<br>🔴 Finish in the top 5 by XP on your team<br>🟢 Penetrate armor 8 times<br>🔴 Finish as the top damage dealer on your team<br>🟢 Destroy 3 vehicles<br>🟢 Block 2,500 HP of damage<br>🟢 Deal 4,000 damage<br>🔴 Finish as the top damage dealer in the battle<br>🟢 Critically damage 6 modules<br>🟢 Destroy 2 heavy tanks<br>🟢 Deal damage equal to 3× your vehicle's HP<br>🟢 Deal 2,500 damage within the first 5 minutes<br>🟢 Deal, receive, and block a total of 10,000 damage<br>🔴 Earn the High Caliber medal<br><br>Legend<br>🟢 Fully supported<br>🔴 Mission is displayed, but progress cannot be tracked in real time</p>",
+      "installationGuideHtml": "<p>Place the downloaded wotmod file in the <i>&lt;WoT folder&gt;/mods/&lt;current version of the game&gt;</i> directory.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_copy.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7760/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/crusable_progress_tracker_1.0.0.wotmod",
+          "updatedAt": "2026-07-17T11:12:53.335Z",
+          "sizeBytes": 240038,
+          "fileName": "crusable_progress_tracker_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "crusable_progress_tracker_1.0.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7756",
@@ -55,7 +129,7 @@
       "mark": null,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>🛡️ <strong>Crucible Progress Overlay</strong> shows your active Crucible mission status directly on-screen, both in the hangar and during battle.</p><p>Features:</p><p>✅ Shows active Crucible difficulty: <strong>Fighter, Elite, or Ace</strong><br>✅ Shows current mission name and stage<br>✅ Displays remaining shields as clear dots<br>✅ Shows the current mission condition<br>✅ Draggable overlay with saved position<br>✅ Separate positions for hangar and battle<br>✅ Full and compact display modes<br>✅ Automatically updates when you change or restart a Crucible mission</p><p>The shield dots make it easy to see how many attempts you have left before the Crucible fails, without needing to open the mission screen.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-17_135441636.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7755/",
       "tagIds": [
         "18",
@@ -600,6 +674,44 @@
       ],
       "latest": {
         "fileName": "BizzordModapack_2_ElJxk0M.exe",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7742",
+      "title": "Blind Damage & Assist Tracker",
+      "ownerUsername": "GAMER_is_m4_TUTTL",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Displays hidden/unspotted damage (blind damage) and assist damage live in the post-battle results screen.<br><br><br>This mod enhances your Post-Battle Results Screen by adding a very useful feature: It automatically calculates your \"Blind Damage\" (damage dealt to unspotted enemies) as well as your hidden assist damage.</p><p>How does it work?</p><p>The mod tracks the damage you deal during the battle and compares it at the end with the official server data from the battle results. The difference is your blind damage!</p><p>The calculated values are conveniently and clearly appended to the map name in the bottom left corner (e.g., \"Prokhorovka (Blind DMG: 450, Assist: 0)\").</p><p>Features:</p><p>- Calculates unspotted damage (Blind Damage)</p><p>- Calculates unspotted assist damage (Track &amp; Spot)</p><p>- Works seamlessly with Wargaming's new WULF interface</p>",
+      "installationGuideHtml": "<p>1. Download the .wotmod file.&nbsp;<br>2. Navigate to your World of Tanks game directory (usually C:\\Games\\World_of_Tanks\\).&nbsp;<br>3. Open the \"mods\" folder and then the folder of the current game version (e.g. 2.3.0.1).&nbsp;<br>4. Place the downloaded .wotmod file into this version folder.&nbsp;<br>5. Launch the game and enjoy!&nbsp;<br><br>(Final path should look like this: ...\\World_of_Tanks_EU\\mods\\2.3.0.1\\mod_battle_results_diff.wotmod)&nbsp;<br>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wot_mod_cover_302x170_v2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7742/",
+      "tagIds": [
+        "18",
+        "22",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_results_diff.wotmod",
+          "updatedAt": "2026-07-17T09:34:49.942Z",
+          "sizeBytes": 5132,
+          "fileName": "mod_battle_results_diff.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "mod_battle_results_diff.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -26159,7 +26271,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p><strong>For non-EU server player go to UML topic on WG discord(</strong>https://discord.com/channels/161053416796323840/1248653660486111303<strong>)</strong><br><br><strong>A recently introduced CTD fix is unfortunately region-specific. Player from different regional server(EU US ASIA CN Lesta) needs a different version of UML</strong></p><p>Core feature of Universal Model Loader is to change only the appearance of the tank that player is currently driving, leaving friendly and enemy tanks untouched. This is intended to address hitbox mismatch issue caused by using remodels significantly different from stock models, which is making it impossible to hit weakspot of type59 if it looks like challenger2.&nbsp;</p><p><br>It has since evolved greatly towards adding new capabilities to WoT remodels, especially animation, funding the basis for more realistic model behaviour.</p><p>Detailed description check readme in the release zip.</p><p>This list of docs for remodel authors should give you a rough idea of its capability:</p><ul><li>instruction_on_triggered_animations</li><li>instruction_list_of_keywords_for_fixedEmblem</li><li>instruction_on_additional_gunFire_animation</li><li>instruction_on_addon_models</li><li>instruction_on_burst_firing_effect</li><li>instruction_on_dual_barrel_compatible_remodel</li><li>instruction_on_glow_shader</li><li>instruction_on_hangar_and_seasonal_remodel</li><li>instruction_on_new_animationBone</li><li>instruction_on_new_sounds</li><li>instruction_on_registering_base_colour</li><li>instruction_on_sound_mod_support</li><li>instruction_on_steering_controller</li><li>instruction_on_tacticalNumber_slot</li></ul>",
       "installationGuideHtml": "<p>v1.7 used wotmod format, install path is now <strong>mods </strong>, <strong>not</strong> res_mods&nbsp;<br>Delete earlier version before attempting this one. &nbsp;<br>you can retain old config by copying res_mods/x.x.x.x/sc<i>ipts/client/mods/ownModel.xml to mods/configs/UML/</i><br>&nbsp;</p><ol><li><i>Open zip, extract content of 'mod for player' to /mods/%CURRENT_VERSION% , including sub-folder</i><br>file structure should resemble this:&nbsp;<br>&nbsp; &nbsp; \\mods\\1.26.0.1\\UML.wotmod</li><li>Launch game. When prompted to restart, click restart</li><li>When in hangar, press F5 to verify a brief flash and a new msg in the notification panel</li><li>If the flash and msg did not happen, your copy of UML is outdated or is in the wrong folder, or encountered mod conflict.&nbsp;<br><br>If you only want to swap into models provided by WoT (3D styles), or only intend to use features other than swapping, then you can stop here.&nbsp;<br><br>If you want to swap into downloaded remodels then follow these steps:</li><li>Download remodel pack from wgmods.net or other sources.</li><li>Install remodel. Place wotmod into /mods/%CURRENT_VERSION%</li><li>Start/restart.</li></ol>",
@@ -26171,6 +26283,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.7.3.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.1.0EUUniversalModelLoader_B260717.zip",
+          "updatedAt": "2026-07-17T11:31:43.417Z",
+          "sizeBytes": 2849511,
+          "fileName": "2.3.1.0EUUniversalModelLoader_B260717.zip",
+          "fileExt": ".zip",
+          "changeLog": "* adat to WoT V2.3.1.0\n* reworked swing animator to fix impulse direction"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.7.3.3",
@@ -26220,22 +26342,12 @@
           "fileName": "2.1.0.2EUUniversalModelLoader_B251220.zip",
           "fileExt": ".zip",
           "changeLog": "* added 3D_style_camo_CTD_fix.wotmod to make certain 3D styles compatible with camouflage. \n  Without this patch, invoking new 3D style decorated with foliage will CTD when camouflage is installed"
-        },
-        {
-          "wotGameVersion": "2.1.0.1",
-          "modVersion": "1.7.2.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.1.0.1UniversalModelLoader_B251203.zip",
-          "updatedAt": "2025-12-03T06:41:31.749Z",
-          "sizeBytes": 2857867,
-          "fileName": "2.1.0.1UniversalModelLoader_B251203.zip",
-          "fileExt": ".zip",
-          "changeLog": "* adapt to WoT V2.1.0.1"
         }
       ],
       "latest": {
-        "fileName": "2.3.0.0EUUniversalModelLoader_B260604.zip",
-        "changeLog": "* adapt to WoT v2.3.0.0\n* added safeguard against invalid <drivenJoints> clause which will CTD without leaving a log entry. <drivenJoints> will be discarded if its nodes are not found in actual model file",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "2.3.1.0EUUniversalModelLoader_B260717.zip",
+        "changeLog": "* adat to WoT V2.3.1.0\n* reworked swing animator to fix impulse direction",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31920,7 +32032,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": true,
+      "recommended": false,
       "mark": 4.4,
       "descriptionHtml": "<p><strong>Hello, on the new YouTube channel you can see the first tank tests</strong></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=-OdTO8437fY&amp;t=648s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/-OdTO8437fY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=p11DgYdneek&amp;t=5s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/p11DgYdneek\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=o5FaMMimwLo&amp;t=52s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/o5FaMMimwLo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=1ljLJqQY45o\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/1ljLJqQY45o\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sV38Od4AkpY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sV38Od4AkpY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=i6hAVkMSrh8&amp;t=29s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/i6hAVkMSrh8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=T7rzy0F5WPI\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/T7rzy0F5WPI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=jLO8o7SwNfA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/jLO8o7SwNfA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=anvCGRTnHzo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/anvCGRTnHzo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=r4ttm7kwT6I\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/r4ttm7kwT6I\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=F0A0VIUJO2M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/F0A0VIUJO2M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sqzKDF7XU1g\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sqzKDF7XU1g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=TEAaR8w8WXs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/TEAaR8w8WXs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=m3g_20iswYY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/m3g_20iswYY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=SVo7QLo6Y18\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/SVo7QLo6Y18\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=X0YNKsZpa2k\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/X0YNKsZpa2k\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=LR-sD0EBqW8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/LR-sD0EBqW8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=XqEUkfSuAyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/XqEUkfSuAyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ns2AXECeLyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ns2AXECeLyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Gs3-RTq5a-M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Gs3-RTq5a-M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><a href=\"https://www.youtube.com/channel/UCDQYSyGRYwpo9vF2pHdVN8A\">War Mod Youtube</a></p><p><a href=\"https://aslain.com/index.php?/topic/24731-audio-12310-mody-dzwi%C4%99kowe-by-johntankpl14022024/#comment-118993\">War Mod New Forum</a></p><p><a href=\"https://www.mediafire.com/file_premium/6s6k1tclyjoat4l/War_Mod_Full.rar/file\">War Mod Full + Music</a></p><p><a href=\"https://wgmods.net/7064/\">War Mod Hits (new Project)</a></p><p><a href=\"https://www.mediafire.com/file/ouf70qkh6d00u9h/War_Mod_surface_hits.rar/file\">War Mod Surface Hits</a></p><p><a href=\"https://www.mediafire.com/file_premium/u5sbkyeymr7dj4y/War_Mod_EnginesV1.7.rar/file\">War Mod &nbsp;Engines V1.7 (Japan, China, Italy, Germany, Czechosłowiaka, Swedish)</a></p><p><a href=\"https://www.mediafire.com/file/fw91rubmxl9o6qg/War_Mod_Guns_Configuration_by_Nelumbo.rar/file\">War Mod Guns configs by Nelumbo_N</a></p><p><a href=\"https://www.mediafire.com/file/93uq9grwkgz6h29/War_Mod_Engines_configuration_by_Nelumbo.rar/file\">War Mod Engines configs by Nelumbo_N</a></p><p>Crew sounds:</p><p><a href=\"https://wgmods.net/3837/\">Fury</a></p><p><a href=\"https://wgmods.net/4506/\">War Thunder &nbsp;Crew Sounds</a></p><p>The mod is not finished yet, it took me a long time to create and it still requires some work.</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory</p>",
@@ -31930,16 +32042,6 @@
         "17"
       ],
       "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.37",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/War_Mod_GunsV.1.37.rar",
-          "updatedAt": "2026-07-15T11:09:00.364Z",
-          "sizeBytes": 1372956707,
-          "fileName": "War_Mod_GunsV.1.37.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.37",
@@ -31992,9 +32094,9 @@
         }
       ],
       "latest": {
-        "fileName": "War_Mod_GunsV.1.37.rar",
+        "fileName": "War_Mod_GunsV.1.37_9f72Uaa.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
+        "wotGameVersionCompatibility": "warning"
       }
     },
     {

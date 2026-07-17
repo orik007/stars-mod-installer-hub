@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.038",
+  "catalogVersion": "v2026.07.039",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7759",
+      "title": "[replaceAnyTank] Bandkanon1C",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "1.make sure UML is installed 2.extract and place wotmod file to mods/VERSION/ 3.start WoT, enter hangar. This will generate ownModel.xml if there isn't one. 4.open UML config file (mods/configs/UML/ownModel.xml), look for config section <N31_Bandkanon1C> , which should be near the end of the file. 5.Set the config accordingly ( UML main topic , [Configuration] section), for example - set <enabled> to true - make sure <swapNPC> is false to prevent other player’s tank from being affected - make sure <useWhitelist> is true if you want to apply this remodel to certain tanks you’re playing, instead of all tanks. - set <whitelist> to a list of standard tankenames, like A120_M48A5, A67_T57_58 6.Press “F5” if the game is still running and in hangar. This will refresh config into the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide clearly says to place the .wotmod file into mods/<version>; later config editing is non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7760",
+      "title": "Crucible Progress Tracker",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the downloaded wotmod file in the <WoT folder>/mods/<current version of the game> directory."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<current version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7756",
@@ -179,6 +209,21 @@
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
         "decisionReason": "Package type is .exe, which requires running an external installer.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7742",
+      "title": "Blind Damage & Assist Tracker",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Download the .wotmod file. 2. Navigate to your World of Tanks game directory (usually C:\\Games\\World_of_Tanks\\). 3. Open the \"mods\" folder and then the folder of the current game version (e.g. 2.3.0.1). 4. Place the downloaded .wotmod file into this version folder. 5. Launch the game and enjoy! (Final path should look like this: ...\\World_of_Tanks_EU\\mods\\2.3.0.1\\mod_battle_results_diff.wotmod)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide explicitly says to place it into mods/<current version>.",
         "deleteDataWgpdc": false
       }
     },
