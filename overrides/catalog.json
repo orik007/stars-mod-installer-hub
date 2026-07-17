@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.039",
-  "sourceHash": "53adab26d825d5058c15f5b4ca62166baa813780aef0d4693737b563bf6814a7",
+  "catalogVersion": "v2026.07.040",
+  "sourceHash": "a6ff7e3f02282778c0cc713f64c5f8bd7fb011ebd067489298848ebc3af10088",
   "sources": [
     "wgmods",
     "modhub"
@@ -53,8 +53,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p>This mod adds a Crucible tab to the Team Composition menu (opened with the Tab key), allowing you to track the progress of your current Crucible mission without leaving the battle.<br><br><strong>Work in progress:</strong> This is the first public version of the mod. More features, improvements, and additional mission support will be added in future updates.<br><br>Due to technical limitations, not every Crucible mission can be tracked accurately in real time.<br><br>Supported Crucible missions:<br>🟢 Deal 3,000 damage<br>🟢 Block 3,000 damage<br>🔴 Finish in the top 5 by XP on your team<br>🟢 Penetrate armor 8 times<br>🔴 Finish as the top damage dealer on your team<br>🟢 Destroy 3 vehicles<br>🟢 Block 2,500 HP of damage<br>🟢 Deal 4,000 damage<br>🔴 Finish as the top damage dealer in the battle<br>🟢 Critically damage 6 modules<br>🟢 Destroy 2 heavy tanks<br>🟢 Deal damage equal to 3× your vehicle's HP<br>🟢 Deal 2,500 damage within the first 5 minutes<br>🟢 Deal, receive, and block a total of 10,000 damage<br>🔴 Earn the High Caliber medal<br><br>Legend<br>🟢 Fully supported<br>🔴 Mission is displayed, but progress cannot be tracked in real time</p>",
       "installationGuideHtml": "<p>Place the downloaded wotmod file in the <i>&lt;WoT folder&gt;/mods/&lt;current version of the game&gt;</i> directory.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_copy.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -132,8 +132,7 @@
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-17_135441636.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7755/",
       "tagIds": [
-        "18",
-        "23"
+        "18"
       ],
       "files": [
         {
@@ -214,7 +213,7 @@
       "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>Track your <strong>Marks of Excellence (MoE)</strong> progress for the vehicle you have selected, in the Garage and live in battle. The mod reads the game's own MoE data and renders it with the client's own mark art and interface styling.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at <strong>65% / 85% / 95%</strong> — the 1 / 2 / 3-mark thresholds — each drawn with the client's own mark art. Every tick is labelled with the combined damage that mark requires, and the bar fills to your current standing. Above it, a readout shows your current average combined damage and your current mark percentage for the selected vehicle.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li></ul><p>&nbsp;</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
-      "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/IzeBerg/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
+      "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.6.4+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle_kM1xcgc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7745/",
       "tagIds": [
@@ -3577,7 +3576,7 @@
       ],
       "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<p>SpotMeter adds a dynamic circle to your minimap showing the distance from which your tank can currently be spotted - so you always know how close an enemy has to be to see you.&nbsp;<br><br>The circle updates live and changes colour with your state:&nbsp;<br>- red while moving&nbsp;<br>- green while stationary&nbsp;<br>- dark green after 3s stationary with a camouflage net active&nbsp;<br>- orange for ~3s after firing (camo penalty)&nbsp;<br><br>WHAT IT READS AUTOMATICALLY&nbsp;<br>Everything in your own tank's data: base view range, crew, optics, binoculars, camo net, siege modes (CS-63, Strv, etc.) and the after-shot penalty. By default the circle assumes the enemy sees as far as you do.&nbsp;<br><br>ENEMY PICKER&nbsp;<br>Pick a specific enemy (click a row in the panel, or Numpad 2/8) and the circle switches to that tank's view range. Because the server no longer sends enemy equipment, you set the assumed optics / vents / CVS as quick cyclable levels (Numpad 6 / + / -) and toggle the likely crew perks (Rations, BIA, Recon + Situational Awareness). The estimate matches the in-game view-range formula.&nbsp;<br><br>IN-BATTLE PANEL (v7 - Gameface)&nbsp;<br>A modern HTML overlay: every enemy with its view range, identical tanks grouped (e.g. \"Dravec x5\"), a target line with the spot-distance, and the AUTO state. Click a row to pick a target; click the loadout cells to change the assumed optics/perks. Drag it by the header (position saved); a collapse arrow shrinks it to just the picked vehicle + spot distance. PageDown shows/hides it.&nbsp;<br>- Auto-pick (Numpad /) tracks the nearest enemy, with per-class loadout presets.&nbsp;<br>- Optional in-garage configurator via a mods-settings menu (aslainMenu / ModsSettingsAPI). Without a menu, edit the auto-created spotmeter.json (path logged at startup).&nbsp;<br><br>REQUIRES&nbsp;<br>net.openwg.gameface (free, MIT; already in common modpacks) for the panel. The minimap circle and the hotkeys work even without it.&nbsp;<br><br>LANGUAGE&nbsp;<br>English and Polish, auto-detected from your game client.&nbsp;<br><br>FAIR PLAY&nbsp;<br>SpotMeter only computes values the client already has and shows the result geometrically. It does NOT reveal hidden enemies, automate aiming or movement, or read server-private data - the same category as the view-range circles already built into the game.&nbsp;<br><br>Hotkeys are on the numpad and work with NumLock on or off; everything is configurable in spotmeter.json.</p>",
+      "descriptionHtml": "<p>SpotMeter adds a dynamic circle to your minimap showing the distance from which your tank can currently be spotted - so you always know how close an enemy has to be to see you.&nbsp;<br><br>The circle updates live and changes colour with your state:&nbsp;<br>- red while moving&nbsp;<br>- green while stationary&nbsp;<br>- dark green after 3s stationary with a camouflage net active&nbsp;<br>- orange for ~3s after firing (camo penalty)&nbsp;<br><br>WHAT IT READS AUTOMATICALLY&nbsp;<br>Everything in your own tank's data: base view range, crew, optics, binoculars, camo net, siege modes (CS-63, S-Conqueror, etc.) and the after-shot penalty. By default the circle assumes the enemy sees as far as you do.&nbsp;<br><br>ENEMY PICKER&nbsp;<br>Pick a specific enemy (click a row in the panel, or Numpad 2/8) and the circle switches to that tank's view range. Because the server no longer sends enemy equipment, you set the assumed optics / vents / CVS as quick cyclable levels (Numpad 6 / + / -) and toggle the likely crew perks (Rations, BIA, Recon + Situational Awareness). The estimate matches the in-game view-range formula.&nbsp;<br><br>IN-BATTLE PANEL (v7 - Gameface)&nbsp;<br>A modern HTML overlay: every enemy with its view range, identical tanks grouped (e.g. \"Dravec x5\"), a target line with the spot-distance, and the AUTO state. Click a row to pick a target; click the loadout cells to change the assumed optics/perks. Drag it by the header (position saved); a collapse arrow shrinks it to just the picked vehicle + spot distance. PageDown shows/hides it.&nbsp;<br>- Auto-pick (Numpad /) tracks the nearest enemy, with per-class loadout presets.&nbsp;<br>- Optional in-garage configurator via a mods-settings menu (aslainMenu / ModsSettingsAPI). Without a menu, edit the auto-created spotmeter.json (path logged at startup).&nbsp;<br><br>REQUIRES&nbsp;<br>net.openwg.gameface (free, MIT; already in common modpacks) for the panel. The minimap circle and the hotkeys work even without it.&nbsp;<br><br>USING WITH XVM&nbsp;<br>If you use XVM's minimap, XVM owns the view-range-circle layer and repaints SpotMeter's circle in its own colour (often a constant cyan; you may see two similar circles). SpotMeter's is the one that CHANGES SIZE with your camo state (your live spot distance); XVM's is your static view range. Recolour or hide the circles in XVM's minimap.xc; SpotMeter's own colours apply when the XVM minimap isn't repainting them. The spot-distance readout is unaffected either way.&nbsp;<br><br>LANGUAGE&nbsp;<br>English and Polish, auto-detected from your game client.&nbsp;<br><br>FAIR PLAY&nbsp;<br>SpotMeter only computes values the client already has and shows the result geometrically. It does NOT reveal hidden enemies, automate aiming or movement, or read server-private data - the same category as the view-range circles already built into the game.&nbsp;<br><br>Hotkeys are on the numpad and work with NumLock on or off; everything is configurable in spotmeter.json.</p>",
       "installationGuideHtml": "<p>1. Install net.openwg.gameface (free; already in most modpacks, or from the OpenWG project). SpotMeter's panel needs it.&nbsp;<br><br>2. Download spotmeter-v7.0.0.wotmod.&nbsp;<br><br>3. Copy it into: &nbsp;&lt;WoT&gt;\\mods\\2.3.1.0\\&nbsp;<br>&nbsp; Example: &nbsp;D:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0\\&nbsp;<br>&nbsp; (create the folder if it does not exist)&nbsp;<br><br>4. Launch the game. On first launch it briefly restarts once to register the panel (net.openwg.gameface rebuilds its resource map) - this is normal. The minimap circle works right away; in battle, PageDown shows/hides the panel and you drag it by the header.&nbsp;<br><br>5. (Optional) Install a mods-settings menu (aslainMenu / ModsSettingsAPI) to configure in the garage, or edit:&nbsp;<br>&nbsp; %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\spotmeter\\spotmeter.json&nbsp;<br><br>To uninstall: delete the .wotmod from mods\\2.3.1.0\\. Requires WoT 2.3.1.0 + net.openwg.gameface.</p>",
       "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7661/",
@@ -5070,7 +5069,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 3.7,
+      "mark": 3.8,
       "descriptionHtml": "<p><strong>Armor Modpack</strong> is now available on <strong>WGMODS</strong></p><p>One of the longest-standing projects in the tanking community has officially moved to wgmods.net. With over 10 years of development behind it, the modpack has built up a collection of unique features many of which you won’t typically find in other popular setups.</p><p><strong>Armor Modpack</strong> focuses on functionality that goes beyond the usual “standard” bundles:</p><ul><li>A full <strong>account manager</strong> with multi-login support, allowing you to switch accounts quickly without leaving the game.</li><li>An <strong>AFK indicator</strong> to spot inactive players, along with the Observers mod.</li><li>An <strong>incognito </strong>mode that lets you stream your favorite game without worrying about streamsnipers.</li><li>An in-game <strong>radio </strong>and <strong>colored wrecks of destroyed tanks</strong>, making it easier to navigate cluttered battlefields.</li></ul><p>Overall, it’s a reliable and well-optimized option for players who want more than just updated sights offering specialized tools to enhance gameplay and fine-tune the client to their preferences.<br><br>If you have any questions about mods or settings, feel free to ask me on <strong>Telegram </strong>or <strong>Discord </strong>(buttons in the modpack)<br><br>If the author is not indicated, and the author wants to indicate it, please write to the Discord or Telegram channel and I will add it without any problems</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong></p><ul><li>Run the installer file.</li><li>Point it to your World of Tanks installation directory.</li><li>Select the desired mods and configuration options.</li><li>To modify your setup later, simply re-run the installer; your previous selections will be saved automatically.</li></ul><p><strong>Updating:</strong></p><ul><li>Keep the existing modpack installed — do not remove it.</li><li>Download and execute the latest installer version (your prior settings will be retained).</li><li>Follow the installation steps to complete the update.</li></ul><p><strong>Uninstallation:</strong></p><ul><li>Remove the modpack via Windows “Apps &amp; Features” (Add or Remove Programs) in the Control Panel.</li></ul>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Armor_ModPAck_T1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -12878,16 +12877,6 @@
           "fileName": "pruszko.responsive_reticle_1.0.3_IrUnoOu.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.2.1.2"
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.3_k2xXx7U.wotmod",
-          "updatedAt": "2026-04-23T16:44:00.276Z",
-          "sizeBytes": 10346,
-          "fileName": "pruszko.responsive_reticle_1.0.3_k2xXx7U.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.2.1.1"
         }
       ],
       "latest": {
@@ -15017,7 +15006,7 @@
       ],
       "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<p><strong>IN REVIEW</strong>: Version 1.0.4 with update for WoT 2.3.1.0.</p><p>A simple mod that enables self tank contours during sniper mode on collision with other tanks.</p><p>Useful on tank face-hugs to visually see if your gun collides with enemy gun, by displaying gun contours.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ba7a7bd0-2347-41b8-9f69-01881283afe5.png\"></figure><h2>Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ShowGunCollision\">Github repo here</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ShowGunCollision/issues\">GitHub issues here</a>.</li></ul><h2>Trivia</h2><p>This \"feature\" once existed as a bug in vanilla WoT around 1.29.0.0 version, but was fixed the next patch.<br>Some users actually want that bug, so I reproduced it, lmao</p>",
+      "descriptionHtml": "<p>A simple mod that enables self tank contours during sniper mode on collision with other tanks.</p><p>Useful on tank face-hugs to visually see if your gun collides with enemy gun, by displaying gun contours.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ba7a7bd0-2347-41b8-9f69-01881283afe5.png\"></figure><h2>Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ShowGunCollision\">Github repo here</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ShowGunCollision/issues\">GitHub issues here</a>.</li></ul><h2>Trivia</h2><p>This \"feature\" once existed as a bug in vanilla WoT around 1.29.0.0 version, but was fixed the next patch.<br>Some users actually want that bug, so I reproduced it, lmao</p>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.show_gun_collision.wotmod</strong>\" file into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/gun_collision_wgmods.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7349/",
@@ -16919,7 +16908,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p>THAT MOD ON FV4005<br>How it works in the game<br>Nothing changes on the server - this is a purely visual modification of the client.<br>You see the changed textures, but your allies and opponents do not see them.</p>",
       "installationGuideHtml": "<p>📂 Installation path<br>World_of_Tanks_EU → mods → &nbsp;2.1.1.0</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_p6Tb8CE.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -39332,6 +39321,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1169",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_0kITjm1.zip",
+          "updatedAt": "2026-07-17T14:26:57.590Z",
+          "sizeBytes": 4168848,
+          "fileName": "ProMod_0kITjm1.zip",
+          "fileExt": ".zip",
+          "changeLog": "• Modpack: Updated AntiMirror\n• Modpack: Updated Battle Equipment\n• Modpack: Updated Armor Penetration Calculator\n• Modpack: Updated Enhanced modSettingsApi\n• Modpack: Updated PMOD Package\n• Modpack: Updated Dispersion Reticle\n• Modpack: Updated Hitmarker Pro\n• Modpack: Updated Advanced TechTree\n• Modpack: Updated Reduction Info\n• Modpack: Added Crucible Progress Tracker\n• Modpack: Removed War Mod Gun Sounds"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1167",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod.zip",
           "updatedAt": "2026-07-15T04:30:47.447Z",
@@ -39379,21 +39378,11 @@
           "fileName": "ProMod_lqJ8FRB.zip",
           "fileExt": ".zip",
           "changeLog": "• Modpack: Updated to XVM Build 13.1.0.0026\n• Modpack: Updated Contour Icon AntiMirror Files\n• Modpack: Updated Contour Icon Packs\n• Modpack: Updated HRMOD Gun and Engine Sounds\n• Modpack: Updated PMOD Package\n• Modpack: Updated Battle Hits Viewer\n• Modpack: Updated Replay Manager\n• Modpack: Updated Gunmark Calculator\n• Modpack: Updated Skill4Ltu Index\n• Modpack: Updated Tomato.gg Logger\n• Modpack: Updated White destroyed Skins\n• Modpack: Updated Killshot Sounds\n• Modpack: Disabled -> Reduction Info\n• Modpack: Disabled -> Battle Button Changer\n• Modpack: Disabled -> Reduction Info"
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "1158",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_I5AnX9J.zip",
-          "updatedAt": "2026-05-14T08:58:39.169Z",
-          "sizeBytes": 4172723,
-          "fileName": "ProMod_I5AnX9J.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ProMod.zip",
-        "changeLog": "bump 2.3.1.0",
+        "fileName": "ProMod_0kITjm1.zip",
+        "changeLog": "• Modpack: Updated AntiMirror\n• Modpack: Updated Battle Equipment\n• Modpack: Updated Armor Penetration Calculator\n• Modpack: Updated Enhanced modSettingsApi\n• Modpack: Updated PMOD Package\n• Modpack: Updated Dispersion Reticle\n• Modpack: Updated Hitmarker Pro\n• Modpack: Updated Advanced TechTree\n• Modpack: Updated Reduction Info\n• Modpack: Added Crucible Progress Tracker\n• Modpack: Removed War Mod Gun Sounds",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -39673,48 +39662,38 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_04.exe",
-          "updatedAt": "2026-07-16T20:18:11.025Z",
-          "sizeBytes": 57735129,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_04.exe",
+          "modVersion": "07",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_07.exe",
+          "updatedAt": "2026-07-17T18:07:21.055Z",
+          "sizeBytes": 59677683,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_07.exe",
           "fileExt": ".exe",
-          "changeLog": "v2.3.1.0 #04 (16-07-2026):\n- Updated PMOD 1.81.08\n- Updated Reticle Dispersion Pro\n- Updated Hitmarker Pro (code cleanup)\n- Added Crew sounds: Archer (by SevenTiki)\n- Added Garages by nocec\n- Removed War Mod Gun Sounds (outdated in 2.3.1.0, crashing the game)\n"
+          "changeLog": "- Traditionaly fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree because its .wotmod contains icons used in many other mods\n"
         },
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_03.exe",
-          "updatedAt": "2026-07-16T20:17:15.981Z",
-          "sizeBytes": 57772046,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_03.exe",
+          "modVersion": "06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_06.exe",
+          "updatedAt": "2026-07-17T16:45:35.615Z",
+          "sizeBytes": 59858552,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_06.exe",
           "fileExt": ".exe",
-          "changeLog": "v2.3.1.0 #03 (16-07-2026):\n- Added Armor Penetration Calculator\n- Added Crucible Progress Overlay\n- Replaced Clan Rewards Auto Claim with a new mod\n- Updated enhanced modsSettingsApi 1.6.4\n- Updated PMOD 1.81.07\n- Updated Dispersion Reticle by Pruszko\n- Updated Research Progress Bar 14th_ua\n- Updated MoE Calculator 14th_ua\n- Updated Minimap images: YaYa tactical\n"
+          "changeLog": "- Updated Advanced Tech-tree\n- Updated Responsive Reticle"
         },
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_02.exe",
-          "updatedAt": "2026-07-15T20:37:10.296Z",
-          "sizeBytes": 57706509,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_02.exe",
+          "modVersion": "05",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_05.exe",
+          "updatedAt": "2026-07-17T13:24:38.117Z",
+          "sizeBytes": 59697333,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_05.exe",
           "fileExt": ".exe",
-          "changeLog": "- Updated Battle Equipment\n- Updated Pet Gift Auto Claim\n- Updated the scripts in the Hitzone skins: Esthete (smart)\n- Known issue: stuttering in sniper view, linked to penetration indicator / dispersion reticle mods. Remove one if affected until it's sorted out.\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_01.exe",
-          "updatedAt": "2026-07-15T13:52:25.457Z",
-          "sizeBytes": 57706890,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated enhanced modsSettingsApi 1.6.3 (faster and more reliable menu loading)\n- Updated few mods by Aslain (fixes)\n- Updated Custom Outline Colors by CHAMPi\n- Updated WoT Tweaker Plus\n- Updated Battle Equipment\n- Updated Change client language\n- Updated Pet Gift Auto Claim\n- Updated SpotMeter\n- Updated Show Gun Collision\n- Updated mods by Kurzdor\n- Removed Armor Penetration Calculator (due to bugs)"
+          "changeLog": "- Updated Anti-Mirror (potential fix for the micro-stutter when driving)\n- Updated UI Scale by goofy67\n- Added Crucible Progress Tracker [mod #877]\n- Removed until updated: Garage Armor Inspector"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_04.exe",
-        "changeLog": "v2.3.1.0 #04 (16-07-2026):\n- Updated PMOD 1.81.08\n- Updated Reticle Dispersion Pro\n- Updated Hitmarker Pro (code cleanup)\n- Added Crew sounds: Archer (by SevenTiki)\n- Added Garages by nocec\n- Removed War Mod Gun Sounds (outdated in 2.3.1.0, crashing the game)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_07.exe",
+        "changeLog": "- Traditionaly fixed the .wotmod conflict introduced by a new version of Advanced Tech-tree because its .wotmod contains icons used in many other mods\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
