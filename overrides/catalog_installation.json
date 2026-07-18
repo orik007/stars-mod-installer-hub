@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.041",
+  "catalogVersion": "v2026.07.042",
   "mods": [
     {
       "source": "wgmods",
@@ -53,12 +53,12 @@
       "title": "Archer Voicepack",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Drop the .wotmod into `World_of_Tanks/mods/<game_version>/` and launch. Remove the file to uninstall. This is an additive voiceover mod (it does not overwrite WG banks)."
+        "latestInstallGuide": "Drop the .wotmod into `World_of_Tanks/mods/<game_version>/` and launch. Remove the file to uninstall. Already added to Aslain's Modpack. This is an additive voiceover mod (it does not overwrite WG banks)."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "decisionReason": ".wotmod package and guide targets mods/<game_version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -98,12 +98,12 @@
       "title": "14th_ua's MoE Calculator",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.6.4+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.moe_calculator_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
+        "latestInstallGuide": "Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ ModsListAPI 1.7.8+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.moe_calculator_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide provides a supported manual install by copying the .wotmod into mods/<version>; dependency notes and deleting older copies are non-blocking.",
+        "decisionReason": "Archive package and manual guide says to copy the .wotmod into mods/<version>; dependency notes and installer alternative are non-blocking because a supported manual file-copy path is given.",
         "deleteDataWgpdc": false
       }
     },
@@ -203,12 +203,12 @@
       "title": "Garage Progress Bar",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.garageprogressbar_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
+        "latestInstallGuide": "Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ ModsListAPI 1.7.8+ Installation For a one-click setup on Windows, download the installer from the GitHub releases page . It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them. To install the .wotmod from here by hand: 1. Close World of Tanks and the Game Center launcher. 2. Make sure OpenWG GameFace is installed in mods\\2.3.0.1\\ . 3. Copy com.14th_ua.garageprogressbar_<version>.wotmod into mods\\2.3.0.1\\ . 4. Delete any older copy of the mod from that folder. 5. Start the game. 6. After a game update, move the .wotmod to the new mods/<version>\\ folder. A new client version may need a rebuilt mod."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and manual install instructions say to copy the .wotmod into mods/<version>; dependency notes and deleting older mod copy are non-blocking.",
+        "decisionReason": "Archive package and manual guide says to copy the .wotmod into mods/<version>; dependency notes and installer alternative are non-blocking because a supported manual file-copy path is given.",
         "deleteDataWgpdc": false
       }
     },
