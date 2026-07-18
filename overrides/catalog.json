@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.07.042",
-  "sourceHash": "9010e6e8344a51762ad78a85e5e709015cd1fa37a2dc3b6647e70e962fbcbbbc",
+  "catalogVersion": "v2026.07.043",
+  "sourceHash": "130dce0191e0c907ab7be2b0bc21d16af2e9ad9d02420c8e1de44d2ab6294588",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7762",
+      "title": "Hangar Carousel Plus",
+      "ownerUsername": "RCooLeR",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Hangar Carousel Plus extends the native World of Tanks 2.x hangar carousel with smart filters, sorting, local statistics, and configurable row layouts.</p><p>The mod currently targets the Wargaming EU 2.3.1.x client and provides:</p><ul><li>filters for incomplete Field Modification, incompletely trained crews, and non-elite vehicles;</li><li>reward/special, not-ready, no-Ace, fewer-than-three-Marks, and research-now-available filters;</li><li>battles, win rate, average damage, mastery, and Marks of Excellence on vehicle cards and in the native hover card;</li><li>sorting by battles, win rate, average damage, Marks of Excellence, or last played;</li><li>one-, two-, three-, and four-row carousel layouts with an automatic mode;</li><li>optional hiding of the Buy vehicle, Buy slot, and Restore vehicle cells;</li><li>a settings page through ModsSettingsAPI;</li><li>localization for all 24 EU client languages.</li></ul>",
+      "installationGuideHtml": "<p><a href=\"https://github.com/RCooLeR/WoT-Hangar-carousel-plus/blob/main/releases/0.8.5/Hangar_Carousel_Plus_0.8.5_complete.zip?raw=1\">Download the complete Hangar Carousel Plus 0.8.5 bundle</a></p><ol><li>Close World of Tanks.</li><li>Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from &lt;game&gt;\\mods\\2.3.1.0\\.</li><li>Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory.</li><li>Start the game</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/hangar-carousel-plus.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7762/",
+      "tagIds": [
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "0.8.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hangar_Carousel_Plus_0.8.5_complete.zip",
+          "updatedAt": "2026-07-18T16:48:19.483Z",
+          "sizeBytes": 442433,
+          "fileName": "Hangar_Carousel_Plus_0.8.5_complete.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Hangar_Carousel_Plus_0.8.5_complete.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7764",
@@ -138,6 +174,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Quotemine_Archer_Crew_Voices_zrgFK7N.wotmod",
+          "updatedAt": "2026-07-18T16:48:46.309Z",
+          "sizeBytes": 7448272,
+          "fileName": "Quotemine_Archer_Crew_Voices_zrgFK7N.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Quotemine — Archer Crew Voices — v1.1\n\n* Retuned the start/end timing on ~60 lines: callouts no longer clip the first word or get cut off at the end, and a few that opened with dead air now fire promptly.\n* Removed two lines that didn't land well in battle.\n* No new events or content — same hookups as v1.0. Just drop in the new .wotmod and delete the old one."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Quotemine_Archer_Crew_Voices.wotmod",
           "updatedAt": "2026-07-16T12:10:35.928Z",
@@ -148,8 +194,8 @@
         }
       ],
       "latest": {
-        "fileName": "Quotemine_Archer_Crew_Voices.wotmod",
-        "changeLog": "",
+        "fileName": "Quotemine_Archer_Crew_Voices_zrgFK7N.wotmod",
+        "changeLog": "Quotemine — Archer Crew Voices — v1.1\n\n* Retuned the start/end timing on ~60 lines: callouts no longer clip the first word or get cut off at the end, and a few that opened with dead air now fire promptly.\n* Removed two lines that didn't land well in battle.\n* No new events or content — same hookups as v1.0. Just drop in the new .wotmod and delete the old one.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -248,7 +294,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p>Track your <strong>Marks of Excellence (MoE)</strong> progress for the vehicle you have selected, in the Garage and live in battle. The mod reads the game's own MoE data and renders it with the client's own mark art and interface styling.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at <strong>65% / 85% / 95%</strong> — the 1 / 2 / 3-mark thresholds — each drawn with the client's own mark art. Every tick is labelled with the combined damage that mark requires, and the bar fills to your current standing. Above it, a readout shows your current average combined damage and your current mark percentage for the selected vehicle.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li></ul><p>&nbsp;</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle_kM1xcgc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -620,6 +666,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.2.0.zip",
+          "updatedAt": "2026-07-18T16:45:55.827Z",
+          "sizeBytes": 348737,
+          "fileName": "GarageProgressBar-Bundle_1.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "New \"Scale\" setting (Default / Large). Choose Large to render the bar wider with bigger text and icons — easier to read at a glance. Default keeps the current size.\nMoved to Aslain's ModsSettingsAPI and now bundles the ModsList API dependency.\nLarger, clearer tooltips — description text and icons are bigger and more legible."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_1.1.0.zip",
           "updatedAt": "2026-07-15T23:29:31.570Z",
@@ -670,8 +726,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar_1.1.0.zip",
-        "changeLog": "New \"Ignore Free XP\" option (off by default) — count only the combat XP earned on each vehicle toward its progress instead of your account's spendable Free XP. When on, the fill, per-item affordability, tooltips and the battles estimate all reflect combat XP only, and the bar shows the Combat-XP icon. Toggle it in the Modification list window (ModsSettingsAPI).",
+        "fileName": "GarageProgressBar-Bundle_1.2.0.zip",
+        "changeLog": "New \"Scale\" setting (Default / Large). Choose Large to render the bar wider with bigger text and icons — easier to read at a glance. Default keeps the current size.\nMoved to Aslain's ModsSettingsAPI and now bundles the ModsList API dependency.\nLarger, clearer tooltips — description text and icons are bigger and more legible.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -11457,7 +11513,7 @@
       "mark": null,
       "descriptionHtml": "<p><strong>Основний Калібр — мод для World of Tanks</strong></p><p>Мод показує в бою, скільки ще шкоди потрібно нанести для отримання медалі <strong>«Основний Калібр»</strong>.</p><p>На екрані з’являється компактна панель:</p><p>Основний Калібр: 4026</p><p>Цифра автоматично зменшується після нанесення шкоди ворогам. Коли потрібну кількість шкоди виконано, мод покаже:</p><p>Виконано!</p><p>Мод працює тільки у випадкових боях і не впливає на геймплей — він лише показує підказку на екрані.</p><p>В моді можна змінювати задній фон клавішами F12 та F11</p><p>Панель можна перетягувати по екрану та розташувати там, де зручно.</p>",
       "installationGuideHtml": "<p>Щоб встановити мод, скопіюйте вміст папки в папку з грою&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8-1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D1%96%D0%B1%D1%80.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7447/",
       "tagIds": [
         "22",
@@ -11465,6 +11521,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%9A%D0%B0%D0%BB%D1%96%D0%B1%D1%80_rrGSqdT.rar",
+          "updatedAt": "2026-07-18T16:50:07.781Z",
+          "sizeBytes": 152114,
+          "fileName": "Основний_Калібр_rrGSqdT.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.7",
@@ -11514,22 +11580,12 @@
           "fileName": "riddestro_main_gun_v1.5.rar",
           "fileExt": ".rar",
           "changeLog": "Оновлено під версію гри 2.2.0.1"
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/riddestro_main_gun_v1.4.rar",
-          "updatedAt": "2026-03-16T19:18:20.392Z",
-          "sizeBytes": 13339,
-          "fileName": "riddestro_main_gun_v1.4.rar",
-          "fileExt": ".rar",
-          "changeLog": "Виправлено роботу модав в інших режимах гри,тепер він там не відоображатиметься "
         }
       ],
       "latest": {
-        "fileName": "Основний_Калібр_8ZDG2wy.rar",
-        "changeLog": "Без змін",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "Основний_Калібр_rrGSqdT.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14498,7 +14554,7 @@
       "source": "wgmods",
       "sourceId": "7369",
       "title": "TahenRatte skin",
-      "ownerUsername": "LeIouch_vi_Britannia____",
+      "ownerUsername": "Snabb_xdxd",
       "languageCode": "en",
       "availableLanguageCodes": [
         "en"
@@ -29341,7 +29397,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>When loading into the game &amp; into the battle, you will have a background image from this mod.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/afd01223-c156-4d41-94a9-ae7f184f0c5e.png\"><figcaption><strong>Loading Game: 1 of 86</strong></figcaption></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ed78b87d-2a43-49f4-927b-e5e3d484391a.png\"><figcaption><strong>Loading Battle: 1 of the Standard Battle</strong></figcaption></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ea5836bf-d039-4764-af11-049e2e14d395.png\"><figcaption><strong>Minimap</strong></figcaption></figure><h2>Additionally third-party mods are used</h2><ul><li><a href=\"https://wgmods.net/5827/\">[Anime-Style Mod Collection] - Vinyl Edition</a> — Game exit image</li></ul><p><i><strong>Select \"Tips on the Battle loading Screen\" - only text, to reduce the frame, so the pictures on the right will be more visible.</strong></i></p>",
       "installationGuideHtml": "<ol><li>Download</li><li>Unzip</li><li>Copy the \"mods\" folder to \"[WoT game directory]\"</li></ol>",
@@ -29354,6 +29410,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.2.2 / 1.0.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unzip.RLoadingGameAndBattle_2.3.1.0.zip",
+          "updatedAt": "2026-07-18T16:50:18.809Z",
+          "sizeBytes": 101934383,
+          "fileName": "unzip.RLoadingGameAndBattle_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.2.2 / 1.0.10",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unzip.RLoadingGameAndBattle_2.3.0.0.zip",
@@ -29365,9 +29431,9 @@
         }
       ],
       "latest": {
-        "fileName": "unzip.RLoadingGameAndBattle_2.3.0.0.zip",
-        "changeLog": "Fix for Extra*",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "unzip.RLoadingGameAndBattle_2.3.1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -29445,16 +29511,6 @@
           "fileName": "TechTree_rLmNJj9.rar",
           "fileExt": ".rar",
           "changeLog": "2.3.1\nXM94 Shadow\tСША\tСТ-8\nChi-Go\tГермания\tСТ-7\n63TP Rycerski\tПольша\tТТ-9\nKolczatka\tПольша\tПТ-9\nDonnola\tИталия\tЛТ-9"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.2#41",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TechTree.rar",
-          "updatedAt": "2026-06-07T13:09:01.244Z",
-          "sizeBytes": 338774,
-          "fileName": "TechTree.rar",
-          "fileExt": ".rar",
-          "changeLog": "Добавлена вся актуальная техника."
         }
       ],
       "latest": {
@@ -32158,7 +32214,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p><strong>Hello, on the new YouTube channel you can see the first tank tests</strong></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=-OdTO8437fY&amp;t=648s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/-OdTO8437fY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=p11DgYdneek&amp;t=5s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/p11DgYdneek\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=o5FaMMimwLo&amp;t=52s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/o5FaMMimwLo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=1ljLJqQY45o\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/1ljLJqQY45o\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sV38Od4AkpY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sV38Od4AkpY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=i6hAVkMSrh8&amp;t=29s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/i6hAVkMSrh8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=T7rzy0F5WPI\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/T7rzy0F5WPI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=jLO8o7SwNfA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/jLO8o7SwNfA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=anvCGRTnHzo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/anvCGRTnHzo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=r4ttm7kwT6I\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/r4ttm7kwT6I\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=F0A0VIUJO2M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/F0A0VIUJO2M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sqzKDF7XU1g\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sqzKDF7XU1g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=TEAaR8w8WXs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/TEAaR8w8WXs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=m3g_20iswYY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/m3g_20iswYY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=SVo7QLo6Y18\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/SVo7QLo6Y18\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=X0YNKsZpa2k\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/X0YNKsZpa2k\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=LR-sD0EBqW8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/LR-sD0EBqW8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=XqEUkfSuAyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/XqEUkfSuAyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ns2AXECeLyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ns2AXECeLyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Gs3-RTq5a-M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Gs3-RTq5a-M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><a href=\"https://www.youtube.com/channel/UCDQYSyGRYwpo9vF2pHdVN8A\">War Mod Youtube</a></p><p><a href=\"https://aslain.com/index.php?/topic/24731-audio-12310-mody-dzwi%C4%99kowe-by-johntankpl14022024/#comment-118993\">War Mod New Forum</a></p><p><a href=\"https://www.mediafire.com/file_premium/6s6k1tclyjoat4l/War_Mod_Full.rar/file\">War Mod Full + Music</a></p><p><a href=\"https://wgmods.net/7064/\">War Mod Hits (new Project)</a></p><p><a href=\"https://www.mediafire.com/file/ouf70qkh6d00u9h/War_Mod_surface_hits.rar/file\">War Mod Surface Hits</a></p><p><a href=\"https://www.mediafire.com/file_premium/u5sbkyeymr7dj4y/War_Mod_EnginesV1.7.rar/file\">War Mod &nbsp;Engines V1.7 (Japan, China, Italy, Germany, Czechosłowiaka, Swedish)</a></p><p><a href=\"https://www.mediafire.com/file/fw91rubmxl9o6qg/War_Mod_Guns_Configuration_by_Nelumbo.rar/file\">War Mod Guns configs by Nelumbo_N</a></p><p><a href=\"https://www.mediafire.com/file/93uq9grwkgz6h29/War_Mod_Engines_configuration_by_Nelumbo.rar/file\">War Mod Engines configs by Nelumbo_N</a></p><p>Crew sounds:</p><p><a href=\"https://wgmods.net/3837/\">Fury</a></p><p><a href=\"https://wgmods.net/4506/\">War Thunder &nbsp;Crew Sounds</a></p><p>The mod is not finished yet, it took me a long time to create and it still requires some work.</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory</p>",
@@ -32168,6 +32224,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.37",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/War_Mod_GunsV.1.37.rar",
+          "updatedAt": "2026-07-18T13:56:39.058Z",
+          "sizeBytes": 1372952137,
+          "fileName": "War_Mod_GunsV.1.37.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.37",
@@ -32220,9 +32286,9 @@
         }
       ],
       "latest": {
-        "fileName": "War_Mod_GunsV.1.37_9f72Uaa.rar",
+        "fileName": "War_Mod_GunsV.1.37.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
