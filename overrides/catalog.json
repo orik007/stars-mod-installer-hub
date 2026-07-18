@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.07.040",
-  "sourceHash": "a6ff7e3f02282778c0cc713f64c5f8bd7fb011ebd067489298848ebc3af10088",
+  "catalogVersion": "v2026.07.041",
+  "sourceHash": "7ba5a39a3ea817436357b1bafbdeccb710196b231d75f2d528562aa12d046213",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7764",
+      "title": "Battle Timeline Results",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Adds a clean GameFace overlay to the post-battle results screen, showing your battle performance as a timeline graph.</p><p>See when the important moments happened: damage spikes, assist impact, blocked damage, damage taken, kills, and momentum swings. Great for reviewing your match and spotting when the battle started to collapse or turn around.</p><p><strong>Features</strong><br>✅ Damage dealt timeline<br>✅ Assist damage timeline<br>✅ Damage blocked timeline<br>✅ Damage taken timeline<br>✅ Kill markers<br>✅ Battle duration display<br>✅ Swing markers for big momentum windows<br>✅ Dynamic tier-based swing scaling<br>✅ Draggable overlay position<br>✅ Automatic scaling for different UI/game sizes<br>✅ Custom colors and visibility options via Aslain ModSettingsAPI</p><p><strong>Notes</strong></p><ul><li>Works on Random battle results</li><li>Client-side visual mod only</li><li>Does not affect gameplay, rewards, matchmaking, or server state</li><li>Uses live-known battle events, so hidden/blind damage may not appear at the exact moment it happened</li><li>If you leave a battle early, the graph shows what was recorded up to the point you left</li></ul><p>A neat little results-screen upgrade for players who like numbers, timelines, and figuring out where the match really changed. ⚔️</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-18_005826752.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7764/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_timeline_results.2.3.1.0.0.1.0.zip",
+          "updatedAt": "2026-07-17T23:00:25.771Z",
+          "sizeBytes": 672499,
+          "fileName": "gravity.battle_timeline_results.2.3.1.0.0.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.battle_timeline_results.2.3.1.0.0.1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7759",
@@ -54,7 +91,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 5,
+      "mark": 4.8,
       "descriptionHtml": "<p>This mod adds a Crucible tab to the Team Composition menu (opened with the Tab key), allowing you to track the progress of your current Crucible mission without leaving the battle.<br><br><strong>Work in progress:</strong> This is the first public version of the mod. More features, improvements, and additional mission support will be added in future updates.<br><br>Due to technical limitations, not every Crucible mission can be tracked accurately in real time.<br><br>Supported Crucible missions:<br>🟢 Deal 3,000 damage<br>🟢 Block 3,000 damage<br>🔴 Finish in the top 5 by XP on your team<br>🟢 Penetrate armor 8 times<br>🔴 Finish as the top damage dealer on your team<br>🟢 Destroy 3 vehicles<br>🟢 Block 2,500 HP of damage<br>🟢 Deal 4,000 damage<br>🔴 Finish as the top damage dealer in the battle<br>🟢 Critically damage 6 modules<br>🟢 Destroy 2 heavy tanks<br>🟢 Deal damage equal to 3× your vehicle's HP<br>🟢 Deal 2,500 damage within the first 5 minutes<br>🟢 Deal, receive, and block a total of 10,000 damage<br>🔴 Earn the High Caliber medal<br><br>Legend<br>🟢 Fully supported<br>🔴 Mission is displayed, but progress cannot be tracked in real time</p>",
       "installationGuideHtml": "<p>Place the downloaded wotmod file in the <i>&lt;WoT folder&gt;/mods/&lt;current version of the game&gt;</i> directory.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_copy.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -12830,6 +12867,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.4.wotmod",
+          "updatedAt": "2026-07-17T23:31:43.955Z",
+          "sizeBytes": 13689,
+          "fileName": "pruszko.responsive_reticle_1.0.4.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Version 1.0.4 comes with a safe guard optimization for calling certain heavy engine method too frequently. It might increase average FPS a little."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.3_pOWhM71.wotmod",
           "updatedAt": "2026-07-15T11:47:36.124Z",
@@ -12880,8 +12927,8 @@
         }
       ],
       "latest": {
-        "fileName": "pruszko.responsive_reticle_1.0.3_pOWhM71.wotmod",
-        "changeLog": "Updated for WoT 2.3.1.0",
+        "fileName": "pruszko.responsive_reticle_1.0.4.wotmod",
+        "changeLog": "Version 1.0.4 comes with a safe guard optimization for calling certain heavy engine method too frequently. It might increase average FPS a little.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -35730,8 +35777,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p>Modified version of the Tier V M4A1 Sherman&nbsp;</p><p>made to look like the M4A1(76)W Old Phyliss in the movie Fury</p><p>There are no plans for me to make remodels of Murder Inc, Lucy Sue and Matador.</p><p>Emblems and inscriptions might not work perfectly</p><p>~All requests will be ignored~</p>",
       "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Old_Phyliss_5CtOg7d.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -37036,7 +37083,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p>Slightly modified version of my old M4A3E2</p>\n<p>Emblems and inscriptions might not work perfectly</p>\n<p>~All requests will be ignored~</p>",
       "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
       "coverCatalogUrl": "https://wgmods.net/media/Gorilla_E2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -37747,7 +37794,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.5,
       "descriptionHtml": "<p>Modified version of the M18 Hellcat</p>\n<p>Emblems and inscriptions might not work perfectly.</p>\n<p>~All requests will be ignored~</p>",
       "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
       "coverCatalogUrl": "https://wgmods.net/media/M18.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
