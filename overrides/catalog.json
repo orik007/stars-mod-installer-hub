@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.043",
-  "sourceHash": "130dce0191e0c907ab7be2b0bc21d16af2e9ad9d02420c8e1de44d2ab6294588",
+  "catalogVersion": "v2026.07.044",
+  "sourceHash": "a5906ca4012dc177976adfeaa07c42f0aeac0d491a1dae00f1cae592e3ed3c09",
   "sources": [
     "wgmods",
     "modhub"
@@ -285,6 +285,43 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7752",
+      "title": "Overmatch.pro",
+      "ownerUsername": "Botzudo",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>The Overmatch.pro Replay Uploader automatically uploads your World of Tanks replay files to your <a href=\"https://overmatch.pro\">Overmatch.pro</a> account after each battle.</p><p>Once uploaded, your replays are processed in the cloud, giving you access to detailed post-battle analysis, including:</p><p>Interactive 2D replay viewer</p><p>Heatmaps and movement analysis</p><p>Vehicle and matchup statistics</p><p>Battle performance metrics</p><p>Automatic highlight generation</p><p>Long-term performance tracking</p><p>The mod runs in the background and requires no manual replay uploads.</p><p><strong>Features</strong></p><p>Automatic replay upload after every battle</p><p>Secure upload to your Overmatch account</p><p>No gameplay modifications</p><p>No competitive advantage or in-battle functionality</p><p>An Overmatch account is required to use this mod.</p><p>Learn more at <a href=\"https://overmatch.pro\"><strong>https://overmatch.pro</strong></a>.</p>",
+      "installationGuideHtml": "<ol><li>In World of Tanks: <strong>Settings → General → Save replays = All</strong>.</li><li>Extract the zip into your <strong>World of Tanks game folder</strong> (the one with WorldOfTanks.exe) — merge/overwrite the mods folder when asked. It installs into World_of_Tanks\\mods\\2.3.0.1\\ (matches your client version).</li><li>(Re)start World of Tanks.</li><li>Open <strong>Settings → mod settings → Overmatch</strong> and tick <strong>“Link my account.”</strong> A browser tab opens — confirm it's you, and you're done.</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_analytics_302x170.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7752/",
+      "tagIds": [
+        "22",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.4.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch.zip",
+          "updatedAt": "2026-07-19T12:17:48.570Z",
+          "sizeBytes": 237647,
+          "fileName": "overmatch.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "overmatch.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7745",
       "title": "14th_ua's MoE Calculator",
       "ownerUsername": "14th_ua",
@@ -354,16 +391,6 @@
           "fileName": "MoECalculator_0.3.0.zip",
           "fileExt": ".zip",
           "changeLog": "Settings toggles — a new in-game settings panel (via ModsSettingsAPI) lets you enable or\ndisable the Garage widget and the in-battle widget independently.\nResolution-robust garage widget — the hangar percentile bar now anchors reliably and matches\nthe tank-card box height across screen resolutions and interface scales.\nNative-styled tooltip — the garage MoE award tooltip now reuses World of Tanks' own tooltip\nlook.\nIn-battle overlay tweak — small horizontal position adjustment to the live in-battle overlay.\nBundles the ModsSettingsAPI dependency (added automatically by the installer if missing)."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "0.2.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_0.2.3.zip",
-          "updatedAt": "2026-07-11T11:10:55.257Z",
-          "sizeBytes": 115454,
-          "fileName": "MoECalculator_0.2.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "Maintenance release — internal cleanup and stability improvements. Updating is recommended."
         }
       ],
       "latest": {
@@ -666,6 +693,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.3.0.zip",
+          "updatedAt": "2026-07-19T12:17:30.118Z",
+          "sizeBytes": 350677,
+          "fileName": "GarageProgressBar-Bundle_1.3.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "New \"Progress Mode\" setting. Choose how the XP readout is shown: Current (just your accumulated XP) or Current / Required (your XP against what the next step needs), per bar mode. Configure it in the mod's settings panel.\nNew \"Show Progress %\" toggle. Optionally prepend the completion percentage (capped at 100%) to the left of the readout, so you can see at a glance how close the current step is."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.2.0.zip",
           "updatedAt": "2026-07-18T16:45:55.827Z",
@@ -713,21 +750,11 @@
           "fileName": "GarageProgressBar_0.6.4.zip",
           "fileExt": ".zip",
           "changeLog": "Correct research XP cost on convergent tech-tree nodes. Vehicle unlocks are now priced from the game's own tech-tree data (cheapest-available parent, with any blueprint discount already applied) instead of the currently-selected vehicle's edge. On a vehicle reachable from more than one parent with different costs the bar's confirmation dialog previously showed a higher XP cost than the native research button and could have overcharged the unlock. Both now match the game exactly."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "0.6.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.6.3.zip",
-          "updatedAt": "2026-07-09T13:28:23.743Z",
-          "sizeBytes": 160200,
-          "fileName": "GarageProgressBar_0.6.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "Coexists with other Gameface mods. The bar now detects which garage sub-views are already occupied and places itself on the first free one, so it no longer blanks out (or gets blanked by) other Gameface-based mods. If you ran into two garage bars fighting over the same spot, this fixes it."
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_1.2.0.zip",
-        "changeLog": "New \"Scale\" setting (Default / Large). Choose Large to render the bar wider with bigger text and icons — easier to read at a glance. Default keeps the current size.\nMoved to Aslain's ModsSettingsAPI and now bundles the ModsList API dependency.\nLarger, clearer tooltips — description text and icons are bigger and more legible.",
+        "fileName": "GarageProgressBar-Bundle_1.3.0.zip",
+        "changeLog": "New \"Progress Mode\" setting. Choose how the XP readout is shown: Current (just your accumulated XP) or Current / Required (your XP against what the next step needs), per bar mode. Configure it in the mod's settings panel.\nNew \"Show Progress %\" toggle. Optionally prepend the completion percentage (capped at 100%) to the left of the readout, so you can see at a glance how close the current step is.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -4916,7 +4943,7 @@
       "mark": null,
       "descriptionHtml": "<p>This is a custom remake of the Magnus 3D style from Mir Tankov, I remade the 2D textures so it looks like a mix between immortal and Leviathan, The model will not be overwrited by a 2D style so you'll be able to put a 2D style on it without it modifiying the look of the tank</p>",
       "installationGuideHtml": "<p>Paste the wotmod into the mods folder, latest version usually all the way down<br>ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.06.29_-_15.11.25.65_kQOlvOR.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.06.29_-_15.11.44.91_wbfoDm1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7624/",
       "tagIds": [
         "16",
@@ -4971,7 +4998,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>This is a custom remake of the Kinetic 3D style from Mir Tankov (I don't own the textures), I remade the 2D textures so it looks like a 3D skin from the Waffentrager event, Barrel does glow like on the image, It is possible to add a 2D style on top of it since it overwrites the base texture of the tank, some combinations work, some don't :)</p>",
+      "descriptionHtml": "<p>This is a custom remake of the Kinetic 3D style from Mir Tankov (I don't own the textures), I remade the 2D textures so it looks like a 3D skin from the Waffentrager event, Barrel does glow like on the image, 2D styles won't overwrite the base texture, so you can put any 2D style for the camo bonus while keeping it clean</p>",
       "installationGuideHtml": "<p>Paste the wotmod into the mods folder, latest version usually all the way down<br>ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.06.29_-_15.19.06.10_zKiYn3c.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7623/",
@@ -8738,6 +8765,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.7.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.7.2.zip",
+          "updatedAt": "2026-07-19T08:20:46.252Z",
+          "sizeBytes": 406072301,
+          "fileName": "WotVSWAPS-V1.7.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "fixed some issues regarding textures and added more tanks"
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.7.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.7.1.zip",
@@ -8789,9 +8826,9 @@
         }
       ],
       "latest": {
-        "fileName": "WotVSWAPS-V1.7.1.zip",
-        "changeLog": "Fixed an issue regarding the E100, added Conway Swap, Fixed missing textures for the Canopener",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "WotVSWAPS-V1.7.2.zip",
+        "changeLog": "fixed some issues regarding textures and added more tanks",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -22585,7 +22622,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>Calculates the sensitivity for sniperMode from the multiplier (slider in settings) of arcadeMode. The sniperMode multiplier is ignored.</p><p>The multiplier(slider in settings) arcadeMode adjusts the sensitivity for both arcadeMode and sniperMode, creating scalability of sensitivity on the monitor when changing FoV(Arcade, Zoom x2, etc).</p><h2>How it works</h2><blockquote><p><i>Aspect ratio is the ratio between the width and height of the screen</i></p></blockquote><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/8ded7f2c-deff-4c1a-9e0b-0c8f5b361a1c.png\"></figure><p><strong>MDV</strong> - <i>does not depend on aspect ratio</i></p><p><strong>MDH</strong> - <i>directly dependent on aspect ratio</i></p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/096754c5-232c-428f-9fc4-418d8d2b8656.png\"><figcaption><i>Monitor Distance Horizontal</i></figcaption></figure><p>There are 7 methods to choose from:</p><ul><li><strong>Focal Length ( </strong>Recommended for everyone <strong>)</strong> - <i>MDV(H) 0% - means that the speed of tracking a moving target will be the same</i></li><li><strong>Jedi's Trick</strong> - <i>this method is using the average 360 distance between MDV 0% and MDV 100% for the conversion</i></li><li><strong>MDV 100%</strong> - <i>this is exactly the same as the MDH, but is instead using the vertical FOV</i></li><li><strong>MDV 133%</strong> - <i>this is exactly the same as the MDH, but is instead using the vertical FOV</i></li><li><strong>MDH 60%</strong> - <i>means moving the crosshair to aim at 60% of the distance between the crosshair and the edge of the monitor is the same</i></li><li><strong>MDH 75%</strong> - <i>means moving the crosshair to aim at 75% of the distance between the crosshair and the edge of the monitor is the same</i></li><li><strong>MDH 100%</strong> - <i>will match the movement to aim at something at the edge of the monitor</i></li></ul><p>Example from popular games:, with multiplier \"1\":</p><ul><li>CS2(CS:GO) -<strong> MDV 133%</strong></li><li>RUST - <strong>MDV 100%</strong></li><li>VALORANT - <strong>MDH 100%</strong></li><li>Apex Legends - <strong>Focal Length(0%)</strong></li></ul><p>Example of sensitivity calculation with mod in WoT:</p><p>arcadeMode sensitivity = 1; sniperMode = Zoom: x2, x4, x8;</p><p>Zoom = sniperMode sensitivity</p><blockquote><p><strong>note</strong>: <i>the sensitivity values x2, x4, x8 are not for “<strong>preferences.xml</strong>” but for demonstration</i></p></blockquote><p><strong>Focal Length</strong></p><ul><li>x2 = <strong>0.47180057</strong></li><li>x4 = <strong>0.232665</strong></li><li>x8 = <strong>0.11593625</strong></li></ul><p><strong>Jedi's Trick</strong></p><ul><li>x2 = <strong>0.485491</strong></li><li>x4 = <strong>0.241021</strong></li><li>x8 = <strong>0.1202975</strong></li></ul><p><strong>MDV 100%</strong></p><ul><li>x2 = <strong>0.5</strong></li><li>x4 = <strong>0.25</strong></li><li>x8 = <strong>0.125</strong></li></ul><p><strong>MDV 133%</strong></p><ul><li>x2 = <strong>0.518795</strong></li><li>x4 = <strong>0.2620565</strong></li><li>x8 = <strong>0.131372</strong></li></ul><p><strong>MDH 60%</strong></p><ul><li>x2 = <strong>0.503505</strong></li><li>x4 = <strong>0.252216</strong></li><li>x8 = <strong>0.126108</strong></li></ul><p><strong>MDH 75%</strong></p><ul><li>x2 = <strong>0.518795</strong></li><li>x4 = <strong>0.2620565</strong></li><li>x8 = <strong>0.131372</strong></li></ul><p><strong>MDH 100%</strong></p><ul><li>x2 = <strong>0.547274</strong></li><li>x4 = <strong>0.281204</strong></li><li>x8 = <strong>0.14161825</strong></li></ul><h2>How to use</h2><ul><li>Adjust the arcadeMode sensitivity using the slider in the game settings</li></ul><p><i><strong>or</strong></i></p><ul><li>Adjust sensitivity by multiplier in the “<strong>preferences.xml</strong>” file at the path:</li></ul><ol><li>Go to %APPDATA%\\wargaming.net\\WorldOfTanks</li><li>Edit preferences.xml</li><li>Change &lt;sensitivity&gt; in &lt;arcadeMode&gt;</li><li>Save your changes</li></ol><p><strong>or</strong></p><ul><li><a href=\"https://github.com/vacsav/sensitivity-setup-for-aim-mode\">Sensitivity setup for aim-mode</a></li></ul><h2>Features</h2><ul><li>Does not require updating for the game version</li><li>Works without API</li></ul><h2>Compatibility</h2><ul><li>This mod should be compatible with almost everything</li></ul><h2>Source code</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/vacsav/aimpro-monitor-distance-sensitivity\">Github repository</a></p><h2>Contributions</h2><p>Thanks to:</p><ul><li><a href=\"https://wgmods.net/search/?owner=452180\">Pruszko</a> - <i>for the implementation of the code</i></li></ul><h2>For nerds</h2><ul><li><a href=\"https://www.mouse-sensitivity.com/forums/topic/4704-conversion-method-guide-and-other-faqs/\">Conversion method guide. (and other FAQ's)</a></li><li><a href=\"https://www.mouse-sensitivity.com/forums/topic/8190-error-mathematics/\">Error Mathematics</a></li><li><a href=\"https://youtu.be/RYCrGAJshvQ\">Mouse Sensitivity - Monitor Distance Guide</a></li><li><a href=\"https://www.mouse-sensitivity.com/\">Mouse Sensitivity</a></li><li><a href=\"https://sheet.zohopublic.eu/sheet/published/fzegf41a48bbb4bf2473dbbeb4d24452d3df6\">Useful guidelines - WoT</a></li></ul><h2>Contact</h2><p><a href=\"https://discord.gg/world-of-tanks\">WoT Official Discord</a></p><blockquote><p><strong>note</strong>: please do not disturb <strong>Pruszko</strong> unnecessarily</p></blockquote><p><strong>Pruszko</strong> as @<strong>Pruszko [EU] </strong>in<strong> [EN]</strong> | <strong>[PL]</strong></p><p><strong>shuxue</strong> as @<strong>shuxue</strong> <strong>[EU] </strong>in<strong> [EN]</strong> | <strong>[RU]</strong></p>",
       "installationGuideHtml": "<ol><li>Download</li><li>Unzip</li><li>Choose 1 of 7 methods</li><li>Copy the selected \"AimPro-method.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory</li><li>In config.json: you can configure additional coefficients</li></ol>",
@@ -22598,6 +22635,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unzip.AimPro.zip",
+          "updatedAt": "2026-07-19T12:16:36.545Z",
+          "sizeBytes": 32813,
+          "fileName": "unzip.AimPro.zip",
+          "fileExt": ".zip",
+          "changeLog": "Optimized and improvement the code"
+        },
+        {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.4.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unzip.AimPro_q9ollrL.zip",
@@ -22609,9 +22656,9 @@
         }
       ],
       "latest": {
-        "fileName": "unzip.AimPro_q9ollrL.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "unzip.AimPro.zip",
+        "changeLog": "Optimized and improvement the code",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -26184,7 +26231,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 3.9,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=I6F6BUIbAdU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/I6F6BUIbAdU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36791,6 +36838,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "4.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.3.0.wotmod",
+          "updatedAt": "2026-07-19T11:51:46.740Z",
+          "sizeBytes": 33609961,
+          "fileName": "wotinspector.com.armor_inspector.4.3.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "support wot 2.3.1\nadded past wot versions list"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "4.1.9",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.1.9.wotmod.zip",
           "updatedAt": "2026-07-14T13:38:01.954Z",
@@ -36838,21 +36895,11 @@
           "fileName": "wotinspector.com.armor_inspector.4.1.5.wotmod_ukv5ici.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "4.1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.1.5.wotmod.zip",
-          "updatedAt": "2026-04-15T06:14:34.307Z",
-          "sizeBytes": 34255079,
-          "fileName": "wotinspector.com.armor_inspector.4.1.5.wotmod.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "wotinspector.com.armor_inspector.4.1.9.wotmod.zip",
-        "changeLog": "",
+        "fileName": "wotinspector.com.armor_inspector.4.3.0.wotmod",
+        "changeLog": "support wot 2.3.1\nadded past wot versions list",
         "wotGameVersionCompatibility": "safe"
       }
     },
