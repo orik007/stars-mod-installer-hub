@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.043",
+  "catalogVersion": "v2026.07.044",
   "mods": [
     {
       "source": "wgmods",
@@ -104,6 +104,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7752",
+      "title": "Overmatch.pro",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "In World of Tanks: Settings → General → Save replays = All . Extract the zip into your World of Tanks game folder (the one with WorldOfTanks.exe) — merge/overwrite the mods folder when asked. It installs into World_of_Tanks\\mods\\2.3.0.1\\ (matches your client version). (Re)start World of Tanks. Open Settings → mod settings → Overmatch and tick “Link my account.” A browser tab opens — confirm it's you, and you're done."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game root folder; extra settings/account-link steps are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -9789,13 +9804,13 @@
       "sourceId": "2319",
       "title": "Armor Inspector - collision models, internal modules, penetration",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download wotmod.zip file and extract into mods/<current version> folder When the mod is installed properly, the button Armor Inspector will appear it the mods menu in the bottom right corner. Shots from the last battle are automatically accessible when you open Armor Inspector."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide tells to extract into mods/<current version> folder.",
+        "decisionReason": "Plain .wotmod package and guide targets mods/<current version>.",
         "deleteDataWgpdc": false
       }
     },
