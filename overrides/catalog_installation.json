@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.044",
+  "catalogVersion": "v2026.07.045",
   "mods": [
     {
       "source": "wgmods",
@@ -9970,13 +9970,13 @@
       "title": "Avalon's Conway 'Viper'",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION”"
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>; guide also explicitly mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
       }
     },
     {
