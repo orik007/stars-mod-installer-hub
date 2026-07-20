@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.045",
+  "catalogVersion": "v2026.07.046",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7763",
+      "title": "T57 Heavy in  Mirny theme",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 152mm gun sound effect."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6301",
+      "title": "ByForMOD: Reload ☢ OLD FPS +",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "ByForMOD Reload Installation Guide Open Wargaming Game Center (WGC) → Game Settings → Show in Folder . Extract the contents of the archive ( ByForMOD.tar and ByForMODinstall.bat ) into the game's root directory (the folder containing WorldOfTanks.exe ). Run ByForMODinstall.bat . The installer will automatically detect your game version and extract the required files. Wait until the console finishes. When SUCCESS appears, press any key to exit. Uninstalling the Mod Run uninstall.bat from the game's root directory. It will automatically remove all mod files and clean up the installation."
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires extracting to game root and then running included batch installer, a multi-step unsupported process.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7762",
@@ -9186,6 +9216,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "4060",
+      "title": "Avalon's Strv 81 'Lollo'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "3837",
       "title": "Crew Sound Mod",
       "classificationInput": {
@@ -9711,6 +9756,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "2619",
+      "title": "Avalon's Pz. Befw. VIB Tiger II 'Faust'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "2610",
       "title": "RazerTeck's SU-122-44",
       "classificationInput": {
@@ -9951,6 +10011,81 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "1559",
+      "title": "Avalon's Tiger I 'Jager'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1518",
+      "title": "Avalon's ISU-130 'Stalin's Fury'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1519",
+      "title": "Avalon's ISU-152-2 'Stalin's Hammer'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1520",
+      "title": "Avalon's T-44-100 'Hunter'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1517",
+      "title": "Avalon's ISU-122S 'Stalin's Might'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "1507",
       "title": "Avalon's Centurion Action X 'Dreadnought'",
       "classificationInput": {
@@ -9976,6 +10111,36 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>; guide also explicitly mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1516",
+      "title": "Avalon's M-51 Super Sherman",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1511",
+      "title": "Avalon's Centurion Mk. 3 'Fireball'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; guide also mentions deleting data.wgpdc.",
         "deleteDataWgpdc": true
       }
     },
