@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.048",
+  "catalogVersion": "v2026.07.049",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7758",
+      "title": "WotAceReplays Mods Pack",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download and run the WotAceReplays Mods Pack installer. 2. On the \"Game\" step, select your World of Tanks installation folder (auto-detected if possible). 3. On the \"Mods\" step, choose the mods you want — toggle individual mods on/off, or pick one option where only a single choice is allowed (e.g. sky preset, crew voiceover). 4. Review your selection on the \"Summary\" step and click \"Start installation.\" 5. Launch World of Tanks — your selected mods are ready to use."
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires running an installer with UI steps and component selection; no supported manual file-copy option is provided.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7767",
