@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.047",
+  "catalogVersion": "v2026.07.048",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7767",
+      "title": "Onslaught Camera Fix",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the downloaded wotmod file in the <WoT folder>/mods/<current version of the game> directory."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7763",
