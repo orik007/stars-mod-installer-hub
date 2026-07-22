@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.051",
+  "catalogVersion": "v2026.07.052",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7770",
+      "title": "Darling in the FRANXX - UI Theme (Anime Screencaps)",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package with empty guide defaults to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7758",
@@ -230,7 +245,7 @@
     {
       "source": "wgmods",
       "sourceId": "7747",
-      "title": "Personal Mission 2 Auto Reset",
+      "title": "Object 279 Mission Auto Reset",
       "classificationInput": {
         "latestFileExt": ".zip",
         "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (this build is for 2.3.0.1, and the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place."
