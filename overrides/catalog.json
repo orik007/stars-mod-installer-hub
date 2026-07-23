@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.056",
-  "sourceHash": "aaa961fed3d567899e06418240d3765df2b6d0fea0547e72bf6ea27282ebf058",
+  "catalogVersion": "v2026.07.057",
+  "sourceHash": "cb2fa7b0b297a402f027218bc112cd0584b3d352979b88b1a7fbb1959cd50a2c",
   "sources": [
     "wgmods",
     "modhub"
@@ -504,6 +504,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_dwBv0XV.zip",
+          "updatedAt": "2026-07-23T16:50:13.952Z",
+          "sizeBytes": 295619,
+          "fileName": "overmatch_dwBv0XV.zip",
+          "fileExt": ".zip",
+          "changeLog": "Linking your account is now a one-click button in the mod settings — Link or Unlink, with a clear status showing whether you're connected.\nFixed battle results for games you leave early or never open sometimes popping up over a newer battle — they're now captured quietly in the background."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.4.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch.zip",
           "updatedAt": "2026-07-19T12:17:48.570Z",
@@ -514,8 +524,8 @@
         }
       ],
       "latest": {
-        "fileName": "overmatch.zip",
-        "changeLog": "",
+        "fileName": "overmatch_dwBv0XV.zip",
+        "changeLog": "Linking your account is now a one-click button in the mod settings — Link or Unlink, with a clear status showing whether you're connected.\nFixed battle results for games you leave early or never open sometimes popping up over a newer battle — they're now captured quietly in the background.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2083,28 +2093,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.1.wotmod",
-          "updatedAt": "2026-07-23T12:54:39.000Z",
-          "sizeBytes": 479488,
-          "fileName": "gravity.camo_selector.2.3.1.0.2.1.1.wotmod",
+          "modVersion": "2.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.2.wotmod",
+          "updatedAt": "2026-07-23T14:01:44.174Z",
+          "sizeBytes": 484017,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.2.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Fixed an issue where deleted or missing local custom assets could leave orphaned camouflage references in the hangar, causing repeated Python errors and making Exterior/hangar UI actions stop responding."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.0.wotmod",
-          "updatedAt": "2026-07-22T13:24:12.941Z",
-          "sizeBytes": 477585,
-          "fileName": "gravity.camo_selector.2.3.1.0.2.1.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Major update: Custom Assets\n\n- Added local custom asset manager for emblems, inscriptions, decals, camouflages, and paints.\n- PNG/JPG imports now auto-convert to DDS for tank-renderable assets.\n- DDS uploads are validated for format, size, compression, and mipmaps.\n- Custom decals now render on tanks and support 1:1, 1:2, 1:3, 1:4, and 1:6 ratios.\n- Custom camouflages now support scale and rotation controls with exact input and reset.\n- Custom paints can be created with color, gloss, and metallic values.\n- Custom assets stay grouped at the end of the carousel and refresh after upload.\n- Improved Exterior performance by avoiding unnecessary carousel rebuilds.\n- Fixed switching from applied 2D styles to custom assets starting from a clean tank.\n- Fixed Vehicle Hub / Armor Inspector using outdated custom outfits.\n- Local custom assets are excluded from Style Share because other players do not have the files."
+          "changeLog": "Added exact keyboard input for paint gloss and metallic values, improved numeric input handling so values no longer snap while typing, and fixed special characters such as ä, ö, and ü in custom asset names."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.1.wotmod",
-        "changeLog": "Fixed an issue where deleted or missing local custom assets could leave orphaned camouflage references in the hangar, causing repeated Python errors and making Exterior/hangar UI actions stop responding.",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.2.wotmod",
+        "changeLog": "Added exact keyboard input for paint gloss and metallic values, improved numeric input handling so values no longer snap while typing, and fixed special characters such as ä, ö, and ü in custom asset names.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6241,6 +6241,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.6.exe",
+          "updatedAt": "2026-07-23T16:49:25.314Z",
+          "sizeBytes": 154877078,
+          "fileName": "Way_to_Valhalla_1.6.exe",
+          "fileExt": ".exe",
+          "changeLog": "update to game version"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.4_zHcCL1z.exe",
           "updatedAt": "2026-07-20T08:53:37.326Z",
@@ -6291,8 +6301,8 @@
         }
       ],
       "latest": {
-        "fileName": "Way_to_Valhalla_1.4_zHcCL1z.exe",
-        "changeLog": "updete",
+        "fileName": "Way_to_Valhalla_1.6.exe",
+        "changeLog": "update to game version",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6439,18 +6449,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.3.1.0.1.7.zip",
-          "updatedAt": "2026-07-14T18:02:43.056Z",
-          "sizeBytes": 98140,
-          "fileName": "gravity.custom_personal_record.2.3.1.0.1.7.zip",
+          "modVersion": "1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.3.1.0.1.8_iqVtRNw.zip",
+          "updatedAt": "2026-07-23T13:02:59.997Z",
+          "sizeBytes": 175175,
+          "fileName": "gravity.custom_personal_record.2.3.1.0.1.8_iqVtRNw.zip",
           "fileExt": ".zip",
-          "changeLog": ""
+          "changeLog": "Fixed startup crash on WoT 2.3.1.0 caused by removed service-record customization validation APIs. Updated background/ribbon validation for current client compatibility."
         }
       ],
       "latest": {
-        "fileName": "gravity.custom_personal_record.2.3.1.0.1.7.zip",
-        "changeLog": "",
+        "fileName": "gravity.custom_personal_record.2.3.1.0.1.8_iqVtRNw.zip",
+        "changeLog": "Fixed startup crash on WoT 2.3.1.0 caused by removed service-record customization validation APIs. Updated background/ribbon validation for current client compatibility.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -17721,7 +17731,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p><strong>READ! </strong><i>When battle starts, use Page UP, or mouse zoom so camera updates with the mod, it is a bug from the game</i></p><p>Use<strong> PAGE UP</strong> or <strong>PAGE DOWN </strong>keys to change zooms by minuscule amounts to your liking</p><ul><li><strong>Recommend </strong>around 110° FOV &nbsp;in graphics settings, or more</li><li><strong>BUT </strong>it also dynamically adjusts based on tank speed, meaning if you drive fast tanks the camera slowly adjusts to the default position to maintain situational awareness</li><li>If you have requests about the mod, share in comments</li></ul><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Copy the mod into<strong> \"</strong>World_of_Tanks\\mods\\<i><strong>Your Last version</strong></i><strong>\"</strong></p>",
@@ -17732,30 +17742,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.0.0.2",
-          "modVersion": "1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LowerCam1.5.wotmod",
-          "updatedAt": "2025-10-02T12:32:23.465Z",
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LowerCam1.6_2FDHPew.wotmod",
+          "updatedAt": "2026-07-23T17:24:42.104Z",
           "sizeBytes": 6500,
-          "fileName": "LowerCam1.5.wotmod",
+          "fileName": "LowerCam1.6_2FDHPew.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Updated to 2.0.0.2\nImproved the cam"
-        },
-        {
-          "wotGameVersion": "1.29.1.1",
-          "modVersion": "1.02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ImmersiveLoweredCameraV1.02_4fnnVIv.wotmod",
-          "updatedAt": "2025-08-21T07:27:14.728Z",
-          "sizeBytes": 6500,
-          "fileName": "ImmersiveLoweredCameraV1.02_4fnnVIv.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Fixed the dynamic camera"
+          "changeLog": "Better cam angle"
         }
       ],
       "latest": {
-        "fileName": "LowerCam1.5.wotmod",
-        "changeLog": "Updated to 2.0.0.2\nImproved the cam",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "LowerCam1.6_2FDHPew.wotmod",
+        "changeLog": "Better cam angle",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -23394,9 +23394,9 @@
       ],
       "recommended": true,
       "mark": 4.7,
-      "descriptionHtml": "<p>Penetrations, ricochets in sniper and arcade modes</p><p><a href=\"https://discord.gg/csyADJf68w\">Discord</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=iFwwJR7MPIU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/iFwwJR7MPIU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=50p3v66P6u8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/50p3v66P6u8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "descriptionHtml": "<p>Penetrations, ricochets in sniper and arcade modes</p><p><a href=\"https://discord.gg/csyADJf68w\">Discord</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=a4G9mHqei1M&amp;t=3s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/a4G9mHqei1M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=iFwwJR7MPIU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/iFwwJR7MPIU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=50p3v66P6u8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/50p3v66P6u8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/1_vs_3_2_m9JPjlq.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ba50e967-26ab-483f-b2b4-6d567e23b8b3.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7064/",
       "tagIds": [
         "17"
@@ -40805,16 +40805,6 @@
           "fileName": "SicFunzler-Mod_V300_Installer.exe",
           "fileExt": ".exe",
           "changeLog": "Mit eigenen Installer jetzt zum Auswählen "
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "V228",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V228_Installer.exe",
-          "updatedAt": "2026-06-03T20:43:30.233Z",
-          "sizeBytes": 294108043,
-          "fileName": "SicFunzler-Mod_V228_Installer.exe",
-          "fileExt": ".exe",
-          "changeLog": "Update 2.3.0.0"
         }
       ],
       "latest": {
