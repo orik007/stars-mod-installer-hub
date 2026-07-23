@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.055",
+  "catalogVersion": "v2026.07.056",
   "mods": [
     {
       "source": "wgmods",
@@ -7981,6 +7981,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide points to mods/<version> by placing the wotmod file there after extraction.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6281",
+      "title": "Reworked Camera",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download Unzip Copy the \"mods\" folder to \"[WoT game directory]\" Be sure to turn on the additional zooms and tactical view in the \"General\" settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy the included mods folder to the WoT game directory, which is a game root extraction operation.",
         "deleteDataWgpdc": false
       }
     },

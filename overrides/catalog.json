@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.055",
-  "sourceHash": "4f6263fe8802d0bed3a49b87d48b2aa0511aef5264b3f935996ea66e22065d7c",
+  "catalogVersion": "v2026.07.056",
+  "sourceHash": "aaa961fed3d567899e06418240d3765df2b6d0fea0547e72bf6ea27282ebf058",
   "sources": [
     "wgmods",
     "modhub"
@@ -2083,6 +2083,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.1.wotmod",
+          "updatedAt": "2026-07-23T12:54:39.000Z",
+          "sizeBytes": 479488,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed an issue where deleted or missing local custom assets could leave orphaned camouflage references in the hangar, causing repeated Python errors and making Exterior/hangar UI actions stop responding."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.0.wotmod",
           "updatedAt": "2026-07-22T13:24:12.941Z",
@@ -2093,8 +2103,8 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.0.wotmod",
-        "changeLog": "Major update: Custom Assets\n\n- Added local custom asset manager for emblems, inscriptions, decals, camouflages, and paints.\n- PNG/JPG imports now auto-convert to DDS for tank-renderable assets.\n- DDS uploads are validated for format, size, compression, and mipmaps.\n- Custom decals now render on tanks and support 1:1, 1:2, 1:3, 1:4, and 1:6 ratios.\n- Custom camouflages now support scale and rotation controls with exact input and reset.\n- Custom paints can be created with color, gloss, and metallic values.\n- Custom assets stay grouped at the end of the carousel and refresh after upload.\n- Improved Exterior performance by avoiding unnecessary carousel rebuilds.\n- Fixed switching from applied 2D styles to custom assets starting from a clean tank.\n- Fixed Vehicle Hub / Armor Inspector using outdated custom outfits.\n- Local custom assets are excluded from Style Share because other players do not have the files.",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.1.wotmod",
+        "changeLog": "Fixed an issue where deleted or missing local custom assets could leave orphaned camouflage references in the hangar, causing repeated Python errors and making Exterior/hangar UI actions stop responding.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -8360,7 +8370,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>This mod allows you to use an in-game interface to select from a large list of commander voices. It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation.&nbsp;</p><p>Note: requires a garage mod settings UI handled by these files:&nbsp;<br>- izeberg.modssettingsapi_1.7.0.wotmod&nbsp;<br>- me.poliroid.modslistapi_1.7.8.wotmod&nbsp;<br>- net.openwg.gameface_1.1.5.wotmod&nbsp;<br><br>If you have either Aslain or ProMod installed, you should have the necessary UI files.&nbsp;</p>",
+      "descriptionHtml": "<p>This mod allows you to use an in-game interface to select from a large list of commander voices. It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation.&nbsp;</p><p>Note: requires a garage mod settings UI handled by these files:&nbsp;<br>- izeberg.modssettingsapi_[latest version].wotmod&nbsp;<br>- me.poliroid.modslistapi_[latest version].wotmod&nbsp;<br>- net.openwg.gameface_[latest version].wotmod&nbsp;<br><br>If you have either Aslain or ProMod installed, you should have the necessary UI files.&nbsp;</p>",
       "installationGuideHtml": "<p>Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\<strong>current version' </strong>folder on your PC.</p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Commander_Selector_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7529/",
@@ -8446,7 +8456,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Most of the time in the game, in my experience, when one of your teammates says to \"Fall back!\", they are doing it for selfish reasons. Because they don't want you in a bush that they wanted to be in, or they don't want you to get damage because they want to get that damage. This is really annoying.&nbsp;<br><br>This mod is made to address that problem. The first option in the mod is to merely silence the person who tells you to retreat. It will instantly silence them for the rest of that match, but not blacklist them. The second option in the mod is to silence them immediately + add them to your blacklist.&nbsp;<br><br>When another player is silenced, Mr. T will say, \"Be quiet fool!\"&nbsp;</p><p>Note: requires a garage mod settings UI handled by these files:&nbsp;<br>- izeberg.modssettingsapi_1.7.0.wotmod&nbsp;<br>- me.poliroid.modslistapi_1.7.8.wotmod&nbsp;<br>- net.openwg.gameface_1.1.5.wotmod&nbsp;<br><br>If you have either Aslain or ProMod installed, you should have the necessary UI files. &nbsp;</p>",
+      "descriptionHtml": "<p>Most of the time in the game, in my experience, when one of your teammates says to \"Fall back!\", they are doing it for selfish reasons. Because they don't want you in a bush that they wanted to be in, or they don't want you to get damage because they want to get that damage. This is really annoying.&nbsp;<br><br>This mod is made to address that problem. The first option in the mod is to merely silence the person who tells you to retreat. It will instantly silence them for the rest of that match, but not blacklist them. The second option in the mod is to silence them immediately + add them to your blacklist.&nbsp;<br><br>When another player is silenced, Mr. T will say, \"Be quiet fool!\"&nbsp;</p><p>Note: requires a garage mod settings UI handled by these files:&nbsp;<br>- izeberg.modssettingsapi_[latest version].wotmod&nbsp;<br>- me.poliroid.modslistapi_[latest version].wotmod&nbsp;<br>- net.openwg.gameface_[latest version].wotmod&nbsp;<br><br>If you have either Aslain or ProMod installed, you should have the necessary UI files. &nbsp;</p>",
       "installationGuideHtml": "<p>Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\<strong>current version</strong>' folder on your PC.</p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Mr_T_Be_Quiet_Fool_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7528/",
@@ -29679,6 +29689,43 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "6281",
+      "title": "Reworked Camera",
+      "ownerUsername": "vcsv",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": true,
+      "mark": 4.7,
+      "descriptionHtml": "<p><strong>CommanderCam</strong> = Tactical View</p><ul><li>Reworked <strong>CommanderCam</strong></li></ul><p>There are 4 variants in the archive, they differ only in the return values for <strong>xZoom</strong>: x2, x4, x8;</p><p><strong>Zooms</strong>: x1, x2, x4, x8, x16, x25, x50;</p><ol><li><strong>[R]Camera</strong> = x50 &gt;&gt;&gt; x25 &gt;&gt;&gt; x16 &gt;&gt;&gt; x8 &gt;&gt;&gt; x4 &gt;&gt;&gt; x2 &gt;&gt;&gt; x1</li><li><strong>[R]Camera_x2</strong> = x50 &gt;&gt;&gt; x2; x25 &gt;&gt;&gt; x2; x16 &gt;&gt;&gt; x2; x8 &gt;&gt;&gt; x2; x4 &gt;&gt;&gt; x2; x2 &gt;&gt;&gt; x1;</li><li><strong>[R]Camera_x4</strong> = x50 &gt;&gt;&gt; x4; x25 &gt;&gt;&gt; x4; x16 &gt;&gt;&gt; x4; x8 &gt;&gt;&gt; x4; x4 &gt;&gt;&gt; x2; x2 &gt;&gt;&gt; x1;</li><li><strong>[R]Camera_x8</strong> = x50 &gt;&gt;&gt; x8; x25 &gt;&gt;&gt; x8; x16 &gt;&gt;&gt; x8; x8 &gt;&gt;&gt; x4; x4 &gt;&gt;&gt; x2; x2 &gt;&gt;&gt; x1;</li></ol><h2>Features</h2><ul><li>Does not require updating for the game version (But it's not certain)</li></ul><h2>Compatibility</h2><p>This mod should be compatible with almost everything:</p><blockquote><p>For mod<strong> </strong><a href=\"https://wgmods.net/50/\"><strong>PMOD</strong></a><strong> </strong>by default</p><p>if you use it <strong>PMOD </strong>together with <strong>Reworked Camera</strong>, <strong>PMOD</strong> will have priority in the settings. For <strong>Reworked Camera</strong> to work as intended, you must turn off the module: <strong>zoomDistance.json</strong>.</p></blockquote><blockquote><p><strong>OR</strong></p></blockquote><blockquote><p>If you install <strong>PMOD</strong> from modpacks, there may be other modules included, for example: <strong>zoomX.json</strong>, <strong>scrollSensitivity.json</strong> or other modules.</p></blockquote><h2>Source code</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/vacsav/world-of-tanks-mods/tree/main/reworkedcamera\">Github repository</a></p><h2>Contact</h2><p><a href=\"https://discord.gg/world-of-tanks\">WoT Official Discord</a></p><p><strong>shuxue</strong> as @<strong>shuxue</strong> <strong>[EU] </strong>in<strong> [EN]</strong> | <strong>[RU]</strong></p><h2>Answers to questions</h2><ul><li>Will there be a centered reticle variant in arcadeMode?</li></ul><p>Not at the moment, as I could not find a solution to the problem - dropping the reticle when scrolling the wheel, when exiting sniperMode.</p><ul><li>Is it possible to use the centered reticle versions that are now spreading on the net and on wgmods?</li></ul><p>I'll call these variants a history. You can use them, but I don't recommend it.</p><ul><li>How do reproduce the reticle drooping problem you're writing about?</li></ul><p>This is tested on a vanilla client or with the centered reticle mod. If vanilla, you need to be in postmortemMode, there the reticle is centered, use the keys PgUP and PgDn and you will see how it works. The same keys for the mod, but you can be in arcadeMode.</p>",
+      "installationGuideHtml": "<ol><li>Download</li><li>Unzip</li><li>Copy the \"mods\" folder to \"[WoT game directory]\"</li><li>Be sure to turn on the additional zooms and tactical view in the \"General\" settings.</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/raf750x1000075tfafafa_ca443f4786_03jPVkg.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/6281/",
+      "tagIds": [
+        "15",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.8.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unzip.RCamera_2.3.1.0.zip",
+          "updatedAt": "2026-07-23T11:54:11.507Z",
+          "sizeBytes": 34406,
+          "fileName": "unzip.RCamera_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "unzip.RCamera_2.3.1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "6283",
       "title": "La 7ème Compagnie",
       "ownerUsername": "steftoug",
@@ -40623,6 +40670,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1170",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_Mx2sxuY.zip",
+          "updatedAt": "2026-07-23T08:45:04.602Z",
+          "sizeBytes": 4168848,
+          "fileName": "ProMod_Mx2sxuY.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1169",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_0kITjm1.zip",
           "updatedAt": "2026-07-17T14:26:57.590Z",
@@ -40670,21 +40727,11 @@
           "fileName": "ProMod_D0y1EfE.zip",
           "fileExt": ".zip",
           "changeLog": "• Modpack: Updated to XVM Build 13.1.0.0031\n• Modpack: Updated Contour Icon AntiMirror Files\n• Modpack: Updated Battle Equipment\n• Modpack: Updated Spot Meter\n• Modpack: Updated Destroyed Vehicle Skins\n• Modpack: Updated Advanced AutoAim\n• Modpack: Updated Armor Penetration Calculator\n• Modpack: Added Aslain ModSettingsApi"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1160",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_lqJ8FRB.zip",
-          "updatedAt": "2026-06-03T10:07:56.931Z",
-          "sizeBytes": 4167596,
-          "fileName": "ProMod_lqJ8FRB.zip",
-          "fileExt": ".zip",
-          "changeLog": "• Modpack: Updated to XVM Build 13.1.0.0026\n• Modpack: Updated Contour Icon AntiMirror Files\n• Modpack: Updated Contour Icon Packs\n• Modpack: Updated HRMOD Gun and Engine Sounds\n• Modpack: Updated PMOD Package\n• Modpack: Updated Battle Hits Viewer\n• Modpack: Updated Replay Manager\n• Modpack: Updated Gunmark Calculator\n• Modpack: Updated Skill4Ltu Index\n• Modpack: Updated Tomato.gg Logger\n• Modpack: Updated White destroyed Skins\n• Modpack: Updated Killshot Sounds\n• Modpack: Disabled -> Reduction Info\n• Modpack: Disabled -> Battle Button Changer\n• Modpack: Disabled -> Reduction Info"
         }
       ],
       "latest": {
-        "fileName": "ProMod_0kITjm1.zip",
-        "changeLog": "• Modpack: Updated AntiMirror\n• Modpack: Updated Battle Equipment\n• Modpack: Updated Armor Penetration Calculator\n• Modpack: Updated Enhanced modSettingsApi\n• Modpack: Updated PMOD Package\n• Modpack: Updated Dispersion Reticle\n• Modpack: Updated Hitmarker Pro\n• Modpack: Updated Advanced TechTree\n• Modpack: Updated Reduction Info\n• Modpack: Added Crucible Progress Tracker\n• Modpack: Removed War Mod Gun Sounds",
+        "fileName": "ProMod_Mx2sxuY.zip",
+        "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
     },
