@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.058",
+  "catalogVersion": "v2026.07.059",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7772",
+      "title": "DARK // Concept 5 - NEW GENERATION",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>; dependency note is non-blocking.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7773",
+      "title": "Avalon's T-10 'Volya'",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7770",
@@ -260,7 +290,7 @@
     {
       "source": "wgmods",
       "sourceId": "7746",
-      "title": "BP II <BLACK JUGGERNAUT>",
+      "title": "BP II <RESKIN>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
@@ -275,7 +305,7 @@
     {
       "source": "wgmods",
       "sourceId": "7744",
-      "title": "UDES 14 alt 5 <modified turret>",
+      "title": "UDES 14 alt 5 <RESKIN>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
@@ -364,21 +394,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7737",
-      "title": "Ho-Ri 3 <PURPLE DRAGON 3D STYLE>",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7733",
       "title": "DARK // KV-2-2-2 and KV-2x9",
       "classificationInput": {
@@ -410,7 +425,7 @@
     {
       "source": "wgmods",
       "sourceId": "7735",
-      "title": "IS-3-II <BATTLESHIP 3D STYLE>",
+      "title": "IS-3-II <RESKIN>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: You will have to delete the data.wgpdc file present in your WorldofTanks folder to load the new exhausts look"
