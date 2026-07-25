@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.060",
+  "catalogVersion": "v2026.07.061",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7776",
+      "title": "Wotreticle - customizable concentric rings",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the wotmod file into the mods/<version>/ directory, as usual. On the first run, res_mods/configs/wotreticle/config.json file will be created, you can edit it to customize reticle thickness, color and radius. Changes to the file will be picked up live, so you can play around with the values in the garage in the Settings -> Reticle tab, for example."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7774",
