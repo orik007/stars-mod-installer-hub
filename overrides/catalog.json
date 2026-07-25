@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.07.060",
-  "sourceHash": "287ed4d0de23f381a0d0c7c40c24b36736c3aea7c9a2e1e8a414103670c608c9",
+  "catalogVersion": "v2026.07.061",
+  "sourceHash": "ce37d21a8d5ce04c04960c7774623593a05276eadd5fafe1da4d543be9cd91b7",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7776",
+      "title": "Wotreticle - customizable concentric rings",
+      "ownerUsername": "Motgenror",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Customized game's Circle II reticle for arcade and sniper modes according to the user's config file, with hot reload.</p>",
+      "installationGuideHtml": "<p>Place the wotmod file into the mods/&lt;version&gt;/ directory, as usual.</p><p>On the first run, res_mods/configs/wotreticle/config.json file will be created, you can edit it to customize reticle thickness, color and radius.</p><p>Changes to the file will be picked up live, so you can play around with the values in the garage in the Settings -&gt; Reticle tab, for example.</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7776/",
+      "tagIds": [
+        "15"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotreticle-0.1.0-wot-2.3.1.0.wotmod",
+          "updatedAt": "2026-07-25T12:36:41.577Z",
+          "sizeBytes": 7222014,
+          "fileName": "wotreticle-0.1.0-wot-2.3.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "wotreticle-0.1.0-wot-2.3.1.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7774",
@@ -56,7 +92,7 @@
       "mark": null,
       "descriptionHtml": "<p>This is a custom made style for the IS-3-II, I was fed up with the fact there is a 3D style for the tier 8 and 10 but not on the best tank of the line. So, the hull has 6 fully functional exhausts, a visible engine, the turret of the Obj 265-II which was modified, the second gun you could get before 2.0 has been brought back which increases the battleship look, because F the top gun, it looks like trash, the stock turret was also modified so if you're grinding through the line you will have a remastered look for the stock turret as well,&nbsp;<br><br>The model supports a crash model for the stock and top turret</p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)</p><p>IMPORTANT: &nbsp;If you want the custom exhausts to work you will have to delete the data.wgpdc file present in your WorldofTanks folder&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.07.24_-_14.38.58.57.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/World_of_Tanks_Screenshot_2026.07.24_-_14.38.35.50.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7775/",
       "tagIds": [
         "16",
@@ -2143,18 +2179,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.4.wotmod",
-          "updatedAt": "2026-07-24T16:00:58.474Z",
-          "sizeBytes": 490167,
-          "fileName": "gravity.camo_selector.2.3.1.0.2.1.4.wotmod",
+          "modVersion": "2.1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.5.wotmod",
+          "updatedAt": "2026-07-25T12:29:57.275Z",
+          "sizeBytes": 492538,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.5.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": ""
+          "changeLog": "Fixed an issue where saved Camo Selector outfits with stale projection decal slot data could trigger a Wrong slotId for current outfit error when loading. Style projection decals are now restored more defensively and invalid saved projection decal slots are ignored."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.4.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.5.wotmod",
+        "changeLog": "Fixed an issue where saved Camo Selector outfits with stale projection decal slot data could trigger a Wrong slotId for current outfit error when loading. Style projection decals are now restored more defensively and invalid saved projection decal slots are ignored.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -33055,6 +33091,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KorbenTeamModpack_2.3.1.0_v3.exe",
+          "updatedAt": "2026-07-25T12:32:43.928Z",
+          "sizeBytes": 26215563,
+          "fileName": "KorbenTeamModpack_2.3.1.0_v3.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KorbenTeamModpack_2.3.1.0_v2.exe",
           "updatedAt": "2026-07-22T11:39:24.287Z",
@@ -33065,7 +33111,7 @@
         }
       ],
       "latest": {
-        "fileName": "KorbenTeamModpack_2.3.1.0_v2.exe",
+        "fileName": "KorbenTeamModpack_2.3.1.0_v3.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
