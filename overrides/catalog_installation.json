@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.059",
+  "catalogVersion": "v2026.07.060",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7774",
+      "title": "VK.28.01.105 <RESKIN>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7775",
+      "title": "IS-3-II <RESKIN>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: If you want the custom exhausts to work you will have to delete the data.wgpdc file present in your WorldofTanks folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>; guide also explicitly mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7772",
@@ -59,21 +89,6 @@
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
         "decisionReason": "Archive guide requires running an installer with UI steps and component selection; no supported manual file-copy option is provided.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7767",
-      "title": "Onslaught Camera Fix",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Place the downloaded wotmod file in the <WoT folder>/mods/<current version of the game> directory."
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -419,21 +434,6 @@
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
         "decisionReason": "Guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself.",
-        "deleteDataWgpdc": true
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7735",
-      "title": "IS-3-II <RESKIN>",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT: You will have to delete the data.wgpdc file present in your WorldofTanks folder to load the new exhausts look"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": true
       }
     },
