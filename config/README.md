@@ -280,9 +280,9 @@ The mod requires one selected variant:
 }
 ```
 
-The `allMaps` expression selects the `.wotmod` target path that does not contain `NoDarkMaps`.
+The `All maps` option (`allMaps`) selects the `.wotmod` target path that does not contain `NoDarkMaps`.
 
-The `noDarkMaps` expression selects the `.wotmod` target path that contains `NoDarkMaps`.
+The `No Dark Maps` option (`noDarkMaps`) selects the `.wotmod` target path that contains `NoDarkMaps`.
 
 `installation.txt` is not selected because it does not end with `.wotmod`.
 
