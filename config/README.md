@@ -130,7 +130,7 @@ Group
 - installationContent
 ```
 
-#### Fields
+Fields:
 
 - `id`: Stable technical identifier. It must not change when the displayed name changes.
 - `name`: Optional user-facing group title. It may be omitted for a group that should not render an additional heading.
@@ -155,6 +155,8 @@ A `multiple` group is rendered as checkboxes.
 
 For an optional `single` group, selecting the currently selected radio option again clears the selection.
 
+Group-level `installationContent` is included only when the group contains at least one selected option directly or in an active descendant group. This allows files shared by the whole selected subtree to be defined once on the group.
+
 ### Option
 
 An option is a concrete selectable item.
@@ -167,7 +169,7 @@ Option
 - installationContent
 ```
 
-#### Fields
+Fields:
 
 - `id`: Stable technical identifier within the configuration tree.
 - `name`: User-facing label.
@@ -250,8 +252,8 @@ The mod requires one selected variant:
             "groups": [],
             "options": [
               {
-                "id": "v1",
-                "name": "V1",
+                "id": "allMaps",
+                "name": "All maps",
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
@@ -260,8 +262,8 @@ The mod requires one selected variant:
                 }
               },
               {
-                "id": "v2",
-                "name": "V2",
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
@@ -278,9 +280,9 @@ The mod requires one selected variant:
 }
 ```
 
-The V1 expression selects the `.wotmod` target path that does not contain `NoDarkMaps`.
+The `allMaps` expression selects the `.wotmod` target path that does not contain `NoDarkMaps`.
 
-The V2 expression selects the `.wotmod` target path that contains `NoDarkMaps`.
+The `noDarkMaps` expression selects the `.wotmod` target path that contains `NoDarkMaps`.
 
 `installation.txt` is not selected because it does not end with `.wotmod`.
 
