@@ -240,12 +240,12 @@ The mod requires one selected variant:
   "mods": [
     {
       "source": "wgmods",
-      "sourceId": "<source ID>",
+      "sourceId": "6868",
       "title": "Pansy's Revamped Skies Volume 1",
       "configuration": {
         "groups": [
           {
-            "id": "sky-version",
+            "id": "skyVersion",
             "name": "Sky version",
             "required": true,
             "type": "single",

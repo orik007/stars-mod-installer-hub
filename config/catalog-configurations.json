@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "6868",
+      "title": "Pansy's Revamped Skies Volume 1",
+      "configuration": {
+        "groups": [
+          {
+            "id": "skyVersion",
+            "name": "Sky version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "allMaps",
+                "name": "All maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^(?!.*NoDarkMaps).*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^.*NoDarkMaps.*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
