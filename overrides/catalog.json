@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.062",
-  "sourceHash": "cee5eb33ec08685af8e3b806a80dbf245e47fe234b42795e80871710a7c549d1",
+  "catalogVersion": "v2026.07.063",
+  "sourceHash": "fa2f50121b93813372bb96385ee840907d95fb9b6efe9fd57ed785cd4d73c59f",
   "sources": [
     "wgmods",
     "modhub"
@@ -703,6 +703,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.5.0.zip",
+          "updatedAt": "2026-07-26T18:11:03.691Z",
+          "sizeBytes": 387575,
+          "fileName": "MoECalculator_1.5.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "In-battle MoE projection should now be closer at every mark threshold."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.4.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.4.0.zip",
           "updatedAt": "2026-07-22T11:54:15.081Z",
@@ -750,21 +760,11 @@
           "fileName": "MoECalculator_1.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "Battle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE.\nIn-battle overlay alignment — the overlay rows now line up with the game's native\nefficiency panel instead of sitting slightly high.\nBackdrop drift fixed — the row backdrops no longer creep out of alignment with their\ntext as rows stack."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.0.0.zip",
-          "updatedAt": "2026-07-15T07:25:28.319Z",
-          "sizeBytes": 227009,
-          "fileName": "MoECalculator_1.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "World of Tanks 2.3.1.0 support — the mod is retargeted to the 2.3.1.0 client.\nBattle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE."
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_1.4.0.zip",
-        "changeLog": "Garage widget repositioning. The hangar percentile bar can now be moved: Ctrl+drag it directly, or use the numeric X/Y steppers in settings, plus a Follow Carousel toggle. Includes a reset-to-default command.\nSaved settings survive upgrades. This release migrates values across the bump, so your configuration is preserved (Aslain ModsSettingsAPI; fail-soft to a fresh install).",
+        "fileName": "MoECalculator_1.5.0.zip",
+        "changeLog": "In-battle MoE projection should now be closer at every mark threshold.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1039,7 +1039,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/research_G6747NB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -2179,18 +2179,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.5.wotmod",
-          "updatedAt": "2026-07-25T12:29:57.275Z",
-          "sizeBytes": 492538,
-          "fileName": "gravity.camo_selector.2.3.1.0.2.1.5.wotmod",
+          "modVersion": "2.1.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.6.wotmod",
+          "updatedAt": "2026-07-26T18:26:01.778Z",
+          "sizeBytes": 515444,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.6.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Fixed an issue where saved Camo Selector outfits with stale projection decal slot data could trigger a Wrong slotId for current outfit error when loading. Style projection decals are now restored more defensively and invalid saved projection decal slots are ignored."
+          "changeLog": "Persisted local customization IDs across restarts, cleaned deleted assets from saved outfits, improved JSON save reliability, recalculated local-asset usage automatically, and repositioned the overlay button when the interface changes."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.5.wotmod",
-        "changeLog": "Fixed an issue where saved Camo Selector outfits with stale projection decal slot data could trigger a Wrong slotId for current outfit error when loading. Style projection decals are now restored more defensively and invalid saved projection decal slots are ignored.",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.6.wotmod",
+        "changeLog": "Persisted local customization IDs across restarts, cleaned deleted assets from saved outfits, improved JSON save reliability, recalculated local-asset usage automatically, and repositioned the overlay button when the interface changes.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5564,7 +5564,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 3.7,
+      "mark": 3.8,
       "descriptionHtml": "<p><strong>Armor Modpack</strong> is now available on <strong>WGMODS</strong></p><p>One of the longest-standing projects in the tanking community has officially moved to wgmods.net. With over 10 years of development behind it, the modpack has built up a collection of unique features many of which you won’t typically find in other popular setups.</p><p><strong>Armor Modpack</strong> focuses on functionality that goes beyond the usual “standard” bundles:</p><ul><li>A full <strong>account manager</strong> with multi-login support, allowing you to switch accounts quickly without leaving the game.</li><li>An <strong>AFK indicator</strong> to spot inactive players, along with the Observers mod.</li><li>An <strong>incognito </strong>mode that lets you stream your favorite game without worrying about streamsnipers.</li><li>An in-game <strong>radio </strong>and <strong>colored wrecks of destroyed tanks</strong>, making it easier to navigate cluttered battlefields.</li></ul><p>Overall, it’s a reliable and well-optimized option for players who want more than just updated sights offering specialized tools to enhance gameplay and fine-tune the client to their preferences.<br><br>If you have any questions about mods or settings, feel free to ask me on <strong>Telegram </strong>or <strong>Discord </strong>(buttons in the modpack)<br><br>If the author is not indicated, and the author wants to indicate it, please write to the Discord or Telegram channel and I will add it without any problems</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong></p><ul><li>Run the installer file.</li><li>Point it to your World of Tanks installation directory.</li><li>Select the desired mods and configuration options.</li><li>To modify your setup later, simply re-run the installer; your previous selections will be saved automatically.</li></ul><p><strong>Updating:</strong></p><ul><li>Keep the existing modpack installed — do not remove it.</li><li>Download and execute the latest installer version (your prior settings will be retained).</li><li>Follow the installation steps to complete the update.</li></ul><p><strong>Uninstallation:</strong></p><ul><li>Remove the modpack via Windows “Apps &amp; Features” (Add or Remove Programs) in the Control Panel.</li></ul>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Armor_ModPAck_T1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -13795,7 +13795,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Keep It Simple Stupid (KISS) Crosshairs</p><p>Mix and match of various sights versions by Andre V, compiled into one set by Grandpa</p><p>Includes strategic crosshairs for artillery</p><p>More remodels and mods @ <a href=\"https://grandpasmods.info\">Grandpa's Mods</a></p>",
+      "descriptionHtml": "<p>Keep It Simple Stupid (KISS) Crosshairs</p><p>Mix and match of various sights versions by Andre V, compiled into one set by Grandpa</p><p>More remodels and mods @ <a href=\"https://grandpasmods.info\">Grandpa's Mods</a></p>",
       "installationGuideHtml": "<p>Place wotmod files into current game mods directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_091_gj1UhwD.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7402/",
@@ -13803,6 +13803,16 @@
         "15"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "7.25.26",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/kiss_xhairs.wotmod",
+          "updatedAt": "2026-07-26T18:10:53.912Z",
+          "sizeBytes": 898015,
+          "fileName": "kiss_xhairs.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Update to latest game version, removed strategic crosshairs"
+        },
         {
           "wotGameVersion": "2.1.0.2",
           "modVersion": "12.24",
@@ -28650,7 +28660,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.8,
+      "mark": 4.7,
       "descriptionHtml": "<p>[The mod is fully-released as of v1.0!</p><p>Please inform me of any issues. I can be found in the WoT Discord under Desyatnik_Pansy [EU] and will probably have a dedicated mod thread for any problems]</p><p>&nbsp;</p><p>This mod involves edits to most of the Mirny-13 Related styles by adding effects from the mode itself or other styles (to be clear though the previews use a colour filter to look better, <strong>they will vary greatly in-game depending on map lighting and viewing angle</strong>).</p><p><strong>This will conflict with mods that edit multiple scripts as well as vehicle-specific files. Please be aware of this when installing the mod as any remodels/reskins related to the vehicles edited here will likely result in problems.</strong></p><p>It includes the following:</p><p><strong>Halloween 2020 Styles (AMX 13 90 Hornet, Centurion 7/1 Cerberus, M103 Goliath, T49 Grenadier, T-54 Malachite):</strong></p><p>-added (blue) Mirium effect to the collector tank on the back of the vehicle turret, custom lights to the hulls, custom camo/paint masks and restored Mirny 2019 Stage I Camo/Stripes</p><p><strong>Halloween 2019 Styles (Revenant Mk. I for AMX 13 90, Centurion 7/1, M103, T49, T-54):</strong><br>-added collector tanks with (red) Mirium effect (thanks to FastestClassic!), added custom lights to the turret/hulls and restored Mirny 2019 Stage II Stripes</p><p><strong>Event Store Styles (Centurion Action X Symbiote, IS-7 Rhyolite, Leopard 1 Blitzlicht, Lynx 6x6 Trapper, Manticore Pointer, Obsidian, Tornvagn Proteus):</strong></p><p>Rhyolite: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle turret, adjusted turret light</p><p>Blitzlicht: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle turret</p><p>Trapper: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle turret and custom Stage III Stripe from Mirny 2019. Additionally custom lights were added to the turret and hull. The style has also been given the \"Dark Knight\" 2D Style</p><p>Pointer: added (red) Mirium effect to the \"collector\" tank on the back of the vehicle hull. Additionally added custom lights to the turret and hull</p><p>Obsidian: added custom Mirium effect to the collector tank. This effect will transition from blue to red Mirium effect after 300s have passed, though it only works properly with the player vehicle</p><p>Proteus: added custom lights to the turret and hull</p><p><strong>Waffentrager Styles (M48A5 Thunderbolt, Obj. 140 Resistor, BC 25 t Foudre, TVP T 50/51 Pojistka):</strong><br>-added a light glow to the collector tanks</p><p>-added custom engine sound from the \"Pojistka\" to the other three styles</p><p><strong>2D Styles:</strong></p><p>-Dark Knight: added Stage III Stripe from Mirny 2019</p><p>-Anti-Radiation Lining: replaced with Stage 0 Camo from Mirny 2019, with paint</p><p>-Premonition: replaced with Stage I Camo/Stripe from Mirny 2019, with paint</p><p>-Lead:&nbsp;replaced with Stage II Camo/Stripe from Mirny 2019, with paint and effect</p><p>&nbsp;</p><p><strong>No, I won't be taking any requests to add these effects to other vehicles</strong></p>",
       "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE]<br><br>With Patch 1.27.1.0 WG Added a persistent data cache to decrease load times. While it does achieve that it causes issues with the mod loading due to the mod editing scripts.&nbsp;</p><p>To make sure the mod loads, either do a \"Check and Repair\" through the WGC (slow) or delete the \"data.wgpdc\" file in your WoT Game files. <strong>Note that you will have to do the same after UNINSTALLING the mod as well (otherwise the persistent data cache will continue to load the modded files).</strong></p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/MirnyBase_leIEEbJ.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -33098,16 +33108,6 @@
           "fileName": "KorbenTeamModpack_2.3.1.0_v3.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KorbenTeamModpack_2.3.1.0_v2.exe",
-          "updatedAt": "2026-07-22T11:39:24.287Z",
-          "sizeBytes": 26216324,
-          "fileName": "KorbenTeamModpack_2.3.1.0_v2.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -33514,7 +33514,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.3,
       "descriptionHtml": "<p>Guns Sound Mod</p><p>&nbsp;</p><p>Sounds of guns of different calibers</p><p>If you appreciate my work and input, you can support me :</p><p><a href=\"https://wgmods.net/5178/\">War Mod</a></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory, the res_mods folder</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/2560x1600_pfcP2a2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -39918,7 +39918,7 @@
       ],
       "recommended": true,
       "mark": 4.1,
-      "descriptionHtml": "<p>This mod changes the colors of the vehicle contour image icons<br>displayed in the battle and battle loading screens</p><p>The revised colors are:</p><p>Heavy Tanks = Grey<br>Medium Tanks = Green<br>Light Tanks = White or Yellow<br>Tank Destroyers = Blue<br>Self Propelled Guns = Red</p><p>&nbsp;</p>",
+      "descriptionHtml": "<p>This mod changes the colors of the vehicle contour image icons<br>displayed in the battle loading, battle and team composition screens</p><p>The revised colors are:</p><p>Heavy Tanks = Grey<br>Medium Tanks = Green<br>Light Tanks = White or Yellow<br>Tank Destroyers = Blue<br>Self Propelled Guns = Red</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unzip or copy one wotmod file to your ‘game installation\\mods\\version’ folder</p><p>Configure your game to display the vehicle tier via Settings: General Tab - Battle Interface Box - Enable ‘Show vehicle tier’</p><p>XVM can be installed or not installed - If XVM is installed, make sure tank icon mirroring is enabled in XVM’s 'battle.xc' file with the statement of “mirroredVehicleIcons”: true (note: XVM’s default statement in the 'battle.xc' file is “mirroredVehicleIcons”: true)</p><p>This mod also contains two additional wotmods each with the ability to also display enhanced minimaps - try one - you may like it!</p><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/new_cover_du37faM.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/1125/",
@@ -39936,16 +39936,6 @@
           "fileName": "battle.contours.v.26.07.14.zip",
           "fileExt": ".zip",
           "changeLog": "For Game Version 2.3.1.0"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "26.06.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/battle.contours.v.26.06.11.zip",
-          "updatedAt": "2026-06-11T12:21:15.127Z",
-          "sizeBytes": 29640812,
-          "fileName": "battle.contours.v.26.06.11.zip",
-          "fileExt": ".zip",
-          "changeLog": "For Game Version 2.3.0.1"
         }
       ],
       "latest": {
