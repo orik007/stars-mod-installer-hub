@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.065",
+  "catalogVersion": "v2026.07.066",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7777",
+      "title": "Salvo Gun Indicator",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Copy the .wotmod file to: World_of_Tanks_EU/mods/<current game version>/ 3. Start or restart World of Tanks. The mod does not require any additional configuration. Requirements OpenWG GameFace 1.1.6+"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>; dependency note is non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7782",
+      "title": "Old Hangar V3",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy the .wotmod file into the World_of_Tanks/mods/[current game version]/ folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7776",
