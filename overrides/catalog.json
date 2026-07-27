@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.063",
-  "sourceHash": "fa2f50121b93813372bb96385ee840907d95fb9b6efe9fd57ed785cd4d73c59f",
+  "catalogVersion": "v2026.07.064",
+  "sourceHash": "ebe9a9acedde298abc1487de74641c9a935952e5691157c4874acc65177d52d7",
   "sources": [
     "wgmods",
     "modhub"
@@ -2179,18 +2179,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.6.wotmod",
-          "updatedAt": "2026-07-26T18:26:01.778Z",
-          "sizeBytes": 515444,
-          "fileName": "gravity.camo_selector.2.3.1.0.2.1.6.wotmod",
+          "modVersion": "2.1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.7.wotmod",
+          "updatedAt": "2026-07-26T23:37:14.408Z",
+          "sizeBytes": 515686,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.7.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Persisted local customization IDs across restarts, cleaned deleted assets from saved outfits, improved JSON save reliability, recalculated local-asset usage automatically, and repositioned the overlay button when the interface changes."
+          "changeLog": "Improved Camo Selector startup handling by waiting for the native customization cache before probing customization items, preventing harmless early-startup cache errors from appearing in the client log."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.6.wotmod",
-        "changeLog": "Persisted local customization IDs across restarts, cleaned deleted assets from saved outfits, improved JSON save reliability, recalculated local-asset usage automatically, and repositioned the overlay button when the interface changes.",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.7.wotmod",
+        "changeLog": "Improved Camo Selector startup handling by waiting for the native customization cache before probing customization items, preventing harmless early-startup cache errors from appearing in the client log.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7417,7 +7417,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod allows you to change all 3 colours of the flashlight, it also lets you change the transparency of the flashlight.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-09_105627797.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -13413,7 +13413,7 @@
       ],
       "recommended": true,
       "mark": 4.7,
-      "descriptionHtml": "<p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled for SPG because ... it's complicated</li><li>disabled for hull-controlled tanks (like Strv 103B)</li><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>Due to increased reticle position update frequency, <strong>it may lower FPS</strong> a little bit, but on good PC it is a very good trade-off for very noticeable reticle responsiveness.</li></ul><p><strong>4. I'm playing SPG and Strv tanks, but I don't see increased reticle responsiveness, why?</strong></p><ul><li>Mod is disabled for Strv tanks due to them controlling reticle by hull movement - and hull movement is server side, which cannot get increased responsiveness from this mod.</li><li>It is also disabled for SPG due to it being buggy in top-down view. Also this mod is not useful for SPG, so the easiest compromise was to just disable this mod for them.</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
+      "descriptionHtml": "<p><strong>IMPORTANT: If you use this mod together with </strong><a href=\"https://wgmods.net/5251/\"><strong>Dispersion Reticle mod</strong></a><strong>. then you MUST update Dispersion Reticle mod as well.</strong><br><strong>Otherwise, your additional reticles WON'T receive reticle responsiveness.</strong></p><p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled for SPG because ... it's complicated</li><li>disabled for hull-controlled tanks (like Strv 103B)</li><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>Due to increased reticle position update frequency, <strong>it may lower FPS</strong> a little bit, but on good PC it is a very good trade-off for very noticeable reticle responsiveness.</li></ul><p><strong>4. I'm playing SPG and Strv tanks, but I don't see increased reticle responsiveness, why?</strong></p><ul><li>Mod is disabled for Strv tanks due to them controlling reticle by hull movement - and hull movement is server side, which cannot get increased responsiveness from this mod.</li><li>It is also disabled for SPG due to it being buggy in top-down view. Also this mod is not useful for SPG, so the easiest compromise was to just disable this mod for them.</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.responsive_reticle_X.wotmod</strong>\" into \"[WoT game directory]/mods/[version]/\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_vWZU5A5.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7413/",
@@ -13423,6 +13423,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.5.wotmod",
+          "updatedAt": "2026-07-26T19:38:14.299Z",
+          "sizeBytes": 21000,
+          "fileName": "pruszko.responsive_reticle_1.0.5.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Version 1.0.5 comes with big refactor, that significantly improves performance during battle (especially when combined with other mods).\nBasically keeping performance very close to vanilla game, even through tick-rate is boosted significantly.\n\nOn average, reduced performance overhead by 50% - 60% (that's 2x - 2.5x faster code!), especially when aiming at a tank.\n\nWhen mod is combined with Dispersion Reticle mod, performance overhead is reduced by 75% on average (that's 4x faster code!).\n\nIMPORTANT: If you use Dispersion Reticle mod, then update it to newest version (at least version 3.1.8) - without it, additional reticles won't receive reticle responsiveness from this mod."
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.4",
@@ -13472,21 +13482,11 @@
           "fileName": "pruszko.responsive_reticle_1.0.3_ydokHLu.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.2.1.3"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.3_IrUnoOu.wotmod",
-          "updatedAt": "2026-04-29T17:47:03.311Z",
-          "sizeBytes": 10346,
-          "fileName": "pruszko.responsive_reticle_1.0.3_IrUnoOu.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.2.1.2"
         }
       ],
       "latest": {
-        "fileName": "pruszko.responsive_reticle_1.0.4.wotmod",
-        "changeLog": "Version 1.0.4 comes with a safe guard optimization for calling certain heavy engine method too frequently. It might increase average FPS a little.",
+        "fileName": "pruszko.responsive_reticle_1.0.5.wotmod",
+        "changeLog": "Version 1.0.5 comes with big refactor, that significantly improves performance during battle (especially when combined with other mods).\nBasically keeping performance very close to vanilla game, even through tick-rate is boosted significantly.\n\nOn average, reduced performance overhead by 50% - 60% (that's 2x - 2.5x faster code!), especially when aiming at a tank.\n\nWhen mod is combined with Dispersion Reticle mod, performance overhead is reduced by 75% on average (that's 4x faster code!).\n\nIMPORTANT: If you use Dispersion Reticle mod, then update it to newest version (at least version 3.1.8) - without it, additional reticles won't receive reticle responsiveness from this mod.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -32549,7 +32549,7 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<p>Updated and completely reworked mod that adds additional circle displaying fully focused dispersion of a gun.</p><p>Original idea by <strong>StranikS_Scan</strong>, completely reworked by me.</p><p>Also, over time, this mod now contains <strong>following mutually compatible mods</strong>:</p><ul><li>Focused reticle</li><li>Server reticle</li><li>Hybrid reticle (smooth combination of client and server reticle)</li><li>Reticle Size (adjustment in config file)</li></ul><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7d0ce2af-5f50-462b-a391-a51c7ad1509b.png\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/5fc3b666-83d1-4f66-846f-51fc753db7d2.jpg\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7bcf386e-968c-4907-a987-83fd7cf06dec.png\"></figure><h2>Features</h2><p>All of those features can be enabled/adjusted independently.<br><br>They are also compatible with \"Use server aim\" from in-game option.</p><p><strong>Focused reticle</strong> (enabled by default):</p><ul><li>adds green reticle displaying fully focused dispersion alongside other reticles</li></ul><p><strong>Server reticle</strong>:</p><ul><li>adds purple server-side reticle alongside with client-side reticle</li></ul><p><strong>Hybrid reticle</strong>:</p><ul><li>adds green reticle displaying current server-side dispersion to client-side reticle</li><li>useful if you want to know server-side dispersion, but still want client-side responsiveness</li></ul><p><strong>Extended variants of above reticles</strong>:</p><ul><li>have much more customization options</li><li>visually inspired by <strong>AwfulTanker's Server Marker</strong></li></ul><p><strong>Reticle size</strong>:</p><ul><li>controlled by \"reticle-size-multiplier\" option</li><li>WG's displayed reticle dispersion is noticeably bigger than actual gun dispersion</li><li>it was discovered by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others</li><li>by this setting you can scale it to actual displayed dispersion</li><li>good known values:<ul><li>1.0 (default \"wrong\" WG dispersion)</li><li>0.5814 (factor determined by me programmatically)</li><li>0.5848 (factor determined by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others)</li></ul></li></ul><h2>Configuration</h2><p>All features from config file <strong>are reloadable on-the-fly</strong> using <strong>CTRL + P</strong> hotkey in the game <strong>anywhere</strong>.</p><p>This mod also supports <strong>Mod Configurator by IzeBerg</strong> allowing for configuring this mod using its GUI in garage.</p><h2>Source code &amp; feedback</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/DispersionReticle\">Github repository</a>.</p><p>You can also:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/DispersionReticle/issues\">GitHub issues here</a></li></ul><h2>CONTRIBUTIONS</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li><li>shuxue - for Russian translations</li><li>yinx2002 - for Chinese translations</li><li>Kurzdor - for occasional help</li></ul><h2>Compatibility</h2><p>This mod <strong>IS NOT</strong> compatible with other mods with similar features as mine.</p><p>Current known incompatible mods:</p><ul><li>AwfulTanker's Server Marker (and other similar)</li><li>Jak_Atackka's Fix Reticle Size (and other similar)</li></ul><p>Use preferred options from above features for similar functionality instead.</p><p>However, it should be compatible with any crosshair mods that changes<br>how crosshair or reticle looks like.<br>&nbsp;</p>",
+      "descriptionHtml": "<p><strong>IMPORTANT: If you use this mod together with </strong><a href=\"https://wgmods.net/7413/\"><strong>Responsive Reticle mod</strong></a><strong>. then you MUST update Responsive Reticle mod as well.</strong><br><strong>Otherwise, your additional reticles WON'T receive reticle responsiveness.</strong></p><p>Updated and completely reworked mod that adds additional circle displaying fully focused dispersion of a gun.</p><p>Original idea by <strong>StranikS_Scan</strong>, completely reworked by me.</p><p>Also, over time, this mod now contains <strong>following mutually compatible mods</strong>:</p><ul><li>Focused reticle</li><li>Server reticle</li><li>Hybrid reticle (smooth combination of client and server reticle)</li><li>Reticle Size (adjustment in config file)</li></ul><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7d0ce2af-5f50-462b-a391-a51c7ad1509b.png\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/5fc3b666-83d1-4f66-846f-51fc753db7d2.jpg\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7bcf386e-968c-4907-a987-83fd7cf06dec.png\"></figure><h2>Features</h2><p>All of those features can be enabled/adjusted independently.<br><br>They are also compatible with \"Use server aim\" from in-game option.</p><p><strong>Focused reticle</strong> (enabled by default):</p><ul><li>adds green reticle displaying fully focused dispersion alongside other reticles</li></ul><p><strong>Server reticle</strong>:</p><ul><li>adds purple server-side reticle alongside with client-side reticle</li></ul><p><strong>Hybrid reticle</strong>:</p><ul><li>adds green reticle displaying current server-side dispersion to client-side reticle</li><li>useful if you want to know server-side dispersion, but still want client-side responsiveness</li></ul><p><strong>Extended variants of above reticles</strong>:</p><ul><li>have much more customization options</li><li>visually inspired by <strong>AwfulTanker's Server Marker</strong></li></ul><p><strong>Reticle size</strong>:</p><ul><li>controlled by \"reticle-size-multiplier\" option</li><li>WG's displayed reticle dispersion is noticeably bigger than actual gun dispersion</li><li>it was discovered by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others</li><li>by this setting you can scale it to actual displayed dispersion</li><li>good known values:<ul><li>1.0 (default \"wrong\" WG dispersion)</li><li>0.5814 (factor determined by me programmatically)</li><li>0.5848 (factor determined by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others)</li></ul></li></ul><h2>Configuration</h2><p>All features from config file <strong>are reloadable on-the-fly</strong> using <strong>CTRL + P</strong> hotkey in the game <strong>anywhere</strong>.</p><p>This mod also supports <strong>Mod Configurator by IzeBerg</strong> allowing for configuring this mod using its GUI in garage.</p><h2>Source code &amp; feedback</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/DispersionReticle\">Github repository</a>.</p><p>You can also:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/DispersionReticle/issues\">GitHub issues here</a></li></ul><h2>CONTRIBUTIONS</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li><li>shuxue - for Russian translations</li><li>yinx2002 - for Chinese translations</li><li>Kurzdor - for occasional help</li></ul><h2>Compatibility</h2><p>This mod <strong>IS NOT</strong> compatible with other mods with similar features as mine.</p><p>Current known incompatible mods:</p><ul><li>AwfulTanker's Server Marker (and other similar)</li><li>Jak_Atackka's Fix Reticle Size (and other similar)</li></ul><p>Use preferred options from above features for similar functionality instead.</p><p>However, it should be compatible with any crosshair mods that changes<br>how crosshair or reticle looks like.<br>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy <strong>\"DispersionReticle.wotmod\"</strong> file (and optionally other *.wotmod files) extracted from zip into <strong>\"[WoT game directory]/mods/[version]/\"</strong> directory</li><li>Run a game with mod installed to <strong>generate default config file</strong></li><li>Adjust config to your liking</li><li>Reload it in-game whenever you want using <strong>CTRL + P hotkey</strong></li><li>(with Mod Configurator) Open button with \"&lt;&gt;\" icon in garage and find <strong>DispersionReticle section</strong> to configure mod</li></ol><p>&nbsp;</p><p>Full config file location: <strong>\"[WoT game directory]/mods/configs/DispersionReticle/config.json\"</strong></p><p>Use some text editor (preferably <strong>Notepad++</strong>) to edit config file.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/all-v3-wg.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/5251/",
@@ -32559,6 +32559,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "3.1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.8.zip",
+          "updatedAt": "2026-07-26T19:38:12.040Z",
+          "sizeBytes": 901997,
+          "fileName": "pruszko.dispersion_reticle_3.1.8.zip",
+          "fileExt": ".zip",
+          "changeLog": "Version 3.1.8 comes with:\n* adjustment to changes of Responsive Reticle mod in version 1.0.5\n* reduced mod performance overhead by 30% on average (that's 40% faster code!)\n* refactored few annoying code fragments\n\nIMPORTANT: If you use this mod together with Responsive Reticle mod, you MUST update Responsive Reticle mod to version 1.0.5 as well.\nOtherwise Dispersion Reticle won't properly react to reticle responsiveness.\n\nAlso - using both together, reduces performance overhead by whooping 75% (that's 4x faster code!)."
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "3.1.7",
@@ -32608,21 +32618,11 @@
           "fileName": "pruszko.dispersion_reticle_3.1.4_tRG68Vx.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.3.0.1"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "3.1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.dispersion_reticle_3.1.4_XzhSd1Y.zip",
-          "updatedAt": "2026-06-03T16:02:11.161Z",
-          "sizeBytes": 908107,
-          "fileName": "pruszko.dispersion_reticle_3.1.4_XzhSd1Y.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.3.0.0"
         }
       ],
       "latest": {
-        "fileName": "pruszko.dispersion_reticle_3.1.7.zip",
-        "changeLog": "Version 3.1.7 comes with fix for stuttering in sniper view when aiming at tank, when armor penetration indicator mods are present",
+        "fileName": "pruszko.dispersion_reticle_3.1.8.zip",
+        "changeLog": "Version 3.1.8 comes with:\n* adjustment to changes of Responsive Reticle mod in version 1.0.5\n* reduced mod performance overhead by 30% on average (that's 40% faster code!)\n* refactored few annoying code fragments\n\nIMPORTANT: If you use this mod together with Responsive Reticle mod, you MUST update Responsive Reticle mod to version 1.0.5 as well.\nOtherwise Dispersion Reticle won't properly react to reticle responsiveness.\n\nAlso - using both together, reduces performance overhead by whooping 75% (that's 4x faster code!).",
         "wotGameVersionCompatibility": "safe"
       }
     },

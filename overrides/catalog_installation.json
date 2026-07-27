@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.063",
+  "catalogVersion": "v2026.07.064",
   "mods": [
     {
       "source": "wgmods",
@@ -7111,6 +7111,39 @@
         "installableByApp": true,
         "decisionReason": "Package is a .rar archive and guide explicitly says extract the included .wotmod into World_of_Tanks\\mods\\<patch version>.",
         "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "skyVersion",
+            "name": "Sky version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "allMaps",
+                "name": "All maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^(?!.*NoDarkMaps).*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^.*NoDarkMaps.*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
