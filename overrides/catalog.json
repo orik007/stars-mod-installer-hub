@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.066",
-  "sourceHash": "07383b7c82fe6a63f10a1a6eb399ee6ff771d00a8fe4cd2b40b90bbaec89c179",
+  "catalogVersion": "v2026.07.067",
+  "sourceHash": "79f5af119ee33f7126b15196596d06f531a95f50898b3b671b2afa4ce3b1ed7b",
   "sources": [
     "wgmods",
     "modhub"
@@ -1203,7 +1203,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -2176,16 +2176,6 @@
           "fileName": "Custix_ModPack_for_2.3.1.0_v2.28.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлений modpack для версії гри 2.3.1.0  ----- [EN]: Updated modpack for game version 2.3.1.0"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.27",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.0.1_v2.27.exe",
-          "updatedAt": "2026-07-12T16:50:12.120Z",
-          "sizeBytes": 5451050,
-          "fileName": "Custix_ModPack_for_2.3.0.1_v2.27.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Додано мод custix.modpacknotifier (Мод перевіряє онлайн-маніфест Custix ModPack і повідомляє гравця, якщо доступна нова версія модпака;) ----- [EN]: Added the custix.modpacknotifier mod (The mod checks the online Custix ModPack manifest and notifies the player when a new modpack version is available;)"
         }
       ],
       "latest": {
@@ -13500,6 +13490,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.8.wotmod",
+          "updatedAt": "2026-07-27T18:21:46.395Z",
+          "sizeBytes": 21977,
+          "fileName": "pruszko.responsive_reticle_1.0.8.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Version 1.0.8 comes with reverted back turret and gun instant synchronization with responsive reticle movement (it was removed for optimisations).\n\nIt has been given back at the cost of 25 microseconds (negligible cost), but now gun model exactly follows responsive reticle.\nUser requested to revert it back and I find it a valid exception of optimisation rule.\nAlso comes with small change, that slows down tick-rate when there are no reticles present (for example: during artillery strike in Onslaught)"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.6.wotmod",
           "updatedAt": "2026-07-27T10:21:18.669Z",
@@ -13547,21 +13547,11 @@
           "fileName": "pruszko.responsive_reticle_1.0.3_9rjPUkV.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.3.0.1"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.3_bOAKykm.wotmod",
-          "updatedAt": "2026-06-03T16:02:52.396Z",
-          "sizeBytes": 10346,
-          "fileName": "pruszko.responsive_reticle_1.0.3_bOAKykm.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.3.0.0"
         }
       ],
       "latest": {
-        "fileName": "pruszko.responsive_reticle_1.0.6.wotmod",
-        "changeLog": "Version 1.0.6 comes with small bugfix",
+        "fileName": "pruszko.responsive_reticle_1.0.8.wotmod",
+        "changeLog": "Version 1.0.8 comes with reverted back turret and gun instant synchronization with responsive reticle movement (it was removed for optimisations).\n\nIt has been given back at the cost of 25 microseconds (negligible cost), but now gun model exactly follows responsive reticle.\nUser requested to revert it back and I find it a valid exception of optimisation rule.\nAlso comes with small change, that slows down tick-rate when there are no reticles present (for example: during artillery strike in Onslaught)",
         "wotGameVersionCompatibility": "safe"
       }
     },
