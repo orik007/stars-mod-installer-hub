@@ -1,11 +1,86 @@
 {
-  "catalogVersion": "v2026.07.065",
-  "sourceHash": "1def97a00a8b66d03a2817265701ddac6c2ee9042469685b4f9610b95c441e16",
+  "catalogVersion": "v2026.07.066",
+  "sourceHash": "07383b7c82fe6a63f10a1a6eb399ee6ff771d00a8fe4cd2b40b90bbaec89c179",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7777",
+      "title": "Salvo Gun Indicator",
+      "ownerUsername": "piotr22c",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Salvo Gun Indicator shows which gun is currently being used for aiming during salvo preparation.</p><p>This information is not displayed in the standard World of Tanks interface.</p><p>The indicator shows the active left or right gun. It appears only when both guns are loaded and salvo preparation is in progress, and disappears when the salvo button is released.</p><p>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.<br><br>2. Copy the .wotmod file to:&nbsp;<br>World_of_Tanks_EU/mods/&lt;current game version&gt;/</p><p>3. Start or restart World of Tanks.</p><p>The mod does not require any additional configuration.<br><br><strong>Requirements</strong></p><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li></ul>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/salwa4_x81MJjJ.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7777/",
+      "tagIds": [
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SalvoGunIndicator_v1.0.0_70mvzLm.zip",
+          "updatedAt": "2026-07-27T13:22:24.769Z",
+          "sizeBytes": 21815,
+          "fileName": "SalvoGunIndicator_v1.0.0_70mvzLm.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "SalvoGunIndicator_v1.0.0_70mvzLm.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7782",
+      "title": "Old Hangar V3",
+      "ownerUsername": "BoosDaralo",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Old Hangar V3</strong> brings back the classic World of Tanks garage atmosphere from before Update 2.0.</p><p>The mod restores the nostalgic feel of the old garage through both its visuals and sounds, bringing a piece of classic World of Tanks back to the modern game.</p><p>Perfect for players who miss the atmosphere of the old World of Tanks garage.</p>",
+      "installationGuideHtml": "<blockquote><p>Copy the .wotmod file into the World_of_Tanks/mods/[current game version]/ folder.</p></blockquote><p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_2026._j%C3%BAl._26._22_32_42.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7782/",
+      "tagIds": [
+        "13",
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/old_hangar_v3.wotmod",
+          "updatedAt": "2026-07-27T13:18:58.171Z",
+          "sizeBytes": 829575134,
+          "fileName": "old_hangar_v3.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "old_hangar_v3.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7776",
@@ -13425,6 +13500,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.6.wotmod",
+          "updatedAt": "2026-07-27T10:21:18.669Z",
+          "sizeBytes": 21055,
+          "fileName": "pruszko.responsive_reticle_1.0.6.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Version 1.0.6 comes with small bugfix"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.5.wotmod",
           "updatedAt": "2026-07-26T19:38:14.299Z",
@@ -13475,8 +13560,8 @@
         }
       ],
       "latest": {
-        "fileName": "pruszko.responsive_reticle_1.0.5.wotmod",
-        "changeLog": "Version 1.0.5 comes with big refactor, that significantly improves performance during battle (especially when combined with other mods).\nBasically keeping performance very close to vanilla game, even through tick-rate is boosted significantly.\n\nOn average, reduced performance overhead by 50% - 60% (that's 2x - 2.5x faster code!), especially when aiming at a tank.\n\nWhen mod is combined with Dispersion Reticle mod, performance overhead is reduced by 75% on average (that's 4x faster code!).\n\nIMPORTANT: If you use Dispersion Reticle mod, then update it to newest version (at least version 3.1.8) - without it, additional reticles won't receive reticle responsiveness from this mod.",
+        "fileName": "pruszko.responsive_reticle_1.0.6.wotmod",
+        "changeLog": "Version 1.0.6 comes with small bugfix",
         "wotGameVersionCompatibility": "safe"
       }
     },
