@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.07.067",
-  "sourceHash": "79f5af119ee33f7126b15196596d06f531a95f50898b3b671b2afa4ce3b1ed7b",
+  "catalogVersion": "v2026.07.068",
+  "sourceHash": "591e1102e97feeece7218437dda3af4042a9f398621f36a40f6926e701a0561e",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7784",
+      "title": "Auto Equipment Return",
+      "ownerUsername": "Z4imon",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><strong>Gameface</strong> (<a href=\"https://gitlab.com/openwg/wot.gameface\">https://gitlab.com/openwg/wot.gameface</a>)</li><li><strong>ModsSettingsAPI</strong> (<a href=\"https://github.com/izeberg/modssettingsapi\">https://github.com/izeberg/modssettingsapi</a>)</li><li><strong>ModsListAPI</strong> (<a href=\"https://github.com/wot-public-mods/mods-list\">https://github.com/wot-public-mods/mods-list</a>)</li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
+      "installationGuideHtml": "<h2>INSTALLATION</h2><ol><li>Download the mod</li><li>Unpack the downloaded zip file</li><li>Move the .wotmod files into your World of Tanks mods folder:<br>&nbsp; &nbsp; yourWoTInstallation/mods/&lt;game version&gt;</li></ol><p>&nbsp;If you already have some of the files installed, only move the new files into the folder</p><p>&nbsp;</p><p><strong>Optional:&nbsp;</strong><br>If you want to support me with fixing bugs and error of this mod, also move the gravity.error.reporter.log.&lt;version&gt;.wotmod file into your mods folder. This will automatically report bugs and errors to me.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7784/",
+      "tagIds": [
+        "18",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.auto_equipment_return_1.0.zip",
+          "updatedAt": "2026-07-27T22:15:57.294Z",
+          "sizeBytes": 335267,
+          "fileName": "Z4imon.auto_equipment_return_1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Z4imon.auto_equipment_return_1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7777",
@@ -2169,6 +2207,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.0_v3.0.exe",
+          "updatedAt": "2026-07-27T22:37:44.620Z",
+          "sizeBytes": 6036682,
+          "fileName": "Custix_ModPack_for_2.3.1.0_v3.0.exe",
+          "fileExt": ".exe",
+          "changeLog": "[UA]: Оновлено Custix ModPack з версії 2.28 до 3.0 (Додано мод custix.battlehistory з окремим вікном історії боїв, фільтром за технікою та повторним відкриттям повного звіту; оновлено custix.battlestats до 0.9.1, custix.battlehistory до 0.2.13, custix.sessionstats до 0.1.5 і custix.lastserverlogin до 0.1.4;  ---- [EN]: Updated Custix ModPack from version 2.28 to 3.0 (Added the custix.battlehistory mod with a standalone battle history window, vehicle filtering, and full battle report reopening; updated custix.battlestats to 0.9.1, custix.battlehistory to 0.2.13, custix.sessionstats to 0.1.5, and custix.lastserverlogin to 0.1.4; "
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.28",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.0_v2.28.exe",
           "updatedAt": "2026-07-15T09:21:46.884Z",
@@ -2179,8 +2227,8 @@
         }
       ],
       "latest": {
-        "fileName": "Custix_ModPack_for_2.3.1.0_v2.28.exe",
-        "changeLog": "[UA]: Оновлений modpack для версії гри 2.3.1.0  ----- [EN]: Updated modpack for game version 2.3.1.0",
+        "fileName": "Custix_ModPack_for_2.3.1.0_v3.0.exe",
+        "changeLog": "[UA]: Оновлено Custix ModPack з версії 2.28 до 3.0 (Додано мод custix.battlehistory з окремим вікном історії боїв, фільтром за технікою та повторним відкриттям повного звіту; оновлено custix.battlestats до 0.9.1, custix.battlehistory до 0.2.13, custix.sessionstats до 0.1.5 і custix.lastserverlogin до 0.1.4;  ---- [EN]: Updated Custix ModPack from version 2.28 to 3.0 (Added the custix.battlehistory mod with a standalone battle history window, vehicle filtering, and full battle report reopening; updated custix.battlestats to 0.9.1, custix.battlehistory to 0.2.13, custix.sessionstats to 0.1.5, and custix.lastserverlogin to 0.1.4; ",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -13502,7 +13550,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.6.wotmod",
-          "updatedAt": "2026-07-27T10:21:18.669Z",
+          "updatedAt": "2026-07-27T19:56:41.104Z",
           "sizeBytes": 21055,
           "fileName": "pruszko.responsive_reticle_1.0.6.wotmod",
           "fileExt": ".wotmod",

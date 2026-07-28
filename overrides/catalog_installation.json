@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.067",
+  "catalogVersion": "v2026.07.068",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7784",
+      "title": "Auto Equipment Return",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "INSTALLATION Download the mod Unpack the downloaded zip file Move the .wotmod files into your World of Tanks mods folder: yourWoTInstallation/mods/<game version> If you already have some of the files installed, only move the new files into the folder Optional: If you want to support me with fixing bugs and error of this mod, also move the gravity.error.reporter.log.<version>.wotmod file into your mods folder. This will automatically report bugs and errors to me."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to unpack and move .wotmod files into mods/<game version>; optional extra .wotmod is non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7777",
