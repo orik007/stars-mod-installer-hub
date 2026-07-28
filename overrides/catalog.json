@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.07.068",
-  "sourceHash": "591e1102e97feeece7218437dda3af4042a9f398621f36a40f6926e701a0561e",
+  "catalogVersion": "v2026.07.069",
+  "sourceHash": "1cd6de3f62cd6c13ba9a8cb0eb0af5a18795a03ae8a230bf737614261de5d536",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7788",
+      "title": "Chinese Client Font",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Replaces the default font with the Chinese client font, changing the appearance of numbers, symbols, and Western letters to match the style used in the Chinese version.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7788/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.3.1.0.909",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.cn_fonts.2.3.1.0.909.2586997.wotmod",
+          "updatedAt": "2026-07-28T14:04:29.909Z",
+          "sizeBytes": 95757521,
+          "fileName": "gravity.cn_fonts.2.3.1.0.909.2586997.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.cn_fonts.2.3.1.0.909.2586997.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7784",
@@ -1165,6 +1201,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.3.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.3.3.zip",
+          "updatedAt": "2026-07-28T18:58:53.854Z",
+          "sizeBytes": 351838,
+          "fileName": "GarageProgressBar-Bundle_1.3.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed alternative modes cycling."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.3.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.3.2.zip",
           "updatedAt": "2026-07-25T15:39:19.196Z",
@@ -1212,21 +1258,11 @@
           "fileName": "GarageProgressBar_1.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "New \"Ignore Free XP\" option (off by default) — count only the combat XP earned on each vehicle toward its progress instead of your account's spendable Free XP. When on, the fill, per-item affordability, tooltips and the battles estimate all reflect combat XP only, and the bar shows the Combat-XP icon. Toggle it in the Modification list window (ModsSettingsAPI)."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "0.8.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_0.8.0.zip",
-          "updatedAt": "2026-07-12T20:22:00.724Z",
-          "sizeBytes": 169262,
-          "fileName": "GarageProgressBar_0.8.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Switch bar modes from the title. A vehicle often qualifies for several bar modes at once (research / field modifications, elite system / elite rewards). The next available mode's title now shows dimmed beside the current heading — hover to brighten it, click to swap the bar to that mode. With two modes it toggles A↔B; with three or more it cycles forward. Your choice is remembered per vehicle across restarts.\nLocalized settings panel. The ModsSettingsAPI settings panel now follows the client's language. Bar stays put on resolution / UI-scale changes. Switching resolution or UI scale (e.g. 4K→1080p) live no longer leaves the bar shifted — auto positions re-derive and pinned positions rescale proportionally, and the settings panel shows the correct default for the new viewport."
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_1.3.2.zip",
-        "changeLog": "Skill-tree upgrade descriptions read properly again. Some Tier XI upgrades showed raw placeholders such as {value0} in place of their numbers, followed by a bare, unlabelled \"+20 / +5\". The values are now filled into the sentence and highlighted the way the game's own tooltip does.",
+        "fileName": "GarageProgressBar-Bundle_1.3.3.zip",
+        "changeLog": "Fixed alternative modes cycling.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2214,16 +2250,6 @@
           "fileName": "Custix_ModPack_for_2.3.1.0_v3.0.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлено Custix ModPack з версії 2.28 до 3.0 (Додано мод custix.battlehistory з окремим вікном історії боїв, фільтром за технікою та повторним відкриттям повного звіту; оновлено custix.battlestats до 0.9.1, custix.battlehistory до 0.2.13, custix.sessionstats до 0.1.5 і custix.lastserverlogin до 0.1.4;  ---- [EN]: Updated Custix ModPack from version 2.28 to 3.0 (Added the custix.battlehistory mod with a standalone battle history window, vehicle filtering, and full battle report reopening; updated custix.battlestats to 0.9.1, custix.battlehistory to 0.2.13, custix.sessionstats to 0.1.5, and custix.lastserverlogin to 0.1.4; "
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.28",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.0_v2.28.exe",
-          "updatedAt": "2026-07-15T09:21:46.884Z",
-          "sizeBytes": 5452685,
-          "fileName": "Custix_ModPack_for_2.3.1.0_v2.28.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлений modpack для версії гри 2.3.1.0  ----- [EN]: Updated modpack for game version 2.3.1.0"
         }
       ],
       "latest": {
@@ -6932,6 +6958,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.gun_caliber_overlay.2.3.1.0.1.5.0.zip",
+          "updatedAt": "2026-07-28T18:50:46.118Z",
+          "sizeBytes": 155416,
+          "fileName": "gravity.gun_caliber_overlay.2.3.1.0.1.5.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed Caliber Overlay repeatedly reloading its GameFace view during battle startup and ALT toggling, with safer lifecycle guards and improved error reporter compatibility."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.gun_caliber_overlay.2.3.1.0.1.4.zip",
           "updatedAt": "2026-07-14T13:34:44.671Z",
@@ -6942,8 +6978,8 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.gun_caliber_overlay.2.3.1.0.1.4.zip",
-        "changeLog": "",
+        "fileName": "gravity.gun_caliber_overlay.2.3.1.0.1.5.0.zip",
+        "changeLog": "Fixed Caliber Overlay repeatedly reloading its GameFace view during battle startup and ALT toggling, with safer lifecycle guards and improved error reporter compatibility.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -8404,7 +8440,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.7,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/NAGLEISHIY_MOD_IuWNHbB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
