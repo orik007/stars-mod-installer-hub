@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.069",
+  "catalogVersion": "v2026.07.070",
   "mods": [
     {
       "source": "wgmods",
@@ -10819,6 +10819,21 @@
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
         "decisionReason": "Archive (.zip) guide directs unzipping into the game's res_mods folder without a versioned res_mods/<version> target (custom non-versioned subpath), which is outside supported templates.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "561",
+      "title": "World of Animations",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "Install UML Run WoA_Installer.exe"
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Package is an .exe and guide says to run WoA_Installer.exe.",
         "deleteDataWgpdc": false
       }
     },
