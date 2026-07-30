@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.071",
+  "catalogVersion": "v2026.07.072",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7769",
+      "title": "BOBRKRW ModPack — Mod Pack for World of Tanks",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download and run `BOBRKRW_ModPack_1.0.0.exe`. 2. Close World of Tanks and Wargaming Game Center. 3. If necessary, switch the language using the `EN / UA` button at the top of the window. 4. Select the folder containing `WorldOfTanks.exe`. The installer normally detects it automatically. 5. Choose the required cleanup and maintenance options. A backup is created before old modifications are removed. 6. Open the modification selection page and choose the required components and variants. 7. Review the final settings and click “Install.” 8. Start World of Tanks after the installation is complete."
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires running an included installer executable with installer UI steps and component/variant selection.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7788",

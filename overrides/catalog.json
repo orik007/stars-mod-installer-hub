@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.07.071",
-  "sourceHash": "65876b21140e16c934601d7c1e44bf14a410d5c17fb5bc7ed4aa97449a466f0d",
+  "catalogVersion": "v2026.07.072",
+  "sourceHash": "bb98528c236f5638fd48130ff760d61a76f652121c777bebd05c7ef781bc7fc0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7769",
+      "title": "BOBRKRW ModPack — Mod Pack for World of Tanks",
+      "ownerUsername": "BOBR_KRW",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>BOBRKRW ModPack is a convenient collection of modifications for World of Tanks with a graphical setup wizard. The mods are organized into clear categories, including crosshairs, battle panels, Garage features, interface improvements, statistics, XVM, voiceovers, textures, graphics, and other components.</p><p>The installer automatically detects the World of Tanks client, checks the supported game version, and copies only the selected components. Each mod includes a name, description, size, and an available preview. Before an old installation is cleaned, important files are backed up to the `mods_backup` folder.</p><p>The installer interface supports Ukrainian and English. Use the `EN / UA` button to switch languages without restarting the program or losing the selected settings. The collection also includes WOT Stats with player, vehicle, award, and clan statistics, as well as performance charts.</p><p>Modpack version: 1.0.0 &nbsp;<br>Supported World of Tanks version: 2.3.1.0</p>",
+      "installationGuideHtml": "<p>1. Download and run `BOBRKRW_ModPack_1.0.0.exe`.<br>2. Close World of Tanks and Wargaming Game Center.<br>3. If necessary, switch the language using the `EN / UA` button at the top of the window.<br>4. Select the folder containing `WorldOfTanks.exe`. The installer normally detects it automatically.<br>5. Choose the required cleanup and maintenance options. A backup is created before old modifications are removed.<br>6. Open the modification selection page and choose the required components and variants.<br>7. Review the final settings and click “Install.”<br>8. Start World of Tanks after the installation is complete.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/01_start.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7769/",
+      "tagIds": [
+        "12"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.0_WoT_2.3.1.0_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D1%83.zip",
+          "updatedAt": "2026-07-30T17:40:34.895Z",
+          "sizeBytes": 714259729,
+          "fileName": "BOBRKRW_ModPack_1.0.0_WoT_2.3.1.0_для_сайту.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "BOBRKRW_ModPack_1.0.0_WoT_2.3.1.0_для_сайту.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7788",
@@ -53,7 +90,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><strong>Gameface</strong> (<a href=\"https://gitlab.com/openwg/wot.gameface\">https://gitlab.com/openwg/wot.gameface</a>)</li><li><strong>ModsSettingsAPI</strong> (<a href=\"https://github.com/izeberg/modssettingsapi\">https://github.com/izeberg/modssettingsapi</a>)</li><li><strong>ModsListAPI</strong> (<a href=\"https://github.com/wot-public-mods/mods-list\">https://github.com/wot-public-mods/mods-list</a>)</li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
+      "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p><a href=\"https://youtu.be/YLCMhmeEWsc\">Explanatory Video EN</a></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><strong>Gameface</strong> (<a href=\"https://gitlab.com/openwg/wot.gameface\">https://gitlab.com/openwg/wot.gameface</a>)</li><li><strong>ModsSettingsAPI</strong> (<a href=\"https://github.com/izeberg/modssettingsapi\">https://github.com/izeberg/modssettingsapi</a>)</li><li><strong>ModsListAPI</strong> (<a href=\"https://github.com/wot-public-mods/mods-list\">https://github.com/wot-public-mods/mods-list</a>)</li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
       "installationGuideHtml": "<h2>INSTALLATION</h2><ol><li>Download the mod</li><li>Unpack the downloaded zip file</li><li>Move the .wotmod files into your World of Tanks mods folder:<br>&nbsp; &nbsp; yourWoTInstallation/mods/&lt;game version&gt;</li></ol><p>&nbsp;If you already have some of the files installed, only move the new files into the folder</p><p>&nbsp;</p><p><strong>Optional:&nbsp;</strong><br>If you want to support me with fixing bugs and error of this mod, also move the gravity.error.reporter.log.&lt;version&gt;.wotmod file into your mods folder. This will automatically report bugs and errors to me.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7784/",
@@ -840,9 +877,9 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<p>Track your <strong>Marks of Excellence (MoE)</strong> progress for the vehicle you have selected, in the Garage and live in battle. The mod reads the game's own MoE data and renders it with the client's own mark art and interface styling.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at <strong>65% / 85% / 95%</strong> — the 1 / 2 / 3-mark thresholds — each drawn with the client's own mark art. Every tick is labelled with the combined damage that mark requires, and the bar fills to your current standing. Above it, a readout shows your current average combined damage and your current mark percentage for the selected vehicle.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li></ul><p>&nbsp;</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
+      "descriptionHtml": "<p>Track your Marks of Excellence (MoE) progress for the vehicle you have selected, in the Garage and live in battle.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at 65% / 85% / 95%. Every tick is labelled with the combined damage that mark requires, plus a fourth number for 100%, the top of the distribution.</p><p>Ctrl+drag the bar to reposition it (hold Shift to lock one axis). It can also optionally shift with the vehicle carousel so it never overlaps.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li><li>An optional third line shows your <strong>counted assistance</strong> — the highest of track / spot / stun damage, with the icon of whichever is leading.</li></ul><p>The overlay can be set to appear only while you hold Alt.</p><p><strong>In-battle progress bar</strong></p><p>An optional wide bar in the centre of the screen that fades in when damage is dealt or assistance is counted. Hold Alt to summon it at any time. Two variants, one chosen in the settings:</p><ul><li><strong>Moving Average</strong> — where your career projected average combined damage sits between the mark you already hold and the next mark's requirement, with the requirement on each end, your pre-battle average marked on the axis, and this battle's signed contribution.</li><li><strong>Damage Efficiency</strong> — this battle's combined damage against all four requirements (65% / 85% / 95% / 100%) on four equal quarters. Each requirement lights up as you pass it and the bar recolours with it — white, green, blue, violet, then gold at 100% — flashing the signed increment of the hit that just landed.</li></ul><h2>Settings</h2><p>Everything is toggleable from the Modification list window (ModsSettingsAPI): the in-battle overlay, its Alt-only mode and its assistance line, the Garage bar and its pinned position, and the centre progress bar with its variant. The settings panel is translated into 11 languages and follows your client automatically. Your settings carry over when you update the mod.</p><h2>&nbsp;</h2><p>Free to include in modpacks with credit and a link — ship the <i>.wotmod</i> and list OpenWG GameFace as a dependency.</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle_kM1xcgc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7745/",
       "tagIds": [
         "11",
@@ -899,16 +936,6 @@
           "fileName": "MoECalculator_1.2.0.zip",
           "fileExt": ".zip",
           "changeLog": "More accurate live MoE % — the in-battle projection now follows a smooth curve fitted to the\nreal percentile scale, so the live percentage tracks your garage mark percentage far more\nclosely instead of drifting apart.\nSelf-calibrating projection — the overlay learns your account's own damage-averaging\nbehaviour from your battles and tunes the live estimate to it automatically. No setup; it kicks\nin after a handful of battles and is remembered per account."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.1.0.zip",
-          "updatedAt": "2026-07-15T23:29:02.394Z",
-          "sizeBytes": 228243,
-          "fileName": "MoECalculator_1.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Battle widget on Alt key — a new peek mode: keep the in-battle overlay hidden and show it\nonly while you hold Alt (opt-in via the settings panel).\nCounted Assistance row — an opt-in third row in the in-battle overlay showing the assistance\ndamage that counts toward your MoE.\nIn-battle overlay alignment — the overlay rows now line up with the game's native\nefficiency panel instead of sitting slightly high.\nBackdrop drift fixed — the row backdrops no longer creep out of alignment with their\ntext as rows stack."
         }
       ],
       "latest": {
@@ -1188,7 +1215,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.4,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/research_G6747NB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1248,16 +1275,6 @@
           "fileName": "GarageProgressBar-Bundle_1.2.0.zip",
           "fileExt": ".zip",
           "changeLog": "New \"Scale\" setting (Default / Large). Choose Large to render the bar wider with bigger text and icons — easier to read at a glance. Default keeps the current size.\nMoved to Aslain's ModsSettingsAPI and now bundles the ModsList API dependency.\nLarger, clearer tooltips — description text and icons are bigger and more legible."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar_1.1.0.zip",
-          "updatedAt": "2026-07-15T23:29:31.570Z",
-          "sizeBytes": 66669,
-          "fileName": "GarageProgressBar_1.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "New \"Ignore Free XP\" option (off by default) — count only the combat XP earned on each vehicle toward its progress instead of your account's spendable Free XP. When on, the fill, per-item affordability, tooltips and the battles estimate all reflect combat XP only, and the bar shows the Combat-XP icon. Toggle it in the Modification list window (ModsSettingsAPI)."
         }
       ],
       "latest": {
@@ -2318,18 +2335,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.7.wotmod",
-          "updatedAt": "2026-07-26T23:37:14.408Z",
-          "sizeBytes": 515686,
-          "fileName": "gravity.camo_selector.2.3.1.0.2.1.7.wotmod",
+          "modVersion": "2.1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.8.wotmod",
+          "updatedAt": "2026-07-30T18:34:39.218Z",
+          "sizeBytes": 517046,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.8.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Improved Camo Selector startup handling by waiting for the native customization cache before probing customization items, preventing harmless early-startup cache errors from appearing in the client log."
+          "changeLog": "Quietly ignores harmless stale hangar GameObject is invalid refresh failures and empty or malformed customization descriptors, reducing noisy mod exception reports without changing Camo Selector behavior."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.7.wotmod",
-        "changeLog": "Improved Camo Selector startup handling by waiting for the native customization cache before probing customization items, preventing harmless early-startup cache errors from appearing in the client log.",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.8.wotmod",
+        "changeLog": "Quietly ignores harmless stale hangar GameObject is invalid refresh failures and empty or malformed customization descriptors, reducing noisy mod exception reports without changing Camo Selector behavior.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7312,6 +7329,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.elite_circuit_autoclaim.2.3.1.0.1.0.1.wotmod",
+          "updatedAt": "2026-07-30T18:06:08.022Z",
+          "sizeBytes": 15826,
+          "fileName": "gravity.elite_circuit_autoclaim.2.3.1.0.1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Improved functionality a bit."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.elite_circuit_autoclaim.2.3.1.0.1.0.wotmod",
           "updatedAt": "2026-07-14T13:29:40.031Z",
@@ -7322,8 +7349,8 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.elite_circuit_autoclaim.2.3.1.0.1.0.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.elite_circuit_autoclaim.2.3.1.0.1.0.1.wotmod",
+        "changeLog": "Improved functionality a bit.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -27005,7 +27032,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.6,
       "descriptionHtml": "<p><strong>For non-EU server player go to UML topic on WG discord(</strong>https://discord.com/channels/161053416796323840/1248653660486111303<strong>)</strong><br><br><strong>A recently introduced CTD fix is unfortunately region-specific. Player from different regional server(EU US ASIA CN Lesta) needs a different version of UML</strong></p><p>Core feature of Universal Model Loader is to change only the appearance of the tank that player is currently driving, leaving friendly and enemy tanks untouched. This is intended to address hitbox mismatch issue caused by using remodels significantly different from stock models, which is making it impossible to hit weakspot of type59 if it looks like challenger2.&nbsp;</p><p><br>It has since evolved greatly towards adding new capabilities to WoT remodels, especially animation, funding the basis for more realistic model behaviour.</p><p>Detailed description check readme in the release zip.</p><p>This list of docs for remodel authors should give you a rough idea of its capability:</p><ul><li>instruction_on_triggered_animations</li><li>instruction_list_of_keywords_for_fixedEmblem</li><li>instruction_on_additional_gunFire_animation</li><li>instruction_on_addon_models</li><li>instruction_on_burst_firing_effect</li><li>instruction_on_dual_barrel_compatible_remodel</li><li>instruction_on_glow_shader</li><li>instruction_on_hangar_and_seasonal_remodel</li><li>instruction_on_new_animationBone</li><li>instruction_on_new_sounds</li><li>instruction_on_registering_base_colour</li><li>instruction_on_sound_mod_support</li><li>instruction_on_steering_controller</li><li>instruction_on_tacticalNumber_slot</li></ul>",
       "installationGuideHtml": "<p>v1.7 used wotmod format, install path is now <strong>mods </strong>, <strong>not</strong> res_mods&nbsp;<br>Delete earlier version before attempting this one. &nbsp;<br>you can retain old config by copying res_mods/x.x.x.x/sc<i>ipts/client/mods/ownModel.xml to mods/configs/UML/</i><br>&nbsp;</p><ol><li><i>Open zip, extract content of 'mod for player' to /mods/%CURRENT_VERSION% , including sub-folder</i><br>file structure should resemble this:&nbsp;<br>&nbsp; &nbsp; \\mods\\1.26.0.1\\UML.wotmod</li><li>Launch game. When prompted to restart, click restart</li><li>When in hangar, press F5 to verify a brief flash and a new msg in the notification panel</li><li>If the flash and msg did not happen, your copy of UML is outdated or is in the wrong folder, or encountered mod conflict.&nbsp;<br><br>If you only want to swap into models provided by WoT (3D styles), or only intend to use features other than swapping, then you can stop here.&nbsp;<br><br>If you want to swap into downloaded remodels then follow these steps:</li><li>Download remodel pack from wgmods.net or other sources.</li><li>Install remodel. Place wotmod into /mods/%CURRENT_VERSION%</li><li>Start/restart.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/intro_s.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
