@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.073",
+  "catalogVersion": "v2026.07.074",
   "mods": [
     {
       "source": "wgmods",
@@ -7443,21 +7443,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Package is a .zip archive and guide instructs dragging both included .wotmod files into <WoT Directory>\\mods\\<Game Version> (non-blocking multiple files).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6776",
-      "title": "Universal Model Loader (UML)",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "v1.7 used wotmod format, install path is now mods , not res_mods Delete earlier version before attempting this one. you can retain old config by copying res_mods/x.x.x.x/sc ipts/client/mods/ownModel.xml to mods/configs/UML/ Open zip, extract content of 'mod for player' to /mods/%CURRENT_VERSION% , including sub-folder file structure should resemble this: \\mods\\1.26.0.1\\UML.wotmod Launch game. When prompted to restart, click restart When in hangar, press F5 to verify a brief flash and a new msg in the notification panel If the flash and msg did not happen, your copy of UML is outdated or is in the wrong folder, or encountered mod conflict. If you only want to swap into models provided by WoT (3D styles), or only intend to use features other than swapping, then you can stop here. If you want to swap into downloaded remodels then follow these steps: Download remodel pack from wgmods.net or other sources. Install remodel. Place wotmod into /mods/%CURRENT_VERSION% Start/restart."
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Package is a .zip but guide requires multiple manual steps (deleting earlier versions, copying config between res_mods and mods, additional remodel installs) beyond a single extract-to-mods operation.",
         "deleteDataWgpdc": false
       }
     },
