@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.073",
-  "sourceHash": "c967393dba3992d3d2a0a09f4ca86af53cf338a419de32b07405a152678cc38a",
+  "catalogVersion": "v2026.07.074",
+  "sourceHash": "09655e546f9b8d9c7438cfcb5d117261c0c2e463de3662f341862912b275e9a3",
   "sources": [
     "wgmods",
     "modhub"
@@ -27085,95 +27085,6 @@
         "fileName": "ClassicsWoTWorkshop-113-Jiangshi-Remodel-v1.0.0-2.0.0.0.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6776",
-      "title": "Universal Model Loader (UML)",
-      "ownerUsername": "atacms",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en",
-        "ru"
-      ],
-      "recommended": true,
-      "mark": 4.6,
-      "descriptionHtml": "<p><strong>For non-EU server player go to UML topic on WG discord(</strong>https://discord.com/channels/161053416796323840/1248653660486111303<strong>)</strong><br><br><strong>A recently introduced CTD fix is unfortunately region-specific. Player from different regional server(EU US ASIA CN Lesta) needs a different version of UML</strong></p><p>Core feature of Universal Model Loader is to change only the appearance of the tank that player is currently driving, leaving friendly and enemy tanks untouched. This is intended to address hitbox mismatch issue caused by using remodels significantly different from stock models, which is making it impossible to hit weakspot of type59 if it looks like challenger2.&nbsp;</p><p><br>It has since evolved greatly towards adding new capabilities to WoT remodels, especially animation, funding the basis for more realistic model behaviour.</p><p>Detailed description check readme in the release zip.</p><p>This list of docs for remodel authors should give you a rough idea of its capability:</p><ul><li>instruction_on_triggered_animations</li><li>instruction_list_of_keywords_for_fixedEmblem</li><li>instruction_on_additional_gunFire_animation</li><li>instruction_on_addon_models</li><li>instruction_on_burst_firing_effect</li><li>instruction_on_dual_barrel_compatible_remodel</li><li>instruction_on_glow_shader</li><li>instruction_on_hangar_and_seasonal_remodel</li><li>instruction_on_new_animationBone</li><li>instruction_on_new_sounds</li><li>instruction_on_registering_base_colour</li><li>instruction_on_sound_mod_support</li><li>instruction_on_steering_controller</li><li>instruction_on_tacticalNumber_slot</li></ul>",
-      "installationGuideHtml": "<p>v1.7 used wotmod format, install path is now <strong>mods </strong>, <strong>not</strong> res_mods&nbsp;<br>Delete earlier version before attempting this one. &nbsp;<br>you can retain old config by copying res_mods/x.x.x.x/sc<i>ipts/client/mods/ownModel.xml to mods/configs/UML/</i><br>&nbsp;</p><ol><li><i>Open zip, extract content of 'mod for player' to /mods/%CURRENT_VERSION% , including sub-folder</i><br>file structure should resemble this:&nbsp;<br>&nbsp; &nbsp; \\mods\\1.26.0.1\\UML.wotmod</li><li>Launch game. When prompted to restart, click restart</li><li>When in hangar, press F5 to verify a brief flash and a new msg in the notification panel</li><li>If the flash and msg did not happen, your copy of UML is outdated or is in the wrong folder, or encountered mod conflict.&nbsp;<br><br>If you only want to swap into models provided by WoT (3D styles), or only intend to use features other than swapping, then you can stop here.&nbsp;<br><br>If you want to swap into downloaded remodels then follow these steps:</li><li>Download remodel pack from wgmods.net or other sources.</li><li>Install remodel. Place wotmod into /mods/%CURRENT_VERSION%</li><li>Start/restart.</li></ol>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/intro_s.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/6776/",
-      "tagIds": [
-        "16",
-        "21",
-        "17"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.7.3.4a",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.1.0EUUniversalModelLoader_B260718.zip",
-          "updatedAt": "2026-07-18T10:35:47.060Z",
-          "sizeBytes": 2850076,
-          "fileName": "2.3.1.0EUUniversalModelLoader_B260718.zip",
-          "fileExt": ".zip",
-          "changeLog": "* fixed swingAnimator broken if placed on hull\n* fixed actuatorAnimator not responding to debug in hangar"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.7.3.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.1.0EUUniversalModelLoader_B260717.zip",
-          "updatedAt": "2026-07-17T11:31:43.417Z",
-          "sizeBytes": 2849511,
-          "fileName": "2.3.1.0EUUniversalModelLoader_B260717.zip",
-          "fileExt": ".zip",
-          "changeLog": "* adat to WoT V2.3.1.0\n* reworked swing animator to fix impulse direction"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.7.3.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.0.0EUUniversalModelLoader_B260604.zip",
-          "updatedAt": "2026-06-04T08:39:00.663Z",
-          "sizeBytes": 2848955,
-          "fileName": "2.3.0.0EUUniversalModelLoader_B260604.zip",
-          "fileExt": ".zip",
-          "changeLog": "* adapt to WoT v2.3.0.0\n* added safeguard against invalid <drivenJoints> clause which will CTD without leaving a log entry. <drivenJoints> will be discarded if its nodes are not found in actual model file"
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "1.7.3.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.1.3_EUUniversalModelLoader_B260520.zip",
-          "updatedAt": "2026-05-20T12:01:07.701Z",
-          "sizeBytes": 2833211,
-          "fileName": "2.2.1.3_EUUniversalModelLoader_B260520.zip",
-          "fileExt": ".zip",
-          "changeLog": "* fixed CTD during hangar model swap when receiving vehicle has stock animation(is3,superPershing, etc)"
-        },
-        {
-          "wotGameVersion": "2.1.1.2",
-          "modVersion": "1.7.3.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.1.1.2_EUUniversalModelLoader_B260205.zip",
-          "updatedAt": "2026-02-26T15:55:54.661Z",
-          "sizeBytes": 2837069,
-          "fileName": "2.1.1.2_EUUniversalModelLoader_B260205.zip",
-          "fileExt": ".zip",
-          "changeLog": "* bring back GUI. update embeded modsListAPI to V1.7.8\n* somewhat compatible with US auto-canon branch\n* added 1st iteration of autoScale feature. enabled by setting <autoScale> to true in ownModel.xml for a specific remodel\n* embeded a hotfix to prevent potential crash where WG source code tries to invoke BigWorld.AssetException which does not exist"
-        },
-        {
-          "wotGameVersion": "2.1.1.0",
-          "modVersion": "1.7.3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.1.1.0_EUUniversalModelLoader_B260114.zip",
-          "updatedAt": "2026-01-15T08:18:37.593Z",
-          "sizeBytes": 2715067,
-          "fileName": "2.1.1.0_EUUniversalModelLoader_B260114.zip",
-          "fileExt": ".zip",
-          "changeLog": "* adapt to WoT V2.1.1.0\n* removed GUI module until the dependency mod modsListAPI is fixed\n* updated disable_persistent_data_cache.wotmod to make game loading faster"
-        }
-      ],
-      "latest": {
-        "fileName": "2.3.1.0EUUniversalModelLoader_B260718.zip",
-        "changeLog": "* fixed swingAnimator broken if placed on hull\n* fixed actuatorAnimator not responding to debug in hangar",
-        "wotGameVersionCompatibility": "safe"
       }
     },
     {
