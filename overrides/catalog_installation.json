@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.072",
+  "catalogVersion": "v2026.07.073",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7789",
+      "title": "AVG Damage",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Mód rozbalte a složku mods dejte do kořenového adresáře hry. Extract the mod and place the 'mods' folder into the game's root directory."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to place the included mods folder into the game root directory.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7769",
