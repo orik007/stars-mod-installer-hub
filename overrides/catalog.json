@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.07.072",
-  "sourceHash": "bb98528c236f5638fd48130ff760d61a76f652121c777bebd05c7ef781bc7fc0",
+  "catalogVersion": "v2026.07.073",
+  "sourceHash": "c967393dba3992d3d2a0a09f4ca86af53cf338a419de32b07405a152678cc38a",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7789",
+      "title": "AVG Damage",
+      "ownerUsername": "_Timi_CZ_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
+      "installationGuideHtml": "<p>Mód rozbalte a složku mods dejte do kořenového adresáře hry.</p><p>Extract the mod and place the 'mods' folder into the game's root directory.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/01_4HxhRhY.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7789/",
+      "tagIds": [
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage_5mn5h1G.zip",
+          "updatedAt": "2026-07-30T22:42:30.052Z",
+          "sizeBytes": 3657748,
+          "fileName": "AVG_Damage_5mn5h1G.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "AVG_Damage_5mn5h1G.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7769",
@@ -889,6 +925,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.6.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.6.0.zip",
+          "updatedAt": "2026-07-30T22:45:28.444Z",
+          "sizeBytes": 447165,
+          "fileName": "MoECalculator_1.6.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Alongside the corner overlay, the mod can now draw a wide progress bar in the centre of the screen during battle. It's off by default — turn it on in the settings panel under Progress Bar, then pick which of the two bars you want.\nMoving Average — where your career projected average combined damage sits between the mark you already hold and the requirement for the next one, with this battle's signed contribution beside it. It comes up whenever that projection moves.\nDamage Efficiency — this battle's combined damage measured against all requirements at once laid out on equal quarters, with every requirement you've already passed lit up."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.5.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.5.0.zip",
           "updatedAt": "2026-07-26T18:11:03.691Z",
@@ -939,8 +985,8 @@
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_1.5.0.zip",
-        "changeLog": "In-battle MoE projection should now be closer at every mark threshold.",
+        "fileName": "MoECalculator_1.6.0.zip",
+        "changeLog": "Alongside the corner overlay, the mod can now draw a wide progress bar in the centre of the screen during battle. It's off by default — turn it on in the settings panel under Progress Bar, then pick which of the two bars you want.\nMoving Average — where your career projected average combined damage sits between the mark you already hold and the requirement for the next one, with this battle's signed contribution beside it. It comes up whenever that projection moves.\nDamage Efficiency — this battle's combined damage measured against all requirements at once laid out on equal quarters, with every requirement you've already passed lit up.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1228,6 +1274,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.4.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.4.0.zip",
+          "updatedAt": "2026-07-30T22:45:43.342Z",
+          "sizeBytes": 352157,
+          "fileName": "GarageProgressBar-Bundle_1.4.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Elite Rewards tooltips now tell you which level a reward unlocks at. "
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.3.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.3.3.zip",
           "updatedAt": "2026-07-28T18:58:53.854Z",
@@ -1278,8 +1334,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_1.3.3.zip",
-        "changeLog": "Fixed alternative modes cycling.",
+        "fileName": "GarageProgressBar-Bundle_1.4.0.zip",
+        "changeLog": "Elite Rewards tooltips now tell you which level a reward unlocks at. ",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2335,6 +2391,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.1.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.9.wotmod",
+          "updatedAt": "2026-07-30T19:56:58.906Z",
+          "sizeBytes": 523177,
+          "fileName": "gravity.camo_selector.2.3.1.0.2.1.9.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed an issue where deleted custom assets could leave behind an empty “Custom assets” entry. Missing custom assets are now hidden, blocked from applying, and cleaned from saved outfits. Custom assets should now appear more reliably in the carousel. A cache-related stale entry may still remain for some users."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.0.2.1.8.wotmod",
           "updatedAt": "2026-07-30T18:34:39.218Z",
@@ -2345,8 +2411,8 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.0.2.1.8.wotmod",
-        "changeLog": "Quietly ignores harmless stale hangar GameObject is invalid refresh failures and empty or malformed customization descriptors, reducing noisy mod exception reports without changing Camo Selector behavior.",
+        "fileName": "gravity.camo_selector.2.3.1.0.2.1.9.wotmod",
+        "changeLog": "Fixed an issue where deleted custom assets could leave behind an empty “Custom assets” entry. Missing custom assets are now hidden, blocked from applying, and cleaned from saved outfits. Custom assets should now appear more reliably in the carousel. A cache-related stale entry may still remain for some users.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -15786,7 +15852,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 5,
+      "mark": 4.9,
       "descriptionHtml": "<p>A simple mod that enables self tank contours during sniper mode on collision with other tanks.</p><p>Useful on tank face-hugs to visually see if your gun collides with enemy gun, by displaying gun contours.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/ba7a7bd0-2347-41b8-9f69-01881283afe5.png\"></figure><h2>Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ShowGunCollision\">Github repo here</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ShowGunCollision/issues\">GitHub issues here</a>.</li></ul><h2>Trivia</h2><p>This \"feature\" once existed as a bug in vanilla WoT around 1.29.0.0 version, but was fixed the next patch.<br>Some users actually want that bug, so I reproduced it, lmao</p>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.show_gun_collision.wotmod</strong>\" file into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/gun_collision_wgmods.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -35678,7 +35744,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p>Info: CHAMPi's Tank Health Bars &amp; Enemy Spotted Status was renamed to <strong>CHAMPi's Player Panel Pro</strong></p><p>Customizable tank health bars, tank class icons and enemy spotted status for the playerpanel without the need of XVM!</p><p><strong>features</strong>:</p><ul><li><strong>allows </strong>(optionally) <strong>to disable the flipping of the tank contour icons on the right side of the playerpanel, loading screen and in the crew tool-tip</strong></li><li><strong>option to display player damage during the battle for both teams</strong></li><li>can draw tank health bars in many different styles</li><li>displays the total remaining structure points of each team as bar with value (optionally)</li><li>different display modes: always, toggle on/off via hotkey or toggle on by holding down the toggle key (customizable)</li><li>draws health bar background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team).</li><li>supports colorblind mode</li><li>can show only remaining structure points or current/max structure points</li><li>changeable graphics and layout - you can make your own backgrounds if you like</li><li>displays tank class symbols beside the structure bar (optionally)</li><li>can show the enemy spotted status in a lot of different styles (optionally)</li><li>displays an icon for some well known players &amp; streamers in the player panel. (optionally)</li><li>graphical user interface to control the most important settings (click on button on the lower right corner in the hangar - see screenshot)</li></ul><p>Note: grey icon: undetected in this battle - green: spotted and visible - red: no longer visible but last location is known.</p><p>Note: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)</p><p><strong>credits</strong>:</p><p>Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panels API.</p><p>IzeBerg: For the modsettings API. Really impressive way to show up a settings dialog!</p><p>P0LIR0ID: For the modslist API.</p><p>GambitER: For the flash library</p><p>spoter: For his settings GUI in the past. Thanks for all your work!</p><p><strong>help:</strong></p><p>Can someone help translate the language files into Japanese? Feel free to contact me (forum)</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p><strong>Settings Note:</strong><br>After installation you should open the settings menu by pressing on the button with the &lt;&lt;&gt;&gt; symbol at the lower right bottom inside the garage and then on the entry \"^CHAMPi^'s mods settings\" and adjust the settings to your need.<br>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/playerpanelenhanced.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -41291,6 +41357,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "18",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_18_OlbdPuJ.exe",
+          "updatedAt": "2026-07-30T20:06:58.388Z",
+          "sizeBytes": 57638213,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_18_OlbdPuJ.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.1.0 #18 (30-07-2026):\n- Added Auto Equipment Return by Z4imon\n- Updated Auto Voucher Scratcher\n- Updated Camo Selector (bugfixes)\n- Updated Battle Equipment (Added support for Last Stand mode - Now panel forces right position in Last Stand mode; Fixed bug with game modes ignorelist)\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "17",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_17.exe",
           "updatedAt": "2026-07-28T22:17:05.737Z",
@@ -41338,21 +41414,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_13.exe",
           "fileExt": ".exe",
           "changeLog": "- Updated Crucible Progress Tracker\n- Updated Upload battle replays to Overmatch.pro\n- Removed Onslaught Camera Fix (WG fixed their bug I hope)\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "12",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_12.exe",
-          "updatedAt": "2026-07-22T13:47:32.858Z",
-          "sizeBytes": 57695781,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_12.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Camo Selector (added local custom assets: import your own emblems, inscriptions, decals, camouflages, and paints, with PNG/JPG to DDS conversion, decal ratios, camo scale/rotation, and local-only storage)\n- Re-added Onslaught Camera Fix (WG misinformed about the fix on their website, it's tomorrow)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_17.exe",
-        "changeLog": "- Installer: Mod previews are now kept in a local cache, so they show up instantly while browsing the mod list and don't have to be downloaded again on every run. They are fetched once on the first run only.\n- Updated Responsive Reticle\n- Updated Battle Equipment\n- Updated Reticle Dispersion Pro\n- Updated Research Progress Bar 14th_ua\n- Updated Gun Caliber Overlay\n- Re-added Tank Rating Colors\n\nps. the trojan is a MS false-positive.... AS ALWAYS",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_18_OlbdPuJ.exe",
+        "changeLog": "v2.3.1.0 #18 (30-07-2026):\n- Added Auto Equipment Return by Z4imon\n- Updated Auto Voucher Scratcher\n- Updated Camo Selector (bugfixes)\n- Updated Battle Equipment (Added support for Last Stand mode - Now panel forces right position in Last Stand mode; Fixed bug with game modes ignorelist)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
