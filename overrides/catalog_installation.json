@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.074",
+  "catalogVersion": "v2026.07.075",
   "mods": [
     {
       "source": "wgmods",
@@ -6834,13 +6834,13 @@
       "title": "DARK // BZ-75 - NEW GENERATION",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "⪢How to install the mod : select your mod version : FREE Version : \"dark.BZ-75-NEW-GEN-FREE-Version.wotmod\" and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ..."
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive (.zip) instructs selecting a specific version (FREE vs other editions) — a blocking manual package choice.",
-        "deleteDataWgpdc": false
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>; dependency note is non-blocking and guide mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
       }
     },
     {
