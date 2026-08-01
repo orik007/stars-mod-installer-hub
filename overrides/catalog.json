@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.07.075",
-  "sourceHash": "48d1b0a674f7c51a26970d28d07142d1267deb06d1e716992fcf45b0be47113b",
+  "catalogVersion": "v2026.08.000",
+  "sourceHash": "278f717384cc28bd6487de627e827112e6e704e77c9113a7ff8e908a6052c02e",
   "sources": [
     "wgmods",
     "modhub"
@@ -17,7 +17,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
+      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.2 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul>",
       "installationGuideHtml": "<p>Mód rozbalte a složku mods dejte do kořenového adresáře hry.</p><p>Extract the mod and place the 'mods' folder into the game's root directory.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/01_4HxhRhY.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7789/",
@@ -1435,8 +1435,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.6,
       "descriptionHtml": "<p>Easily create custom Marks of Excellence (Insignia), cap circles, damage stickers, carousel icons, and tech tree icons (which are also used for battle results). The application takes care of the entire process—from designing your assets to building a ready-to-use .wotmod file. Just copy the generated .wotmod into mods/{version}/ and you're ready to go.</p><p>The Tank Icon Builder is a more advanced feature and may take some practice to master.<br><br>Some test images are included, feel free to add your own.</p>",
       "installationGuideHtml": "<p>unzip to its own folder and run WoTModCreator.exe. no installation needed.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wmc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -8622,6 +8622,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2026.08.01.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.01.1.exe",
+          "updatedAt": "2026-08-01T11:12:11.996Z",
+          "sizeBytes": 13751466,
+          "fileName": "yam_2026.08.01.1.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2026.07.22.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.07.22.1.exe",
           "updatedAt": "2026-07-22T09:30:10.788Z",
@@ -8669,20 +8679,10 @@
           "fileName": "yam_2026.06.02.01.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "2026.04.21.01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.04.21.01_Vvr6QVt.exe",
-          "updatedAt": "2026-05-17T16:01:39.323Z",
-          "sizeBytes": 11841245,
-          "fileName": "yam_2026.04.21.01_Vvr6QVt.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "yam_2026.07.22.1.exe",
+        "fileName": "yam_2026.08.01.1.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -37557,6 +37557,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "4.3.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.3.1.wotmod.zip",
+          "updatedAt": "2026-08-01T10:55:38.842Z",
+          "sizeBytes": 33818359,
+          "fileName": "wotinspector.com.armor_inspector.4.3.1.wotmod.zip",
+          "fileExt": ".zip",
+          "changeLog": "fixed error in the log"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "4.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.3.0.wotmod",
           "updatedAt": "2026-07-19T11:51:46.740Z",
@@ -37604,21 +37614,11 @@
           "fileName": "wotinspector.com.armor_inspector.4.1.5.wotmod_EnIImoS.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.0",
-          "modVersion": "4.1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.1.5.wotmod_ukv5ici.zip",
-          "updatedAt": "2026-04-21T13:41:06.834Z",
-          "sizeBytes": 34255079,
-          "fileName": "wotinspector.com.armor_inspector.4.1.5.wotmod_ukv5ici.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "wotinspector.com.armor_inspector.4.3.0.wotmod",
-        "changeLog": "support wot 2.3.1\nadded past wot versions list",
+        "fileName": "wotinspector.com.armor_inspector.4.3.1.wotmod.zip",
+        "changeLog": "fixed error in the log",
         "wotGameVersionCompatibility": "safe"
       }
     },
