@@ -1,11 +1,50 @@
 {
-  "catalogVersion": "v2026.08.000",
-  "sourceHash": "278f717384cc28bd6487de627e827112e6e704e77c9113a7ff8e908a6052c02e",
+  "catalogVersion": "v2026.08.001",
+  "sourceHash": "2ac33443f574ea6644968d98e8ebc84479fb69ffd8d854bfe9941da3721a28f7",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7785",
+      "title": "Analyzer for wots6.com",
+      "ownerUsername": "sil6nce",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>s6WOT Battle Reporter</strong> is a lightweight client-side mod that reports the result of every battle you play to your profile on <strong>wots6.com</strong> in real time. There you get a per-day battle history, WN8, credits (gross &amp; net), XP, win rate by game mode, and a live WN8 stream overlay for OBS.</p><p>The mod does <strong>not read or parse replays</strong> — it works from the game's own \"battle results received\" event (onBattleResultsReceived). Replay recording does <strong>not</strong> need to be enabled, and the mod never reads anything from disk.</p><p>What it collects and where it sends it</p><p>After a battle the mod reads the data from the <strong>standard battle-results event</strong> and sends it in a single HTTPS request to https://wots6.com/api/mod/battle.</p><p><strong>About you it sends:</strong> in-game account_id, nickname, map, tank, result, dealt/assisted/blocked damage, kills, spotted, shots/hits/piercings, XP and free XP, credits (gross &amp; net), duration, battle mode and tier, battle time.</p><p><strong>About the other players in the same battle</strong> it sends <strong>public info only</strong>: nickname, tank, map, damage, kills, spotted, result. <strong>Other players' credits, XP and other private data are NOT sent</strong> (the mod doesn't have them).</p><p>Battles are de-duplicated by arenaUniqueID, which Wargaming makes unique across all regions and all battles ever, so a battle is never counted twice.</p><p>The mod does <strong>NOT</strong> read: files on disk, chat, passwords/tokens, or anything outside the battle-results event. No account token is required.<br><br>Discord Rich Presence (optional, ON by default)</p><p>While WoT is running, the mod shows a \"Playing World of Tanks / Live stats via s6WOT\" status in Discord with a button that opens wots6.com. It works purely locally (a named pipe to the Discord desktop app) and <strong>sends no data anywhere</strong>.</p><p><strong>How to disable Discord Rich Presence (any of these; no rebuild needed for 1–2):</strong></p><ol><li><strong>In game:</strong> Settings → Mods → <strong>\"S6 settings\"</strong> → untick <strong>\"Discord Rich Presence\"</strong>. (requires the free <strong>ModsSettingsAPI</strong>; if it isn't installed, use option 2)</li><li><strong>Config file:</strong> open World_of_Tanks/mods/configs/s6wot/config.json (the mod creates it) and set \"discord_enabled\": false.</li><li><strong>In code:</strong> set DISCORD_ENABLED = False in mod_s6wot.py and rebuild.</li></ol><p>Requirements &amp; compatibility</p><ul><li>World of Tanks (PC). The mod does not alter game files, does not affect gameplay, and gives no advantage.</li><li>Optional: <strong>ModsSettingsAPI</strong> — only to get the in-game settings checkbox. Without it the mod fully works and Discord is toggled via the config file.</li><li>All networking runs on a background thread, so there is no stutter or FPS drop. Every error is caught — the client never crashes because of the mod.</li></ul><p>Privacy</p><p>The mod only sends the battle data listed above to wots6.com. No passwords, payment or personal data. Other players' battle data is public only (no credits/XP).</p>",
+      "installationGuideHtml": "<ol><li>Unpack the archive and drop s6wot-battle-reporter.wotmod into: World_of_Tanks/mods/&lt;client version&gt;/ (e.g. World_of_Tanks_EU/mods/2.3.1.0/)</li><li>Launch the game and play one battle.</li><li>Open <strong>wots6.com</strong>, search your nickname — the battle appears under \"Recent battles\".</li></ol><p>Each game update changes the version number — move the .wotmod into the new version folder.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/s6wot-discord-cover_1Ze0oGR.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7785/",
+      "tagIds": [
+        "22",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/s6wot-battle-reporter.wotmod",
+          "updatedAt": "2026-08-01T18:28:56.096Z",
+          "sizeBytes": 23195,
+          "fileName": "s6wot-battle-reporter.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "s6wot-battle-reporter.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7789",
@@ -17,7 +56,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.2 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul>",
+      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.2 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
       "installationGuideHtml": "<p>Mód rozbalte a složku mods dejte do kořenového adresáře hry.</p><p>Extract the mod and place the 'mods' folder into the game's root directory.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/01_4HxhRhY.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7789/",
@@ -625,18 +664,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_timeline_results.2.3.1.0.0.1.2.zip",
-          "updatedAt": "2026-07-20T14:11:39.787Z",
-          "sizeBytes": 686428,
-          "fileName": "gravity.battle_timeline_results.2.3.1.0.0.1.2.zip",
+          "modVersion": "0.1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_timeline_results.2.3.1.0.0.1.3.zip",
+          "updatedAt": "2026-08-01T13:38:29.199Z",
+          "sizeBytes": 685527,
+          "fileName": "gravity.battle_timeline_results.2.3.1.0.0.1.3.zip",
           "fileExt": ".zip",
-          "changeLog": "Added different options to show the graph, smooth and stepped (linear is the default that existed already)."
+          "changeLog": "Changed the tracking start to be the actual battle start and not when you load into the battle."
         }
       ],
       "latest": {
-        "fileName": "gravity.battle_timeline_results.2.3.1.0.0.1.2.zip",
-        "changeLog": "Added different options to show the graph, smooth and stepped (linear is the default that existed already).",
+        "fileName": "gravity.battle_timeline_results.2.3.1.0.0.1.3.zip",
+        "changeLog": "Changed the tracking start to be the actual battle start and not when you load into the battle.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1011,6 +1050,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ChatFilter_1.0.2_2.3.1.0.zip",
+          "updatedAt": "2026-08-01T16:36:45.087Z",
+          "sizeBytes": 620913,
+          "fileName": "ChatFilter_1.0.2_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ChatFilter_1.0.1_2.3.1.0.zip",
           "updatedAt": "2026-07-16T20:38:55.844Z",
@@ -1031,8 +1080,8 @@
         }
       ],
       "latest": {
-        "fileName": "ChatFilter_1.0.1_2.3.1.0.zip",
-        "changeLog": "\n- Re-packed with proper game folder\n- Updated enhanced modsSettingsApi 1.6.4",
+        "fileName": "ChatFilter_1.0.2_2.3.1.0.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1057,6 +1106,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GunReloadedSounds_1.0.2_2.3.1.0.zip",
+          "updatedAt": "2026-08-01T16:37:00.945Z",
+          "sizeBytes": 1081383,
+          "fileName": "GunReloadedSounds_1.0.2_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GunReloadedSounds_1.0.1_2.3.1.0.zip",
           "updatedAt": "2026-07-16T20:48:47.028Z",
@@ -1077,8 +1136,8 @@
         }
       ],
       "latest": {
-        "fileName": "GunReloadedSounds_1.0.1_2.3.1.0.zip",
-        "changeLog": "- Re-packed with proper game folder\n- Updated enhanced modsSettingsApi 1.6.4",
+        "fileName": "GunReloadedSounds_1.0.2_2.3.1.0.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1104,6 +1163,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pm2autoreset_1.0.3_2.3.1.0.zip",
+          "updatedAt": "2026-08-01T16:36:26.573Z",
+          "sizeBytes": 552169,
+          "fileName": "pm2autoreset_1.0.3_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pm2autoreset_1.0.2_2.3.1.0.zip",
           "updatedAt": "2026-07-22T12:12:55.597Z",
@@ -1114,8 +1183,8 @@
         }
       ],
       "latest": {
-        "fileName": "pm2autoreset_1.0.2_2.3.1.0.zip",
-        "changeLog": "- Updated Object 279 Mission Auto Reset 1.0.2 (renamed from Personal Mission 2 Auto Reset, now strictly limited to Object 279 missions, and it will no longer discard the last mission you have selected there)",
+        "fileName": "pm2autoreset_1.0.3_2.3.1.0.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1321,16 +1390,6 @@
           "fileName": "GarageProgressBar-Bundle_1.3.0.zip",
           "fileExt": ".zip",
           "changeLog": "New \"Progress Mode\" setting. Choose how the XP readout is shown: Current (just your accumulated XP) or Current / Required (your XP against what the next step needs), per bar mode. Configure it in the mod's settings panel.\nNew \"Show Progress %\" toggle. Optionally prepend the completion percentage (capped at 100%) to the left of the readout, so you can see at a glance how close the current step is."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.2.0.zip",
-          "updatedAt": "2026-07-18T16:45:55.827Z",
-          "sizeBytes": 348737,
-          "fileName": "GarageProgressBar-Bundle_1.2.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "New \"Scale\" setting (Default / Large). Choose Large to render the bar wider with bigger text and icons — easier to read at a glance. Default keeps the current size.\nMoved to Aslain's ModsSettingsAPI and now bundles the ModsList API dependency.\nLarger, clearer tooltips — description text and icons are bigger and more legible."
         }
       ],
       "latest": {
@@ -1684,6 +1743,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.0.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShowVehicle_2.0.9_2.3.1.0.zip",
+          "updatedAt": "2026-08-01T16:35:45.805Z",
+          "sizeBytes": 595641,
+          "fileName": "ShowVehicle_2.0.9_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.0.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShowVehicle_2.0.8_2.3.1.0.zip",
           "updatedAt": "2026-07-23T20:57:18.214Z",
@@ -1714,8 +1783,8 @@
         }
       ],
       "latest": {
-        "fileName": "ShowVehicle_2.0.8_2.3.1.0.zip",
-        "changeLog": "the wide hull view zoom level is no longer lost when you leave sniper mode and come back, if you have a fixed zoom level picked in the game options",
+        "fileName": "ShowVehicle_2.0.9_2.3.1.0.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1740,6 +1809,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.7_2.3.1.0.zip",
+          "updatedAt": "2026-08-01T16:35:25.084Z",
+          "sizeBytes": 687845,
+          "fileName": "CrewSkillsPro_1.0.7_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CrewSkillsPro_1.0.6_2.3.1.0.zip",
           "updatedAt": "2026-07-16T20:48:42.404Z",
@@ -1760,8 +1839,8 @@
         }
       ],
       "latest": {
-        "fileName": "CrewSkillsPro_1.0.6_2.3.1.0.zip",
-        "changeLog": "- Re-packed with proper game folder\n- Updated enhanced modsSettingsApi 1.6.4",
+        "fileName": "CrewSkillsPro_1.0.7_2.3.1.0.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2477,6 +2556,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.10",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.10_2.3.1.0.zip",
+          "updatedAt": "2026-08-01T16:35:03.695Z",
+          "sizeBytes": 18778636,
+          "fileName": "CustomSixthSense_1.0.10_2.3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.9",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.9_2.3.1.0_21A3sUD.zip",
           "updatedAt": "2026-07-23T20:56:40.030Z",
@@ -2487,8 +2576,8 @@
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.9_2.3.1.0_21A3sUD.zip",
-        "changeLog": "Added new animated sixth sense: Oh k....",
+        "fileName": "CustomSixthSense_1.0.10_2.3.1.0.zip",
+        "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -9204,7 +9293,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<p>This mod replaces all crew voiceovers in battle with phrases from the anime “Girls und Panzer.” Penetration sounds have been replaced with moans + the phrase “Uncle Sasha” (those who understand, understand).</p>",
       "installationGuideHtml": "<p>1) Choose the desired voice pack version—go to the appropriate folder, copy everything inside the folder (the audioww folder and the gui folder), and move them to the worldOfTanks/res_mods/*current game version* folder<br>2) Launch the game and set the crew voice to “Standard” or ‘Shelest’<br>3) Click the “Test” button—you should hear moans or the voices of anime girls speaking Japanese<br>4) Click “Into Battle” and enjoy)<br>5) To use the custom “Sixth Sense” sound, go to the game settings, select ‘Sounds’ &gt; “Sixth Sense” &gt; “Custom Version”</p><p>The mod may have some bugs or not work; I would really appreciate your feedback)<br>If you encounter bugs or the mod doesn’t work, please leave a comment under the video where I released this mod</p><p>I’ve also added two versions—one with the phrase “Uncle Sasha” and one without, with the corresponding name)</p><p>Peace and kindness to all of us!</p><p>P.S.<br>And remember—always stay human!</p><p>P.S.S.<br>Spread kindness in this world)</p><p>Translated with DeepL.com (free version)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_1_tH8RM4T.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -37558,6 +37647,16 @@
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "4.3.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.3.1.wotmod_4rKoBDC.zip",
+          "updatedAt": "2026-08-01T13:00:51.748Z",
+          "sizeBytes": 33817107,
+          "fileName": "wotinspector.com.armor_inspector.4.3.1.wotmod_4rKoBDC.zip",
+          "fileExt": ".zip",
+          "changeLog": "fixed errors in the log"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "4.3.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.3.1.wotmod.zip",
           "updatedAt": "2026-08-01T10:55:38.842Z",
           "sizeBytes": 33818359,
@@ -37604,21 +37703,11 @@
           "fileName": "wotinspector.com.armor_inspector.4.1.5.wotmod_T8e3wfM.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "4.1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.armor_inspector.4.1.5.wotmod_EnIImoS.zip",
-          "updatedAt": "2026-04-23T07:26:54.711Z",
-          "sizeBytes": 34255079,
-          "fileName": "wotinspector.com.armor_inspector.4.1.5.wotmod_EnIImoS.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "wotinspector.com.armor_inspector.4.3.1.wotmod.zip",
-        "changeLog": "fixed error in the log",
+        "fileName": "wotinspector.com.armor_inspector.4.3.1.wotmod_4rKoBDC.zip",
+        "changeLog": "fixed errors in the log",
         "wotGameVersionCompatibility": "safe"
       }
     },
