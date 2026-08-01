@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.07.075",
+  "catalogVersion": "v2026.08.000",
   "mods": [
     {
       "source": "wgmods",
@@ -10062,13 +10062,13 @@
       "sourceId": "2319",
       "title": "Armor Inspector - collision models, internal modules, penetration",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Download wotmod.zip file and extract into mods/<current version> folder When the mod is installed properly, the button Armor Inspector will appear it the mods menu in the bottom right corner. Shots from the last battle are automatically accessible when you open Armor Inspector."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide targets mods/<current version>.",
+        "decisionReason": "Archive package and guide clearly says to extract into mods/<current version>.",
         "deleteDataWgpdc": false
       }
     },
