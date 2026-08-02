@@ -8,7 +8,83 @@
       "configuration": {
         "groups": [
           {
-            "id": "skyVersion",
+            "id": "skyVersionVolume1",
+            "name": "Sky version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "allMaps",
+                "name": "All maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^(?!.*NoDarkMaps).*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^.*NoDarkMaps.*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7262",
+      "title": "Pansy's Revamped Skies Volume 2",
+      "configuration": {
+        "groups": [
+          {
+            "id": "skyVersionVolume2",
+            "name": "Sky version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "allMaps",
+                "name": "All maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^(?!.*NoDarkMaps).*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^.*NoDarkMaps.*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7490",
+      "title": "Pansy's Revamped Skies Volume 3",
+      "configuration": {
+        "groups": [
+          {
+            "id": "skyVersionVolume3",
             "name": "Sky version",
             "required": true,
             "type": "single",
