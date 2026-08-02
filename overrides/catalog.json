@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.002",
-  "sourceHash": "89944698eb73ad20d36f5e8dbef3f7e9df9edc9a79f31fe3ca52d0d7838d4610",
+  "catalogVersion": "v2026.08.003",
+  "sourceHash": "90825f02318eb8a5cdb4a575a73b2421193e2cfd4122bc0c4b20c45e60bce773",
   "sources": [
     "wgmods",
     "modhub"
@@ -356,7 +356,7 @@
       "mark": null,
       "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p><a href=\"https://youtu.be/YLCMhmeEWsc\">Explanatory Video EN</a></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><strong>Gameface</strong> (<a href=\"https://gitlab.com/openwg/wot.gameface\">https://gitlab.com/openwg/wot.gameface</a>)</li><li><strong>ModsSettingsAPI</strong> (<a href=\"https://github.com/izeberg/modssettingsapi\">https://github.com/izeberg/modssettingsapi</a>)</li><li><strong>ModsListAPI</strong> (<a href=\"https://github.com/wot-public-mods/mods-list\">https://github.com/wot-public-mods/mods-list</a>)</li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
       "installationGuideHtml": "<h2>INSTALLATION</h2><ol><li>Download the mod</li><li>Unpack the downloaded zip file</li><li>Move the .wotmod files into your World of Tanks mods folder:<br>&nbsp; &nbsp; yourWoTInstallation/mods/&lt;game version&gt;</li></ol><p>&nbsp;If you already have some of the files installed, only move the new files into the folder</p><p>&nbsp;</p><p><strong>Optional:&nbsp;</strong><br>If you want to support me with fixing bugs and error of this mod, also move the gravity.error.reporter.log.&lt;version&gt;.wotmod file into your mods folder. This will automatically report bugs and errors to me.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7784/",
       "tagIds": [
         "18",
@@ -428,8 +428,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.6,
       "descriptionHtml": "<p><strong>Old Hangar V3</strong> brings back the classic World of Tanks garage atmosphere from before Update 2.0.</p><p>The mod restores the nostalgic feel of the old garage through both its visuals and sounds, bringing a piece of classic World of Tanks back to the modern game.</p><p>Perfect for players who miss the atmosphere of the old World of Tanks garage.</p>",
       "installationGuideHtml": "<blockquote><p>Copy the .wotmod file into the World_of_Tanks/mods/[current game version]/ folder.</p></blockquote><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_2026._j%C3%BAl._26._22_32_42.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -7927,7 +7927,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod allows you to change all 3 colours of the flashlight, it also lets you change the transparency of the flashlight.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-09_105627797.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -9707,7 +9707,7 @@
       "source": "wgmods",
       "sourceId": "7514",
       "title": "Dully Names",
-      "ownerUsername": "CrackRitter",
+      "ownerUsername": "CrackDully",
       "languageCode": "en",
       "availableLanguageCodes": [
         "en"
@@ -41566,6 +41566,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "20",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_20.exe",
+          "updatedAt": "2026-08-02T12:52:39.050Z",
+          "sizeBytes": 58075122,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_20.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Expected Vehicle Values 2 (mod overhaul, check description)\n- Updated Fight Button Text\n- Updated Armor Inspector Wotinspector (fixed errors in the log)\n- Updated Camo Selector\n- Updated Auto Voucher Scratcher\n- Updated Battle Timeline Results\n- Updated Research Progress Bar 14th_ua\n- Updated MoE Calculator 14th_ua\n- Updated Show extra zoom indicator on crosshair (added the Last Stand and Onslaught Light support)\n- Updated Armour Penetration Indicator PMOD (added the Last Stand and Onslaught Light support)\n- Updated enhanced modsSettingsApi 1.7.0 (improved reset; new options for mod authors)\n- Updated Show Vehicle 2.0.9, Hitmarker Pro 1.0.8, Crew Skills Pro 1.0.7, Custom Sixth Sense 1.0.10, Chat Filter 1.0.2, Gun Reloaded Sounds 1.0.2, Object 279 Mission Auto Reset 1.0.3 and Anti-Mirror 1.0.3 (adjustements for the new api update)\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "19",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_19.exe",
           "updatedAt": "2026-07-31T17:29:27.351Z",
@@ -41613,21 +41623,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_15.exe",
           "fileExt": ".exe",
           "changeLog": "- Updated Crew sounds: Archer\n- Updated Session Stats by kszys v2\n- Updated Research Progress Bar 14th_ua\n- Updated Armor Penetration Calculator 1.8.1 (fixes for a few bugs)\n- Updated Camo Selector 2.1.5 (removed the camo image upload size limit, fixed season selection after editing styles, and fixed loading saved outfits with outdated projection decal data)\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "14",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_14.exe",
-          "updatedAt": "2026-07-23T20:23:55.255Z",
-          "sizeBytes": 57812506,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_14.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Added \"Oh K***a\" 6th sense sound, and \"Oh K***a\" animated icon for Custom Sixth Sense\n- Updated PMOD 1.81.11\n- Updated Armor Penetration Calculator 1.8 (added gun blocking label to indicate barrel collision)\n- Updated Camo Selector 2.1.2 (improved gloss/metallic input and fixed special characters in asset names; resolved orphaned camo references causing python errors and ui freezes)\n- Updated Personal Record Customisation 1.8 (fixed startup crash on wot 2.3.1.0 caused by removed service-record validation apis; updated background/ribbon validation for current client compatibility)\n- Updated Show Vehicle 2.0.8 (the wide hull view zoom level is no longer lost when you leave sniper mode and come back, if you have a fixed zoom level picked in the game options)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_19.exe",
-        "changeLog": "- Updated XVM 13.1.0_0057\n- Updated Info Panel OldSkool\n- Updated Research Progress Bar 14th_ua\n- Updated MoE Calculator 14th_ua\n- Updated Damage Log GambitER\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_20.exe",
+        "changeLog": "- Updated Expected Vehicle Values 2 (mod overhaul, check description)\n- Updated Fight Button Text\n- Updated Armor Inspector Wotinspector (fixed errors in the log)\n- Updated Camo Selector\n- Updated Auto Voucher Scratcher\n- Updated Battle Timeline Results\n- Updated Research Progress Bar 14th_ua\n- Updated MoE Calculator 14th_ua\n- Updated Show extra zoom indicator on crosshair (added the Last Stand and Onslaught Light support)\n- Updated Armour Penetration Indicator PMOD (added the Last Stand and Onslaught Light support)\n- Updated enhanced modsSettingsApi 1.7.0 (improved reset; new options for mod authors)\n- Updated Show Vehicle 2.0.9, Hitmarker Pro 1.0.8, Crew Skills Pro 1.0.7, Custom Sixth Sense 1.0.10, Chat Filter 1.0.2, Gun Reloaded Sounds 1.0.2, Object 279 Mission Auto Reset 1.0.3 and Anti-Mirror 1.0.3 (adjustements for the new api update)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
