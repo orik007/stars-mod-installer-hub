@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.001",
+  "catalogVersion": "v2026.08.002",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7793",
+      "title": "Old Ammo Icons",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Move the .wotmod file into the mods folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to the mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7797",
+      "title": "DARK // Obj.268 V5 - VALHALLA",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod folder before copying to mods/<version>, which is a blocking manual package choice; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7795",
+      "title": "DARK // UDES 03 Alt 3 - BLITZTRÄGER",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod folder before copying to mods/<version>, which is a blocking manual package choice; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7796",
+      "title": "DARK // Jagdpanzer E 90 - LEGIONNAIRE",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod folder before copying to mods/<version>, which is a blocking manual package choice; guide also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7785",
@@ -14,6 +74,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide targets mods/<client version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7783",
+      "title": "ShotCaller",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Download the ShotCaller .wotmod file. 2. Open your World of Tanks installation folder. 3. Copy the file into: World_of_Tanks/mods/<current-version>/ For World of Tanks 2.3.1.0, the folder is: World_of_Tanks/mods/2.3.1.0/ 4. Launch World of Tanks normally. 5. Enter a random platoon, Stronghold skirmish, or detachment and press Ctrl+Alt+V. No external mod loader is required. After a World of Tanks update, move or reinstall the compatible ShotCaller version into the new mods/<current-version>/ folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide explicitly targets World_of_Tanks/mods/<current-version>.",
         "deleteDataWgpdc": false
       }
     },
