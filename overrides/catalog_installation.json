@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.005",
+  "catalogVersion": "v2026.08.006",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7801",
+      "title": "Experimental Rocket Boosters",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.0\\[WOTMOD GOES HERE]"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the included .wotmod into the patch folder under mods.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7800",

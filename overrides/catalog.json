@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.08.005",
-  "sourceHash": "a937f00d7acaf2318472a0647f213897d9da93c107fc2cd7eedceb44126f0507",
+  "catalogVersion": "v2026.08.006",
+  "sourceHash": "0827ad492cdf7bff3d04304d19512df2ad9e38eddde2bf5461855d012bcf576f",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7801",
+      "title": "Experimental Rocket Boosters",
+      "ownerUsername": "Desyatnik_Pansy",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Experimental mod to add more exaggerated effects to the Rocket Booster mechanic. This includes:<br>-increased lightMultipliers for the light textures at the end of the rocket boosters, giving them a sort of glow to them<br>-added omnilight effect to the rocket boosters, illuminating a small area around the rockets while active (this looks buggy on the PTZ-78 Due to how those rockets work, unfortunately not something I can change)<br>-massively increases the smoke plume effect the rockets have, creating an exaggerated smoke plume behind the tank (this does not apply to the BZ-79 As it lacks the associated files)<br><br>Since this mod affects vehicle with Rocket Boosters, this currently applies to the following vehicle:<br>- China: BZ-58, BZ-166, BZ-176, BZ-68, Yong Bing, BZ-75, BZ-75 \"Divine Valor\", BZ-72-1, BZ-79, DZT-159, DZT-159 \"Dragon Warrior\", PTZ-78&nbsp;<br>- Czechoslovakia: TT-130M&nbsp;<br>- Germany: Schwertwal<br><br>It should work with any future tanks with rockets so long as they don't use unique files.<br><br>As a final note, two known \"issues\":<br>-the smoke plume effect does not perfectly match the rocket VFX (which I have no way of editing). Unfortunately these values do not follow normal rules and honestly I'm just happy to have got something that looks close enough<br>-the omnilight effect can look both weaker or stronger depending on map lighting. Values are based using vanilla lighting on Malinovka, so if it looks different on other maps, that's why</p>",
+      "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.0\\[WOTMOD GOES HERE]</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ERB1Small.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7801/",
+      "tagIds": [
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "v1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Experimental_Rocket_Boosters_v1.0.rar",
+          "updatedAt": "2026-08-03T13:14:07.097Z",
+          "sizeBytes": 8785,
+          "fileName": "Experimental_Rocket_Boosters_v1.0.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Experimental_Rocket_Boosters_v1.0.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7800",
@@ -281,9 +317,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.2 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
+      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.1 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
       "installationGuideHtml": "<p>Mód rozbalte a složku mods dejte do kořenového adresáře hry.</p><p>Extract the mod and place the 'mods' folder into the game's root directory.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/01_4HxhRhY.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/03_goHA7kf.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7789/",
       "tagIds": [
         "22"
@@ -1615,16 +1651,6 @@
           "fileName": "GarageProgressBar-Bundle_1.3.1.zip",
           "fileExt": ".zip",
           "changeLog": "Your saved settings survive updates. Bar position, size, and toggles are now preserved when the mod updates its internal settings format, so a new version no longer resets your layout."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.3.0.zip",
-          "updatedAt": "2026-07-19T12:17:30.118Z",
-          "sizeBytes": 350677,
-          "fileName": "GarageProgressBar-Bundle_1.3.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "New \"Progress Mode\" setting. Choose how the XP readout is shown: Current (just your accumulated XP) or Current / Required (your XP against what the next step needs), per bar mode. Configure it in the mod's settings panel.\nNew \"Show Progress %\" toggle. Optionally prepend the completion percentage (capped at 100%) to the left of the readout, so you can see at a glance how close the current step is."
         }
       ],
       "latest": {
@@ -2090,7 +2116,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WoT Dynamic Playlists — by mjrd</p><p>Automatically maintains up-to-date vehicle lists in your garage filter, refreshed after every battle and on login. No manual editing, ever. Comes as separate .wotmod files — install only the modules you want.</p><p><br>MOD_DYNPL_MARKS</p><p># Mark 1 65% — Vehicles within 10 percentage points of earning their 1st Mark of Excellence<br># Mark 2 85% — Vehicles within 10 percentage points of earning their 2nd Mark of Excellence<br># Mark 3 95% — Vehicles within 10 percentage points of earning their 3rd Mark of Excellence<br># Mark 4 100% — Vehicles with all 3 marks earned, but live damage rating still below 100%. Sorted by closest to perfect first.</p><p><br>MOD_DYNPL_UPGRADES</p><p># Upgrades — Vehicles with Field Modifications or Tier XI Skill Tree available but not yet fully completed. Only shown when upgrades are actually available (Elite status, not rented or locked).</p><p><br>MOD_DYNPL_WEEKLY</p><p># Weekly — Vehicles eligible for the current Weekly Missions, sorted by priority: missing upgrades first, then those close to a Mark of Excellence, then all remaining eligible vehicles by tier. Updates automatically on weekly reset.</p><p><br>MOD_DYNPL_T11GRIND</p><p># XP grind for TXI — Tech tree Tier X vehicles whose Tier XI successor is not yet in your garage and haven't reached the 326,000 XP threshold yet. Sorted by XP already farmed - closest to the goal first. Vehicles without a known T11 line are included too, as WG will eventually add one. &nbsp;Updates automatically when you purchase a T11.</p><p>&nbsp;</p><p><br>A vehicle drops out of a list the moment you earn that mark, hit 100%, or finish that upgrade. You'll also get a small in-game notification when it happens for a genuine achievement — not just because a rating dipped or you sold the tank.<br><br><br>support/ideas: https://discord.gg/wF9AfhU7NC</p>",
+      "descriptionHtml": "<p>WoT Dynamic Playlists — by mjrd</p><p>Keeps your garage vehicle lists up to date on their own. Every list refreshes after each battle and on login, so you always know what to play next. One mod, fully configurable in-game through Mod Settings+.</p><p><br>THE LISTS</p><p># Mark 1 65% / # Mark 2 85% / # Mark 3 95% — Vehicles close to their next Mark of Excellence. How close counts as close is yours to set: the Near-mark window slider runs from 1% to 20% (default 10%).</p><p># Mark 4 100% — Vehicles with all three marks earned but a live damage rating still under 100%. Sorted by distance to perfect.</p><p># Weekly — Vehicles eligible for the current Weekly Missions, in three groups you can show or hide individually: missing upgrades first, then those close to a Mark of Excellence, then everything else by tier. Refreshes on its own at weekly reset.</p><p># Upgrades — Vehicles with Field Modifications or the Tier XI Skill Tree available but not yet finished. Only listed while upgrades are actually available (Elite, not rented, not locked).</p><p># XP grind for TXI — Tech tree Tier X vehicles whose Tier XI successor isn't in your garage yet and that are still short of the XP threshold (default 326,000, adjustable). Sorted by XP already farmed, closest to the goal first. Lines without a Tier XI yet are included too — one is coming eventually.</p><p># Ace Tanker — Vehicles without an Ace Tanker badge, sorted by tier and battles played. A tier range slider keeps the list to the vehicles you actually care about.</p><p><br>HOW IT BEHAVES</p><p>A vehicle drops out of a list the moment you earn that mark, hit 100%, or finish that upgrade. You also get a small in-game notification when it happens for a genuine achievement — not when a rating merely dipped or you sold the tank.</p><p>Changed a setting and want it applied right away? Tick Force Rebuild at the bottom of the settings panel and press OK or Apply.</p><p>Force Rebuild occasionally doesn't go through — the lists stay as they were. Switching battle mode in the garage triggers a fresh rebuild and sorts it out.</p><p><br>REQUIREMENTS</p><p>Mod Settings+ — developed and tested against aslain.modssettingsapi. It uses IzeBerg's original API interface, so izeberg.modssettingsapi will most likely work as well, but that hasn't been verified. Without either the mod still runs on its defaults, you just can't configure it.</p><p>The native Vehicle Lists feature has to be enabled on your account. It's a live WG server-side feature; if it's off, the mod simply does nothing until it's on — no errors, no crash.</p><p><br>INSTALLATION</p><p>Extract the ZIP into your mods folder for the current client version. You'll end up with:</p><p>World_of_Tanks\\mods\\&lt;version&gt;\\mjrd_dynpl_v1.7.0.wotmod</p><p>Restart the game completely. Your lists appear in the garage filter dropdown; configure them under Mods list → Mod Settings+ → Dynamic Playlists.</p><p>Everything is 100% local — no data leaves your machine.</p>",
       "installationGuideHtml": "<p>INSTALLATION<br>------------<br>1. Find your current WoT client version folder name. It's the<br>&nbsp; subfolder name under your WoT install directory's \"mods\" folder,<br>&nbsp; e.g.:<br>&nbsp; &nbsp; &nbsp; &lt;WoT install&gt;\\mods\\2.3.0.1\\<br>&nbsp; (open version.xml in your WoT root if you're not sure which<br>&nbsp; version you're on)</p><p>2. Copy the .wotmod file from this archive's \"manual-install\"<br>&nbsp; folder directly into that \"mods\\&lt;version&gt;\\\" folder.</p><p>3. Restart World of Tanks completely (not just the garage - a full<br>&nbsp; client restart is required for the mod to register).</p><p>4. Open Garage -&gt; Fahrzeuge -&gt; Fahrzeuglisten (Vehicle Lists). You<br>&nbsp; should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\",<br>&nbsp; \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/discord-avatar.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7724/",
@@ -8946,6 +8972,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2026.08.03.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.03.1.exe",
+          "updatedAt": "2026-08-03T09:37:43.920Z",
+          "sizeBytes": 13809083,
+          "fileName": "yam_2026.08.03.1.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2026.08.01.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.01.1.exe",
           "updatedAt": "2026-08-01T11:12:11.996Z",
@@ -8993,20 +9029,10 @@
           "fileName": "yam_2026.06.02.01_shGwQA4.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "2026.06.02.01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.06.02.01.exe",
-          "updatedAt": "2026-06-02T01:16:42.426Z",
-          "sizeBytes": 12770047,
-          "fileName": "yam_2026.06.02.01.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "yam_2026.08.01.1.exe",
+        "fileName": "yam_2026.08.03.1.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -29964,6 +29990,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.1.05",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.03.1.zip",
+          "updatedAt": "2026-08-03T09:32:51.745Z",
+          "sizeBytes": 7799044,
+          "fileName": "tomatogg_2026.08.03.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.1.04",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.07.14.1_aud9v4Z.zip",
           "updatedAt": "2026-07-15T16:23:37.392Z",
@@ -30011,20 +30047,10 @@
           "fileName": "tomatogg_2026.06.01.00_iCSaH6T.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "2.1.01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.06.01.00.zip",
-          "updatedAt": "2026-06-01T12:49:57.424Z",
-          "sizeBytes": 6224873,
-          "fileName": "tomatogg_2026.06.01.00.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "tomatogg_2026.07.14.1_aud9v4Z.zip",
+        "fileName": "tomatogg_2026.08.03.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -40776,16 +40802,6 @@
           "fileName": "1D6_XVM_ModPack_2.2.1a.exe",
           "fileExt": ".exe",
           "changeLog": "23 april 2026 - UPDATE 2.2.1a\nCompatible Wot 2.2.2.1\n- Update XVM 13.1.0.0017\n- Update PMOD 1.81.03\n- Update crosshairs\n- Update Efficiency 8.0.2\n- Update MarksOngunExtended 8.0.2\n- Update Icons Contour/Gold\n"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "2.2.0D",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1D6_XVM_ModPack_2.2.0d.exe",
-          "updatedAt": "2026-03-29T17:38:58.750Z",
-          "sizeBytes": 90506168,
-          "fileName": "1D6_XVM_ModPack_2.2.0d.exe",
-          "fileExt": ".exe",
-          "changeLog": "29 march 2026 - UPDATE 2.2.0d\nCompatible Wot 2.2.0.2\n"
         }
       ],
       "latest": {
