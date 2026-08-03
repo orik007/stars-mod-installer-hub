@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.08.004",
-  "sourceHash": "90825f02318eb8a5cdb4a575a73b2421193e2cfd4122bc0c4b20c45e60bce773",
+  "catalogVersion": "v2026.08.005",
+  "sourceHash": "a937f00d7acaf2318472a0647f213897d9da93c107fc2cd7eedceb44126f0507",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7800",
+      "title": "Zanju's Premium Time",
+      "ownerUsername": "Nersus",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod shows precisely how much premium time you have left.</p><p>The game's own Premium Account header button only shows a day count — <strong>1 d</strong> tells you nothing, it could be 23 hours or 15 minutes. This mod improves the existing UI:</p><ul><li><strong>Header counter</strong> — the header button shows a timer that gets more precise as time runs out: it keeps the two largest units, so <strong>3d 05h</strong> with days left and <strong>5m 12s</strong> in the final hour. When premium is not running, the button keeps the game's default label.</li><li><strong>Tooltip end time</strong> — the button's hover tooltip gains the exact end date and time, to the second, with the UTC offset.</li></ul>",
+      "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_pFr9uWU.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7800/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.premiumtime_1.0.0.zip",
+          "updatedAt": "2026-08-02T21:56:17.178Z",
+          "sizeBytes": 116460,
+          "fileName": "zanju.premiumtime_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "zanju.premiumtime_1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7793",
@@ -3614,9 +3650,9 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<h2>This mod adds a fully customisable progress bar which shows your progress in:</h2><ul><li><strong>Module and vehicle research</strong><ul><li>See how close you are to researching modules and vehicles <i>without entering any menu</i>.</li><li>On tier X vehicles you can <i>optionally</i> show progress towards hypothetical future Tier 11 vehicles <i>that might be added in the future</i>.</li></ul></li><li><strong>Field modifications</strong><ul><li>See how close you are to unlocking each field modification level <i>without entering any menu</i>.</li><li>Each level shows what options are available, or will be available once unlocked.</li><li><i>Optionally</i> the bar can stay displayed even after field modification research to quickly check what upgrade is selected <i>without entering any menu</i>.</li></ul></li><li><strong>Tier 11 upgrades system</strong><ul><li>See how close you are to unlocking next upgrade <i>without entering any menu</i>.</li><li>Still helpful to see overall progress, even though a flat progress bar cannot display the complex upgrade tree.</li></ul></li><li><strong>Elite level progress</strong><ul><li>See how close you are to reaching next elite badge style.</li><li>Shows progress towards cosmetic elements tied to elite level available for Tier 11 vehicles.</li><li><i>Optionally</i> the bar can display progress towards elite level badges.</li></ul></li></ul><h2>Other features of the mod:</h2><ul><li>Different XP types are taken into account:<ul><li>Separate calculation for research using vehicle XP only. (<i>Displayed in green</i>)</li><li>Separate calculation for research using vehicle XP + free XP. (<i>Displayed in yellow</i>)</li><li>Elite level progress is calculated based on base XP.</li></ul></li><li><i>Optional</i> warning messages:<ul><li><strong>Research now!</strong> message when you have enough vehicle XP to research all available items.</li><li><strong>Accelerate crew training!</strong> message when you have already researched all available items.</li></ul></li></ul><h2>Issues Or Ideas</h2><p>If you'd like to report a bug or other issue, or pass an idea or other feedback for the mod, you can do so on <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/issues\">GitHub</a>.</p><h2>Source Code</h2><p>Source code of the mod is public and is available on <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/tree/master/mods/research-progress-bar\">GitHub</a>.</p>",
+      "descriptionHtml": "<p>This mod adds a fully customisable progress bar which shows your progress in:</p><ul><li><strong>Module and vehicle research</strong><ul><li>See how close you are to researching modules and vehicles <i>without entering any menu</i>.</li><li>On tier X vehicles you can <i>optionally</i> show progress towards hypothetical future Tier 11 vehicles <i>that might be added in the future</i>.</li></ul></li><li><strong>Field modifications</strong><ul><li>See how close you are to unlocking each field modification level <i>without entering any menu</i>.</li><li>Each level shows what options are available, or will be available once unlocked.</li><li><i>Optionally</i> the bar can stay displayed even after field modification research to quickly check what upgrade is selected <i>without entering any menu</i>.</li></ul></li><li><strong>Tier 11 upgrades system</strong><ul><li>See how close you are to unlocking next upgrade <i>without entering any menu</i>.</li><li>Still helpful to see overall progress, even though a flat progress bar cannot display the complex upgrade tree.</li></ul></li><li><strong>Elite level progress</strong><ul><li>See how close you are to reaching next elite level.</li><li>Shows progress towards cosmetic elements tied to elite level available for Tier 11 vehicles.</li><li><i>Optionally</i> the bar can display progress towards elite level badges.</li></ul></li></ul><p>Other features of the mod:</p><ul><li>The bar can <i>optionally</i> allow research and purchase of items without entering the respective menus:<ul><li>Safe by design - purchases and research use the game's native confirmation windows, so a misclick won't cause accidental research.</li><li>Research mode allows researching modules and vehicles.</li><li>Field mods mode allows unlocking, selecting and toggling dual modifications, secondary loadouts and second slot categories.</li><li>Tier 11 upgrades mode opens the upgrades screen from a reachable item, since the flat bar cannot show the branching upgrade tree.</li></ul></li><li>Different XP types are taken into account:<ul><li>Separate calculation for research using vehicle XP only. (<i>Displayed in green</i>)</li><li>Separate calculation for research using vehicle XP + free XP. (<i>Displayed in yellow</i>)</li><li>Elite level progress is calculated based on base XP.</li></ul></li><li><i>Optional</i> warning messages:<ul><li><strong>Research now!</strong> message when you have enough vehicle XP to research all available items.</li><li><strong>Accelerate crew training!</strong> message when you have already researched all available items.</li></ul></li></ul>",
       "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7691/",
@@ -3625,6 +3661,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.researchprogressbar_1.3.0_jgnR2Ci.zip",
+          "updatedAt": "2026-08-02T21:58:55.139Z",
+          "sizeBytes": 1035962,
+          "fileName": "zanju.researchprogressbar_1.3.0_jgnR2Ci.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.1.0",
@@ -3657,9 +3703,9 @@
         }
       ],
       "latest": {
-        "fileName": "zanju.researchprogressbar_1.1.0.zip",
-        "changeLog": "\n- Settings now survive a modpack reinstall instead of being reset to defaults.\n- In-game settings now use Aslain's ModsSettings menu, with search, collapsible mods, and a reset-to-defaults button.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "zanju.researchprogressbar_1.3.0_jgnR2Ci.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
