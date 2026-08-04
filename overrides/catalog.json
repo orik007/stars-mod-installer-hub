@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.007",
-  "sourceHash": "e721f22e25aa445343572e8ffaa699843518434a0b70850171f7fd7691e483cb",
+  "catalogVersion": "v2026.08.008",
+  "sourceHash": "ad904b67fd5e46f0d4ee0a34140b0533df478129db9e9f7d39e71fc2c1551f94",
   "sources": [
     "wgmods",
     "modhub"
@@ -1604,6 +1604,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.6.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.6.0.zip",
+          "updatedAt": "2026-08-03T22:26:19.906Z",
+          "sizeBytes": 357355,
+          "fileName": "GarageProgressBar-Bundle_1.6.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "The Fully Progressed tooltips now itemize what you finished. Hovering a category on the golden bar lists the actual items instead of just a total: every researched module and vehicle, each Field Modification level with the variant you picked, the skill tree's final upgrade, and each Elite Level reward with the level it unlocks at. Tier XI vehicles also get their skill counter in the tooltip header.\nNew \"Exclude Elite System\" setting. A child option under Fully Progressed, off by default. Turn it on and a vehicle whose only remaining progression is the Elite System grade band shows the golden Fully Progressed bar instead of the Elite bar. Unclaimed Elite rewards still take priority, so nothing you can still collect gets hidden."
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "1.5.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.5.0.zip",
           "updatedAt": "2026-08-01T19:16:13.989Z",
@@ -1654,8 +1664,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_1.5.0.zip",
-        "changeLog": "Fully Progressed bar. A vehicle with nothing left to research, upgrade, or unlock used to keep showing a finished Elite Levels bar. It now gets its own golden bar that lists every progression type it completed, with the total XP each one took.\nThe settings panel is grouped. The mod's options in ModsSettingsAPI are now split into Modes, Formatting, and Layout instead of one flat list, so related settings sit together.",
+        "fileName": "GarageProgressBar-Bundle_1.6.0.zip",
+        "changeLog": "The Fully Progressed tooltips now itemize what you finished. Hovering a category on the golden bar lists the actual items instead of just a total: every researched module and vehicle, each Field Modification level with the variant you picked, the skill tree's final upgrade, and each Elite Level reward with the level it unlocks at. Tier XI vehicles also get their skill counter in the tooltip header.\nNew \"Exclude Elite System\" setting. A child option under Fully Progressed, off by default. Turn it on and a vehicle whose only remaining progression is the Elite System grade band shows the golden Fully Progressed bar instead of the Elite bar. Unclaimed Elite rewards still take priority, so nothing you can still collect gets hidden.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2128,6 +2138,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.7.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd_dynpl_v1.7.0_mCWvbHl.zip",
+          "updatedAt": "2026-08-03T22:27:02.756Z",
+          "sizeBytes": 19840,
+          "fileName": "mjrd_dynpl_v1.7.0_mCWvbHl.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added the mod to the Aslain´s Modsettings UI\nAdded \"# Ace Tanker\" list: vehicles without an Ace Tanker badge, with a tier range slider to narrow it down.\nMerged the separate .wotmod files back into a single mjrd_dynpl.wotmod, now fully configurable through Mod Settings+. Every list can be toggled individually; near-mark window and TXI XP threshold are adjustable; Weekly split into three toggleable priority Groups and can set the range of the Tier for the ACE Tanker list.\nadded Force Rebuild"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/the_dynamic_playlist_mod_1.4.4_1Vnuqnk.zip",
           "updatedAt": "2026-07-15T08:26:36.642Z",
@@ -2168,9 +2188,9 @@
         }
       ],
       "latest": {
-        "fileName": "mod_dynamic_playlists_v1.4.3.wotmod",
-        "changeLog": "# Weekly Playlist (new)\n\nA new automatic playlist that displays vehicles matching the current 3-week missions — filtered according to their vehicle restrictions (sub-role, class, nation, level). Sorted by priority within the list: first vehicles with missing Field Mods, then vehicles close to a Gunmark, then the rest. Is automatically rebuilt when you reroll a mission.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "mjrd_dynpl_v1.7.0_mCWvbHl.zip",
+        "changeLog": "Added the mod to the Aslain´s Modsettings UI\nAdded \"# Ace Tanker\" list: vehicles without an Ace Tanker badge, with a tier range slider to narrow it down.\nMerged the separate .wotmod files back into a single mjrd_dynpl.wotmod, now fully configurable through Mod Settings+. Every list can be toggled individually; near-mark window and TXI XP threshold are adjustable; Weekly split into three toggleable priority Groups and can set the range of the Tier for the ACE Tanker list.\nadded Force Rebuild",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
