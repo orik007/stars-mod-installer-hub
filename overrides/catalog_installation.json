@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.009",
+  "catalogVersion": "v2026.08.010",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7803",
+      "title": "IS 7 žula 3d skin",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "world of tanks to the mod folder and in the folder put the latest game folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to the versioned mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7805",
+      "title": "MOE Race Challenge",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7801",
