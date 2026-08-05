@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.010",
-  "sourceHash": "459beac9ae95ace47e19eadf29f7f2e8bdf9cc2960fa36a3767285fdc5202a9f",
+  "catalogVersion": "v2026.08.011",
+  "sourceHash": "bedcb034a157a9f9f9ad4e8bc8bd69308540307aa3c414514831dca1991218d9",
   "sources": [
     "wgmods",
     "modhub"
@@ -30084,6 +30084,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "2.1.06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.04.1.zip",
+          "updatedAt": "2026-08-04T20:42:48.619Z",
+          "sizeBytes": 7819635,
+          "fileName": "tomatogg_2026.08.04.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "2.1.05",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.03.1.zip",
           "updatedAt": "2026-08-03T09:32:51.745Z",
@@ -30131,20 +30141,10 @@
           "fileName": "tomatogg_2026.06.12.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.1.01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.06.01.00_iCSaH6T.zip",
-          "updatedAt": "2026-06-11T10:49:23.474Z",
-          "sizeBytes": 6224873,
-          "fileName": "tomatogg_2026.06.01.00_iCSaH6T.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "tomatogg_2026.08.03.1.zip",
+        "fileName": "tomatogg_2026.08.04.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -30328,6 +30328,43 @@
       ],
       "latest": {
         "fileName": "champi.reticledispersionpro_1.06.018_2.3.1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6349",
+      "title": "Better Reticle Size",
+      "ownerUsername": "Jak_Atackka",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": true,
+      "mark": 4.3,
+      "descriptionHtml": "<p><strong>Credit belongs to Tankista1 on Discord for sharing this information with me, as well as StranikS_Scan and others who discovered this years ago.</strong> Somehow, this information never spread outside of RU; I created this mod and <a href=\"https://www.reddit.com/r/WorldofTanks/comments/10wnyf5/the_aiming_circle_is_the_wrong_size_heres_how_to/\">this Reddit post</a> to share this knowledge with a broader audience.</p><p><a href=\"https://github.com/alex-joens/wot-better-reticle-size\">Source code is available on GitHub.</a></p><p><i>1.0: </i><strong>Thanks to IzeBerg and poliroid for creating the Mod Settings and Mods List APIs.</strong></p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/c1436cef-cabb-4cbf-9ee1-3d3611bea4d2.png\"></figure><p>This mod has a surprisingly big effect on how the game feels. There are some things it won't fix:</p><ul><li>Lag</li><li>Bad aim</li><li>Bad RNG - shots can still bounce or miss</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/5562c8bf-d70a-47bc-99e2-1f25e15ad13f.jpg\"><figcaption>You'll still probably bounce or miss.</figcaption></figure><h2>Is this useful?</h2><p>Knowing the <i>true</i> accuracy of your gun is very useful, especially in these situations:</p><p><strong>Firing the moment you are 100% sure it will hit.</strong> If you aim for longer than necessary, the enemy might have time to shoot back.</p><p><strong>Knowing how likely you are to hit a weakspot.</strong> I bet there are many, <i>many</i> shots you chose not to take because you assumed they were unlikely to hit. You'll be surprised to see just how many damage opportunities you've missed out on.</p><h2>Do I need to use server reticle?</h2><p><strong>This mod works with and without server reticle.</strong> What you see on your screen doesn't always match what the server sees, and enabling server reticle helps to fix this. Server reticle can be helpful if you play on high ping, but it also feels less responsive. Try with and without to see which one you like more.</p><h2>Is this compatible with other reticle mods?</h2><p>It's compatible with most reticle mods, but if you run into any issues, let me know!</p><h2>NEW Feature: In-game settings menu</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/774b7dd9-8f7b-4e4a-be44-08e596ca1f4b.jpg\"><figcaption>Credit to Ize_Berg's Mod Setting API &nbsp;and Polirod's Mods List API for making this possible!</figcaption></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/29cd2c5b-8c31-4c5f-b01a-a65013393346.jpg\"><figcaption>The settings menu can be found under this button</figcaption></figure>",
+      "installationGuideHtml": "<figure class=\"image\"><img src=\"//wgmods.net/media/m_images/12e40465-cad5-4c22-9d2b-8840c794da81.png\"></figure><p>You can find where your game is installed using this button:</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/a341ba65-6f3e-46c0-9909-cab4257de8f8.png\"></figure><p>From there, open the <strong>mods</strong> folder, then open the folder for the current game version (right now it's <strong>1.22.1.0</strong>).</p><p>Open the downloaded ZIP file, copy <strong>everything inside of the ZIP file</strong>, and paste it in the <strong>mods/</strong> folder for this game version.</p><p>If Windows asks if you want to replace existing files, select <strong>Yes</strong>.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/5562c8bf-d70a-47bc-99e2-1f25e15ad13f.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/6349/",
+      "tagIds": [
+        "15",
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.2.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Jak_Atackka.betterReticleSize_1.2.5_p4QSXrt.zip",
+          "updatedAt": "2026-08-05T00:14:41.771Z",
+          "sizeBytes": 274849,
+          "fileName": "Jak_Atackka.betterReticleSize_1.2.5_p4QSXrt.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Jak_Atackka.betterReticleSize_1.2.5_p4QSXrt.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -41732,6 +41769,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.0",
+          "modVersion": "22",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_22.exe",
+          "updatedAt": "2026-08-04T19:30:06.890Z",
+          "sizeBytes": 58189728,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_22.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Dynamic Playlists\n- Updated Research Progress Bar 14th_ua\n- Updated Spotted Status: OldSkool\n- Updated Responsive Reticle (enabled responsive reticle for SPG in arcade view (top-down view still is disabled); fix for stuttering gun model when playing SPG)\n- Updated Dispersion Reticle by Pruszko (fix for errors during top-down view when playing SPG with Responsive Reticle mod)\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.0",
           "modVersion": "21",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.0_21.exe",
           "updatedAt": "2026-08-03T17:57:51.552Z",
@@ -41762,8 +41809,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_21.exe",
-        "changeLog": "- Updated Tomato.gg\n- Updated Auto Equipment Return by Z4imon\n- Added Premium Time by Zanju\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.0_22.exe",
+        "changeLog": "- Updated Dynamic Playlists\n- Updated Research Progress Bar 14th_ua\n- Updated Spotted Status: OldSkool\n- Updated Responsive Reticle (enabled responsive reticle for SPG in arcade view (top-down view still is disabled); fix for stuttering gun model when playing SPG)\n- Updated Dispersion Reticle by Pruszko (fix for errors during top-down view when playing SPG with Responsive Reticle mod)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
