@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.012",
+  "catalogVersion": "v2026.08.013",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7804",
+      "title": "JagdPanter 2 waffentrager  3d skin",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "world of tanks to the mod folder and in the folder put the latest game folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide indicates placing it into the game's mods version folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7802",
