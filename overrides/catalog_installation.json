@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.011",
+  "catalogVersion": "v2026.08.012",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7802",
+      "title": "KPZ 3D SKIN",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "world of tanks mods version game"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package with insufficient guide; default to installing into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7806",
+      "title": "WoT Tweaker Mini",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extraction: Extract the contents of the downloaded archive into the root folder of your World of Tanks game (where the paths.xml file is located). Execution: Run the WotTweaker.bat file. Menu Navigation: Use the [Up] / [Down] arrow keys to select an effect. Press [Space] or the [Left] / [Right] arrow keys to toggle the state ([ ON ] / [ OFF ]). Applying Changes: Press the [Enter] key to apply your changes — the script will automatically manage the necessary files in the modification directory. Exiting: Press the [Esc] or [Q] key to exit the program."
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive must be extracted to game root and then a batch helper tool must be run to manage files, which is a multi-step unsupported process.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7803",
