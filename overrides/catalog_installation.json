@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.015",
+  "catalogVersion": "v2026.08.016",
   "mods": [
     {
       "source": "wgmods",
@@ -14,36 +14,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7804",
-      "title": "JagdPanter 2 waffentrager  3d skin",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "world of tanks to the mod folder and in the folder put the latest game folder."
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide indicates placing it into the game's mods version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7802",
-      "title": "KPZ 3D SKIN",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "world of tanks mods version game"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package with insufficient guide; default to installing into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -6480,13 +6450,13 @@
       "sourceId": "7175",
       "title": "British Crew Sounds From Wot Blitz",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Unpack the file, folder mods paste it into the game folder mods/2.1.1.0"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive (.rar) and guide instructs unpacking and pasting the mods folder into a specific mods/<version> folder (mods/2.1.1.0).",
+        "decisionReason": "Package is a .wotmod and guide targets the versioned mods folder.",
         "deleteDataWgpdc": false
       }
     },
