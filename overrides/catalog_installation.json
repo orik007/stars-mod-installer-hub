@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.014",
+  "catalogVersion": "v2026.08.015",
   "mods": [
     {
       "source": "wgmods",
@@ -203,12 +203,12 @@
       "title": "ShotCaller",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "1. Download the ShotCaller .wotmod file. 2. Open your World of Tanks installation folder. 3. Copy the file into: World_of_Tanks/mods/<current-version>/ For World of Tanks 2.3.1.0, the folder is: World_of_Tanks/mods/2.3.1.0/ 4. Launch World of Tanks normally. 5. Enter a random platoon, Stronghold skirmish, or detachment and press Ctrl+Alt+V. No external mod loader is required. After a World of Tanks update, move or reinstall the compatible ShotCaller version into the new mods/<current-version>/ folder."
+        "latestInstallGuide": "1. Download the ShotCaller .wotmod file. 2. Open your World of Tanks installation folder. 3. Copy the file into: World_of_Tanks/mods/<current-version>/ For World of Tanks 2.3.1.0: World_of_Tanks/mods/2.3.1.0/ 4. Optional: to use a higher-resolution custom clan logo, place one of these files in the main World of Tanks folder, beside the mods and win64 folders: clan.png clan.jpg clan.jpeg clan.png is recommended because it supports transparency. ShotCaller checks them in that order and falls back to the WG clan emblem if no valid custom image is found. 5. Launch World of Tanks normally. 6. Enter a random platoon, Stronghold skirmish, or detachment and select a tier 6, 8 or 10 tank to set tier then press: Ctrl+Alt+V No external mod loader is required. After a World of Tanks update, move or reinstall the compatible ShotCaller version into the new mods/<current-version>/ folder. The optional clan logo can remain in the main World of Tanks folder. Transparent PNG is recommended."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide explicitly targets World_of_Tanks/mods/<current-version>.",
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Guide requires installing the .wotmod to mods/<version> and optionally placing a custom image in the game root, which is a mixed multi-path process.",
         "deleteDataWgpdc": false
       }
     },
