@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.017",
+  "catalogVersion": "v2026.08.018",
   "mods": [
     {
       "source": "wgmods",
@@ -345,6 +345,21 @@
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7751",
+      "title": "No Post-Battle Spin",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the latest release Drop the .wotmod into your game's mods folder: <WoT folder>\\mods/<version>\\ Launch the game"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
       }
     },
     {
