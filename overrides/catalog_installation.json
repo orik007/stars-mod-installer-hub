@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.020",
+  "catalogVersion": "v2026.08.021",
   "mods": [
     {
       "source": "wgmods",
@@ -427,13 +427,13 @@
       "sourceId": "7762",
       "title": "Hangar Carousel Plus",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.5 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive guide requires deleting old .wotmod files from mods/<version> before extracting to the game root, making it a destructive multi-step install.",
+        "decisionReason": "Guide requires deleting older .wotmod files from mods/<version> before extracting files into the game root, which is a destructive multi-step operation.",
         "deleteDataWgpdc": false
       }
     },
