@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.08.022",
-  "sourceHash": "74264bb4a1113838e9d766558294492c50d1228e807281585407ce796275831f",
+  "catalogVersion": "v2026.08.023",
+  "sourceHash": "d09967c8bb07c9f1a88748fc1f0d2dc23856672c7bb99bf52c30bf9247761e3a",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7815",
+      "title": "Zanju's Directives Helper",
+      "ownerUsername": "Nersus",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<h2>This mod makes using directives easy while avoiding accidental spending of bonds.</h2><ul><li><strong>Quick directives access</strong> — directives can be installed and taken off your tank with a single click, without entering directives menu.</li><li><strong>Only what is needed</strong> — unlike the game's menu, the directives which have no effect are filtered out.</li><li><strong>Effects at a glance</strong> — directives are split into sections depending on their effect: boosting equipment, boosting fully trained perks and boosting untrained perks to 100%. In the last section you are even told how much each boost gives you depending on your crew training level.</li><li><strong>Watch your bonds</strong> — if auto-resupply is active and you're on your last directive, the mod will warn you that going into the battle will spend resources.</li><li><strong>Safe purchase</strong> — if you don't own a directive, the <i>Show unowned</i> checkbox shows it on the list. Clicking it will open the game's own purchase window with confirmation — you still have to confirm the purchase, so <i>misclicks are safe</i>.</li><li><strong>Auto-resupply</strong> — can be toggled on or off right in the mod's UI.</li><li><strong>Dynamic UI</strong> — the window can be collapsed and expanded, moved around, and its width manually changed at will.</li></ul>",
+      "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_9AVHjya.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7815/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.directiveshelper_1.0.0.zip",
+          "updatedAt": "2026-08-08T22:37:24.206Z",
+          "sizeBytes": 194691,
+          "fileName": "zanju.directiveshelper_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "zanju.directiveshelper_1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7808",
@@ -39,6 +76,44 @@
       "latest": {
         "fileName": "XM_57_Improved_Model.wotmod",
         "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7790",
+      "title": "Reload Time Marker - Base Values",
+      "ownerUsername": "DonPedroTV",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Reload Time Marker – Base Values</strong> displays a small, static base reload-time reference next to standard vehicle markers.</p><p>For each visible vehicle, the mod selects its highest-tier available primary gun. If several guns share the same highest tier, the gun with the shortest base reload time is used.</p><p>The displayed value is based on the vehicle’s base specifications. It is <strong>not a live reload timer</strong> and does not change after the vehicle fires.</p><h2>FEATURES</h2><ul><li>Separate visibility settings for enemies and allies</li><li>Always visible or displayed while holding <strong>Alt</strong></li><li>Four preset marker positions</li><li>Adjustable horizontal and vertical offsets</li><li>Dragging during battle with <strong>Ctrl + Left Mouse Button</strong></li><li>Optional position locking</li><li>Configurable text size, color, opacity, outline and shadow</li><li>Configurable decimal precision and optional seconds unit</li><li>Polish interface for Polish game clients, with English fallback</li><li>Optional garage configuration through Izeberg ModsSettingsAPI</li></ul><h2>LIMITATIONS</h2><p>The mod does not:</p><ul><li>detect vehicle shots or track the current reload state;</li><li>display reload countdowns or ready-to-fire notifications;</li><li>estimate bonuses from crew skills, equipment, directives or consumables;</li><li>reveal unspotted vehicles;</li><li>retain markers after vehicles disappear.</li></ul>",
+      "installationGuideHtml": "<h2>INSTALLATION</h2><p>Extract the downloaded archive into the main <strong>World of Tanks</strong> directory while preserving its folder structure.</p><p>Alternatively, copy:</p><p><strong>donpedrotv.base_reload_times_*.*.*.wotmod</strong></p><p>to:</p><p><strong>[WoT game directory]/mods/[version]/</strong><br><br>----------------------------------------------<br><br>Config location file:<br><br><strong>[WoT game directory]/mods/configs/ReloadReference/config.json</strong><br>&nbsp;</p><p>Izeberg ModsSettingsAPI is optional. The mod works without it, but the in-garage configuration menu will not be available.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wotmod_tlo3_HonhgFh.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7790/",
+      "tagIds": [
+        "18",
+        "14",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/donpedrotv.base_reload_times_1.0.2.wotmod",
+          "updatedAt": "2026-08-08T22:33:22.836Z",
+          "sizeBytes": 28333,
+          "fileName": "donpedrotv.base_reload_times_1.0.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "- Update to 2.3.1.1 WOT"
+        }
+      ],
+      "latest": {
+        "fileName": "donpedrotv.base_reload_times_1.0.2.wotmod",
+        "changeLog": "- Update to 2.3.1.1 WOT",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -250,6 +325,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.premiumtime_1.0.1.zip",
+          "updatedAt": "2026-08-08T22:38:46.257Z",
+          "sizeBytes": 116883,
+          "fileName": "zanju.premiumtime_1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.premiumtime_1.0.0.zip",
@@ -261,9 +346,9 @@
         }
       ],
       "latest": {
-        "fileName": "zanju.premiumtime_1.0.0.zip",
+        "fileName": "zanju.premiumtime_1.0.1.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -571,6 +656,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.1_WoT_2.3.1.1_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D1%83.zip",
+          "updatedAt": "2026-08-08T22:38:18.107Z",
+          "sizeBytes": 714092046,
+          "fileName": "BOBRKRW_ModPack_1.0.1_WoT_2.3.1.1_для_сайту.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.0_WoT_2.3.1.0_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D1%83.zip",
@@ -582,9 +677,9 @@
         }
       ],
       "latest": {
-        "fileName": "BOBRKRW_ModPack_1.0.0_WoT_2.3.1.0_для_сайту.zip",
+        "fileName": "BOBRKRW_ModPack_1.0.1_WoT_2.3.1.1_для_сайту.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -719,7 +814,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p><strong>Old Hangar V3</strong> brings back the classic World of Tanks garage atmosphere from before Update 2.0.</p><p>The mod restores the nostalgic feel of the old garage through both its visuals and sounds, bringing a piece of classic World of Tanks back to the modern game.</p><p>Perfect for players who miss the atmosphere of the old World of Tanks garage.</p>",
       "installationGuideHtml": "<blockquote><p>Copy the .wotmod file into the World_of_Tanks/mods/[current game version]/ folder.</p></blockquote><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_2026._j%C3%BAl._26._22_32_42.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1510,6 +1605,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_2GiKubg.zip",
+          "updatedAt": "2026-08-08T22:40:15.362Z",
+          "sizeBytes": 295598,
+          "fileName": "overmatch_2GiKubg.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.5.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_dwBv0XV.zip",
@@ -1531,9 +1636,9 @@
         }
       ],
       "latest": {
-        "fileName": "overmatch_dwBv0XV.zip",
-        "changeLog": "Linking your account is now a one-click button in the mod settings — Link or Unlink, with a clear status showing whether you're connected.\nFixed battle results for games you leave early or never open sometimes popping up over a newer battle — they're now captured quietly in the background.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "overmatch_2GiKubg.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2808,6 +2913,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "2.3.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.1.wotmod",
+          "updatedAt": "2026-08-08T22:41:42.063Z",
+          "sizeBytes": 20282110,
+          "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.0.wotmod",
@@ -2819,9 +2934,9 @@
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.0.wotmod",
+        "fileName": "FiT.Graphics.TankContourIconsColor.MirroredByClass_2.3.1.1.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4257,7 +4372,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>This mod adds a fully customisable progress bar which shows your progress in:</p><ul><li><strong>Module and vehicle research</strong><ul><li>See how close you are to researching modules and vehicles <i>without entering any menu</i>.</li><li>On tier X vehicles you can <i>optionally</i> show progress towards hypothetical future Tier 11 vehicles <i>that might be added in the future</i>.</li></ul></li><li><strong>Field modifications</strong><ul><li>See how close you are to unlocking each field modification level <i>without entering any menu</i>.</li><li>Each level shows what options are available, or will be available once unlocked.</li><li><i>Optionally</i> the bar can stay displayed even after field modification research to quickly check what upgrade is selected <i>without entering any menu</i>.</li></ul></li><li><strong>Tier 11 upgrades system</strong><ul><li>See how close you are to unlocking next upgrade <i>without entering any menu</i>.</li><li>Still helpful to see overall progress, even though a flat progress bar cannot display the complex upgrade tree.</li></ul></li><li><strong>Elite level progress</strong><ul><li>See how close you are to reaching next elite level.</li><li>Shows progress towards cosmetic elements tied to elite level available for Tier 11 vehicles.</li><li><i>Optionally</i> the bar can display progress towards elite level badges.</li></ul></li></ul><p>Other features of the mod:</p><ul><li>The bar can <i>optionally</i> allow research and purchase of items without entering the respective menus:<ul><li>Safe by design - purchases and research use the game's native confirmation windows, so a misclick won't cause accidental research.</li><li>Research mode allows researching modules and vehicles.</li><li>Field mods mode allows unlocking, selecting and toggling dual modifications, secondary loadouts and second slot categories.</li><li>Tier 11 upgrades mode opens the upgrades screen from a reachable item, since the flat bar cannot show the branching upgrade tree.</li></ul></li><li>Different XP types are taken into account:<ul><li>Separate calculation for research using vehicle XP only. (<i>Displayed in green</i>)</li><li>Separate calculation for research using vehicle XP + free XP. (<i>Displayed in yellow</i>)</li><li>Elite level progress is calculated based on base XP.</li></ul></li><li><i>Optional</i> warning messages:<ul><li><strong>Research now!</strong> message when you have enough vehicle XP to research all available items.</li><li><strong>Accelerate crew training!</strong> message when you have already researched all available items.</li></ul></li></ul>",
       "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
@@ -4268,6 +4383,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.3.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.researchprogressbar_1.3.1.zip",
+          "updatedAt": "2026-08-08T22:39:00.979Z",
+          "sizeBytes": 1060718,
+          "fileName": "zanju.researchprogressbar_1.3.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.3.0",
@@ -4310,9 +4435,9 @@
         }
       ],
       "latest": {
-        "fileName": "zanju.researchprogressbar_1.3.0_jgnR2Ci.zip",
+        "fileName": "zanju.researchprogressbar_1.3.1.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -13317,6 +13442,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%9A%D0%B0%D0%BB%D1%96%D0%B1%D1%80_AZ4hcEQ.rar",
+          "updatedAt": "2026-08-08T22:41:35.439Z",
+          "sizeBytes": 152114,
+          "fileName": "Основний_Калібр_AZ4hcEQ.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%9A%D0%B0%D0%BB%D1%96%D0%B1%D1%80_rrGSqdT.rar",
@@ -13368,9 +13503,9 @@
         }
       ],
       "latest": {
-        "fileName": "Основний_Калібр_rrGSqdT.rar",
+        "fileName": "Основний_Калібр_AZ4hcEQ.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28174,7 +28309,7 @@
         "en"
       ],
       "recommended": false,
-      "mark": 4.2,
+      "mark": 4,
       "descriptionHtml": "<p>Allows fine grained control over interface scaling.</p><p>Rescales all text and UI correctly so you get \"like native\" appearance without blur.&nbsp;</p><p>Configurable by a config file and optionally by UI.&nbsp;</p><p>&nbsp;</p><p>Required for UI support:</p><p>https://gitlab.com/wot-public-mods/mods-list/</p><p>https://github.com/izeberg/modssettingsapi</p><p>https://gitlab.com/openwg/wot.gameface/</p>",
       "installationGuideHtml": "<p>This mod is installed by downloading the latest release from the Wargaming Mod portal.</p><p>Place the .wotmod file inside the mods folder in your World of Tanks installation directory for the latest version of the game.</p>",
       "coverCatalogUrl": "",
@@ -32290,7 +32425,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Custom Vehicle Icons</p><p>Icons with the Tank Name, Tier, and colored by class. No need to use the expanded players panel, all the relevant info in one icon.</p><p>Black -Heavy, Green -Medium, White -Light, Blue -TD, Red -SPG</p><p>Turn off 'Show Vehicle Tier' in Settings.</p><p>Requires the use of an 'icon mirroring' mod, such as XVM.</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Roman Starkov</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p><p>Either XVM, or an Icon Mirroring Mod will be needed, otherwise the enemy in player panel will be mirrored.</p>",
@@ -32303,6 +32438,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "2.3.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor_2.3.1.1_cO6GDVf.wotmod",
+          "updatedAt": "2026-08-08T22:41:48.693Z",
+          "sizeBytes": 20365070,
+          "fileName": "FiT.Graphics.TankContourIconsColor_2.3.1.1_cO6GDVf.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.TankContourIconsColor_2.3.1.0.wotmod",
@@ -32314,9 +32459,9 @@
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.TankContourIconsColor_2.3.1.0.wotmod",
+        "fileName": "FiT.Graphics.TankContourIconsColor_2.3.1.1_cO6GDVf.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -42534,6 +42679,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "04",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.1_04.exe",
+          "updatedAt": "2026-08-08T20:09:03.250Z",
+          "sizeBytes": 58283250,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.1_04.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Tomato.gg\n- Updated Camo Selector\n- Updated Expected Vehicle Values\n- Updated Dynamic Playlists\n- Updated poliroid.modslistapi 1.7.9\n- Updated oldskool.modscore 1.4.1\n- Updated champi.settingsgui 1.7.1\n- Updated Reticle Dispersion Pro\n- Updated the scripts in the Hitzone skins: Esthete (smart)\n"
+        },
         {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "03",

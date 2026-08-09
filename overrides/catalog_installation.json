@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.022",
+  "catalogVersion": "v2026.08.023",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7815",
+      "title": "Zanju's Directives Helper",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Simplest Installation Method This is the easiest method if you already know where your World of Tanks game folder is. Copy the mod zip file into your main World of Tanks game folder. Right-click the zip file and choose Extract here. If Windows asks whether you want to replace existing files, choose yes or agree to all replacements. The needed files should land in the correct places automatically because the zip already contains the right folder layout. Manual Method: Extract Elsewhere First Use this method if you want to look inside the zip before copying anything into the game. Extract the zip file somewhere else first, for example on your desktop. Open the extracted folder. You should see folders such as mods. Open your World of Tanks game folder in another window. Drag the extracted folders into the game folder. If Windows asks whether you want to merge folders with the same name, allow it. If Windows asks whether you want to replace files, allow that too."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide instructs extracting/copying archive contents into the main World of Tanks game folder with existing folder structure.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7808",
@@ -14,6 +29,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7790",
+      "title": "Reload Time Marker - Base Values",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "INSTALLATION Extract the downloaded archive into the main World of Tanks directory while preserving its folder structure. Alternatively, copy: donpedrotv.base_reload_times_*.*.*.wotmod to: [WoT game directory]/mods/[version]/ ---------------------------------------------- Config location file: [WoT game directory]/mods/configs/ReloadReference/config.json Izeberg ModsSettingsAPI is optional. The mod works without it, but the in-garage configuration menu will not be available."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide provides a supported alternative to copy the .wotmod into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
