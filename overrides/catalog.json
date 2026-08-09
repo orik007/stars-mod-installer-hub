@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.023",
-  "sourceHash": "d09967c8bb07c9f1a88748fc1f0d2dc23856672c7bb99bf52c30bf9247761e3a",
+  "catalogVersion": "v2026.08.024",
+  "sourceHash": "7cec859f03452790f287e4866ec2ce49c3bd530f69f75b4b64bba4c9255ab950",
   "sources": [
     "wgmods",
     "modhub"
@@ -13604,7 +13604,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<h2>ENJOY WITH old battle results</h2><p>Replaces the new WoT 2.0 battle results screen with the previous layout.</p>",
       "installationGuideHtml": "<p>Copy wotmod file into mods/&lt;version&gt; folder</p>",
@@ -13614,6 +13614,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cilda.oldBattleResults_1.0.7_2xEXrkR.wotmod",
+          "updatedAt": "2026-08-09T05:09:04.970Z",
+          "sizeBytes": 17368,
+          "fileName": "cilda.oldBattleResults_1.0.7_2xEXrkR.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.7",
@@ -13653,22 +13663,12 @@
           "fileName": "cilda.oldBattleResults_1.0.7_dYKPw6H.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "1.0.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cilda.oldBattleResults_1.0.7.wotmod",
-          "updatedAt": "2026-05-06T13:49:00.815Z",
-          "sizeBytes": 17368,
-          "fileName": "cilda.oldBattleResults_1.0.7.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Fixed onslaught battle result.\nDisabled replacing frontline battle result because not displayed result window.\n"
         }
       ],
       "latest": {
-        "fileName": "cilda.oldBattleResults_1.0.7_2FzEngc.wotmod",
+        "fileName": "cilda.oldBattleResults_1.0.7_2xEXrkR.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
