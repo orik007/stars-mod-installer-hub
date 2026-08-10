@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.026",
-  "sourceHash": "3a9763807890a364fb98644f32922b74ad01e68752a05bdc719264fdf54bc955",
+  "catalogVersion": "v2026.08.027",
+  "sourceHash": "2eef652812840b526f526abadc6fefd0963fa53d16681e10b9d8204b129dff2d",
   "sources": [
     "wgmods",
     "modhub"
@@ -270,28 +270,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.1",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.3.1.1.1.0.0.zip",
-          "updatedAt": "2026-08-05T13:05:51.215Z",
-          "sizeBytes": 419674,
-          "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.3.1.0.1.0.0.zip",
-          "updatedAt": "2026-08-04T14:11:43.407Z",
-          "sizeBytes": 418991,
-          "fileName": "gravity.moe_race_challenge.2.3.1.0.1.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.3.1.1.1.0.2.wotmod",
+          "updatedAt": "2026-08-10T08:04:26.030Z",
+          "sizeBytes": 149106,
+          "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "- Added a Leave Active Challenge option to remove a challenge from local resume history.\n- Added automatic cleanup for cached challenges that no longer exist online.\n- Fixed joined challenges inheriting old local MoE/reexperience progress.\n- Challenge progress now starts from a race-owned 0-battle baseline.\n- Hosted race progress now only advances from battles played after the challenge is active.\n- Joining a challenge now registers the player on the hosted leaderboard immediately.\n- Added a warning when the selected garage tank does not match the challenge tank."
         }
       ],
       "latest": {
-        "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.0.zip",
-        "changeLog": "",
+        "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.2.wotmod",
+        "changeLog": "- Added a Leave Active Challenge option to remove a challenge from local resume history.\n- Added automatic cleanup for cached challenges that no longer exist online.\n- Fixed joined challenges inheriting old local MoE/reexperience progress.\n- Challenge progress now starts from a race-owned 0-battle baseline.\n- Hosted race progress now only advances from battles played after the challenge is active.\n- Joining a challenge now registers the player on the hosted leaderboard immediately.\n- Added a warning when the selected garage tank does not match the challenge tank.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -4284,7 +4274,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p><strong>Legacy Hangar UI</strong> <strong>Author:</strong> Renovo</p><p><strong>Compatible Client Version:</strong> 2.3.0.0+ (World of Tanks 2.0)</p><p><strong>Concept &amp; Features</strong></p><p>Tired of the new modern Gameface hangar and want to return to the classic nostalgic feeling? <strong>Legacy Hangar UI</strong> allows you to force the classic Flash-based (Scaleform) hangar interface inside World of Tanks 2.0!</p><p>With this mod, you can dynamically switch between the modern Gameface UI and the nostalgic classic Scaleform hangar on the fly:</p><p><strong>Instant Toggling:</strong> Press <strong>Ctrl + I</strong> inside the hangar to instantly switch the interface between the classic Scaleform hangar and the modern Gameface hangar.</p><p><strong>Classic Navigation:</strong> Restores the classic navigation buttons and elements to provide a visual look-alike of the old hangar UI layout.<br><strong>Custom NavBar &amp; Installation: </strong>The navigation menu has been added as a separate modification to give users full freedom of choice. If for any reason you do not wish to use it, please install only the LegacyHangar .wotmod file into your game client.</p><p><strong>Important Note &amp; Limitations</strong></p><p><strong>Mode Selector &amp; Navigation:</strong> The game mode selector button is accessible directly within the top navigation menu.</p><p><strong>No Promo Banners:</strong> Banners are completely removed and there are no plans to add them. If you need to check them out, you can find them in the Modern UI.</p><p><strong>Platoon Creation:</strong> The \"Create Platoon\" button is located at the bottom of the screen, just like in the Modern UI.</p><p><strong>Upgrade Menu for Tier XI:</strong> The Field Modification button works seamlessly for both Tier XI and lower-tier vehicles. For Tier XI, it opens the Upgrades menu, while for Tier X and below, it triggers the standard Field Modification menu.</p><p>If you need to view banners or adjust other settings using the new Gameface UI, simply press <strong>Ctrl + I</strong> to switch back to the modern interface on the fly, and then press it again to return to the classic hangar!</p><p><i><strong>Please note that this mod only changes the visual appearance of the hangar interface itself. It does NOT restore the legacy style of other screens, such as the post-battle statistics window, store, storage, or other lobby views.</strong></i></p><p><strong>Known Issues</strong></p><p><strong>Pet System:</strong> Access to the Pet System does not function while in Legacy UI mode, making it impossible to claim Pet rewards due to Scaleform compatibility limitations. However, rewards and the Pet menu can still be accessed normally in the Modern UI. If you want to avoid switching back and forth every time, you can use the <strong>Pet Gift Auto Claim</strong> mod by <i>Gravity_Assist</i>, available here: <a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/ <i>(Example: C:/Games/World_of_Tanks/mods/x.x.x.x/)</i></li><li><strong>Note for Open.WG:</strong> If not already installed, the Open.WG library must be placed in the following subdirectory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/net.openwg/</li><li>Launch the game client.<br>&nbsp;</li></ol>",
@@ -4296,6 +4286,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LegacyHangarUI_Navbar_tDNeABa_lK6MCke.rar",
+          "updatedAt": "2026-08-10T07:28:51.709Z",
+          "sizeBytes": 35704,
+          "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0.5",
@@ -4348,9 +4348,9 @@
         }
       ],
       "latest": {
-        "fileName": "LegacyHangarUI_Navbar_tDNeABa.rar",
-        "changeLog": "The modification now works correctly with XVM. The freeze during game loading has been fixed. However, XVM features for the tank carousel have been disabled.\n\nRegarding any bugs, please send me a private message in-game.\n\nМодификация теперь корректно работает с XVM. Устранено зависание при загрузке в игру. Однако функционал XVM для карусели танков отключён.\n\nПо поводу багов пишите в личные сообщения на мой игровой контакт.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
