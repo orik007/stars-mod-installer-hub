@@ -1,7 +1,82 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.028",
+  "catalogVersion": "v2026.08.029",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7825",
+      "title": "UDES 14 alt 5 <RESKIN>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7822",
+      "title": "TVP T 50/51 «deh0mbre's»",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Installation of modification files is carried out in the current section of the game : World of Tanks\\mods\\ 2.3.1.1 \\ Make sure you don't have any modifications that might conflict with this one. Valid for all clients : ASIA/NA/EU/CIS"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7824",
+      "title": "PZ-IV-H <RESKIN>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7823",
+      "title": "PZ-III/IV <RESKIN>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7819",
+      "title": "MoE Filter",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Copy the .wotmod file into World_of_Tanks\\mods\\<current game version>\\ and start World of Tanks."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy extracted .wotmod into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7821",
@@ -7241,6 +7316,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "6946",
+      "title": "Leopard 1 «EOS 1»",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Installation of modification files is carried out in the current section of the game : World of Tanks\\mods\\ 2.3.1.1 \\ Make sure you don't have any modifications that might conflict with this one. Valid for all clients : ASIA/NA/EU/CIS"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "6943",
       "title": "DARK // VIPERA - NEW GENERATION",
       "classificationInput": {
@@ -7735,6 +7825,22 @@
         "installableByApp": true,
         "decisionReason": "Package is a .zip archive and guide instructs dragging both included .wotmod files into <WoT Directory>\\mods\\<Game Version> (non-blocking multiple files).",
         "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6776",
+      "title": "Universal Model Loader (UML)",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Open zip, extract content of 'mod for player' to /mods/%CURRENT_VERSION% , including sub-folder file structure should resemble this: \\mods\\1.26.0.1\\UML.wotmod Launch game. When starts for the first time after a WoT update, game is likely to trigger an automatic restart half way though the normal loading bar. This is normal side-effect of disable_persistent_data_cache.wotmod and should happen only once for each WoT update. When in hangar, press F5 to verify a brief flash and a new msg in the notification panel If the flash and msg did not happen, your copy of UML is outdated or is in the wrong folder, or encountered mod conflict. If you only want to swap into models provided by WoT (3D styles), or only intend to use features other than swapping, then you can stop here. If you want to swap into downloaded remodels then follow these steps: Download remodel pack from wgmods.net or other sources. Install remodel. Place wotmod into /mods/%CURRENT_VERSION% Start/restart."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide names a specific folder to copy into mods/<version>.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "mod for player"
       }
     },
     {
