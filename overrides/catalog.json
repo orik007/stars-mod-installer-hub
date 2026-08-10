@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.027",
-  "sourceHash": "2eef652812840b526f526abadc6fefd0963fa53d16681e10b9d8204b129dff2d",
+  "catalogVersion": "v2026.08.028",
+  "sourceHash": "b3767884ea2b57bc8dca7a1314500fa055228b2f87bdb867f99129a4bab2adae",
   "sources": [
     "wgmods",
     "modhub"
@@ -270,18 +270,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.1",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.3.1.1.1.0.2.wotmod",
-          "updatedAt": "2026-08-10T08:04:26.030Z",
-          "sizeBytes": 149106,
-          "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.2.wotmod",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.3.1.1.1.0.3.wotmod",
+          "updatedAt": "2026-08-10T12:46:01.544Z",
+          "sizeBytes": 149476,
+          "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.3.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "- Added a Leave Active Challenge option to remove a challenge from local resume history.\n- Added automatic cleanup for cached challenges that no longer exist online.\n- Fixed joined challenges inheriting old local MoE/reexperience progress.\n- Challenge progress now starts from a race-owned 0-battle baseline.\n- Hosted race progress now only advances from battles played after the challenge is active.\n- Joining a challenge now registers the player on the hosted leaderboard immediately.\n- Added a warning when the selected garage tank does not match the challenge tank."
+          "changeLog": "Changed the sources to scale automatically"
         }
       ],
       "latest": {
-        "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.2.wotmod",
-        "changeLog": "- Added a Leave Active Challenge option to remove a challenge from local resume history.\n- Added automatic cleanup for cached challenges that no longer exist online.\n- Fixed joined challenges inheriting old local MoE/reexperience progress.\n- Challenge progress now starts from a race-owned 0-battle baseline.\n- Hosted race progress now only advances from battles played after the challenge is active.\n- Joining a challenge now registers the player on the hosted leaderboard immediately.\n- Added a warning when the selected garage tank does not match the challenge tank.",
+        "fileName": "gravity.moe_race_challenge.2.3.1.1.1.0.3.wotmod",
+        "changeLog": "Changed the sources to scale automatically",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1843,6 +1843,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GunReloadedSounds_1.0.3_2.3.1.1.zip",
+          "updatedAt": "2026-08-10T08:40:17.336Z",
+          "sizeBytes": 928269,
+          "fileName": "GunReloadedSounds_1.0.3_2.3.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- added support and new option for double-barrelled tanks"
+        },
+        {
+          "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GunReloadedSounds_1.0.2_2.3.1.1.zip",
           "updatedAt": "2026-08-07T13:01:42.129Z",
@@ -1883,8 +1893,8 @@
         }
       ],
       "latest": {
-        "fileName": "GunReloadedSounds_1.0.2_2.3.1.1.zip",
-        "changeLog": "- repack + new  modssetings 1.7.1",
+        "fileName": "GunReloadedSounds_1.0.3_2.3.1.1.zip",
+        "changeLog": "- added support and new option for double-barrelled tanks",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3091,6 +3101,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/A-20-race.wotmod",
+          "updatedAt": "2026-08-10T08:43:12.490Z",
+          "sizeBytes": 16581161,
+          "fileName": "A-20-race.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/A-20-race_UIujzNb.wotmod",
@@ -3102,9 +3122,9 @@
         }
       ],
       "latest": {
-        "fileName": "A-20-race_UIujzNb.wotmod",
+        "fileName": "A-20-race.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3433,6 +3453,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.11_2.3.1.1.zip",
+          "updatedAt": "2026-08-10T08:41:20.035Z",
+          "sizeBytes": 18687310,
+          "fileName": "CustomSixthSense_1.0.11_2.3.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- improved the mods settings menu integration"
+        },
+        {
+          "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0.10",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.10_2.3.1.1.zip",
           "updatedAt": "2026-08-07T12:59:22.896Z",
@@ -3440,31 +3470,11 @@
           "fileName": "CustomSixthSense_1.0.10_2.3.1.1.zip",
           "fileExt": ".zip",
           "changeLog": "- repack + new  modssetings 1.7.1"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.10",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.10_2.3.1.0.zip",
-          "updatedAt": "2026-08-01T16:35:03.695Z",
-          "sizeBytes": 18778636,
-          "fileName": "CustomSixthSense_1.0.10_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Updated enhanced modsSettingsApi 1.7.0 \n- Adjustements for the new api update"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.9",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomSixthSense_1.0.9_2.3.1.0_21A3sUD.zip",
-          "updatedAt": "2026-07-23T20:56:40.030Z",
-          "sizeBytes": 18610391,
-          "fileName": "CustomSixthSense_1.0.9_2.3.1.0_21A3sUD.zip",
-          "fileExt": ".zip",
-          "changeLog": "Added new animated sixth sense: Oh k...."
         }
       ],
       "latest": {
-        "fileName": "CustomSixthSense_1.0.10_2.3.1.1.zip",
-        "changeLog": "- repack + new  modssetings 1.7.1",
+        "fileName": "CustomSixthSense_1.0.11_2.3.1.1.zip",
+        "changeLog": "- improved the mods settings menu integration",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3867,6 +3877,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TYPE-5H-LANDKREUZER_mOFLMGJ.wotmod",
+          "updatedAt": "2026-08-10T08:44:32.997Z",
+          "sizeBytes": 11807815,
+          "fileName": "TYPE-5H-LANDKREUZER_mOFLMGJ.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TYPE-5H-LANDKREUZER_YCfNqJl.wotmod",
@@ -3898,9 +3918,9 @@
         }
       ],
       "latest": {
-        "fileName": "TYPE-5H-LANDKREUZER_YCfNqJl.wotmod",
+        "fileName": "TYPE-5H-LANDKREUZER_mOFLMGJ.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4105,7 +4125,7 @@
     {
       "source": "wgmods",
       "sourceId": "7694",
-      "title": "Kilana <DESERT GUARD>",
+      "title": "Kilana <3D style of the gonk>",
       "ownerUsername": "Trick4Funz",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -4122,6 +4142,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Kilana_vRoKT2I.wotmod",
+          "updatedAt": "2026-08-10T08:45:38.347Z",
+          "sizeBytes": 10085658,
+          "fileName": "Kilana_vRoKT2I.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
@@ -5418,6 +5448,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KV5_gV9HcA2.wotmod",
+          "updatedAt": "2026-08-10T08:46:09.980Z",
+          "sizeBytes": 11244904,
+          "fileName": "KV5_gV9HcA2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KV5_dAo6EEq.wotmod",
@@ -5867,6 +5907,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BZ-68_JobGXPD.wotmod",
+          "updatedAt": "2026-08-10T08:46:33.315Z",
+          "sizeBytes": 5932622,
+          "fileName": "BZ-68_JobGXPD.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BZ-68.wotmod",
@@ -6056,6 +6106,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pz-Sfl-IVC_3VDFrKR.wotmod",
+          "updatedAt": "2026-08-10T08:46:59.144Z",
+          "sizeBytes": 9848822,
+          "fileName": "Pz-Sfl-IVC_3VDFrKR.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pz-Sfl-IVC.wotmod",
@@ -6199,7 +6259,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod changes the duration of the sixth sense lamp to be accurate to the gamemode (7s for randoms and 1s for onslaught).</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -6528,6 +6588,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Type-71_gIV5nDi.wotmod",
+          "updatedAt": "2026-08-10T08:47:43.248Z",
+          "sizeBytes": 24305257,
+          "fileName": "Type-71_gIV5nDi.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Type-71.wotmod",
@@ -6584,6 +6654,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pz-VII_RZ4puyk.wotmod",
+          "updatedAt": "2026-08-10T08:48:16.705Z",
+          "sizeBytes": 21713947,
+          "fileName": "Pz-VII_RZ4puyk.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
@@ -8513,7 +8593,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod automatically uses / claims the Voucher you get from completing Stages in the Elite Circuit in the battle pass.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-13_185956809.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -8838,6 +8918,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Trick4Funz-Grille15-2.3.1.0_WuTKyTG.wotmod",
+          "updatedAt": "2026-08-10T08:49:18.207Z",
+          "sizeBytes": 11055728,
+          "fileName": "Trick4Funz-Grille15-2.3.1.0_WuTKyTG.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Trick4Funz-Grille15-2.3.1.0.wotmod",
@@ -8879,9 +8969,9 @@
         }
       ],
       "latest": {
-        "fileName": "Trick4Funz-Grille15-2.3.1.0.wotmod",
+        "fileName": "Trick4Funz-Grille15-2.3.1.0_WuTKyTG.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -42633,6 +42723,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "05",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.1_05.exe",
+          "updatedAt": "2026-08-10T08:37:27.713Z",
+          "sizeBytes": 58550342,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.1_05.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.1.1 #05 (10-08-2026):\n- Installer: Improved preview behavior when preview synchronization is cancelled\n- Updated Custom Sixth Sense (improved the mods settings menu integration)\n- Updated Camo Selector (new Creations system: save, share and import complete vehicle designs, with an Asset Library for custom assets)\n- Updated Gun Reloaded Sounds (added support and new option for double-barrelled tanks)\n"
+        },
         {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "04",
