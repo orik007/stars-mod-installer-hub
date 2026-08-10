@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.026",
+  "catalogVersion": "v2026.08.027",
   "mods": [
     {
       "source": "wgmods",
@@ -97,13 +97,13 @@
       "sourceId": "7805",
       "title": "MOE Race Challenge",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "decisionReason": "Package type is .wotmod and guide targets mods/<version> despite mentioning unpacking.",
         "deleteDataWgpdc": false
       }
     },
