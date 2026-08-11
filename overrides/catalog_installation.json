@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.030",
+  "catalogVersion": "v2026.08.031",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7829",
+      "title": "Pansy's Revamped Skies Volume 4",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> with non-blocking choice of included .wotmod file.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7825",
@@ -3593,12 +3608,12 @@
       "title": "Pansy's Revamped Skies Volume 3",
       "classificationInput": {
         "latestFileExt": ".rar",
-        "latestInstallGuide": "To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.1.1.0\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
+        "latestInstallGuide": "To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .rar archive and the guide instructs extracting the included .wotmod into the patch folder in mods (mods/<version>) -> archive to mods/<version>.",
+        "decisionReason": "Archive package and guide points to mods/<version> with non-blocking choice of included .wotmod file.",
         "deleteDataWgpdc": false
       },
       "configuration": {
@@ -5877,12 +5892,12 @@
       "title": "Pansy's Revamped Skies Volume 2",
       "classificationInput": {
         "latestFileExt": ".rar",
-        "latestInstallGuide": "To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.29.1.0\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
+        "latestInstallGuide": "To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "latestFileExt is .rar (archive) and guide says extract/drag the included .wotmod into the game mods patch folder (mods/<version>).",
+        "decisionReason": "Archive package and guide points to mods/<version> with non-blocking choice of included .wotmod file.",
         "deleteDataWgpdc": false
       },
       "configuration": {
@@ -7590,12 +7605,12 @@
       "title": "Pansy's Revamped Skies Volume 1",
       "classificationInput": {
         "latestFileExt": ".rar",
-        "latestInstallGuide": "To install drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.1.1.1\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
+        "latestInstallGuide": "To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE] This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .rar archive and guide explicitly says extract the included .wotmod into World_of_Tanks\\mods\\<patch version>.",
+        "decisionReason": "Archive package and guide points to mods/<version> with non-blocking choice of included .wotmod file.",
         "deleteDataWgpdc": false
       },
       "configuration": {
