@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.034",
+  "catalogVersion": "v2026.08.035",
   "mods": [
     {
       "source": "wgmods",
@@ -578,12 +578,12 @@
       "title": "Hangar Carousel Plus",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.5 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
+        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.8 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Guide requires deleting older .wotmod files from mods/<version> before extracting files into the game root, which is a destructive multi-step operation.",
+        "decisionReason": "Guide requires deleting older .wotmod files before extracting into the game root, which is a destructive multi-step operation.",
         "deleteDataWgpdc": false
       }
     },
@@ -6629,13 +6629,13 @@
       "sourceId": "7175",
       "title": "British Crew Sounds From Wot Blitz",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".rar",
         "latestInstallGuide": "Unpack the file, folder mods paste it into the game folder mods/2.1.1.0"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide targets the versioned mods folder.",
+        "decisionReason": "Archive package and guide points to the versioned mods folder.",
         "deleteDataWgpdc": false
       }
     },
