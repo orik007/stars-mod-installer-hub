@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.035",
+  "catalogVersion": "v2026.08.036",
   "mods": [
     {
       "source": "wgmods",
@@ -104,6 +104,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to copy extracted .wotmod into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7817",
+      "title": "Блокувальник командирських озвучень/Disable Special Voices",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU To install the mod, copy the contents of the folder into your game directory: C:\\Games\\World_of_Tanks_EU"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy folder contents into the game directory root.",
         "deleteDataWgpdc": false
       }
     },
@@ -578,12 +593,12 @@
       "title": "Hangar Carousel Plus",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.8 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
+        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.9 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Guide requires deleting older .wotmod files before extracting into the game root, which is a destructive multi-step operation.",
+        "decisionReason": "Guide requires deleting older .wotmod files and extracting a ZIP into the game root, which is a destructive multi-step process not matching a single supported template.",
         "deleteDataWgpdc": false
       }
     },
@@ -7999,12 +8014,12 @@
       "title": "Centered Camera",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "put the .wotmod file here \"C:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.1\""
+        "latestInstallGuide": "put the .wotmod file here \"C:\\Games\\World_of_Tanks_EU\\mods\\VERSION\""
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points directly to mods/<version>.",
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
