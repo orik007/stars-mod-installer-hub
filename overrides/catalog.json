@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.032",
-  "sourceHash": "9471a39d328ad401580397b0dcabe82b8b147bcefe88d85e59ca5dcebcf076b1",
+  "catalogVersion": "v2026.08.033",
+  "sourceHash": "aa8ced96b69c5e0ba0aeb16b905afad227d744e5b8eb1770d4424889045f38cb",
   "sources": [
     "wgmods",
     "modhub"
@@ -190,6 +190,45 @@
       "latest": {
         "fileName": "PZ-III-IV.wotmod",
         "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7781",
+      "title": "WOT Tactic Bridge",
+      "ownerUsername": "4eJlsive",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>WOT Tactic Bridge brings shared tactical drawings from a WOT Tactic room directly onto the standard World of Tanks minimap.</p><p>The mod is designed for training sessions, tournaments and coordinated team play. The room creator selects the required map, while a participant with drawing permission can update the plan in WOT Tactic even when they are not in the battle. Connected players see the changes on their minimaps almost immediately.</p><p>Four drawing types are displayed in the game:</p><p>- freehand strokes;<br>- straight lines;<br>- arrows;<br>- circles.</p><p>Supported maps and battle variants use individual coordinate profiles. Drawings automatically follow the visibility of the standard minimap. The room can optionally remove drawing objects after 1–30 seconds; this feature is disabled by default.</p><p>All players connect with one shared room key. The room creator manually selects the map that will be displayed.</p><p>The modification is display-only. It does not read or transmit the current battle map, teams, vehicles, player positions, enemy information, statistics or replay data. It does not modify aiming, firing, controls, physics or vehicle parameters.</p><p>An Internet connection and a WOT Tactic Discord room are required.</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.<br>2. Copy `WOT_Tactic_Bridge_0.2.2.wotmod` to `World_of_Tanks_EU/mods/&lt;current game version&gt;/`.<br>3. Open the required WOT Tactic room in Discord, press Connect mod, then obtain and copy the shared room key.<br>4. Start the game. Open WOT Tactic Bridge in the mod settings, paste the key and apply the settings before battle.</p><p>The mod does not need to be reinstalled when the room key changes.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wot-tactic-cover.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7781/",
+      "tagIds": [
+        "18",
+        "19",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "0.2.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WOT_Tactic_Bridge_0.2.2.wotmod",
+          "updatedAt": "2026-08-11T19:40:20.768Z",
+          "sizeBytes": 82441,
+          "fileName": "WOT_Tactic_Bridge_0.2.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "The download is now provided as a single WOTMOD file for easier installation. The mod displays shared WOT Tactic drawings on the standard minimap: freehand strokes, straight lines, arrows and circles. Runtime functionality is unchanged."
+        }
+      ],
+      "latest": {
+        "fileName": "WOT_Tactic_Bridge_0.2.2.wotmod",
+        "changeLog": "The download is now provided as a single WOTMOD file for easier installation. The mod displays shared WOT Tactic drawings on the standard minimap: freehand strokes, straight lines, arrows and circles. Runtime functionality is unchanged.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3551,18 +3590,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.1",
-          "modVersion": "3.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.1_v3.1.exe",
-          "updatedAt": "2026-08-07T20:11:07.768Z",
-          "sizeBytes": 7316184,
-          "fileName": "Custix_ModPack_for_2.3.1.1_v3.1.exe",
+          "modVersion": "3.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.1_v3.2.exe",
+          "updatedAt": "2026-08-11T20:58:04.292Z",
+          "sizeBytes": 6959592,
+          "fileName": "Custix_ModPack_for_2.3.1.1_v3.2.exe",
           "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлено Custix ModPack з версії 3.0 до 3.1 (Додано мод custix.updatedwindows 1.0.0 — сучасний інтерфейс вікон взводу, приватних і групових чатів та «Контактів» замість стандартних; оновлено всі панелі ПКМ — контекстні меню чату, контактів і техніки, а правий клік по полю введення відкриває шаблони швидких повідомлень (готові фрази); оновлено custix.battlehistory до 0.2.19; модпак оновлено для World of Tanks 2.3.1.1). ---- [EN]: Updated Custix ModPack from version 3.0 to 3.1 (Added the custix.updatedwindows 1.0.0 mod — a modern interface for the platoon, private and group chat, and Contacts windows in place of the stock ones; all right-click panels were redesigned — context menus for chat, contacts, and vehicles, and right-clicking the message input opens quick-message templates (saved phrases); updated custix.battlehistory to 0.2.19; updated the modpack for World of Tanks 2.3.1.1)."
+          "changeLog": "[UA]: UpdatedWindows оновлено до 1.4.4: додано сучасні вікна Центру повідомлень і статистики сесії, нотатки контактів та вбудований фільтр; MessageCenterFilter оновлено до 0.5.1. Вибір одного з цих модів автоматично знімає вибір з іншого. Вилучено MessageCenterBattlesTab; BattleHistory оновлено до 0.2.20, ModsListAPI — до 1.7.9; оптимізовано залежності й оновлено описи та прев’ю. ---- [EN]: UpdatedWindows updated to 1.4.4 with modern Message Center and Session Statistics windows, Contacts notes, and an integrated filter; MessageCenterFilter updated to 0.5.1. Selecting either mod automatically clears the other. Removed MessageCenterBattlesTab; updated BattleHistory to 0.2.20 and ModsListAPI to 1.7.9; optimized dependencies and refreshed descriptions and previews."
         }
       ],
       "latest": {
-        "fileName": "Custix_ModPack_for_2.3.1.1_v3.1.exe",
-        "changeLog": "[UA]: Оновлено Custix ModPack з версії 3.0 до 3.1 (Додано мод custix.updatedwindows 1.0.0 — сучасний інтерфейс вікон взводу, приватних і групових чатів та «Контактів» замість стандартних; оновлено всі панелі ПКМ — контекстні меню чату, контактів і техніки, а правий клік по полю введення відкриває шаблони швидких повідомлень (готові фрази); оновлено custix.battlehistory до 0.2.19; модпак оновлено для World of Tanks 2.3.1.1). ---- [EN]: Updated Custix ModPack from version 3.0 to 3.1 (Added the custix.updatedwindows 1.0.0 mod — a modern interface for the platoon, private and group chat, and Contacts windows in place of the stock ones; all right-click panels were redesigned — context menus for chat, contacts, and vehicles, and right-clicking the message input opens quick-message templates (saved phrases); updated custix.battlehistory to 0.2.19; updated the modpack for World of Tanks 2.3.1.1).",
+        "fileName": "Custix_ModPack_for_2.3.1.1_v3.2.exe",
+        "changeLog": "[UA]: UpdatedWindows оновлено до 1.4.4: додано сучасні вікна Центру повідомлень і статистики сесії, нотатки контактів та вбудований фільтр; MessageCenterFilter оновлено до 0.5.1. Вибір одного з цих модів автоматично знімає вибір з іншого. Вилучено MessageCenterBattlesTab; BattleHistory оновлено до 0.2.20, ModsListAPI — до 1.7.9; оптимізовано залежності й оновлено описи та прев’ю. ---- [EN]: UpdatedWindows updated to 1.4.4 with modern Message Center and Session Statistics windows, Contacts notes, and an integrated filter; MessageCenterFilter updated to 0.5.1. Selecting either mod automatically clears the other. Removed MessageCenterBattlesTab; updated BattleHistory to 0.2.20 and ModsListAPI to 1.7.9; optimized dependencies and refreshed descriptions and previews.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6524,7 +6563,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.5,
+      "mark": 3.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod changes the duration of the sixth sense lamp to be accurate to the gamemode (7s for randoms and 1s for onslaught).</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -7506,16 +7545,6 @@
           "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.7.0L.zip",
           "fileExt": ".zip",
           "changeLog": "- Added a label for showing probability of killing a tank.\n- Changed default colors to be more vibrant.\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.6.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
-          "updatedAt": "2026-06-11T22:19:46.657Z",
-          "sizeBytes": 261747,
-          "fileName": "Pade-armor-calculator-1.6.0L-UNZIP-ME.zip",
-          "fileExt": ".zip",
-          "changeLog": "Added more logging for debugging."
         }
       ],
       "latest": {
@@ -8807,16 +8836,6 @@
           "fileName": "gravity.elite_circuit_autoclaim.2.3.1.1.1.0.2.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.elite_circuit_autoclaim.2.3.1.0.1.0.2.wotmod",
-          "updatedAt": "2026-08-01T22:36:55.537Z",
-          "sizeBytes": 15990,
-          "fileName": "gravity.elite_circuit_autoclaim.2.3.1.0.1.0.2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated the notification to work again and made it visually more pleasing."
         }
       ],
       "latest": {
@@ -9317,16 +9336,6 @@
           "updatedAt": "2026-08-05T12:54:38.423Z",
           "sizeBytes": 455229,
           "fileName": "gravity.thousand_separator.2.3.1.1.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.thousand_separator.2.3.1.0.1.0.zip",
-          "updatedAt": "2026-07-14T13:34:58.586Z",
-          "sizeBytes": 378474,
-          "fileName": "gravity.thousand_separator.2.3.1.0.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -10092,16 +10101,6 @@
           "updatedAt": "2026-08-01T11:12:11.996Z",
           "sizeBytes": 13751466,
           "fileName": "yam_2026.08.01.1.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2026.07.22.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.07.22.1.exe",
-          "updatedAt": "2026-07-22T09:30:10.788Z",
-          "sizeBytes": 13738999,
-          "fileName": "yam_2026.07.22.1.exe",
           "fileExt": ".exe",
           "changeLog": ""
         }
@@ -11173,16 +11172,6 @@
           "fileName": "gravity.battle_result_unanonymizer.2.3.1.1.1.5.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_result_unanonymizer.2.3.1.0.1.5.zip",
-          "updatedAt": "2026-07-20T15:34:30.670Z",
-          "sizeBytes": 152726,
-          "fileName": "gravity.battle_result_unanonymizer.2.3.1.0.1.5.zip",
-          "fileExt": ".zip",
-          "changeLog": "Added support for onslaught light (onslaught might work too but no guarantee)"
         }
       ],
       "latest": {
@@ -11409,16 +11398,6 @@
           "updatedAt": "2026-08-05T12:49:33.220Z",
           "sizeBytes": 3854,
           "fileName": "gravity.better_vehicle_preview.2.3.1.1.1.1.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.better_vehicle_preview.2.3.1.0.1.1.wotmod",
-          "updatedAt": "2026-07-14T13:32:43.676Z",
-          "sizeBytes": 3854,
-          "fileName": "gravity.better_vehicle_preview.2.3.1.0.1.1.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -12168,16 +12147,6 @@
           "updatedAt": "2026-08-05T12:49:44.477Z",
           "sizeBytes": 5026,
           "fileName": "gravity.notification_filter.2.3.1.1.1.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.notification_filter.2.3.1.0.1.0.wotmod",
-          "updatedAt": "2026-07-14T13:32:25.570Z",
-          "sizeBytes": 5026,
-          "fileName": "gravity.notification_filter.2.3.1.0.1.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -13036,16 +13005,6 @@
           "fileName": "gravity.ebr_cruise_control.2.3.1.1.1.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.ebr_cruise_control.2.3.1.0.1.0.wotmod",
-          "updatedAt": "2026-07-14T13:32:00.084Z",
-          "sizeBytes": 2685,
-          "fileName": "gravity.ebr_cruise_control.2.3.1.0.1.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -13081,16 +13040,6 @@
           "updatedAt": "2026-08-05T12:54:41.446Z",
           "sizeBytes": 458607,
           "fileName": "gravity.ptz_rebind.2.3.1.1.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.ptz_rebind.2.3.1.0.1.1.zip",
-          "updatedAt": "2026-07-14T13:34:47.994Z",
-          "sizeBytes": 381836,
-          "fileName": "gravity.ptz_rebind.2.3.1.0.1.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -13260,16 +13209,6 @@
           "updatedAt": "2026-08-05T12:50:13.613Z",
           "sizeBytes": 5900,
           "fileName": "gravity.platoon_window.2.3.1.1.1.2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.platoon_window.2.3.1.0.1.2.wotmod",
-          "updatedAt": "2026-07-14T13:33:02.527Z",
-          "sizeBytes": 5900,
-          "fileName": "gravity.platoon_window.2.3.1.0.1.2.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -13726,16 +13665,6 @@
           "fileName": "skill4ltu_2026.04.21.01_JZhX5oX.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "1.5.06",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.04.21.01_dYyshSD.zip",
-          "updatedAt": "2026-05-01T09:15:10.650Z",
-          "sizeBytes": 4728267,
-          "fileName": "skill4ltu_2026.04.21.01_dYyshSD.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -14150,16 +14079,6 @@
           "updatedAt": "2026-08-05T12:50:24.177Z",
           "sizeBytes": 4660,
           "fileName": "gravity.tyto.the.tank.2.3.1.1.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.tyto.the.tank.2.3.1.0.wotmod",
-          "updatedAt": "2026-07-14T13:33:18.090Z",
-          "sizeBytes": 4660,
-          "fileName": "gravity.tyto.the.tank.2.3.1.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -22924,16 +22843,6 @@
           "fileName": "CleanCamoManager.2.3.1.1.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CleanCamoManager.2.3.1.0.exe",
-          "updatedAt": "2026-07-11T12:30:21.143Z",
-          "sizeBytes": 11304016,
-          "fileName": "CleanCamoManager.2.3.1.0.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -25837,16 +25746,6 @@
           "updatedAt": "2026-08-05T12:51:27.317Z",
           "sizeBytes": 18098158,
           "fileName": "goldenlefh.2.3.1.1.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/goldenlefh.2.3.1.0.wotmod",
-          "updatedAt": "2026-07-14T13:34:25.396Z",
-          "sizeBytes": 18098158,
-          "fileName": "goldenlefh.2.3.1.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -29103,16 +29002,6 @@
           "fileName": "gup.subtitles_1.2.3_IaY2td8.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "1.2.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gup.subtitles_1.2.3_ucc1wN2.wotmod",
-          "updatedAt": "2026-04-23T10:26:16.746Z",
-          "sizeBytes": 50521613,
-          "fileName": "gup.subtitles_1.2.3_ucc1wN2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -31229,16 +31118,6 @@
           "fileName": "tomatogg_2026.07.14.1_aud9v4Z.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.1.04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.06.15.2.zip",
-          "updatedAt": "2026-06-15T17:45:16.639Z",
-          "sizeBytes": 7817171,
-          "fileName": "tomatogg_2026.06.15.2.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -32621,16 +32500,6 @@
           "updatedAt": "2026-06-01T12:50:23.440Z",
           "sizeBytes": 5282379,
           "fileName": "2.3.0.0_BattleHits_2.3.7.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "2.3.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.1.3_BattleHits_2.3.6.zip",
-          "updatedAt": "2026-05-17T16:03:37.372Z",
-          "sizeBytes": 5283549,
-          "fileName": "2.2.1.3_BattleHits_2.3.6.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -42866,16 +42735,6 @@
           "fileName": "PMOD_ver_81-08.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.81.07",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PMOD_ver_81-07.zip",
-          "updatedAt": "2026-07-15T23:32:00.196Z",
-          "sizeBytes": 3238598,
-          "fileName": "PMOD_ver_81-07.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -43039,16 +42898,6 @@
           "updatedAt": "2026-05-01T09:29:43.510Z",
           "sizeBytes": 814355,
           "fileName": "2.2.1.2_ReplaysManager_3.8.8.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.1",
-          "modVersion": "3.8.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.1.1_ReplaysManager_3.8.8.zip",
-          "updatedAt": "2026-04-23T10:26:38.906Z",
-          "sizeBytes": 814355,
-          "fileName": "2.2.1.1_ReplaysManager_3.8.8.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.032",
+  "catalogVersion": "v2026.08.033",
   "mods": [
     {
       "source": "wgmods",
@@ -74,6 +74,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7781",
+      "title": "WOT Tactic Bridge",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Copy `WOT_Tactic_Bridge_0.2.2.wotmod` to `World_of_Tanks_EU/mods/<current game version>/`. 3. Open the required WOT Tactic room in Discord, press Connect mod, then obtain and copy the shared room key. 4. Start the game. Open WOT Tactic Bridge in the mod settings, paste the key and apply the settings before battle. The mod does not need to be reinstalled when the room key changes."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<current game version>; Discord/setup steps are non-blocking notes.",
         "deleteDataWgpdc": false
       }
     },
