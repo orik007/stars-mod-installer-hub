@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.038",
+  "catalogVersion": "v2026.08.039",
   "mods": [
     {
       "source": "wgmods",
@@ -29,6 +29,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7798",
+      "title": "Hangar Carousel Classic",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "How to Install (using .wotmod only) First, download the most recent version from the Releases page. Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.2/. Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the OpenWG Gameface releases , also into your client mods folder. Launch Game. Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu. Full Package Installation If you choose the complete package, the hangar_carousel_classic_1.0.6_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.2/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide provides a full-package option to extract the zip directly into the main World of Tanks installation directory.",
         "deleteDataWgpdc": false
       }
     },
@@ -134,6 +149,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to copy extracted .wotmod into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7807",
+      "title": "Wot Garage Auditor / Inventory",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod. Copy it into your mods folder. Place the .wotmod file inside <your WoT install>\\mods\\<your client version>\\, for example mods\\2.3.1.0\\. The folder name must match your client version exactly. Launch World of Tanks Open the Garage as normal. The mod detects the first vehicle it can select and runs automatically, no menu, no hotkey needed. Open your report A desktop shortcut named WoT Garage Manifest appears automatically, pointing straight at your freshly generated report."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide says to copy it into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
