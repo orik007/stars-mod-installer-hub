@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.036",
+  "catalogVersion": "v2026.08.037",
   "mods": [
     {
       "source": "wgmods",
@@ -6956,6 +6956,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7095",
+      "title": "T110E3 Plunger Editon",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Drop the .wotmod into “World_of_Tanks/mods/“"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to the game's mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7081",
       "title": "Achievement Notification",
       "classificationInput": {
@@ -8011,7 +8026,7 @@
     {
       "source": "wgmods",
       "sourceId": "6734",
-      "title": "Centered Camera",
+      "title": "Centered Camera (outdated look description)",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "put the .wotmod file here \"C:\\Games\\World_of_Tanks_EU\\mods\\VERSION\""
