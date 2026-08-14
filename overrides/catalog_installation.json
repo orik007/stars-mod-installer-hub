@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.040",
+  "catalogVersion": "v2026.08.041",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7835",
+      "title": "IS-3 «Blue Line»",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Installation of modification files is carried out in the current section of the game : World of Tanks\\mods\\ 2.3.1.1 \\ Make sure you don't have any modifications that might conflict with this one. Valid for all clients : ASIA/NA/EU/CIS Установка файлов модификации осуществляется в актуальный раздел игры : World of Tanks\\mods\\ 2.3.1.1 \\ Убедитесь, что у вас нет модификации который может конфликтовать с данным. Актуально для всех клиентов : ASIA/NA/EU/CIS"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7836",
@@ -23,12 +38,12 @@
       "title": "[Infinitum] Aim Timer",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Розпакуйте архів у кореневу папку World of Tanks. Обидва файли .wotmod мають бути встановлені в папку поточної версії гри."
+        "latestInstallGuide": "Extract the archive into the World of Tanks root directory. All included .wotmod files must be placed in the mods/<current game version>/ directory while preserving the included subfolder structure."
       },
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to extract to the World of Tanks root folder; note about both .wotmod files is non-blocking.",
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks root directory.",
         "deleteDataWgpdc": false
       }
     },
@@ -427,13 +442,13 @@
       "sourceId": "7785",
       "title": "Analyzer for wots6.com",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Unpack the archive and drop s6wot-battle-reporter.wotmod into: World_of_Tanks/mods/<client version>/ (e.g. World_of_Tanks_EU/mods/2.3.1.0/) Launch the game and play one battle. Open wots6.com , search your nickname — the battle appears under \"Recent battles\". Each game update changes the version number — move the .wotmod into the new version folder."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod there.",
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -472,13 +487,13 @@
       "sourceId": "7769",
       "title": "BOBRKRW ModPack — Mod Pack for World of Tanks",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".rar",
         "latestInstallGuide": "1. Download and run `BOBRKRW_ModPack_1.0.0.exe`. 2. Close World of Tanks and Wargaming Game Center. 3. If necessary, switch the language using the `EN / UA` button at the top of the window. 4. Select the folder containing `WorldOfTanks.exe`. The installer normally detects it automatically. 5. Choose the required cleanup and maintenance options. A backup is created before old modifications are removed. 6. Open the modification selection page and choose the required components and variants. 7. Review the final settings and click “Install.” 8. Start World of Tanks after the installation is complete."
       },
       "installationProcess": {
-        "installationTemplate": "RunExternalInstaller",
+        "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive guide requires running an included installer executable with installer UI steps and component/variant selection.",
+        "decisionReason": "Guide requires running an external installer with component and variant selection, cleanup options, and multi-step installer UI actions.",
         "deleteDataWgpdc": false
       }
     },

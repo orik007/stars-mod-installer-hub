@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.08.040",
-  "sourceHash": "8ac22e540ea1ef11e7cfe2dfba235826d387243c0e2ac56699875343fe1850f1",
+  "catalogVersion": "v2026.08.041",
+  "sourceHash": "26667d5fa0da5d31673257d105d56334fecf5d83db3bfbca89a48405313bfb1c",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7835",
+      "title": "IS-3 «Blue Line»",
+      "ownerUsername": "Alexz_915",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>IS-3</strong><br><br><br>Alexz_915@aol.com</p>",
+      "installationGuideHtml": "<p><strong>Installation of modification files is carried out in the current section of the game</strong>: <i>World of Tanks\\mods\\</i>2.3.1.1<i>\\</i><br><br><strong>Make sure you don't have any modifications that might conflict with this one. Valid for all clients</strong> : ASIA/NA/EU/CIS<strong>Установка файлов модификации осуществляется в актуальный раздел игры </strong>: <i>World of Tanks\\mods\\</i>2.3.1.1<i>\\</i><br><br><strong>Убедитесь, что у вас нет модификации который может конфликтовать с данным. Актуально для всех клиентов </strong>:<strong> </strong>ASIA/NA/EU/CIS</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/WoT_CIS_Screenshot_2026.08.13_-_21.07.19.16.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7835/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "v2.3.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Alexz_915__IS-3_Blue_Line.rar",
+          "updatedAt": "2026-08-14T14:36:35.534Z",
+          "sizeBytes": 82493754,
+          "fileName": "Alexz_915__IS-3_Blue_Line.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Alexz_915__IS-3_Blue_Line.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7836",
@@ -54,8 +92,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Infinitum Aim Timer is a lightweight standalone aiming indicator for World of Tanks.</h2><h2>The mod displays:</h2><ul><li>remaining time until the gun is fully aimed;</li><li>current aiming progress percentage;</li><li>a vertical progress bar that fills from bottom to top;</li><li>interactive color changes based on the current aiming progress.</li><li>The indicator smoothly transitions from red through yellow to green, allowing you to evaluate the current aiming state at a glance.</li></ul><h2>Features:</h2><ul><li>correctly accounts for increased dispersion while the vehicle is moving;</li><li>does not modify gun handling, dispersion, firing mechanics, or reticle behavior;</li><li>optimized to avoid additional lag or noticeable FPS loss;</li><li>runs only during battles;</li><li>supports Ukrainian and English;</li><li>uses English as the fallback language;</li><li>allows the indicator to be repositioned by dragging it in cursor mode;</li><li>preserves its settings between game sessions.</li></ul><blockquote><p>GUIFlash 0.6.3 is a required dependency and is already included in the package.</p></blockquote><p>Compatibility: World of Tanks 2.3.1.x<br>Version: 1.0.0<br>Developer: unicorn.ares</p>",
-      "installationGuideHtml": "<p>Розпакуйте архів у кореневу папку World of Tanks.&nbsp;</p><blockquote><p>Обидва файли .wotmod мають бути встановлені в папку поточної версії гри.</p></blockquote>",
+      "descriptionHtml": "<h2>Infinitum Aim Timer is a lightweight standalone aiming indicator for World of Tanks.</h2><h2>The mod displays:</h2><ul><li>remaining time until the gun is fully aimed;</li><li>selected aiming progress value;</li><li>a vertical progress bar that fills from bottom to top;</li><li>interactive color changes based on the current aiming progress.</li><li>The indicator transitions from red through yellow to green, allowing you to evaluate the current aiming state at a glance.</li></ul><h2>In-game settings allow you to choose:</h2><ul><li>time-based or circle-based progress;</li><li>theoretical maximum or the maximum for the vehicle’s current state;</li><li>time progress, circle progress, or the current circle-size multiplier below the bar.</li><li>Time-based progress with a percentage value is enabled by default.</li></ul><h2>Features:</h2><ul><li>accounts for increased dispersion while the vehicle is moving;</li><li>adapts to different vehicles, vehicle states, and gameplay mechanics;</li><li>does not modify gun handling, dispersion, firing mechanics, or reticle behavior;</li><li>optimized to avoid additional lag or noticeable FPS loss;</li><li>runs only during battles;</li><li>supports Ukrainian and English;</li><li>uses English as the fallback language;</li><li>allows separate indicator positions for arcade, sniper, and artillery views;</li><li>allows the indicator to be repositioned by dragging it in cursor mode;</li><li>hides after vehicle destruction and returns after respawning;</li><li>preserves settings and positions between game sessions.</li></ul><blockquote><p>All required dependencies are included in the package.</p></blockquote><p>Compatibility: World of Tanks 2.3.1.x<br>Version: 1.1.0<br>Developer: unicorn.ares</p>",
+      "installationGuideHtml": "<p>Extract the archive into the World of Tanks root directory.</p><blockquote><p>All included .wotmod files must be placed in the mods/&lt;current game version&gt;/ directory while preserving the included subfolder structure.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%B7_2026-08-13_17-48-15.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7834/",
       "tagIds": [
@@ -63,6 +101,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.2.zip",
+          "updatedAt": "2026-08-14T18:48:56.508Z",
+          "sizeBytes": 1743839,
+          "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added in-game settings;\nAdded a choice between time-based and circle-based progress;\nAdded theoretical and current vehicle state limits for circle progress;\nAdded multiple values below the bar: time progress, circle progress, or circle-size multiplier;\nTime-based progress with percentage is now the default;\nImproved calculations for different vehicles and changing vehicle states;"
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.0",
@@ -75,8 +123,8 @@
         }
       ],
       "latest": {
-        "fileName": "Infinitum-Aim-Timer-1.0.0-WoT-2.3.1.2.zip",
-        "changeLog": "",
+        "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.2.zip",
+        "changeLog": "Added in-game settings;\nAdded a choice between time-based and circle-based progress;\nAdded theoretical and current vehicle state limits for circle progress;\nAdded multiple values below the bar: time progress, circle progress, or circle-size multiplier;\nTime-based progress with percentage is now the default;\nImproved calculations for different vehicles and changing vehicle states;",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -215,6 +263,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.6",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.6_full.zip",
+          "updatedAt": "2026-08-14T18:47:41.871Z",
+          "sizeBytes": 946390,
+          "fileName": "hangar_carousel_classic_1.0.6_full.zip",
+          "fileExt": ".zip",
+          "changeLog": "Add ModsSettingsAPI checkboxes to show or hide each vehicle-card statistic independently.\nPreserve the selected card-stat fields in the user configuration.\nArrange selected card statistics continuously in pairs to avoid empty card rows.\nValidate card-stat configuration values defensively before sending them to Gameface."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.5_full_h5k23MB.zip",
           "updatedAt": "2026-08-13T15:16:13.771Z",
@@ -225,8 +283,8 @@
         }
       ],
       "latest": {
-        "fileName": "hangar_carousel_classic_1.0.5_full_h5k23MB.zip",
-        "changeLog": "Fix native vehicle filtering so selected Classic filters are combined and applied to the carousel data source.\nShow all Classic filters directly in the native vanilla carousel filter popover, without a separate ModsSettingsAPI visibility setting.\nSynchronize active filter buttons through the Gameface view model so their selected state stays current after each toggle.\nRemove obsolete ModsSettingsAPI filter-visibility checkboxes.\nAdd a complete ZIP with Classic, ModsSettingsAPI, and OpenWG Gameface.",
+        "fileName": "hangar_carousel_classic_1.0.6_full.zip",
+        "changeLog": "Add ModsSettingsAPI checkboxes to show or hide each vehicle-card statistic independently.\nPreserve the selected card-stat fields in the user configuration.\nArrange selected card statistics continuously in pairs to avoid empty card rows.\nValidate card-stat configuration values defensively before sending them to Gameface.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1202,6 +1260,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/s6wot-battle-reporter_5IeXdNT.wotmod",
+          "updatedAt": "2026-08-14T18:54:44.359Z",
+          "sizeBytes": 52748,
+          "fileName": "s6wot-battle-reporter_5IeXdNT.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/s6WOT-pack.zip",
@@ -1233,9 +1301,9 @@
         }
       ],
       "latest": {
-        "fileName": "s6WOT-pack.zip",
-        "changeLog": "Fixed: battles you left before the end are no longer missing. The mod now asks the game server for the result of every arena you entered and reports it once the battle is finalised.\n\nFixed: net credits were too high — auto-resupply of ammunition and consumables was not subtracted. Net credits now match the in-game battle results screen exactly.\n\nFixed: the same battle could appear twice when a platoon-mate ran an older version of the mod. Reports of the same battle are now merged into one record.\n\nAdded: battle start time is now sent with every record, so repeated short battles are never merged together.\n\nImproved: duplicate protection inside the mod — a battle captured by more than one path is reported only once.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "s6wot-battle-reporter_5IeXdNT.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1314,16 +1382,6 @@
           "fileName": "AVG_Damage0.1.1_FmWQIIp.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.1.zip",
-          "updatedAt": "2026-08-04T14:12:13.961Z",
-          "sizeBytes": 3884299,
-          "fileName": "AVG_Damage0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "přidáno počítadlo bitev \n\nadded battle counter"
         }
       ],
       "latest": {
@@ -1355,6 +1413,16 @@
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.2.rar",
+          "updatedAt": "2026-08-14T14:36:50.523Z",
+          "sizeBytes": 700291279,
+          "fileName": "BOBRKRW_ModPack_1.0.2.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.2_WoT_2.3.1.2_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D1%83_wCArmZq.zip",
           "updatedAt": "2026-08-13T14:39:45.591Z",
           "sizeBytes": 713867867,
@@ -1364,7 +1432,7 @@
         }
       ],
       "latest": {
-        "fileName": "BOBRKRW_ModPack_1.0.2_WoT_2.3.1.2_для_сайту_wCArmZq.zip",
+        "fileName": "BOBRKRW_ModPack_1.0.2.rar",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -2469,16 +2537,6 @@
           "fileName": "MoECalculator_1.6.0.zip",
           "fileExt": ".zip",
           "changeLog": "Alongside the corner overlay, the mod can now draw a wide progress bar in the centre of the screen during battle. It's off by default — turn it on in the settings panel under Progress Bar, then pick which of the two bars you want.\nMoving Average — where your career projected average combined damage sits between the mark you already hold and the requirement for the next one, with this battle's signed contribution beside it. It comes up whenever that projection moves.\nDamage Efficiency — this battle's combined damage measured against all requirements at once laid out on equal quarters, with every requirement you've already passed lit up."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.5.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.5.0.zip",
-          "updatedAt": "2026-07-26T18:11:03.691Z",
-          "sizeBytes": 387575,
-          "fileName": "MoECalculator_1.5.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "In-battle MoE projection should now be closer at every mark threshold."
         }
       ],
       "latest": {
@@ -13469,7 +13527,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<h2>YaYa's Tactical Minimap Mod:&nbsp;</h2><p>This mod is intended to give new and seasoned players a guide to map starting positions as well as some neat angles to leverage. It is strongly recommended to visit YaYa's Map Website (https://wotmapsbyyaya.com/) as each map has positional information and explanations that put everything into perspective. Should you have questions or give feedback, join our discord: <a href=\"https://discord.gg/D9z2m2Q7ka\">https://discord.gg/D9z2m2Q7ka</a></p><p>Mod Usage Instructions</p><p>A hot-key combination has been created to rebind the default key (ALT) to another during battle: Press ENTER to open the chat and then press CTRL+SHIFT+K to activate key rebinding. A chat message will appear in your in-game battle chat. Once complete, the rebind is then stored in the mod’s xml file for future use.</p><p><br>Note: This procedure must be completed every time the mod is updated including if updating with Aslain’s mod.</p><p>Standalone Installation</p><p>Copy archive content into the mods folder of the game.<br>E.g.: C:\\Games\\World_of_Tanks_EU\\mods<br><br>By default the Mod is set up to show all icons upon pressing the toggle. However, should you wish to turn off the icons, this can be done within the “yayatacticmap” xml located in the “\\mods\\configs\\locastan” folder. Instructions are provided within the xml.</p><p>Map Preview images: &nbsp;</p><p>Ruinberg, Erlenberg, Malinovka, Serene Coast and the Style Guide.</p>",
       "installationGuideHtml": "<p>Copy archive content into mods folder of the game.</p>",
@@ -13481,6 +13539,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2312",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2312.zip",
+          "updatedAt": "2026-08-14T14:37:24.391Z",
+          "sizeBytes": 47367156,
+          "fileName": "YaYa_tactical_minimaps2312.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Just folder rename to 2.3.1.2."
+        },
         {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "2311",
@@ -13530,22 +13598,12 @@
           "fileName": "YaYa_tactical_minimaps2213d.zip",
           "fileExt": ".zip",
           "changeLog": "Updated maps on Berlin, El Hallouf, Overlord, Province and Serene Coast."
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "2213c",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2213c.zip",
-          "updatedAt": "2026-05-23T19:55:27.460Z",
-          "sizeBytes": 47817755,
-          "fileName": "YaYa_tactical_minimaps2213c.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated maps on Cliff, Ensk, Erlenberg, Empire's Border, Live Oaks, Malinovka, Mannerheim Line, Outpost, Paris, Pearl River, Pilsen, Redshire, Safe Haven, Sand River, Serene Coast, Sigfried Line and Tundra."
         }
       ],
       "latest": {
-        "fileName": "YaYa_tactical_minimaps2311.zip",
-        "changeLog": "- Updated folder structure for 2.3.1.1\n- Added Gravity Assists error log reporter mod to help me hunt down bugs. :)",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "YaYa_tactical_minimaps2312.zip",
+        "changeLog": "- Just folder rename to 2.3.1.2.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -15811,6 +15869,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/calculationelo_ahODOQl.zip",
+          "updatedAt": "2026-08-14T18:45:53.081Z",
+          "sizeBytes": 524203,
+          "fileName": "calculationelo_ahODOQl.zip",
+          "fileExt": ".zip",
+          "changeLog": "fix: update NA and ASIA Stronghold endpoints and parsing"
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/calculationelo_qWyeYp8.zip",
@@ -15862,9 +15930,9 @@
         }
       ],
       "latest": {
-        "fileName": "calculationelo_qWyeYp8.zip",
-        "changeLog": "updated for the current patch",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "calculationelo_ahODOQl.zip",
+        "changeLog": "fix: update NA and ASIA Stronghold endpoints and parsing",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -43046,16 +43114,6 @@
           "fileName": "1D6_XVM_ModPack_2.2.1c.exe",
           "fileExt": ".exe",
           "changeLog": "14 may 2026 - UPDATE 2.2.1c\nCompatible Wot 2.2.1.3\n- Update XVM 13.1.0.0024\n"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "2.2.1B",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1D6_XVM_ModPack_2.2.1b.exe",
-          "updatedAt": "2026-04-29T23:05:08.576Z",
-          "sizeBytes": 90952284,
-          "fileName": "1D6_XVM_ModPack_2.2.1b.exe",
-          "fileExt": ".exe",
-          "changeLog": "29 april 2026 - UPDATE 2.2.1b\nCompatible Wot 2.2.1.2\n- Update XVM 13.1.0.0022\n- Update Efficiency 8.0.3\n- Update MarksOngunExtended 8.0.3"
         }
       ],
       "latest": {
