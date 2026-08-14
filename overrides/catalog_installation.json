@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.039",
+  "catalogVersion": "v2026.08.040",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7836",
+      "title": "Alpine Tiger Remodel",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place .wotmod file in current mods directory"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to current mods version directory.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7834",
+      "title": "[Infinitum] Aim Timer",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Розпакуйте архів у кореневу папку World of Tanks. Обидва файли .wotmod мають бути встановлені в папку поточної версії гри."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract to the World of Tanks root folder; note about both .wotmod files is non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7837",
+      "title": "Naa's Frontline Smoke",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "When you install the mod into World_of_Tanks_EU --> mods --> version then go back to World_of_Tanks_EU and delete data.wgpdc before booting up the client"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>; deleting data.wgpdc is a non-blocking extra step.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7833",
@@ -8869,13 +8914,13 @@
       "sourceId": "6076",
       "title": "Grandpa's Vehicles (Military and Civilian) Content Mod",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Copy the .wotmod file from the archive (zip) into the mods/ directory You Tube Video on How to install a .wotmod file"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide says copy the .wotmod into the mods/ directory; .wotmod files are installed by copying into mods/<version>.",
+        "decisionReason": "Archive package and guide says to copy the .wotmod from the archive into the mods directory.",
         "deleteDataWgpdc": false
       }
     },
