@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.041",
+  "catalogVersion": "v2026.08.042",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7838",
+      "title": "AYA Translator",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "IMPORTANT: This mod requires ModsListAPI, ModsSettingsAPI and GameFace to work. Make sure they are installed in the same mods folder. Extract the \"aya_m\" folder into: World_of_Tanks/mods/[game_version]/ Extract the \"aya_r\" folder into: World_of_Tanks/res_mods/[game_version]/ After installing, open the Garage, go to the mods settings panel, and configure..."
+      },
+      "installationProcess": {
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Guide requires installing archive contents to two different target paths: mods/<version> and res_mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7835",
@@ -202,13 +217,13 @@
       "sourceId": "7819",
       "title": "MoE Filter",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy the .wotmod file into World_of_Tanks\\mods\\<current game version>\\ and start World of Tanks."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to copy extracted .wotmod into mods/<version>.",
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -10907,7 +10922,7 @@
     {
       "source": "wgmods",
       "sourceId": "1507",
-      "title": "Avalon's Centurion Action X 'Dreadnought'",
+      "title": "Avalon's Centurion Action X 'Dreadnought' & 'Dreadnaught II'",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy .wotmod file to “World_of_Tanks\\mods\\$VERSION” Delete the 'data.wgpdc' file in the main World of Tanks folder before launching the game."

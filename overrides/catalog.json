@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.08.041",
-  "sourceHash": "26667d5fa0da5d31673257d105d56334fecf5d83db3bfbca89a48405313bfb1c",
+  "catalogVersion": "v2026.08.042",
+  "sourceHash": "f59236276bb3e371bb0c4e24ef2ba3ca663b16b540ade3a9d30ab333d7953bb0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7838",
+      "title": "AYA Translator",
+      "ownerUsername": "Veil___",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>[AYA] automatically translates the battle chat messages that YOU send. Type normally in your own language—the mod detects your language and translates the message into your chosen target language before sending it to your team. No copy-pasting, no external tools, and no interruption to your gameplay.&nbsp;<br><br>EXAMPLE&nbsp;<br>ES to EN:&nbsp;<br><br>\"Espero que los jugadores de artilleria pisen un Lego cada dia de su vida!\"&nbsp;<br><br>becomes&nbsp;<br><br>\"I hope artillery players step on a Lego every single day of their lives!\"&nbsp;<br><br>KEY FEATURES&nbsp;<br>Automatic Language Detection &amp; Translation: Supports 20 languages.&nbsp;<br><br>Real-Time Processing: Translates your message before it reaches your team.&nbsp;<br><br>Translation Cache: Delivers instant response times for recurring phrases.&nbsp;<br><br>In-Battle Hotkeys:&nbsp;<br><br>Numpad 0: Toggle mod ON/OFF&nbsp;<br><br>Numpad + / Numpad -: Switch target language on the fly&nbsp;<br><br>On-Screen HUD Feedback: Displays mod status, active language, and warnings above the minimap.&nbsp;<br><br>Smart Quality Protection: Short or ambiguous messages are safely blocked and NOT sent to prevent mistranslations.&nbsp;<br><br>Garage Configuration Panel: Available in 11 languages, allowing you to select your target language, enable auto-start at battle entry, and manage your translation cache.&nbsp;<br><br>REQUIREMENTS&nbsp;<br>Requires ModsListAPI, ModsSettingsAPI, and GameFace installed in your mods folder.&nbsp;<br><br>Found a bug or have a suggestion?&nbsp;<br><br>Contact us: aya.help@proton.me</p>",
+      "installationGuideHtml": "<p>IMPORTANT: This mod requires ModsListAPI, ModsSettingsAPI and GameFace to work. Make sure they are installed in the same mods folder.&nbsp;<br><br>Extract the \"aya_m\" folder into: World_of_Tanks/mods/[game_version]/&nbsp;<br>Extract the \"aya_r\" folder into: World_of_Tanks/res_mods/[game_version]/&nbsp;<br><br>After installing, open the Garage, go to the mods settings panel, and configure...</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/aya_translator_thumb_c%C3%B3pia.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7838/",
+      "tagIds": [
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.3.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AYA_Translator.zip",
+          "updatedAt": "2026-08-15T10:46:20.345Z",
+          "sizeBytes": 967555,
+          "fileName": "AYA_Translator.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "AYA_Translator.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7835",
@@ -584,6 +621,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.3.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/moe_filter_wot_v2.3.1.2.wotmod",
+          "updatedAt": "2026-08-15T10:45:53.879Z",
+          "sizeBytes": 437389,
+          "fileName": "moe_filter_wot_v2.3.1.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Updated for World of Tanks 2.3.1.2. The mod version name now matches the supported World of Tanks version. No functional changes."
+        },
+        {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoE_Filter_1.0.0.zip",
@@ -595,9 +642,9 @@
         }
       ],
       "latest": {
-        "fileName": "MoE_Filter_1.0.0.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "moe_filter_wot_v2.3.1.2.wotmod",
+        "changeLog": "Updated for World of Tanks 2.3.1.2. The mod version name now matches the supported World of Tanks version. No functional changes.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -684,8 +731,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Replaces the standard garage with the Personal Missions 3 Sector 3 hangar and places your selected tank inside it.</p><p>Includes adjusted camera zoom for a better garage view.</p><p><i>Due to the Pet not being visible with this mod i recommend the \"Pet Gift Auto Claim\" </i><a href=\"https://wgmods.net/7438/\"><i>https://wgmods.net/7438/ </i></a>along side this mod.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-10_040050455.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1374,20 +1421,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.1",
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "0.1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.1_FmWQIIp.zip",
-          "updatedAt": "2026-08-07T20:12:16.798Z",
-          "sizeBytes": 4122524,
-          "fileName": "AVG_Damage0.1.1_FmWQIIp.zip",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.1.zip",
+          "updatedAt": "2026-08-15T10:48:00.798Z",
+          "sizeBytes": 4499427,
+          "fileName": "AVG_Damage0.1.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "AVG_Damage0.1.1_FmWQIIp.zip",
+        "fileName": "AVG_Damage0.1.1.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2490,6 +2537,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.0.zip",
+          "updatedAt": "2026-08-15T10:46:02.618Z",
+          "sizeBytes": 1568986,
+          "fileName": "MoECalculator_3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Vertical orientation for both centre-screen in-battle bars (Moving Average and Damage Efficiency) — draw them horizontally, or vertically beside the minimap.\nFixed / Free alignment with a position lock. Fixed snaps the bar to a built-in spot chosen by orientation; Free unlocks Ctrl+drag and the numeric X/Y fields. Orientation, alignment, and position now set each other automatically.\nPer-vehicle mode override with a rebindable toggle hotkey (default K) — flip the progress bar's mode for the current tank; the mod remembers your choice per vehicle. An Automatic Mode Toggle threshold can flip it for you once a tank's pre-battle mark progress crosses a set percent.\nWidget previews inside the settings panel — see both in-battle widgets rendered right in the ModsSettingsAPI menu.\nA reworked ETA-in-battles readout on the vertical bars."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "3.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.0.0.zip",
           "updatedAt": "2026-08-13T14:44:25.497Z",
@@ -2540,8 +2597,8 @@
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_3.0.0.zip",
-        "changeLog": "Updated for 2.3.1.2.",
+        "fileName": "MoECalculator_3.1.0.zip",
+        "changeLog": "Vertical orientation for both centre-screen in-battle bars (Moving Average and Damage Efficiency) — draw them horizontally, or vertically beside the minimap.\nFixed / Free alignment with a position lock. Fixed snaps the bar to a built-in spot chosen by orientation; Free unlocks Ctrl+drag and the numeric X/Y fields. Orientation, alignment, and position now set each other automatically.\nPer-vehicle mode override with a rebindable toggle hotkey (default K) — flip the progress bar's mode for the current tank; the mod remembers your choice per vehicle. An Automatic Mode Toggle threshold can flip it for you once a tank's pre-battle mark progress crosses a set percent.\nWidget previews inside the settings panel — see both in-battle widgets rendered right in the ModsSettingsAPI menu.\nA reworked ETA-in-battles readout on the vertical bars.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2986,16 +3043,6 @@
           "fileName": "GarageProgressBar-Bundle_1.4.0.zip",
           "fileExt": ".zip",
           "changeLog": "Elite Rewards tooltips now tell you which level a reward unlocks at. "
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.3.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.3.3.zip",
-          "updatedAt": "2026-07-28T18:58:53.854Z",
-          "sizeBytes": 351838,
-          "fileName": "GarageProgressBar-Bundle_1.3.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fixed alternative modes cycling."
         }
       ],
       "latest": {
@@ -4175,7 +4222,7 @@
       ],
       "recommended": true,
       "mark": 4.1,
-      "descriptionHtml": "<p>A compact pack of player statistics and handy add-ons for the standard game UI. Nothing extra — just useful mods that work right after install.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 Player statistics (BattleStats)</strong> Shows player stats right in battle. Pick <strong>one</strong> rating and mode:</p><ul><li>Rating: <strong>WN8</strong> or <strong>WNX</strong> (formulas from Tomato.gg)</li><li>Mode:<ul><li><strong>Last 1000 battles (beta)</strong> — your approximate recent form</li><li><strong>Overall</strong> — all-time stats</li><li><strong>Tanks</strong> — stats for the current tank only</li></ul></li><li>In battle it shows: average tank tier, number of battles, win rate, and rating (WN8/WNX).</li></ul><p><strong>📈 Session statistics (SessionStats)</strong><br>This mod extends the game's built-in session statistics window and adds <strong>WN8</strong> and <strong>WNX</strong> next to WTR.</p><ul><li>Shows the rating for the current play session.</li><li>Shows how much the rating changed during the session.</li><li>Does not create a separate external window; it neatly extends the standard game UI.</li><li>Helps you quickly evaluate the current session not only by WTR, but also by familiar WN8/WNX ratings.</li></ul><p><strong>✉️ Message Center</strong></p><ul><li><strong>Separate battle results tab</strong> — adds a tab to the standard message center that shows battle results only.</li><li><strong>Message Center filter</strong> — choose which messages to show (configurable in the mod's settings).</li></ul><p><strong>🌐 Remember server</strong> Remembers the last server you successfully logged in to and selects it automatically next time.</p><p><strong>✅ READY button for the platoon commander</strong> Adds a compact <strong>READY</strong> button that lets the platoon commander change their own readiness without starting the battle.</p><ul><li>Background color = your state: gray for \"not ready\", green for \"ready\".</li><li>A centered LED shows the rest of the platoon: it lights up when all other members are ready. (v2.22+)</li><li>The Alt+R keyboard shortcut is also available.</li></ul><p><strong>🧩 Libraries</strong> The pack also bundles these open-source third-party libraries so the mods work:</p><ul><li>ModsSettingsAPI (izeberg)</li><li>ModsListAPI (poliroid)</li><li>OpenWG: common, gameface, fix.battleresultscache, fix.battleresultsreplays</li></ul>",
+      "descriptionHtml": "<p><strong>Custix ModPack</strong> is a compact collection of statistics and useful improvements for the standard World of Tanks interface. Nothing unnecessary: every optional mod can be selected separately. Compatible with <strong>World of Tanks EU</strong>.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>🌐 </strong><a href=\"https://modpack.custix.pp.ua/\"><strong>Official website</strong></a> — current modpack releases are available here, and updates are usually published sooner than on <a href=\"http://wgmods.net/\">wgmods.net</a>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 BattleStats</strong> shows average vehicle tier, battle count, win rate, and <strong>WN8 or WNX</strong> on the Tab screen and team panels.<br>Three modes are available:&nbsp;</p><ul><li>Last 1000 battles</li><li>Overall account statistics</li><li>Current-vehicle statistics</li></ul><p>Panel layout, fonts, colors, badges, and elite levels are configurable. If your anonymizer is enabled, statistics for other players are still displayed.</p><p><strong>📈 SessionStats</strong> adds WN8, WNX, and their change to the native Session Statistics window next to WTR.</p><p><strong>🗂️ BattleHistory</strong> adds a movable battle-history window with map, vehicle, outcome, damage, kills, experience, survival, and WN8/WNX. It supports vehicle filtering, reopening detailed reports, and history limits by battle count or days.</p><p><strong>🪟 UpdatedWindows</strong> modernizes platoon windows, private and group chats, Contacts, Message Center, and Session Statistics. It adds color, opacity, and font settings, contact notes, context menus, emojis, links, message templates, and an integrated filter.</p><p><strong>✉️ MessageCenterFilter</strong> is a standalone filter for users without UpdatedWindows. It independently filters Message Center entries and hangar pop-ups by category. UpdatedWindows and MessageCenterFilter cannot be installed together: selecting either one automatically clears the other.</p><p><strong>🌐 LastServerLogin</strong> remembers the last successful server without storing passwords or tokens.</p><p><strong>✅ PlatoonReady</strong> adds a platoon-commander <strong>READY</strong> button, an indicator for other members, and the Alt+R shortcut.</p><p><strong>🔔 ModpackNotifier</strong> reports new modpack versions. Network failures do not prevent the game from starting.</p><p>The installer adds only libraries required by selected components: <strong>ModsSettingsAPI</strong>, <strong>ModsListAPI</strong>, and <strong>OpenWG Gameface</strong>.</p>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CUSTIX_Modpack_Cover_4K_v6.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
@@ -4194,16 +4241,6 @@
           "fileName": "Custix_ModPack_for_2.3.1.2_v3.3.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Модпак оновлено для World of Tanks 2.3.1.2. ---- [EN]: Updated the modpack for World of Tanks 2.3.1.2."
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "3.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.1_v3.2.exe",
-          "updatedAt": "2026-08-11T20:58:04.292Z",
-          "sizeBytes": 6959592,
-          "fileName": "Custix_ModPack_for_2.3.1.1_v3.2.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: UpdatedWindows оновлено до 1.4.4: додано сучасні вікна Центру повідомлень і статистики сесії, нотатки контактів та вбудований фільтр; MessageCenterFilter оновлено до 0.5.1. Вибір одного з цих модів автоматично знімає вибір з іншого. Вилучено MessageCenterBattlesTab; BattleHistory оновлено до 0.2.20, ModsListAPI — до 1.7.9; оптимізовано залежності й оновлено описи та прев’ю. ---- [EN]: UpdatedWindows updated to 1.4.4 with modern Message Center and Session Statistics windows, Contacts notes, and an integrated filter; MessageCenterFilter updated to 0.5.1. Selecting either mod automatically clears the other. Removed MessageCenterBattlesTab; updated BattleHistory to 0.2.20 and ModsListAPI to 1.7.9; optimized dependencies and refreshed descriptions and previews."
         }
       ],
       "latest": {
@@ -5239,7 +5276,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p><strong>Legacy Hangar UI</strong> <strong>Author:</strong> Renovo</p><p><strong>Compatible Client Version:</strong> 2.3.0.0+ (World of Tanks 2.0)</p><p><strong>Concept &amp; Features</strong></p><p>Tired of the new modern Gameface hangar and want to return to the classic nostalgic feeling? <strong>Legacy Hangar UI</strong> allows you to force the classic Flash-based (Scaleform) hangar interface inside World of Tanks 2.0!</p><p>With this mod, you can dynamically switch between the modern Gameface UI and the nostalgic classic Scaleform hangar on the fly:</p><p><strong>Instant Toggling:</strong> Press <strong>Ctrl + I</strong> inside the hangar to instantly switch the interface between the classic Scaleform hangar and the modern Gameface hangar.</p><p><strong>Classic Navigation:</strong> Restores the classic navigation buttons and elements to provide a visual look-alike of the old hangar UI layout.<br><strong>Custom NavBar &amp; Installation: </strong>The navigation menu has been added as a separate modification to give users full freedom of choice. If for any reason you do not wish to use it, please install only the LegacyHangar .wotmod file into your game client.</p><p><strong>Important Note &amp; Limitations</strong></p><p><strong>Mode Selector &amp; Navigation:</strong> The game mode selector button is accessible directly within the top navigation menu.</p><p><strong>No Promo Banners:</strong> Banners are completely removed and there are no plans to add them. If you need to check them out, you can find them in the Modern UI.</p><p><strong>Platoon Creation:</strong> The \"Create Platoon\" button is located at the bottom of the screen, just like in the Modern UI.</p><p><strong>Upgrade Menu for Tier XI:</strong> The Field Modification button works seamlessly for both Tier XI and lower-tier vehicles. For Tier XI, it opens the Upgrades menu, while for Tier X and below, it triggers the standard Field Modification menu.</p><p>If you need to view banners or adjust other settings using the new Gameface UI, simply press <strong>Ctrl + I</strong> to switch back to the modern interface on the fly, and then press it again to return to the classic hangar!</p><p><i><strong>Please note that this mod only changes the visual appearance of the hangar interface itself. It does NOT restore the legacy style of other screens, such as the post-battle statistics window, store, storage, or other lobby views.</strong></i></p><p><strong>Known Issues</strong></p><p><strong>Pet System:</strong> Access to the Pet System does not function while in Legacy UI mode, making it impossible to claim Pet rewards due to Scaleform compatibility limitations. However, rewards and the Pet menu can still be accessed normally in the Modern UI. If you want to avoid switching back and forth every time, you can use the <strong>Pet Gift Auto Claim</strong> mod by <i>Gravity_Assist</i>, available here: <a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/ <i>(Example: C:/Games/World_of_Tanks/mods/x.x.x.x/)</i></li><li><strong>Note for Open.WG:</strong> If not already installed, the Open.WG library must be placed in the following subdirectory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/net.openwg/</li><li>Launch the game client.<br>&nbsp;</li></ol>",
@@ -5251,6 +5288,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
+          "updatedAt": "2026-08-15T11:33:15.127Z",
+          "sizeBytes": 35704,
+          "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0.6",
@@ -5300,22 +5347,12 @@
           "fileName": "renovo.legacyhangar_1.0_HtdUQaQ.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Changed game version"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/renovo.legacyhangar_1.0.wotmod",
-          "updatedAt": "2026-06-04T21:47:05.646Z",
-          "sizeBytes": 9253,
-          "fileName": "renovo.legacyhangar_1.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke.rar",
+        "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10893,6 +10930,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "2026.08.15.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.15.1.exe",
+          "updatedAt": "2026-08-15T10:36:39.291Z",
+          "sizeBytes": 13822766,
+          "fileName": "yam_2026.08.15.1.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "2026.08.12.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.12.1.exe",
           "updatedAt": "2026-08-11T21:14:21.085Z",
@@ -10940,20 +10987,10 @@
           "fileName": "yam_2026.08.03.1.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2026.08.01.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.01.1.exe",
-          "updatedAt": "2026-08-01T11:12:11.996Z",
-          "sizeBytes": 13751466,
-          "fileName": "yam_2026.08.01.1.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "yam_2026.08.12.1.exe",
+        "fileName": "yam_2026.08.15.1.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -13528,7 +13565,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.8,
+      "mark": 4.7,
       "descriptionHtml": "<h2>YaYa's Tactical Minimap Mod:&nbsp;</h2><p>This mod is intended to give new and seasoned players a guide to map starting positions as well as some neat angles to leverage. It is strongly recommended to visit YaYa's Map Website (https://wotmapsbyyaya.com/) as each map has positional information and explanations that put everything into perspective. Should you have questions or give feedback, join our discord: <a href=\"https://discord.gg/D9z2m2Q7ka\">https://discord.gg/D9z2m2Q7ka</a></p><p>Mod Usage Instructions</p><p>A hot-key combination has been created to rebind the default key (ALT) to another during battle: Press ENTER to open the chat and then press CTRL+SHIFT+K to activate key rebinding. A chat message will appear in your in-game battle chat. Once complete, the rebind is then stored in the mod’s xml file for future use.</p><p><br>Note: This procedure must be completed every time the mod is updated including if updating with Aslain’s mod.</p><p>Standalone Installation</p><p>Copy archive content into the mods folder of the game.<br>E.g.: C:\\Games\\World_of_Tanks_EU\\mods<br><br>By default the Mod is set up to show all icons upon pressing the toggle. However, should you wish to turn off the icons, this can be done within the “yayatacticmap” xml located in the “\\mods\\configs\\locastan” folder. Instructions are provided within the xml.</p><p>Map Preview images: &nbsp;</p><p>Ruinberg, Erlenberg, Malinovka, Serene Coast and the Style Guide.</p>",
       "installationGuideHtml": "<p>Copy archive content into mods folder of the game.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_cover.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -15946,7 +15983,7 @@
       ],
       "recommended": true,
       "mark": 4.7,
-      "descriptionHtml": "<p><strong>IMPORTANT: If you use this mod together with </strong><a href=\"https://wgmods.net/5251/\"><strong>Dispersion Reticle mod</strong></a><strong>. then you MUST update Dispersion Reticle mod as well.</strong><br><strong>Otherwise, your additional reticles WON'T receive reticle responsiveness.</strong></p><p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates (but it's still optimised to maximum)</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>I've spend entire week just to micro-optimise this mod to be as lightweight as possible</li><li>However, even after that, due to increased reticle position update frequency, it still may lower FPS a bit (by measurements I estimate about 5% less average FPS)</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
+      "descriptionHtml": "<p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates (but it's still optimised to maximum)</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>I've spend entire week just to micro-optimise this mod to be as lightweight as possible</li><li>However, even after that, due to increased reticle position update frequency, it still may lower FPS a bit (by measurements I estimate about 5% less average FPS)</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.responsive_reticle_X.wotmod</strong>\" into \"[WoT game directory]/mods/[version]/\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_vWZU5A5.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7413/",
@@ -29979,7 +30016,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.4,
       "descriptionHtml": "<p><strong>I encourage you to go to the original creator's page since they are actively maintaining it and know what they are doing:</strong><br><a href=\"https://wgmods.net/6281/\">https://wgmods.net/6281</a><br><br>I only&nbsp;updated the .xml meaning the camera is centered for all the modes</p><p>The mod changes values in \"the avatar_input_handler.xml\" which you can find here: C:\\Games\\World_of_Tanks_EU\\res\\packages\\gui-part2.pkg\\gui\\avatar_input_handler.xml</p><h2>DISCLAIMER</h2><p>I won't update this anymore</p>",
       "installationGuideHtml": "<p>put the .wotmod file here \"C:\\Games\\World_of_Tanks_EU\\mods\\VERSION\"</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ModComparisonCover.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -32205,6 +32242,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.2.01",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.15.1.zip",
+          "updatedAt": "2026-08-15T10:34:57.608Z",
+          "sizeBytes": 7834550,
+          "fileName": "tomatogg_2026.08.15.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "2.2.00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.11.1.zip",
           "updatedAt": "2026-08-11T20:44:16.258Z",
@@ -32252,20 +32299,10 @@
           "fileName": "tomatogg_2026.08.03.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.07.14.1_aud9v4Z.zip",
-          "updatedAt": "2026-07-15T16:23:37.392Z",
-          "sizeBytes": 7818169,
-          "fileName": "tomatogg_2026.07.14.1_aud9v4Z.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "tomatogg_2026.08.11.1.zip",
+        "fileName": "tomatogg_2026.08.15.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -35354,7 +35391,7 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<p><strong>IMPORTANT: If you use this mod together with </strong><a href=\"https://wgmods.net/7413/\"><strong>Responsive Reticle mod</strong></a><strong>. then you MUST update Responsive Reticle mod as well.</strong><br><strong>Otherwise, your additional reticles WON'T receive reticle responsiveness.</strong></p><p>Updated and completely reworked mod that adds additional circle displaying fully focused dispersion of a gun.</p><p>Original idea by <strong>StranikS_Scan</strong>, completely reworked by me.</p><p>Also, over time, this mod now contains <strong>following mutually compatible mods</strong>:</p><ul><li>Focused reticle</li><li>Server reticle</li><li>Hybrid reticle (smooth combination of client and server reticle)</li><li>Reticle Size (adjustment in config file)</li></ul><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7d0ce2af-5f50-462b-a391-a51c7ad1509b.png\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/5fc3b666-83d1-4f66-846f-51fc753db7d2.jpg\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7bcf386e-968c-4907-a987-83fd7cf06dec.png\"></figure><h2>Features</h2><p>All of those features can be enabled/adjusted independently.<br><br>They are also compatible with \"Use server aim\" from in-game option.</p><p><strong>Focused reticle</strong> (enabled by default):</p><ul><li>adds green reticle displaying fully focused dispersion alongside other reticles</li></ul><p><strong>Server reticle</strong>:</p><ul><li>adds purple server-side reticle alongside with client-side reticle</li></ul><p><strong>Hybrid reticle</strong>:</p><ul><li>adds green reticle displaying current server-side dispersion to client-side reticle</li><li>useful if you want to know server-side dispersion, but still want client-side responsiveness</li></ul><p><strong>Extended variants of above reticles</strong>:</p><ul><li>have much more customization options</li><li>visually inspired by <strong>AwfulTanker's Server Marker</strong></li></ul><p><strong>Reticle size</strong>:</p><ul><li>controlled by \"reticle-size-multiplier\" option</li><li>WG's displayed reticle dispersion is noticeably bigger than actual gun dispersion</li><li>it was discovered by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others</li><li>by this setting you can scale it to actual displayed dispersion</li><li>good known values:<ul><li>1.0 (default \"wrong\" WG dispersion)</li><li>0.5814 (factor determined by me programmatically)</li><li>0.5848 (factor determined by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others)</li></ul></li></ul><h2>Configuration</h2><p>All features from config file <strong>are reloadable on-the-fly</strong> using <strong>CTRL + P</strong> hotkey in the game <strong>anywhere</strong>.</p><p>This mod also supports <strong>Mod Configurator by IzeBerg</strong> allowing for configuring this mod using its GUI in garage.</p><h2>Source code &amp; feedback</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/DispersionReticle\">Github repository</a>.</p><p>You can also:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/DispersionReticle/issues\">GitHub issues here</a></li></ul><h2>CONTRIBUTIONS</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li><li>shuxue - for Russian translations</li><li>yinx2002 - for Chinese translations</li><li>Kurzdor - for occasional help</li></ul><h2>Compatibility</h2><p>This mod <strong>IS NOT</strong> compatible with other mods with similar features as mine.</p><p>Current known incompatible mods:</p><ul><li>AwfulTanker's Server Marker (and other similar)</li><li>Jak_Atackka's Fix Reticle Size (and other similar)</li></ul><p>Use preferred options from above features for similar functionality instead.</p><p>However, it should be compatible with any crosshair mods that changes<br>how crosshair or reticle looks like.<br>&nbsp;</p>",
+      "descriptionHtml": "<p>Updated and completely reworked mod that adds additional circle displaying fully focused dispersion of a gun.</p><p>Original idea by <strong>StranikS_Scan</strong>, completely reworked by me.</p><p>Also, over time, this mod now contains <strong>following mutually compatible mods</strong>:</p><ul><li>Focused reticle</li><li>Server reticle</li><li>Hybrid reticle (smooth combination of client and server reticle)</li><li>Reticle Size (adjustment in config file)</li></ul><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7d0ce2af-5f50-462b-a391-a51c7ad1509b.png\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/5fc3b666-83d1-4f66-846f-51fc753db7d2.jpg\"></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/7bcf386e-968c-4907-a987-83fd7cf06dec.png\"></figure><h2>Features</h2><p>All of those features can be enabled/adjusted independently.<br><br>They are also compatible with \"Use server aim\" from in-game option.</p><p><strong>Focused reticle</strong> (enabled by default):</p><ul><li>adds green reticle displaying fully focused dispersion alongside other reticles</li></ul><p><strong>Server reticle</strong>:</p><ul><li>adds purple server-side reticle alongside with client-side reticle</li></ul><p><strong>Hybrid reticle</strong>:</p><ul><li>adds green reticle displaying current server-side dispersion to client-side reticle</li><li>useful if you want to know server-side dispersion, but still want client-side responsiveness</li></ul><p><strong>Extended variants of above reticles</strong>:</p><ul><li>have much more customization options</li><li>visually inspired by <strong>AwfulTanker's Server Marker</strong></li></ul><p><strong>Reticle size</strong>:</p><ul><li>controlled by \"reticle-size-multiplier\" option</li><li>WG's displayed reticle dispersion is noticeably bigger than actual gun dispersion</li><li>it was discovered by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others</li><li>by this setting you can scale it to actual displayed dispersion</li><li>good known values:<ul><li>1.0 (default \"wrong\" WG dispersion)</li><li>0.5814 (factor determined by me programmatically)</li><li>0.5848 (factor determined by <strong>Jak_Attackka</strong>, <strong>StranikS_Scan</strong> and others)</li></ul></li></ul><h2>Configuration</h2><p>All features from config file <strong>are reloadable on-the-fly</strong> using <strong>CTRL + P</strong> hotkey in the game <strong>anywhere</strong>.</p><p>This mod also supports <strong>Mod Configurator by IzeBerg</strong> allowing for configuring this mod using its GUI in garage.</p><h2>Source code &amp; feedback</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/Pruszko/DispersionReticle\">Github repository</a>.</p><p>You can also:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/DispersionReticle/issues\">GitHub issues here</a></li></ul><h2>CONTRIBUTIONS</h2><p>Thanks to:</p><ul><li>IzeBerg - for cool GUI configuration API</li><li>POLIROID - for ModsListAPI</li><li>shuxue - for Russian translations</li><li>yinx2002 - for Chinese translations</li><li>Kurzdor - for occasional help</li></ul><h2>Compatibility</h2><p>This mod <strong>IS NOT</strong> compatible with other mods with similar features as mine.</p><p>Current known incompatible mods:</p><ul><li>AwfulTanker's Server Marker (and other similar)</li><li>Jak_Atackka's Fix Reticle Size (and other similar)</li></ul><p>Use preferred options from above features for similar functionality instead.</p><p>However, it should be compatible with any crosshair mods that changes<br>how crosshair or reticle looks like.<br>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy <strong>\"DispersionReticle.wotmod\"</strong> file (and optionally other *.wotmod files) extracted from zip into <strong>\"[WoT game directory]/mods/[version]/\"</strong> directory</li><li>Run a game with mod installed to <strong>generate default config file</strong></li><li>Adjust config to your liking</li><li>Reload it in-game whenever you want using <strong>CTRL + P hotkey</strong></li><li>(with Mod Configurator) Open button with \"&lt;&gt;\" icon in garage and find <strong>DispersionReticle section</strong> to configure mod</li></ol><p>&nbsp;</p><p>Full config file location: <strong>\"[WoT game directory]/mods/configs/DispersionReticle/config.json\"</strong></p><p>Use some text editor (preferably <strong>Notepad++</strong>) to edit config file.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/all-v3-wg.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/5251/",
@@ -41286,7 +41323,7 @@
     {
       "source": "wgmods",
       "sourceId": "1507",
-      "title": "Avalon's Centurion Action X 'Dreadnought'",
+      "title": "Avalon's Centurion Action X 'Dreadnought' & 'Dreadnaught II'",
       "ownerUsername": "Avalon304",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -43055,7 +43092,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4,
       "descriptionHtml": "<p><strong>ENGLISH</strong><br><strong>1D6 XVM MODPACK</strong> is a minimalist preconfigured pack containing the most “useful” mods. It is well for players who want to install only the essentials. An automatic installer takes care of everything and a modpack version checker will alert you in game when new version is available.<br>Pack complies with WG Fair Policy Rules.</p><p><strong>English Support</strong> and <strong>Updates</strong> available first on the<strong> 1D6 Modpack Discord :</strong> <a href=\"https://discord.gg/Bm6wnnjZa4\">Link</a></p><p><strong>FRANÇAIS</strong><br><strong>1D6 XVM MODPACK</strong> est un pack minimaliste pré-configuré regroupant les mods les plus “utiles”. Il s’adresse ainsi aux joueurs souhaitant installer l’essentiel simplement. Un installeur automatique s’occupe de tout et un vérificateur de version intégré au jeu se chargera de vous alerter en cas de nouvelle version.<br>Le pack est conforme à la politique de Fair Play WG.</p><p><strong>Support Français</strong> et <strong>Mises à jour</strong> disponibles en premier sur le serveur <strong>Discord 1D6 Modpack :</strong> <a href=\"https://discord.gg/Bm6wnnjZa4\">Lien</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ddd8uV3kUMQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ddd8uV3kUMQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>1) Run Installer<br>2) Choose folder where World of Tanks is installed<br>3) Choose your features and mods<br>4) Click Next and Install</p>",
@@ -43065,6 +43102,16 @@
         "12"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.3.1C",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1D6_XVM_ModPack_2.3.1c.exe",
+          "updatedAt": "2026-08-15T10:46:11.923Z",
+          "sizeBytes": 92336651,
+          "fileName": "1D6_XVM_ModPack_2.3.1c.exe",
+          "fileExt": ".exe",
+          "changeLog": "14 august 2026 - UPDATE 2.3.1c\nCompatible Wot 2.3.1.2\n- Update XVM 13.1.0.0062\n- Update Efficiency 8.1.0\n- Update MarksOngunExtended 8.1.0\n"
+        },
         {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "2.3.1B",
@@ -43117,9 +43164,9 @@
         }
       ],
       "latest": {
-        "fileName": "1D6_XVM_ModPack_2.3.1b.exe",
-        "changeLog": "07 august 2026 - UPDATE 2.3.1b\nCompatible Wot 2.3.1.1\n- Update XVM 13.1.0.0059\n- Update PMOD 1.81.12\n",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "1D6_XVM_ModPack_2.3.1c.exe",
+        "changeLog": "14 august 2026 - UPDATE 2.3.1c\nCompatible Wot 2.3.1.2\n- Update XVM 13.1.0.0062\n- Update Efficiency 8.1.0\n- Update MarksOngunExtended 8.1.0\n",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
