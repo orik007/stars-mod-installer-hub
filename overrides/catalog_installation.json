@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.042",
+  "catalogVersion": "v2026.08.043",
   "mods": [
     {
       "source": "wgmods",
@@ -6540,12 +6540,12 @@
       "title": "WOTInspector Heatmaps",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download wotmod file Copy to mods/<version> folder"
+        "latestInstallGuide": "Download zip file Unzip to mods/<version> folder"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says download the .wotmod and copy it to mods/<version>.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Guide requires downloading a zip and unzipping to mods/<version>, which conflicts with the package type .wotmod and does not clearly fit a supported template.",
         "deleteDataWgpdc": false
       }
     },
