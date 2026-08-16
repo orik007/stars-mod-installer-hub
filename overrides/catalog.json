@@ -1,11 +1,160 @@
 {
-  "catalogVersion": "v2026.08.045",
-  "sourceHash": "8aa334c0a3e5f7f6604a2bfbf575fbef08a777f2dc3f05a8b7bdc00ca0890112",
+  "catalogVersion": "v2026.08.046",
+  "sourceHash": "ac789a85d6a6fce27d8fa787fa36c15c651f179fb3c58edaabff28c14cea3c49",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7843",
+      "title": "ClearShot — No Gun Smoke in Sniper Mode",
+      "ownerUsername": "_Jurassic",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Removes your own gun’s muzzle smoke, flame, and ground dust while aiming in sniper mode. All hit effects, enemy gun effects, sounds, recoil, tracers, and third-person effects remain unchanged.</p>",
+      "installationGuideHtml": "<p>Open the folder where World of Tanks is installed.</p><p>Open the mods folder.</p><p>Open the newest numbered folder.</p><p>Paste the .wotmod file inside.</p><p>Restart World of Tanks.<br><br>If the game updates and the mod stops working:<br><br>A new numbered folder will appear inside mods.</p><p>Copy the same .wotmod file into that new folder and start the game.</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7843/",
+      "tagIds": [
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/all_effect_on_sniper_smoke_off.wotmod",
+          "updatedAt": "2026-08-16T09:51:26.686Z",
+          "sizeBytes": 6299,
+          "fileName": "all_effect_on_sniper_smoke_off.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "all_effect_on_sniper_smoke_off.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7845",
+      "title": "Chi Go Repaint",
+      "ownerUsername": "arasgrandpa",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>German gray instead of Japan green</p><p>Added camo and highlighted accessories</p>",
+      "installationGuideHtml": "<p>Place wotmod file into the current game mods directory</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/chi_na1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7845/",
+      "tagIds": [
+        "16"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "8.15.26",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/G200_Chi_Go.wotmod",
+          "updatedAt": "2026-08-16T09:51:15.476Z",
+          "sizeBytes": 20059994,
+          "fileName": "G200_Chi_Go.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "G200_Chi_Go.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7844",
+      "title": "Gambling battle button",
+      "ownerUsername": "NCC_1701_69",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>replace Battle! button to Gambling!</p>",
+      "installationGuideHtml": "<p>put \"gambling_button.wotmod<i>\" into : xxx\\mods\\gameVersion</i></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Capture_d%C3%A9cran_2026-08-15_183321.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7844/",
+      "tagIds": [
+        "18",
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gambling_button_vkFnlEO.wotmod",
+          "updatedAt": "2026-08-16T09:49:32.878Z",
+          "sizeBytes": 202851,
+          "fileName": "gambling_button_vkFnlEO.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gambling_button_vkFnlEO.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7840",
+      "title": "Battle & Map Stats — shot journal + per-map statistics",
+      "ownerUsername": "xVladWinnerx",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Battle Hits — shot journal\nA floating panel right in battle. It tracks ONLY your own shots (all events\nare filtered by your vehicle) and formats them into a readable journal:\n\n- pen / non-pen / ricochet / miss — colour-coded;\n- damage dealt and target's remaining HP;\n- the tank part you hit: hull, turret, gun, track, road wheel, etc.;\n- a knocked-off track — \"track knocked off\" (no duplicates);\n- damaged modules — \"engine damaged\", \"ammo rack damaged\", \"gun damaged\", etc.\n &nbsp;(correct grammar);\n- fire and kill;\n- per-battle stats in the header: shots / hits / penetrations;\n- the journal is cleared automatically at the start of each battle.\n\nMap Stats — per-map statistics\nYour personal per-map battle statistics as a sorted list (descending): map name\nand battle count, with an overall total at the bottom.\n\n- on entering battle the mod detects the map and increments its counter;\n- on first run the history is seeded from the replays/ folder (reads the first\n &nbsp;JSON line of every .wotreplay);\n- data is stored locally in res_mods/configs/map_stats/stats.json;\n- shown in the hangar and in battle (hangar display can be disabled with\n &nbsp;showInHangar).\n\nCommon:\n- panels can be dragged by the header and resized via the bottom-right corner —\n &nbsp;size and position are remembered;\n- built-in settings panel: gear button on the header or the F4 hotkey\n &nbsp;(title, palette, font size, event colors, hangar/battle visibility);\n- show/hide — F2 (journal) / F3 (maps), configurable;\n- close — Esc;\n- configs in res_mods/configs/battle_hits/config.json and\n &nbsp;res_mods/configs/map_stats/config.json.\n<br>This is an informational mod. It uses only client-side events about the\nplayer's own actions (own shots/hits/damaged modules, own battles per map).\nNothing is sent to the network; no information unavailable to the player is\nused. Fair-Play compliant.</p>",
+      "installationGuideHtml": "<p>The archive contains TWO wotmods: the bundle\nnet.battle_map_stats_1.0.5.wotmod and the framework net.openwg.gameface.wotmod\n(OpenWG Gameface AS a mod). Extract the archive and place BOTH files into\nmods/&lt;game_version&gt;/ (e.g. mods/2.3.1.2/). WoT 2.x loads mods only from version\nfolders. The two wotmods have different ids and no overlapping files, so there\nare no conflicts. On first run OpenWG rebuilds res_map.json and the game\nrestarts once — this is expected.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_bundle_P0GbIlN.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7840/",
+      "tagIds": [
+        "11",
+        "18",
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wgmods_bundle_v1.0.5.zip",
+          "updatedAt": "2026-08-16T09:47:56.772Z",
+          "sizeBytes": 70166,
+          "fileName": "wgmods_bundle_v1.0.5.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "wgmods_bundle_v1.0.5.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7838",
@@ -2537,6 +2686,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "3.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.1.zip",
+          "updatedAt": "2026-08-16T12:11:20.870Z",
+          "sizeBytes": 1568998,
+          "fileName": "MoECalculator_3.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Further increased in-battle projection accuracy."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "3.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.0.zip",
           "updatedAt": "2026-08-15T10:46:02.618Z",
@@ -2584,21 +2743,11 @@
           "fileName": "MoECalculator_1.7.0.zip",
           "fileExt": ".zip",
           "changeLog": "Improved in-battle percentage prediction.\nThe Progress Bar section now has its own visibility switches.\nBoth centre bars can now be drawn 1.5x as tall and twice as wide.\nThe fade in / hold / fade out can be turned off entirely under Transitions, separately for automatic appearances and for Alt peeks.\nReorganized settings a bit."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.6.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.6.0.zip",
-          "updatedAt": "2026-07-30T22:45:28.444Z",
-          "sizeBytes": 447165,
-          "fileName": "MoECalculator_1.6.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Alongside the corner overlay, the mod can now draw a wide progress bar in the centre of the screen during battle. It's off by default — turn it on in the settings panel under Progress Bar, then pick which of the two bars you want.\nMoving Average — where your career projected average combined damage sits between the mark you already hold and the requirement for the next one, with this battle's signed contribution beside it. It comes up whenever that projection moves.\nDamage Efficiency — this battle's combined damage measured against all requirements at once laid out on equal quarters, with every requirement you've already passed lit up."
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_3.1.0.zip",
-        "changeLog": "Vertical orientation for both centre-screen in-battle bars (Moving Average and Damage Efficiency) — draw them horizontally, or vertically beside the minimap.\nFixed / Free alignment with a position lock. Fixed snaps the bar to a built-in spot chosen by orientation; Free unlocks Ctrl+drag and the numeric X/Y fields. Orientation, alignment, and position now set each other automatically.\nPer-vehicle mode override with a rebindable toggle hotkey (default K) — flip the progress bar's mode for the current tank; the mod remembers your choice per vehicle. An Automatic Mode Toggle threshold can flip it for you once a tank's pre-battle mark progress crosses a set percent.\nWidget previews inside the settings panel — see both in-battle widgets rendered right in the ModsSettingsAPI menu.\nA reworked ETA-in-battles readout on the vertical bars.",
+        "fileName": "MoECalculator_3.1.1.zip",
+        "changeLog": "Further increased in-battle projection accuracy.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2996,6 +3145,26 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "3.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.2.0.zip",
+          "updatedAt": "2026-08-16T12:11:32.476Z",
+          "sizeBytes": 384254,
+          "fileName": "GarageProgressBar-Bundle_3.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "The Tier XI skill tree bar now shows the next locked upgrades one step ahead. Each next chip links to the unlocked skill it builds on."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.1.0.zip",
+          "updatedAt": "2026-08-16T09:49:02.590Z",
+          "sizeBytes": 381798,
+          "fileName": "GarageProgressBar-Bundle_3.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed buff coloring. Compound-quality buffs (for example gun depression and in-clip reload) now show green; generic KPI lines render neutral."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "3.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.0.0.zip",
           "updatedAt": "2026-08-13T14:39:34.420Z",
@@ -3033,21 +3202,11 @@
           "fileName": "GarageProgressBar-Bundle_1.5.0.zip",
           "fileExt": ".zip",
           "changeLog": "Fully Progressed bar. A vehicle with nothing left to research, upgrade, or unlock used to keep showing a finished Elite Levels bar. It now gets its own golden bar that lists every progression type it completed, with the total XP each one took.\nThe settings panel is grouped. The mod's options in ModsSettingsAPI are now split into Modes, Formatting, and Layout instead of one flat list, so related settings sit together."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.4.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.4.0.zip",
-          "updatedAt": "2026-07-30T22:45:43.342Z",
-          "sizeBytes": 352157,
-          "fileName": "GarageProgressBar-Bundle_1.4.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Elite Rewards tooltips now tell you which level a reward unlocks at. "
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_3.0.0.zip",
-        "changeLog": "Updated for 2.3.1.2.",
+        "fileName": "GarageProgressBar-Bundle_3.2.0.zip",
+        "changeLog": "The Tier XI skill tree bar now shows the next locked upgrades one step ahead. Each next chip links to the unlocked skill it builds on.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3779,6 +3938,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.VisibleSpottedIcons_1.1.wotmod",
+          "updatedAt": "2026-08-16T09:51:23.349Z",
+          "sizeBytes": 529864,
+          "fileName": "FiT.Graphics.VisibleSpottedIcons_1.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Changed unspptted vehicles from grey to blue"
+        },
+        {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FiT.Graphics.VisibleSpottedIcons_1.0.wotmod",
@@ -3790,9 +3959,9 @@
         }
       ],
       "latest": {
-        "fileName": "FiT.Graphics.VisibleSpottedIcons_1.0.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "FiT.Graphics.VisibleSpottedIcons_1.1.wotmod",
+        "changeLog": "Changed unspptted vehicles from grey to blue",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -16549,6 +16718,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Team_V_voice_mod_LJcV5zx.zip",
+          "updatedAt": "2026-08-16T10:56:32.994Z",
+          "sizeBytes": 1559988,
+          "fileName": "Team_V_voice_mod_LJcV5zx.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Team_V_voice_mod_gvkHuO0.zip",
@@ -16597,22 +16776,12 @@
           "fileName": "Team_V_voice_mod_Tiei0X7.zip",
           "fileExt": ".zip",
           "changeLog": "update to game version"
-        },
-        {
-          "wotGameVersion": "2.1.0.2",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Team_V_voice_mod.zip",
-          "updatedAt": "2026-01-05T18:07:54.949Z",
-          "sizeBytes": 1559988,
-          "fileName": "Team_V_voice_mod.zip",
-          "fileExt": ".zip",
-          "changeLog": "Added Vivlos and Verxina voices"
         }
       ],
       "latest": {
-        "fileName": "Team_V_voice_mod_gvkHuO0.zip",
+        "fileName": "Team_V_voice_mod_LJcV5zx.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -23327,7 +23496,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.6,
       "descriptionHtml": "<p>The <strong>WOTInspector Heatmaps</strong> mod overlays live heatmaps on the minimap during battle — movement prediction, top damage positions, and spotting hotspots. It also records movements, shots, penetrations, and damage for interactive heatmaps on WOTInspector.com available at <a href=\"https://map.wotinspector.com\">https://map.wotinspector.com</a>.<br>&nbsp;</p><h2>Key Features</h2><ul><li>Movement prediction: See where players typically move over the next two minutes, drawn directly on your minimap.</li><li>Top damage positions: Highlight the spots where the most damage is dealt so you know where fights usually break out.</li><li>Top spotting positions for light tanks: Show the best assisted-damage and spotting positions.</li><li>Automatic battle recording: Every shot, movement, and damage event is logged without manual input for the web heatmaps dashboard.</li><li>Seven-day trial: New users get a full week of unrestricted overlay use when they first start the mod.</li><li>Free tier after trial: When the trial ends, you can still play up to three battles per day with the overlay at no cost.</li></ul>",
       "installationGuideHtml": "<ol><li>Download zip file</li><li>Unzip to <strong>mods/&lt;version&gt;</strong> folder</li></ol>",
@@ -23339,6 +23508,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
+          "updatedAt": "2026-08-16T09:51:07.000Z",
+          "sizeBytes": 3856772,
+          "fileName": "wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
+          "fileExt": ".zip",
+          "changeLog": "added minimap overlay displaying most possible team movements during countdown, top damage positions, top assisted damage positions for light tanks"
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "0.9.6",
@@ -23391,9 +23570,9 @@
         }
       ],
       "latest": {
-        "fileName": "wotinspector.com.heatmaps.0.9.6_TgtqSWw.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
+        "changeLog": "added minimap overlay displaying most possible team movements during countdown, top damage positions, top assisted damage positions for light tanks",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34976,7 +35155,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 4.1,
       "descriptionHtml": "<p>Siren Sound for arty attack detection in 1.13.0.0</p><p>&nbsp;</p><p>Commander must have the new 'Sound Detection' perk fully trained for it to work.</p>",
       "installationGuideHtml": "<p>Extract file 'soundExploring.mp3' to WorldofTanks/res/audioww folder.&nbsp;<br>&nbsp;</p><p>Game Settings: Sound/SoundEnviromentElements/Sound Detection Activation Sound and select 'User sound' from the dropdown. Setting in screenshot.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/covershot.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",

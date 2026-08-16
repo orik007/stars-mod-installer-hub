@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.045",
+  "catalogVersion": "v2026.08.046",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7843",
+      "title": "ClearShot — No Gun Smoke in Sniper Mode",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Open the folder where World of Tanks is installed. Open the mods folder. Open the newest numbered folder. Paste the .wotmod file inside. Restart World of Tanks. If the game updates and the mod stops working: A new numbered folder will appear inside mods. Copy the same .wotmod file into that new folder and start the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7845",
+      "title": "Chi Go Repaint",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place wotmod file into the current game mods directory"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to the current game mods directory.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7844",
+      "title": "Gambling battle button",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "put \"gambling_button.wotmod \" into : xxx\\mods\\gameVersion"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7840",
+      "title": "Battle & Map Stats — shot journal + per-map statistics",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "The archive contains TWO wotmods: the bundle net.battle_map_stats_1.0.5.wotmod and the framework net.openwg.gameface.wotmod (OpenWG Gameface AS a mod). Extract the archive and place BOTH files into mods/<game_version>/ (e.g. mods/2.3.1.2/). WoT 2.x loads mods only from version folders. The two wotmods have different ids and no overlapping files, so there are no conflicts. On first run OpenWG rebuilds res_map.json and the game restarts once — this is expected."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract and place both .wotmod files into mods/<version> with no blocking manual choice.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7838",
@@ -6539,13 +6599,13 @@
       "sourceId": "7204",
       "title": "WOTInspector Heatmaps",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Download zip file Unzip to mods/<version> folder"
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Guide requires downloading a zip and unzipping to mods/<version>, which conflicts with the package type .wotmod and does not clearly fit a supported template.",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to unzip to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
