@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.08.047",
-  "sourceHash": "b41482c5f74a4942ef29031d28bd1ef4bb304fab5595bd3117fd17fff073fcea",
+  "catalogVersion": "v2026.08.048",
+  "sourceHash": "f68254191d7b6f5a5ea9915bb2712dafb423224921113e3b8f27272f6a895081",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7847",
+      "title": "Lighter train color",
+      "ownerUsername": "NCC_1701_69",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Help you to navigate easier trough rail</p>",
+      "installationGuideHtml": "<p>put the .wotmod into xxx\\mods\\gameVersion<br>RECOMMANDED SETTINGS : Light quality to medium</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Capture_d%C3%A9cran_2026-08-16_185926.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7847/",
+      "tagIds": [
+        "18",
+        "16",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "0.1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ZhK_better_train_color_POxB9ZU.wotmod",
+          "updatedAt": "2026-08-16T22:00:50.671Z",
+          "sizeBytes": 3956000,
+          "fileName": "ZhK_better_train_color_POxB9ZU.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ZhK_better_train_color_POxB9ZU.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7843",
@@ -25779,7 +25817,7 @@
       "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>Calculates the sensitivity for sniperMode from the multiplier (slider in settings) of arcadeMode. The sniperMode multiplier is ignored.</p><p>The multiplier(slider in settings) arcadeMode adjusts the sensitivity for both arcadeMode and sniperMode, creating scalability of sensitivity on the monitor when changing FoV(Arcade, Zoom x2, etc).</p><h2>How it works</h2><blockquote><p><i>Aspect ratio is the ratio between the width and height of the screen</i></p></blockquote><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/8ded7f2c-deff-4c1a-9e0b-0c8f5b361a1c.png\"></figure><p><strong>MDV</strong> - <i>does not depend on aspect ratio</i></p><p><strong>MDH</strong> - <i>directly dependent on aspect ratio</i></p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/096754c5-232c-428f-9fc4-418d8d2b8656.png\"><figcaption><i>Monitor Distance Horizontal</i></figcaption></figure><p>There are 7 methods to choose from:</p><ul><li><strong>Focal Length ( </strong>Recommended for everyone <strong>)</strong> - <i>MDV(H) 0% - means that the speed of tracking a moving target will be the same</i></li><li><strong>Jedi's Trick</strong> - <i>this method is using the average 360 distance between MDV 0% and MDV 100% for the conversion</i></li><li><strong>MDV 100%</strong> - <i>this is exactly the same as the MDH, but is instead using the vertical FOV</i></li><li><strong>MDV 133%</strong> - <i>this is exactly the same as the MDH, but is instead using the vertical FOV</i></li><li><strong>MDH 60%</strong> - <i>means moving the crosshair to aim at 60% of the distance between the crosshair and the edge of the monitor is the same</i></li><li><strong>MDH 75%</strong> - <i>means moving the crosshair to aim at 75% of the distance between the crosshair and the edge of the monitor is the same</i></li><li><strong>MDH 100%</strong> - <i>will match the movement to aim at something at the edge of the monitor</i></li></ul><p>Example from popular games:, with multiplier \"1\":</p><ul><li>CS2(CS:GO) -<strong> MDV 133%</strong></li><li>RUST - <strong>MDV 100%</strong></li><li>VALORANT - <strong>MDH 100%</strong></li><li>Apex Legends - <strong>Focal Length(0%)</strong></li></ul><p>Example of sensitivity calculation with mod in WoT:</p><p>arcadeMode sensitivity = 1; sniperMode = Zoom: x2, x4, x8;</p><p>Zoom = sniperMode sensitivity</p><blockquote><p><strong>note</strong>: <i>the sensitivity values x2, x4, x8 are not for “<strong>preferences.xml</strong>” but for demonstration</i></p></blockquote><p><strong>Focal Length</strong></p><ul><li>x2 = <strong>0.47180057</strong></li><li>x4 = <strong>0.232665</strong></li><li>x8 = <strong>0.11593625</strong></li></ul><p><strong>Jedi's Trick</strong></p><ul><li>x2 = <strong>0.485491</strong></li><li>x4 = <strong>0.241021</strong></li><li>x8 = <strong>0.1202975</strong></li></ul><p><strong>MDV 100%</strong></p><ul><li>x2 = <strong>0.5</strong></li><li>x4 = <strong>0.25</strong></li><li>x8 = <strong>0.125</strong></li></ul><p><strong>MDV 133%</strong></p><ul><li>x2 = <strong>0.518795</strong></li><li>x4 = <strong>0.2620565</strong></li><li>x8 = <strong>0.131372</strong></li></ul><p><strong>MDH 60%</strong></p><ul><li>x2 = <strong>0.503505</strong></li><li>x4 = <strong>0.252216</strong></li><li>x8 = <strong>0.126108</strong></li></ul><p><strong>MDH 75%</strong></p><ul><li>x2 = <strong>0.518795</strong></li><li>x4 = <strong>0.2620565</strong></li><li>x8 = <strong>0.131372</strong></li></ul><p><strong>MDH 100%</strong></p><ul><li>x2 = <strong>0.547274</strong></li><li>x4 = <strong>0.281204</strong></li><li>x8 = <strong>0.14161825</strong></li></ul><h2>How to use</h2><ul><li>Adjust the arcadeMode sensitivity using the slider in the game settings</li></ul><p><i><strong>or</strong></i></p><ul><li>Adjust sensitivity by multiplier in the “<strong>preferences.xml</strong>” file at the path:</li></ul><ol><li>Go to %APPDATA%\\wargaming.net\\WorldOfTanks</li><li>Edit preferences.xml</li><li>Change &lt;sensitivity&gt; in &lt;arcadeMode&gt;</li><li>Save your changes</li></ol><p><strong>or</strong></p><ul><li><a href=\"https://github.com/vacsav/sensitivity-setup-for-aim-mode\">Sensitivity setup for aim-mode</a></li></ul><h2>Features</h2><ul><li>Does not require updating for the game version</li><li>Works without API</li></ul><h2>Compatibility</h2><ul><li>This mod should be compatible with almost everything</li></ul><h2>Source code</h2><p>Mod is not obfuscated and it's source code is on <a href=\"https://github.com/vacsav/aimpro-monitor-distance-sensitivity\">Github repository</a></p><h2>Contributions</h2><p>Thanks to:</p><ul><li><a href=\"https://wgmods.net/search/?owner=452180\">Pruszko</a> - <i>for the implementation of the code</i></li></ul><h2>For nerds</h2><ul><li><a href=\"https://www.mouse-sensitivity.com/forums/topic/4704-conversion-method-guide-and-other-faqs/\">Conversion method guide. (and other FAQ's)</a></li><li><a href=\"https://www.mouse-sensitivity.com/forums/topic/8190-error-mathematics/\">Error Mathematics</a></li><li><a href=\"https://youtu.be/RYCrGAJshvQ\">Mouse Sensitivity - Monitor Distance Guide</a></li><li><a href=\"https://www.mouse-sensitivity.com/\">Mouse Sensitivity</a></li><li><a href=\"https://sheet.zohopublic.eu/sheet/published/fzegf41a48bbb4bf2473dbbeb4d24452d3df6\">Useful guidelines - WoT</a></li></ul><h2>Contact</h2><p><a href=\"https://discord.gg/world-of-tanks\">WoT Official Discord</a></p><blockquote><p><strong>note</strong>: please do not disturb <strong>Pruszko</strong> unnecessarily</p></blockquote><p><strong>Pruszko</strong> as @<strong>Pruszko [EU] </strong>in<strong> [EN]</strong> | <strong>[PL]</strong></p><p><strong>shuxue</strong> as @<strong>shuxue</strong> <strong>[EU] </strong>in<strong> [EN]</strong> | <strong>[RU]</strong></p>",
-      "installationGuideHtml": "<ol><li>Download</li><li>Unzip</li><li>Choose 1 of 7 methods</li><li>Copy the selected \"AimPro-method.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory</li><li>In config.json: you can configure additional coefficients</li></ol>",
+      "installationGuideHtml": "<ol><li>Download</li><li>Unzip</li><li>Choose 1 of 7 methods</li><li>Copy the selected \"AimPro-method.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory</li><li>In config.json: you can configure additional multiplier</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/85828fdcf60cd0f0ab18929a8e008220_J5Lcph9.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7113/",
       "tagIds": [
