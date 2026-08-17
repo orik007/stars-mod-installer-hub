@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.047",
+  "catalogVersion": "v2026.08.048",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7847",
+      "title": "Lighter train color",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "put the .wotmod into xxx\\mods\\gameVersion RECOMMANDED SETTINGS : Light quality to medium"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7843",
@@ -7110,12 +7125,12 @@
       "title": "Aim Pro: Monitor Distance Sensitivity",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download Unzip Choose 1 of 7 methods Copy the selected \"AimPro-method.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory In config.json: you can configure additional coefficients"
+        "latestInstallGuide": "Download Unzip Choose 1 of 7 methods Copy the selected \"AimPro-method.wotmod\" file into \"[WoT game directory]/mods/[version]/\" directory In config.json: you can configure additional multiplier"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "latestFileExt is .zip (archive) and guide requires choosing one of multiple .wotmod variants (\"Choose 1 of 7 methods\"), a blocking manual package choice the app cannot resolve.",
+        "decisionReason": "Archive package requires choosing one of seven methods before copying a .wotmod into mods/<version>, which is a blocking manual package choice.",
         "deleteDataWgpdc": false
       }
     },
