@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.048",
+  "catalogVersion": "v2026.08.049",
   "mods": [
     {
       "source": "wgmods",
@@ -803,12 +803,12 @@
       "title": "Hangar Carousel Plus",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.9 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
+        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.10 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Guide requires deleting older .wotmod files and extracting a ZIP into the game root, which is a destructive multi-step process not matching a single supported template.",
+        "decisionReason": "Guide requires removing older .wotmod files and also extracting a ZIP into the game root, which is a destructive multi-step operation not matching the package type.",
         "deleteDataWgpdc": false
       }
     },
@@ -1282,13 +1282,13 @@
       "sourceId": "7720",
       "title": "Scheduled Personal Reserves",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "decisionReason": "Package is a .wotmod and guide targets mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
