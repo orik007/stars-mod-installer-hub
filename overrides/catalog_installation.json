@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.050",
+  "catalogVersion": "v2026.08.051",
   "mods": [
     {
       "source": "wgmods",
@@ -188,12 +188,12 @@
       "title": "Hangar Carousel Classic",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "How to Install (using .wotmod only) First, download the most recent version from the Releases page. Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.2/. Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the OpenWG Gameface releases , also into your client mods folder. Launch Game. Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu. Full Package Installation If you choose the complete package, the hangar_carousel_classic_1.0.6_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.2/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory."
+        "latestInstallGuide": "How to Install (using .wotmod only) First, download the most recent version from the Releases page. Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.2/. Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the OpenWG Gameface releases , also into your client mods folder. Launch Game. Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu. Full Package Installation If you choose the complete package, the hangar_carousel_classic_1.0.7_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.2/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide provides a full-package option to extract the zip directly into the main World of Tanks installation directory.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Guide describes either installing .wotmod files to mods/<version> plus an additional external mod dependency, or extracting a full package to game root; multiple distinct install variants make the package choice blocking.",
         "deleteDataWgpdc": false
       }
     },
