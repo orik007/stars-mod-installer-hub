@@ -1,11 +1,85 @@
 {
-  "catalogVersion": "v2026.08.051",
-  "sourceHash": "d3e039a29504473797e653193e45ab1092ed0b9ca4b3de1eb3afa3c1d2eb7df0",
+  "catalogVersion": "v2026.08.052",
+  "sourceHash": "66778e42c0f07bfad06b7aae8011e245ceb2f7f4fc20c92aeb0a3e1898a10cf2",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7849",
+      "title": "War Thunder Style Camera",
+      "ownerUsername": "DieBratwurst_1_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This Mod brings the Camera much lower and closer behind the Vehicle to make it more prominent and immersive.</p><p>I always got the impression of looking down at an RC Toy with the default Camera of World of Tanks which was putting me off a lot.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/e06bc7c9-9bff-47b3-a240-590fbd7724cc.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/53d0e348-b4c9-492c-8c0d-5ead6589d01f.jpg\"></figure>",
+      "installationGuideHtml": "<p>Drag and drop the .wotmod file into the lastest version folder of your WoT directory, for example:</p><p>E:\\World_of_Tanks_EU\\mods\\2.3.1.2</p><p>Reboot the game if you have it running, the Mod will take effect upon startup of the game.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/WoT_Mod_Thumb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7849/",
+      "tagIds": [
+        "15",
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CameraCentered_WarThunderStyle_2_2_0_2_offset0-3.wotmod",
+          "updatedAt": "2026-08-18T09:40:21.499Z",
+          "sizeBytes": 33211,
+          "fileName": "CameraCentered_WarThunderStyle_2_2_0_2_offset0-3.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "CameraCentered_WarThunderStyle_2_2_0_2_offset0-3.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7839",
+      "title": "WoT Replay Analyser",
+      "ownerUsername": "Fourstone",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>WoT Replay Analyzer is a standalone offline app that reads your saved .wotreplay files and turns them into insight about your own play. It ranks your tanks by actual in-battle impact instead of winrate, shows what kills you most often, measures whether you tilt after losing streaks, and tracks how your performance fades across long sessions — things the in-game garage never surfaces. It does not modify the game client, does not run during battle, and gives no in-game advantage. It only reads replay files that already exist on your disk after each battle finishes.</p><p><strong>Category note for reviewers:</strong> this is not a client-side mod — it's a separate desktop application. It reads finished replay files only, with zero interaction with the running game. Functionally it's the equivalent of rewatching your own replays, just with numbers instead of eyes.</p>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7839/",
+      "tagIds": [
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoT_Replay_Analyzer.exe",
+          "updatedAt": "2026-08-18T09:29:07.019Z",
+          "sizeBytes": 12076239,
+          "fileName": "WoT_Replay_Analyzer.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "WoT_Replay_Analyzer.exe",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7847",
@@ -487,6 +561,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.7_full.zip",
+          "updatedAt": "2026-08-18T09:38:46.978Z",
+          "sizeBytes": 948837,
+          "fileName": "hangar_carousel_classic_1.0.7_full.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Added Frontline compatibility guard for the native vehicle filter provider.\n- Added native client resource compatibility warning.\n- Build version isn´t hardcoded anymore, now it read from meta.xml."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.6_full.zip",
           "updatedAt": "2026-08-14T18:47:41.871Z",
@@ -497,8 +581,8 @@
         }
       ],
       "latest": {
-        "fileName": "hangar_carousel_classic_1.0.6_full.zip",
-        "changeLog": "Add ModsSettingsAPI checkboxes to show or hide each vehicle-card statistic independently.\nPreserve the selected card-stat fields in the user configuration.\nArrange selected card statistics continuously in pairs to avoid empty card rows.\nValidate card-stat configuration values defensively before sending them to Gameface.",
+        "fileName": "hangar_carousel_classic_1.0.7_full.zip",
+        "changeLog": "- Added Frontline compatibility guard for the native vehicle filter provider.\n- Added native client resource compatibility warning.\n- Build version isn´t hardcoded anymore, now it read from meta.xml.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2265,7 +2349,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Hangar Carousel Plus extends the native World of Tanks 2.x hangar carousel with smart filters, sorting, local statistics, and configurable row layouts.</p><p>The mod currently targets the Wargaming EU 2.3.1.x client and provides:</p><ul><li>filters for incomplete Field Modification, incompletely trained crews, and non-elite vehicles;</li><li>reward/special, not-ready, no-Ace, fewer-than-three-Marks, and research-now-available filters;</li><li>battles, win rate, average damage, mastery, and Marks of Excellence on vehicle cards and in the native hover card;</li><li>sorting by battles, win rate, average damage, Marks of Excellence, or last played;</li><li>one-, two-, three-, and four-row carousel layouts with an automatic mode;</li><li>optional hiding of the Buy vehicle, Buy slot, and Restore vehicle cells;</li><li>a settings page through ModsSettingsAPI;</li><li>localization for all 24 EU client languages.</li></ul>",
       "installationGuideHtml": "<p><a href=\"https://github.com/RCooLeR/WoT-Hangar-carousel-plus/blob/main/releases/0.8.9/Hangar_Carousel_Plus_0.8.10_complete.zip?raw=1\">Download the complete Hangar Carousel Plus 0.8.10 bundle</a></p><ol><li>Close World of Tanks.</li><li>Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from &lt;game&gt;\\mods\\2.3.1.0\\.</li><li>Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory.</li><li>Start the game</li></ol>",
@@ -2275,6 +2359,16 @@
         "13"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "0.8.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hangar_Carousel_Plus_0.8.11_complete.zip",
+          "updatedAt": "2026-08-18T09:33:43.075Z",
+          "sizeBytes": 1101311,
+          "fileName": "Hangar_Carousel_Plus_0.8.11_complete.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added support of Frontline and other carousel modes"
+        },
         {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "0.8.7",
@@ -2297,9 +2391,9 @@
         }
       ],
       "latest": {
-        "fileName": "com.rcooler.hangar_carousel_plus_0.8.7.wotmod",
-        "changeLog": "Нове сортування: основні → незавершена польова модернізація → штатний порядок. Усередині кожної групи порядок клієнта зберігається.\nДодано окрему білу іконку та локалізацію для всіх підтримуваних мов.\nНапрямок ↑/↓ для цього режиму приховується, бо він не застосовується\nАудит швидкодії:\nРаніше повне оновлення для 379 машин могло робити приблизно 758 читань досьє, а з активним фільтром відміток — до 1516.\nТепер перший знімок читає кожне досьє один раз, а перемикання фільтрів використовує кеш — 0 повторних читань досьє.\nЗміни окремої машини інвалідують лише її кеш.\nПрибрано постійне сканування карток кожні 250 мс; залишено фільтровану й обмежену за частотою реакцію на DOM.\n",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Hangar_Carousel_Plus_0.8.11_complete.zip",
+        "changeLog": "Added support of Frontline and other carousel modes",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2664,6 +2758,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "3.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.2.zip",
+          "updatedAt": "2026-08-18T09:34:03.421Z",
+          "sizeBytes": 1569984,
+          "fileName": "MoECalculator_3.1.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Re-mount an in-battle bar window the engine destroys natively (e.g. an alt-equipment click on the battle countdown), so the Progress / Efficiency bar keeps updating for the whole battle instead of silently freezing.\nRestore the last-good bar position when placement fails, instead of stranding the bar at the minimap corner; a first-placement failure can no longer flash the bar at the wrong spot.\nGate the ETA row's backdrop strip on the vertical Progress bar so it no longer renders when the ETA row is hidden; close a small gap to the minimap and correct the Large-mode caption offset direction."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "3.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.1.zip",
           "updatedAt": "2026-08-16T12:11:20.870Z",
@@ -2701,21 +2805,11 @@
           "fileName": "MoECalculator_2.0.0.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for 2.3.1.1."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.8.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_1.8.0.zip",
-          "updatedAt": "2026-08-04T14:13:23.907Z",
-          "sizeBytes": 493366,
-          "fileName": "MoECalculator_1.8.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Move the centre bar wherever you want. Ctrl+drag it mid-battle, with the bar on screen, and it stays there.\nHold Duration (s) under Transitions — how long the bar lingers before fading.\nAn ETA to your next mark on the Moving Average bar: its next-mark caption now also shows how many more battles you need at your current pace.\nThe Moving Average bar's lower end now follows your projected average instead of the mark you already hold.\nLarge is a more moderate step up from the default."
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_3.1.1.zip",
-        "changeLog": "Further increased in-battle projection accuracy.",
+        "fileName": "MoECalculator_3.1.2.zip",
+        "changeLog": "Re-mount an in-battle bar window the engine destroys natively (e.g. an alt-equipment click on the battle countdown), so the Progress / Efficiency bar keeps updating for the whole battle instead of silently freezing.\nRestore the last-good bar position when placement fails, instead of stranding the bar at the minimap corner; a first-placement failure can no longer flash the bar at the wrong spot.\nGate the ETA row's backdrop strip on the vertical Progress bar so it no longer renders when the ETA row is hidden; close a small gap to the minimap and correct the Large-mode caption offset direction.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3160,16 +3254,6 @@
           "fileName": "GarageProgressBar-Bundle_1.6.0.zip",
           "fileExt": ".zip",
           "changeLog": "The Fully Progressed tooltips now itemize what you finished. Hovering a category on the golden bar lists the actual items instead of just a total: every researched module and vehicle, each Field Modification level with the variant you picked, the skill tree's final upgrade, and each Elite Level reward with the level it unlocks at. Tier XI vehicles also get their skill counter in the tooltip header.\nNew \"Exclude Elite System\" setting. A child option under Fully Progressed, off by default. Turn it on and a vehicle whose only remaining progression is the Elite System grade band shows the golden Fully Progressed bar instead of the Elite bar. Unclaimed Elite rewards still take priority, so nothing you can still collect gets hidden."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.5.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_1.5.0.zip",
-          "updatedAt": "2026-08-01T19:16:13.989Z",
-          "sizeBytes": 355075,
-          "fileName": "GarageProgressBar-Bundle_1.5.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fully Progressed bar. A vehicle with nothing left to research, upgrade, or unlock used to keep showing a finished Elite Levels bar. It now gets its own golden bar that lists every progression type it completed, with the total XP each one took.\nThe settings panel is grouped. The mod's options in ModsSettingsAPI are now split into Modes, Formatting, and Layout instead of one flat list, so related settings sit together."
         }
       ],
       "latest": {
@@ -29251,6 +29335,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.43.38",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.38.exe",
+          "updatedAt": "2026-08-18T09:33:53.888Z",
+          "sizeBytes": 4425021,
+          "fileName": "mod_battle_observer_v1.43.38.exe",
+          "fileExt": ".exe",
+          "changeLog": "Complete rework of player statistics, correction of the position of icons in different panel modes."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "1.43.37",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.37.exe",
           "updatedAt": "2026-08-13T15:14:30.959Z",
@@ -29271,8 +29365,8 @@
         }
       ],
       "latest": {
-        "fileName": "mod_battle_observer_v1.43.37.exe",
-        "changeLog": "",
+        "fileName": "mod_battle_observer_v1.43.38.exe",
+        "changeLog": "Complete rework of player statistics, correction of the position of icons in different panel modes.",
         "wotGameVersionCompatibility": "safe"
       }
     },

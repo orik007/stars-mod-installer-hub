@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.051",
+  "catalogVersion": "v2026.08.052",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7849",
+      "title": "War Thunder Style Camera",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Drag and drop the .wotmod file into the lastest version folder of your WoT directory, for example: E:\\World_of_Tanks_EU\\mods\\2.3.1.2 Reboot the game if you have it running, the Mod will take effect upon startup of the game."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7839",
+      "title": "WoT Replay Analyser",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Package type is .exe, which requires running an external installer.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7847",
@@ -802,13 +832,13 @@
       "sourceId": "7762",
       "title": "Hangar Carousel Plus",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.10 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Guide requires removing older .wotmod files and also extracting a ZIP into the game root, which is a destructive multi-step operation not matching the package type.",
+        "decisionReason": "Archive guide includes deleting older .wotmod files before extracting to game root, which is a destructive multi-step operation not covered by a supported template.",
         "deleteDataWgpdc": false
       }
     },
