@@ -1,11 +1,84 @@
 {
-  "catalogVersion": "v2026.08.053",
-  "sourceHash": "ff4e40541f949681c01e3bc864b67559150a34153914d53bb61d6626d969179f",
+  "catalogVersion": "v2026.08.054",
+  "sourceHash": "883a432d20dd07776480516fc359561dcdfa8c663e6812f793341b87011e1f95",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7846",
+      "title": "Armor Penetration Calculator 2",
+      "ownerUsername": "pademinune",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from other effective armor mods?</i></p></blockquote><ol><li>They don't compute and display the exact probability of penetrating.<ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very inaccurate (especially since the distribution is not uniform).</li></ul></li><li>This mod has more features and receives regular updates.<ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul></li></ol><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance from new graphics API</li><li>Fewer labels to reduce clutter and improve readability</li></ol><h2>Details</h2><ul><li>Vanilla-like UI</li><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses many calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Known Side-Effects</h2><ul><li>In battle, the window created by the indicator will absorb clicks in that region of the screen. This makes activating in battle credit reserves slightly more difficult.</li><li>The chat will not be focused by default the first time you press enter. You will have to click with the mouse button to put it in focus and then it will work.</li></ul><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-08-16_21-42-30-cropped.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7846/",
+      "tagIds": [
+        "18",
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-pademinune-AP_Calculator-2.0.0_DOzQbbQ.zip",
+          "updatedAt": "2026-08-19T15:11:02.979Z",
+          "sizeBytes": 410286,
+          "fileName": "UNZIP-pademinune-AP_Calculator-2.0.0_DOzQbbQ.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "UNZIP-pademinune-AP_Calculator-2.0.0_DOzQbbQ.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7850",
+      "title": "Lobstep Crew Member",
+      "ownerUsername": "Lobstep",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Make Lobstep one of your crew members.</p><p>It replaces Hellu Van Oob.</p><p>Credits to FattyMcFatFat</p>",
+      "installationGuideHtml": "<p>Simply download it and place it in your mods folder with whatever current version the game is in.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Untitled_YWBcScP.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7850/",
+      "tagIds": [
+        "16"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "2.3.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lobster_2.wotmod",
+          "updatedAt": "2026-08-19T15:10:48.277Z",
+          "sizeBytes": 108964,
+          "fileName": "Lobster_2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Lobster_2.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7849",
@@ -389,7 +462,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.2,
       "descriptionHtml": "<h2>Infinitum Aim Timer is a lightweight standalone aiming indicator for World of Tanks.</h2><h2>The mod displays:</h2><ul><li>remaining time until the gun is fully aimed;</li><li>selected aiming progress value;</li><li>a vertical progress bar that fills from bottom to top;</li><li>interactive color changes based on the current aiming progress.</li><li>The indicator transitions from red through yellow to green, allowing you to evaluate the current aiming state at a glance.</li></ul><h2>In-game settings allow you to choose:</h2><ul><li>time-based or circle-based progress;</li><li>theoretical maximum or the maximum for the vehicle’s current state;</li><li>time progress, circle progress, or the current circle-size multiplier below the bar.</li><li>Time-based progress with a percentage value is enabled by default.</li></ul><h2>Features:</h2><ul><li>accounts for increased dispersion while the vehicle is moving;</li><li>adapts to different vehicles, vehicle states, and gameplay mechanics;</li><li>does not modify gun handling, dispersion, firing mechanics, or reticle behavior;</li><li>optimized to avoid additional lag or noticeable FPS loss;</li><li>runs only during battles;</li><li>supports Ukrainian and English;</li><li>uses English as the fallback language;</li><li>allows separate indicator positions for arcade, sniper, and artillery views;</li><li>allows the indicator to be repositioned by dragging it in cursor mode;</li><li>hides after vehicle destruction and returns after respawning;</li><li>preserves settings and positions between game sessions.</li></ul><blockquote><p>All required dependencies are included in the package.</p></blockquote><p>Compatibility: World of Tanks 2.3.1.x<br>Version: 1.1.0<br>Developer: unicorn.ares</p>",
       "installationGuideHtml": "<p>Extract the archive into the World of Tanks root directory.</p><blockquote><p>All included .wotmod files must be placed in the mods/&lt;current game version&gt;/ directory while preserving the included subfolder structure.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%B7_2026-08-13_17-48-15.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1569,6 +1642,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/s6wot-battle-reporter_1.5.wotmod",
+          "updatedAt": "2026-08-19T18:22:57.241Z",
+          "sizeBytes": 76040,
+          "fileName": "s6wot-battle-reporter_1.5.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "FRONT LINE, PROPERLY\nA Front Line battle is several tanks in one game, and the site now records it as\none battle with the totals of every tank you drove - plus a per-tank breakdown\nshowing what each one earned and what it cost. Battles you leave early are\nrecovered from the game server, so nothing is lost."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/s6wot-battle-reporter_5IeXdNT.wotmod",
           "updatedAt": "2026-08-14T18:54:44.359Z",
@@ -1609,8 +1692,8 @@
         }
       ],
       "latest": {
-        "fileName": "s6wot-battle-reporter_5IeXdNT.wotmod",
-        "changeLog": "",
+        "fileName": "s6wot-battle-reporter_1.5.wotmod",
+        "changeLog": "FRONT LINE, PROPERLY\nA Front Line battle is several tanks in one game, and the site now records it as\none battle with the totals of every tank you drove - plus a per-tank breakdown\nshowing what each one earned and what it cost. Battles you leave early are\nrecovered from the game server, so nothing is lost.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2815,16 +2898,6 @@
           "fileName": "MoECalculator_3.0.0.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for 2.3.1.2."
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "2.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_2.0.0.zip",
-          "updatedAt": "2026-08-06T11:45:35.183Z",
-          "sizeBytes": 493364,
-          "fileName": "MoECalculator_2.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for 2.3.1.1."
         }
       ],
       "latest": {
@@ -3227,6 +3300,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "3.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.3.0.zip",
+          "updatedAt": "2026-08-19T15:10:35.943Z",
+          "sizeBytes": 384562,
+          "fileName": "GarageProgressBar-Bundle_3.3.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Allow Fallthrough setting (off by default, replaces Exclude Elite System): when on, the bar skips a disabled mode and shows the next available mode in priority order, instead of hiding.\nThe Tier XI skill-tree bar draws a one-parent, three-child upgrade node as a T-branch — two children inline and the third on a branch below — instead of a misleading straight chain."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "3.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.2.0.zip",
           "updatedAt": "2026-08-16T12:11:32.476Z",
@@ -3277,8 +3360,8 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_3.2.0.zip",
-        "changeLog": "The Tier XI skill tree bar now shows the next locked upgrades one step ahead. Each next chip links to the unlocked skill it builds on.",
+        "fileName": "GarageProgressBar-Bundle_3.3.0.zip",
+        "changeLog": "Allow Fallthrough setting (off by default, replaces Exclude Elite System): when on, the bar skips a disabled mode and shows the next available mode in priority order, instead of hiding.\nThe Tier XI skill-tree bar draws a one-parent, three-child upgrade node as a T-branch — two children inline and the third on a branch below — instead of a misleading straight chain.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -8908,6 +8991,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.8.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.8.1.exe",
+          "updatedAt": "2026-08-19T18:23:02.414Z",
+          "sizeBytes": 155201161,
+          "fileName": "Way_to_Valhalla_1.8.1.exe",
+          "fileExt": ".exe",
+          "changeLog": "Fixed issues that appeared with the introduction of LF."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.8.exe",
           "updatedAt": "2026-08-12T14:40:41.732Z",
@@ -8958,8 +9051,8 @@
         }
       ],
       "latest": {
-        "fileName": "Way_to_Valhalla_1.8.exe",
-        "changeLog": "update for  game version",
+        "fileName": "Way_to_Valhalla_1.8.1.exe",
+        "changeLog": "Fixed issues that appeared with the introduction of LF.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -11670,9 +11763,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p>Currently 85 vehicles swapped, the list below is not complete</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style&nbsp;</strong></li><li><strong>Pz38 n.A. : Custom Style&nbsp;</strong></li><li><strong>VK 28 01 105 : Custom Style</strong></li><li>E 75 : skin (Steel Hunter)</li><li>E50M : skin (Black market)</li><li><strong>Pz.Sfl. IVc : Custom Style&nbsp;</strong></li><li>Pz.Kpfw. IV : skin (steel hunter)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li><li><strong>Pz I c : Custom Style&nbsp;</strong></li><li><strong>Pz IV H : Custom Style</strong></li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style</strong></li><li><strong>BZ-58 : Custom Style&nbsp;</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style&nbsp;</strong></li><li><strong>T3 : Custom Style&nbsp;</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style&nbsp;</strong></li><li><strong>SU-100Y : Custom Style</strong></li><li><strong>T-103 : Custom Style</strong></li><li><strong>KV-5 : Custom Style</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style&nbsp;</strong></li><li>Obj 752 : skin (Peerless)</li><li>Obj 268 : skin (lesta)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style&nbsp;</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style</strong></li><li>Ho-Ri 3 : skin (dragon from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li><li>O-Ho : skin (Crow)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (Ares gun)</li><li>60TP &nbsp;: skin (Onslaught)</li><li>CS-63 : skin (Frost)</li><li><strong>Kilana : Custom Style&nbsp;</strong></li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (Trettonde)</li><li>UDES 15/16 : skin (desert)</li><li><strong>UDES 14 alt 5 : Custom Style</strong></li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p>",
+      "descriptionHtml": "<p>WotVSWAPS is a folder that you can install in your game to change the textures, gun sounds of multiple tanks in the game, THE MOD ALSO DOES NOT NEED TO BE UPDATED.</p><p>Currently 85 vehicles swapped, the list below is not complete</p><p><strong>Germany</strong></p><ul><li>StuG III G\" : skin (Stug III Kaba)</li><li>Tiger II : skin (Kampfgruppe Schneide)</li><li><strong>Pz III/IV : Custom Style&nbsp;</strong></li><li><strong>Pz38 n.A. : Custom Style&nbsp;</strong></li><li><strong>VK 28 01 105 : Custom Style</strong></li><li>E 75 : skin (Steel Hunter)</li><li>E50M : skin (Black market)</li><li><strong>Pz.Sfl. IVc : Custom Style&nbsp;</strong></li><li>Pz.Kpfw. IV : skin (steel hunter)</li><li>Leopard 1 : skin (Blitz Licht)</li><li>Rhm : skin (Frettchen)</li><li>Grille 15 : skin (Battle pass grey skin)</li><li>Räumpanzer : skin (replaced by it’s 3d style)</li><li>E100 : skin (E100 with boosters from lesta)</li><li><strong>Pz I c : Custom Style&nbsp;</strong></li><li><strong>Pz IV H : Custom Style</strong></li></ul><p><strong>China</strong></p><ul><li>Type 59 : skin (First Warrior)</li><li>WZ-111 : skin (Alpine Tiger)</li><li>Type 62 : skin (steel hunter)</li><li>WZ-111-5A : skin (Quiling)</li><li>BZ-75 : skin (Divine Valor)</li><li><strong>BZ-68 : Custom Style</strong></li><li><strong>BZ-58 : Custom Style&nbsp;</strong></li></ul><p><strong>United Kingdom (Great Britain)</strong></p><ul><li>FV4005 &nbsp;: skin (Train)</li><li>Centurion X : skin (Triumphant)</li><li>Canopener : skin (Double barrel)</li><li>Conway : skin (lesta swap)</li></ul><p><strong>USA</strong></p><ul><li>M4 Sherman : skin (Sherman crab)</li><li>T20 : skin (steel hunter replacement)</li><li>T32 : skin (T-832)</li><li>Wolverine : skin (130mm gun sound, skorpion G turret)</li><li>Jackson : skin (130mm Rhm turret)</li><li><strong>Sherman Jumbo : Custom Style&nbsp;</strong></li><li><strong>T3 : Custom Style&nbsp;</strong></li><li>M46 Patton : skin (steel hunter)</li><li>M48A5 Patton : skin (Steel hunter)</li><li><strong>Pawlack Tank : Custom Style</strong></li></ul><p><strong>France</strong></p><ul><li>Arl 44 : skin (CDT)</li><li>AMX 50 B : skin (Mécanisme amélioré)</li><li>Char Futur 4 : skin (Imbattable turret and gun)</li><li>EBR 105 : skin (Hot rod)</li></ul><p><strong>USSR</strong></p><ul><li>IS-7 : skin (imported from lesta, electric)</li><li><strong>KV-13 : Custom Style&nbsp;</strong></li><li><strong>SU-100Y : Custom Style</strong></li><li><strong>T-103 : Custom Style</strong></li><li><strong>KV-5 : Custom Style</strong></li><li>KV-2 : skin (Obliterator literally)</li><li><strong>SU-14-1 : Custom Style</strong></li><li>BT-7 artillery : skin (150mm gun sound and a mega derp)</li><li>IS-3 A : skin (Peregrine)</li><li>ST-II : skin (Saiga)</li><li>IS-2-II : skin (Black Buck)</li><li><strong>IS-3-II : Custom Style&nbsp;</strong></li><li>Obj 752 : skin (Peerless)</li><li>Obj 268 : skin (lesta)</li></ul><p><strong>Japan</strong></p><ul><li><strong>Chi-Ri : Custom Style&nbsp;</strong></li><li>ST-B1 : skin (Winter lotus)</li><li><strong>Type 5 : Custom Style</strong></li><li>Ho-Ri 3 : skin (dragon from lesta)</li><li>Type 71 : skin (Leviathan from lesta)</li><li>O-Ho : skin (Crow)</li></ul><p><strong>Poland</strong></p><ul><li>TKS : skin (Steel hunter ball)</li><li>14TP : skin (PGZ-70 + 100mm gun sound)</li><li>25TP : skin (Ares gun)</li><li>60TP &nbsp;: skin (Onslaught)</li><li>CS-63 : skin (Frost)</li><li><strong>Kilana : Custom Style&nbsp;</strong></li></ul><p><strong>Sweden</strong></p><ul><li>Strv 103B : skin (Hel)</li><li>Leo : skin (Lancen C odin’s wolves)</li><li>Kranvagn : skin (Trettonde)</li><li>UDES 15/16 : skin (desert)</li><li><strong>UDES 14 alt 5 : Custom Style</strong></li></ul><p><strong>Italy</strong></p><ul><li>Minotauro : skin (Firefighter lol, from lesta)</li></ul><p>Contact me through the InfoCord server in modding discussion, or just contact me through the game if you have a problem or a crash (main account : Trick4Funz)</p><p>Be careful if you download this mod you can't download the others I made since they're all in this mod</p><p>IMPORTANT : If you want to see all swaps with images head to my site you can see all of em there and more</p><p>https://trick-floor.fr/</p>",
       "installationGuideHtml": "<p>How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down</p><p>PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update</p><p>How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version).</p><p>(THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wotVSWAPS_miniature_nb1eTnL.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/WOT_VSWAPS_waffentrager_V506tty.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7512/",
       "tagIds": [
         "16",
@@ -11729,16 +11822,6 @@
           "fileName": "WotVSWAPS-V1.6.zip",
           "fileExt": ".zip",
           "changeLog": "Fixed an issue regarding the Jpanther II that made the game crash"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.6.wotmod",
-          "updatedAt": "2026-06-11T18:05:17.861Z",
-          "sizeBytes": 1441101375,
-          "fileName": "WotVSWAPS-V1.6.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "See in description all available swaps"
         }
       ],
       "latest": {
@@ -12771,7 +12854,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<p>This modification allows for environment/skybox packs to be selected randomly between battles without the need to restart the game.<br>&nbsp;</p>",
       "installationGuideHtml": "<p>Unpack all&nbsp;mods into&nbsp;your <i>World𛲖of𛲖Tanks/mods/</i>&nbsp;folder; add your skybox packs into&nbsp;the <i>World𛲖of𛲖Tanks/mods/configs/sbr_Packs</i> folder.<br><br>Out-of-the-box,&nbsp;the mod comes&nbsp;with <strong>Pansy's Revamped Skies Volume 1</strong><br><br><strong>FAQs:</strong><br>Q: My game closes itself on launch. What should I do?<br>A: There's no need to take any action; the game is just initializing in the background and will reappear in a minute. (You can verify if it's running by checking Task Manager.)<br><br>Q: I've cleaned my res mods, played a few battles, but sky didn't change?<br>A: All you need to do is relaunch the game, and it should work smoothly.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/New_Project_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -23322,6 +23405,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.1.0.1.wotmod.zip",
+          "updatedAt": "2026-08-19T15:11:12.357Z",
+          "sizeBytes": 3920749,
+          "fileName": "wotinspector.com.heatmaps.1.0.1.wotmod.zip",
+          "fileExt": ".zip",
+          "changeLog": "dynamically display top damage and spotting positions so mid game points don't appear in the early game."
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
           "updatedAt": "2026-08-16T09:51:07.000Z",
@@ -23369,21 +23462,11 @@
           "fileName": "wotinspector.com.heatmaps.0.9.6_Jy8a3mN.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.0",
-          "modVersion": "0.9.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.0.9.6_mIOzoKE.wotmod",
-          "updatedAt": "2026-04-21T13:40:42.817Z",
-          "sizeBytes": 685020,
-          "fileName": "wotinspector.com.heatmaps.0.9.6_mIOzoKE.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
-        "changeLog": "added minimap overlay displaying most possible team movements during countdown, top damage positions, top assisted damage positions for light tanks",
+        "fileName": "wotinspector.com.heatmaps.1.0.1.wotmod.zip",
+        "changeLog": "dynamically display top damage and spotting positions so mid game points don't appear in the early game.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -43938,38 +44021,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.2",
-          "modVersion": "05",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.2_05.exe",
-          "updatedAt": "2026-08-17T18:41:41.280Z",
-          "sizeBytes": 59294102,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.2_05.exe",
+          "modVersion": "06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.2_06.exe",
+          "updatedAt": "2026-08-19T13:56:10.186Z",
+          "sizeBytes": 59335072,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.2_06.exe",
           "fileExt": ".exe",
-          "changeLog": "- Updated Camo Selector\n- Updated Custom Sixth Sense (fixed the game's own lamp showing up next to the custom one in the Front Line)\n- Updated Scheduled Personal Reserves\n- Updated Armour Penetration Indicator PMOD (added the Front Line support)\n- Added Armor Penetration Calculator v2 (by pademinune)"
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.2_04.exe",
-          "updatedAt": "2026-08-16T16:14:21.758Z",
-          "sizeBytes": 58934640,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.2_04.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Hitmarker Pro, Custom Sixth Sense and Crew Skills Pro (fixed Enter not opening the battle chat)\n- Updated Battle Assistant for SPG\n- Updated Armor Inspector Wotinspector\n- Updated MoE Calculator 14th_ua\n- Updated Research Progress Bar 14th_ua"
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.2_03.exe",
-          "updatedAt": "2026-08-15T16:29:28.609Z",
-          "sizeBytes": 59548734,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.2_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated contour icons: man1aq\n- Updated The anti-mirror contour icons (fixed Tab window)\n- Updated champi.settingsgui 1.7.8\n- Updated Tomato.gg\n- Updated Minimap images: YaYa tactical\n- Updated MoE Calculator 14th_ua\n"
+          "changeLog": "- Updated Crew Skills Pro (fixed the panel resetting its position after every battle)\n- Updated MoE Calculator 14th_ua\n- Updated Pansy's Revamped Skies v4\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.2_05.exe",
-        "changeLog": "- Updated Camo Selector\n- Updated Custom Sixth Sense (fixed the game's own lamp showing up next to the custom one in the Front Line)\n- Updated Scheduled Personal Reserves\n- Updated Armour Penetration Indicator PMOD (added the Front Line support)\n- Added Armor Penetration Calculator v2 (by pademinune)",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.2_06.exe",
+        "changeLog": "- Updated Crew Skills Pro (fixed the panel resetting its position after every battle)\n- Updated MoE Calculator 14th_ua\n- Updated Pansy's Revamped Skies v4\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
