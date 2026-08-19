@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.053",
+  "catalogVersion": "v2026.08.054",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7846",
+      "title": "Armor Penetration Calculator 2",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Archive package but install guide is empty, so the target operation cannot be determined.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7850",
+      "title": "Lobstep Crew Member",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Simply download it and place it in your mods folder with whatever current version the game is in."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to the current version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7849",
