@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.054",
+  "catalogVersion": "v2026.08.055",
   "mods": [
     {
       "source": "wgmods",
@@ -248,12 +248,12 @@
       "title": "Hangar Carousel Classic",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "How to Install (using .wotmod only) First, download the most recent version from the Releases page. Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.2/. Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the OpenWG Gameface releases , also into your client mods folder. Launch Game. Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu. Full Package Installation If you choose the complete package, the hangar_carousel_classic_1.0.7_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.2/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory."
+        "latestInstallGuide": "How to Install (using .wotmod only) First, download the most recent version from the Releases page. Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.3/. Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the OpenWG Gameface releases , also into your client mods folder. Launch Game. Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu. Full Package Installation If you choose the complete package, the hangar_carousel_classic_1.0.8_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.3/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory."
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Guide describes either installing .wotmod files to mods/<version> plus an additional external mod dependency, or extracting a full package to game root; multiple distinct install variants make the package choice blocking.",
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and the guide for the complete package says to extract the zip directly into the main World of Tanks installation directory.",
         "deleteDataWgpdc": false
       }
     },
@@ -1342,13 +1342,13 @@
       "sourceId": "7720",
       "title": "Scheduled Personal Reserves",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide targets mods/<version>.",
+        "decisionReason": "Archive package and guide points to the versioned mods/<version> folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -2348,12 +2348,12 @@
       "title": "Pz. Sfl. IVc <FOREST ASSASSIN 3D STYLE>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Paste the wotmod into the mods folder, latest version usually all the way down ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there (If the 130mm gun sound won't load, delete the data.wgpdc file in the base folder of the game)"
+        "latestInstallGuide": "Paste the wotmod into the mods folder, latest version usually all the way down ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there (For the 130mm gun sound to load, delete the data.wgpdc file present in the base folder of the game :/World Of Tanks)"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide instructs to paste into the mods folder (current version) and explicitly says to delete data.wgpdc if sound won't load.",
+        "decisionReason": "Plain .wotmod package and guide says to paste it into mods/<version>.",
         "deleteDataWgpdc": true
       }
     },
@@ -2495,7 +2495,7 @@
     {
       "source": "wgmods",
       "sourceId": "7623",
-      "title": "Pz.Kpfw. VII <WAFFENTRAGER 3D STYLE>",
+      "title": "Pz.Kpfw. VII <WAFFENTRAGER>",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Paste the wotmod into the mods folder, latest version usually all the way down ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there"
@@ -3563,12 +3563,12 @@
       "title": "WoTVSWAPS",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update How to install new version : Delete the folder replace it with the newer version (if new wot update : paste it in the newer version). (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)"
+        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folders replace them with the newer version (if new wot update : paste it in the newer version). PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME , you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to extract the top-level folders Vehicles and Scripts into res_mods/<version>; guide also mentions deleting data.wgpdc.",
+        "decisionReason": "Archive package and guide says to extract complete top-level folders Vehicles and Scripts into res_mods/<version>.",
         "deleteDataWgpdc": true
       }
     },
