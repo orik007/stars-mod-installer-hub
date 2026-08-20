@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.055",
+  "catalogVersion": "v2026.08.056",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7853",
+      "title": "PANCERNIK <WAFFENTRAGER>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, latest version usually all the way down ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7854",
+      "title": "UE-57 <ROCKET PROPELLED>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) IMPORTANT : Delete the \"data.wgpdc\" present in the game files in your wot folder, it will allow the rockets to actually puff out smoke, alternate way is to do a check and repair on the launcher, if you don't do any of the two, the exhaust smoke will still exit through the conventional exhaust, and there will be less smoke !"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>; guide also explicitly says to delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7846",
@@ -44,6 +74,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7841",
+      "title": "Forest Hangar from WoT 1.0 (hangar_v3)",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right: 2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG): 3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation: *the Hangar Switcher must be downloaded to activate the hangar in the game"
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": ".exe package with installer UI steps and region/component selection.",
         "deleteDataWgpdc": false
       }
     },
@@ -863,12 +908,12 @@
       "title": "Hangar Carousel Plus",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the complete Hangar Carousel Plus 0.8.10 bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
+        "latestInstallGuide": "Download the complete Hangar Carousel Plus bundle Close World of Tanks. Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from <game>\\mods\\2.3.1.0\\. Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory. Start the game"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive guide includes deleting older .wotmod files before extracting to game root, which is a destructive multi-step operation not covered by a supported template.",
+        "decisionReason": "Archive extraction to game root is combined with deleting old .wotmod files first, making it a destructive multi-step operation.",
         "deleteDataWgpdc": false
       }
     },
