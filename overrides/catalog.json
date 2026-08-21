@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.057",
-  "sourceHash": "2a1f0e54058c16b217f06016c3a658a1ff320eb4ba7b0c88a03607687824864f",
+  "catalogVersion": "v2026.08.058",
+  "sourceHash": "e10b147f57c9ae02a270ac3a0a7d2e75e30824e6a010cafbd9bda20ef46e88e2",
   "sources": [
     "wgmods",
     "modhub"
@@ -814,6 +814,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_4_v1.1_hWCmu7L.rar",
+          "updatedAt": "2026-08-20T22:43:48.569Z",
+          "sizeBytes": 194273674,
+          "fileName": "Pansy_Revamped_Skies_Volume_4_v1.1_hWCmu7L.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_4_v1.1.rar",
@@ -845,9 +855,9 @@
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_4_v1.1.rar",
-        "changeLog": "v1.1 Update for 2.3.1.2:\n- added revamped skies for Normandie, Kraftwerk and Fata Morgana",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Pansy_Revamped_Skies_Volume_4_v1.1_hWCmu7L.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1548,6 +1558,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Experimental_Rocket_Boosters_v1.0_6fRicCS.rar",
+          "updatedAt": "2026-08-20T22:44:37.087Z",
+          "sizeBytes": 8785,
+          "fileName": "Experimental_Rocket_Boosters_v1.0_6fRicCS.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Experimental_Rocket_Boosters_v1.0_kAvF73s.rar",
@@ -1579,9 +1599,9 @@
         }
       ],
       "latest": {
-        "fileName": "Experimental_Rocket_Boosters_v1.0_kAvF73s.rar",
+        "fileName": "Experimental_Rocket_Boosters_v1.0_6fRicCS.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5874,7 +5894,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p><strong>Legacy Hangar UI</strong> <strong>Author:</strong> Renovo</p><p><strong>Compatible Client Version:</strong> 2.3.0.0+ (World of Tanks 2.0)</p><p><strong>Concept &amp; Features</strong></p><p>Tired of the new modern Gameface hangar and want to return to the classic nostalgic feeling? <strong>Legacy Hangar UI</strong> allows you to force the classic Flash-based (Scaleform) hangar interface inside World of Tanks 2.0!</p><p>With this mod, you can dynamically switch between the modern Gameface UI and the nostalgic classic Scaleform hangar on the fly:</p><p><strong>Instant Toggling:</strong> Press <strong>Ctrl + I</strong> inside the hangar to instantly switch the interface between the classic Scaleform hangar and the modern Gameface hangar.</p><p><strong>Classic Navigation:</strong> Restores the classic navigation buttons and elements to provide a visual look-alike of the old hangar UI layout.<br><strong>Custom NavBar &amp; Installation: </strong>The navigation menu has been added as a separate modification to give users full freedom of choice. If for any reason you do not wish to use it, please install only the LegacyHangar .wotmod file into your game client.</p><p><strong>Important Note &amp; Limitations</strong></p><p><strong>Mode Selector &amp; Navigation:</strong> The game mode selector button is accessible directly within the top navigation menu.</p><p><strong>No Promo Banners:</strong> Banners are completely removed and there are no plans to add them. If you need to check them out, you can find them in the Modern UI.</p><p><strong>Platoon Creation:</strong> The \"Create Platoon\" button is located at the bottom of the screen, just like in the Modern UI.</p><p><strong>Upgrade Menu for Tier XI:</strong> The Field Modification button works seamlessly for both Tier XI and lower-tier vehicles. For Tier XI, it opens the Upgrades menu, while for Tier X and below, it triggers the standard Field Modification menu.</p><p>If you need to view banners or adjust other settings using the new Gameface UI, simply press <strong>Ctrl + I</strong> to switch back to the modern interface on the fly, and then press it again to return to the classic hangar!</p><p><i><strong>Please note that this mod only changes the visual appearance of the hangar interface itself. It does NOT restore the legacy style of other screens, such as the post-battle statistics window, store, storage, or other lobby views.</strong></i></p><p><strong>Known Issues</strong></p><p><strong>Pet System:</strong> Access to the Pet System does not function while in Legacy UI mode, making it impossible to claim Pet rewards due to Scaleform compatibility limitations. However, rewards and the Pet menu can still be accessed normally in the Modern UI. If you want to avoid switching back and forth every time, you can use the <strong>Pet Gift Auto Claim</strong> mod by <i>Gravity_Assist</i>, available here: <a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>&nbsp;</p>",
       "installationGuideHtml": "<ol><li>Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/ <i>(Example: C:/Games/World_of_Tanks/mods/x.x.x.x/)</i></li><li><strong>Note for Open.WG:</strong> If not already installed, the Open.WG library must be placed in the following subdirectory: &lt;Game_Folder&gt;/mods/&lt;Current_Version&gt;/net.openwg/</li><li>Launch the game client.<br>&nbsp;</li></ol>",
@@ -5887,10 +5907,20 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco_p4Zm4hL.rar",
+          "updatedAt": "2026-08-20T19:08:06.051Z",
+          "sizeBytes": 35704,
+          "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco_p4Zm4hL.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
-          "updatedAt": "2026-08-15T11:33:15.127Z",
+          "updatedAt": "2026-08-20T19:07:46.564Z",
           "sizeBytes": 35704,
           "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
           "fileExt": ".rar",
@@ -5935,22 +5965,12 @@
           "fileName": "LegacyHangarUI_Navbar.rar",
           "fileExt": ".rar",
           "changeLog": "The major update introduces the Navigation Bar, which now allows you to fully utilize the Legacy UI without any hangar navigation limitations. It also adds complete support for the Field Modification and Upgrades buttons for Tier XI vehicles. Enjoy!\n\nГлобальное обновление добавляет панель навигации (Navigation Bar), которая теперь позволяет полноценно пользоваться Legacy UI и снимает любые ограничения навигации в ангаре. Также добавлена полная поддержка кнопок «Полевая модернизация» (Field Modification) и «Улучшения» (Upgrades) для техники 11-го уровня. Приятной игры!"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/renovo.legacyhangar_1.0_HtdUQaQ.wotmod",
-          "updatedAt": "2026-06-11T11:24:00.792Z",
-          "sizeBytes": 9253,
-          "fileName": "renovo.legacyhangar_1.0_HtdUQaQ.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Changed game version"
         }
       ],
       "latest": {
-        "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
+        "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco_p4Zm4hL.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8732,36 +8752,6 @@
           "fileName": "champi.fightbuttontext_0.91.004_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "- WoT 1.0 Fight button added (requested)\n- option addedto define multiple button labels seperated by comma (like RNG!,DON'T,Yeaahaw). The mod will randomly selects one of them each time the garage view is loaded\n\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.91.003",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.91.003_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:36:13.461Z",
-          "sizeBytes": 740928,
-          "fileName": "champi.fightbuttontext_0.91.003_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "0.91.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.91.000_2.2.0.2.zip",
-          "updatedAt": "2026-04-09T18:55:39.146Z",
-          "sizeBytes": 606975,
-          "fileName": "champi.fightbuttontext_0.91.000_2.2.0.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "- fix: blank button text field now really uses the original button default text for the client language\n- option added to select between different button images (Halloween '23 event, Bloody, default etc.)\n- option to change the text color\n- button text will now be changed directly after it was saved in settings GUI\n- default initial button text changed to 'RNG!'\n"
-        },
-        {
-          "wotGameVersion": "2.2.0.2",
-          "modVersion": "v0.90.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.90.000_2.2.0.2.zip",
-          "updatedAt": "2026-04-08T15:25:19.606Z",
-          "sizeBytes": 541334,
-          "fileName": "champi.fightbuttontext_0.90.000_2.2.0.2.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -13392,7 +13382,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>A feedback form is now available if you would like to provide feedback on the mod: </strong><a href=\"https://forms.gle/gNq9x4BvmZMzsfmA7\"><strong>https://forms.gle/gNq9x4BvmZMzsfmA7</strong></a><br><br><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><strong>The mod also only fully works Improved Graphics (HD). While Standard Graphics will work, it will be missing the full features of the mod (namely the modified skyboxes) due to limitations.</strong><br><br><br>Like my previous Revamped Skies mods, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-3-mod-preview-y0pqnIN\">https://imgur.com/a/wot-revamped-skies-volume-3-mod-preview-y0pqnIN</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 4:&nbsp;<a href=\"https://wgmods.net/7829/\">https://wgmods.net/7829/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><p>I must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can look funny but should be for the most part irrelevant<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- Some maps feature rain as part of an experimental test. This reuses assets from the WT Game mode, as well as the probes folders taken from the Rainy Weather mod in Aslain's, credit to Aslain/Pharaon for that. I have also reused some assets from my Aslain's Night Sky Edit, so credit again to Aslain/Pharaon for those.<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: if you're running this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues with the skybox. Do not try to run this alongside any other sky-related mod, or try to run both versions included at the same time</strong></p><p>&nbsp;</p><p>Again this mod is <strong>NOT </strong>intended as a replacement for the original Revamped Skies mod or the Volume 2 Version, but simply an additional rework of every map. You can comfortably swap between any of my Revamped Skies mod from time to time to change up the feel of the game.</p>",
       "installationGuideHtml": "<p>To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -13404,6 +13394,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.5_YLGLNhj.rar",
+          "updatedAt": "2026-08-20T22:43:46.708Z",
+          "sizeBytes": 194425631,
+          "fileName": "Pansy_Revamped_Skies_Volume_3_v1.5_YLGLNhj.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.5",
@@ -13453,22 +13453,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_60OxU4f.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "v1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.3_Iv3SL4w.rar",
-          "updatedAt": "2026-06-08T04:39:27.219Z",
-          "sizeBytes": 138838275,
-          "fileName": "Pansy_Revamped_Skies_Volume_3_v1.3_Iv3SL4w.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.5_S7KlNey.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.5_YLGLNhj.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -16469,6 +16459,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_fVg1mcu.rar",
+          "updatedAt": "2026-08-20T22:44:35.799Z",
+          "sizeBytes": 2070736,
+          "fileName": "Decalless_Gift_Tanks_v1.1_fVg1mcu.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1.rar",
@@ -16517,22 +16517,12 @@
           "fileName": "Decalless_Gift_Tanks_v1.1_AsfOpmr.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_wSSybgd.rar",
-          "updatedAt": "2026-05-05T00:03:11.159Z",
-          "sizeBytes": 2070736,
-          "fileName": "Decalless_Gift_Tanks_v1.1_wSSybgd.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Decalless_Gift_Tanks_v1.1.rar",
+        "fileName": "Decalless_Gift_Tanks_v1.1_fVg1mcu.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -18820,16 +18810,6 @@
           "fileName": "champi.artyreadywarning_0.75.009_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "0.75.006",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.artyreadywarning_0.75.006_2.2.0.1.zip",
-          "updatedAt": "2026-03-19T15:31:34.122Z",
-          "sizeBytes": 633404,
-          "fileName": "champi.artyreadywarning_0.75.006_2.2.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current WoT patch"
         }
       ],
       "latest": {
@@ -19021,7 +19001,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><br><strong>This mod is an edit to the Night Sky mod found in Aslain's Modpack. While this mod functions standalone without requiring you to use Aslain's, I feel obliged to state that this is NOT my original mod.</strong></p><p>&nbsp;</p><p>This mod takes Aslain's Night Sky mod and, as the name implies, edits the lighting settings of the maps to better fit the night aesthetic. The lighting may still feel brighter than you'd expect night to be but I wanted maps to be somewhat playable. This affects the following maps:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU\">https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a></p><p>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/&nbsp;</a></p><p>&nbsp;</p><p>Some final notes:<br>- This mod <strong>SHOULD</strong> work with SD/Simplified HD Graphics. Simplified graphics however have a bit of scuff with water appearance. I've done all I can do make it work but on some maps it will look off<br>- I shouldn't have to say this but I want to make it clear: <strong>this mod is dark</strong>. This will likely lead to some disorientation at first and will likely be uncomfortable for those with poor eyesight. Please keep that in mind. An optional mod has been included that may help with this and I highly recommend my <a href=\"https://wgmods.net/7050/\">Actual Lights</a> mod alongside this one<br>- Various ambient map effects may stand out as jarringly bright compared to the overall lighting. Unfortunately I do not know a way to fix this while maintaining the appearance, I apologise for this<br>- Aslain's original Night Sky mod edits various event mode maps as well. I have however removed them (with v1.3) and chosen not to include them since I cannot test them and maintaining event maps that may never return just increases mod size<br><strong>- do not attempt to run this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues and cause the mod to not function as intended</strong></p>",
       "installationGuideHtml": "<p>This mod features two different installation options:<br><strong>wotmod version:</strong> drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.0.0.1\\[WOTMOD GOES HERE]</p><p>Do NOT run the wotmod version alongside Aslain's original Night Sky.</p><p><strong>res_mods version (ideal if you are already using Night Sky from Aslain's, allow it to replace all existing files):</strong> drag or extract the included \"spaces\" folder into your WoT Game files and place it in the [PATCH FOLDER] in \"res_mods\". For example: C:\\Games\\World_of_Tanks\\res_mods\\2.0.0.1\\[FOLDER GOES HERE]</p>",
@@ -19033,6 +19013,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_Night_Sky_Edit_v1.5_Y7KGSxy.rar",
+          "updatedAt": "2026-08-20T22:43:50.092Z",
+          "sizeBytes": 65575845,
+          "fileName": "Aslains_Night_Sky_Edit_v1.5_Y7KGSxy.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.5",
@@ -19082,22 +19072,12 @@
           "fileName": "Aslains_Night_Sky_Edit_v1.4.rar",
           "fileExt": ".rar",
           "changeLog": "v1.5 Update for 2.3.0.0:\n- Updated Night Light optional mod for Patch 2.3 3D Attachment changes"
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "v1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_Night_Sky_Edit_v1.3_JXPDLF9.rar",
-          "updatedAt": "2026-05-16T16:59:30.404Z",
-          "sizeBytes": 65603269,
-          "fileName": "Aslains_Night_Sky_Edit_v1.3_JXPDLF9.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Aslains_Night_Sky_Edit_v1.5_Avq4REg.rar",
+        "fileName": "Aslains_Night_Sky_Edit_v1.5_Y7KGSxy.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -21714,7 +21694,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p><strong>A feedback form is now available if you would like to provide feedback on the mod: </strong><a href=\"https://forms.gle/gNq9x4BvmZMzsfmA7\"><strong>https://forms.gle/gNq9x4BvmZMzsfmA7</strong></a><br><br><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><strong>The mod also only fully works Improved Graphics (HD). While Standard Graphics will work, it will be missing the full features of the mod (namely the modified skyboxes) due to limitations.</strong><br><br><br>Like the original Revamped Skies, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map: <a href=\"https://imgur.com/a/wot-revamped-skies-volume-2-mod-preview-RYMHj24\">https://imgur.com/a/wot-revamped-skies-volume-2-mod-preview-RYMHj24</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Revamped Skies&nbsp;Volume 4:&nbsp;<a href=\"https://wgmods.net/7829/\">https://wgmods.net/7829/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><p>I must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can look funny but should be for the most part irrelevant<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- like Himmelsdorf in the original Revamped Skies, (small) Ensk seems to have a lighting issue that requires you to enter sniper mode to make the map use the correct lighting. I have no idea why this happens or how to actually fix it, but yeah, just entering sniper mode will correct it<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: do not try to run this alongside any other sky-related mod, including the other version within the mod. It WILL cause conflicts as the game tries to load both mods</strong></p><p>&nbsp;</p><p>As a final note, this mod is <strong>NOT </strong>intended as a replacement for the original Revamped Skies mod, but simply an alternate take on every map. You can comfortably continue using the original mod if you aren't a fan of this one, or change between the two to try to make the game feel a bit more fresh.</p>",
       "installationGuideHtml": "<p>To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -21726,6 +21706,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_2_v1.8_iUIwYsu.rar",
+          "updatedAt": "2026-08-20T22:43:44.928Z",
+          "sizeBytes": 194113655,
+          "fileName": "Pansy_Revamped_Skies_Volume_2_v1.8_iUIwYsu.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.8",
@@ -21775,22 +21765,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_8mFqZFv.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "v1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_2_v1.6_q0qSLIK.rar",
-          "updatedAt": "2026-06-08T04:39:25.220Z",
-          "sizeBytes": 138908209,
-          "fileName": "Pansy_Revamped_Skies_Volume_2_v1.6_q0qSLIK.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_2_v1.8_lcO8mjy.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_2_v1.8_iUIwYsu.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -26862,7 +26842,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>This is an experimental mod which adds functional lights to all 3D Styles with volume lights on them, casting light in front of the vehicle to make it seem like the lights are actually <i>active</i>. The effectiveness of this varies on a map-by-map basis and may not always look quite so good; particularly, <strong>I advise using a sky mod that darkens the game lighting such as Mirny Sky or Night Sky</strong>.</p><p>This mod affects the following styles:<br><strong>USA:</strong> \"M4A3(76)W Sherman\", King Tiger (Captured) \"Nox Tenebris\", \"T-832\", \"Rambo\", M-V-Y \"Comedian\", T57 Heavy \"Sworn Brother\", M53/M55 \"Amphibious\"<br><strong>Germany:</strong> MKpz 68 (P) \"Wind of Arrakis\", Panther II/E-50/E-50M \"Revenant Mk. II\", Leopard 1 \"Blitzlicht\", Pz. VII \"Vorhut\", Maus \"Wüstenschiff\", Jagdpanzer E-100 \"Dunkel\"<br><strong>USSR:</strong> K-91 \"Oblivion\", Obj. 140 \"Swallow\", IS-7 \"Rhyolite\", ST-II \"Footcruiser\", Obj. 268 \"Svyatogor\"<br><strong>UK:</strong> Manticore \"Pointer\", Centurion Action X \"Primipilus\" and \"British Steel\", Concept 5 \"Unto the Breach\", \"Churchill Crocodile\", Tortoise \"The Tortoise\", Badger \"Lancelot\"<br><strong>France:</strong> \"Char de Transition\", AMX 50B \"Charles Martel\", AMX M4 54 \"Gascon\", Foch B \"Églantier\"<br><strong>Czechoslovakia:</strong> \"Projekt ION\", Skoda T 50 \"Orlík\", TVP T 50/51 \"Party Wagon\", Vz. 55 \"Quintessence\"<br><strong>Japan:</strong> Type 5 Heavy \"Hanmā\"<br><strong>China:</strong> 122 TM \"Special Guest\"<br><strong>Poland:</strong> CS-63 \"Błyskawica\"<br><strong>Sweden:</strong> UDES 15/16 \"Svadilfari\", Strv K \"Spirit of War\"<br><strong>Italy:</strong> Rinoceronte \"Nyx\"</p><p>This includes special effects to the lights:<br>- the 122 TM Now has a tiny omnilight for the candle<br>- the T-832's light activates when the gun fires. I must acknowledge that it is slightly out of sync, I couldn't seem to fix this<br>- the Tortoise's lights flicker when the vehicle takes a hit<br>- the Skoda T 50's Light turns on at the start of the battle<br>- the Vz. 55's lights turn on on first previewing it in the hangar/start of the battle, flicker when the vehicle takes a hit and an additional light when the gun fires<br><br>As stated, this mod is experimental at best. To better expand on this:<br>- lights do not appear in sniper mode<br>- lights may sometimes look a bit odd on certain objects/terrain. This is just how it ends up displayed<br>- lights (mostly) have a distance of about 120m, though they fade out the further away they are so you won't really be seeing them at that distance<br>- almost every light is angled slightly down, that way they're displayed better on terrain in front of the vehicle<br>- I couldn't figure out a way to make the lights anything but a cone spotlight. This means more boxy lights might look a bit off. That's just a limitation of my knowledge<br>- I tried to make the lights generally match the appearance of the volume lights on their respective tanks. This may not always be a perfect match however<br><br>This mod will <strong>not</strong> conflict with my other mods (such as <a href=\"https://wgmods.net/3176/\">Customisation Edits</a>/<a href=\"https://wgmods.net/6565/\">Mirny Revamped</a>), nor the Actual Lights Add-on for Mirny Revamped. It <strong>will</strong> however conflict with <a href=\"https://wgmods.net/5134/\">Brighter Lights</a>, but like Mirny Revamped increases the lightMultiplier for those lights anyway.</p>",
       "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE]</p><p>This mod should run fine regardless of patch version.</p>",
@@ -26873,6 +26853,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.13",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.13_MlnktDD.rar",
+          "updatedAt": "2026-08-20T22:44:34.304Z",
+          "sizeBytes": 37373,
+          "fileName": "Actual_Lights_v1.13_MlnktDD.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.13",
@@ -26922,22 +26912,12 @@
           "fileName": "Actual_Lights_v1.11_EgAvtTb.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.11_b6nHZLh.rar",
-          "updatedAt": "2026-05-05T00:03:22.564Z",
-          "sizeBytes": 34563,
-          "fileName": "Actual_Lights_v1.11_b6nHZLh.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Actual_Lights_v1.13_pmFioNj.rar",
+        "fileName": "Actual_Lights_v1.13_MlnktDD.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -27952,6 +27932,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.5_pqxv6eM.rar",
+          "updatedAt": "2026-08-20T22:44:32.556Z",
+          "sizeBytes": 19398717,
+          "fileName": "Lootbox_Tanks_National_Colours_v1.5_pqxv6eM.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.5_oGDJHrR.rar",
@@ -28000,22 +27990,12 @@
           "fileName": "Lootbox_Tanks_National_Colours_v1.4_4KE30Za.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.4_4ZxptaD.rar",
-          "updatedAt": "2026-05-05T00:03:31.165Z",
-          "sizeBytes": 19480532,
-          "fileName": "Lootbox_Tanks_National_Colours_v1.4_4ZxptaD.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Lootbox_Tanks_National_Colours_v1.5_oGDJHrR.rar",
+        "fileName": "Lootbox_Tanks_National_Colours_v1.5_pqxv6eM.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -29164,7 +29144,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>A feedback form is now available if you would like to provide feedback on the mod: </strong><a href=\"https://forms.gle/gNq9x4BvmZMzsfmA7\"><strong>https://forms.gle/gNq9x4BvmZMzsfmA7</strong></a><br><br><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><strong>The mod also only fully works Improved Graphics (HD). While Standard Graphics will work, it will be missing the full features of the mod (namely the modified skyboxes) due to limitations.</strong><br><br><br>This mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-1-v1-8-update-mod-preview-dL7VAuS\">https://imgur.com/a/wot-revamped-skies-volume-1-v1-8-update-mod-preview-dL7VAuS</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 2:&nbsp;<a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3:&nbsp;<a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Revamped Skies&nbsp;Volume 4:&nbsp;<a href=\"https://wgmods.net/7829/\">https://wgmods.net/7829/</a><br>- Aslain's Night Sky Edit:&nbsp;<a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a><br><br>I must make note of some issues (I'm listing these to state that I am aware of them, not that I am going to/can fix them. I'm obliged to make you aware of them for transparency):<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance. This can lead to issues but should be for the most part irrelevant<br>- Ambient effects. I could not figure out how to remove (or add) particles and as such these can look off with the new ambience. This most notably affects Airfield and Fata Morgana with offshore lightning<br>- Some maps use the \"probes\" folder of another map to help change the map feel but this leads to issues related to a map's shadow grid and other elements, leading to sudden dark or illuminated spots. This affects the following maps: <strong>Abbey, Ensk, Karelia, Prokhorovka. </strong>This can unfortunately cause issues with the Skybox Randomiser mod (such as failing to load the probes folder)<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: do not try to run this alongside any other sky-related mod, including the other version within the mod. It WILL cause conflicts as the game tries to load both mods</strong></p><p><br>I want to thank the user \"no one / nocac\" <strong>significantly</strong> for introducing me to this, helping me learning how to do it and especially for providing older files that I did not have. I also want to thank Rom4n_ and _DEVA For playtesting the mod for me and providing feedback, as well as FastestClassic and Avalon304 For helping with screenshots for this page.</p>",
       "installationGuideHtml": "<p>To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
@@ -29176,6 +29156,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.13",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_1_v1.13_hHCYLZw.rar",
+          "updatedAt": "2026-08-20T22:43:42.642Z",
+          "sizeBytes": 255577734,
+          "fileName": "Pansy_Revamped_Skies_Volume_1_v1.13_hHCYLZw.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.13",
@@ -29225,22 +29215,12 @@
           "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_rpmQI1H.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "v1.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_1_v1.11_Szz2Dq1.rar",
-          "updatedAt": "2026-06-08T04:39:21.218Z",
-          "sizeBytes": 199996296,
-          "fileName": "Pansy_Revamped_Skies_Volume_1_v1.11_Szz2Dq1.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_1_v1.13.rar",
+        "fileName": "Pansy_Revamped_Skies_Volume_1_v1.13_hHCYLZw.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31225,16 +31205,6 @@
           "fileName": "champi.tankpageopener_1.01.010_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.0.1.1",
-          "modVersion": "1.01.003",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankpageopener_1.01.003_2.0.1.1.zip",
-          "updatedAt": "2025-10-25T08:05:45.252Z",
-          "sizeBytes": 553737,
-          "fileName": "champi.tankpageopener_1.01.003_2.0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "repack for current wot version"
         }
       ],
       "latest": {
@@ -31352,6 +31322,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.11_Qa6Hldf.rar",
+          "updatedAt": "2026-08-20T22:41:42.753Z",
+          "sizeBytes": 20529178,
+          "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.11_Qa6Hldf.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.11",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.11.rar",
@@ -31400,22 +31380,12 @@
           "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8_12gjflY.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8_Tfl8ncs.rar",
-          "updatedAt": "2026-05-05T00:03:38.267Z",
-          "sizeBytes": 20525126,
-          "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.8_Tfl8ncs.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.11.rar",
-        "changeLog": "v1.11 Update for 2.3.1.2:\n- updated UML Components to most recent UML Update",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.11_Qa6Hldf.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31438,6 +31408,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.11_ohrJ7SY.rar",
+          "updatedAt": "2026-08-20T22:41:39.690Z",
+          "sizeBytes": 16569523,
+          "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.11_ohrJ7SY.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.11",
@@ -31487,22 +31467,12 @@
           "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8_8HFPJmc.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8_qyIunqH.rar",
-          "updatedAt": "2026-05-05T00:03:48.606Z",
-          "sizeBytes": 16565582,
-          "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.8_qyIunqH.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.11.rar",
-        "changeLog": "v1.11 Update for 2.3.1.2:\n- updated UML Components to most recent UML Update",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.11_ohrJ7SY.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31525,6 +31495,16 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.8_QNgzpwd.rar",
+          "updatedAt": "2026-08-20T22:41:34.143Z",
+          "sizeBytes": 29320401,
+          "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.8_QNgzpwd.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.8",
@@ -31574,22 +31554,12 @@
           "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6_3O4s8Ue.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6_MEWN8k7.rar",
-          "updatedAt": "2026-05-05T00:02:54.049Z",
-          "sizeBytes": 29320350,
-          "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.6_MEWN8k7.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.8_WW6l2NB.rar",
+        "fileName": "Mirukiis_Tiran_5Sh_T-55A_Remodel_v1.8_QNgzpwd.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31802,16 +31772,6 @@
           "fileName": "2.2.1.3_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.48.rar",
           "fileExt": ".rar",
           "changeLog": "v1.48 Update for 2.2.1.3:\n- Updated support for Patch 2.2.1.3"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.47",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.1.0_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.47_aj5tex0.rar",
-          "updatedAt": "2026-05-05T00:05:16.183Z",
-          "sizeBytes": 215229314,
-          "fileName": "2.2.1.0_Pansys_Revamped_Mirny-13_Styles_Standalone_v1.47_aj5tex0.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -32260,16 +32220,6 @@
           "fileName": "champi.armorcalculatorpro_0.97.013_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "- adapted for current patch"
-        },
-        {
-          "wotGameVersion": "2.2.0.1",
-          "modVersion": "0.97.010",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.armorcalculatorpro_0.97.010_2.2.0.1.zip",
-          "updatedAt": "2026-03-19T15:32:04.800Z",
-          "sizeBytes": 610063,
-          "fileName": "champi.armorcalculatorpro_0.97.010_2.2.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current WoT patch"
         }
       ],
       "latest": {
@@ -32472,6 +32422,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "v1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansys_Custom_Gonsalo_Model_v1.8_1EfZT2u.rar",
+          "updatedAt": "2026-08-20T22:41:28.538Z",
+          "sizeBytes": 15988828,
+          "fileName": "Pansys_Custom_Gonsalo_Model_v1.8_1EfZT2u.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansys_Custom_Gonsalo_Model_v1.8_KLBLFFJ.rar",
@@ -32520,22 +32480,12 @@
           "fileName": "Pansys_Custom_Gonsalo_Model_v1.7_4mpF1nj.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansys_Custom_Gonsalo_Model_v1.7_REHVtr0.rar",
-          "updatedAt": "2026-05-05T00:04:16.601Z",
-          "sizeBytes": 16039107,
-          "fileName": "Pansys_Custom_Gonsalo_Model_v1.7_REHVtr0.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Pansys_Custom_Gonsalo_Model_v1.8_KLBLFFJ.rar",
+        "fileName": "Pansys_Custom_Gonsalo_Model_v1.8_1EfZT2u.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -32790,16 +32740,6 @@
           "fileName": "champi.reticledispersionpro_1.06.018_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.0.1",
-          "modVersion": "1.06.011",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.06.011_2.1.0.1.zip",
-          "updatedAt": "2025-12-03T08:37:24.128Z",
-          "sizeBytes": 681555,
-          "fileName": "champi.reticledispersionpro_1.06.011_2.1.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- fix the issue for not showing the gun marker for vehicles with charged guns (like the thermo-ballistic overcharge from Obj. 432U)"
         }
       ],
       "latest": {
@@ -33352,16 +33292,6 @@
           "fileName": "champi.customoutlinecolors_1.02.018_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "- adapted for current patch"
-        },
-        {
-          "wotGameVersion": "2.0.1.1",
-          "modVersion": "1.02.012",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.customoutlinecolors_1.02.012_2.0.1.1.zip",
-          "updatedAt": "2025-10-25T08:06:06.788Z",
-          "sizeBytes": 584739,
-          "fileName": "champi.customoutlinecolors_1.02.012_2.0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "repack for current wot version"
         }
       ],
       "latest": {
@@ -33552,16 +33482,6 @@
           "fileName": "champi.serialnumberpro_0.85.018_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.28.1.0",
-          "modVersion": "0.85.010",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.serialnumberpro_0.85.010_1.28.1.0.zip",
-          "updatedAt": "2025-04-16T12:05:39.375Z",
-          "sizeBytes": 482089,
-          "fileName": "champi.serialnumberpro_0.85.010_1.28.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current WoT patch"
         }
       ],
       "latest": {
@@ -33904,22 +33824,12 @@
           "fileName": "champi.crewcontrolcenter_1.08.012_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.0.2",
-          "modVersion": "1.08.007",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.crewcontrolcenter_1.08.007_2.1.0.2.zip",
-          "updatedAt": "2025-12-18T10:55:28.028Z",
-          "sizeBytes": 590202,
-          "fileName": "champi.crewcontrolcenter_1.08.007_2.1.0.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current WoT patch\n- remaining XP/ Battles information until next perk available is now also visible in the overall vehicle view (SPACE key) and in the tooltip of the current crew member "
         }
       ],
       "latest": {
-        "fileName": "champi.crewcontrolcenter_1.08.007_2.1.0.2.zip",
-        "changeLog": "- adapted for current WoT patch\n- remaining XP/ Battles information until next perk available is now also visible in the overall vehicle view (SPACE key) and in the tooltip of the current crew member ",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.crewcontrolcenter_1.08.012_2.3.1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "likelyCompatible"
       }
     },
     {
@@ -34773,16 +34683,6 @@
           "fileName": "champi.autoignorepro_1.04.019_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.0.1.1",
-          "modVersion": "1.04.013",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.autoignorepro_1.04.013_2.0.1.1.zip",
-          "updatedAt": "2025-10-25T08:06:02.948Z",
-          "sizeBytes": 566389,
-          "fileName": "champi.autoignorepro_1.04.013_2.0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "repack for current wot version"
         }
       ],
       "latest": {
@@ -36636,16 +36536,6 @@
           "fileName": "champi-wot-modpack-installer_v2.3.1.0_01.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "#01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.3.0.0_01.exe",
-          "updatedAt": "2026-07-14T13:19:49.498Z",
-          "sizeBytes": 4583059,
-          "fileName": "champi-wot-modpack-installer_v2.3.0.0_01.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -37206,16 +37096,6 @@
           "fileName": "champi.littlehelpercollection_1.69.023_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "- code cleanup"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.69.022",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.littlehelpercollection_1.69.022_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:29.863Z",
-          "sizeBytes": 840215,
-          "fileName": "champi.littlehelpercollection_1.69.022_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -37588,26 +37468,6 @@
           "fileName": "champi.expectedvehiclevalues2_2.01.000_2.3.1.1.zip",
           "fileExt": ".zip",
           "changeLog": "- fix for not displaying WNX panel if the MoE battle panel was deactivated\n- fix to no longer show a MoE panel in battle for vehicles without MoE 🙂\n- fix to avoid showing a wrong base MoE value in battle when the MoE panel in garage was deactivated"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.00.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.expectedvehiclevalues2_2.00.000_2.3.1.0_RDyPVMF.zip",
-          "updatedAt": "2026-08-01T22:44:26.982Z",
-          "sizeBytes": 1162299,
-          "fileName": "champi.expectedvehiclevalues2_2.00.000_2.3.1.0_RDyPVMF.zip",
-          "fileExt": ".zip",
-          "changeLog": "see mod description"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.67.012",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.expectedvehiclevalues_1.67.012_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:58.739Z",
-          "sizeBytes": 1014690,
-          "fileName": "champi.expectedvehiclevalues_1.67.012_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -37893,16 +37753,6 @@
           "fileName": "champi.sixthsensetimer_2.02.024_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.1",
-          "modVersion": "2.02.017",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.sixthsensetimer_2.02.017_2.1.1.1.zip",
-          "updatedAt": "2026-02-13T08:20:04.397Z",
-          "sizeBytes": 2383183,
-          "fileName": "champi.sixthsensetimer_2.02.017_2.1.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current WoT patch"
         }
       ],
       "latest": {
@@ -38027,16 +37877,6 @@
           "fileName": "champi.tankratingcolors_1.40.001_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.0.1.1",
-          "modVersion": "1.32.018",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankratingcolors_1.32.018_2.0.1.1.zip",
-          "updatedAt": "2025-10-25T08:06:19.500Z",
-          "sizeBytes": 583087,
-          "fileName": "champi.tankratingcolors_1.32.018_2.0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "repack for current wot version"
         }
       ],
       "latest": {
@@ -38691,16 +38531,6 @@
           "fileName": "champi.playerpanelpro_1.78.017_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.78.015",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.playerpanelpro_1.78.015_2.3.0.1.zip",
-          "updatedAt": "2026-06-11T12:14:33.538Z",
-          "sizeBytes": 980685,
-          "fileName": "champi.playerpanelpro_1.78.015_2.3.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -39334,16 +39164,6 @@
           "fileName": "2.2.1.3_Pansys_Customisation_Edits_v1.132.rar",
           "fileExt": ".rar",
           "changeLog": "v1.132 Update for 2.2.1.3:\n- Updated support for Patch 2.2.1.3"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "v1.131",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.2.1.0_Pansys_Customisation_Edits_v1.131_p1T1pnU.rar",
-          "updatedAt": "2026-05-05T00:05:11.185Z",
-          "sizeBytes": 362155583,
-          "fileName": "2.2.1.0_Pansys_Customisation_Edits_v1.131_p1T1pnU.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -39476,16 +39296,6 @@
           "fileName": "champi.minimapspamprotector_1.73.007_2.3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.0.1.1",
-          "modVersion": "1.73.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.minimapspamprotector_1.73.000_2.0.1.1.zip",
-          "updatedAt": "2025-10-25T08:06:27.062Z",
-          "sizeBytes": 627168,
-          "fileName": "champi.minimapspamprotector_1.73.000_2.0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "repack for current wot version"
         }
       ],
       "latest": {
