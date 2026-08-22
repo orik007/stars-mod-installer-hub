@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.062",
+  "catalogVersion": "v2026.08.063",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7856",
+      "title": "SU-122V <RESKIN>",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, latest version usually all the way down ex: X:\\WOT\\mods\\2.2.0.2 and paste it in there"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7851",
+      "title": "Better visible flat wagons",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy downloaded file “webium.Railway.wotmod” to /mods/2.3.1.2/ folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7857",
+      "title": "ProfileForge",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Open ProfileForge folder place all files into you'r Games\\World_of_Tanks_EU\\mods\\X.X.X *X X X = current World Of Tank version"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7853",
