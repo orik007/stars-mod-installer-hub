@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.063",
+  "catalogVersion": "v2026.08.064",
   "mods": [
     {
       "source": "wgmods",
@@ -419,21 +419,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7781",
-      "title": "WOT Tactic Bridge",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.3.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle. Changing the room key does not require reinstalling the mod."
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide clearly says to copy it into mods/<game version>; remaining steps are in-app configuration only.",
         "deleteDataWgpdc": false
       }
     },
