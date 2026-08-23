@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.064",
-  "sourceHash": "b13363f776e22a252b3def4e1ffdecd418de27701580d71ba5c2682b4f88081a",
+  "catalogVersion": "v2026.08.065",
+  "sourceHash": "6f1914afae5298d44ea4a5c496da88589796203b53d325dc6138ec93d43a4b98",
   "sources": [
     "wgmods",
     "modhub"
@@ -4949,7 +4949,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<h2><strong>⚠️ The mod does not allow you to buy customization items you normally cannot buy.</strong></h2><p><strong>🎨 Universal Customization</strong></p><p>Customize vehicles with almost any customization element in the game:</p><p>• 2D styles • Camouflages • Paints • Decals<br>• 3D styles • Progressive 3D styles • 3D attachments<br>• Inscriptions • Emblems • Effects</p><p>Mix and match elements to create vehicle appearances that are normally not possible.</p><p><strong>🌐 Style Share</strong></p><p>Other players who use Camo Selector can see your custom battle appearance. Style Share is enabled by default and can be changed in Exterior. Players without the mod will see the normal appearance.</p><p>Local custom asset files are not transferred through Style Share.</p><p><strong>✨ Creations</strong></p><p>Open Exterior and click “<i><strong>Creations (open)</strong></i>” to save and manage complete vehicle designs.</p><p>You can:<br>• Save, apply, refresh and duplicate Creations<br>• Add titles, descriptions, tags and classifications<br>• Search and import approved public Creations<br>• Publish your own Creations for review<br>• Publish and import individual assets through the Asset Library<br>• Publish and import complete Vehicle Presets</p><p>Creations and Vehicle Presets can include the custom local assets they require. When imported, the required assets are installed locally and automatically remapped for your client.</p><p>Nothing is uploaded automatically. Your local assets and Creations remain private unless you explicitly publish them.</p><p>Vehicle Presets are locked after import so they remain identical to the approved version, but can be duplicated into an editable local Creation.</p><p><i>Public gallery / Asset Library:</i><br><a href=\"https://camoselector.wot-tools.dev/\">https://camoselector.wot-tools.dev/</a></p><p><strong>🧩 Custom Assets</strong></p><p>Open Exterior and click “Custom Assets (open)” to create or import:</p><p>• Emblems • Inscriptions • Projection decals<br>• Camouflages • Paints</p><p>PNG/JPG files can be converted automatically where supported. DDS files are validated; DXT5 / BC3 with mipmaps is recommended.</p><p>Projection decal ratios:<br>• 1:1 • 1:2 • 1:3 • 1:4 • 1:6</p><p>Custom camouflages support scale, rotation, exact numeric input and palette-based colour/transparency with up to 3 palettes. Custom paints support colour, gloss and metallic values.</p><p><strong>🛠️ How to use</strong></p><p>•&nbsp;Open Exterior.<br>•&nbsp;Apply any camouflage you own.<br>•&nbsp;Purchase/confirm it and leave Exterior.<br>•&nbsp;Open Exterior again.<br>•&nbsp;Apply any style, camo, paint, decal, attachment, inscription, emblem or effect.<br>•&nbsp;Leave Exterior with Escape.<br>•&nbsp;Switching from an applied 2D style into custom editing keeps the 2D style appearance.</p><p><strong>✨ Recommended</strong></p><p><i>Clean Camo:</i><br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><p><i>Extra Style Filters:</i><br><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><p>Support / Questions / Suggestions:<br><a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Patreon:<br><a href=\"https://www.patreon.com/c/Gravity_Assist\">https://www.patreon.com/c/Gravity_Assist</a></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/WnMGZgt9Xqk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/WnMGZgt9Xqk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-06-12_120610066.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -8975,6 +8975,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.8.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-pademinune-armor-pen-calc-1.8.3.zip",
+          "updatedAt": "2026-08-22T20:48:36.942Z",
+          "sizeBytes": 45158,
+          "fileName": "UNZIP-pademinune-armor-pen-calc-1.8.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Added support section to settings gui\n- Made it easier to see mod version in game\n- Better logging"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "1.8.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-ME-pademinune-armor-pen-calc-1.8.2_yluWXC6.zip",
           "updatedAt": "2026-08-20T15:52:14.450Z",
@@ -9025,8 +9035,8 @@
         }
       ],
       "latest": {
-        "fileName": "UNZIP-ME-pademinune-armor-pen-calc-1.8.2_yluWXC6.zip",
-        "changeLog": "bump to new version",
+        "fileName": "UNZIP-pademinune-armor-pen-calc-1.8.3.zip",
+        "changeLog": "- Added support section to settings gui\n- Made it easier to see mod version in game\n- Better logging",
         "wotGameVersionCompatibility": "safe"
       }
     },
