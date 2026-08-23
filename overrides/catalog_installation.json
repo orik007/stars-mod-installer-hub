@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.066",
+  "catalogVersion": "v2026.08.067",
   "mods": [
     {
       "source": "wgmods",
@@ -1868,12 +1868,12 @@
       "title": "First Move",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "\"Unzip here\" in root game folder. In case game version differs from 2.3.0.0 - move files from mods/2.3.0.0 folder to folder of actual game version."
+        "latestInstallGuide": "\"Unzip here\" in root game folder. In case game version differs from 2.3.1.3 - move files from mods/2.3.1.3 folder to folder of actual game version."
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive guide requires extraction to game root plus a possible manual move from mods/2.3.0.0 to another versioned mods folder, which is a multi-step version-adjustment operation not covered by one supported template.",
+        "decisionReason": "Archive guide requires extraction to game root and additional manual move from mods/version folder if versions differ, making it a multi-step operation.",
         "deleteDataWgpdc": false
       }
     },
@@ -4352,21 +4352,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7464",
-      "title": "Type 5 KARI_Improved_Model",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Paste wotmod file in folder mods/current version. Important : If you want to modify the remodel's appearance (paint, lettering, etc.), start the game in safe mode and apply your changes. After you can launch the game in normal mode. Painting no included"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and the guide instructs pasting the .wotmod into mods/current version.",
         "deleteDataWgpdc": false
       }
     },
