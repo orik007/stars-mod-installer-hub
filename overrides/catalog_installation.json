@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.067",
+  "catalogVersion": "v2026.08.068",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7858",
+      "title": "Nakom Mod (For demonstration)",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the .zip file. Extract the file. Find \"audioww\" folder, copy it, and paste it in current version folder in \"res_mods\". In the folder, you should be able to find the following files: - audio_mods.xml - mod.bnk"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy the complete top-level audioww folder into res_mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7856",
@@ -75,6 +90,21 @@
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide targets mods/<version>; guide also explicitly says to delete data.wgpdc.",
         "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7848",
+      "title": "Super Mario Soundmod",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "INSTALLATION 1. World of Tanks vollständig beenden. 2. Die Datei christansteifen.supermario_soundmod_1.0.0.wotmod herunterladen. 3. Den World-of-Tanks-Installationsordner öffnen. 4. Folgenden Ordner öffnen: World_of_Tanks\\mods\\<aktuelle Spielversion>\\ Beispiel: World_of_Tanks\\mods\\2.3.1.0\\ Die tatsächliche Versionsnummer kann nach jedem World-of-Tanks-Update anders sein. 5. Die .wotmod-Datei direkt in diesen Versionsordner kopieren. WICHTIG: Die .wotmod-Datei NICHT entpacken. 6. World of Tanks starten. UPDATE NACH EINEM SPIELPATCH Wenn World of Tanks einen neuen Versionsordner unter \"mods\" anlegt, die .wotmod-Datei in den neuen Versionsordner kopieren. Bei größeren Änderungen am Audiosystem kann eine neue Version des Soundmods erforderlich sein. DEINSTALLATION World of Tanks beenden und folgende Datei aus dem aktuellen \"mods\"-Versionsordner löschen: christansteifen.supermario_soundmod_1.0.0.wotmod"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide says to copy it directly into mods/<version>.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -1664,6 +1694,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7683",
+      "title": "INQ_PACK Modpack",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "Open the modpack and follow the instructions; it will automatically install everything you want."
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Package is an .exe and guide says to open the modpack and follow installer instructions.",
         "deleteDataWgpdc": false
       }
     },
