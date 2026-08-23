@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.08.067",
-  "sourceHash": "8c648f982c160472c4d7a50ce54536bd8af376876040b2b3a53caf77c7e7b180",
+  "catalogVersion": "v2026.08.068",
+  "sourceHash": "b30ba2710fac911aa7336bace3ff2e0a2d24b9a58817fbfbeaea318aaa2678e8",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7858",
+      "title": "Nakom Mod (For demonstration)",
+      "ownerUsername": "teysanook",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod is to be proof of concept for Nakom Sound Modification restoration project.<br>The modification is not completed or refined. You can expect the instruction for DIY or further project improvement later.</p><p>Special thanks to cruzseara for initiation of this restoration and resources.<br>&nbsp;</p><p>Note:</p><p>There is no voiceover for frontline mode event yet.</p><p>Some original special crew sound will be replaced once you use this modification.</p>",
+      "installationGuideHtml": "<ol><li>Download the .zip file.</li><li>Extract the file.</li><li>Find \"audioww\" folder, copy it, and paste it in current version folder in \"res_mods\".</li><li>In the folder, you should be able to find the following files:<br>- audio_mods.xml<br>- mod.bnk</li></ol>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7858/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audioww_nakom.zip",
+          "updatedAt": "2026-08-23T15:10:34.206Z",
+          "sizeBytes": 853517,
+          "fileName": "audioww_nakom.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "audioww_nakom.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7856",
@@ -191,6 +227,42 @@
       ],
       "latest": {
         "fileName": "UE-57_Rocket_propelled.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7848",
+      "title": "Super Mario Soundmod",
+      "ownerUsername": "Christansteifen",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>SUPER MARIO SOUNDMOD BY CHRISTANSTEIFEN</p><p>Ein Mario-Themen-Soundmod für World of Tanks, der ausgewählte Gefechtsmeldungen, Treffer-Feedback und Fahrzeugereignisse durch passende Voice- und SFX-Clips ersetzt.</p><p>FEATURES</p><p>• Zufällige Soundvarianten für häufige Ereignisse, damit nicht ständig derselbe Clip abgespielt wird.<br>• Eigene Sounds für Treffer, Durchschläge, Abpraller und zerstörte Gegner.<br>• Sixth Sense mit eigenem Sound-Pool.<br>• Autoloader-Magazinreload: 6-Sekunden-\"Hop, Davai Davai\"-Clip.<br>&nbsp;Der Reload-Trigger wurde im Spiel mit der Bourrasque getestet.<br>• Eigene Kette beschädigt/zerstört: Mario-Falling/Oof-Sound.<br>• Eigene Kette repariert: Superstern-Fanfare oder \"Here we go!\".<br>• Gegnerische Kette kritisch beschädigt: Boo.<br>• Besatzungsmitglied fällt aus: Luigi \"Nooo!\".<br>• Eigene Sounds für Gefechtsstart, Sieg, Niederlage, Reparaturen und kritische Treffer.<br>• Random-Pools verwenden einen Wiederholschutz gegen direkt aufeinanderfolgende identische Varianten.</p><p>KOMPATIBILITÄT</p><p>Der Mod ist für World of Tanks PC vorgesehen und wird als .wotmod-Paket installiert.</p><p>Andere Soundmods können mit diesem Mod kollidieren, wenn sie ebenfalls \"audio_mods.xml\" bereitstellen oder dieselben WoT-Audioevents ersetzen. Bei Problemen andere Soundmods testweise entfernen.</p><p>Nach einem World-of-Tanks-Update muss die .wotmod-Datei gegebenenfalls in den neuen Versionsordner unter \"mods\" kopiert werden. Nach größeren Änderungen am WoT-/Wwise-Audiosystem kann ein Update des Mods erforderlich sein.</p><p>AUTOR</p><p>Ingame: Christansteifen<br>Clan: 4R3AL</p><p>Fan-Modifikation. Nicht offiziell mit Nintendo oder Wargaming verbunden oder von diesen unterstützt.<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>INSTALLATION</p><p>1. World of Tanks vollständig beenden.</p><p>2. Die Datei<br>&nbsp; christansteifen.supermario_soundmod_1.0.0.wotmod<br>&nbsp; herunterladen.</p><p>3. Den World-of-Tanks-Installationsordner öffnen.</p><p>4. Folgenden Ordner öffnen:<br>&nbsp; World_of_Tanks\\mods\\&lt;aktuelle Spielversion&gt;\\</p><p>&nbsp; Beispiel:<br>&nbsp; World_of_Tanks\\mods\\2.3.1.0\\</p><p>&nbsp; Die tatsächliche Versionsnummer kann nach jedem World-of-Tanks-Update anders sein.</p><p>5. Die .wotmod-Datei direkt in diesen Versionsordner kopieren.</p><p>&nbsp; WICHTIG:<br>&nbsp; Die .wotmod-Datei NICHT entpacken.</p><p>6. World of Tanks starten.</p><p>UPDATE NACH EINEM SPIELPATCH</p><p>Wenn World of Tanks einen neuen Versionsordner unter \"mods\" anlegt, die .wotmod-Datei in den neuen Versionsordner kopieren. Bei größeren Änderungen am Audiosystem kann eine neue Version des Soundmods erforderlich sein.</p><p>DEINSTALLATION</p><p>World of Tanks beenden und folgende Datei aus dem aktuellen \"mods\"-Versionsordner löschen:</p><p>christansteifen.supermario_soundmod_1.0.0.wotmod<br>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/supermario.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7848/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/christansteifen.supermario_soundmod_1.0.0_BwzOYsd.wotmod",
+          "updatedAt": "2026-08-23T15:50:51.605Z",
+          "sizeBytes": 1245561,
+          "fileName": "christansteifen.supermario_soundmod_1.0.0_BwzOYsd.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "christansteifen.supermario_soundmod_1.0.0_BwzOYsd.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -728,7 +800,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.2,
       "descriptionHtml": "<h2>Infinitum Aim Timer is a lightweight standalone aiming indicator for World of Tanks.</h2><h2>The mod displays:</h2><ul><li>remaining time until the gun is fully aimed;</li><li>selected aiming progress value;</li><li>a vertical progress bar that fills from bottom to top;</li><li>interactive color changes based on the current aiming progress.</li><li>The indicator transitions from red through yellow to green, allowing you to evaluate the current aiming state at a glance.</li></ul><h2>In-game settings allow you to choose:</h2><ul><li>time-based or circle-based progress;</li><li>theoretical maximum or the maximum for the vehicle’s current state;</li><li>time progress, circle progress, or the current circle-size multiplier below the bar.</li><li>Time-based progress with a percentage value is enabled by default.</li></ul><h2>Features:</h2><ul><li>accounts for increased dispersion while the vehicle is moving;</li><li>adapts to different vehicles, vehicle states, and gameplay mechanics;</li><li>does not modify gun handling, dispersion, firing mechanics, or reticle behavior;</li><li>optimized to avoid additional lag or noticeable FPS loss;</li><li>runs only during battles;</li><li>supports Ukrainian and English;</li><li>uses English as the fallback language;</li><li>allows separate indicator positions for arcade, sniper, and artillery views;</li><li>allows the indicator to be repositioned by dragging it in cursor mode;</li><li>hides after vehicle destruction and returns after respawning;</li><li>preserves settings and positions between game sessions.</li></ul><blockquote><p>All required dependencies are included in the package.</p></blockquote><p>Compatibility: World of Tanks 2.3.1.x<br>Version: 1.1.0<br>Developer: unicorn.ares</p>",
       "installationGuideHtml": "<p>Extract the archive into the World of Tanks root directory.</p><blockquote><p>All included .wotmod files must be placed in the mods/&lt;current game version&gt;/ directory while preserving the included subfolder structure.</p></blockquote>",
@@ -739,6 +811,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.3.zip",
+          "updatedAt": "2026-08-23T15:11:26.007Z",
+          "sizeBytes": 1744448,
+          "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "no changes; repack for 2.3.1.3"
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.1.0",
@@ -761,9 +843,9 @@
         }
       ],
       "latest": {
-        "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.2.zip",
-        "changeLog": "Added in-game settings;\nAdded a choice between time-based and circle-based progress;\nAdded theoretical and current vehicle state limits for circle progress;\nAdded multiple values below the bar: time progress, circle progress, or circle-size multiplier;\nTime-based progress with percentage is now the default;\nImproved calculations for different vehicles and changing vehicle states;",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.3.zip",
+        "changeLog": "no changes; repack for 2.3.1.3",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5390,6 +5472,85 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7683",
+      "title": "INQ_PACK Modpack",
+      "ownerUsername": "INQSIT0R",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": true,
+      "mark": 3.9,
+      "descriptionHtml": "<p>&nbsp;🇺🇦 INQ Pack — a convenient modpack for World of Tanks</p><p>Hello everyone! <strong>INQ Pack</strong> is a convenient modpack that brings together the essential and most useful mods for a comfortable gaming experience. All mods are neatly sorted into categories, with descriptions and previews, so it's easy to find exactly what you need.</p><p><strong>🔥 What's inside:</strong><br>✅ sights and combat utilities<br>✅ WN8, in-battle stats, marks of excellence and aces<br>✅ damage, HP, efficiency and spotting panels<br>✅ minimap mods and extra in-battle information<br>✅ PMOD and Pmod|Tweaker with separate settings<br>✅ garage mods, graphics, sound and system enhancements<br>✅ cache, mods, replays and old update cleanup before installation</p><p><strong>⚙️ Convenience:</strong><br>The installer lets you quickly select the mods you need, preview them, apply ready-made presets, and install everything without manually copying files.</p><p><strong>🔄 Auto-update:</strong><br>The pack checks for a new version on launch and asks whether to download the update. Nothing is downloaded without your confirmation.</p><p>💙 INQ Pack is built for players who want to quickly install the mods they need and comfortably customize their game.<br><br>The package includes English, so installation won't be a problem for you.</p>",
+      "installationGuideHtml": "<p>Open the modpack and follow the instructions; it will automatically install everything you want.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ig_013532615b881c99016a1441842f748191a5421b24a7b64cd5.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7683/",
+      "tagIds": [
+        "12",
+        "11",
+        "15"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "4.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_cOjFM7J.exe",
+          "updatedAt": "2026-08-21T09:07:17.676Z",
+          "sizeBytes": 131774466,
+          "fileName": "INQ_Pack_Installer_cOjFM7J.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "4.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_SUxBOvL.exe",
+          "updatedAt": "2026-08-16T09:49:21.847Z",
+          "sizeBytes": 127625218,
+          "fileName": "INQ_Pack_Installer_SUxBOvL.exe",
+          "fileExt": ".exe",
+          "changeLog": "Мод на динамічну підсвітку броні \nМод на менеджер запрошень \nМод на підтримку Діскорд \nМод на хп в вухах ( єможливість налаштувати в грі + вибрати колір замалювання танків )"
+        },
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "4.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer.exe",
+          "updatedAt": "2026-08-12T14:40:26.517Z",
+          "sizeBytes": 126260226,
+          "fileName": "INQ_Pack_Installer.exe",
+          "fileExt": ".exe",
+          "changeLog": "Оновлено моди "
+        },
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "3.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_sHBXkt3.exe",
+          "updatedAt": "2026-08-10T19:02:03.431Z",
+          "sizeBytes": 122423298,
+          "fileName": "INQ_Pack_Installer_sHBXkt3.exe",
+          "fileExt": ".exe",
+          "changeLog": "Добавлено мод вирішальний постріл \nДобавлено мод звук засвіту useikaj"
+        },
+        {
+          "wotGameVersion": "2.3.1.1",
+          "modVersion": "3.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_MuRYnp9.exe",
+          "updatedAt": "2026-08-08T22:40:20.564Z",
+          "sizeBytes": 120859138,
+          "fileName": "INQ_Pack_Installer_MuRYnp9.exe",
+          "fileExt": ".exe",
+          "changeLog": "Оновлено моди "
+        }
+      ],
+      "latest": {
+        "fileName": "INQ_Pack_Installer_cOjFM7J.exe",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7679",
       "title": "TS-54 in Mirny theme",
       "ownerUsername": "Vik3Y__",
@@ -6225,7 +6386,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>First Move displays a minimap heatmap overlay showing the most common opening routes for your current vehicle. Mod is aimed to support players who are sometimes not sure what initial paths to choose.</p><p>The heatmaps are generated from approximately <strong>32,000 best battle replays</strong> from wot-record starting from 2.0 and are based on routes taken by players who achieved strong battle results. The mod helps you quickly understand where successful players typically deploy at the start of a match and which areas are most frequently contested. This is best effort, which means that for unpopular tanks some processed replays have lower masteries or in rare cases no overlay data is available.&nbsp;</p><p>Features</p><ul><li>Vehicle-specific heatmaps.</li><li>Opening route visualization directly on the minimap.</li><li>Based on real player battle data.</li><li>Lightweight in-game overlay.</li><li>Hotkey support.</li></ul><p>Supported Vehicles</p><ul><li>Light Tanks (Tier X–XI)</li><li>Medium Tanks (Tier X–XI)</li><li>Heavy Tanks (Tier X–XI)</li><li>Tank Destroyers (Tier X–XI)</li><li>• Popular premium tanks (Tiers VIII–IX)</li><li>Some regular Tier VIII-IX tanks</li></ul><p>Controls</p><ul><li>Ctrl+H — Enable / Disable heatmap overlay.</li></ul><p>In case of bugs or requests please contact me in Discord: dscorp</p>",
       "installationGuideHtml": "<p>\"Unzip here\" in root game folder. In case game version differs from 2.3.1.3 - move files from mods/2.3.1.3 folder to folder of actual game version.</p>",
@@ -6235,6 +6396,16 @@
         "19"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/first_move_0.3_fAifBQE.zip",
+          "updatedAt": "2026-08-23T15:10:50.232Z",
+          "sizeBytes": 8152839,
+          "fileName": "first_move_0.3_fAifBQE.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added 6k replays, merged regular and clone tanks, fixed and licalized garage settings"
+        },
         {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "0.2",
@@ -6257,9 +6428,9 @@
         }
       ],
       "latest": {
-        "fileName": "wot-heatmap-mod-0.1.6.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "first_move_0.3_fAifBQE.zip",
+        "changeLog": "Added 6k replays, merged regular and clone tanks, fixed and licalized garage settings",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
