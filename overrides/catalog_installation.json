@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.068",
+  "catalogVersion": "v2026.08.069",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7859",
+      "title": "KARI Improved model",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste wotmod folder in mods/current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7858",
