@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.08.068",
-  "sourceHash": "b30ba2710fac911aa7336bace3ff2e0a2d24b9a58817fbfbeaea318aaa2678e8",
+  "catalogVersion": "v2026.08.069",
+  "sourceHash": "ebf3f791c4b41be68dda3410b28461ae4c9677bb808dd875979b3f9389d060e5",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7859",
+      "title": "KARI Improved model",
+      "ownerUsername": "cerberus50",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Model</p><p>remodel - Tank commander by grumpf &nbsp;&nbsp;</p><p>His works : https://wgmods.net/search/?owner=127630</p><p>Painting not included</p>",
+      "installationGuideHtml": "<figure class=\"image\"><img src=\"https://wgmods.net/media/m_images/8753ae96-c7ec-4ae1-a154-ff433bc1e526.png\"><figcaption>Paste wotmod folder in mods/current version</figcaption></figure>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_002_s2s89wr.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7859/",
+      "tagIds": [
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Type_5_KaRi_Improved_Model_7espaCp.wotmod",
+          "updatedAt": "2026-08-24T12:24:38.733Z",
+          "sizeBytes": 107251599,
+          "fileName": "Type_5_KaRi_Improved_Model_7espaCp.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Type_5_KaRi_Improved_Model_7espaCp.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7858",
@@ -1645,6 +1681,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotTweaker_EwWlKUc_0pF6jbc.zip",
+          "updatedAt": "2026-08-24T12:47:30.493Z",
+          "sizeBytes": 23228,
+          "fileName": "WotTweaker_EwWlKUc_0pF6jbc.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotTweaker_EwWlKUc.zip",
@@ -1676,9 +1722,9 @@
         }
       ],
       "latest": {
-        "fileName": "WotTweaker_EwWlKUc.zip",
+        "fileName": "WotTweaker_EwWlKUc_0pF6jbc.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2816,6 +2862,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "Reload 0.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ByForMOD_installer_9IV62I6_wSwJyfi.zip",
+          "updatedAt": "2026-08-24T12:47:13.964Z",
+          "sizeBytes": 24357129,
+          "fileName": "ByForMOD_installer_9IV62I6_wSwJyfi.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "Reload 0.9",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ByForMOD_installer_9IV62I6.zip",
@@ -2847,9 +2903,9 @@
         }
       ],
       "latest": {
-        "fileName": "ByForMOD_installer_9IV62I6.zip",
+        "fileName": "ByForMOD_installer_9IV62I6_wSwJyfi.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -9164,7 +9220,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.7,
       "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>1. They don't compute and display the exact probability of penetrating.</p><ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</li></ul><p>2. This mod has more features and receives regular updates.</p><ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Computes and displays probability of killing a low hp tank<ul><li>Takes into account their armor and hp</li></ul></li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/armor-pen-aislain_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -24116,7 +24172,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.7,
+      "mark": 3.5,
       "descriptionHtml": "<p>The <strong>WOTInspector Heatmaps</strong> mod overlays live heatmaps on the minimap during battle — movement prediction, top damage positions, and spotting hotspots. It also records movements, shots, penetrations, and damage for interactive heatmaps on WOTInspector.com available at <a href=\"https://map.wotinspector.com\">https://map.wotinspector.com</a>.<br>&nbsp;</p><h2>Key Features</h2><ul><li>Movement prediction: See where players typically move over the next two minutes, drawn directly on your minimap.</li><li>Top damage positions: Highlight the spots where the most damage is dealt so you know where fights usually break out.</li><li>Top spotting positions for light tanks: Show the best assisted-damage and spotting positions.</li><li>Automatic battle recording: Every shot, movement, and damage event is logged without manual input for the web heatmaps dashboard.</li><li>Seven-day trial: New users get a full week of unrestricted overlay use when they first start the mod.</li><li>Free tier after trial: When the trial ends, you can still play up to three battles per day with the overlay at no cost.</li></ul>",
       "installationGuideHtml": "<ol><li>Download zip file</li><li>Unzip to <strong>mods/&lt;version&gt;</strong> folder</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_heatmaps_movements_mfQ9vjt.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -34650,7 +34706,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<h2>FROM WOT 1.24, WE MERGED ALL ASMC FRANCHISE INTO ONE MOD PACK.</h2><h2>IN JAN 2024, WG FORUM HAS CLOSED.&nbsp;<br><a href=\"https://aslain.com/index.php?/topic/25360-anime-style-mod-collection-login-crew-music/\">WE HAVE MOVED TO ASLAIN FORUM AS A DOWNLOAD THREAD</a>.&nbsp;<br>UPDATES ARE FASTER IN THERE.</h2><h2>&nbsp;</h2><h2><i>INTRODUCTION</i></h2><p>After days full of fierce battles, you are relaxing in your tank's garage&nbsp;and suddenly realized that the game's factor such as soundtracks, images, ... becomes too familiar to you. Then why wouldn't you try out our mods? We will bring to you a new fresh air with a combination of cute anime girls and tankers' spirits, leading you to your victory!</p><p><strong>About Vinyl Edition contents</strong>, this is our latest edition of the ASMC. The music style of Vinyl Edition, as the name suggested, is a mix of electronic and rock music that you often experience in the 90s and 2000s. Therefore, the music has less anime-related theme and more suitable for general audience.</p><p>Interface elements of Vinyl Edition features sci-fi theme, where you can see mecha, cyborg, futuristic world, ... all of which blends perfectly with the music and the mordern looking Miku hangar to create a satisfaction for any sci-fi lovers.</p><p>&nbsp;</p><h2><i>FEATURES LIST</i></h2><ul><li><strong>User Interfaces </strong><i>from IGN <strong>TacticaL_Mech_Tank</strong></i><br><ul><li>Login Screen &amp; Login Video</li><li>Battle Loading Screen</li><li>Sixthsense Icon</li><li>Crew Image</li><li>Battle Result Window</li></ul></li><li><strong>Background Music </strong><i>from IGN <strong>NyanDora_Mech_Tank</strong></i><br><ul><li>Login Screen Music &amp; Login Video Music</li><li>Hangar Music</li><li>Battle Loading Music &amp; Combat Music</li><li>Crew Voice &amp; Sixthsense Voice</li><li>Gun Sound <i>(External mod from <strong>ed76na</strong> and <strong>Polyacov_Yury</strong>)</i></li></ul></li><li><strong>Support Mods</strong><ul><li>J1mB0 Crosshair <i>(External mod from <strong>J1mB0</strong>, <strong>Grabaah</strong> and <strong>Andre_V</strong>)</i></li><li>J1mB0 Countour Icon <i>(External mod from <strong>J1mB0 </strong>and <strong>Grabaah</strong>)</i></li><li>SaveAccount <i>(External mod from <strong>Chirimen</strong>)</i></li></ul></li></ul><p>&nbsp;</p><h2><i>BACKGROUND INFORMATION</i></h2><p>The year is 2265. It's already near two centuries passed after the 77 hour war between human and machines, where the victor was the one with greater control over their advanced weaponery. This time, to not repeat the mistake we once made, us human chooses to reawake our old beasts: tanks that does not use the advanced technology to operate, thus inmune to the influence of the machines.</p><p>Surely you will need experienced crew mates to control these tanks. Meet our girls, who are abandoned dolls in the machine's society. They are our best ally and&nbsp;will follow your every order to fight for the greater good of both races.</p><p>You are our world's last hope, Commander!&nbsp;Lead the human revolution to victory!&nbsp;</p><p><strong>About ASMC history,</strong> first introduced since update 8.10, when the Japanese tanks made their first appearance in the game, Anime-Style Mod Collection (ASMC) has been through a long journey. Changing your <strong>login screens</strong>,<strong> crew</strong>,<strong> voice</strong>, ... and even the <strong>music</strong> into that of <strong>anime-related</strong>, we hope that our mod will not only satisfied anime lovers but also veterans that loves a change of wind to once again returning to the game with new enthusiasm.</p><p>&nbsp;</p><h2><a href=\"https://youtu.be/VT99Ehj5ffs?t=280\"><i>PREVIEW VIDEO (youtube)</i></a></h2><p><i>*Video recorded in previous version of WoT, thus some of the contents could be different with the current version.</i></p><p><i><strong>Enjoy the mod and see you on the battlefield!</strong></i></p>",
       "installationGuideHtml": "<p><strong>We strongly recommends that you should remove all previous mods in your game folder.</strong></p><p><strong>Installation:</strong></p><ol><li>Extract the downloaded archive using WinRAR (v5.21 or above).</li><li><strong>Please read the Instruction file</strong> if this is your 1st installation time.</li><li>Open the installer.</li><li>Click next until you see the installation path. Browse to <strong>World of Tanks</strong> folder.</li></ol><p>5. Select your mods following<strong> notes in the Instruction file</strong>.</p><p>6. Restart the game for 1-2 times to stablize the mods.</p><p>7. For best experience, refer to<strong> the Recommended In-game Settings</strong> in<strong> Instruction file.</strong></p><p>8. To install more mods later, run the installer again and make changes, it automatically saves your previous selection.</p><p>9. To completely remove the mod, go into Control Panel/Programs and Features, look for<strong> Vinyl Edition</strong>.</p><p><strong>Note:</strong></p><ol><li>Hangar mod only works with <strong>Improved Graphics </strong>and will not replace <strong>event hangar</strong>.</li><li><strong>Sound Bank Loader</strong> must be installed if using any sound mod.</li><li><strong>Record Background</strong> only scale correctly with 1920x1080 resolution.</li></ol>",
@@ -34662,6 +34718,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.3.1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_l4OrG5y.rar",
+          "updatedAt": "2026-08-24T09:51:41.937Z",
+          "sizeBytes": 46626648,
+          "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_l4OrG5y.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "2.3.1.2",
@@ -34701,22 +34767,12 @@
           "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_pUvxZPA.rar",
           "fileExt": ".rar",
           "changeLog": "Updated for WoT 2.3.0.1"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "2.3.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_rVhcQox.rar",
-          "updatedAt": "2026-06-04T13:25:12.148Z",
-          "sizeBytes": 46626532,
-          "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_rVhcQox.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_ImZOmrY.rar",
+        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_l4OrG5y.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39914,7 +39970,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<h2>FROM WOT 1.24, WE MERGED ALL ASMC FRANCHISE INTO ONE MOD PACK.<br>&nbsp;</h2><h2>IN JAN 2024, WG FORUM HAS CLOSED.&nbsp;<br><a href=\"https://aslain.com/index.php?/topic/25360-anime-style-mod-collection-login-crew-music/\">WE HAVE MOVED TO ASLAIN FORUM AS A DOWNLOAD THREAD</a>.&nbsp;<br>UPDATES ARE FASTER IN THERE.</h2><h2>&nbsp;</h2><h2><i>INTRODUCTION</i></h2><p>First introduced since update 8.10, when the Japanese tanks made their first appearance in the game, Anime-Style Mod Collection (ASMC) has been through a long journey. Changing your <strong>login screens</strong>,<strong> crew</strong>,<strong> voice</strong>, ... and even the <strong>music</strong> into that of <strong>anime-related</strong>, we hope that our mod will not only satisfied anime lovers but also veterans that loves a change of wind to once again returning to the game with new enthusiasm.</p><h2><i>FEATURES LIST</i></h2><p><strong>&nbsp; &nbsp; &nbsp;1. Interface</strong></p><p>&nbsp; &nbsp; &nbsp;- Anime-styled <strong>login screens</strong> that carves the dark and intensed atmosphere of the battlefield.</p><p>&nbsp; &nbsp; &nbsp;- Detailed <strong>hangar UI</strong> mods. Whatever you do in the garage, you will find out interesting features.</p><p>&nbsp; &nbsp; &nbsp;- Special <strong>crew</strong> mod that possess unique members for each country and <strong>crew skin </strong>of various anime characters.</p><p>&nbsp; &nbsp; &nbsp;- <strong>Battle loading screens</strong> with the panzer girls that are actual the personifications of ingame vehicles (artist: <strong>그래도청춘 </strong>on <a href=\"http://m.inven.co.kr/board/powerbbs.php?come_idx=3444&amp;category=%EC%A0%84%EC%B0%A8&amp;stype=nickname&amp;svalue=%EA%B7%B8%EB%9E%98%EB%8F%84%EC%B2%AD%EC%B6%98&amp;l=1253\">m.inven.co.kr</a>).</p><p>&nbsp; &nbsp; &nbsp;- Anime <strong>tips</strong> that makes you laugh or even do a tactical facepalm, and they are matched with the game’s original tips.</p><p>&nbsp; &nbsp; &nbsp;- Splendid <strong>battle result screen</strong> shows up when you walk out from the battlefield, laugh proudly for the victory or cry regrettably when you lost.</p><p>&nbsp; &nbsp; &nbsp;- And if you are about to<strong> exit</strong> after a nice grinding day, please wait…</p><p>&nbsp; &nbsp; &nbsp;<strong>2. Music</strong></p><p>&nbsp; &nbsp; &nbsp;The music mod features selective and impressive tracks taken from notorious anime that makes you bristle because of the composer’s excellence, such as <strong>Sword Art Online, Mirai Nikkin, Naruto,&nbsp;</strong>or even the legendary <strong>Gundam</strong> series.</p><p>&nbsp; &nbsp; &nbsp;- <strong>Login music</strong> &nbsp;as the welcome every time you start the game.</p><p>&nbsp; &nbsp; &nbsp;- Thrilling, epic and strong yet emotional anime <strong>vocal tracks</strong> from military and bloody thematic anime will make you love spending your time in the garage.</p><p>&nbsp; &nbsp; &nbsp;- Selective, unique and impressive battle<strong> intro music</strong> for every map.</p><p>&nbsp; &nbsp; &nbsp;- And when you are in a tight situation? Let the epic, thrilling orchestral-rock thematic <strong>battle music</strong> inspire you to your most desperate measure.</p><p><strong>&nbsp; &nbsp; &nbsp;3. Sound and external mods</strong></p><p>&nbsp; &nbsp; &nbsp;- <strong>Female anime crew voice</strong>, with 2 variants: one for the moe-lovers with cute voices from anime GJ-bu, and the other more serious and mature voice for the not-so-dere tankers.</p><p>&nbsp; &nbsp; &nbsp;- The popular and easy to install but outstanding <strong>Thundering gun sound </strong>(authors:<i> <strong>ed76na</strong> and <strong>Polyacov_Yury</strong>)</i>.</p><p>&nbsp; &nbsp; &nbsp;- Simple but effective support mods like Jimbo <strong>crosshair </strong>(authors: <i><strong>J1mB0</strong>, <strong>Grabaah</strong> and <strong>Andre_V</strong>)</i>, <strong>save password </strong>(author: <i><strong>Chirimen</strong>)</i> …</p><p>&nbsp; &nbsp; &nbsp;Fortunately, those are not the last of our mods!</p><p>&nbsp; &nbsp; &nbsp;Dive in to find out more on your own!</p><p>&nbsp; &nbsp; &nbsp;</p>",
       "installationGuideHtml": "<p><strong>We strongly recommends that you should remove all previous mods in your game folder.</strong></p><p><strong>Installation:</strong></p><ol><li>Extract the downloaded archive using WinRAR (v5.21 or above).</li><li><strong>Please read the Instruction file</strong> if this is your 1st installation time.</li><li>Open the installer.</li><li>Click next until you see the installation path. Browse to <strong>World of Tanks</strong> folder.</li></ol><p>5. Select your mods following<strong> notes in the Instruction file</strong>.</p><p>6. Restart the game for 1-2 times to stablize the mods.</p><p>7. For best experience, refer to<strong> the Recommended In-game Settings</strong> in<strong> Instruction file.</strong></p><p>8. To install more mods later, run the installer again and make changes, it automatically saves your previous selection.</p><p>9. To completely remove the mod, go into Control Panel/Programs and Features, look for<strong> Steel Maiden</strong>.</p><p><strong>Note:</strong></p><ol><li>Hangar mod only works with <strong>Improved Graphics.</strong></li><li>Hangar mod will not&nbsp;replace <strong>event hangar</strong>.</li><li><strong>Sound Bank Loader</strong> must be installed if using any sound mod.</li><li><strong>Record Background</strong> only scale correctly with 1920x1080 resolution.</li></ol>",
@@ -39926,6 +39982,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.3.1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_699YsKu.rar",
+          "updatedAt": "2026-08-24T09:51:55.671Z",
+          "sizeBytes": 46626648,
+          "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_699YsKu.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "2.3.1.2",
@@ -39965,22 +40031,12 @@
           "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_Cmty3Oj.rar",
           "fileExt": ".rar",
           "changeLog": "Updated for WoT 2.3.0.1"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "2.3.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_xxjbNnv.rar",
-          "updatedAt": "2026-06-04T13:25:36.173Z",
-          "sizeBytes": 46626532,
-          "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_xxjbNnv.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_Y5cZZiA.rar",
+        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_699YsKu.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44745,6 +44801,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "04",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_04.exe",
+          "updatedAt": "2026-08-24T11:26:14.143Z",
+          "sizeBytes": 59654004,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_04.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.1.3 #04 (24-08-2026):\n- Updated XVM 13.1.0_0073\n- Updated Armor Penetration Calculators\n- Updated net.openwg.common 2.7.5 (probably fixes the issue for steam+nvidia users)\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "03",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_03.exe",
           "updatedAt": "2026-08-22T17:53:28.794Z",
@@ -44775,8 +44841,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_03.exe",
-        "changeLog": "- Installer: a clean install no longer wipes the mods\\configs folder, so your mod settings stay in place; added an option to delete that folder as well\n- Updated WOTInspector Heatmaps\n- Updated MoE Calculator 14th_ua\n- Updated Research Progress Bar by 14th_ua\n- Removed all FPS limiters and replaced them with FPS Optimizer (from net.openwg.common): separate frame rate limits for battle and Garage, plus AMD Radeon Anti-Lag 2 and NVIDIA Reflex support. It is also installed together with XVM\n- Note: the old FPS limiter selection is not carried over, so if you used one, tick FPS Optimizer manually during this install. Anti-Lag 2 and Reflex are off by default, enable them in the game graphics settings\n- Note: Battle Equipment: the panel side and ALT-key options are gone from the modpack list, set them yourself in the mod settings menu in the garage\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_04.exe",
+        "changeLog": "v2.3.1.3 #04 (24-08-2026):\n- Updated XVM 13.1.0_0073\n- Updated Armor Penetration Calculators\n- Updated net.openwg.common 2.7.5 (probably fixes the issue for steam+nvidia users)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
