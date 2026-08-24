@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.08.069",
-  "sourceHash": "ebf3f791c4b41be68dda3410b28461ae4c9677bb808dd875979b3f9389d060e5",
+  "catalogVersion": "v2026.08.070",
+  "sourceHash": "639253dcc8fc9f981d7cf857ad0044d6e6e29d1a4b32697f48953c74fb29a5af",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7860",
+      "title": "Zanju's Salvo Reticle Fix",
+      "ownerUsername": "Nersus",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod removes the accuracy obfuscation from the salvo mode vehicles.</p><p>On every vehicle in the game, reticle size is directly related to current dispersion. However, on vehicles which have the <strong>Salvo Fire Mode</strong> (<i>at the time of writing only the </i><a href=\"https://worldoftanks.eu/en/tankopedia/21841-GB142_FV230_Canopener/\"><i>FV230 Canopener</i></a><i> line and related premium vehicles</i>) when the said salvo mode is engaged, size of the reticle is modified by a hidden gunMarkerOffset value. This obfuscates the actual size of the reticle depending on the distance to the aiming point, which is unlike any other vehicle type in the game. This mod removed this obfuscation, so that reticle in salvo mode shows its real size and lets the player judge the accuracy properly.</p>",
+      "installationGuideHtml": "<p>You can read the installation guide at the <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/blob/-/docs/installing-mods.md\">source repository</a>.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_PSrYA8I.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7860/",
+      "tagIds": [
+        "15",
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.salvoreticlefix_1.0.0.zip",
+          "updatedAt": "2026-08-24T14:15:31.901Z",
+          "sizeBytes": 45169,
+          "fileName": "zanju.salvoreticlefix_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "zanju.salvoreticlefix_1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7859",
@@ -325,6 +362,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-pademinune-AP_Calculator-2.0.1.zip",
+          "updatedAt": "2026-08-24T14:16:28.390Z",
+          "sizeBytes": 410982,
+          "fileName": "UNZIP-pademinune-AP_Calculator-2.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Fixed bug where there was a window blocking you from activating reserves in battle.\n- You can now see the mod version in game in the settings gui.\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "2.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-pademinune-AP_Calculator-2.0.0.zip",
           "updatedAt": "2026-08-20T15:51:20.622Z",
@@ -345,8 +392,8 @@
         }
       ],
       "latest": {
-        "fileName": "UNZIP-pademinune-AP_Calculator-2.0.0.zip",
-        "changeLog": "bump to new update",
+        "fileName": "UNZIP-pademinune-AP_Calculator-2.0.1.zip",
+        "changeLog": "- Fixed bug where there was a window blocking you from activating reserves in battle.\n- You can now see the mod version in game in the settings gui.\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1540,7 +1587,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<h2>This mod makes using directives easy while avoiding accidental spending of bonds.</h2><ul><li><strong>Quick directives access</strong> — directives can be installed and taken off your tank with a single click, without entering directives menu.</li><li><strong>Only what is needed</strong> — unlike the game's menu, the directives which have no effect are filtered out.</li><li><strong>Effects at a glance</strong> — directives are split into sections depending on their effect: boosting equipment, boosting fully trained perks and boosting untrained perks to 100%. In the last section you are even told how much each boost gives you depending on your crew training level.</li><li><strong>Watch your bonds</strong> — if auto-resupply is active and you're on your last directive, the mod will warn you that going into the battle will spend resources.</li><li><strong>Safe purchase</strong> — if you don't own a directive, the <i>Show unowned</i> checkbox shows it on the list. Clicking it will open the game's own purchase window with confirmation — you still have to confirm the purchase, so <i>misclicks are safe</i>.</li><li><strong>Auto-resupply</strong> — can be toggled on or off right in the mod's UI.</li><li><strong>Dynamic UI</strong> — the window can be collapsed and expanded, moved around, and its width manually changed at will.</li></ul>",
-      "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
+      "installationGuideHtml": "<p>You can read the installation guide at the <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/blob/-/docs/installing-mods.md\">source repository</a>.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_9AVHjya.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7815/",
       "tagIds": [
@@ -1889,7 +1936,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>This mod shows precisely how much premium time you have left.</p><p>The game's own Premium Account header button only shows a day count — <strong>1 d</strong> tells you nothing, it could be 23 hours or 15 minutes. This mod improves the existing UI:</p><ul><li><strong>Header counter</strong> — the header button shows a timer that gets more precise as time runs out: it keeps the two largest units, so <strong>3d 05h</strong> with days left and <strong>5m 12s</strong> in the final hour. When premium is not running, the button keeps the game's default label.</li><li><strong>Tooltip end time</strong> — the button's hover tooltip gains the exact end date and time, to the second, with the UTC offset.</li></ul>",
-      "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
+      "installationGuideHtml": "<p>You can read the installation guide at the <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/blob/-/docs/installing-mods.md\">source repository</a>.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_pFr9uWU.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7800/",
       "tagIds": [
@@ -2919,7 +2966,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.2,
       "descriptionHtml": "<p>Hangar Carousel Plus extends the native World of Tanks 2.x hangar carousel with smart filters, sorting, local statistics, and configurable row layouts.</p><p>The mod currently targets the Wargaming EU 2.3.1.x client and provides:</p><ul><li>filters for incomplete Field Modification, incompletely trained crews, and non-elite vehicles;</li><li>reward/special, not-ready, no-Ace, fewer-than-three-Marks, and research-now-available filters;</li><li>battles, win rate, average damage, mastery, and Marks of Excellence on vehicle cards and in the native hover card;</li><li>sorting by battles, win rate, average damage, Marks of Excellence, or last played;</li><li>one-, two-, three-, and four-row carousel layouts with an automatic mode;</li><li>optional hiding of the Buy vehicle, Buy slot, and Restore vehicle cells;</li><li>a settings page through ModsSettingsAPI;</li><li>localization for all 24 EU client languages.</li></ul>",
       "installationGuideHtml": "<p>Download the complete Hangar Carousel Plus bundle</p><ol><li>Close World of Tanks.</li><li>Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from &lt;game&gt;\\mods\\2.3.1.0\\.</li><li>Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory.</li><li>Start the game</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/hangar-carousel-plus.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -6367,7 +6414,7 @@
       "recommended": false,
       "mark": 5,
       "descriptionHtml": "<p>This mod adds a fully customisable progress bar which shows your progress in:</p><ul><li><strong>Module and vehicle research</strong><ul><li>See how close you are to researching modules and vehicles <i>without entering any menu</i>.</li><li>On tier X vehicles you can <i>optionally</i> show progress towards hypothetical future Tier 11 vehicles <i>that might be added in the future</i>.</li></ul></li><li><strong>Field modifications</strong><ul><li>See how close you are to unlocking each field modification level <i>without entering any menu</i>.</li><li>Each level shows what options are available, or will be available once unlocked.</li><li><i>Optionally</i> the bar can stay displayed even after field modification research to quickly check what upgrade is selected <i>without entering any menu</i>.</li></ul></li><li><strong>Tier 11 upgrades system</strong><ul><li>See how close you are to unlocking next upgrade <i>without entering any menu</i>.</li><li>Still helpful to see overall progress, even though a flat progress bar cannot display the complex upgrade tree.</li></ul></li><li><strong>Elite level progress</strong><ul><li>See how close you are to reaching next elite level.</li><li>Shows progress towards cosmetic elements tied to elite level available for Tier 11 vehicles.</li><li><i>Optionally</i> the bar can display progress towards elite level badges.</li></ul></li></ul><p>Other features of the mod:</p><ul><li>The bar can <i>optionally</i> allow research and purchase of items without entering the respective menus:<ul><li>Safe by design - purchases and research use the game's native confirmation windows, so a misclick won't cause accidental research.</li><li>Research mode allows researching modules and vehicles.</li><li>Field mods mode allows unlocking, selecting and toggling dual modifications, secondary loadouts and second slot categories.</li><li>Tier 11 upgrades mode opens the upgrades screen from a reachable item, since the flat bar cannot show the branching upgrade tree.</li></ul></li><li>Different XP types are taken into account:<ul><li>Separate calculation for research using vehicle XP only. (<i>Displayed in green</i>)</li><li>Separate calculation for research using vehicle XP + free XP. (<i>Displayed in yellow</i>)</li><li>Elite level progress is calculated based on base XP.</li></ul></li><li><i>Optional</i> warning messages:<ul><li><strong>Research now!</strong> message when you have enough vehicle XP to research all available items.</li><li><strong>Accelerate crew training!</strong> message when you have already researched all available items.</li></ul></li></ul>",
-      "installationGuideHtml": "<h2>Simplest Installation Method</h2><p>This is the easiest method if you already know where your World of Tanks game folder is.</p><ol><li>Copy the mod zip file into your main World of Tanks game folder.</li><li>Right-click the zip file and choose Extract here.</li><li>If Windows asks whether you want to replace existing files, choose yes or agree to all replacements.</li></ol><p>The needed files should land in the correct places automatically because the zip already contains the right folder layout.</p><h2>Manual Method: Extract Elsewhere First</h2><p>Use this method if you want to look inside the zip before copying anything into the game.</p><ol><li>Extract the zip file somewhere else first, for example on your desktop.</li><li>Open the extracted folder. You should see folders such as mods.</li><li>Open your World of Tanks game folder in another window.</li><li>Drag the extracted folders into the game folder.</li><li>If Windows asks whether you want to merge folders with the same name, allow it.</li><li>If Windows asks whether you want to replace files, allow that too.</li></ol>",
+      "installationGuideHtml": "<p>You can read the installation guide at the <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/blob/-/docs/installing-mods.md\">source repository</a>.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7691/",
       "tagIds": [
@@ -36050,7 +36097,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.3,
       "descriptionHtml": "<p>Can't see the difference between 'No Pen', 'May Pen' and 'Will Pen'?&nbsp;</p><p>This mod will make it easy to tell. Shows stock crosshair colors, except the 'Will Pen' has an extra cross. No doubt when it's lit. Helps make the penetration indicator on the crosshair more visible to colorblindness.&nbsp;</p><p><i><strong>You must have Settings - Reticle - Gun Marker set to &nbsp;'(with armor penetration indicator)'. See the screenshots for the proper settings.</strong></i></p><p>I have found that just changing the color was not helpful, so added the graphic.&nbsp;</p><p>Please check out Grumpf44's version, he has added a slash for the may pen as well: <a href=\"https://wgmods.net/6496/\">https://wgmods.net/6496/</a></p><p>&nbsp;</p><p><br><br><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_036_m73wcPb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
