@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.070",
-  "sourceHash": "639253dcc8fc9f981d7cf857ad0044d6e6e29d1a4b32697f48953c74fb29a5af",
+  "catalogVersion": "v2026.08.071",
+  "sourceHash": "68efa80652db6a5e8107576620587aa69d72325f9a814c4291868723e9c1a8fc",
   "sources": [
     "wgmods",
     "modhub"
@@ -349,8 +349,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from other effective armor mods?</i></p></blockquote><ol><li>They don't compute and display the exact probability of penetrating.<ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very inaccurate (especially since the distribution is not uniform).</li></ul></li><li>This mod has more features and receives regular updates.<ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul></li></ol><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance from new graphics API</li><li>Fewer labels to reduce clutter and improve readability</li></ol><h2>Details</h2><ul><li>Vanilla-like UI</li><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses many calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Known Side-Effects</h2><ul><li>In battle, the window created by the indicator will absorb clicks in that region of the screen. This makes activating in battle credit reserves slightly more difficult.</li><li>The chat will not be focused by default the first time you press enter. You will have to click with the mouse button to put it in focus and then it will work.</li></ul><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-08-16_21-42-30-cropped.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36999,6 +36999,94 @@
         "fileName": "WoT.WWise_2.0.0_newkey.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4845",
+      "title": "Girls und Panzer Tanks Skins",
+      "ownerUsername": "L3VAS_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": true,
+      "mark": 4.6,
+      "descriptionHtml": "<p>This mod is unofficial, however I looked for a way to bring this mod to fans of the series.<br>The mod itself is not perfect since in the default styles you can see the emblems and stickers of that style,<br>you also have to do some steps in the game<br>to make the skin of a specific tank look \"original\" like in the series</p>",
+      "installationGuideHtml": "<p>once the file is downloaded you have to extract it, once this is done you can see that you have 3 files that end in \".wotmod\" those 3 files move them to the \"mods\" folder in the game folder and voila</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/branded_girlsundpanzeriv.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/4845/",
+      "tagIds": [
+        "12",
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1.11.1.1_VRsGh18.rar",
+          "updatedAt": "2026-08-25T06:32:34.472Z",
+          "sizeBytes": 401185582,
+          "fileName": "1.11.1.1_VRsGh18.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.11.1.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1.11.1.1.rar",
+          "updatedAt": "2021-02-02T15:29:42.854Z",
+          "sizeBytes": 401185582,
+          "fileName": "1.11.1.1.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.11.0.0",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1.10.1.1_pk6vx8p.rar",
+          "updatedAt": "2020-12-11T20:02:10.238Z",
+          "sizeBytes": 401185582,
+          "fileName": "1.10.1.1_pk6vx8p.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.10.1.4",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1.10.1.1_iOHMcF8.rar",
+          "updatedAt": "2020-11-28T02:41:50.118Z",
+          "sizeBytes": 401185582,
+          "fileName": "1.10.1.1_iOHMcF8.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.10.1.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1.10.1.1.rar",
+          "updatedAt": "2020-11-01T01:57:20.862Z",
+          "sizeBytes": 401185582,
+          "fileName": "1.10.1.1.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.10.1.0",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1.10.1.0_pORngfi.rar",
+          "updatedAt": "2020-10-21T17:46:32.650Z",
+          "sizeBytes": 401185582,
+          "fileName": "1.10.1.0_pORngfi.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "1.11.1.1_VRsGh18.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
