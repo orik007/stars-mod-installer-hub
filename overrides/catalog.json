@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.08.072",
-  "sourceHash": "bf6bfd9f2e4ff8a56c7a03f9529af3cb509ec015bc4d665b2b567bfda5955b7f",
+  "catalogVersion": "v2026.08.073",
+  "sourceHash": "c2c0c7a3ad9ee23ae5332e8f612bb899b6e03daf9d704b850f260179ddd0a1ef",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7863",
+      "title": "Map Hangar Studio",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Turn your favourite World of Tanks map location into a custom hangar scene.</p><p>Choose your location in either of two ways:</p><p>🚗 <strong>Drive there</strong> — drive your tank to the desired location and copy its position into the editor.</p><p>🎥 <strong>Find it with the camera</strong> — explore using the training free camera and place the preview tank beneath the camera.</p><p>After choosing a location, refine the tank’s exact position, rotation and camera framing before saving everything as your garage scene.</p><p>✨ Features</p><ul><li>Choose locations by driving or exploring with the free camera</li><li>Copy your real vehicle’s position and orientation</li><li>Place the preview tank beneath the camera</li><li>Simple directional movement controls</li><li>Standard, Fine and Ultra adjustment modes</li><li>Independent movement, rotation and camera adjustment sizes</li><li>Optional exact coordinates and angles</li><li>Automatic ground placement and slope matching</li><li>Save and manage multiple presets</li><li>Open the editor with <strong>Ctrl + F11</strong> or <strong>/hangar</strong></li><li>Battle Hits compatibility</li><li>Optional ModsList integration</li><li>Available in 20 languages</li></ul><p>🚀 How to use</p><p>Install the .wotmod in your WoT mods/&lt;game-version&gt;/ folder.</p><p>Create and enter a training-room battle on your chosen map.</p><p>Wait for the battle countdown to finish.</p><p>Press <strong>Ctrl + F11</strong> or type <strong>/hangar</strong> in battle chat.</p><p>Choose how you want to find the location:</p><ul><li><strong>Driving:</strong> Drive there, spawn the preview tank and select <strong>Copy my tank position</strong>.</li><li><strong>Free camera:</strong> Enable the training free camera, fly to the location and select <strong>Place below camera</strong>.</li></ul><p>Refine the preview tank’s position and rotation.</p><p>Move the free camera to create the garage view you want.</p><p>Name the preset and select <strong>Save and use this preset</strong>.</p><p>Return to the garage to see your new hangar scene.</p><p>The /hangar command is intercepted locally and is never sent to other players.</p><p>🔒 Safety</p><p>The placement editor and free-camera controls are restricted to training rooms. The control page listens only on your PC, uses a temporary access token, and closes when the battle session ends.</p><p>ℹ️ Notes</p><ul><li>ModsList API is optional and is not included.</li><li>Some screens that depend on native hangar systems temporarily use the standard garage.</li><li>Battle Hits can remain in the custom location through the included compatibility adapter.</li><li>Remove older pre-release builds before installing version 1.0.0.</li></ul><p><i>Due to the Pet not being visible with this mod i recommend the \"Pet Gift Auto Claim\" </i><a href=\"https://wgmods.net/7438/\"><i>https://wgmods.net/7438/ </i></a>along side this mod.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-25_172532230.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7863/",
+      "tagIds": [
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.map_hangar_studio.2.3.1.3.1.0.0.wotmod",
+          "updatedAt": "2026-08-25T17:48:01.600Z",
+          "sizeBytes": 860985,
+          "fileName": "gravity.map_hangar_studio.2.3.1.3.1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.map_hangar_studio.2.3.1.3.1.0.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7861",
@@ -24275,7 +24311,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.5,
+      "mark": 3.4,
       "descriptionHtml": "<p>The <strong>WOTInspector Heatmaps</strong> mod overlays live heatmaps on the minimap during battle — movement prediction, top damage positions, and spotting hotspots. It also records movements, shots, penetrations, and damage for interactive heatmaps on WOTInspector.com available at <a href=\"https://map.wotinspector.com\">https://map.wotinspector.com</a>.<br>&nbsp;</p><h2>Key Features</h2><ul><li>Movement prediction: See where players typically move over the next two minutes, drawn directly on your minimap.</li><li>Top damage positions: Highlight the spots where the most damage is dealt so you know where fights usually break out.</li><li>Top spotting positions for light tanks: Show the best assisted-damage and spotting positions.</li><li>Automatic battle recording: Every shot, movement, and damage event is logged without manual input for the web heatmaps dashboard.</li><li>Seven-day trial: New users get a full week of unrestricted overlay use when they first start the mod.</li><li>Free tier after trial: When the trial ends, you can still play up to three battles per day with the overlay at no cost.</li></ul>",
       "installationGuideHtml": "<ol><li>Download zip file</li><li>Unzip to <strong>mods/&lt;version&gt;</strong> folder</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_heatmaps_movements_mfQ9vjt.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -30298,7 +30334,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 4,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=I6F6BUIbAdU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/I6F6BUIbAdU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
