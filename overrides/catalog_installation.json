@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.070",
+  "catalogVersion": "v2026.08.071",
   "mods": [
     {
       "source": "wgmods",
@@ -9896,6 +9896,21 @@
         "installationTemplate": "ManualExternalDependency",
         "installableByApp": false,
         "decisionReason": "Guide requires installing and using external Wwise Authoring Tools and opening a project; operation depends on external software.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4845",
+      "title": "Girls und Panzer Tanks Skins",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "once the file is downloaded you have to extract it, once this is done you can see that you have 3 files that end in \".wotmod\" those 3 files move them to the \"mods\" folder in the game folder and voila"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract it and move the .wotmod files to the mods folder in the game folder.",
         "deleteDataWgpdc": false
       }
     },
