@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.08.071",
-  "sourceHash": "68efa80652db6a5e8107576620587aa69d72325f9a814c4291868723e9c1a8fc",
+  "catalogVersion": "v2026.08.072",
+  "sourceHash": "bf6bfd9f2e4ff8a56c7a03f9529af3cb509ec015bc4d665b2b567bfda5955b7f",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7861",
+      "title": "nakom sound mod",
+      "ownerUsername": "cruzseara",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>nakom thai comedy star vocal audio for WOT</p>",
+      "installationGuideHtml": "<p>expand the zip file and replace them for the file (voiceover.bnk) in res or res_mod</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/images.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7861/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audio_nakom_kay.zip",
+          "updatedAt": "2026-08-25T07:16:59.461Z",
+          "sizeBytes": 1221961,
+          "fileName": "audio_nakom_kay.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "audio_nakom_kay.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7860",
@@ -1596,6 +1632,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.directiveshelper_1.0.2.zip",
+          "updatedAt": "2026-08-25T07:19:28.986Z",
+          "sizeBytes": 200619,
+          "fileName": "zanju.directiveshelper_1.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.directiveshelper_1.0.1.zip",
@@ -1617,9 +1663,9 @@
         }
       ],
       "latest": {
-        "fileName": "zanju.directiveshelper_1.0.1.zip",
+        "fileName": "zanju.directiveshelper_1.0.2.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3325,6 +3371,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.5.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_PwccP6n.zip",
+          "updatedAt": "2026-08-25T07:20:32.569Z",
+          "sizeBytes": 299795,
+          "fileName": "overmatch_PwccP6n.zip",
+          "fileExt": ".zip",
+          "changeLog": "Your account now stays linked through modpack updates. Linking is also more reliable: you can use the clickable garage notification, and incompatible mods can no longer block the Link button. You can now choose which battle modes Overmatch uploads — Random Battles and Onslaught are enabled by default, while Special modes and Training Battles stay disabled until you enable them."
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.5.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_PEEke8P.zip",
@@ -3366,9 +3422,9 @@
         }
       ],
       "latest": {
-        "fileName": "overmatch_PEEke8P.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "overmatch_PwccP6n.zip",
+        "changeLog": "Your account now stays linked through modpack updates. Linking is also more reliable: you can use the clickable garage notification, and incompatible mods can no longer block the Link button. You can now choose which battle modes Overmatch uploads — Random Battles and Onslaught are enabled by default, while Special modes and Training Battles stay disabled until you enable them.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3382,7 +3438,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.6,
       "descriptionHtml": "<p>Track your Marks of Excellence (MoE) progress for the vehicle you have selected, in the Garage and live in battle.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at 65% / 85% / 95%. Every tick is labelled with the combined damage that mark requires, plus a fourth number for 100%, the top of the distribution.</p><p>Ctrl+drag the bar to reposition it (hold Shift to lock one axis). It can also optionally shift with the vehicle carousel so it never overlaps.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li><li>An optional third line shows your <strong>counted assistance</strong> — the highest of track / spot / stun damage, with the icon of whichever is leading.</li></ul><p>The overlay can be set to appear only while you hold Alt.</p><p><strong>In-battle progress bar</strong></p><p>An optional bar &nbsp;that fades in when damage is dealt or assistance is counted. Hold Alt to summon it at any time. Two variants, one chosen in the settings:</p><ul><li><strong>Moving Average</strong> — where your career projected average combined damage sits between the mark you already hold and the next mark's requirement, with the requirement on each end, your pre-battle average marked on the axis, and this battle's signed contribution.</li><li><strong>Damage Efficiency</strong> — this battle's combined damage against all four requirements (65% / 85% / 95% / 100%) on four equal quarters. Each requirement lights up as you pass it and the bar recolours with it — white, green, blue, violet, then gold at 100% — flashing the signed increment of the hit that just landed.</li></ul><h2>Settings</h2><p>Everything is toggleable from the Modification list window (ModsSettingsAPI): the in-battle overlay, its Alt-only mode and its assistance line, the Garage bar and its pinned position, and the centre progress bar with its variant. The settings panel is translated into 11 languages and follows your client automatically. Your settings carry over when you update the mod.</p><h2>&nbsp;</h2><p>Free to include in modpacks with credit and a link — ship the <i>.wotmod</i> and list OpenWG GameFace as a dependency.</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle.png.1600x0_q85_crop_detail_replace_alpha-white_uPUasNg.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5597,6 +5653,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "4.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_CNEy2DY.exe",
+          "updatedAt": "2026-08-25T07:16:48.155Z",
+          "sizeBytes": 134812162,
+          "fileName": "INQ_Pack_Installer_CNEy2DY.exe",
+          "fileExt": ".exe",
+          "changeLog": "Додано:\nCustom Sixth Sense — налаштовувана лампа засвіту.\nОчищення центру повідомлень.\nОновлено:\nWN8 без XVM \nHP у вухах\nПрибрати затримку прицілу \nINQ Marks (ВАЖЛИВО ПОКИ В ГАРАЖІ НЕМАЄ СТАТИСТИКИ Я НЕ ВСТИГ ЇЇ ЗРОБИТИ КОЛИ ПОЯВИТЬСЯПОКИ НЕ ЗНАЮ)\nКомандирська камера PMOD — плавний зум до 70 м.\n\nEnglish-language support"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "4.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_cOjFM7J.exe",
           "updatedAt": "2026-08-21T09:07:17.676Z",
@@ -5647,8 +5713,8 @@
         }
       ],
       "latest": {
-        "fileName": "INQ_Pack_Installer_cOjFM7J.exe",
-        "changeLog": "",
+        "fileName": "INQ_Pack_Installer_CNEy2DY.exe",
+        "changeLog": "Додано:\nCustom Sixth Sense — налаштовувана лампа засвіту.\nОчищення центру повідомлень.\nОновлено:\nWN8 без XVM \nHP у вухах\nПрибрати затримку прицілу \nINQ Marks (ВАЖЛИВО ПОКИ В ГАРАЖІ НЕМАЄ СТАТИСТИКИ Я НЕ ВСТИГ ЇЇ ЗРОБИТИ КОЛИ ПОЯВИТЬСЯПОКИ НЕ ЗНАЮ)\nКомандирська камера PMOD — плавний зум до 70 м.\n\nEnglish-language support",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7437,16 +7503,6 @@
           "fileName": "spotmeter-v6.0.1.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Adaptation to 2.3.0.1"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "v6.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v6.0.0.wotmod",
-          "updatedAt": "2026-06-08T09:21:08.664Z",
-          "sizeBytes": 169518,
-          "fileName": "spotmeter-v6.0.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "v6.0.0 - built for WoT 2.3.0.0.\n\nA major update on top of the minimap spot-distance circle:\n\nNEW\n- In-battle picker panel: lists every enemy with its view range; identical tanks group into one row. Shows the spot-distance of the picked target (or your own tank). Pick by clicking a row or with Numpad 2/8. Draggable.\n- Garage panel: pre-configure perk/equipment levels before battle, with a live preview.\n- PageDown: show/hide the panel (battle + garage); stays hidden until pressed again.\n- Auto-pick (Numpad /): auto-targets the nearest enemy, with per-class presets.\n- Optics / Vents / CVS as manual cyclable levels (Numpad 6 / + / -).\n- Auto-hide while holding TAB/N or when garage windows are open.\n- English + Polish interface, auto-detected from the client.\n\nFIXED\n- Panel no longer reappears by itself after being hidden with PageDown.\n- Garage performance cleanup."
         }
       ],
       "latest": {
@@ -22316,7 +22372,7 @@
     {
       "source": "wgmods",
       "sourceId": "7254",
-      "title": "German MoE for all tanks",
+      "title": "MoE Nation Change For All Tanks",
       "ownerUsername": "Killer0005",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -22324,14 +22380,24 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>This mod replaces all MoE marks with the German stripes</p>",
-      "installationGuideHtml": "<p>Copy the .wotmod files into this folder:<br>WorldofTanks &gt; mods &gt; game version (for example: 1.29.0.0)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/german_moe.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>This mod replaces all MoE marks with the selected nations stripes (eg: all German, as shown in screenshots)<br><br>Made by <a href=\"https://wgmods.net/search/?owner=239424\">Gravity_Assist</a></p>",
+      "installationGuideHtml": "<p>Pick <strong>ONE</strong> mod from the zip file, and copy the .wotmod file into this folder:<br>WorldofTanks &gt; mods &gt; game version (for example: 2.3.1.3)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wot_moe.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7254/",
       "tagIds": [
         "16"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.3.1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/replace_moe_stripes.zip",
+          "updatedAt": "2026-08-25T09:04:06.467Z",
+          "sizeBytes": 9298356,
+          "fileName": "replace_moe_stripes.zip",
+          "fileExt": ".zip",
+          "changeLog": "Changed from just German stripes, to a selection of all nations"
+        },
         {
           "wotGameVersion": "2.2.1.1",
           "modVersion": "2.2.1.1",
@@ -22381,22 +22447,12 @@
           "fileName": "GermanMOE_fOiB7D2.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.0.1",
-          "modVersion": "2.1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GermanMOE_LwfwpdU.wotmod",
-          "updatedAt": "2025-12-03T08:00:55.797Z",
-          "sizeBytes": 6058150,
-          "fileName": "GermanMOE_LwfwpdU.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "GermanMOE.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "replace_moe_stripes.zip",
+        "changeLog": "Changed from just German stripes, to a selection of all nations",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

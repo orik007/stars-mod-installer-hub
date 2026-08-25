@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.071",
+  "catalogVersion": "v2026.08.072",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7861",
+      "title": "nakom sound mod",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "expand the zip file and replace them for the file (voiceover.bnk) in res or res_mod"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive package and guide targets a specific voiceover.bnk file in res or res_mods audio path, not the versioned res_mods folder itself.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7860",
@@ -6402,15 +6417,15 @@
     {
       "source": "wgmods",
       "sourceId": "7254",
-      "title": "German MoE for all tanks",
+      "title": "MoE Nation Change For All Tanks",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy the .wotmod files into this folder: WorldofTanks > mods > game version (for example: 1.29.0.0)"
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Pick ONE mod from the zip file, and copy the .wotmod file into this folder: WorldofTanks > mods > game version (for example: 2.3.1.3)"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "latestFileExt is .wotmod and guide directs copying .wotmod files into WorldofTanks > mods > game version.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive package requires choosing exactly one mod variant from the zip before copying to mods/<version>, which is a blocking manual choice.",
         "deleteDataWgpdc": false
       }
     },
