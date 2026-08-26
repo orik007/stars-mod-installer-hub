@@ -1,11 +1,86 @@
 {
-  "catalogVersion": "v2026.08.074",
-  "sourceHash": "2d8a3b3dfebce0b78ae79dc98fa15cd6815a484498c1444f8e0502b77c4f2fe4",
+  "catalogVersion": "v2026.08.075",
+  "sourceHash": "7fc95d2590849156f18aac4cbb8e694c468fa7f7a88de29e18050c1bd298c668",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7865",
+      "title": "Old WoT logo and Frag Bar",
+      "ownerUsername": "PavlovjchOlena",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This replaces the image files, and flash files to change the new WoT logo back to the old one, as well as the Frag Correlation Bar. (this mod should work on RU servers as well)</p>",
+      "installationGuideHtml": "<p>Download old.wot.logo_1.0.0.wotmod and put in mods/2.3.1.3/</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/covermod.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7865/",
+      "tagIds": [
+        "18",
+        "14",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/old.wot.logo_1.0.0.wotmod",
+          "updatedAt": "2026-08-26T13:03:07.362Z",
+          "sizeBytes": 2248319,
+          "fileName": "old.wot.logo_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "old.wot.logo_1.0.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7866",
+      "title": "Witblitz Contour Pack",
+      "ownerUsername": "Witblitz",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1a0de682-7ed2-4d96-a610-6a405ce8ed4d.png\"></figure><p><strong>Witblitz Contour Pack v2.3.1.3</strong></p><p>After more than a decade, these contour icons are making a comeback for World of Tanks featuring tier, class, name, and designation formatting.</p><p><strong>Credits &amp; Acknowledgments:</strong></p><ul><li>Custom Icons: Witblitz</li><li>Anti-Mirror Mod: Based on the original anti-mirror implementation by night_dragon_on, with packaging, fixes, and support provided via Aslain.</li><li>Framework APIs: ModsSettingsAPI, ModsSettingsBridge, ModsListAPI (poliroid), and the net.openwg dependency stack.</li></ul><p>Heavy Tanks = Dark Grey<br>Medium Tanks = Green<br>Light Tanks = Yellow<br>Tank Destroyers = Blurple<br>Self Propelled Guns = Red</p><p><br>&nbsp;</p>",
+      "installationGuideHtml": "<p><strong>Installation:</strong><br>Extract straight into your main World of Tanks root folder.</p><p>Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended.</p><p>Note: Includes Aslain's Anti Mirror for corrected Enemy pane view.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/38ba3019-03fd-4f68-ad89-19e16b771d26.png\"></figure>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/front-page-presentation-ministack.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7866/",
+      "tagIds": [
+        "14"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.3.1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Witblitz_Contour_Pack_2.3.1.3.zip",
+          "updatedAt": "2026-08-26T13:02:47.571Z",
+          "sizeBytes": 11381820,
+          "fileName": "Witblitz_Contour_Pack_2.3.1.3.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Witblitz_Contour_Pack_2.3.1.3.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7863",
@@ -649,6 +724,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "0.1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ZhK_better_train_color.wotmod",
+          "updatedAt": "2026-08-26T12:13:46.145Z",
+          "sizeBytes": 3956000,
+          "fileName": "ZhK_better_train_color.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "updated to latest game version"
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "0.1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ZhK_better_train_color_POxB9ZU.wotmod",
@@ -660,9 +745,9 @@
         }
       ],
       "latest": {
-        "fileName": "ZhK_better_train_color_POxB9ZU.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "ZhK_better_train_color.wotmod",
+        "changeLog": "updated to latest game version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -759,6 +844,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gambling_button.wotmod",
+          "updatedAt": "2026-08-26T12:14:55.165Z",
+          "sizeBytes": 202851,
+          "fileName": "gambling_button.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "updated to latest game version"
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gambling_button_vkFnlEO.wotmod",
@@ -770,9 +865,9 @@
         }
       ],
       "latest": {
-        "fileName": "gambling_button_vkFnlEO.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "gambling_button.wotmod",
+        "changeLog": "updated to latest game version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -799,6 +894,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wgmods_bundle_v1.0.6_kWTHkBy.zip",
+          "updatedAt": "2026-08-26T08:06:50.330Z",
+          "sizeBytes": 71197,
+          "fileName": "wgmods_bundle_v1.0.6_kWTHkBy.zip",
+          "fileExt": ".zip",
+          "changeLog": "(v1.0.7)\nДобавлено\nКнопка «глаз» для сворачивания/разворачивания панели — в обеих панелях (журнал попаданий и статистика карт). При сворачивании панель превращается в маленький значок, при нажатии — разворачивается обратно.\nУбрано\nНастройки showInHangar, showInBattle, toggleKey — больше не нужны. Панели работают в ангаре и в бою, управление сворачиванием через кнопку «глаз» и клавишу Esc.\nИсправлено\nОшибка NaN при вычислении размера viewport — applySize(w, h) теперь корректно получает размер панели.\nУлучшено\nКачество шрифтов — добавлены antialiased, optimizeLegibility, letter-spacing для более чёткого отображения текста."
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wgmods_bundle_v1.0.6.zip",
           "updatedAt": "2026-08-21T09:09:02.623Z",
@@ -819,8 +924,8 @@
         }
       ],
       "latest": {
-        "fileName": "wgmods_bundle_v1.0.6.zip",
-        "changeLog": " Исправлен деинсталлятор: теперь удаляет старые wotmod с опечаточными именами (net.battle_map_stat_*.wotmod без конечной s), которые раньше не очищались и вызывали конфликт пакетов («Package ignored due to conflict»). Ранее после удаления мода через деинсталлятор в папке mods/ оставался конфликтующий файл от старой версии, из-за чего игра могла не запускаться.",
+        "fileName": "wgmods_bundle_v1.0.6_kWTHkBy.zip",
+        "changeLog": "(v1.0.7)\nДобавлено\nКнопка «глаз» для сворачивания/разворачивания панели — в обеих панелях (журнал попаданий и статистика карт). При сворачивании панель превращается в маленький значок, при нажатии — разворачивается обратно.\nУбрано\nНастройки showInHangar, showInBattle, toggleKey — больше не нужны. Панели работают в ангаре и в бою, управление сворачиванием через кнопку «глаз» и клавишу Esc.\nИсправлено\nОшибка NaN при вычислении размера viewport — applySize(w, h) теперь корректно получает размер панели.\nУлучшено\nКачество шрифтов — добавлены antialiased, optimizeLegibility, letter-spacing для более чёткого отображения текста.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1472,6 +1577,45 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7781",
+      "title": "WOT Tactic Bridge",
+      "ownerUsername": "4eJlsive",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>WOT Tactic Bridge</strong> displays shared tactical drawings from a WOT Tactic room directly on the standard World of Tanks minimap.</p><p>The mod is useful for <strong>training sessions, tournaments and team battles</strong>. The room creator selects the map, while participants with drawing permission can update the plan almost in real time—even when they are not in the battle.</p><p>Supported elements include:</p><ul><li>freehand drawings;</li><li>straight lines and arrows;</li><li>circles;</li><li>solid, dashed and dotted lines.</li></ul><p>Drawings adapt to the minimap size and are hidden together with it. Optional automatic removal can be enabled for each new object from <strong>1 to 60 seconds</strong>. This feature is disabled by default.</p><p>A shared room key is used to connect, while the room creator manually selects the map to display.</p><p><i>The mod is display-only.</i> It does not access battle, vehicle, player-position or enemy data and does not affect controls, firing, aiming or vehicle parameters.</p>",
+      "installationGuideHtml": "<ol><li>Close World of Tanks.</li><li>Copy WOT_Tactic_Bridge_0.2.3.wotmod to&nbsp;<br><i>World_of_Tanks_EU/mods/&lt;game version&gt;/.</i></li><li>In WOT Tactic, click <strong>Display drawings</strong> and copy the room key.</li><li>Launch the game, paste the key into the mod settings and apply it before battle.</li></ol><p><i>Changing the room key does not require reinstalling the mod.</i></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/wot-tactic-cover.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7781/",
+      "tagIds": [
+        "18",
+        "19",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.2",
+          "modVersion": "0.2.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WOT_Tactic_Bridge_0.2.3.wotmod",
+          "updatedAt": "2026-08-13T14:44:11.085Z",
+          "sizeBytes": 86432,
+          "fileName": "WOT_Tactic_Bridge_0.2.3.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "- Fixed the constant right-and-down offset of drawings relative to the standard minimap.\n- The overlay now uses the current minimap size correctly when entering battle and after the size is changed.\n- Fixed arrowheads and perpendicular end markers on freehand strokes.\n- Dashed and dotted styles now render continuously and evenly across freehand paths and circles."
+        }
+      ],
+      "latest": {
+        "fileName": "WOT_Tactic_Bridge_0.2.3.wotmod",
+        "changeLog": "- Fixed the constant right-and-down offset of drawings relative to the standard minimap.\n- The overlay now uses the current minimap size correctly when entering battle and after the size is changed.\n- Fixed arrowheads and perpendicular end markers on freehand strokes.\n- Dashed and dotted styles now render continuously and evenly across freehand paths and circles.",
+        "wotGameVersionCompatibility": "likelyCompatible"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7819",
       "title": "MoE Filter",
       "ownerUsername": "Aleeeeeexander",
@@ -1669,6 +1813,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.directiveshelper_1.0.3.zip",
+          "updatedAt": "2026-08-26T08:02:35.657Z",
+          "sizeBytes": 216639,
+          "fileName": "zanju.directiveshelper_1.0.3.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.directiveshelper_1.0.2.zip",
           "updatedAt": "2026-08-25T07:19:28.986Z",
@@ -1699,7 +1853,7 @@
         }
       ],
       "latest": {
-        "fileName": "zanju.directiveshelper_1.0.2.zip",
+        "fileName": "zanju.directiveshelper_1.0.3.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -2458,8 +2612,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p><a href=\"https://youtu.be/YLCMhmeEWsc\">Explanatory Video EN</a></p><p><a href=\"https://youtu.be/4945ncAWJXU\">Deutsches Erklärungs Video</a></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><strong>Gameface</strong> (<a href=\"https://gitlab.com/openwg/wot.gameface\">https://gitlab.com/openwg/wot.gameface</a>)</li><li><strong>ModsSettingsAPI</strong> (<a href=\"https://github.com/izeberg/modssettingsapi\">https://github.com/izeberg/modssettingsapi</a>)</li><li><strong>ModsListAPI</strong> (<a href=\"https://github.com/wot-public-mods/mods-list\">https://github.com/wot-public-mods/mods-list</a>)</li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
       "installationGuideHtml": "<h2>INSTALLATION</h2><ol><li>Download the mod</li><li>Unpack the downloaded zip file</li><li>Move the .wotmod files into your World of Tanks mods folder:<br>&nbsp; &nbsp; yourWoTInstallation/mods/&lt;game version&gt;</li></ol><p>&nbsp;If you already have some of the files installed, only move the new files into the folder</p><p>&nbsp;</p><p><strong>Optional:&nbsp;</strong><br>If you want to support me with fixing bugs and error of this mod, also move the gravity.error.reporter.log.&lt;version&gt;.wotmod file into your mods folder. This will automatically report bugs and errors to me.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5269,28 +5423,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
-          "modVersion": "2.3.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.3.2.3.6.wotmod",
-          "updatedAt": "2026-08-21T09:46:31.777Z",
-          "sizeBytes": 1066375,
-          "fileName": "gravity.camo_selector.2.3.1.3.2.3.6.wotmod",
+          "modVersion": "2.3.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.3.2.3.7.wotmod",
+          "updatedAt": "2026-08-26T08:46:18.615Z",
+          "sizeBytes": 1115220,
+          "fileName": "gravity.camo_selector.2.3.1.3.2.3.7.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Fixed vanilla camouflage, emblems, and inscriptions reappearing after removal. - Fixed custom outfits displaying differently between the garage and battle. - Improved transitions from 3D styles to custom 2D customization. - Preserved the server-outfit authorization requirement without merging its appearance."
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "2.3.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.3.1.2.2.3.5.wotmod",
-          "updatedAt": "2026-08-19T19:25:02.100Z",
-          "sizeBytes": 1085696,
-          "fileName": "gravity.camo_selector.2.3.1.2.2.3.5.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Improvements to handling of 3d styles."
+          "changeLog": "Improved compatibility between 3D styles and custom decals, emblems, and inscriptions. Custom overlays are now preserved when replacing a 3D style with 2D customization, and compatible unowned 3D styles can be used locally. Added optional descriptions for custom assets and improved support for branded vehicles such as the Rheinmetall Skorpion G. Also fixed invalid styles, errors when entering Custom mode from certain 3D styles, and unnecessary error reports caused by shared-battle connection timeouts."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.3.1.3.2.3.6.wotmod",
-        "changeLog": "Fixed vanilla camouflage, emblems, and inscriptions reappearing after removal. - Fixed custom outfits displaying differently between the garage and battle. - Improved transitions from 3D styles to custom 2D customization. - Preserved the server-outfit authorization requirement without merging its appearance.",
+        "fileName": "gravity.camo_selector.2.3.1.3.2.3.7.wotmod",
+        "changeLog": "Improved compatibility between 3D styles and custom decals, emblems, and inscriptions. Custom overlays are now preserved when replacing a 3D style with 2D customization, and compatible unowned 3D styles can be used locally. Added optional descriptions for custom assets and improved support for branded vehicles such as the Rheinmetall Skorpion G. Also fixed invalid styles, errors when entering Custom mode from certain 3D styles, and unnecessary error reports caused by shared-battle connection timeouts.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7478,7 +7622,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>SpotMeter adds a dynamic circle to your minimap showing the distance from which your tank can currently be spotted - so you always know how close an enemy has to be to see you.&nbsp;<br><br>The circle updates live and changes colour with your state:&nbsp;<br>- red while moving&nbsp;<br>- green while stationary&nbsp;<br>- dark green after 3s stationary with a camouflage net active&nbsp;<br>- orange for ~3s after firing (camo penalty)&nbsp;<br><br>WHAT IT READS AUTOMATICALLY&nbsp;<br>Everything in your own tank's data: base view range, crew, optics, binoculars, camo net, siege modes (CS-63, S-Conqueror, etc.) and the after-shot penalty. By default the circle assumes the enemy sees as far as you do.&nbsp;<br><br>ENEMY PICKER&nbsp;<br>Pick a specific enemy (click a row in the panel, or Numpad 2/8) and the circle switches to that tank's view range. Because the server no longer sends enemy equipment, you set the assumed optics / vents / CVS as quick cyclable levels (Numpad 6 / + / -) and toggle the likely crew perks (Rations, BIA, Recon + Situational Awareness). The estimate matches the in-game view-range formula.&nbsp;<br><br>IN-BATTLE PANEL (v7 - Gameface)&nbsp;<br>A modern HTML overlay: every enemy with its view range, identical tanks grouped (e.g. \"Dravec x5\"), a target line with the spot-distance, and the AUTO state. Click a row to pick a target; click the loadout cells to change the assumed optics/perks. Drag it by the header (position saved); a collapse arrow shrinks it to just the picked vehicle + spot distance. PageDown shows/hides it.&nbsp;<br>- Auto-pick (Numpad /) tracks the nearest enemy, with per-class loadout presets.&nbsp;<br>- Optional in-garage configurator via a mods-settings menu (aslainMenu / ModsSettingsAPI). Without a menu, edit the auto-created spotmeter.json (path logged at startup).&nbsp;<br><br>REQUIRES&nbsp;<br>net.openwg.gameface (free, MIT; already in common modpacks) for the panel. The minimap circle and the hotkeys work even without it.&nbsp;<br><br>USING WITH XVM&nbsp;<br>If you use XVM's minimap, XVM owns the view-range-circle layer and repaints SpotMeter's circle in its own colour (often a constant cyan; you may see two similar circles). SpotMeter's is the one that CHANGES SIZE with your camo state (your live spot distance); XVM's is your static view range. Recolour or hide the circles in XVM's minimap.xc; SpotMeter's own colours apply when the XVM minimap isn't repainting them. The spot-distance readout is unaffected either way.&nbsp;<br><br>LANGUAGE&nbsp;<br>English and Polish, auto-detected from your game client.&nbsp;<br><br>FAIR PLAY&nbsp;<br>SpotMeter only computes values the client already has and shows the result geometrically. It does NOT reveal hidden enemies, automate aiming or movement, or read server-private data - the same category as the view-range circles already built into the game.&nbsp;<br><br>Hotkeys are on the numpad and work with NumLock on or off; everything is configurable in spotmeter.json.</p>",
       "installationGuideHtml": "<p>1. Install net.openwg.gameface (free; already in most modpacks, or from the OpenWG project). SpotMeter's panel needs it.&nbsp;<br><br>2. Download spotmeter-v7.0.0.wotmod.&nbsp;<br><br>3. Copy it into: &nbsp;&lt;WoT&gt;\\mods\\2.3.1.0\\&nbsp;<br>&nbsp; Example: &nbsp;D:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0\\&nbsp;<br>&nbsp; (create the folder if it does not exist)&nbsp;<br><br>4. Launch the game. On first launch it briefly restarts once to register the panel (net.openwg.gameface rebuilds its resource map) - this is normal. The minimap circle works right away; in battle, PageDown shows/hides the panel and you drag it by the header.&nbsp;<br><br>5. (Optional) Install a mods-settings menu (aslainMenu / ModsSettingsAPI) to configure in the garage, or edit:&nbsp;<br>&nbsp; %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\spotmeter\\spotmeter.json&nbsp;<br><br>To uninstall: delete the .wotmod from mods\\2.3.1.0\\. Requires WoT 2.3.1.0 + net.openwg.gameface.</p>",
@@ -7490,6 +7634,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "7.2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v7.2.1.wotmod",
+          "updatedAt": "2026-08-26T08:01:39.752Z",
+          "sizeBytes": 139557,
+          "fileName": "spotmeter-v7.2.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Resave for the new client: rebuilt for WoT 2.3.1.3"
+        },
         {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "7.2.0",
@@ -7542,9 +7696,9 @@
         }
       ],
       "latest": {
-        "fileName": "spotmeter-v7.2.0.wotmod",
-        "changeLog": "NEW\n- Circle-colour pickers in the settings menu: the four state colours (moving / still / after firing / camo net) are now editable from the in-garage configurator (a mods-settings menu such as aslainMenu / ModsSettingsAPI) with real colour pickers, instead of hand-editing decimal RGB values in spotmeter.json. The section tooltip reminds you that XVM's minimap, while active, repaints the circle in its own colour and overrides these.\nCHANGED\n- Rebuilt for WoT 2.3.1.2 (minor patch; no other gameplay changes).\nReminder (since v7.0.0): the in-battle panel is a Gameface overlay and REQUIRES net.openwg.gameface (free, MIT; already in common modpacks). The minimap circle and the hotkeys work even without it.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "spotmeter-v7.2.1.wotmod",
+        "changeLog": "Resave for the new client: rebuilt for WoT 2.3.1.3",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34665,7 +34819,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.4,
       "descriptionHtml": "<p>Custom Vehicle Icons</p><p>Icons with the Tank Name, Tier, and colored by class. No need to use the expanded players panel, all the relevant info in one icon.</p><p>Black -Heavy, Green -Medium, White -Light, Blue -TD, Red -SPG</p><p>Turn off 'Show Vehicle Tier' in Settings.</p><p>Requires the use of an 'icon mirroring' mod, such as XVM.</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Roman Starkov</p><p><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p><p>Either XVM, or an Icon Mirroring Mod will be needed, otherwise the enemy in player panel will be mirrored.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2022-01-30_090306_eo88Gsf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36189,7 +36343,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p>Can't see the difference between 'No Pen', 'May Pen' and 'Will Pen'?&nbsp;</p><p>This mod will make it easy to tell. Shows stock crosshair colors, except the 'Will Pen' has an extra cross. No doubt when it's lit. Helps make the penetration indicator on the crosshair more visible to colorblindness.&nbsp;</p><p><i><strong>You must have Settings - Reticle - Gun Marker set to &nbsp;'(with armor penetration indicator)'. See the screenshots for the proper settings.</strong></i></p><p>I have found that just changing the color was not helpful, so added the graphic.&nbsp;</p><p>Please check out Grumpf44's version, he has added a slash for the may pen as well: <a href=\"https://wgmods.net/6496/\">https://wgmods.net/6496/</a></p><p>&nbsp;</p><p><br><br><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_036_m73wcPb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -45028,6 +45182,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_06.exe",
+          "updatedAt": "2026-08-26T09:32:17.193Z",
+          "sizeBytes": 59703907,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_06.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.3.1.3 #06 (26-08-2026):\n- Updated version checker (the update window no longer reappears after every battle)\n- Updated Camo Selector (improved 3D-style editing and preservation of custom decals, added descriptions for custom assets, expanded branded vehicle support, and fixed invalid styles and timeout errors)\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "05",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_05.exe",
           "updatedAt": "2026-08-25T21:30:25.124Z",
@@ -45078,8 +45242,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_05.exe",
-        "changeLog": "- Updated Overmatch.pro\n- Updated Onslaught Rating Overlay\n- Updated Directives Helper\n- Added Salvo Reticle Fix (by Zanju)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_06.exe",
+        "changeLog": "v2.3.1.3 #06 (26-08-2026):\n- Updated version checker (the update window no longer reappears after every battle)\n- Updated Camo Selector (improved 3D-style editing and preservation of custom decals, added descriptions for custom assets, expanded branded vehicle support, and fixed invalid styles and timeout errors)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
