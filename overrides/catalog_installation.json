@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.074",
+  "catalogVersion": "v2026.08.075",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7865",
+      "title": "Old WoT logo and Frag Bar",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download old.wot.logo_1.0.0.wotmod and put in mods/2.3.1.3/"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7866",
+      "title": "Witblitz Contour Pack",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Installation: Extract straight into your main World of Tanks root folder. Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the main World of Tanks root folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7863",
@@ -509,6 +539,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7781",
+      "title": "WOT Tactic Bridge",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.3.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle. Changing the room key does not require reinstalling the mod."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>; extra usage steps are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
