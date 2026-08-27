@@ -1,7 +1,82 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.077",
+  "catalogVersion": "v2026.08.078",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7873",
+      "title": "Daatole Tournaments EU",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Download the `khinkali_tournaments_eu.wotmod` file. 2. Copy the file into your World of Tanks modifications folder: `World_of_Tanks/mods/<current_game_version>/` (for example: `mods/2.3.1.3/`). 3. Start the game. 4. Upon entering the garage, you will receive a confirmation message in the Notification Center."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7872",
+      "title": "Fixed: Girls and Panzer Voice Selector (all voices)",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Copy all files to latest version under mod floder"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to latest version under mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7870",
+      "title": "Skin 3D-Black Brightness_for the  Object 432U",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE] This mod should run fine regardless of patch version."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version> patch folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7868",
+      "title": "TBT 3D Style: Ambush",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "install the mod and put it in: World_Of_Tanks -> mods -> version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7871",
+      "title": "Spirit of '76",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to place extracted .wotmod into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7865",
@@ -9281,6 +9356,21 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to extract it into the game folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6077",
+      "title": "T78 with crew",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\1.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to place extracted .wotmod into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
