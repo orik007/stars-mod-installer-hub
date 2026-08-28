@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.079",
+  "catalogVersion": "v2026.08.080",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7875",
+      "title": "Vehicle Stat Inspector",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7872",

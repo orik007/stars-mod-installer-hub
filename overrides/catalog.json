@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.08.079",
-  "sourceHash": "8216d24ca6eab044c913c4ae1c62140e771211b3c93746c2b0496f92bbe5744d",
+  "catalogVersion": "v2026.08.080",
+  "sourceHash": "78bc97b421b2a7468903470b4b03b12be86de05c1e7957fe12e91d94fdf46217",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7875",
+      "title": "Vehicle Stat Inspector",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>🔍 Vehicle Stat Inspector expands the Vehicle Hub with advanced statistics that are normally hidden from view.</p><p>🚜 Effective Mobility<br>• Effective traverse speed on firm, medium, and soft terrain<br>• Estimated forward and reverse speed<br>• Ground-resistance values<br>• Detailed breakdown of active bonuses and modifiers</p><p>🎯 Gun Handling<br>• Dispersion while moving<br>• Dispersion during hull and turret rotation<br>• Dispersion after firing<br>• Dispersion with a damaged gun</p><p>💥 Shell Details<br>• Shell velocity<br>• Module damage<br>• Maximum range<br>• Normalization and ricochet angles</p><p>🛠️ Module Survivability<br>• Health of the ammunition rack, engine, fuel tanks, tracks, gun, turret ring, optics, and radio<br>• Engine fire chance</p><p>🌍 Includes support for 19 languages.</p><p>Hover over supported statistics to compare the current setup with the vehicle’s configured baseline and see where each bonus comes from.</p><p>📦 Required GameFace framework and Error Reporter are included in the download.</p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-28_182602822.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7875/",
+      "tagIds": [
+        "18",
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "0.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.3.1.3.0.1.1.zip",
+          "updatedAt": "2026-08-28T16:26:34.037Z",
+          "sizeBytes": 287357,
+          "fileName": "gravity.vehicle_stat_inspector.2.3.1.3.0.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.vehicle_stat_inspector.2.3.1.3.0.1.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7872",
@@ -55,12 +92,14 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Skins Camo, cosmetic appearance</p><p>Todos los elementos creados a partir de los mods pertenecen a sus respectivos propietarios. La mayoría de los elementos utilizados en los mods provienen de <strong>Wargaming (World of Tanks)</strong> y <strong>Lesta (Mir Tankov)</strong> .</p>",
+      "descriptionHtml": "<p>Skins Camo, cosmetic appearance</p><p>All assets created as part of the mods belong to their respective owners. Most of the assets used in the mods come from Wargaming (World of Tanks) and Lesta (Mir Tankov).</p>",
       "installationGuideHtml": "<p>To install drag the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\1.27.1.0\\[WOTMOD GOES HERE]</p><p>This mod should run fine regardless of patch version.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/obj-432u-1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7870/",
       "tagIds": [
-        "16"
+        "16",
+        "21",
+        "20"
       ],
       "files": [
         {
@@ -251,18 +290,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.map_hangar_studio.2.3.1.3.1.0.0.wotmod",
-          "updatedAt": "2026-08-25T17:48:01.600Z",
-          "sizeBytes": 860985,
-          "fileName": "gravity.map_hangar_studio.2.3.1.3.1.0.0.wotmod",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.map_hangar_studio.2.3.1.3.1.0.2.wotmod",
+          "updatedAt": "2026-08-28T16:49:34.584Z",
+          "sizeBytes": 871144,
+          "fileName": "gravity.map_hangar_studio.2.3.1.3.1.0.2.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": ""
+          "changeLog": "Added support for onslaught maps and fixed some bugs."
         }
       ],
       "latest": {
-        "fileName": "gravity.map_hangar_studio.2.3.1.3.1.0.0.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.map_hangar_studio.2.3.1.3.1.0.2.wotmod",
+        "changeLog": "Added support for onslaught maps and fixed some bugs.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3669,16 +3708,6 @@
           "updatedAt": "2026-07-14T22:07:16.192Z",
           "sizeBytes": 26031006,
           "fileName": "RazerTecks_grumpf44_Fury_Rework_1cxskjN.7z",
-          "fileExt": ".7z",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_grumpf44_Fury_Rework.7z",
-          "updatedAt": "2026-07-14T13:37:28.594Z",
-          "sizeBytes": 26031006,
-          "fileName": "RazerTecks_grumpf44_Fury_Rework.7z",
           "fileExt": ".7z",
           "changeLog": ""
         }
@@ -10657,7 +10686,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 3.8,
       "descriptionHtml": "<p><strong>Recommended in combination with: </strong><a href=\"https://wgmods.net/7596/\"><strong>https://wgmods.net/7596/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Yes it is yet another Moe Mod but compared to others this stays in the Hangar and is minimalistic and due to the fact that it doesnt show in battle it is less likely to break, the Overlay Position is stored in preferences.xml so the overlay stays at the same place.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-02_172017045.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -14976,16 +15005,6 @@
           "updatedAt": "2026-02-19T15:04:44.429Z",
           "sizeBytes": 15138473,
           "fileName": "BZT70_Crew_Zki6Wxu.7z",
-          "fileExt": ".7z",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.1.1.0",
-          "modVersion": "2.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BZT70_Crew.7z",
-          "updatedAt": "2026-01-29T21:02:43.581Z",
-          "sizeBytes": 15138473,
-          "fileName": "BZT70_Crew.7z",
           "fileExt": ".7z",
           "changeLog": ""
         }
@@ -27053,26 +27072,6 @@
           "fileName": "John_Rambo_cWLzJyz.7z",
           "fileExt": ".7z",
           "changeLog": "Fixed troubles with the colors of the equipment."
-        },
-        {
-          "wotGameVersion": "1.27.1.0",
-          "modVersion": "1.1x",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/John_Rambo_aJnCrk5.7z",
-          "updatedAt": "2025-02-07T02:08:19.854Z",
-          "sizeBytes": 15404097,
-          "fileName": "John_Rambo_aJnCrk5.7z",
-          "fileExt": ".7z",
-          "changeLog": "Correction of a typo error for the textures of the character."
-        },
-        {
-          "wotGameVersion": "1.27.1.0",
-          "modVersion": "1.1x",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/John_Rambo.7z",
-          "updatedAt": "2025-02-05T16:15:04.051Z",
-          "sizeBytes": 15404072,
-          "fileName": "John_Rambo.7z",
-          "fileExt": ".7z",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -34270,16 +34269,6 @@
           "updatedAt": "2026-08-27T18:22:10.884Z",
           "sizeBytes": 16964152,
           "fileName": "T78_Crew.7z",
-          "fileExt": ".7z",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.17.0.0",
-          "modVersion": "0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T78_Crew_95DCJ5U.7z",
-          "updatedAt": "2022-06-03T08:21:36.723Z",
-          "sizeBytes": 16964733,
-          "fileName": "T78_Crew_95DCJ5U.7z",
           "fileExt": ".7z",
           "changeLog": ""
         }
