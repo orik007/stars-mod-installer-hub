@@ -1,49 +1,11 @@
 {
-  "catalogVersion": "v2026.08.078",
-  "sourceHash": "4676e815137034c343172bf3028d83e00add7b2ef09756925d11e20a858221c9",
+  "catalogVersion": "v2026.08.079",
+  "sourceHash": "8216d24ca6eab044c913c4ae1c62140e771211b3c93746c2b0496f92bbe5744d",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
-    {
-      "source": "wgmods",
-      "sourceId": "7873",
-      "title": "Daatole Tournaments EU",
-      "ownerUsername": "Khinkali_Boy",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Official client modification for the Georgian World of Tanks community tournaments (Daatole Chuck Cup).</p><p>The mod connects your World of Tanks client directly to the community tournament platform (https://daatole.lol), providing automated battle performance tracking and real-time tournament notifications in the garage.</p><p>Key Features:</p><p>• Automatic Battle Result Tracking: Automatically captures eligible tournament battle performance (damage dealt, frags, victory status) and submits results to the live leaderboard.</p><p>• Real-Time Garage Notifications: Displays active tournament status, current battle slots (e.g. Battle 1/5), and detailed score breakdowns directly inside your Notification Center.</p><p>• Background Queue &amp; Auto-Recovery: Safely queues and syncs results even if leaving battles early or experiencing temporary network interruptions.</p><p>• Fully Compliant: Strictly follows Wargaming Fair Play Policy (FPP). Contains zero unfair advantages or illegal features.</p><p>• Lightweight: Single-file package with zero impact on game performance and FPS.</p><p>Official tournament platform: https://daatole.lol</p><p>Developed for the Georgian World of Tanks community.</p>",
-      "installationGuideHtml": "<p>1. Download the `khinkali_tournaments_eu.wotmod` file.</p><p>2. Copy the file into your World of Tanks modifications folder:</p><p>`World_of_Tanks/mods/&lt;current_game_version&gt;/` (for example: `mods/2.3.1.3/`).</p><p>3. Start the game.</p><p>4. Upon entering the garage, you will receive a confirmation message in the Notification Center.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_lI8E0s1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7873/",
-      "tagIds": [
-        "18",
-        "22",
-        "23"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/khinkali_tournaments_eu_gl2OMBs.wotmod",
-          "updatedAt": "2026-08-27T19:08:28.951Z",
-          "sizeBytes": 26942,
-          "fileName": "khinkali_tournaments_eu_gl2OMBs.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "khinkali_tournaments_eu_gl2OMBs.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
     {
       "source": "wgmods",
       "sourceId": "7872",
@@ -1448,8 +1410,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Hangar Carousel Classic</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, advanced vehicle sorting, configurable filters, and detailed vehicle-card statistics.</p><p>Tested with World of Tanks `2.3.1.3`.</p><p><strong>Features</strong></p><p>- Classic carousel layout with 1, 2, 3, or 4 rows<br>- Automatic row mode that adapts to garage size<br>- Vehicle-card statistics:<br>&nbsp; - Battles<br>&nbsp; - Win rate<br>&nbsp; - Average damage<br>&nbsp; - Alpha damage<br>&nbsp; - Mastery badge<br>&nbsp; - Marks of Excellence<br>- Configurable vehicle filters:<br>&nbsp; - Bonus crew XP<br>&nbsp; - Favorite vehicles<br>&nbsp; - Elite vehicles<br>&nbsp; - Premium vehicles<br>&nbsp; - Non-elite vehicles<br>&nbsp; - Not ready / incomplete crew<br>&nbsp; - Incomplete Marks of Excellence<br>&nbsp; - Crew below 75%<br>- Hierarchical multi-criteria sorting<br>- Per-criterion ascending or descending order<br>- Custom nation and vehicle-type priority order<br>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards<br>- Settings available through ModsSettingsAPI</p><p><strong>Requirements</strong></p><p>`net.openwg.gameface` is required. Without it, the carousel UI cannot be injected.</p><p>ModsSettingsAPI is recommended for in-game configuration. Without it, the mod remains functional but settings must be edited in its JSON configuration file in %APPDATA%/Wargaming.net/WorldOfTanks/mods/mod_hangar_carousel_classic/config.json</p><p><strong>Installation</strong></p><p>Use the `hangar_carousel_classic_1.0.8_full.zip` download for the easiest installation.</p><p>Extract the ZIP directly into the World of Tanks installation folder. It contains:</p><p>```text<br>mods/2.3.1.3/<br>&nbsp;mod_hangar_carousel_classic_1.0.8.wotmod<br>&nbsp;aslain.modssettingsapi_1.7.1.wotmod<br>&nbsp;net.openwg/<br>&nbsp; &nbsp;net.openwg.gameface_1.1.6.wotmod<br>```</p><p>The package includes the required OpenWG Gameface component and ModsSettingsAPI, placed in their expected mod paths.<br><br><br>If you find a bug or have a suggestion, please report it to: <a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues</a>.</p>",
-      "installationGuideHtml": "<h2>How to Install (using .wotmod only)</h2><p>First, download the most recent version from the <a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases\">Releases</a> page.</p><p>Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.3/.</p><p>Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the <a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\">OpenWG Gameface releases</a>, also into your client mods folder.</p><p>Launch Game.</p><p>Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu.</p><h2>Full Package Installation</h2><ul><li>If you choose the complete package, the hangar_carousel_classic_1.0.8_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.3/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory.</li></ul>",
+      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p>## Version and compatibility<br>&nbsp;</p><p>- Version: 1.0.10</p><p>- Tested game version: 2.3.1.3</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: ModsSettingsAPI<br>&nbsp;</p><p>## Features<br>&nbsp;</p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p>## Installation<br>&nbsp;</p><p>1. Download the latest release from the [GitHub Releases page](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases).</p><p>2. Copy `mod_hangar_carousel_classic_1.0.10.wotmod` to `mods/2.3.1.3/`.</p><p>3. Install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG Gameface releases](https://gitlab.com/openwg/wot.gameface/-/releases).</p><p>4. Start the game. Filters are available in the native carousel filter popover.<br>&nbsp;</p><p>The [full package](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/hangar_carousel_classic_1.0.10_full.zip) includes HCC, OpenWG Gameface, and ModsSettingsAPI. Extract it into the World of Tanks installation directory.<br>&nbsp;</p><p>ModsSettingsAPI is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without it.<br>&nbsp;</p><p>## Links<br>&nbsp;</p><p>- [Latest release](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/tag/v1.0.10)</p><p>- [Technical documentation](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md)</p><p>- [Issue tracker](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues)<br>&nbsp;</p>",
+      "installationGuideHtml": "<h2>Installation<br>&nbsp;</h2><p>- World of Tanks `2.3.1.3` or a compatible client is required.&nbsp;<br>- `net.openwg.gameface` is required for the carousel interface.&nbsp;<br>- ModsSettingsAPI is optional.<br>&nbsp;</p><p>## Full package (recommended)<br>&nbsp;</p><p>- Download [hangar_carousel_classic_1.0.10_full.zip](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/hangar_carousel_classic_1.0.10_full.zip), then extract it into the World of Tanks installation directory in `mods/2.3.1.3/`.&nbsp;<br>- It includes HCC, OpenWG Gameface, and ModsSettingsAPI.<br>&nbsp;</p><p>## HCC only<br>&nbsp;</p><p>- Download [mod_hangar_carousel_classic_1.0.10.wotmod](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/mod_hangar_carousel_classic_1.0.10.wotmod) and copy it to `mods/2.3.1.3/`.&nbsp;<br>- Install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](https://gitlab.com/openwg/wot.gameface/-/releases).<br>&nbsp;</p><p>- Without ModsSettingsAPI, HCC remains functional through the native carousel panel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_logo_TKJ5yrr.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7798/",
       "tagIds": [
@@ -1467,16 +1429,6 @@
           "fileName": "hangar_carousel_classic_1.0.8_full.zip",
           "fileExt": ".zip",
           "changeLog": "Changes\nAdded compatibility fixes for World of Tanks 2.3.1.3\nUpdated native carousel patch support for the current Gameface bundle\nImproved full-package build automation to detect the active client root automatically\nRemoved hardcoded 2.3.1.2 dependency assumptions\nImproved dependency resolution for Gameface and ModsSettingsAPI\nBumped mod version metadata to 1.0.8\n\nTechnical details\nThe native carousel patch includes the new 2.3.1.3 bundle hash and the updated UI references used by the current game build."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.0.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.7_full.zip",
-          "updatedAt": "2026-08-18T09:38:46.978Z",
-          "sizeBytes": 948837,
-          "fileName": "hangar_carousel_classic_1.0.7_full.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Added Frontline compatibility guard for the native vehicle filter provider.\n- Added native client resource compatibility warning.\n- Build version isn´t hardcoded anymore, now it read from meta.xml."
         }
       ],
       "latest": {
@@ -5523,8 +5475,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p><strong>Custom Sixth Sense replaces the Sixth Sense indicator with a fully customizable one that you set up in the garage.</strong></p><p>Pick a static or animated icon, move it anywhere on the screen, and adjust how it looks. It comes with a large set of ready-made icons, and you can add your own.</p><p>Options:<br>• Choose a static or animated icon, or add your own<br>• Drag the icon and the optional countdown timer anywhere on screen<br>• Adjust the display time, icon scale, opacity and an attention pulse<br>• Optional countdown timer with custom size, color and format</p><p>Your own icons: put a SixthSense.png file in a new folder inside mods/configs/Aslain/customsixthsense/static, then restart the game. Animated icons go in mods/configs/Aslain/customsixthsense/animated with their frames and a config.json.</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\customsixthsense\\customsixthsense.json</p><p>Fair play: the optional countdown is only a fixed reminder based on known game timings that you set yourself. It does not read or show the real live spotted state, and when it ends it does not mean you are no longer spotted. The mod does not reveal any hidden information.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder, i.e. 2.3.0.1, changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/CustomSixthSense_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -10186,52 +10138,6 @@
         "fileName": "spaces.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7593",
-      "title": "Girls Und Panzer Voice Pack Mod for World of Tanks",
-      "ownerUsername": "Anzu_Kadotani_2409",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": true,
-      "mark": 4.9,
-      "descriptionHtml": "<p>Hello</p><p>This is a voice pack mod for World of Tanks with voices from every major school.</p><p><strong>Includes:</strong></p><p>Every Oarai Team</p><p>BC Freedom Academy - Marie, Andou, Oshida</p><p>St. Gloriana Girls High School - Darjeeling, Rukuriri, and Rosehip</p><p>Saunders Girls High School - Kay, Alisa, and Naomi</p><p>Anzio High School - Anchovy, Carpaccio, Pepperoni</p><p>Pravda Girls High School - Katyusha, Nonna, Nina, Alina, and Klara</p><p>Kuromorimine Girls Academy - Maho, Erika, Koume, and Miho</p><p>Chi-Ha-Tan Academy - Nishi, Fukuda, Tamada, Hosomi</p><p>Jatkosota High School - Mika, Aki, Mikko</p><p>All-Stars University Team - Alice, Azumi, Megumi, and Rumi</p><p>This mod also includes Tatenashi High School:</p><p>Shizuka Tsuruki and Rin Matsukaze</p><p>You can choose whatever voice you want. For example, if you want only Marie, <strong>go to Settings → Sound → Voice Messages in Battle</strong> and select Marie. If you want all three Marie, Andou, and Oshida, select BC, the choice is yours.</p><p><strong>Gameplay:</strong></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OmbVnw1Y3As?si=PrfxC9cmyy6Hv5iu\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OmbVnw1Y3As\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<p>Unzip the folder and copy the files into the latest game version inside the mods folder where your game folder is stored. Also if dont want version that does not replace the detection,ally,death, and reload notifications just delete GuP(Version)_audio_VoiceSelector_ver.18.0.1_xml.wotmod</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/NZ.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7593/",
-      "tagIds": [
-        "17"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "2.2.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mods_87HlEHV.zip",
-          "updatedAt": "2026-08-20T04:43:26.006Z",
-          "sizeBytes": 747703812,
-          "fileName": "mods_87HlEHV.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "2.2.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mods_VNDBwEn.zip",
-          "updatedAt": "2026-08-12T07:36:59.709Z",
-          "sizeBytes": 747703812,
-          "fileName": "mods_VNDBwEn.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "mods_87HlEHV.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -45237,6 +45143,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "08",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_08.exe",
+          "updatedAt": "2026-08-28T10:41:09.333Z",
+          "sizeBytes": 59951170,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_08.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated The anti-mirror for non-XVM contour icons (fix)\n- Updated Info Panel OldSkool (fix)\n- Updated Armor Penetration Calculator v2 (fix)\n- Updated Chat Filter (fix)\n- Updated MoE Calculator 14th_ua\n- Updated WOTInspector Heatmaps\n- Added x5 XP Multiplier Counter by OldSkool\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "07",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_07.exe",
           "updatedAt": "2026-08-26T14:30:21.865Z",
@@ -45284,21 +45200,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_03.exe",
           "fileExt": ".exe",
           "changeLog": "- Installer: a clean install no longer wipes the mods\\configs folder, so your mod settings stay in place; added an option to delete that folder as well\n- Updated WOTInspector Heatmaps\n- Updated MoE Calculator 14th_ua\n- Updated Research Progress Bar by 14th_ua\n- Removed all FPS limiters and replaced them with FPS Optimizer (from net.openwg.common): separate frame rate limits for battle and Garage, plus AMD Radeon Anti-Lag 2 and NVIDIA Reflex support. It is also installed together with XVM\n- Note: the old FPS limiter selection is not carried over, so if you used one, tick FPS Optimizer manually during this install. Anti-Lag 2 and Reflex are off by default, enable them in the game graphics settings\n- Note: Battle Equipment: the panel side and ALT-key options are gone from the modpack list, set them yourself in the mod settings menu in the garage\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_02.exe",
-          "updatedAt": "2026-08-21T15:28:28.075Z",
-          "sizeBytes": 58409636,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_02.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated 16 mods by CHAMPi\n- Updated Garage Mastery by Gravity_Assist\n- Updated MoE Tracker\n- Updated Camo Selector\n- Updated Personal Missions Helper\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_07.exe",
-        "changeLog": "v2.3.1.3 #07 (26-08-2026):\n- Installer: fixed an error that could break the mod list, presets and previews when the Documents folder is redirected or unavailable (for example a disconnected OneDrive)\n- Fixed WOTInspector Heatmaps (added missing dependencies)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_08.exe",
+        "changeLog": "- Updated The anti-mirror for non-XVM contour icons (fix)\n- Updated Info Panel OldSkool (fix)\n- Updated Armor Penetration Calculator v2 (fix)\n- Updated Chat Filter (fix)\n- Updated MoE Calculator 14th_ua\n- Updated WOTInspector Heatmaps\n- Added x5 XP Multiplier Counter by OldSkool\n",
         "wotGameVersionCompatibility": "safe"
       }
     },

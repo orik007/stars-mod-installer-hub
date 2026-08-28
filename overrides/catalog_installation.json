@@ -1,22 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.078",
+  "catalogVersion": "v2026.08.079",
   "mods": [
-    {
-      "source": "wgmods",
-      "sourceId": "7873",
-      "title": "Daatole Tournaments EU",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "1. Download the `khinkali_tournaments_eu.wotmod` file. 2. Copy the file into your World of Tanks modifications folder: `World_of_Tanks/mods/<current_game_version>/` (for example: `mods/2.3.1.3/`). 3. Start the game. 4. Upon entering the garage, you will receive a confirmation message in the Notification Center."
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
     {
       "source": "wgmods",
       "sourceId": "7872",
@@ -533,12 +518,12 @@
       "title": "Hangar Carousel Classic",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "How to Install (using .wotmod only) First, download the most recent version from the Releases page. Copy the .wotmod file into your World of Tanks client's mods directory. For instance, you might place it in a path like G:/Games/World_of_Tanks_EU/mods/2.3.1.3/. Additionally, you'll need to install the corresponding net.openwg.gameface_*.wotmod file, which can be found in the OpenWG Gameface releases , also into your client mods folder. Launch Game. Please be aware that net.openwg.gameface is essential for injecting the carousel's user interface. The ModsSettingsAPI is optional and is solely used for accessing the in-game settings menu. Full Package Installation If you choose the complete package, the hangar_carousel_classic_1.0.8_full.zip file includes the carousel mod, net.openwg.gameface, and ModsSettingsAPI, all organized within the mods/2.3.1.3/ structure. Simply extract the contents of this zip file directly into your main World of Tanks installation directory."
+        "latestInstallGuide": "Installation - World of Tanks `2.3.1.3` or a compatible client is required. - `net.openwg.gameface` is required for the carousel interface. - ModsSettingsAPI is optional. ## Full package (recommended) - Download [hangar_carousel_classic_1.0.10_full.zip](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/hangar_carousel_classic_1.0.10_full.zip), then extract it into the World of Tanks installation directory in `mods/2.3.1.3/`. - It includes HCC, OpenWG Gameface, and ModsSettingsAPI. ## HCC only - Download [mod_hangar_carousel_classic_1.0.10.wotmod](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/mod_hangar_carousel_classic_1.0.10.wotmod) and copy it to `mods/2.3.1.3/`. - Install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](https://gitlab.com/openwg/wot.gameface/-/releases). - Without ModsSettingsAPI, HCC remains functional through the native carousel panel."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and the guide for the complete package says to extract the zip directly into the main World of Tanks installation directory.",
+        "decisionReason": "Archive package and guide provides a supported full-package install to mods/<version>; dependency notes are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -3134,21 +3119,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
         "decisionReason": "Package is .zip (archive) and guide explicitly instructs to unzip and place the top-level 'spaces' folder into res_mods/<version>; extract archive and copy the 'spaces' folder into res_mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7593",
-      "title": "Girls Und Panzer Voice Pack Mod for World of Tanks",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip the folder and copy the files into the latest game version inside the mods folder where your game folder is stored. Also if dont want version that does not replace the detection,ally,death, and reload notifications just delete GuP(Version)_audio_VoiceSelector_ver.18.0.1_xml.wotmod"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .zip (archive) and guide instructs to unzip and copy files into the latest game version inside the mods folder (mods/<version>); extract and place files into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
