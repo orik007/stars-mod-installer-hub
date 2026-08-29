@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.081",
-  "sourceHash": "22a40e839020465a1eed889c06c1900ddbe340bc2980daeea26503404d896348",
+  "catalogVersion": "v2026.08.082",
+  "sourceHash": "a508a672a98cfacb8778fe72bb235dabc5d0e1304ebd535dfc8e06effda00834",
   "sources": [
     "wgmods",
     "modhub"
@@ -722,7 +722,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 5,
+      "mark": 4.8,
       "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from other effective armor mods?</i></p></blockquote><ol><li>They don't compute and display the exact probability of penetrating.<ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very inaccurate (especially since the distribution is not uniform).</li></ul></li><li>This mod has more features and receives regular updates.<ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul></li></ol><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance from new graphics API</li><li>Fewer labels to reduce clutter and improve readability</li></ol><h2>Details</h2><ul><li>Vanilla-like UI</li><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses many calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-08-16_21-42-30-cropped.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3437,7 +3437,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.7,
       "descriptionHtml": "<p>Hangar Carousel Plus extends the native World of Tanks 2.x hangar carousel with smart filters, sorting, local statistics, and configurable row layouts.</p><p>The mod currently targets the Wargaming EU 2.3.1.x client and provides:</p><ul><li>filters for incomplete Field Modification, incompletely trained crews, and non-elite vehicles;</li><li>reward/special, not-ready, no-Ace, fewer-than-three-Marks, and research-now-available filters;</li><li>battles, win rate, average damage, mastery, and Marks of Excellence on vehicle cards and in the native hover card;</li><li>sorting by battles, win rate, average damage, Marks of Excellence, or last played;</li><li>one-, two-, three-, and four-row carousel layouts with an automatic mode;</li><li>optional hiding of the Buy vehicle, Buy slot, and Restore vehicle cells;</li><li>a settings page through ModsSettingsAPI;</li><li>localization for all 24 EU client languages.</li></ul>",
       "installationGuideHtml": "<p>Download the complete Hangar Carousel Plus bundle</p><ol><li>Close World of Tanks.</li><li>Remove older com.rcooler.hangar_carousel_plus_*.wotmod files from &lt;game&gt;\\mods\\2.3.1.0\\.</li><li>Extract the ZIP directly into the World of Tanks root and allow it to merge the mods directory.</li><li>Start the game</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/hangar-carousel-plus.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3942,6 +3942,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.1.03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ChatFilter_1.1.03_2.3.1.3.zip",
+          "updatedAt": "2026-08-29T17:49:15.648Z",
+          "sizeBytes": 623608,
+          "fileName": "ChatFilter_1.1.03_2.3.1.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "word list fields are now six lines tall instead of one; this will be visible in the new modsettings game face next week"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "1.1.00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ChatFilter_1.1.00_2.3.1.3.zip",
           "updatedAt": "2026-08-26T19:59:34.335Z",
@@ -3952,8 +3962,8 @@
         }
       ],
       "latest": {
-        "fileName": "ChatFilter_1.1.00_2.3.1.3.zip",
-        "changeLog": "",
+        "fileName": "ChatFilter_1.1.03_2.3.1.3.zip",
+        "changeLog": "word list fields are now six lines tall instead of one; this will be visible in the new modsettings game face next week",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5601,6 +5611,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.4.00",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.4.00_2.3.1.3_PS46CtZ.zip",
+          "updatedAt": "2026-08-29T18:29:29.647Z",
+          "sizeBytes": 664606,
+          "fileName": "BalCalcMod_2.4.00_2.3.1.3_PS46CtZ.zip",
+          "fileExt": ".zip",
+          "changeLog": "- new option: show the distance only while the lock is held\n- the distance is no longer taken from a team mate\n- font size setting"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "2.3.11",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BalCalcMod_2.3.11_2.3.1.3.zip",
           "updatedAt": "2026-08-27T10:33:26.621Z",
@@ -5621,8 +5641,8 @@
         }
       ],
       "latest": {
-        "fileName": "BalCalcMod_2.3.11_2.3.1.3.zip",
-        "changeLog": "",
+        "fileName": "BalCalcMod_2.4.00_2.3.1.3_PS46CtZ.zip",
+        "changeLog": "- new option: show the distance only while the lock is held\n- the distance is no longer taken from a team mate\n- font size setting",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5648,6 +5668,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "2.1.01",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Autoaim_indicator_Plus_2.1.01_2.3.1.3.zip",
+          "updatedAt": "2026-08-29T18:29:32.739Z",
+          "sizeBytes": 657331,
+          "fileName": "Autoaim_indicator_Plus_2.1.01_2.3.1.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "added font size setting"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "2.1.00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Autoaim_indicator_Plus_2.1.00_2.3.1.3.zip",
           "updatedAt": "2026-08-27T10:33:23.609Z",
@@ -5668,8 +5698,8 @@
         }
       ],
       "latest": {
-        "fileName": "Autoaim_indicator_Plus_2.1.00_2.3.1.3.zip",
-        "changeLog": "",
+        "fileName": "Autoaim_indicator_Plus_2.1.01_2.3.1.3.zip",
+        "changeLog": "added font size setting",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -45169,6 +45199,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "09",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_09.exe",
+          "updatedAt": "2026-08-29T18:14:50.790Z",
+          "sizeBytes": 61708795,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_09.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated x5 XP Multiplier Counter by OldSkool\n- Updated BalCalcMod (new option: show the distance only while the lock is held; the distance is no longer taken from a team mate; font size setting)\n- Updated AutoAim Indication+ (added font size setting)\n- Updated Chat Filter (word list fields are now six lines tall instead of one; this will be visible in the new modsettings game face next week)\n- Updated Show vehicle body in the sniper view (the vehicle blacklist is now several lines tall instead of one; this will be visible in the new modsettings game face next week)\n- Added Reload Time - Base Values (by DonPedroTV)\n- Added Campaign Tracker (by Zanju)\n- Added Vehicle Stat Inspector (by Gravity Assist)\n"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "08",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_08.exe",
           "updatedAt": "2026-08-28T10:41:09.333Z",
@@ -45196,41 +45236,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_06.exe",
           "fileExt": ".exe",
           "changeLog": "v2.3.1.3 #06 (26-08-2026):\n- Updated version checker (the update window no longer reappears after every battle)\n- Updated Camo Selector (improved 3D-style editing and preservation of custom decals, added descriptions for custom assets, expanded branded vehicle support, and fixed invalid styles and timeout errors)\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "05",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_05.exe",
-          "updatedAt": "2026-08-25T21:30:25.124Z",
-          "sizeBytes": 59676043,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_05.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Overmatch.pro\n- Updated Onslaught Rating Overlay\n- Updated Directives Helper\n- Added Salvo Reticle Fix (by Zanju)\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_04.exe",
-          "updatedAt": "2026-08-24T11:26:14.143Z",
-          "sizeBytes": 59654004,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_04.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.3.1.3 #04 (24-08-2026):\n- Updated XVM 13.1.0_0073\n- Updated Armor Penetration Calculators\n- Updated net.openwg.common 2.7.5 (probably fixes the issue for steam+nvidia users)\n"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.3.1.3_03.exe",
-          "updatedAt": "2026-08-22T17:53:28.794Z",
-          "sizeBytes": 58666440,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Installer: a clean install no longer wipes the mods\\configs folder, so your mod settings stay in place; added an option to delete that folder as well\n- Updated WOTInspector Heatmaps\n- Updated MoE Calculator 14th_ua\n- Updated Research Progress Bar by 14th_ua\n- Removed all FPS limiters and replaced them with FPS Optimizer (from net.openwg.common): separate frame rate limits for battle and Garage, plus AMD Radeon Anti-Lag 2 and NVIDIA Reflex support. It is also installed together with XVM\n- Note: the old FPS limiter selection is not carried over, so if you used one, tick FPS Optimizer manually during this install. Anti-Lag 2 and Reflex are off by default, enable them in the game graphics settings\n- Note: Battle Equipment: the panel side and ALT-key options are gone from the modpack list, set them yourself in the mod settings menu in the garage\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_08.exe",
-        "changeLog": "- Updated The anti-mirror for non-XVM contour icons (fix)\n- Updated Info Panel OldSkool (fix)\n- Updated Armor Penetration Calculator v2 (fix)\n- Updated Chat Filter (fix)\n- Updated MoE Calculator 14th_ua\n- Updated WOTInspector Heatmaps\n- Added x5 XP Multiplier Counter by OldSkool\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.3.1.3_09.exe",
+        "changeLog": "- Updated x5 XP Multiplier Counter by OldSkool\n- Updated BalCalcMod (new option: show the distance only while the lock is held; the distance is no longer taken from a team mate; font size setting)\n- Updated AutoAim Indication+ (added font size setting)\n- Updated Chat Filter (word list fields are now six lines tall instead of one; this will be visible in the new modsettings game face next week)\n- Updated Show vehicle body in the sniper view (the vehicle blacklist is now several lines tall instead of one; this will be visible in the new modsettings game face next week)\n- Added Reload Time - Base Values (by DonPedroTV)\n- Added Campaign Tracker (by Zanju)\n- Added Vehicle Stat Inspector (by Gravity Assist)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
