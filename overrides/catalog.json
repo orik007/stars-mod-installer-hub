@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.08.080",
-  "sourceHash": "78bc97b421b2a7468903470b4b03b12be86de05c1e7957fe12e91d94fdf46217",
+  "catalogVersion": "v2026.08.081",
+  "sourceHash": "22a40e839020465a1eed889c06c1900ddbe340bc2980daeea26503404d896348",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7874",
+      "title": "Zanju's Campaign Tracker",
+      "ownerUsername": "Nersus",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<h2>This mod brings back the personal mission campaign banners the UI rework removed.</h2><ul><li><strong>Support for all campaigns</strong> — works with the old style of campaigns 1 and 2, and the new style of campaign 3.</li><li><strong>Details on hover</strong> — hover over a banner for the conditions and your progress.</li><li><strong>Interactive</strong> — click a banner to open its mission. Shift-click and Ctrl-click pause or reset the missions that allow it.</li><li><strong>Locked vehicles</strong> — for missions that require several different vehicles, shows the progress and warns when your tank is locked out.</li></ul>",
+      "installationGuideHtml": "<p>You can read the installation guide at the <a href=\"https://github.com/przemyslaw-zan/zanju-wot-mods/blob/-/docs/installing-mods.md\">source repository</a>.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/campaign_legacy.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7874/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.campaigntracker_1.0.0.zip",
+          "updatedAt": "2026-08-29T10:15:51.066Z",
+          "sizeBytes": 263908,
+          "fileName": "zanju.campaigntracker_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "zanju.campaigntracker_1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7875",
@@ -17,7 +54,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>🔍 Vehicle Stat Inspector expands the Vehicle Hub with advanced statistics that are normally hidden from view.</p><p>🚜 Effective Mobility<br>• Effective traverse speed on firm, medium, and soft terrain<br>• Estimated forward and reverse speed<br>• Ground-resistance values<br>• Detailed breakdown of active bonuses and modifiers</p><p>🎯 Gun Handling<br>• Dispersion while moving<br>• Dispersion during hull and turret rotation<br>• Dispersion after firing<br>• Dispersion with a damaged gun</p><p>💥 Shell Details<br>• Shell velocity<br>• Module damage<br>• Maximum range<br>• Normalization and ricochet angles</p><p>🛠️ Module Survivability<br>• Health of the ammunition rack, engine, fuel tanks, tracks, gun, turret ring, optics, and radio<br>• Engine fire chance</p><p>🌍 Includes support for 19 languages.</p><p>Hover over supported statistics to compare the current setup with the vehicle’s configured baseline and see where each bonus comes from.</p><p>📦 Required GameFace framework and Error Reporter are included in the download.</p>",
+      "descriptionHtml": "<p>🔍 Vehicle Stat Inspector expands the Vehicle Hub with advanced statistics that are normally hidden from view.</p><p>🚜 Effective Mobility<br>• Effective traverse speed on firm, medium, and soft terrain<br>• Estimated forward and reverse speed<br>• Ground-resistance values<br>• Detailed breakdown of active bonuses and modifiers</p><p>🎯 Gun Handling<br>• Dispersion while moving<br>• Dispersion during hull and turret rotation<br>• Dispersion after firing<br>• Dispersion with a damaged gun</p><p>💥 Shell Details<br>• Shell velocity<br>• Module damage<br>• Maximum range<br>• Normalization and ricochet angles</p><p>🛠️ Module Survivability<br>• Health of the ammunition rack, engine, fuel tanks, tracks, gun, turret ring, optics, and radio<br>• Engine fire chance</p><p>🌍 Includes support for 19 languages.</p><p>Hover over supported statistics to compare the current setup with the vehicle’s configured baseline and see where each bonus comes from.</p><p>📦 Required GameFace framework and Error Reporter are included in the download.</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-28_182602822.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7875/",
@@ -2114,6 +2151,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.3.1.3",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Reload_Time_Base_Values_1.0.2.zip",
+          "updatedAt": "2026-08-29T10:15:54.208Z",
+          "sizeBytes": 15504,
+          "fileName": "Reload_Time_Base_Values_1.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/donpedrotv.base_reload_times_1.0.2.wotmod",
@@ -2125,9 +2172,9 @@
         }
       ],
       "latest": {
-        "fileName": "donpedrotv.base_reload_times_1.0.2.wotmod",
-        "changeLog": "- Update to 2.3.1.1 WOT",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Reload_Time_Base_Values_1.0.2.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5868,16 +5915,6 @@
           "fileName": "INQ_Pack_Installer_sHBXkt3.exe",
           "fileExt": ".exe",
           "changeLog": "Добавлено мод вирішальний постріл \nДобавлено мод звук засвіту useikaj"
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "3.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_MuRYnp9.exe",
-          "updatedAt": "2026-08-08T22:40:20.564Z",
-          "sizeBytes": 120859138,
-          "fileName": "INQ_Pack_Installer_MuRYnp9.exe",
-          "fileExt": ".exe",
-          "changeLog": "Оновлено моди "
         }
       ],
       "latest": {
@@ -12149,8 +12186,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 3.8,
       "descriptionHtml": "<p>This mod allows you to use an in-game interface to select from a large list of commander voices. It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation.&nbsp;</p><p>Note: requires a garage mod settings UI handled by these files:&nbsp;<br>- izeberg.modssettingsapi_[latest version].wotmod&nbsp;<br>- me.poliroid.modslistapi_[latest version].wotmod&nbsp;<br>- net.openwg.gameface_[latest version].wotmod&nbsp;<br><br>If you have either Aslain or ProMod installed, you should have the necessary UI files.&nbsp;</p>",
       "installationGuideHtml": "<p>Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\<strong>current version' </strong>folder on your PC.</p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Commander_Selector_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -15857,8 +15894,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p>A mod that removes warn text and overlay dim in tank carousel cards that covers tank names (and does it in a more compatible way).</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/7105d084-07a5-4803-9166-863388b0e142.png\"></figure><h2>Source code &amp; feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/CarouselWarnRemover\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/CarouselWarnRemover/issues\">GitHub issues here</a>.</li></ul><h2>Contributions</h2><p>Thanks to</p><ul><li>POLIROID - for Gameface API</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.carousel_warn_remover_X.wotmod</strong>\" and <strong>other *.wotmod files</strong> into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_o4yW285.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -20870,7 +20907,7 @@
         "en"
       ],
       "recommended": false,
-      "mark": 5,
+      "mark": 4.6,
       "descriptionHtml": "<p>This mod changes gun sounds to old ones from version 0.8.9.<br>Sounds of the double cannon salvos remain unchanged.</p>",
       "installationGuideHtml": "<p>unpack oldguns.zip in res_mods/<i>current-game-version/audioww</i></p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ogs.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
