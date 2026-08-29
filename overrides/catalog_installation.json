@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.08.080",
+  "catalogVersion": "v2026.08.081",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7874",
+      "title": "Zanju's Campaign Tracker",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "You can read the installation guide at the source repository ."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Archive package, but the guide only refers to an external installation guide and does not provide a target path or operation here.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7875",
@@ -727,13 +742,13 @@
       "sourceId": "7790",
       "title": "Reload Time Marker - Base Values",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "INSTALLATION Extract the downloaded archive into the main World of Tanks directory while preserving its folder structure. Alternatively, copy: donpedrotv.base_reload_times_*.*.*.wotmod to: [WoT game directory]/mods/[version]/ ---------------------------------------------- Config location file: [WoT game directory]/mods/configs/ReloadReference/config.json Izeberg ModsSettingsAPI is optional. The mod works without it, but the in-garage configuration menu will not be available."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide provides a supported alternative to copy the .wotmod into mods/<version>.",
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Guide gives multiple install targets: either extract to game root or copy a .wotmod to mods/<version>, plus a config path under mods/configs.",
         "deleteDataWgpdc": false
       }
     },
