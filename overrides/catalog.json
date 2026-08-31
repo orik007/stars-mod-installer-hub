@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.08.085",
-  "sourceHash": "fc91050480ad546a0333ad5189b0721ee25b7ffe414afa7b1168f8b01de0c8de",
+  "catalogVersion": "v2026.08.086",
+  "sourceHash": "1136e3a90be70f42d2c4609455c4a4bd9a4c1d0becc212439fdc955ed4c3e065",
   "sources": [
     "wgmods",
     "modhub"
@@ -139,18 +139,18 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.3.1.3.1.0.2.zip",
-          "updatedAt": "2026-08-31T12:16:33.050Z",
-          "sizeBytes": 471846,
-          "fileName": "gravity.vehicle_stat_inspector.2.3.1.3.1.0.2.zip",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.3.1.3.1.0.3.zip",
+          "updatedAt": "2026-08-31T17:49:24.695Z",
+          "sizeBytes": 525349,
+          "fileName": "gravity.vehicle_stat_inspector.2.3.1.3.1.0.3.zip",
           "fileExt": ".zip",
-          "changeLog": "Added a Loadout Sandbox for equipment, directives, consumables, crew perks, boosted slots and field modifications.\nAdded standard, bounty, upgraded bounty, bond and experimental equipment variants with compatibility restrictions.\nAdded complete crew customization, including shared, role-specific, secondary-role and conditional perks.\nAdded Restore Loadout and Remove All controls.\nImproved sandbox layout, artwork, dragging, transparency and state preservation.\nCorrected boosted-slot bonuses, shell velocity, Intuition time, and vehicle-specific damage calculations for tanks including the Taschenratte and PTZ-78.\nCorrected misleading baseline and fractional values.\nGreatly reduced freezing when opening statistics or recalculating configurations.\nFixed missing +/- bonus labels after fast loading.\nNumerous UI, tooltip, accuracy and compatibility fixes."
+          "changeLog": "Added damage and penetration values for every available shell type. Added a shell selector to the main Firepower statistics. Average Damage, Average Penetration, and DPM now update for the selected shell, allowing statistics such as HE DPM to be viewed. Completed translations for all supported languages. Added a visible scrollbar and faster scrolling to the loadout sandbox.\nFixed hover tooltip text overlapping or wrapping incorrectly, particularly for magazine and container reload values. Preserved the compact single-line layout for normal statistics.\nImproved general interface layout and stability."
         }
       ],
       "latest": {
-        "fileName": "gravity.vehicle_stat_inspector.2.3.1.3.1.0.2.zip",
-        "changeLog": "Added a Loadout Sandbox for equipment, directives, consumables, crew perks, boosted slots and field modifications.\nAdded standard, bounty, upgraded bounty, bond and experimental equipment variants with compatibility restrictions.\nAdded complete crew customization, including shared, role-specific, secondary-role and conditional perks.\nAdded Restore Loadout and Remove All controls.\nImproved sandbox layout, artwork, dragging, transparency and state preservation.\nCorrected boosted-slot bonuses, shell velocity, Intuition time, and vehicle-specific damage calculations for tanks including the Taschenratte and PTZ-78.\nCorrected misleading baseline and fractional values.\nGreatly reduced freezing when opening statistics or recalculating configurations.\nFixed missing +/- bonus labels after fast loading.\nNumerous UI, tooltip, accuracy and compatibility fixes.",
+        "fileName": "gravity.vehicle_stat_inspector.2.3.1.3.1.0.3.zip",
+        "changeLog": "Added damage and penetration values for every available shell type. Added a shell selector to the main Firepower statistics. Average Damage, Average Penetration, and DPM now update for the selected shell, allowing statistics such as HE DPM to be viewed. Completed translations for all supported languages. Added a visible scrollbar and faster scrolling to the loadout sandbox.\nFixed hover tooltip text overlapping or wrapping incorrectly, particularly for magazine and container reload values. Preserved the compact single-line layout for normal statistics.\nImproved general interface layout and stability.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -4956,16 +4956,6 @@
           "fileName": "the_dynamic_playlist_mod_1.4.4.zip",
           "fileExt": ".zip",
           "changeLog": "1.4.4 - Split into four separate .wotmod files (marks, upgrades, weekly,\n        t11grind). Users can now install only the lists they want.\n        Added \"# XP grind for TXI\" list tracking T10 vehicles that still\n        need XP before their T11 successor can be purchased.\n\t- Switched mod_dynpl_t11grind to language-independent internal\n        vehicle name matching - works correctly on all client locales.\n        Fixed T11 predecessor detection for Objekt 430U, Concept No. 5,\n        Leopard 1 and Bat.-Chatillon 25 t."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.4.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_dynamic_playlists_v1.4.3.wotmod",
-          "updatedAt": "2026-06-23T11:33:20.973Z",
-          "sizeBytes": 30694,
-          "fileName": "mod_dynamic_playlists_v1.4.3.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "# Weekly Playlist (new)\n\nA new automatic playlist that displays vehicles matching the current 3-week missions — filtered according to their vehicle restrictions (sub-role, class, nation, level). Sorted by priority within the list: first vehicles with missing Field Mods, then vehicles close to a Gunmark, then the rest. Is automatically rebuilt when you reroll a mission."
         }
       ],
       "latest": {
@@ -15867,16 +15857,6 @@
           "updatedAt": "2026-06-11T10:49:33.481Z",
           "sizeBytes": 4792553,
           "fileName": "skill4ltu_2026.06.01.01_doeXr3S.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.5.07",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.06.01.01.zip",
-          "updatedAt": "2026-06-01T10:46:50.521Z",
-          "sizeBytes": 4792553,
-          "fileName": "skill4ltu_2026.06.01.01.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -33459,16 +33439,6 @@
           "fileName": "tomatogg_2026.08.05.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1.06",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.04.1.zip",
-          "updatedAt": "2026-08-04T20:42:48.619Z",
-          "sizeBytes": 7819635,
-          "fileName": "tomatogg_2026.08.04.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -34435,8 +34405,8 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>Realistic but unreal markings as this thing was just an idea ...</p><p>Me too I made a musical tank, guess to who i refer ;)</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
-      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\1.x.x.x</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_008_t2nfWvK.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x<br>&nbsp;</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/87fc89bc-467c-46b9-83ae-b0741c5ecf8c.png\"></figure>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_002.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6077/",
       "tagIds": [
         "16",
@@ -34919,16 +34889,6 @@
           "updatedAt": "2026-07-14T13:39:14.867Z",
           "sizeBytes": 5282382,
           "fileName": "2.3.1.0_BattleHits_2.3.8.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.3.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.0.1_BattleHits_2.3.7.zip",
-          "updatedAt": "2026-06-11T10:47:55.584Z",
-          "sizeBytes": 5282379,
-          "fileName": "2.3.0.1_BattleHits_2.3.7.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -44972,6 +44932,16 @@
       "files": [
         {
           "wotGameVersion": "2.3.1.3",
+          "modVersion": "3.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_lGcZcgD.zip",
+          "updatedAt": "2026-08-31T21:16:57.905Z",
+          "sizeBytes": 4885042,
+          "fileName": "ProMod_lGcZcgD.zip",
+          "fileExt": ".zip",
+          "changeLog": "Update ProMod 2.0"
+        },
+        {
+          "wotGameVersion": "2.3.1.3",
           "modVersion": "1177",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod.zip",
           "updatedAt": "2026-08-20T06:15:40.293Z",
@@ -45019,16 +44989,6 @@
           "fileName": "ProMod_LVSxXiT.zip",
           "fileExt": ".zip",
           "changeLog": "• Modpack: Updated Responsive Reticle\n• Modpack: Updated Auto Equipment Plus (new mod)\n• Modpack: Updated Battle Equipment\n• Modpack: Updated Battle Hits Viewer\n• Modpack: Updated War Mod Gun Sounds"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1170",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_Mx2sxuY.zip",
-          "updatedAt": "2026-07-23T08:45:04.602Z",
-          "sizeBytes": 4168848,
-          "fileName": "ProMod_Mx2sxuY.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
