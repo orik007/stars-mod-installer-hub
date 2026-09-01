@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.000",
+  "catalogVersion": "v2026.09.001",
   "mods": [
     {
       "source": "wgmods",
@@ -83,12 +83,12 @@
       "title": "Fixed: Girls and Panzer Voice Selector (all voices)",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Copy all files to latest version under mod floder If you don't want some voice such as six sence to be change to GUP version, delete GuP(x.x)_audio_VoiceSelector_ver.18.0.1_xml"
+        "latestInstallGuide": "Copy all files to latest version under mod floder If you don't want some voice such as six sence to be changed to GUP version, delete GuP(x.x)_audio_VoiceSelector_ver.18.0.1_xml"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to the latest version folder under mods with no blocking manual choice.",
+        "decisionReason": "Archive package and guide points to the latest version folder under mods; optional deletion of one file is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
