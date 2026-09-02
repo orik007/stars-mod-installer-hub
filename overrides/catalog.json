@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.09.004",
-  "sourceHash": "10b395ba0d56701044fed2a6aaa122d3fd85fd9647a7cb6e4346debaa61ccec8",
+  "catalogVersion": "v2026.09.005",
+  "sourceHash": "365240f8063226cf349908536ddad07e889577751b6dc2ce2683354eef1f73e0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7882",
+      "title": "Skin 3D_Kampfgruppe Schneide_ Remodeling with sandbags_For the TIGER II",
+      "ownerUsername": "carabo69",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Skins Camo, cosmetic appearance, for WOrld of Tanks :&nbsp;<br><br>All assets created as part of the mods belong to their respective owners. Most of the assets used in the mods come from Wargaming (World of Tanks) and Lesta (Mir Tankov).&nbsp;<br><br>&nbsp;</p>",
+      "installationGuideHtml": "<p>Installing the mod:&nbsp;<br><br>Close the game:&nbsp;<br><br>Copy and paste the WOTMod file you have downloaded into the ‘mods’ folder; this folder is usually located at C:\\Games\\World_of_Tanks_EU\\mods, or on the drive where you have installed the game.&nbsp;<br><br>This mod should work correctly regardless of the patch version.&nbsp;<br>&nbsp;</p><p>I hope you like it and enjoy it</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/TGER_II_1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7882/",
+      "tagIds": [
+        "16",
+        "21",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "V. 1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PzVIB_Tiger_II.wotmod",
+          "updatedAt": "2026-09-02T19:15:14.028Z",
+          "sizeBytes": 222357888,
+          "fileName": "PzVIB_Tiger_II.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "PzVIB_Tiger_II.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7885",
@@ -54,7 +92,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.8,
+      "mark": 4.9,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>Restores the classic gun sounds from World of Tanks 2.3.1.3, replacing the redesigned weapon audio introduced in Update 2.4.</p><p>The mod restores both standard cannon and rapid-fire/autocannon sounds for the player and other vehicles. Only the weapon sound banks changed by Update 2.4 are replaced, while the current engine, track, impact, explosion, interface, music, and crew audio remains untouched.</p><p><strong>Features</strong></p><ul><li>Restores classic pre-2.4 cannon sounds</li><li>Restores classic autocannon and rapid-fire sounds</li><li>Covers player, allied, and enemy gunfire</li><li>Preserves all unrelated Update 2.4 audio</li><li>Contains no scripts</li><li>Does not change gameplay or vehicle characteristics</li><li>Lightweight and narrowly scoped to the updated weapon sounds</li></ul><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -100,6 +138,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/9.17.1_tank_models_1.0.1.wotmod",
+          "updatedAt": "2026-09-02T20:30:50.375Z",
+          "sizeBytes": 707630890,
+          "fileName": "9.17.1_tank_models_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "-Added new re-textured tank batch\n-Updated mod for version 2.4"
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/9.17.1_tank_models_1.0.wotmod",
@@ -111,9 +159,9 @@
         }
       ],
       "latest": {
-        "fileName": "9.17.1_tank_models_1.0.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "9.17.1_tank_models_1.0.1.wotmod",
+        "changeLog": "-Added new re-textured tank batch\n-Updated mod for version 2.4",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -917,7 +965,7 @@
       ],
       "recommended": true,
       "mark": 4.8,
-      "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from other effective armor mods?</i></p></blockquote><ol><li>They don't compute and display the exact probability of penetrating.<ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very inaccurate (especially since the distribution is not uniform).</li></ul></li><li>This mod has more features and receives regular updates.<ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul></li></ol><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance from new graphics API</li><li>Fewer labels to reduce clutter and improve readability</li></ol><h2>Details</h2><ul><li>Vanilla-like UI</li><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses many calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
+      "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance</li><li>Fewer labels to reduce clutter</li></ol><h2>settings</h2><p>To change the settings, I recommend using <a href=\"https://github.com/Aslain/modmenu\">modmenu </a>by Aslain.</p><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-08-16_21-42-30-cropped.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7846/",
@@ -3936,18 +3984,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crucible_progress_overlay.2.4.0.0.1.0.1.zip",
-          "updatedAt": "2026-09-01T09:43:14.021Z",
-          "sizeBytes": 206660,
-          "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.1.zip",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
+          "updatedAt": "2026-09-02T20:31:59.340Z",
+          "sizeBytes": 218520,
+          "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
           "fileExt": ".zip",
-          "changeLog": ""
+          "changeLog": "Fixed bugs that happened after 2.4.0.0"
         }
       ],
       "latest": {
-        "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.1.zip",
-        "changeLog": "",
+        "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
+        "changeLog": "Fixed bugs that happened after 2.4.0.0",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5291,7 +5339,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>Automatically claims the Crew Book rewards from the 6-perk crew XP system. 📚&nbsp;<br><br>Once a crew member has 6 perks, extra XP goes into the post-progression pool. When there is enough XP for a Crew Book reward, this mod claims it for you.&nbsp;<br><br>No buttons to press, no menu to check — just play and let it collect the books in the background.&nbsp;<br><br>Features:&nbsp;<br>📚 Auto claims Crew Book rewards&nbsp;<br>👥 For crews with 6 perks&nbsp;<br>🔔 Uses the normal in-game reward messages&nbsp;<br>⚙️ No settings needed<br>&nbsp;</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-06-19_195158752.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -9688,6 +9736,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "0.91.006",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.91.006_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:47.707Z",
+          "sizeBytes": 589460,
+          "fileName": "champi.fightbuttontext_0.91.006_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "0.91.005",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.91.005_2.3.1.3.zip",
@@ -9696,22 +9754,12 @@
           "fileName": "champi.fightbuttontext_0.91.005_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.91.004",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.91.004_2.3.1.0.zip",
-          "updatedAt": "2026-08-01T20:08:49.008Z",
-          "sizeBytes": 544036,
-          "fileName": "champi.fightbuttontext_0.91.004_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- WoT 1.0 Fight button added (requested)\n- option addedto define multiple button labels seperated by comma (like RNG!,DON'T,Yeaahaw). The mod will randomly selects one of them each time the garage view is loaded\n\n"
         }
       ],
       "latest": {
-        "fileName": "champi.fightbuttontext_0.91.005_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.fightbuttontext_0.91.006_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -12956,16 +13004,6 @@
           "fileName": "Shelest_soundmod_2Sc2lXu.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Shelest_soundmod_TrWsicg.zip",
-          "updatedAt": "2026-06-03T16:49:59.849Z",
-          "sizeBytes": 9873278,
-          "fileName": "Shelest_soundmod_TrWsicg.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -13651,7 +13689,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.6,
+      "mark": 3.7,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod allows you to preview any vehicle in the new vehicle preview view, including armor view.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-02-12_140700610.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -16078,7 +16116,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 5,
       "descriptionHtml": "<p>A mod that removes warn text and overlay dim in tank carousel cards that covers tank names (and does it in a more compatible way).</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/7105d084-07a5-4803-9166-863388b0e142.png\"></figure><h2>Source code &amp; feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/CarouselWarnRemover\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/CarouselWarnRemover/issues\">GitHub issues here</a>.</li></ul><h2>Contributions</h2><p>Thanks to</p><ul><li>POLIROID - for Gameface API</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.carousel_warn_remover_X.wotmod</strong>\" and <strong>other *.wotmod files</strong> into \"<strong>[WoT game directory]/mods/[version]/</strong>\" directory</p>",
@@ -16090,6 +16128,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.carousel_warn_remover_1.0.1_YyQSWaR.zip",
+          "updatedAt": "2026-09-02T16:54:38.525Z",
+          "sizeBytes": 51202,
+          "fileName": "pruszko.carousel_warn_remover_1.0.1_YyQSWaR.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.1",
@@ -16139,22 +16187,12 @@
           "fileName": "pruszko.carousel_warn_remover_1.0.1_OLSZvvH.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.3.0.1"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.carousel_warn_remover_1.0.1_HRcdFEk.zip",
-          "updatedAt": "2026-06-03T15:57:18.816Z",
-          "sizeBytes": 51202,
-          "fileName": "pruszko.carousel_warn_remover_1.0.1_HRcdFEk.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.3.0.0"
         }
       ],
       "latest": {
-        "fileName": "pruszko.carousel_warn_remover_1.0.1_wFOEUkp.zip",
+        "fileName": "pruszko.carousel_warn_remover_1.0.1_YyQSWaR.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -16354,7 +16392,7 @@
       ],
       "recommended": true,
       "mark": 4.8,
-      "descriptionHtml": "<p>This lightweight garage helper automatically claims available pet event gifts, activates first-click pet synergy when possible while you are in the lobby. When rewards are collected, the mod shows a clear in-game notification.</p><h2>✨ Features</h2><p>- 🎁 Automatically claims available pet gifts.</p><p>- ⚡ Automatically activates first-click pet synergy for all your pets.</p><p>- 🔔 Displays reward notifications directly in the client.</p><p>- 🪶 Runs quietly in the background with no extra configuration required.</p><p><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p><p><br><br><i>In loving memory of my dog: Ashura</i></p>",
+      "descriptionHtml": "<p><i>In loving memory of my dog: Ashura</i><br><br>This lightweight garage helper automatically claims available pet event gifts, activates first-click pet synergy when possible while you are in the lobby. When rewards are collected, the mod shows a clear in-game notification.</p><h2>✨ Features</h2><p>- 🎁 Automatically claims available pet gifts.</p><p>- ⚡ Automatically activates first-click pet synergy for all your pets.</p><p>- 🔔 Displays reward notifications directly in the client.</p><p>- 🪶 Runs quietly in the background with no extra configuration required.</p><p><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2025-12-29_200827285.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7438/",
@@ -19681,7 +19719,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>This mod calculates the enemy SPG reload time, based on damage and impact. After a reload time is predicted it displays it in the HUD and can optional play an audio effect to warn the player of an incoming SPG fire.<br><br>&nbsp;</p><p><strong>Note:</strong><br>This modification is not an accurate reload indicator. It just tries to calculate the reload time of the enemy SPG based on game events.</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p><strong>Settings Note:</strong><br>After installation you should open the settings menu by pressing on the button with the &lt;&lt;&gt;&gt; symbol at the lower right bottom inside the garage and then on the entry \"^CHAMPi^'s mods settings\" and adjust the settings to your need.</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -19694,6 +19732,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "0.75.011",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.artyreadywarning_0.75.011_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:56.010Z",
+          "sizeBytes": 567252,
+          "fileName": "champi.artyreadywarning_0.75.011_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "0.75.010",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.artyreadywarning_0.75.010_2.3.1.3.zip",
@@ -19702,22 +19750,12 @@
           "fileName": "champi.artyreadywarning_0.75.010_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.75.009",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.artyreadywarning_0.75.009_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:36:18.637Z",
-          "sizeBytes": 750730,
-          "fileName": "champi.artyreadywarning_0.75.009_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.artyreadywarning_0.75.010_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.artyreadywarning_0.75.011_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -24618,7 +24656,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.3,
       "descriptionHtml": "<p>The <strong>WOTInspector Heatmaps</strong> mod overlays live heatmaps on the minimap during battle — movement prediction, top damage positions, and spotting hotspots. It also records movements, shots, penetrations, and damage for interactive heatmaps on WOTInspector.com available at <a href=\"https://map.wotinspector.com\">https://map.wotinspector.com</a>.<br>&nbsp;</p><h2>Key Features</h2><ul><li>Movement prediction: See where players typically move over the next two minutes, drawn directly on your minimap.</li><li>Top damage positions: Highlight the spots where the most damage is dealt so you know where fights usually break out.</li><li>Top spotting positions for light tanks: Show the best assisted-damage and spotting positions.</li><li>Automatic battle recording: Every shot, movement, and damage event is logged without manual input for the web heatmaps dashboard.</li><li>Seven-day trial: New users get a full week of unrestricted overlay use when they first start the mod.</li><li>Free tier after trial: When the trial ends, you can still play up to three battles per day with the overlay at no cost.</li></ul>",
       "installationGuideHtml": "<ol><li>Download zip file</li><li>Unzip to <strong>mods/&lt;version&gt;</strong> folder</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_heatmaps_movements_mfQ9vjt.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -24629,6 +24667,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.1.0.5.wotmod.zip",
+          "updatedAt": "2026-09-02T20:31:21.023Z",
+          "sizeBytes": 3694711,
+          "fileName": "wotinspector.com.heatmaps.1.0.5.wotmod.zip",
+          "fileExt": ".zip",
+          "changeLog": "fixed crash on startup under some circumstances"
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.4",
@@ -24678,21 +24726,11 @@
           "fileName": "wotinspector.com.heatmaps.1.0.1.wotmod.zip",
           "fileExt": ".zip",
           "changeLog": "dynamically display top damage and spotting positions so mid game points don't appear in the early game."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
-          "updatedAt": "2026-08-16T09:51:07.000Z",
-          "sizeBytes": 3856772,
-          "fileName": "wotinspector.com.heatmaps.1.0.0.wotmod_IITTZZe.zip",
-          "fileExt": ".zip",
-          "changeLog": "added minimap overlay displaying most possible team movements during countdown, top damage positions, top assisted damage positions for light tanks"
         }
       ],
       "latest": {
-        "fileName": "wotinspector.com.heatmaps.1.0.4.wotmod_WECbwiS.zip",
-        "changeLog": "",
+        "fileName": "wotinspector.com.heatmaps.1.0.5.wotmod.zip",
+        "changeLog": "fixed crash on startup under some circumstances",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -32119,6 +32157,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.01.012",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankpageopener_1.01.012_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:30:05.515Z",
+          "sizeBytes": 515014,
+          "fileName": "champi.tankpageopener_1.01.012_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.01.011",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankpageopener_1.01.011_2.3.1.3.zip",
@@ -32127,22 +32175,12 @@
           "fileName": "champi.tankpageopener_1.01.011_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.01.010",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankpageopener_1.01.010_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:36:06.778Z",
-          "sizeBytes": 677633,
-          "fileName": "champi.tankpageopener_1.01.010_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.tankpageopener_1.01.011_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.tankpageopener_1.01.012_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -32887,6 +32925,53 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "6513",
+      "title": "BZ-176 with crew",
+      "ownerUsername": "grumpf44",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>I added crew members and headlights on <a href=\"https://wgmods.net/7203/\">a mod made by cerberus50</a>.<br><br>For the users of <a href=\"https://wgmods.net/6776/\">UML</a> the &nbsp;crews are changing according to the maps.</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
+      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod in (your game)\\mods\\2.x.x.x</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_002_8A8BlBO.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/6513/",
+      "tagIds": [
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.x",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BZ-176_Crew_aYlDham.7z",
+          "updatedAt": "2026-09-02T19:14:55.933Z",
+          "sizeBytes": 19461663,
+          "fileName": "BZ-176_Crew_aYlDham.7z",
+          "fileExt": ".7z",
+          "changeLog": "Headlights, season changes for UML usuers."
+        },
+        {
+          "wotGameVersion": "1.21.1.1",
+          "modVersion": "1.1x",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BZ-176_Crew.7z",
+          "updatedAt": "2023-08-26T16:23:47.604Z",
+          "sizeBytes": 14881285,
+          "fileName": "BZ-176_Crew.7z",
+          "fileExt": ".7z",
+          "changeLog": "Added equipment."
+        }
+      ],
+      "latest": {
+        "fileName": "BZ-176_Crew_aYlDham.7z",
+        "changeLog": "Headlights, season changes for UML usuers.",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "6496",
       "title": "FartsInTanksEU's crosshair for colorblind",
       "ownerUsername": "grumpf44",
@@ -33132,7 +33217,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>The mod shows the tank armor at the aiming position</p><p><br>- armor calculator that supports all types of shells (includes modern shell mechanic)</p><p>- supports reduced pen power over distance</p><p>- optional extended armor info messages (i.E. \"ONLY WITH +RNG PEN\") to display 'sure' hits or hits only with positive RNG</p><p>- can display armor information from allied tanks (optional)&nbsp;</p><p>- highly customizable settings interface (change in-game messages directly in the settings GUI)&nbsp;</p><p>- mod is using real flash actionscript 3, no external flash library is needed (say goodbye to GUIFlash)&nbsp;</p><p>- this mod was included in the unreleased proHUD mod and is now available as standalone version<br><br>&nbsp;</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p><strong>Settings Note:</strong><br>After installation you should open the settings menu by pressing on the button with the &lt;&lt;&gt;&gt; symbol at the lower right bottom inside the garage and then on the entry \"^CHAMPi^'s mods settings\" and adjust the settings to your need.</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -33144,6 +33229,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "0.97.016",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.armorcalculatorpro_0.97.016_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:30:18.638Z",
+          "sizeBytes": 540980,
+          "fileName": "champi.armorcalculatorpro_0.97.016_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "0.97.015",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.armorcalculatorpro_0.97.015_2.3.1.3.zip",
@@ -33152,22 +33247,12 @@
           "fileName": "champi.armorcalculatorpro_0.97.015_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.97.013",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.armorcalculatorpro_0.97.013_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:18.519Z",
-          "sizeBytes": 727300,
-          "fileName": "champi.armorcalculatorpro_0.97.013_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current patch"
         }
       ],
       "latest": {
-        "fileName": "champi.armorcalculatorpro_0.97.015_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.armorcalculatorpro_0.97.016_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -33662,7 +33747,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Reduces the displayed dispersion circle size on the HUD to better match the gun's actual spread<br>&nbsp;</p><p>Features:</p><ul><li>option to adjust the reduce factor in settings menu</li><li>option to replace the original dispersion circle with the circle with reduced size</li><li>option to display an additional server side dispersion circle</li><li>option to display aiming information like: remaining aiming time to fully aim in and the current percentage of aiming.</li></ul><p><br><br><br><br><strong>Note: </strong>After installing the mod go to the settings menu (lower right &lt;&lt;&gt;&gt; button at the bottom in the garage) and select \"Champi mods settings\". There you can select the features you want!</p><p><strong>Credits:</strong><br>The mod is based on some articles about reticle dispersion:<br><a href=\"http://forum.tanki.su/index.php?/topic/1529130-%D0%B2%D1%81%D1%91-%D0%BE-%D1%80%D0%B0%D0%B7%D0%B1%D1%80%D0%BE%D1%81%D0%B5/page__st__200__pid__43149776#entry43149776\">tanki.su</a><br><a href=\"https://www.reddit.com/r/WorldofTanks/comments/10wnyf5/the_aiming_circle_is_the_wrong_size_heres_how_to/\">reddit post</a></p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p><strong>Settings Note:</strong><br>After installation you should open the settings menu by pressing on the button with the &lt;&lt;&gt;&gt; symbol at the lower right bottom inside the garage and then on the entry \"^CHAMPi^'s mods settings\" and adjust the settings to your need.</p><p>If you play with default settings, the dispersion circle is NOT reduced and the mod has no visual effect for you. To avoid this you will receiver a notification in the garage to adjust your settings.<br>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -33674,6 +33759,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.06.025",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.06.025_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:30:15.093Z",
+          "sizeBytes": 578371,
+          "fileName": "champi.reticledispersionpro_1.06.025_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.06.024",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.06.024_2.3.1.3.zip",
@@ -33682,22 +33777,12 @@
           "fileName": "champi.reticledispersionpro_1.06.024_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.06.018",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.06.018_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:36:03.680Z",
-          "sizeBytes": 808292,
-          "fileName": "champi.reticledispersionpro_1.06.018_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.reticledispersionpro_1.06.024_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.reticledispersionpro_1.06.025_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34234,7 +34319,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>This mod allows you to define your own outline colors for vehicles, garage, flag, destructible objects etc.</p><p><strong>Note:</strong><br>You can switch in real-time though the predefined color layouts by pressing the defined hotkey (default: CTRL-PAGE_UP) during the battle.<br><br>If you want to set your own colors you need to select 'Custom color scheme' and re-open the settings dialog to see the complete settings option for each color, when it wasn't already selected before.</p><p><strong>Credits:</strong><br>IzeBerg: For the modsettings api.<br>P0LIR0ID: For the modslist api.</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -34246,6 +34331,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.02.022",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.customoutlinecolors_1.02.022_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:51.215Z",
+          "sizeBytes": 529477,
+          "fileName": "champi.customoutlinecolors_1.02.022_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.02.021",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.customoutlinecolors_1.02.021_2.3.1.3.zip",
@@ -34254,22 +34349,12 @@
           "fileName": "champi.customoutlinecolors_1.02.021_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.02.018",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.customoutlinecolors_1.02.018_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:36.180Z",
-          "sizeBytes": 709877,
-          "fileName": "champi.customoutlinecolors_1.02.018_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- adapted for current patch"
         }
       ],
       "latest": {
-        "fileName": "champi.customoutlinecolors_1.02.021_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.customoutlinecolors_1.02.022_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34446,6 +34531,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "0.85.020",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.serialnumberpro_0.85.020_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:22.949Z",
+          "sizeBytes": 522572,
+          "fileName": "champi.serialnumberpro_0.85.020_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "0.85.019",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.serialnumberpro_0.85.019_2.3.1.3.zip",
@@ -34454,22 +34549,12 @@
           "fileName": "champi.serialnumberpro_0.85.019_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "0.85.018",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.serialnumberpro_0.85.018_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:20.797Z",
-          "sizeBytes": 687591,
-          "fileName": "champi.serialnumberpro_0.85.018_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.serialnumberpro_0.85.019_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.serialnumberpro_0.85.020_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34494,6 +34579,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T78_Crew-V2_k5uSTNZ.7z",
+          "updatedAt": "2026-09-02T19:15:05.385Z",
+          "sizeBytes": 15586876,
+          "fileName": "T78_Crew-V2_k5uSTNZ.7z",
+          "fileExt": ".7z",
+          "changeLog": "Headlights and better 3D files."
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T78_Crew.7z",
@@ -34505,9 +34600,9 @@
         }
       ],
       "latest": {
-        "fileName": "T78_Crew.7z",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "T78_Crew-V2_k5uSTNZ.7z",
+        "changeLog": "Headlights and better 3D files.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34825,7 +34920,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>Extended tank crew data &amp; crew control features<br>&nbsp;</p><p><strong>Features:</strong><br>✅display zero-perks as icon or with an ! indicator on the icon- display zero-perks as icon or with an ! indicator on the icon<br>✅display the required battles and xp until the next perk is available<br>✅display the total experience<br>✅enhanced auto crew return (with delay option to continue fast cycling through the tank carousel)<br>✅remove the name of the crew member<br>✅select special crew skins<br>✅ignore special audio voices for crew skins / tank men<br><strong>❌</strong>Can automatically boost crew xp up to 500%<br><br>All features are optional, nothing is forced… as it should be 😊<br><br><strong>Note:</strong> By default, all functions except \"Check for updates\" are disabled. It is intended that the players activate the desired functions themselves. After installing the mod go to the settings menu (lower right &lt;&lt;&gt;&gt; button at the bottom in the garage) and select \"Champi mods settings\". There you can select the features you want!<br><br><br><strong>Credits:</strong><br>IzeBerg / Kurzdor: For the modsettings api<br>P0LIR0ID: For the modslist api</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -34836,6 +34931,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.08.015",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.crewcontrolcenter_1.08.015_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:24.905Z",
+          "sizeBytes": 534613,
+          "fileName": "champi.crewcontrolcenter_1.08.015_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.08.014",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.crewcontrolcenter_1.08.014_2.3.1.3.zip",
@@ -34844,22 +34949,12 @@
           "fileName": "champi.crewcontrolcenter_1.08.014_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.00.012",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.crewcontrolcenter_1.08.012_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:26.250Z",
-          "sizeBytes": 709949,
-          "fileName": "champi.crewcontrolcenter_1.08.012_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.crewcontrolcenter_1.08.014_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.crewcontrolcenter_1.08.015_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -35695,6 +35790,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.04.021",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.autoignorepro_1.04.021_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:34.450Z",
+          "sizeBytes": 518978,
+          "fileName": "champi.autoignorepro_1.04.021_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.04.020",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.autoignorepro_1.04.020_2.3.1.3.zip",
@@ -35703,22 +35808,12 @@
           "fileName": "champi.autoignorepro_1.04.020_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.04.019",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.autoignorepro_1.04.019_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:22.883Z",
-          "sizeBytes": 691032,
-          "fileName": "champi.autoignorepro_1.04.019_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.autoignorepro_1.04.020_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.autoignorepro_1.04.021_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -37635,7 +37730,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>Here comes the long awaited installer for my mods. It contains *ALL* of my mods. Choose installation directory and select the mods you want to install. That's all!</p><p>The following modifications are included in the modpack: *ALL* of them are available here as standalone package and verified by WG.</p><ul><li><a href=\"https://wgmods.net/6445/\">Armor Calculator Pro</a><br>Displays tanks armor information on the HUD</li><li><a href=\"https://wgmods.net/5662/\">Auto Ignore Pro</a><br>Allows you to select a list of vehicles that you do not want to communicate with in battle.</li><li><a href=\"https://wgmods.net/7066/\">Arty Ready Warning</a><br>This mod calculates the enemy SPG reload time, based on game events. After a reload time is predicted it displays it in the HUD and can optional play an audio effect to warn the player of an incoming SPG fire.</li><li><a href=\"https://wgmods.net/6140/\">Custom Outline Colors</a><br>This mod allows you to define your own outline colors for vehicles, garage, flag, destructible objects etc.</li><li><a href=\"https://wgmods.net/4322/\">Expected Vehicle Values</a><br>Shows expected vehicle damage, marks of excellence percentage, spot-/track and block damage and many more infos in real time during the battle. Highly customizable!</li><li><a href=\"https://wgmods.net/4457/\">Little Helper Collection</a><br>A collection of little helper function for garage &amp; battle.</li><li><a href=\"https://wgmods.net/2601/\">Minimap Spam Protector</a><br>This mod allows you to control how many times a player can ping on the minimap before the pings will be ignored from your client. You can also control if a ping sound is played.</li><li><a href=\"https://wgmods.net/3411/\">Player Panel Pro</a><br>Customizable tank health bars, tank class icons and enemy spotted status for the playerpanel without the need of XVM!</li><li><a href=\"https://wgmods.net/6369/\">Reticle Dispersion Pro</a><br>Reduces the displayed dispersion circle size on the HUD to better match the gun's actual spread.</li><li><a href=\"https://wgmods.net/4153/\">Sixth Sense Timer</a><br>This mod allows you to display a timer in the HUD which counts down to 0 after you was spotted by an enemy. The countdown time is adjustable in a settings dialog. The countdown should remember you that you're still visible to the enemy and stay in cover until the countdown reached 0.</li><li><a href=\"https://wgmods.net/5457/\">Steel Hunter Helper</a><br>Allows to enable automatic upgrades in Steel Hunter game type based on preselection. There are a lot of pre defined upgrade variants for every steel hunter vehicle. It also allows to show 3D markers on the battlefield for easy viewing of loot boxes AFTER a radar scan. The color of the 3D markers are representing the loot box.</li><li><a href=\"https://wgmods.net/6167/\">Tank Carousel Pro</a><br>This mod brings some tweaks for the tank carousel.</li><li><a href=\"https://wgmods.net/4045/\">Tank Rating Colors</a><br>This mod allows you to take control of the tank paintings based on the WGR (WarGamingRate) or on WN8 winrate. You can define which tank parts are recolored and if camouflages should be removed or left be untouched.</li></ul><p><br>For more detailed information of each modification click on the specified name of the mod.</p><p><strong>Note:</strong></p><p>Based on your selections the installer CAN remove automatically old versions of my mods from the mod folder, if found!</p><p>The installer will NEVER overwrite your old configuration files! All my mods handle the config file updates themselves.</p><p>The installer comes with an uninstaller that is saved in the selected <strong>World_of_Tanks</strong> directory</p>",
       "installationGuideHtml": "<ol><li>Start the installer.</li><li>Select &nbsp;the installer language (currently only english, polish and german are supported, other will follow)</li><li>Click through the dialog and choose your World of Tanks root folder. (not the mods folder!)</li></ol><h2>&nbsp;</h2><h2>&nbsp;</h2><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -37646,6 +37741,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "#01",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.4.0.0_01.exe",
+          "updatedAt": "2026-09-02T20:30:12.416Z",
+          "sizeBytes": 4437538,
+          "fileName": "champi-wot-modpack-installer_v2.4.0.0_01.exe",
+          "fileExt": ".exe",
+          "changeLog": "all mods are updated to current version"
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "#01",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.3.1.3_01.exe",
@@ -37654,22 +37759,12 @@
           "fileName": "champi-wot-modpack-installer_v2.3.1.3_01.exe",
           "fileExt": ".exe",
           "changeLog": "- adapted for current WoT patch"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "#01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.3.1.0_01.exe",
-          "updatedAt": "2026-07-14T13:35:41.008Z",
-          "sizeBytes": 4810159,
-          "fileName": "champi-wot-modpack-installer_v2.3.1.0_01.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi-wot-modpack-installer_v2.3.1.3_01.exe",
-        "changeLog": "- adapted for current WoT patch",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi-wot-modpack-installer_v2.4.0.0_01.exe",
+        "changeLog": "all mods are updated to current version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -38203,7 +38298,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>The mod collects some useful improvements that never made it to their own mod. Not because they're useless, but because they're too small for an own mod. But now I've combined them all in one mod and give the player control to turn them on / off.</p><p><strong>Features:&nbsp;</strong></p><ul><li>hangarTooltip - Expands the list of tanks on which the equipment is installed (in hangar tips)</li><li>storageTooltip - Shows the full selling price of modules, consumables and ammunition (in stock)</li><li>contourIconMode -&gt; Disables the flipping of the tank contour icons in the tankman info tooltip. This is for using custom tank contour icons.</li><li>arenaBorderRecolor -&gt; Allows to set a new arena border color. It looks really good to see some fresh new colors there.</li><li>disableHeroTank -&gt; Disables the promotion of a tank in the background of the hangar.</li><li>disableTeaser -&gt; Disables the teaser widget in the hangar</li><li>rememberLastServer -&gt; Stores the last used server and automatically pre-selects it on the login screen.</li><li>autoLogin -&gt; If enabled the mod automatically connects to the game server. If the storing of the last used game server is enabled it will be used.</li><li>disableBrawlMusic -&nbsp;Disables the hangar music when the brawl game type is selected.</li><li>disableQuestHint -&nbsp;Disables the personal mission quest hint at the beginning of the battle.</li><li>disableTenYearCountdown -&nbsp;Disables the 10 year anniversary&nbsp;widget in the hangar.</li><li>enableZoomOut -&nbsp;If this option is activated, the maximum distance limit of the camera is increased to get a better overview of the battlefield.</li><li>removeButtonGeneralChat -&nbsp;If enabled the general chat button in the hangar will be removed.</li></ul><p><strong>Credits:</strong></p><p>spoter: For the tooltip stuff i use in the mod.</p><p>IzeBerg: For the modsettings api.</p><p>P0LIR0ID: For the modslist api.</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2><p>&nbsp;</p>",
@@ -38216,6 +38311,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.69.025",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.littlehelpercollection_1.69.025_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:43.987Z",
+          "sizeBytes": 616777,
+          "fileName": "champi.littlehelpercollection_1.69.025_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.69.024",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.littlehelpercollection_1.69.024_2.3.1.3.zip",
@@ -38224,22 +38329,12 @@
           "fileName": "champi.littlehelpercollection_1.69.024_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.69.023",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.littlehelpercollection_1.69.023_2.3.1.0.zip",
-          "updatedAt": "2026-08-01T20:08:39.745Z",
-          "sizeBytes": 543813,
-          "fileName": "champi.littlehelpercollection_1.69.023_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- code cleanup"
         }
       ],
       "latest": {
-        "fileName": "champi.littlehelpercollection_1.69.024_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.littlehelpercollection_1.69.025_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -38586,7 +38681,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><br>✨<strong>EVV v2.0 – OUT NOW!</strong></p><p>After months of development, Expected Vehicle Values v2.0 is finally here! Expected Vehicle Values was the second mod I created back in 2020. Over the years, it has grown with many new features and configuration options. However, some core components—especially the MoE calculations and the dependency on the Flash-based GUIFlash library—had become outdated. Instead of continuing to patch the old code, I decided to completely rebuild the mod from scratch.&nbsp;</p><p><strong>What's new in EVV v2.0?</strong></p><p>🎯 Completely reworked MoE calculations → More accurate and reliable than ever before.&nbsp;</p><p>📊 Maximum precision with available data → Displays the most accurate MoE values currently possible.&nbsp;</p><p>🚀 Accurate from Battle #1 → No more \"warm-up\" battles required.&nbsp;</p><p>🔄 WN8 → WNX → A more modern and fair rating system, especially for light tanks.&nbsp;</p><p>⚙️ Full support for Aslain's Mods Settings API → Live image previews directly in the settings, dynamic sub-settings that automatically hide or disable when not applicable, and new features highlighted with red badges BUT compatible with izeberg's version&nbsp;</p><p>🎨Modern GameFace widget layouts → Multiple modern UI layout variants to match your preferences.&nbsp;</p><p>📈 MoE progress since your last battle<br>Example: Previous battle: 80.00% → +2.50% This also shows whether the MoE requirement has increased or decreased since your last battle</p><p>📈 Clean UI, full control → Simple by default, while offering extensive customization options.&nbsp;</p><p>🧹No more Flash library dependency → Fully independent from GUIFlash.<br>&nbsp;</p><p><strong>Info:</strong><br>Press CTRL to move the panel with drag and drop in garage &amp; battle</p><p><strong>Credits:</strong><br>Aslain: For the modsettings api<br>P0LIR0ID: For the modslist api<br>&nbsp;</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2>",
@@ -38598,6 +38693,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.03.000",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.expectedvehiclevalues2_2.03.000_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:37.740Z",
+          "sizeBytes": 1298701,
+          "fileName": "champi.expectedvehiclevalues2_2.03.000_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "fixed an issue that displayed an empty panel (more a little dot) without text in garage if garage panel was deactivated in settings\nfixed an issue where the moe battle panel only displayed \"TODO!\" when moe layout #6 was selected. 🤭\nnew: option to setup an alternate battle panel that can be activated with ALT key (custom mode required!)\nnew: real time template HTML preview for better control (see screenshot)\nnew battle template tokens added:{itdmg}{tdmg}  - icon for track assist and value{ispdmg}{spdmg}  - icon for spot assist and value{istdmg}{stdmg} - icon for stun assist and value\n{iassist}{vassist} - icon for current assist type and value\nmodified settings screen to use tabs to split setting sections into Garage, Battle, WNX, Color, General and also moved some settings from WNX to General section"
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "2.02.000",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.expectedvehiclevalues2_2.02.000_2.3.1.3.zip",
@@ -38606,22 +38711,12 @@
           "fileName": "champi.expectedvehiclevalues2_2.02.000_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- fix: a disabled MoE panel no longer removes the WNX panel in battle too\n- fix: playing below tier 5 no longer shows an empty MoE display after entering the map until the first damage is done\n- add: missing preview images for vertical layout and no. #5\n- add: new MoE panel layout #6\n - add: 3 new MoE tokens for custom panel - see tooltip help in custom battle template\n   - cdmgc = colored combined damage as you knew it from EVV #1\n  - moe_np = MoE Nextpercent - shows the next MoE percent goal\n  - moe_npd = MoE Nextpercent Damage- shows the needed damage in the current battle to reach the \ncurrent percent goal\n- mod: some of the MoE layouts got an alternate display mode to display marks requirements"
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "2.01.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.expectedvehiclevalues2_2.01.000_2.3.1.1.zip",
-          "updatedAt": "2026-08-07T10:42:49.280Z",
-          "sizeBytes": 1168717,
-          "fileName": "champi.expectedvehiclevalues2_2.01.000_2.3.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- fix for not displaying WNX panel if the MoE battle panel was deactivated\n- fix to no longer show a MoE panel in battle for vehicles without MoE 🙂\n- fix to avoid showing a wrong base MoE value in battle when the MoE panel in garage was deactivated"
         }
       ],
       "latest": {
-        "fileName": "champi.expectedvehiclevalues2_2.02.000_2.3.1.3.zip",
-        "changeLog": "- fix: a disabled MoE panel no longer removes the WNX panel in battle too\n- fix: playing below tier 5 no longer shows an empty MoE display after entering the map until the first damage is done\n- add: missing preview images for vertical layout and no. #5\n- add: new MoE panel layout #6\n - add: 3 new MoE tokens for custom panel - see tooltip help in custom battle template\n   - cdmgc = colored combined damage as you knew it from EVV #1\n  - moe_np = MoE Nextpercent - shows the next MoE percent goal\n  - moe_npd = MoE Nextpercent Damage- shows the needed damage in the current battle to reach the \ncurrent percent goal\n- mod: some of the MoE layouts got an alternate display mode to display marks requirements",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.expectedvehiclevalues2_2.03.000_2.4.0.0.zip",
+        "changeLog": "fixed an issue that displayed an empty panel (more a little dot) without text in garage if garage panel was deactivated in settings\nfixed an issue where the moe battle panel only displayed \"TODO!\" when moe layout #6 was selected. 🤭\nnew: option to setup an alternate battle panel that can be activated with ALT key (custom mode required!)\nnew: real time template HTML preview for better control (see screenshot)\nnew battle template tokens added:{itdmg}{tdmg}  - icon for track assist and value{ispdmg}{spdmg}  - icon for spot assist and value{istdmg}{stdmg} - icon for stun assist and value\n{iassist}{vassist} - icon for current assist type and value\nmodified settings screen to use tabs to split setting sections into Garage, Battle, WNX, Color, General and also moved some settings from WNX to General section",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -38882,7 +38977,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>This mod allows you to display a timer in the HUD which counts down to 0 after you was spotted by an enemy. The countdown time and size is adjustable in a settings dialog. The countdown should remember you that you're still visible to the enemy and stay in cover until the countdown reached 0.<br><br>The timer is set to 12 seconds by default, which should be enough to be no longer spotted, even when the enemy radio operator has the skill \"<strong>Call for Vengeance\"</strong>,<strong> </strong>but you can change if you want.<br><br><strong>Since version 2.0:</strong><br>The mod also comes with over 40 custom sixth sense images that can replace the original lightbulb. If you don't want to use custom icons you can select 'Default' for the \"Sixth Sense Icon\" in the settings GUI and the default will be used.</p><p><strong>Info:</strong><br>You can move the custom sixth sense icon by pressing CTRL and move the mouse pointer over the icon. It then becomes fully visible with an info text. If you see the icon you move it with drag and drop. The position will be stored in your config-file.</p><p><strong>When hovering over the custom icon:</strong><br>Double left mouse click will load the next custom sixth sense icon, so you can change it during the battle or while watching a replay.<br>Press CTRL-F3 (default hotkey, you can change it in the GUI) to reset your icon position to default position.</p><p><strong>Credits:</strong><br>IzeBerg: For the modsettings api. Really impressive way to show up a settings dialog!<br>P0LIR0ID: For the modslist api.<br>&nbsp;</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2><p>&nbsp;</p>",
@@ -38893,6 +38988,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.02.026",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.sixthsensetimer_2.02.026_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:28.177Z",
+          "sizeBytes": 2322997,
+          "fileName": "champi.sixthsensetimer_2.02.026_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "2.02.025",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.sixthsensetimer_2.02.025_2.3.1.3.zip",
@@ -38901,22 +39006,12 @@
           "fileName": "champi.sixthsensetimer_2.02.025_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.02.024",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.sixthsensetimer_2.02.024_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:54.868Z",
-          "sizeBytes": 2504762,
-          "fileName": "champi.sixthsensetimer_2.02.024_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.sixthsensetimer_2.02.025_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.sixthsensetimer_2.02.026_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -38928,7 +39023,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Tank Icons with brighter colors. Light tanks - light grey, Medium tanks - yellow, Heavy tanks - dark grey, TD - blue and arty - red.</p><p>This way you know instantly what tank it is because of the better and brighter colors</p>",
       "installationGuideHtml": "<p>unpack archive to your game directory (e.g..: C:\\Games\\World_of<i>Tanks</i>)</p>",
@@ -38938,6 +39033,16 @@
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/contouricons_GolKosh_2.4.0.0.7z",
+          "updatedAt": "2026-09-02T20:30:29.279Z",
+          "sizeBytes": 17467501,
+          "fileName": "contouricons_GolKosh_2.4.0.0.7z",
+          "fileExt": ".7z",
+          "changeLog": "Added 20 new tanks"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "2.3.0.1",
@@ -38987,22 +39092,12 @@
           "fileName": "contouricons_GolKosh_2.2.0.2.7z",
           "fileExt": ".7z",
           "changeLog": "Changes made for the new version"
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "2.2.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/contouricons_GolKosh_2.2.0.0.7z",
-          "updatedAt": "2026-03-06T14:06:00.897Z",
-          "sizeBytes": 17428810,
-          "fileName": "contouricons_GolKosh_2.2.0.0.7z",
-          "fileExt": ".7z",
-          "changeLog": "Added the new tanks...."
         }
       ],
       "latest": {
-        "fileName": "contouricons_GolKosh_2.3.0.1.7z",
-        "changeLog": "new update",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "contouricons_GolKosh_2.4.0.0.7z",
+        "changeLog": "Added 20 new tanks",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39014,7 +39109,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.9,
       "descriptionHtml": "<p>This mod allows you to take control of the tank paintings based on the WGR (WarGamingRate) or on WN8 winrate. You can define which tank parts are recolored and if camouflages should be removed or left be untouched.</p><p>The WGR values that are used to recolor the tanks are \"based\" on the WN8 color table but ITS NOT colored by the WN8 value! But you can be sure when you see an unicum colored tank, it plays at least at a WGR of 9000!</p><p>All options are fully customizable in a settings dialog. You can reach it by clicking on the &lt;&gt;&lt;&gt; symbol on the lower right button in the garage. Search for the entry “CHAMPi mods settings”.</p><p>Language-Files are available for english, polish, hungarian and german. If anyone can help to translate it to another game language feel free to send it to me.&nbsp;</p><p>Language-Files are located at: &lt;game&gt;\\mods\\configs\\CHAMPi\\tankRatingColors\\i18n\\</p><p><strong>winrate &amp; WGR rating colors:</strong></p><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/60e0b9f8-a9e7-49c4-bb0b-7814e7d7f8e6.png\"><figcaption>winrate &amp; WGR table</figcaption></figure><p><strong>credits</strong>:</p><p>Yury Polyacov: This mod is based on his idea to recolor the tanks.</p><p>IzeBerg: For the modsettings API. Really impressive way to show up a settings dialog!</p><p>P0LIR0ID: For the modslist API.</p><p>spoter: For his settings GUI in the past. Thanks for all your work!</p><p><strong>useful infos about WGR</strong>:</p><p>see <a href=\"https://worldoftanks.eu/en/content/hof_guide/achievement_rating/\">https://worldoftanks.eu/en/content/hof_guide/achievement_rating/</a></p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2><p>&nbsp;</p>",
@@ -39027,6 +39122,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.40.004",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankratingcolors_1.40.004_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:41.166Z",
+          "sizeBytes": 543270,
+          "fileName": "champi.tankratingcolors_1.40.004_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.40.003",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankratingcolors_1.40.003_2.3.1.3.zip",
@@ -39035,22 +39140,12 @@
           "fileName": "champi.tankratingcolors_1.40.003_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.40.001",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankratingcolors_1.40.001_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:51.382Z",
-          "sizeBytes": 732345,
-          "fileName": "champi.tankratingcolors_1.40.001_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.tankratingcolors_1.40.003_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.tankratingcolors_1.40.004_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39679,7 +39774,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Info: CHAMPi's Tank Health Bars &amp; Enemy Spotted Status was renamed to <strong>CHAMPi's Player Panel Pro</strong></p><p>Customizable tank health bars, tank class icons and enemy spotted status for the playerpanel without the need of XVM!</p><p><strong>features</strong>:</p><ul><li><strong>allows </strong>(optionally) <strong>to disable the flipping of the tank contour icons on the right side of the playerpanel, loading screen and in the crew tool-tip</strong></li><li><strong>option to display player damage during the battle for both teams</strong></li><li>can draw tank health bars in many different styles</li><li>displays the total remaining structure points of each team as bar with value (optionally)</li><li>different display modes: always, toggle on/off via hotkey or toggle on by holding down the toggle key (customizable)</li><li>draws health bar background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team).</li><li>supports colorblind mode</li><li>can show only remaining structure points or current/max structure points</li><li>changeable graphics and layout - you can make your own backgrounds if you like</li><li>displays tank class symbols beside the structure bar (optionally)</li><li>can show the enemy spotted status in a lot of different styles (optionally)</li><li>displays an icon for some well known players &amp; streamers in the player panel. (optionally)</li><li>graphical user interface to control the most important settings (click on button on the lower right corner in the hangar - see screenshot)</li></ul><p>Note: grey icon: undetected in this battle - green: spotted and visible - red: no longer visible but last location is known.</p><p>Note: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)</p><p><strong>credits</strong>:</p><p>Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panels API.</p><p>IzeBerg: For the modsettings API. Really impressive way to show up a settings dialog!</p><p>P0LIR0ID: For the modslist API.</p><p>GambitER: For the flash library</p><p>spoter: For his settings GUI in the past. Thanks for all your work!</p><p><strong>help:</strong></p><p>Can someone help translate the language files into Japanese? Feel free to contact me (forum)</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p><strong>Settings Note:</strong><br>After installation you should open the settings menu by pressing on the button with the &lt;&lt;&gt;&gt; symbol at the lower right bottom inside the garage and then on the entry \"^CHAMPi^'s mods settings\" and adjust the settings to your need.<br>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2><p>&nbsp;</p>",
@@ -39691,6 +39786,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.78.020",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.playerpanelpro_1.78.020_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:30:09.048Z",
+          "sizeBytes": 826336,
+          "fileName": "champi.playerpanelpro_1.78.020_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.78.019",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.playerpanelpro_1.78.019_2.3.1.3_6fcJOde.zip",
@@ -39699,22 +39804,12 @@
           "fileName": "champi.playerpanelpro_1.78.019_2.3.1.3_6fcJOde.zip",
           "fileExt": ".zip",
           "changeLog": "repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.78.017",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.playerpanelpro_1.78.017_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:47.246Z",
-          "sizeBytes": 1081402,
-          "fileName": "champi.playerpanelpro_1.78.017_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.playerpanelpro_1.78.019_2.3.1.3_6fcJOde.zip",
-        "changeLog": "repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.playerpanelpro_1.78.020_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -40464,7 +40559,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4,
       "descriptionHtml": "<p>This mod allows you to control how many times a player can ping on the minimap before the pings will be ignored from your client. You can also control if a ping sound is played.</p><p>All options are fully customizable in a settings dialog. You can reach it by pressing the MODSLISTAPI ICON at the right bottom in the hangar. (see screenshot)</p><p>Language-Files are available for russian, english, german and polish. If anyone can help to translate it to another game language feel free to send it to me.&nbsp;</p><p>Language-Files are located at: &lt;game&gt;\\mods\\configs\\CHAMPi\\MinimapSpamProtector\\i18n\\</p><p><strong>Credits:</strong></p><ul><li>Elkano - this mod is based on his idea of a ping spam blocker.</li><li>spion_ve, Enesian, Aslain - for help with the language files.</li><li>IzeBerg: For the modsettings API. Really impressive way to show up a settings dialog!</li><li>P0LIR0ID: For the modslist API.</li><li>GambitER: For the flash library</li><li>spoter: For his settings GUI in the past. Thanks for all your work!</li></ul><p>Feel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum. You can also contact <strong>CH4MPi</strong> &nbsp;in-game on the EU Server</p><p><strong>Help:</strong></p><p>If someone can help translate the language files into Japanese, please contact me.</p>",
       "installationGuideHtml": "<p>Extract the downloaded zip-archive in your game folder!</p><p>&nbsp;</p><h2><strong>You want to support the development?</strong></h2><h2><a href=\"https://www.patreon.com/c_h_a_m_p_i\">https://www.patreon.com/</a></h2><h2>&nbsp;</h2><h2><strong>Support &amp; Feedback:</strong></h2><h2>Visit me on my Discord server:&nbsp;<a href=\"https://discord.gg/5B9qUCqFC2\">https://discord.gg/5B9qUCqFC2</a></h2><p>&nbsp;</p>",
@@ -40476,6 +40571,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.73.010",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.minimapspamprotector_1.73.010_2.4.0.0.zip",
+          "updatedAt": "2026-09-02T20:29:19.362Z",
+          "sizeBytes": 557548,
+          "fileName": "champi.minimapspamprotector_1.73.010_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.73.009",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.minimapspamprotector_1.73.009_2.3.1.3.zip",
@@ -40484,22 +40589,12 @@
           "fileName": "champi.minimapspamprotector_1.73.009_2.3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.73.007",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.minimapspamprotector_1.73.007_2.3.1.0.zip",
-          "updatedAt": "2026-07-14T13:35:33.066Z",
-          "sizeBytes": 754867,
-          "fileName": "champi.minimapspamprotector_1.73.007_2.3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "champi.minimapspamprotector_1.73.009_2.3.1.3.zip",
-        "changeLog": "- repack for current wot version",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "champi.minimapspamprotector_1.73.010_2.4.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44084,16 +44179,6 @@
           "fileName": "battle.contours.v.26.09.01.zip",
           "fileExt": ".zip",
           "changeLog": "For Game Version 2.4.0.0"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "26.08.20",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/battle.contours.v.26.08.20.zip",
-          "updatedAt": "2026-08-21T09:10:23.512Z",
-          "sizeBytes": 29719672,
-          "fileName": "battle.contours.v.26.08.20.zip",
-          "fileExt": ".zip",
-          "changeLog": "For Game Version 2.3.1.3"
         }
       ],
       "latest": {
@@ -44992,6 +45077,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "3.0.12",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_FUOXmp5.zip",
+          "updatedAt": "2026-09-02T19:01:12.055Z",
+          "sizeBytes": 4887208,
+          "fileName": "ProMod_FUOXmp5.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "3.0.9",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_0EMSSsH.zip",
           "updatedAt": "2026-09-02T09:31:29.513Z",
@@ -45039,16 +45134,6 @@
           "fileName": "ProMod_3DpLlYf.zip",
           "fileExt": ".zip",
           "changeLog": "• Modpack: Updated Auto Equipment Plus\n• Modpack: Updated Enhanced ModSettingsApi\n• Modpack: Updated Sixth Sense\n• Modpack: Updated Spotted Status\n• Modpack: Updated Tomato.gg\n\nThere was a weird bug in my sixth sense mod sometimes preventing to show the icon while getting spotted. (you could only hear the sound)\nSpotted Status got reworked and you can configure it using ModSettingsApi+ (not OldSkool Mods) and adjust the X offset if it has wrong position for you."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1172",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_LVSxXiT.zip",
-          "updatedAt": "2026-07-29T15:40:02.818Z",
-          "sizeBytes": 4168871,
-          "fileName": "ProMod_LVSxXiT.zip",
-          "fileExt": ".zip",
-          "changeLog": "• Modpack: Updated Responsive Reticle\n• Modpack: Updated Auto Equipment Plus (new mod)\n• Modpack: Updated Battle Equipment\n• Modpack: Updated Battle Hits Viewer\n• Modpack: Updated War Mod Gun Sounds"
         }
       ],
       "latest": {
