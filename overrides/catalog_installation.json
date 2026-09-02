@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.004",
+  "catalogVersion": "v2026.09.005",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7882",
+      "title": "Skin 3D_Kampfgruppe Schneide_ Remodeling with sandbags_For the TIGER II",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Installing the mod: Close the game: Copy and paste the WOTMod file you have downloaded into the ‘mods’ folder; this folder is usually located at C:\\Games\\World_of_Tanks_EU\\mods, or on the drive where you have installed the game. This mod should work correctly regardless of the patch version. I hope you like it and enjoy it"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide says to copy it into the mods version folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7885",
@@ -8980,6 +8995,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Package is a .wotmod file and guide directs placing the .wotmod file into World_of_Tanks/mods/(current version) — can be copied as-is.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6513",
+      "title": "BZ-176 with crew",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to place the extracted .wotmod into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
