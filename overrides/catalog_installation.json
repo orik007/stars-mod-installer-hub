@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.005",
+  "catalogVersion": "v2026.09.006",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7888",
+      "title": "Japanese Gun Cooldown Aim Mechanic Timer",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "REQUIRES GUIFlash (gambiter.guiflash), included in Aslain's and most modpacks. The mod draws its icon through it and stays silent without it. Client 2.4.0.0. INSTALL 1. Drop the .wotmod into <World of Tanks>\\mods\\<client version>\\ Example: World_of_Tanks_EU\\mods\\2.4.0.0\\ 2. Take a any capable tank into a battle or training room. Nothing to unpack, no res_mods edits, and noates its own on first launch atmods\\configs\\jp_dual_aim_timer\\config.json. Edit it to move or resize the ring, change the blink, or show it during reload. Settings load once at startup, so a change needs a client restart. AFTER A CLIENT UPDATE unaffected, mods\\configs\\ is shared across versions. NOT WORKING? Check GUIFlash is installed, then search game.log for [JP_DUAL_AIM_TIMER]. No lines means the package was not loaded."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide says to place it into mods/<version>; GUIFlash note and config generation are non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7882",
@@ -37,13 +52,13 @@
       "sourceId": "7887",
       "title": "Pre-2.4 Gun Sounds",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "decisionReason": "Archive package and guide points to res_mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
