@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.006",
+  "catalogVersion": "v2026.09.007",
   "mods": [
     {
       "source": "wgmods",
@@ -218,12 +218,12 @@
       "title": "Witblitz Contour Pack",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract straight into your main World of Tanks root folder. Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
+        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract straight into your main World of Tanks root folder. ie. \"\\mods\\2.4.0.0\\\" Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide clearly says to extract into the main World of Tanks root folder; other notes are non-blocking settings recommendations.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive requires choosing one mutually exclusive style variant before extracting, which is a blocking manual package choice.",
         "deleteDataWgpdc": false
       }
     },
@@ -544,21 +544,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7838",
-      "title": "AYA Translator",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "IMPORTANT: This mod requires ModsListAPI, ModsSettingsAPI and GameFace to work. Make sure they are installed in the same mods folder. Extract the \"aya_m\" folder into: World_of_Tanks/mods/[game_version]/ Extract the \"aya_r\" folder into: World_of_Tanks/res_mods/[game_version]/ After installing, open the Garage, go to the mods settings panel, and configure..."
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Guide requires installing archive contents to two different target paths: mods/<version> and res_mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7835",
       "title": "IS-3 «Blue Line»",
       "classificationInput": {
@@ -787,13 +772,13 @@
       "sourceId": "7817",
       "title": "Блокувальник командирських озвучень/Disable Special Voices",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU To install the mod, copy the contents of the folder into your game directory: C:\\Games\\World_of_Tanks_EU"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to copy folder contents into the game directory root.",
+        "decisionReason": "Plain .wotmod package with insufficient guide; default to copying into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
