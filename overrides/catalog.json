@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.09.005",
-  "sourceHash": "365240f8063226cf349908536ddad07e889577751b6dc2ce2683354eef1f73e0",
+  "catalogVersion": "v2026.09.006",
+  "sourceHash": "be903d11179000d6376a42d050c9a544452d89929714f9703c1245d907d83bf0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7888",
+      "title": "Japanese Gun Cooldown Aim Mechanic Timer",
+      "ownerUsername": "XXHunterXX_destroyer",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>The Tier VIII-XI Japanese heavies and the Type 63 have a second, tighter aiming circle that switches on a few seconds after the gun stops cooling. The client shows you the circle, but nothing tells you when it is about to appear, so you either count in your head or you fire early and eat the wider dispersion.</p><p>This mod puts a small ring next to your reticle that answers that at a glance. No digits: the native reload timer already sits in that column.</p><p>HOW IT READS</p><p>1. The ring fills clockwise as the gun cools, running red to orange to yellow to green, like a loading circle.<br>2. Two seconds out, the ring is complete and blinks green twice.<br>3. Double aiming is live: solid green.</p><p>The ring sits where the client draws its own siege indicator on vehicles that have one, so the two mechanics read the same way in the same place. It follows the reticle in arcade and third person, and pins to the screen centre in sniper view, where the reticle itself is fixed.</p><p>By default it stays hidden while you reload, since there is nothing to time yet, and appears the moment the gun is loaded, filling across the part of the cooling window you can actually act on.</p><p>SUPPORTED VEHICLES</p><p>Anything whose gun has a dual-accuracy config: the Tier VIII-XI Japanese heavies and the Type 63. On every other tank it renders nothing at all, including siege-mode vehicles like the Strv S1, which use a different mechanic.</p><p>ACCURACY</p><p>The countdown starts from the crew-modified cooling delay, and the mod also listens to the vehicle's dual-accuracy state from the server. When the server flips the mechanic on, the ring snaps to ready and the measured interval replaces the estimate for the next cycle, so it corrects itself rather than drifting.</p><p>CONFIGURATION</p><p>The mod writes its own config the first time it loads, at mods\\configs\\jp_dual_aim_timer\\config.json. You never have to create it: it arrives with every setting at its default, so the file doubles as the documentation. Your edits survive updating the mod, and any key you remove falls back to its default. Settings are read once at startup, so a change needs a client restart.</p><p>The ones worth knowing:</p><p>offset_px - where the ring sits relative to the reticle, in pixels at 2560x1440, scaled to your resolution. Negative x mirrors it to the left.<br>icon_size_px - drawn size. 24 matches the vehicle-state indicator next to it.<br>hide_while_reloading - set false to show the ring from the shot onward, filling slowly across the whole cooling window instead.<br>flash_count - how many times the full ring blinks. 0 fills straight into the solid hold.<br>flash_lead_time - seconds before activation that the blink starts.<br>debug - writes a [JP_DUAL_AIM_TIMER] trace to game.log.</p><p>FAIR PLAY</p><p>This shows your own vehicle's state, the same state the client already draws for you as the second aiming circle. Same category as a reload timer. It reads client-side data only, touches nothing on the server, and reveals nothing about other players.</p>",
+      "installationGuideHtml": "<p>REQUIRES</p><p>GUIFlash (gambiter.guiflash), included in Aslain's and most modpacks. The mod draws its icon through it and stays silent without it. Client 2.4.0.0.</p><p>INSTALL</p><p>1. Drop the .wotmod into &lt;World of Tanks&gt;\\mods\\&lt;client version&gt;\\<br>&nbsp; Example: World_of_Tanks_EU\\mods\\2.4.0.0\\<br>2. Take a any capable tank into a battle or training room.</p><p>Nothing to unpack, no res_mods edits, and noates its own on first launch atmods\\configs\\jp_dual_aim_timer\\config.json. Edit it to move or resize the ring, change the blink, or show it during reload. Settings load once at startup, so a change needs a client restart.</p><p><br>AFTER A CLIENT UPDATE&nbsp;<br><br>unaffected, mods\\configs\\ is shared across versions.</p><p>NOT WORKING?</p><p>Check GUIFlash is installed, then search game.log for [JP_DUAL_AIM_TIMER]. No lines means the package was not loaded.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/qslv4jjlzu7g1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7888/",
+      "tagIds": [
+        "15",
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/schaerfl.jp_dual_aim_timer_01.00.00.wotmod",
+          "updatedAt": "2026-09-02T23:05:12.196Z",
+          "sizeBytes": 735051,
+          "fileName": "schaerfl.jp_dual_aim_timer_01.00.00.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "schaerfl.jp_dual_aim_timer_01.00.00.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7882",
@@ -94,7 +132,7 @@
       "recommended": true,
       "mark": 4.9,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>Restores the classic gun sounds from World of Tanks 2.3.1.3, replacing the redesigned weapon audio introduced in Update 2.4.</p><p>The mod restores both standard cannon and rapid-fire/autocannon sounds for the player and other vehicles. Only the weapon sound banks changed by Update 2.4 are replaced, while the current engine, track, impact, explosion, interface, music, and crew audio remains untouched.</p><p><strong>Features</strong></p><ul><li>Restores classic pre-2.4 cannon sounds</li><li>Restores classic autocannon and rapid-fire sounds</li><li>Covers player, allied, and enemy gunfire</li><li>Preserves all unrelated Update 2.4 audio</li><li>Contains no scripts</li><li>Does not change gameplay or vehicle characteristics</li><li>Lightweight and narrowly scoped to the updated weapon sounds</li></ul><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "installationGuideHtml": "<p>Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7887/",
       "tagIds": [
@@ -104,17 +142,17 @@
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.pre24_sounds.full.2.4.0.0.1.0.0.wotmod",
-          "updatedAt": "2026-09-02T12:15:07.693Z",
-          "sizeBytes": 111710730,
-          "fileName": "gravity.pre24_sounds.full.2.4.0.0.1.0.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.pre24_sounds.full.2.4.0.0.1.0.0.zip",
+          "updatedAt": "2026-09-02T22:28:52.032Z",
+          "sizeBytes": 111698409,
+          "fileName": "gravity.pre24_sounds.full.2.4.0.0.1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Changed to a res_mods folder mod."
         }
       ],
       "latest": {
-        "fileName": "gravity.pre24_sounds.full.2.4.0.0.1.0.0.wotmod",
-        "changeLog": "",
+        "fileName": "gravity.pre24_sounds.full.2.4.0.0.1.0.0.zip",
+        "changeLog": "Changed to a res_mods folder mod.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -297,18 +335,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.4.0.0.1.0.4.zip",
-          "updatedAt": "2026-09-01T09:42:51.445Z",
-          "sizeBytes": 550305,
-          "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.1.0.4.zip",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.4.0.0.1.0.5.zip",
+          "updatedAt": "2026-09-02T21:09:57.825Z",
+          "sizeBytes": 554539,
+          "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.1.0.5.zip",
           "fileExt": ".zip",
-          "changeLog": ""
+          "changeLog": "Added gun caliber, ammunition capacity, and penetration at 500 meters to the vehicle statistics. Improved Firepower ordering and shell-selection presentation. Added Shell Calibration support to Armor Inspector. Added a vanilla-style attacker shell-mode switch for vehicles such as the Pz.Kpfw. Neu. Added native-style Tier XI upgrades to the Loadout Sandbox. Selecting an advanced Tier XI upgrade now automatically activates its prerequisites; selecting the final upgrade activates the complete tree. Tier XI upgrade trees now scale to fit without scrolling. Restored native field-modification level and upgrade icons. Made sandbox selections respond immediately while statistics recalculate in the background. Significantly improved Loadout Sandbox scrolling speed. Improved compatibility with World of Tanks 2.4."
         }
       ],
       "latest": {
-        "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.1.0.4.zip",
-        "changeLog": "",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.1.0.5.zip",
+        "changeLog": "Added gun caliber, ammunition capacity, and penetration at 500 meters to the vehicle statistics. Improved Firepower ordering and shell-selection presentation. Added Shell Calibration support to Armor Inspector. Added a vanilla-style attacker shell-mode switch for vehicles such as the Pz.Kpfw. Neu. Added native-style Tier XI upgrades to the Loadout Sandbox. Selecting an advanced Tier XI upgrade now automatically activates its prerequisites; selecting the final upgrade activates the complete tree. Tier XI upgrade trees now scale to fit without scrolling. Restored native field-modification level and upgrade icons. Made sandbox selections respond immediately while statistics recalculate in the background. Significantly improved Loadout Sandbox scrolling speed. Improved compatibility with World of Tanks 2.4.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -15499,7 +15537,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p><p>With the introduction of 2.0 the platoon window stays closed when the battle ends.<br>This mod automatically opens the platoon window after the battle.</p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -45212,16 +45250,6 @@
           "fileName": "SicFunzler-Mod_V306.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "V304",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V304.exe",
-          "updatedAt": "2026-06-19T07:56:48.914Z",
-          "sizeBytes": 295131932,
-          "fileName": "SicFunzler-Mod_V304.exe",
-          "fileExt": ".exe",
-          "changeLog": "Kleine Verbesserungen"
         }
       ],
       "latest": {
@@ -45418,6 +45446,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "02",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
+          "updatedAt": "2026-09-02T22:29:30.509Z",
+          "sizeBytes": 62264803,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
+          "fileExt": ".exe",
+          "changeLog": "Updated crosshair: Standard+ (fix No HUD)\nUpdated contour icons: GolKosh\nUpdated Crucible Progress Overlay\nUpdated WOTInspector Heatmaps (fix game loading crash in some mod combinations)\nUpdated Hitzone skins: Esthete (smart)\nUpdated Research Progress Bar by Zanju\nUpdated Vehicle Stat Inspector (expanded stats and faster tier 11 sandbox)\nRe-Added In Battle Efficiency Calculator by ProTanki\nRe-Added crosshair aim circle: More Visible\nRe-Added Repairs by Protanki"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "01",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_01.exe",
           "updatedAt": "2026-09-02T15:49:51.896Z",
@@ -45438,8 +45476,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_01.exe",
-        "changeLog": "- Updated x5 XP Multiplier Counter by OldSkool\n- Updated contour icons: man1aq\n- Updated Little Helper Collection (proper)\n- Updated Armor Inspector Wotinspector\n- Updated Average Damage Log\n- Updated Mod Menu 2.0.3 (fix for utf8 in a path)\n- Fixed Custom UI Scale installer radio button (was forced accidentaly)\n- Removed outdated mods: iyouxin's mod (breaks mouse controls in battle), Repairs by Protanki (game won't load), The Old Battle Results Windows (errors in logs), Reload Time\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
+        "changeLog": "Updated crosshair: Standard+ (fix No HUD)\nUpdated contour icons: GolKosh\nUpdated Crucible Progress Overlay\nUpdated WOTInspector Heatmaps (fix game loading crash in some mod combinations)\nUpdated Hitzone skins: Esthete (smart)\nUpdated Research Progress Bar by Zanju\nUpdated Vehicle Stat Inspector (expanded stats and faster tier 11 sandbox)\nRe-Added In Battle Efficiency Calculator by ProTanki\nRe-Added crosshair aim circle: More Visible\nRe-Added Repairs by Protanki",
         "wotGameVersionCompatibility": "safe"
       }
     },
