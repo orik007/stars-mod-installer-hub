@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.008",
-  "sourceHash": "e5635deb25eeff0561b948373d2ea2fca485eec82eddc522ff9e91538bf1f822",
+  "catalogVersion": "v2026.09.009",
+  "sourceHash": "588504625cd3f5c2be949f927c523c9d530413f8c22856e7ea3b7d57e751736a",
   "sources": [
     "wgmods",
     "modhub"
@@ -4681,7 +4681,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.3,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5770,16 +5770,6 @@
           "fileName": "Custix_ModPack_for_2.4.0.0_v3.5.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлено Custix ModPack з версії 3.4 до 3.5 (оновлено BattleStats до 1.2.0 — додано оцінку кількості пострілів до знищення ворога; BattleHistory до 1.0.2 — покращено відновлення відкладених результатів; SessionStats до 0.1.6; UpdatedWindows до 1.9.1 — покращено оформлення й стабільність та додано сумісність контактів, чатів і запрошень із новим API гри; збережено автоматичне перемикання з MessageCenterFilter 0.5.1; додано підтримку World of Tanks 2.4.0.0). ---- [EN]: Updated Custix ModPack from version 3.4 to 3.5 (updated BattleStats to 1.2.0 with estimated shots to destroy an enemy; BattleHistory to 1.0.2 with improved delayed-result recovery; SessionStats to 0.1.6; UpdatedWindows to 1.9.1 with visual and stability improvements plus compatibility for Contacts, chats, and invitations with the new game API; preserved automatic switching with MessageCenterFilter 0.5.1; added support for World of Tanks 2.4.0.0)."
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "3.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.3.1.3_v3.4_3mAyIVb.exe",
-          "updatedAt": "2026-08-21T09:11:57.706Z",
-          "sizeBytes": 6944628,
-          "fileName": "Custix_ModPack_for_2.3.1.3_v3.4_3mAyIVb.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлено custix.battlestats до 1.0.0 — додано показ запасу міцності техніки в бокових панелях при затиснутому Alt і нові налаштування відображення; оновлено custix.updatedwindows до 1.6.0 — додано підтримку взводів Frontline, єдине оформлення тексту, стабільні переходи між екранами лобі та відкриття без миготіння стандартного вікна; модпак оновлено для World of Tanks 2.3.1.3. ---- [EN]: Updated custix.battlestats to 1.0.0 — added vehicle HP in side panels while holding Alt and new display options; updated custix.updatedwindows to 1.6.0 — added Frontline platoon support, unified typography, stable lobby-screen transitions, and flash-free modern window opening; updated the modpack for World of Tanks 2.3.1.3."
         }
       ],
       "latest": {
@@ -13733,7 +13723,7 @@
       "recommended": false,
       "mark": 4.7,
       "descriptionHtml": "<p>Fix inconsistent and confusing reskinned tank names. This mod replaces all names of reskins with the base vehicle name + a configurable identifier across the garage and in battle.</p><h2>FEATURES</h2><ul><li><strong>Two renaming modes:</strong><ul><li><strong>Skin initials</strong> - follows Wargaming's naming conventions closely<br><i>&nbsp;Example: Jade Coil → GSOR 1008 JC</i></li><li><strong>Custom suffix </strong>- configurable suffix, including the option for no suffix&nbsp;<br><i>Examples: Jade Coil → GSOR 1008*</i> or <i>Jade Coil → GSOR 1008</i></li></ul></li><li>Includes<strong> all reskinned vehicles</strong></li><li><strong>In-game settings menu </strong>(via ModsSettingsApi; not required)</li><li>Short names optimized to <strong>avoid truncation in the team list </strong>in skin initials mode<br><i>Example: Alembic → ASTRON R. A</i></li><li>Also changes<strong> full names</strong> to include the base vehicle name</li><li>Intercepts the name lookup system<strong> instead of &nbsp;modifying game resource files, </strong>so it remains compatible across game version.</li></ul><h2>CONFIGURATION</h2><p>Click the <strong>⚭</strong> button in the bottom right corner of the garage and choose <strong>Mod configurator</strong> to open the settings menu.<br><i><strong>Note: </strong>Changes made will only apply after restarting the game. This is a game limitation.</i></p><p>Advanced users can also modify the JSON file in <i>/mods/configs/breeeze</i> directly. The file will automatically get generated on first launch.</p><h2>CONTACT, FEEDBACK &amp; BUG REPORTS</h2><p><a href=\"https://discord.com/channels/161053416796323840/1471822012627554415\">Mod thread on the World of Tanks Discord&nbsp;</a></p><p>Discord DM: <strong>@breeeze.</strong></p><p>In-game DM: <strong>breeeze</strong></p><h2>ACKNOWLEDGEMENTS</h2><p>Thanks to:</p><ul><li><strong>CRUSHERX8 </strong>-<strong> </strong>for help with gathering vehicle data &amp; testing, aswell as creating the cover image.</li><li><strong>izeberg </strong>-<strong> </strong>for the ModsSettingsApi, enabling the in-game settings menu.</li><li><strong>poliroid </strong>- for ModsList and OpenWG Gameface, to make ModsSettingsApi work.</li></ul><p>&nbsp;</p>",
-      "installationGuideHtml": "<p>Unpack the zip and place all the .wotmod files into <strong>[WoT folder]/mods/[WoT version].</strong></p><p><i>Example: C:\\Games\\World_of_Tanks_EU\\mods\\2.2.1.3</i></p>",
+      "installationGuideHtml": "<p>Unpack the zip and place all the .wotmod files into <strong>[WoT folder]/mods/[WoT version].</strong></p><p><i>Example: C:\\Games\\World_of_Tanks_EU\\mods\\2.4.0.0</i></p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/VRR_Cover_2_Mockup_3B.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7499/",
       "tagIds": [
@@ -13787,16 +13777,6 @@
           "updatedAt": "2026-03-22T21:19:33.317Z",
           "sizeBytes": 407029,
           "fileName": "breeeze.vehicle_reskin_renamer_1.0.1_WQyaPU7.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.0.0",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/breeeze.vehicle_reskin_renamer_1.0.1.zip",
-          "updatedAt": "2026-03-03T22:06:14.232Z",
-          "sizeBytes": 407029,
-          "fileName": "breeeze.vehicle_reskin_renamer_1.0.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -15086,7 +15066,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<h2>YaYa's Tactical Minimap Mod:&nbsp;</h2><p>This mod is intended to give new and seasoned players a guide to map starting positions as well as some neat angles to leverage. It is strongly recommended to visit YaYa's Map Website (https://wotmapsbyyaya.com/) as each map has positional information and explanations that put everything into perspective. Should you have questions or give feedback, join our discord: <a href=\"https://discord.gg/D9z2m2Q7ka\">https://discord.gg/D9z2m2Q7ka</a></p><p>Mod Usage Instructions</p><p>A hot-key combination has been created to rebind the default key (ALT) to another during battle: Press ENTER to open the chat and then press CTRL+SHIFT+K to activate key rebinding. A chat message will appear in your in-game battle chat. Once complete, the rebind is then stored in the mod’s xml file for future use.</p><p><br>Note: This procedure must be completed every time the mod is updated including if updating with Aslain’s mod.</p><p>Standalone Installation</p><p>Copy archive content into the mods folder of the game.<br>E.g.: C:\\Games\\World_of_Tanks_EU\\mods<br><br>By default the Mod is set up to show all icons upon pressing the toggle. However, should you wish to turn off the icons, this can be done within the “yayatacticmap” xml located in the “\\mods\\configs\\locastan” folder. Instructions are provided within the xml.</p><p>Map Preview images: &nbsp;</p><p>Ruinberg, Erlenberg, Malinovka, Serene Coast and the Style Guide.</p>",
       "installationGuideHtml": "<p>Copy archive content into mods folder of the game.</p>",
@@ -15098,6 +15078,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2400",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2400.zip",
+          "updatedAt": "2026-09-03T17:13:12.199Z",
+          "sizeBytes": 47367239,
+          "fileName": "YaYa_tactical_minimaps2400.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Folder name change for 2.4 release."
+        },
         {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "2313a",
@@ -15150,9 +15140,9 @@
         }
       ],
       "latest": {
-        "fileName": "YaYa_tactical_minimaps2313a.zip",
-        "changeLog": "- Folder name update\n- Fixed a small error leading to error messages in the python.log (did not affect function).",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "YaYa_tactical_minimaps2400.zip",
+        "changeLog": "- Folder name change for 2.4 release.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -32141,6 +32131,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.2.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.distance_marker_2.2.5.zip",
+          "updatedAt": "2026-09-03T17:22:41.204Z",
+          "sizeBytes": 479416,
+          "fileName": "pruszko.distance_marker_2.2.5.zip",
+          "fileExt": ".zip",
+          "changeLog": "Version 2.2.5 comes with safeguard for crashes during battle exit caused by other mods errors - gracefully handling it instead of spamming logs."
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "2.2.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.distance_marker_2.2.4.zip",
           "updatedAt": "2026-09-01T18:47:36.722Z",
@@ -32188,21 +32188,11 @@
           "fileName": "pruszko.distance_marker_2.2.3_S3UUrVf.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for WoT 2.3.1.0"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.2.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.distance_marker_2.2.3_jpFi18o.zip",
-          "updatedAt": "2026-06-11T22:21:55.467Z",
-          "sizeBytes": 478346,
-          "fileName": "pruszko.distance_marker_2.2.3_jpFi18o.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for WoT 2.3.0.1"
         }
       ],
       "latest": {
-        "fileName": "pruszko.distance_marker_2.2.4.zip",
-        "changeLog": "Updated for WoT 2.4.0.0",
+        "fileName": "pruszko.distance_marker_2.2.5.zip",
+        "changeLog": "Version 2.2.5 comes with safeguard for crashes during battle exit caused by other mods errors - gracefully handling it instead of spamming logs.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -45235,6 +45225,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "3.0.14",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_V7KHJuW.zip",
+          "updatedAt": "2026-09-03T19:57:34.724Z",
+          "sizeBytes": 4893349,
+          "fileName": "ProMod_V7KHJuW.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "3.0.13",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_pEHngPC.zip",
           "updatedAt": "2026-09-03T09:33:32.850Z",
@@ -45282,16 +45282,6 @@
           "fileName": "ProMod_Jxp8VUb.zip",
           "fileExt": ".zip",
           "changeLog": "• Modpack: Updated to XVM Build 13.1.0.0062\n• Modpack: Updated AntiMirror\n• Modpack: Updated Contour Icons\n• Modpack: Updated OpenWG Common Utils\n• Modpack: Updated ModsListApi\n• Modpack: Updated Gameface Api\n• Modpack: Updated Auto Equipment Return\n• Modpack: Updated White Destroyed Vehicle Skins\n• Modpack: Updated Tomato.gg"
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "1175",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_Lr9KnWd.zip",
-          "updatedAt": "2026-08-06T18:07:21.925Z",
-          "sizeBytes": 4168871,
-          "fileName": "ProMod_Lr9KnWd.zip",
-          "fileExt": ".zip",
-          "changeLog": "• Modpack: Updated to XVM Build 13.1.0.0059\n• Modpack: Updated AntiMirror\n• Modpack: Updated Enhanced ModSettingsApi\n• Modpack: Updated OldSkool modscore \n• Modpack: Updated Tomato.gg\n• Modpack: Updated Responsive Reticle\n• Modpack: Updated Crucible Progress Tracker\n• Modpack: Updated White Destroyed Vehicle Skins"
         }
       ],
       "latest": {
@@ -45576,6 +45566,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_03.exe",
+          "updatedAt": "2026-09-03T17:48:21.968Z",
+          "sizeBytes": 61690225,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_03.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated contour icons: man1aq\n- Updated Pre-2.4 Gun Sounds\n- Updated Clean Camo\n- Updated Minimap images: YaYa tactical\n- Updated Camo Selector (improved depot handling)\n- Updated Mod Menu 2.0.4 (added hover a mod in the list to see its tooltip)\n- Updated Distance Marker (safeguard for crashes during battle exit caused by other mods errors)\n- Removed outdated mod: War Mod Engine Sounds (muted gun sounds), Colored Damage Stickers, Serial Number Changer\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
           "updatedAt": "2026-09-02T22:29:30.509Z",
@@ -45606,8 +45606,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
-        "changeLog": "Updated crosshair: Standard+ (fix No HUD)\nUpdated contour icons: GolKosh\nUpdated Crucible Progress Overlay\nUpdated WOTInspector Heatmaps (fix game loading crash in some mod combinations)\nUpdated Hitzone skins: Esthete (smart)\nUpdated Research Progress Bar by Zanju\nUpdated Vehicle Stat Inspector (expanded stats and faster tier 11 sandbox)\nRe-Added In Battle Efficiency Calculator by ProTanki\nRe-Added crosshair aim circle: More Visible\nRe-Added Repairs by Protanki",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_03.exe",
+        "changeLog": "- Updated contour icons: man1aq\n- Updated Pre-2.4 Gun Sounds\n- Updated Clean Camo\n- Updated Minimap images: YaYa tactical\n- Updated Camo Selector (improved depot handling)\n- Updated Mod Menu 2.0.4 (added hover a mod in the list to see its tooltip)\n- Updated Distance Marker (safeguard for crashes during battle exit caused by other mods errors)\n- Removed outdated mod: War Mod Engine Sounds (muted gun sounds), Colored Damage Stickers, Serial Number Changer\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
