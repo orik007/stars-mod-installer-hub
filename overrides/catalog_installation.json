@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.007",
+  "catalogVersion": "v2026.09.008",
   "mods": [
     {
       "source": "wgmods",
@@ -539,6 +539,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to extract and place both .wotmod files into mods/<version> with no blocking manual choice.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7838",
+      "title": "AYA Translator",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "IMPORTANT: This mod requires ModsListAPI, ModsSettingsAPI and GameFace to work. Make sure they are installed in the same mods folder. Extract the \"aya_m\" folder into: World_of_Tanks/mods/[game_version]/ Extract the \"aya_r\" folder into: World_of_Tanks/res_mods/[game_version]/ After installing, open the Garage, go to the mods settings panel, and configure..."
+      },
+      "installationProcess": {
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Guide clearly requires installing different folders to both mods/<version> and res_mods/<version> targets.",
         "deleteDataWgpdc": false
       }
     },

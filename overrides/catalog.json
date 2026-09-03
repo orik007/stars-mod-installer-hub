@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.007",
-  "sourceHash": "bd74db1438e9ce87a594199919ada9d32fa2fac3be481a656b1e569101db2342",
+  "catalogVersion": "v2026.09.008",
+  "sourceHash": "e5635deb25eeff0561b948373d2ea2fca485eec82eddc522ff9e91538bf1f822",
   "sources": [
     "wgmods",
     "modhub"
@@ -130,7 +130,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.9,
+      "mark": 4.7,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>Restores the classic gun sounds from World of Tanks 2.3.1.3, replacing the redesigned weapon audio introduced in Update 2.4.</p><p>The mod restores both standard cannon and rapid-fire/autocannon sounds for the player and other vehicles. Only the weapon sound banks changed by Update 2.4 are replaced, while the current engine, track, impact, explosion, interface, music, and crew audio remains untouched.</p><p><strong>Features</strong></p><ul><li>Restores classic pre-2.4 cannon sounds</li><li>Restores classic autocannon and rapid-fire sounds</li><li>Covers player, allied, and enemy gunfire</li><li>Preserves all unrelated Update 2.4 audio</li><li>Contains no scripts</li><li>Does not change gameplay or vehicle characteristics</li><li>Lightweight and narrowly scoped to the updated weapon sounds</li></ul><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -1462,6 +1462,43 @@
         "fileName": "wgmods_bundle_v1.0.6_kWTHkBy.zip",
         "changeLog": "(v1.0.7)\nДобавлено\nКнопка «глаз» для сворачивания/разворачивания панели — в обеих панелях (журнал попаданий и статистика карт). При сворачивании панель превращается в маленький значок, при нажатии — разворачивается обратно.\nУбрано\nНастройки showInHangar, showInBattle, toggleKey — больше не нужны. Панели работают в ангаре и в бою, управление сворачиванием через кнопку «глаз» и клавишу Esc.\nИсправлено\nОшибка NaN при вычислении размера viewport — applySize(w, h) теперь корректно получает размер панели.\nУлучшено\nКачество шрифтов — добавлены antialiased, optimizeLegibility, letter-spacing для более чёткого отображения текста.",
         "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7838",
+      "title": "AYA Translator",
+      "ownerUsername": "Veil___",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>[AYA] automatically translates the battle chat messages that YOU send. Type normally in your own language, the mod detects your language and translates the message into your chosen target language before sending it to your team. No copy-pasting, no external tools, and no interruption to your gameplay.&nbsp;<br><br>EXAMPLE&nbsp;<br>ES to EN:&nbsp;<br><br>\"Espero que los jugadores de artilleria pisen un Lego cada dia de su vida!\"&nbsp;<br><br>becomes&nbsp;<br><br>\"I hope artillery players step on a Lego every single day of their lives!\"&nbsp;<br><br>KEY FEATURES&nbsp;<br>Automatic Language Detection &amp; Translation: Supports 20 languages.&nbsp;<br><br>Real-Time Processing: Translates your message before it reaches your team.&nbsp;<br><br>Translation Cache: Delivers instant response times for recurring phrases.&nbsp;<br><br>In-Battle Hotkeys:&nbsp;<br><br>Numpad 0: Toggle mod ON/OFF&nbsp;<br><br>Numpad + / Numpad -: Switch target language on the fly&nbsp;<br><br>On-Screen HUD Feedback: Displays mod status, active language, and warnings above the minimap.&nbsp;<br><br>Smart Quality Protection: Short or ambiguous messages are safely blocked and NOT sent to prevent mistranslations.&nbsp;<br><br>Garage Configuration Panel: Available in 11 languages, allowing you to select your target language, enable auto-start at battle entry, and manage your translation cache.&nbsp;<br><br>REQUIREMENTS&nbsp;<br>Requires ModsListAPI, ModsSettingsAPI, and GameFace installed in your mods folder.&nbsp;<br><br>Found a bug or have a suggestion?&nbsp;<br><br>Contact us: aya.help@proton.me</p>",
+      "installationGuideHtml": "<p>IMPORTANT: This mod requires ModsListAPI, ModsSettingsAPI and GameFace to work. Make sure they are installed in the same mods folder.&nbsp;<br><br>Extract the \"aya_m\" folder into: World_of_Tanks/mods/[game_version]/&nbsp;<br>Extract the \"aya_r\" folder into: World_of_Tanks/res_mods/[game_version]/&nbsp;<br><br>After installing, open the Garage, go to the mods settings panel, and configure...</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/aya_translator_thumb_c%C3%B3pia.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7838/",
+      "tagIds": [
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AYA_Translator_T8H5o4u.zip",
+          "updatedAt": "2026-09-03T14:30:55.133Z",
+          "sizeBytes": 1206297,
+          "fileName": "AYA_Translator_T8H5o4u.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added manual cache system in the garage panel, players can now add their own custom phrases and translations directly through the mod's settings interface."
+        }
+      ],
+      "latest": {
+        "fileName": "AYA_Translator_T8H5o4u.zip",
+        "changeLog": "Added manual cache system in the garage panel, players can now add their own custom phrases and translations directly through the mod's settings interface.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -6212,10 +6249,10 @@
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "5.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_cD6fw6b.exe",
-          "updatedAt": "2026-09-03T09:45:25.614Z",
-          "sizeBytes": 115413506,
-          "fileName": "INQ_Pack_Installer_cD6fw6b.exe",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_E3ZbcBJ.exe",
+          "updatedAt": "2026-09-03T14:30:47.992Z",
+          "sizeBytes": 117015042,
+          "fileName": "INQ_Pack_Installer_E3ZbcBJ.exe",
           "fileExt": ".exe",
           "changeLog": "Оновлено моди "
         },
@@ -6271,7 +6308,7 @@
         }
       ],
       "latest": {
-        "fileName": "INQ_Pack_Installer_cD6fw6b.exe",
+        "fileName": "INQ_Pack_Installer_E3ZbcBJ.exe",
         "changeLog": "Оновлено моди ",
         "wotGameVersionCompatibility": "safe"
       }
@@ -7227,17 +7264,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.930",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.3.930.zip",
-          "updatedAt": "2026-09-01T09:27:29.284Z",
-          "sizeBytes": 1225294444,
-          "fileName": "cleantanks.hd.part.3.930.zip",
+          "modVersion": "2.2.931",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.3.931.zip",
+          "updatedAt": "2026-09-03T14:22:02.376Z",
+          "sizeBytes": 1297464677,
+          "fileName": "cleantanks.hd.part.3.931.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.3.930.zip",
+        "fileName": "cleantanks.hd.part.3.931.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -10405,7 +10442,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.5,
+      "mark": 3.4,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -17381,7 +17418,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.8,
       "descriptionHtml": "<p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates (but it's still optimised to maximum)</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>I've spend entire week just to micro-optimise this mod to be as lightweight as possible</li><li>However, even after that, due to increased reticle position update frequency, it still may lower FPS a bit (by measurements I estimate about 5% less average FPS)</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.responsive_reticle_X.wotmod</strong>\" into \"[WoT game directory]/mods/[version]/\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_vWZU5A5.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -28204,17 +28241,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.930",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.2.930.zip",
-          "updatedAt": "2026-09-01T09:26:09.193Z",
-          "sizeBytes": 1421676036,
-          "fileName": "cleantanks.hd.part.2.930.zip",
+          "modVersion": "2.2.931",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.2.931.zip",
+          "updatedAt": "2026-09-03T14:24:19.749Z",
+          "sizeBytes": 1421676171,
+          "fileName": "cleantanks.hd.part.2.931.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.2.930.zip",
+        "fileName": "cleantanks.hd.part.2.931.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -28363,17 +28400,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.930",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.1.930.zip",
-          "updatedAt": "2026-09-01T09:26:43.340Z",
-          "sizeBytes": 1320647121,
-          "fileName": "cleantanks.hd.part.1.930.zip",
+          "modVersion": "2.2.931",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.1.931.zip",
+          "updatedAt": "2026-09-03T14:22:36.230Z",
+          "sizeBytes": 1320645463,
+          "fileName": "cleantanks.hd.part.1.931.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.1.930.zip",
+        "fileName": "cleantanks.hd.part.1.931.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -28399,17 +28436,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.930",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.sd.930.zip",
-          "updatedAt": "2026-09-01T09:28:33.819Z",
-          "sizeBytes": 1115191360,
-          "fileName": "cleantanks.sd.930.zip",
+          "modVersion": "2.2.931",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.sd.931.zip",
+          "updatedAt": "2026-09-03T14:23:14.733Z",
+          "sizeBytes": 1115189750,
+          "fileName": "cleantanks.sd.931.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.sd.930.zip",
+        "fileName": "cleantanks.sd.931.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -34209,7 +34246,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Horizontal TechTree + all premium tanks in tree.<br><br><strong>Mod has been created from vertical techtree from European server by </strong><a href=\"https://worldoftanks.eu/ru/community/accounts/500324061-Johny_Bafak/\"><strong>Johny_Bafak</strong></a><strong>&nbsp;and me. After that mod has been updated and work followed up by </strong><a href=\"https://discord.gg/oldskool\"><strong>OldSkool</strong></a><strong>, big thanks him for that. Right now mod updated again by </strong><a href=\"https://discord.gg/oldskool\"><strong>OldSkool</strong></a><strong>&nbsp;and me.</strong><br><br><strong>Caution! Mod can only show all tanks in techtree and don't give access to buy tanks that curently not for sale.</strong></p>",
       "installationGuideHtml": "<p><strong>Unzip archive into modifications folder: World of Tanks\\mods</strong></p>",
@@ -34220,20 +34257,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.3#42",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TechTree_JDiggLR.rar",
-          "updatedAt": "2026-07-20T15:58:43.129Z",
-          "sizeBytes": 591669,
-          "fileName": "TechTree_JDiggLR.rar",
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.4#43",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TechTree_tAJYfsN.rar",
+          "updatedAt": "2026-09-03T12:32:13.857Z",
+          "sizeBytes": 594017,
+          "fileName": "TechTree_tAJYfsN.rar",
           "fileExt": ".rar",
-          "changeLog": "Мод обновлён. Исправлены ошибки. Добавлена русская локализация."
+          "changeLog": "2.3.1.2 Drills at the Pass\tКитай\tТТ-9\n2.3.1.3 Ironclad Guardian\tСША\tПТ-8\nКороль быков\tКитай\tТТ-8\nErlang Shen\tКитай\tПТ-10\n2.4.0 НК 1\tСССР\tТТ-9\nFossa VM 68\tГермания\tСТ-10\nVK 45.01 (P)\tГермания\tТТ-6\nHWK 40\tГермания\tТТ-9\nAMX 29 Bélier\tФранция\tСТ-10\nFireborn\tКитай\tТТ-10\n\nА также все новые прокачиваемые танки."
         }
       ],
       "latest": {
-        "fileName": "TechTree_JDiggLR.rar",
-        "changeLog": "Мод обновлён. Исправлены ошибки. Добавлена русская локализация.",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "TechTree_tAJYfsN.rar",
+        "changeLog": "2.3.1.2 Drills at the Pass\tКитай\tТТ-9\n2.3.1.3 Ironclad Guardian\tСША\tПТ-8\nКороль быков\tКитай\tТТ-8\nErlang Shen\tКитай\tПТ-10\n2.4.0 НК 1\tСССР\tТТ-9\nFossa VM 68\tГермания\tСТ-10\nVK 45.01 (P)\tГермания\tТТ-6\nHWK 40\tГермания\tТТ-9\nAMX 29 Bélier\tФранция\tСТ-10\nFireborn\tКитай\tТТ-10\n\nА также все новые прокачиваемые танки.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44663,16 +44700,6 @@
           "fileName": "1D6_XVM_ModPack_2.3.0b.exe",
           "fileExt": ".exe",
           "changeLog": "14 june 2026 - UPDATE 2.3.0b\n- Update XVM 13.1.0.0031\n\n"
-        },
-        {
-          "wotGameVersion": "2.3.0.0",
-          "modVersion": "2.3.0A",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1D6_XVM_ModPack_2.3.0a_EMSEyQm.exe",
-          "updatedAt": "2026-06-06T08:06:29.927Z",
-          "sizeBytes": 91474494,
-          "fileName": "1D6_XVM_ModPack_2.3.0a_EMSEyQm.exe",
-          "fileExt": ".exe",
-          "changeLog": "5 june 2026 - UPDATE 2.3.0a\nCompatible Wot 2.3.0.0\n- Update XVM 13.1.0.0026\n- Update PMOD 1.81.05"
         }
       ],
       "latest": {
