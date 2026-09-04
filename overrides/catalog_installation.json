@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.012",
+  "catalogVersion": "v2026.09.013",
   "mods": [
     {
       "source": "wgmods",
@@ -2558,12 +2558,12 @@
       "title": "SpotMeter",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "1. Install net.openwg.gameface (free; already in most modpacks, or from the OpenWG project). SpotMeter's panel needs it. 2. Download spotmeter-v7.0.0.wotmod. 3. Copy it into: <WoT>\\mods\\2.3.1.0\\ Example: D:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0\\ (create the folder if it does not exist) 4. Launch the game. On first launch it briefly restarts once to register the panel (net.openwg.gameface rebuilds its resource map) - this is normal. The minimap circle works right away; in battle, PageDown shows/hides the panel and you drag it by the header. 5. (Optional) Install a mods-settings menu (aslainMenu / ModsSettingsAPI) to configure in the garage, or edit: %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\spotmeter\\spotmeter.json To uninstall: delete the .wotmod from mods\\2.3.1.0\\. Requires WoT 2.3.1.0 + net.openwg.gameface."
+        "latestInstallGuide": "1. Install net.openwg.gameface (free; already in most modpacks, or from the OpenWG project). SpotMeter's panel needs it. 2. Download spotmeter-v7.3.0.wotmod. 3. Copy it into: <WoT>\\mods\\2.4.0.0\\ Example: D:\\Games\\World_of_Tanks_EU\\mods\\2.4.0.0\\ (create the folder if it does not exist) 4. Launch the game. On first launch it briefly restarts once to register the panel (net.openwg.gameface rebuilds its resource map) - this is normal. The minimap circle works right away; in battle, PageDown shows/hides the panel and you drag it by the header. 5. (Optional) Install a mods-settings menu (aslainMenu / ModsSettingsAPI) to configure in the garage, or edit: %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\spotmeter\\spotmeter.json To uninstall: delete the .wotmod from mods\\2.4.0.0\\. Requires WoT 2.4.0.0 + net.openwg.gameface."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>; dependency and optional configuration notes are non-blocking.",
+        "decisionReason": "Plain .wotmod package and guide clearly says to copy it into mods/<version>; external dependency note is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
