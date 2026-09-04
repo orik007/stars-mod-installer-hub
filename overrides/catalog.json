@@ -1,11 +1,86 @@
 {
-  "catalogVersion": "v2026.09.010",
-  "sourceHash": "4f49feed3e1f604d5897e69e06a145457b38a18edc3220881aadf91cc048cc4f",
+  "catalogVersion": "v2026.09.011",
+  "sourceHash": "50cf0ec9cb0bb8d728c4e8e6a7ea9b79d854f67ab76ebe0f6f5e4e06faadfd78",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7886",
+      "title": "Stars Mod Installer",
+      "ownerUsername": "StarsInTheEyes",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Stars Mod Installer</p><p><strong>Choose your World of Tanks mods once. Keep them updated automatically.</strong></p><p>Stars Mod Installer is a Windows application that runs quietly in the system tray. Select the mods you want to use once, and the app will keep compatible mods updated when a new mod version is released or when World of Tanks is updated.</p><ul><li>Choose from official World of Tanks mods available on WGMods.net.</li><li>No repeated downloads or copying files into game folders.</li><li>The app starts automatically with Windows and works in the background.</li><li>If World of Tanks is running, installation waits until the game is closed.</li></ul><h2>Alpha version — please read</h2><p>Stars Mod Installer is currently in <strong>alpha</strong>. Bugs may occur, some features may still change, and some mods may not be supported yet.</p><p>If something does not work, please give us a chance to help before leaving a negative rating. Join our Discord, tell us what happened, and we will try to resolve the problem. Your feedback will also help us improve the application for everyone.</p><p><strong>Website:</strong> <a href=\"https://starsmodinstaller.com\">https://starsmodinstaller.com</a><br><strong>Discord:</strong> <a href=\"https://discord.gg/CyeFA8T4UP\">https://discord.gg/CyeFA8T4UP</a></p>",
+      "installationGuideHtml": "<p>Simply download and run the installer. Administrator rights are not required.</p><p>Once installed, Stars Mod Installer keeps itself up to date automatically, so you do not need to download new versions manually.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-09-02_110736984.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7886/",
+      "tagIds": [
+        "12",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "0.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/StarsModInstaller-win-Setup.exe",
+          "updatedAt": "2026-09-04T07:43:35.713Z",
+          "sizeBytes": 84830746,
+          "fileName": "StarsModInstaller-win-Setup.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "StarsModInstaller-win-Setup.exe",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7893",
+      "title": "Negev Voiceover — Girls' Frontline",
+      "ownerUsername": "ChesterMent",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Negev voiceover from Girls' Frontline for World of Tanks.</p><p>The voiceover consists of Negev's original Japanese voice lines from Girls' Frontline. The mod currently includes 18 different voice lines. Some lines may repeat, and certain in-game events may not have a voice line.</p><p>In future updates, I'll try to add more voice lines if I find suitable ones. Currently voiced events include: battle start, penetrations and ricochets, enemy kills, module damage and repairs, crew status, and other combat situations.</p><p>To use the voiceover, select Negev in the game's sound settings.</p>",
+      "installationGuideHtml": "<p>Place the negev_voice_X.X.X.wotmod file into:</p><p>World_of_Tanks_EU/mods/2.X.X.X/</p><p>After launching the game, open the sound settings and select the Negev voiceover.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Negevs11.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7893/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/negev_voice_1.0.0.wotmod",
+          "updatedAt": "2026-09-04T07:38:56.969Z",
+          "sizeBytes": 2111334,
+          "fileName": "negev_voice_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "negev_voice_1.0.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7888",
@@ -359,8 +434,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p><strong>Important Note&nbsp;</strong><br>After 2.0.1 update, this mod conflicts with the official Girls und Panzer Subtitles Mod. Using both mods at the same time may <strong>cause the game to malfunction</strong>.&nbsp;<br>If you need subtitles, please use the subtitle mod provided with this mod instead.&nbsp;<br>Subtitles will be automatically enabled when:&nbsp;<br>• selecting a voice option with the “(by official)” suffix; or&nbsp;<br>• entering battle in a vehicle crewed by official Girls und Panzer collaboration crew members.</p><p>The mod now contents 63 crews voices, include almost all the teams and schools in the animation, I'm sure you will never get bored!</p><p>This is my favorite mod, but unfortunately, the original version on the Mod Hub has been gone for a long time. I was very sad about it, but there was nothing I could do because I was a complete beginner. Now, with the help of AI tools, I can finally make this mod work again. Still, I hope the original creator can come back and maintain this mod again someday. Thank you!</p><p>Theoretically, this mod should continue to work with future game updates. I may not update it frequently because I am busy with my studies and research, and this mod is quite large. I will mainly update it when too many new unique crews with voiceovers are added to the game, or when there are bugs that need to be fixed.</p><p>If you find any bugs or have any suggestions that you would like me to work on, feel free to contact me by email: <a href=\"mailto:2551549074@qq.com\">2551549074@qq.com</a></p>",
       "installationGuideHtml": "<p>Copy all files to latest version floder under mods floder in game client floder.<br>If you don't want some voice such as six sence to be changed to GUP version, delete GuP(x.x)_audio_VoiceSelector_ver.18.0.1_xml</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Voice_Selector_mod.jpg.302x170_q85_crop_detail_replace_alpha-white_axd9lJ3.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -4681,7 +4756,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.2,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -6225,7 +6300,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 4,
       "descriptionHtml": "<p>&nbsp;🇺🇦 INQ Pack — a convenient modpack for World of Tanks</p><p>Hello everyone! <strong>INQ Pack</strong> is a convenient modpack that brings together the essential and most useful mods for a comfortable gaming experience. All mods are neatly sorted into categories, with descriptions and previews, so it's easy to find exactly what you need.</p><p><strong>🔥 What's inside:</strong><br>✅ sights and combat utilities<br>✅ WN8, in-battle stats, marks of excellence and aces<br>✅ damage, HP, efficiency and spotting panels<br>✅ minimap mods and extra in-battle information<br>✅ PMOD and Pmod|Tweaker with separate settings<br>✅ garage mods, graphics, sound and system enhancements<br>✅ cache, mods, replays and old update cleanup before installation</p><p><strong>⚙️ Convenience:</strong><br>The installer lets you quickly select the mods you need, preview them, apply ready-made presets, and install everything without manually copying files.</p><p><strong>🔄 Auto-update:</strong><br>The pack checks for a new version on launch and asks whether to download the update. Nothing is downloaded without your confirmation.</p><p>💙 INQ Pack is built for players who want to quickly install the mods they need and comfortably customize their game.<br><br>The package includes English, so installation won't be a problem for you.</p>",
       "installationGuideHtml": "<p>Open the modpack and follow the instructions; it will automatically install everything you want.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ig_013532615b881c99016a1441842f748191a5421b24a7b64cd5.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -6285,16 +6360,6 @@
           "fileName": "INQ_Pack_Installer_SUxBOvL.exe",
           "fileExt": ".exe",
           "changeLog": "Мод на динамічну підсвітку броні \nМод на менеджер запрошень \nМод на підтримку Діскорд \nМод на хп в вухах ( єможливість налаштувати в грі + вибрати колір замалювання танків )"
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "4.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer.exe",
-          "updatedAt": "2026-08-12T14:40:26.517Z",
-          "sizeBytes": 126260226,
-          "fileName": "INQ_Pack_Installer.exe",
-          "fileExt": ".exe",
-          "changeLog": "Оновлено моди "
         }
       ],
       "latest": {
@@ -7254,17 +7319,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.931",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.3.931.zip",
-          "updatedAt": "2026-09-03T14:22:02.376Z",
-          "sizeBytes": 1297464677,
-          "fileName": "cleantanks.hd.part.3.931.zip",
+          "modVersion": "2.2.932",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.3.932.zip",
+          "updatedAt": "2026-09-04T11:33:42.515Z",
+          "sizeBytes": 1306619985,
+          "fileName": "cleantanks.hd.part.3.932.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.3.931.zip",
+        "fileName": "cleantanks.hd.part.3.932.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -12382,7 +12447,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.8,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
@@ -12394,6 +12459,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.4.0.0.exe",
+          "updatedAt": "2026-09-04T07:42:18.128Z",
+          "sizeBytes": 123902835,
+          "fileName": "Nagleishiy_ModPack_for_2.4.0.0.exe",
+          "fileExt": ".exe",
+          "changeLog": "Додані моди:    \n-Слпиваючий урон без XVM  \n-Знищена техніка на мапі"
+        },
         {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.4",
@@ -12446,9 +12521,9 @@
         }
       ],
       "latest": {
-        "fileName": "Nagleishiy_ModPack_for_2.3.1.3.exe",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Nagleishiy_ModPack_for_2.4.0.0.exe",
+        "changeLog": "Додані моди:    \n-Слпиваючий урон без XVM  \n-Знищена техніка на мапі",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -13720,7 +13795,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Fix inconsistent and confusing reskinned tank names. This mod replaces all names of reskins with the base vehicle name + a configurable identifier across the garage and in battle.</p><h2>FEATURES</h2><ul><li><strong>Two renaming modes:</strong><ul><li><strong>Skin initials</strong> - follows Wargaming's naming conventions closely<br><i>&nbsp;Example: Jade Coil → GSOR 1008 JC</i></li><li><strong>Custom suffix </strong>- configurable suffix, including the option for no suffix&nbsp;<br><i>Examples: Jade Coil → GSOR 1008*</i> or <i>Jade Coil → GSOR 1008</i></li></ul></li><li>Includes<strong> all reskinned vehicles</strong></li><li><strong>In-game settings menu </strong>(via ModsSettingsApi; not required)</li><li>Short names optimized to <strong>avoid truncation in the team list </strong>in skin initials mode<br><i>Example: Alembic → ASTRON R. A</i></li><li>Also changes<strong> full names</strong> to include the base vehicle name</li><li>Intercepts the name lookup system<strong> instead of &nbsp;modifying game resource files, </strong>so it remains compatible across game version.</li></ul><h2>CONFIGURATION</h2><p>Click the <strong>⚭</strong> button in the bottom right corner of the garage and choose <strong>Mod configurator</strong> to open the settings menu.<br><i><strong>Note: </strong>Changes made will only apply after restarting the game. This is a game limitation.</i></p><p>Advanced users can also modify the JSON file in <i>/mods/configs/breeeze</i> directly. The file will automatically get generated on first launch.</p><h2>CONTACT, FEEDBACK &amp; BUG REPORTS</h2><p><a href=\"https://discord.com/channels/161053416796323840/1471822012627554415\">Mod thread on the World of Tanks Discord&nbsp;</a></p><p>Discord DM: <strong>@breeeze.</strong></p><p>In-game DM: <strong>breeeze</strong></p><h2>ACKNOWLEDGEMENTS</h2><p>Thanks to:</p><ul><li><strong>CRUSHERX8 </strong>-<strong> </strong>for help with gathering vehicle data &amp; testing, aswell as creating the cover image.</li><li><strong>izeberg </strong>-<strong> </strong>for the ModsSettingsApi, enabling the in-game settings menu.</li><li><strong>poliroid </strong>- for ModsList and OpenWG Gameface, to make ModsSettingsApi work.</li></ul><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unpack the zip and place all the .wotmod files into <strong>[WoT folder]/mods/[WoT version].</strong></p><p><i>Example: C:\\Games\\World_of_Tanks_EU\\mods\\2.4.0.0</i></p>",
@@ -13730,6 +13805,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/breeeze.vehicle_reskin_renamer_1.1.1.zip",
+          "updatedAt": "2026-09-04T07:42:08.787Z",
+          "sizeBytes": 415680,
+          "fileName": "breeeze.vehicle_reskin_renamer_1.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Added Iron Guardian (XM57), Fossa VM 68 (RadKpfw.), Bull Demon (BZ-176), Drills (WZ-114)\n- Updated ModsListAPI to 1.7.9\n- Updated OpenWG Gameface to 1.1.6"
+        },
         {
           "wotGameVersion": "2.3.0.1",
           "modVersion": "1.1.0",
@@ -13782,9 +13867,9 @@
         }
       ],
       "latest": {
-        "fileName": "breeeze.vehicle_reskin_renamer_1.1.0_Mpz8bVm.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "breeeze.vehicle_reskin_renamer_1.1.1.zip",
+        "changeLog": "- Added Iron Guardian (XM57), Fossa VM 68 (RadKpfw.), Bull Demon (BZ-176), Drills (WZ-114)\n- Updated ModsListAPI to 1.7.9\n- Updated OpenWG Gameface to 1.1.6",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -26226,7 +26311,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>This mod makes guns recoil faster and finish the cycle significantly faster compared to the vanilla client. The barrel returns to full length in roughly .25s compared to the vanilla values closer to 1 second.</p><p>Realistic Recoil will only work with my other mod (Enhanced 20pdrs) through an option present on Enhanced 20pdrs. Available at https://wgmods.net/6645</p><p>This mod IS compatible with FastestClassic's HRMOD gun sounds.</p><p>Client side only.</p>",
       "installationGuideHtml": "<p>Paste the .wotmod into your [mods] folder under the current patch</p>",
@@ -26237,6 +26322,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "v20",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Realistic_Recoil_v20.zip",
+          "updatedAt": "2026-09-04T07:40:11.564Z",
+          "sizeBytes": 175653,
+          "fileName": "Realistic_Recoil_v20.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added L11/L1A1 120mm guns historical recoil of .37m"
+        },
         {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "V19",
@@ -26289,9 +26384,9 @@
         }
       ],
       "latest": {
-        "fileName": "Realistic_Recoil_v19.zip",
-        "changeLog": "All D-25 guns now have their historical recoil length",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Realistic_Recoil_v20.zip",
+        "changeLog": "Added L11/L1A1 120mm guns historical recoil of .37m",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28221,17 +28316,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.931",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.2.931.zip",
-          "updatedAt": "2026-09-03T14:24:19.749Z",
-          "sizeBytes": 1421676171,
-          "fileName": "cleantanks.hd.part.2.931.zip",
+          "modVersion": "2.2.932",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.2.932.zip",
+          "updatedAt": "2026-09-04T11:33:45.228Z",
+          "sizeBytes": 1437134766,
+          "fileName": "cleantanks.hd.part.2.932.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.2.931.zip",
+        "fileName": "cleantanks.hd.part.2.932.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -28380,17 +28475,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.931",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.1.931.zip",
-          "updatedAt": "2026-09-03T14:22:36.230Z",
-          "sizeBytes": 1320645463,
-          "fileName": "cleantanks.hd.part.1.931.zip",
+          "modVersion": "2.2.932",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.1.932.zip",
+          "updatedAt": "2026-09-04T11:33:50.637Z",
+          "sizeBytes": 1321518463,
+          "fileName": "cleantanks.hd.part.1.932.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.1.931.zip",
+        "fileName": "cleantanks.hd.part.1.932.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -28416,17 +28511,17 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.931",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.sd.931.zip",
-          "updatedAt": "2026-09-03T14:23:14.733Z",
-          "sizeBytes": 1115189750,
-          "fileName": "cleantanks.sd.931.zip",
+          "modVersion": "2.2.932",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.sd.932.zip",
+          "updatedAt": "2026-09-04T11:33:48.013Z",
+          "sizeBytes": 1115191469,
+          "fileName": "cleantanks.sd.932.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.sd.931.zip",
+        "fileName": "cleantanks.sd.932.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -30797,7 +30892,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 3.9,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=I6F6BUIbAdU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/I6F6BUIbAdU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -32207,6 +32302,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Enhanced_20pdrs_2.9.zip",
+          "updatedAt": "2026-09-04T07:40:14.531Z",
+          "sizeBytes": 3262319,
+          "fileName": "Enhanced_20pdrs_2.9.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated to Realistic Recoil v20"
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Enhanced_20pdrs_2.8_0c1UBLV.zip",
@@ -32258,9 +32363,9 @@
         }
       ],
       "latest": {
-        "fileName": "Enhanced_20pdrs_2.8_0c1UBLV.zip",
-        "changeLog": "Updated to newest version of Realistic Recoil",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Enhanced_20pdrs_2.9.zip",
+        "changeLog": "Updated to Realistic Recoil v20",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44611,7 +44716,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4,
       "descriptionHtml": "<p><strong>ENGLISH</strong><br><strong>1D6 XVM MODPACK</strong> is a minimalist preconfigured pack containing the most “useful” mods. It is well for players who want to install only the essentials. An automatic installer takes care of everything and a modpack version checker will alert you in game when new version is available.<br>Pack complies with WG Fair Policy Rules.</p><p><strong>English Support</strong> and <strong>Updates</strong> available first on the<strong> 1D6 Modpack Discord :</strong> <a href=\"https://discord.gg/Bm6wnnjZa4\">Link</a></p><p><strong>FRANÇAIS</strong><br><strong>1D6 XVM MODPACK</strong> est un pack minimaliste pré-configuré regroupant les mods les plus “utiles”. Il s’adresse ainsi aux joueurs souhaitant installer l’essentiel simplement. Un installeur automatique s’occupe de tout et un vérificateur de version intégré au jeu se chargera de vous alerter en cas de nouvelle version.<br>Le pack est conforme à la politique de Fair Play WG.</p><p><strong>Support Français</strong> et <strong>Mises à jour</strong> disponibles en premier sur le serveur <strong>Discord 1D6 Modpack :</strong> <a href=\"https://discord.gg/Bm6wnnjZa4\">Lien</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ddd8uV3kUMQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ddd8uV3kUMQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>1) Run Installer<br>2) Choose folder where World of Tanks is installed<br>3) Choose your features and mods<br>4) Click Next and Install</p>",
@@ -44621,6 +44726,16 @@
         "12"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4.0A",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1D6_XVM_ModPack_2.4.0a.exe",
+          "updatedAt": "2026-09-04T07:42:28.023Z",
+          "sizeBytes": 96874212,
+          "fileName": "1D6_XVM_ModPack_2.4.0a.exe",
+          "fileExt": ".exe",
+          "changeLog": "03 september 2026 - UPDATE 2.4.0a\nCompatible Wot 2.4.0.0\n- Update XVM 13.1.0.0085\n- Update Battle Assistant 2.6.2\n- Update PMOD 1.81.13\n- Update Crosshairs\n- Update various mods"
+        },
         {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "2.3.1D",
@@ -44673,9 +44788,9 @@
         }
       ],
       "latest": {
-        "fileName": "1D6_XVM_ModPack_2.3.1d.exe",
-        "changeLog": "21 august 2026 - UPDATE 2.3.1d\nCompatible Wot 2.3.1.3\n- Update XVM 13.1.0.0065\n- Update Battle Assistant 2.6.2\n",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "1D6_XVM_ModPack_2.4.0a.exe",
+        "changeLog": "03 september 2026 - UPDATE 2.4.0a\nCompatible Wot 2.4.0.0\n- Update XVM 13.1.0.0085\n- Update Battle Assistant 2.6.2\n- Update PMOD 1.81.13\n- Update Crosshairs\n- Update various mods",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
