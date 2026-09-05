@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.014",
+  "catalogVersion": "v2026.09.015",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7898",
+      "title": "Cinematic Freecam - Training Room | Replay | Hangar",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToResMods",
+        "installableByApp": true,
+        "decisionReason": "Guide targets the versioned res_mods folder directly and the package is not an archive.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7886",
