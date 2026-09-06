@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.016",
+  "catalogVersion": "v2026.09.017",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7899",
+      "title": "skorpion to waffen",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "res_mods/2.4.0.0/vehicles/german"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive package but guide targets custom subpath res_mods/<version>/vehicles/german, not the versioned res_mods folder itself.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7894",
+      "title": "Skin 3D_437_ with authentic Leopard camouflage_for the Leopard 120 Verbessert",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Installing the mod: Close the game: Extract the ‘wotmod’ file from the zip file, Copy and paste the wotmod file you have downloaded into the ‘mods’ folder; this folder is usually located at C:\\Games\\World_of_Tanks_EU\\mods, or on the drive where you have installed the game. This mod should work correctly regardless of the patch version. I hope you like it and enjoy it"
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Archive package mentions copying extracted .wotmod to a generic mods folder without a clear versioned mods/<version> target or clear game-root extraction.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7898",
@@ -749,21 +779,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7824",
-      "title": "PZ-IV-H <RESKIN>",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
