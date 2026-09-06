@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.017",
-  "sourceHash": "ac55c268a4f85e03c630e7d05e7a32e3442665c4dbb79f0c420e031188e3838d",
+  "catalogVersion": "v2026.09.018",
+  "sourceHash": "83275921b11fdf118538b4a43e9989b3398a0e0adc52494f7084cabc22608033",
   "sources": [
     "wgmods",
     "modhub"
@@ -2043,8 +2043,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p>## Version and compatibility<br>&nbsp;</p><p>- Version: 1.0.12</p><p>- Tested game version: 2.4.0.0</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: `aslain.modmenu` and `aslain.modssettingsbridge`<br>&nbsp;</p><p>## Features<br>&nbsp;</p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p>## Links<br>&nbsp;</p><p>- [Latest release](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/tag/v1.0.12)</p><p>The [full package](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.12/hangar_carousel_classic_1.0.12_full.zip) includes HCC, OpenWG Gameface, and ModsSettingsAPI. Extract it into the World of Tanks installation directory.<br>(ModsSettingsAPI is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without it.)<br><br>- [Technical documentation](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md)</p><p>- [Issue tracker](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues)</p>",
-      "installationGuideHtml": "<p><strong># Installation</strong><br>&nbsp;</p><p>World of Tanks `2.4.0.0` or a compatible client is required. `net.openwg.gameface` is required for the carousel.<br>&nbsp;</p><p><strong>## Full package (recommended)</strong><br>&nbsp;</p><p>[Download the ZIP](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.12/hangar_carousel_classic_1.0.12_full.zip) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.0/`.<br>&nbsp;</p><p><strong>## HCC only</strong><br>&nbsp;</p><p>[Download the WOTMOD](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.12/mod_hangar_carousel_classic_1.0.12.wotmod) and copy it to `mods/2.4.0.0/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](https://gitlab.com/openwg/wot.gameface/-/releases).<br>&nbsp;</p><p>Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel.</p>",
+      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p><strong>Version and compatibility</strong></p><p>- Version: 1.0.16</p><p>- Tested game version: 2.4.0.0</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: `aslain.modmenu` and `aslain.modssettingsbridge`<br>&nbsp;</p><p><strong>Features</strong></p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p><strong>Links</strong><br><br><i>*Version Update Notice*</i><br><br>GitHub updates are published first. WGMods may temporarily show an older version while the update awaits review and approval. For the latest version, please check the GitHub:</p><ul><li>[Latest release:] (<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest</a>)</li></ul><p>- Choose either the standalone WOTMOD download or the full package, which includes the HCC mod itself, OpenWG Gameface, and Modmenu. Extract it into the World of Tanks installation directory.(Modmenu is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without Mod Menu, but the GameFace mod is required.)<br><br>- [Technical documentation](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md</a>)</p><p>- [Issue tracker](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues</a>)</p>",
+      "installationGuideHtml": "<p><strong>Installation</strong></p><p>World of Tanks `2.4.0.0` or a compatible client is required. `net.openwg.gameface` is required for the carousel.<br>&nbsp;</p><p><strong>Full package (recommended)</strong></p><p>[Download the ZIP -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.16/hangar_carousel_classic_1.0.16_full.zip\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.16/hangar_carousel_classic_1.0.16_full.zip</a>) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.0/`.<br>&nbsp;</p><p><strong>HCC only</strong></p><p>[Download the WOTMOD -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.13/mod_hangar_carousel_classic_1.0.13.wotmod\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.16/mod_hangar_carousel_classic_1.0.16.wotmod</a>) and copy it to `mods/2.4.0.0/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](<a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\">https://gitlab.com/openwg/wot.gameface/-/releases</a>).</p><p>Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_logo_TKJ5yrr.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7798/",
       "tagIds": [
@@ -4961,7 +4961,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.1,
+      "mark": 4,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -10238,7 +10238,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.8,
       "descriptionHtml": "<p>For questions or mod support join the <a href=\"https://discord.gg/PrzqyneRXv\">discord server</a>.</p><p>If you want to support me: <a href=\"https://ko-fi.com/pademinune\">https://ko-fi.com/pademinune</a></p><p><i>Please ensure your in game reticle has an armor pen indicator. The numbers will not display without it</i></p><h2>Overview</h2><p>This mod displays the exact effective armor value, penetration probability, and angle of a tank you are aiming at.</p><blockquote><p><i>How is this different from other effective armor mods found in modpacks?</i></p></blockquote><p>1. They don't compute and display the exact probability of penetrating.</p><ul><li>You would have to estimate this in the moment based on your shell's penetration and their armor.</li><li>This wastes crucial time and is very innacurate (especially since the distribution is not uniform).</li></ul><p>2. This mod has more features and receives regular updates.</p><ul><li>If a WOT update modifies the client code in such a way that breaks these mods, this mod will be updated quickly.</li></ul><blockquote><p><i>What is the best way to use this mod?</i></p></blockquote><p>Sometimes in battles, it is better to save your shot rather than taking a chance on an orange pen indicator. If you try to pen when you have a 20% chance, you will likely bounce and take a shot in return for nothing. Instead, it may be better to save your shot for a few seconds until you get a better opportunity.</p><p>Also, when aiming at a well armored tank, with this mod you can find the optimal spot to shoot that will maximize your chance of penning.</p><h2>Features</h2><ul><li>Displays the exact effective armor value following game mechanics<ul><li>Shell-specific normalization</li><li>Ricochet angles</li><li>Gun caliber overmatching</li><li>Spaced armor</li><li>HEAT shell dissipation through spaced armor</li></ul></li><li>Computes and displays probability of penetration</li><li>Computes and displays probability of killing a low hp tank<ul><li>Takes into account their armor and hp</li></ul></li><li>Displays the exact armor angle so that you know when to change angles to turn a ricochet into a pen</li><li>Great performance since the mod uses calculations already done by the game</li><li>Customize the mod to your liking by changing the settings</li></ul><h2>Config</h2><p>There is a settings gui for the config you can edit in the garage.</p>",
       "installationGuideHtml": "<ol><li>Download unzip-me.zip.</li><li>Put the zip file in your mods/x.x.x.x/ folder found in your local World of Tanks installation folder.</li><li>Unzip and extract the .wotmod files into that folder.</li><li>Launch World of Tanks and the labels will appear when looking at an enemy tank.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/armor-pen-aislain_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -25184,16 +25184,6 @@
           "fileName": "wotinspector.com.heatmaps.1.0.2.wotmod.zip",
           "fileExt": ".zip",
           "changeLog": "minor optimizations"
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.heatmaps.1.0.1.wotmod.zip",
-          "updatedAt": "2026-08-19T15:11:12.357Z",
-          "sizeBytes": 3920749,
-          "fileName": "wotinspector.com.heatmaps.1.0.1.wotmod.zip",
-          "fileExt": ".zip",
-          "changeLog": "dynamically display top damage and spotting positions so mid game points don't appear in the early game."
         }
       ],
       "latest": {
@@ -45936,6 +45926,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_06.exe",
+          "updatedAt": "2026-09-06T18:22:26.340Z",
+          "sizeBytes": 63157846,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_06.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Mod Menu 2.0.8\n- Updated Colored Damage Stickers by Hyster (fix for the low gfx setting)\n- Updated Armor Calculator Pro (shot result calculations reworked, now with an estimated penetration chance based on the game's own dispersion, distance and armour layers; armour info shows again in every supported crosshair view and in replays; added Chinese, Czech, Ukrainian, Japanese, Korean, Thai and Vietnamese)\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "05",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_05.exe",
           "updatedAt": "2026-09-05T17:12:39.972Z",
@@ -45943,61 +45943,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_05.exe",
           "fileExt": ".exe",
           "changeLog": "- Updated Vehicle Reskin Renamer\n- Updated Clean Camo\n- Updated SpotMeter\n- Updated Tomato.gg\n- Updated WoT Tweaks (all options now work with the new 2.4 effects, added descriptions)\n- Updated Dispersion Reticle by Pruszko\n- Updated Mod Menu 2.0.7 (new Auto mode for option columns, each mod as its author laid it out; larger text no longer breaks the controls; reset no longer shows a change you never made)\n- Added Centered minimap (by Gravity_Assist)\n- Added Colored Damage Stickers by Hyster (v1 and v2 CB)\n- Re-added iyouxin's mod\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_04.exe",
-          "updatedAt": "2026-09-03T23:24:04.251Z",
-          "sizeBytes": 61691751,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_04.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Mod Menu 2.0.6 (dialog window scale fix) \n- Re-added The Old Battle Results Windows\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_03.exe",
-          "updatedAt": "2026-09-03T17:48:21.968Z",
-          "sizeBytes": 61690225,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated contour icons: man1aq\n- Updated Pre-2.4 Gun Sounds\n- Updated Clean Camo\n- Updated Minimap images: YaYa tactical\n- Updated Camo Selector (improved depot handling)\n- Updated Mod Menu 2.0.4 (added hover a mod in the list to see its tooltip)\n- Updated Distance Marker (safeguard for crashes during battle exit caused by other mods errors)\n- Removed outdated mod: War Mod Engine Sounds (muted gun sounds), Colored Damage Stickers, Serial Number Changer\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
-          "updatedAt": "2026-09-02T22:29:30.509Z",
-          "sizeBytes": 62264803,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_02_aqQPwNl.exe",
-          "fileExt": ".exe",
-          "changeLog": "Updated crosshair: Standard+ (fix No HUD)\nUpdated contour icons: GolKosh\nUpdated Crucible Progress Overlay\nUpdated WOTInspector Heatmaps (fix game loading crash in some mod combinations)\nUpdated Hitzone skins: Esthete (smart)\nUpdated Research Progress Bar by Zanju\nUpdated Vehicle Stat Inspector (expanded stats and faster tier 11 sandbox)\nRe-Added In Battle Efficiency Calculator by ProTanki\nRe-Added crosshair aim circle: More Visible\nRe-Added Repairs by Protanki"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_01.exe",
-          "updatedAt": "2026-09-02T15:49:51.896Z",
-          "sizeBytes": 61635414,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated x5 XP Multiplier Counter by OldSkool\n- Updated contour icons: man1aq\n- Updated Little Helper Collection (proper)\n- Updated Armor Inspector Wotinspector\n- Updated Average Damage Log\n- Updated Mod Menu 2.0.3 (fix for utf8 in a path)\n- Fixed Custom UI Scale installer radio button (was forced accidentaly)\n- Removed outdated mods: iyouxin's mod (breaks mouse controls in battle), Repairs by Protanki (game won't load), The Old Battle Results Windows (errors in logs), Reload Time\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "00",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_00.exe",
-          "updatedAt": "2026-09-02T14:07:52.461Z",
-          "sizeBytes": 62589426,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_00.exe",
-          "fileExt": ".exe",
-          "changeLog": "- initial compatibility with WoT 2.4.0.0\n...\n- Added Marks of Excellence Extended\n- Added Pre-2.4 Gun Sounds (by Gravity_Assist)\n- Added Mod Menu (by Aslain), replacing the enhanced mods settings menu - the mod settings window rewritten for Gameface\n- Every mod that used the old settings menu now ships with the new one (mods by other authors that register with an older menu still appear in this window through the bridge)\n- Removed outdated mods: TessuMod, few crosshairs, Annoying Features Remover, Aiming timer, In Battle Efficiency Calculator by ProTanki\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_05.exe",
-        "changeLog": "- Updated Vehicle Reskin Renamer\n- Updated Clean Camo\n- Updated SpotMeter\n- Updated Tomato.gg\n- Updated WoT Tweaks (all options now work with the new 2.4 effects, added descriptions)\n- Updated Dispersion Reticle by Pruszko\n- Updated Mod Menu 2.0.7 (new Auto mode for option columns, each mod as its author laid it out; larger text no longer breaks the controls; reset no longer shows a change you never made)\n- Added Centered minimap (by Gravity_Assist)\n- Added Colored Damage Stickers by Hyster (v1 and v2 CB)\n- Re-added iyouxin's mod\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_06.exe",
+        "changeLog": "- Updated Mod Menu 2.0.8\n- Updated Colored Damage Stickers by Hyster (fix for the low gfx setting)\n- Updated Armor Calculator Pro (shot result calculations reworked, now with an estimated penetration chance based on the game's own dispersion, distance and armour layers; armour info shows again in every supported crosshair view and in replays; added Chinese, Czech, Ukrainian, Japanese, Korean, Thai and Vietnamese)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
