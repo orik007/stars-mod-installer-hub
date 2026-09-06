@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.015",
+  "catalogVersion": "v2026.09.016",
   "mods": [
     {
       "source": "wgmods",
@@ -698,12 +698,12 @@
       "title": "Hangar Carousel Classic",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Installation - World of Tanks `2.3.1.3` or a compatible client is required. - `net.openwg.gameface` is required for the carousel interface. - ModsSettingsAPI is optional. ## Full package (recommended) - Download [hangar_carousel_classic_1.0.10_full.zip](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/hangar_carousel_classic_1.0.10_full.zip), then extract it into the World of Tanks installation directory in `mods/2.3.1.3/`. - It includes HCC, OpenWG Gameface, and ModsSettingsAPI. ## HCC only - Download [mod_hangar_carousel_classic_1.0.10.wotmod](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.10/mod_hangar_carousel_classic_1.0.10.wotmod) and copy it to `mods/2.3.1.3/`. - Install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](https://gitlab.com/openwg/wot.gameface/-/releases). - Without ModsSettingsAPI, HCC remains functional through the native carousel panel."
+        "latestInstallGuide": "# Installation World of Tanks `2.4.0.0` or a compatible client is required. `net.openwg.gameface` is required for the carousel. ## Full package (recommended) [Download the ZIP](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.12/hangar_carousel_classic_1.0.12_full.zip) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.0/`. ## HCC only [Download the WOTMOD](https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.12/mod_hangar_carousel_classic_1.0.12.wotmod) and copy it to `mods/2.4.0.0/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](https://gitlab.com/openwg/wot.gameface/-/releases). Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide provides a supported full-package install to mods/<version>; dependency notes are non-blocking.",
+        "decisionReason": "Archive package and guide's full package instructions say to extract it into the WoT root directory.",
         "deleteDataWgpdc": false
       }
     },
