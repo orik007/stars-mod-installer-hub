@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.09.020",
-  "sourceHash": "3594620f7e0f62899b77b66b0f1bc6795ad7429eaae41825b2f158a16de38d41",
+  "catalogVersion": "v2026.09.021",
+  "sourceHash": "045108d8d2d5c1ab38db20766a4f7d91e2ea5434af2b4e64ef4f90dff42a9587",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7895",
+      "title": "Numeric Sensitivity Settings",
+      "ownerUsername": "ChesterMent",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod adds numeric mouse sensitivity settings directly to the standard World of Tanks settings menu.</p><p>Numeric input fields are added below the sensitivity sliders in “Settings → Controls”. Each field shows the exact sensitivity value with up to 6 decimal places and allows you to enter a value manually instead of trying to set it precisely with the slider.</p><p>Numeric input is available for:<br>• Arcade Aim<br>• Sniper Aim<br>• Artillery Aim<br>• Trajectory View<br>• Free Camera</p><p>The numeric fields and standard sliders work together: moving a slider updates the displayed value, while entering a value manually changes the corresponding sensitivity setting.</p><p>The mod does not add a separate settings menu and does not require editing preferences.xml — everything is configured directly in the standard game settings.</p><p>Useful if you want to set an exact sensitivity value or transfer your sensitivity settings without trying to match them manually with the sliders.</p>",
+      "installationGuideHtml": "<p>1. Download the mod file.</p><p>2. Place the .wotmod file into:</p><p>World_of_Tanks_EU/mods/2.X.X/</p><p>3. Launch World of Tanks.</p><p>4. Open:Settings → Controls → Mouse → Sensitivity.</p><p>Numeric input fields will appear below the standard sensitivity sliders.</p><p>To uninstall the mod, remove the .wotmod file from the mods/2.X.X/ folder.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/screenshot.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7895/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/chester.numeric_sensitivity_1.0.1.wotmod",
+          "updatedAt": "2026-09-07T19:20:40.558Z",
+          "sizeBytes": 6593610,
+          "fileName": "chester.numeric_sensitivity_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "chester.numeric_sensitivity_1.0.1.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7899",
@@ -1251,7 +1288,7 @@
       "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance</li><li>Fewer labels to reduce clutter</li></ol><h2>settings</h2><p>To change the settings, I recommend using <a href=\"https://github.com/Aslain/modmenu\">modmenu </a>by Aslain.</p><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
-      "installationGuideHtml": "<p>&nbsp;</p>",
+      "installationGuideHtml": "<ol><li>Unzip the zip file</li><li>Place the 2 .wotmod files in your mods/&lt;version&gt; folder.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-08-16_21-42-30-cropped.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7846/",
       "tagIds": [
@@ -1259,6 +1296,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-pademinune-AP_Calculator-2.1.0.zip",
+          "updatedAt": "2026-09-07T20:26:46.171Z",
+          "sizeBytes": 570616,
+          "fileName": "UNZIP-pademinune-AP_Calculator-2.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Added gradient colors (can be disabled in settings)\n- Improved config handling (like vscode)"
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.0.2",
@@ -1311,8 +1358,8 @@
         }
       ],
       "latest": {
-        "fileName": "UNZIP-pademinune-AP_Calculator-2.0.2_YaMYLnI.zip",
-        "changeLog": "bump",
+        "fileName": "UNZIP-pademinune-AP_Calculator-2.1.0.zip",
+        "changeLog": "- Added gradient colors (can be disabled in settings)\n- Improved config handling (like vscode)",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3316,6 +3363,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.7.exe",
+          "updatedAt": "2026-09-07T20:33:07.852Z",
+          "sizeBytes": 508923866,
+          "fileName": "BOBRKRW_ModPack_1.0.7.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BOBRKRW_ModPack_1.0.1_Portable_WoT_2.3.1.3.exe",
@@ -3347,9 +3404,9 @@
         }
       ],
       "latest": {
-        "fileName": "BOBRKRW_ModPack_1.0.2.rar",
+        "fileName": "BOBRKRW_ModPack_1.0.7.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4300,8 +4357,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 3.4,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>🛡️ <strong>Crucible Progress Overlay</strong> shows your active Crucible mission status directly on-screen, both in the hangar and during battle.</p><p>Features:</p><p>✅ Shows active Crucible difficulty: <strong>Fighter, Elite, or Ace</strong><br>✅ Shows current mission name and stage<br>✅ Displays remaining shields as clear dots<br>✅ Shows the current mission condition<br>✅ Draggable overlay with saved position<br>✅ Separate positions for hangar and battle<br>✅ Full and compact display modes<br>✅ Automatically updates when you change or restart a Crucible mission</p><p>The shield dots make it easy to see how many attempts you have left before the Crucible fails, without needing to open the mission screen.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-17_135441636.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -5019,16 +5076,6 @@
           "updatedAt": "2026-07-16T14:36:14.894Z",
           "sizeBytes": 165959153,
           "fileName": "BizzordModapack_2_ElJxk0M.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BizzordModpack.exe",
-          "updatedAt": "2026-07-03T12:03:10.140Z",
-          "sizeBytes": 155226777,
-          "fileName": "BizzordModpack.exe",
           "fileExt": ".exe",
           "changeLog": ""
         }
@@ -9434,8 +9481,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 3.8,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod displays a simple overlay in battle when pressing the Alt key that shows the loading cycles when playing an autoreloader and displays the fastest loading shell, the overlay can be dragged by pressing the Alt + Control key and then dragging it.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-02_000229573.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -10021,8 +10068,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Realtime Dispersion &amp; Aim Time Remaining / 实时精度与剩余缩圈时间</h2><p><strong>Repository:</strong> https://github.com/Caph-dev/Realtime-Dispersion-Aim-Time-Remaining</p><p>Always visit my github to access &nbsp;the latest version. (Latest version: 1.1.4)</p><h2>Description / 简介</h2><p>A World of Tanks client mod that draws <strong>two lines near the crosshair: realtime gun dispersion and aim time remaining (seconds)</strong>. It works with ModSettingsAPI (optional), and stores settings in JSON under mods/configs/RealtimeDispersion&amp;AimTimeRemaining/config.json.&nbsp;</p><p>本模组在准星附近显示两行文字：<strong>实时火炮散布与剩余缩圈时间（秒）</strong>。可选接入 ModSettingsAPI，配置保存在 mods/configs/RealtimeDispersion&amp;AimTimeRemaining/config.json。</p><h2>License / 许可证</h2><p>This program is free software: you can redistribute it and/or modify it under the terms of the <strong>GNU General Public License v3.0</strong> as published by the Free Software Foundation. See the [LICENSE](LICENSE) file.</p><p>本程序为自由软件：您可以在遵循 <strong>GNU 通用公共许可证第 3 版（GPL-3.0）</strong> 的前提下再发布和/或修改。完整条款见仓库根目录的 [LICENSE](LICENSE)。</p><p><strong>Copyright (C) 2026 Walaxy</strong> <a href=\"mailto:wlx0414@foxmail.com\">wlx0414@foxmail.com</a></p><h2>Reference / 参考</h2><p>Implementation draws on ideas from <a href=\"https://github.com/Archie-osu/true-server-reticle\">true-server-reticle</a> for live dispersion and aim-time behavior.</p><p>Decompiled client reference for API changes: <a href=\"https://github.com/izeberg/wot-src\">izeberg/wot-src</a> (EU branch).</p>",
-      "installationGuideHtml": "<h2>Usage / 使用方法</h2><p>Install / 安装</p><p>Copy wotmod file into your game folder: <strong>mods/&lt;game_version&gt;/</strong><br>将 wotmod 文件复制到游戏目录下的 <strong>mods/&lt;游戏版本号&gt;/</strong></p><p>Usage / 用法</p><p><strong>Hold CTRL and use mouse to drag the text to change its position.</strong></p><p><strong>按住 CTRL 键用鼠标左键拖动文本来改变位置.</strong></p><p>Use modssettings interface to change parameters.</p><p>使用modssettings界面来更改参数.</p><p><strong>!!! It occurs sometimes that the position of HUD may not be saved. I HAVE FIXED this in Version 1.1.2.(visit my github to access &nbsp;the latest version).</strong></p><p><strong>!!! 有时 HUD 的位置可能无法保存。我已经在 1.1.2 版本中修复了这个问题。（访问我的 GitHub 以获取最新版本。）</strong></p>",
+      "descriptionHtml": "<h2>Realtime Dispersion &amp; Aim Time Remaining / 实时精度与剩余缩圈时间</h2><p><strong>Repository:</strong> https://github.com/Caph-dev/Realtime-Dispersion-Aim-Time-Remaining</p><p>Always visit my github to access &nbsp;the latest version. (Latest mod version: 1.1.5)</p><h2>Description / 简介</h2><p>A World of Tanks client mod that draws <strong>two lines near the crosshair: realtime gun dispersion and aim time remaining (seconds)</strong>. It works with ModSettingsAPI (optional), and stores settings in JSON under mods/configs/RealtimeDispersion&amp;AimTimeRemaining/config.json.&nbsp;</p><p>本模组在准星附近显示两行文字：<strong>实时火炮散布与剩余缩圈时间（秒）</strong>。可选接入 ModSettingsAPI，配置保存在 mods/configs/RealtimeDispersion&amp;AimTimeRemaining/config.json。</p><h2>License / 许可证</h2><p>This program is free software: you can redistribute it and/or modify it under the terms of the <strong>GNU General Public License v3.0</strong> as published by the Free Software Foundation. See the [LICENSE](LICENSE) file.</p><p>本程序为自由软件：您可以在遵循 <strong>GNU 通用公共许可证第 3 版（GPL-3.0）</strong> 的前提下再发布和/或修改。完整条款见仓库根目录的 [LICENSE](LICENSE)。</p><p><strong>Copyright (C) 2026 Walaxy</strong> <a href=\"mailto:wlx0414@foxmail.com\">wlx0414@foxmail.com</a></p><h2>Reference / 参考</h2><p>Implementation draws on ideas from <a href=\"https://github.com/Archie-osu/true-server-reticle\">true-server-reticle</a> for live dispersion and aim-time behavior.</p><p>Decompiled client reference for API changes: <a href=\"https://github.com/izeberg/wot-src\">izeberg/wot-src</a> (EU branch).</p>",
+      "installationGuideHtml": "<h2>Usage / 使用方法</h2><p>Install / 安装</p><p>Copy wotmod file into your game folder: <strong>mods/&lt;game_version&gt;/</strong><br>将 wotmod 文件复制到游戏目录下的 <strong>mods/&lt;游戏版本号&gt;/</strong></p><p>Usage / 用法</p><p><strong>Hold CTRL and use mouse to drag the text to change its position.</strong></p><p><strong>按住 CTRL 键用鼠标左键拖动文本来改变位置.</strong></p><p>Use modssettings interface to change parameters.</p><p>使用modssettings界面来更改参数.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_final_huXXJxY.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7612/",
       "tagIds": [
@@ -10742,7 +10789,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.3,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
