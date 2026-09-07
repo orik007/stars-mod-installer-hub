@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.020",
+  "catalogVersion": "v2026.09.021",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7895",
+      "title": "Numeric Sensitivity Settings",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Download the mod file. 2. Place the .wotmod file into: World_of_Tanks_EU/mods/2.X.X/ 3. Launch World of Tanks. 4. Open:Settings → Controls → Mouse → Sensitivity. Numeric input fields will appear below the standard sensitivity sliders. To uninstall the mod, remove the .wotmod file from the mods/2.X.X/ folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7899",
@@ -473,12 +488,12 @@
       "title": "Armor Penetration Calculator 2",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": ""
+        "latestInstallGuide": "Unzip the zip file Place the 2 .wotmod files in your mods/<version> folder."
       },
       "installationProcess": {
-        "installationTemplate": "Unknown",
-        "installableByApp": false,
-        "decisionReason": "Archive package but install guide is empty, so the target operation cannot be determined.",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to place the .wotmod files into mods/<version> with no blocking variant choice.",
         "deleteDataWgpdc": false
       }
     },
@@ -1102,13 +1117,13 @@
       "sourceId": "7769",
       "title": "BOBRKRW ModPack — Mod Pack for World of Tanks",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".exe",
         "latestInstallGuide": "1. Download and run `BOBRKRW_ModPack_1.0.0.exe`. 2. Close World of Tanks and Wargaming Game Center. 3. If necessary, switch the language using the `EN / UA` button at the top of the window. 4. Select the folder containing `WorldOfTanks.exe`. The installer normally detects it automatically. 5. Choose the required cleanup and maintenance options. A backup is created before old modifications are removed. 6. Open the modification selection page and choose the required components and variants. 7. Review the final settings and click “Install.” 8. Start World of Tanks after the installation is complete."
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
+        "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "Guide requires running an external installer with component and variant selection, cleanup options, and multi-step installer UI actions.",
+        "decisionReason": "Package is an .exe installer and the guide requires running installer UI steps and choosing components.",
         "deleteDataWgpdc": false
       }
     },
@@ -3083,12 +3098,12 @@
       "title": "Realtime Dispersion & Aim Time Remaining",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Usage / 使用方法 Install / 安装 Copy wotmod file into your game folder: mods/<game_version>/ 将 wotmod 文件复制到游戏目录下的 mods/<游戏版本号>/ Usage / 用法 Hold CTRL and use mouse to drag the text to change its position. 按住 CTRL 键用鼠标左键拖动文本来改变位置. Use modssettings interface to change parameters. 使用modssettings界面来更改参数. !!! It occurs sometimes that the position of HUD may not be saved. I HAVE FIXED this in Version 1.1.2.(visit my github to access the latest version). !!! 有时 HUD 的位置可能无法保存。我已经在 1.1.2 版本中修复了这个问题。（访问我的 GitHub 以获取最新版本。）"
+        "latestInstallGuide": "Usage / 使用方法 Install / 安装 Copy wotmod file into your game folder: mods/<game_version>/ 将 wotmod 文件复制到游戏目录下的 mods/<游戏版本号>/ Usage / 用法 Hold CTRL and use mouse to drag the text to change its position. 按住 CTRL 键用鼠标左键拖动文本来改变位置. Use modssettings interface to change parameters. 使用modssettings界面来更改参数."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is .zip (archive) and the guide directs copying the .wotmod into mods/<game_version>; extract archive and place resulting files into mods/<version>.",
+        "decisionReason": "Archive package and guide says to copy the .wotmod file into mods/<game_version>.",
         "deleteDataWgpdc": false
       }
     },
