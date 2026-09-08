@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.024",
-  "sourceHash": "aa402880d9bfe5258742e4fcf730e5d97467b2802e5e1faa5a577f26cc55dc50",
+  "catalogVersion": "v2026.09.025",
+  "sourceHash": "d41d006978585af48bd9590a74fad5d69bf6abbca32ecd24a3ebd6768451c226",
   "sources": [
     "wgmods",
     "modhub"
@@ -4479,42 +4479,6 @@
         "fileName": "Quotemine_Archer_Crew_Voices_zrgFK7N.wotmod",
         "changeLog": "Quotemine — Archer Crew Voices — v1.1\n\n* Retuned the start/end timing on ~60 lines: callouts no longer clip the first word or get cut off at the end, and a few that opened with dead air now fire promptly.\n* Removed two lines that didn't land well in battle.\n* No new events or content — same hookups as v1.0. Just drop in the new .wotmod and delete the old one.",
         "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7755",
-      "title": "Crucible Progress Overlay",
-      "ownerUsername": "Gravity_Assist",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": true,
-      "mark": 3.4,
-      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>🛡️ <strong>Crucible Progress Overlay</strong> shows your active Crucible mission status directly on-screen, both in the hangar and during battle.</p><p>Features:</p><p>✅ Shows active Crucible difficulty: <strong>Fighter, Elite, or Ace</strong><br>✅ Shows current mission name and stage<br>✅ Displays remaining shields as clear dots<br>✅ Shows the current mission condition<br>✅ Draggable overlay with saved position<br>✅ Separate positions for hangar and battle<br>✅ Full and compact display modes<br>✅ Automatically updates when you change or restart a Crucible mission</p><p>The shield dots make it easy to see how many attempts you have left before the Crucible fails, without needing to open the mission screen.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-17_135441636.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7755/",
-      "tagIds": [
-        "18"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
-          "updatedAt": "2026-09-02T20:31:59.340Z",
-          "sizeBytes": 218520,
-          "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fixed bugs that happened after 2.4.0.0"
-        }
-      ],
-      "latest": {
-        "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
-        "changeLog": "Fixed bugs that happened after 2.4.0.0",
-        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -13134,8 +13098,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Most of the time in the game, in my experience, when one of your teammates says to \"Fall back!\", they are doing it for selfish reasons. Because they don't want you in a bush that they wanted to be in, or they don't want you to get damage because they want to get that damage. This is really annoying.&nbsp;<br><br>This mod is made to address that problem. The first option in the mod is to merely silence the person who tells you to retreat. It will instantly silence them for the rest of that match, but not blacklist them. The second option in the mod is to silence them immediately + add them to your blacklist.&nbsp;<br><br>When another player is silenced, Mr. T will say, \"Be quiet fool!\"&nbsp;</p><p>Note: requires a garage mod settings UI handled by these files:&nbsp;<br>- izeberg.modssettingsapi_[latest version].wotmod&nbsp;<br>- me.poliroid.modslistapi_[latest version].wotmod&nbsp;<br>- net.openwg.gameface_[latest version].wotmod&nbsp;<br><br>If you have either Aslain or ProMod installed, you should have the necessary UI files. &nbsp;</p>",
-      "installationGuideHtml": "<p>Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\<strong>current version</strong>' folder on your PC.</p><p>Please report any bugs to loadfastermods@ gmail</p>",
+      "descriptionHtml": "<p>Most of the time in the game, in my experience, when one of your teammates says to \"Fall back!\", they are doing it for selfish reasons. Because they don't want you in a bush that they wanted to be in, or they don't want you to get damage because they want to get that damage. This is really annoying.&nbsp;<br><br>This mod is made to address that problem. The first option in the mod is to merely silence the person who tells you to retreat. It will instantly silence them for the rest of that match, but not blacklist them. The second option in the mod is to silence them immediately + add them to your blacklist.&nbsp;<br><br>When another player is silenced, Mr. T will say, \"Be quiet fool!\"&nbsp;</p>",
+      "installationGuideHtml": "<p>Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to choose whether to merely silence another player, or to silence them and blacklist them. Enjoy!</p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Mr_T_Be_Quiet_Fool_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7528/",
       "tagIds": [
@@ -13192,16 +13156,6 @@
           "fileName": "be_quiet_fool_1.0.1_NMOCjUr.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Reverted back to a single .wotmod file instead of a zip file. "
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/be_quiet_fool_1.0.1_with_loadfaster_core_ui.zip",
-          "updatedAt": "2026-06-12T16:17:10.668Z",
-          "sizeBytes": 70349,
-          "fileName": "be_quiet_fool_1.0.1_with_loadfaster_core_ui.zip",
-          "fileExt": ".zip",
-          "changeLog": "Improved compatibility with other mods with UIs. Added a LoadFaster mod core mod for the UIs. "
         }
       ],
       "latest": {
@@ -46059,6 +46013,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "08",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_08.exe",
+          "updatedAt": "2026-09-08T18:45:45.870Z",
+          "sizeBytes": 63476364,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_08.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Crew sounds: The Minions\n- Updated Armor Penetration Calculator v2\n- Updated Auto Equipment Return by Z4imon\n- Updated Camo Selector\n- Updated Research Progress Bar by Zanju\n- Updated Minimap images: High resolution, Tech (wotmod fix)\n- Re-added crosshairs: Strike, Wolfhund\n- Added Tier XI Ability Keybinds (by Gravity_Assist)\n- Fixed Zoom-out in Tactical view: 100m/200m\n- Removed: Crucible Progress Overlay (crashing the game), PTZ-78 Booster Rebind\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "07",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_07.exe",
           "updatedAt": "2026-09-07T10:15:29.893Z",
@@ -46066,31 +46030,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_07.exe",
           "fileExt": ".exe",
           "changeLog": "- Updated iyouxin's mod\n- Updated Battle Equipment\n- Updated Vehicle State\n- Updated Minimap images: High resolution, Tech\n- Updated The Skill4ltu Mod\n- Updated and moved WOTInspector Heatmaps to the minimap images branch (re-select if you're using it)\n- Re-added Serial Number Changer by Kurzdor\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "06",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_06.exe",
-          "updatedAt": "2026-09-06T18:22:26.340Z",
-          "sizeBytes": 63157846,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_06.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Mod Menu 2.0.8\n- Updated Colored Damage Stickers by Hyster (fix for the low gfx setting)\n- Updated Armor Calculator Pro (shot result calculations reworked, now with an estimated penetration chance based on the game's own dispersion, distance and armour layers; armour info shows again in every supported crosshair view and in replays; added Chinese, Czech, Ukrainian, Japanese, Korean, Thai and Vietnamese)\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "05",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.0_05.exe",
-          "updatedAt": "2026-09-05T17:12:39.972Z",
-          "sizeBytes": 63140553,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_05.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Vehicle Reskin Renamer\n- Updated Clean Camo\n- Updated SpotMeter\n- Updated Tomato.gg\n- Updated WoT Tweaks (all options now work with the new 2.4 effects, added descriptions)\n- Updated Dispersion Reticle by Pruszko\n- Updated Mod Menu 2.0.7 (new Auto mode for option columns, each mod as its author laid it out; larger text no longer breaks the controls; reset no longer shows a change you never made)\n- Added Centered minimap (by Gravity_Assist)\n- Added Colored Damage Stickers by Hyster (v1 and v2 CB)\n- Re-added iyouxin's mod\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_07.exe",
-        "changeLog": "- Updated iyouxin's mod\n- Updated Battle Equipment\n- Updated Vehicle State\n- Updated Minimap images: High resolution, Tech\n- Updated The Skill4ltu Mod\n- Updated and moved WOTInspector Heatmaps to the minimap images branch (re-select if you're using it)\n- Re-added Serial Number Changer by Kurzdor\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.0_08.exe",
+        "changeLog": "- Updated Crew sounds: The Minions\n- Updated Armor Penetration Calculator v2\n- Updated Auto Equipment Return by Z4imon\n- Updated Camo Selector\n- Updated Research Progress Bar by Zanju\n- Updated Minimap images: High resolution, Tech (wotmod fix)\n- Re-added crosshairs: Strike, Wolfhund\n- Added Tier XI Ability Keybinds (by Gravity_Assist)\n- Fixed Zoom-out in Tactical view: 100m/200m\n- Removed: Crucible Progress Overlay (crashing the game), PTZ-78 Booster Rebind\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
