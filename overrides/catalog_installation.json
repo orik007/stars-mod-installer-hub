@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.024",
+  "catalogVersion": "v2026.09.025",
   "mods": [
     {
       "source": "wgmods",
@@ -1454,21 +1454,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide targets mods/<game_version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7755",
-      "title": "Crucible Progress Overlay",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -3968,12 +3953,12 @@
       "title": "Be Quiet Fool!",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\ current version ' folder on your PC. Please report any bugs to loadfastermods@ gmail"
+        "latestInstallGuide": "Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to choose whether to merely silence another player, or to silence them and blacklist them. Enjoy! Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Guide requires running an included install script and provides no supported manual file-copy target.",
         "deleteDataWgpdc": false
       }
     },
