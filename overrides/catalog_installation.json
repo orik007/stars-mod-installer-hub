@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.023",
+  "catalogVersion": "v2026.09.024",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7867",
+      "title": "More functional Ares 90C",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the downloaded wotmod file into the ...\\Games\\World_of_Tanks_EU\\mods\\[version] folder. [version] must be the version of the game being used (the latest version), otherwise the mod will not work."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7896",
@@ -3938,12 +3953,12 @@
       "title": "Commander Selector",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download this .wotmod file and place it in the 'World_of_Tanks\\mods\\ current version' folder on your PC. Please report any bugs to loadfastermods@ gmail"
+        "latestInstallGuide": "Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to select the commander voices you would like to hear. Enjoy! Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Guide requires running install.cmd installer script rather than a supported direct file-copy operation.",
         "deleteDataWgpdc": false
       }
     },
