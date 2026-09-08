@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.022",
+  "catalogVersion": "v2026.09.023",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7896",
+      "title": "Assist Counter",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Copy the .wotmod file to: World_of_Tanks_EU/mods/<current game version>/ 3. Start or restart World of Tanks. The mod can be repositioned during battle by dragging it with the mouse, while its size can be adjusted in the garage settings. Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ ModsListAPI 1.7.9+"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>; dependency notes are non-blocking.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7905",
+      "title": "Tier XI Ability Keybinds",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7895",
@@ -4682,21 +4712,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7471",
-      "title": "PTZ-78 Booster Rebind",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) How to set the wanted key 1. Click on the modification icon in the bottom right. 2. Open Mod Configuration. 4. Click into the Field for the hotkey for the PTZ and click the key you want to use."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>; post-install configuration note is non-blocking.",
         "deleteDataWgpdc": false
       }
     },

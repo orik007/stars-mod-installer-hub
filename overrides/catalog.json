@@ -1,11 +1,85 @@
 {
-  "catalogVersion": "v2026.09.022",
-  "sourceHash": "3db508c42ed76581279253d71dfeb72a87b2417e5e6a9ba402c3e5aa0c61d3a4",
+  "catalogVersion": "v2026.09.023",
+  "sourceHash": "dab3f728e3b6fd9fc2a6c0a3bba86fceae6dc27c8ba667efa0e9987c6cea3ff8",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7896",
+      "title": "Assist Counter",
+      "ownerUsername": "piotr22c",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Assist Counter displays the current amount of assistance damage during battle.</p><p>It tracks spotting and tracking assistance and displays both values along with the total assistance damage in real time.</p><p>The mod can be repositioned during battle by dragging it with the mouse, while its size can be adjusted in the garage settings.</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.<br><br>2. Copy the .wotmod file to:&nbsp;<br>World_of_Tanks_EU/mods/&lt;current game version&gt;/</p><p>3. Start or restart World of Tanks.</p><p>The mod can be repositioned during battle by dragging it with the mouse, while its size can be adjusted in the garage settings.<br><br><strong>Requirements</strong></p><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.9+<br>&nbsp;</li></ul>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7896/",
+      "tagIds": [
+        "18",
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AssistCounter_1.0.0.zip",
+          "updatedAt": "2026-09-08T09:13:18.672Z",
+          "sizeBytes": 285115,
+          "fileName": "AssistCounter_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "AssistCounter_1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7905",
+      "title": "Tier XI Ability Keybinds",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>⌨️ <strong>Tier XI Ability Keybinds</strong> gives every manually activated Tier XI ability its own fully customizable control.</p><p>🎮 <strong>Individual Ability Controls</strong><br>• Assign a unique key to every supported ability<br>• Use simple keys or Alt, Ctrl, and Shift combinations<br>• Create a completely personalized control layout<br>• Change one ability without affecting the others</p><p>⚡ <strong>Supported Abilities</strong><br>• Pillbox Mode<br>• Rocket Launcher Mode<br>• Autoreloader Surge<br>• Concentration Mode<br>• Charge Shot<br>• Sight Pointer<br>• Staged Jet Boosters<br>• Rechargeable Nitro<br>• Stance Switching and Active Stance Ability<br>• Wheeled Dash<br>• Stationary Reload<br>• Propellant Afterburner<br>• Target Designator<br>• Support Weapon<br>• Shell Switching<br>• Bustle Feed</p><p>🚜 <strong>Vehicle-Specific Bindings</strong><br>Bindings activate only while controlling the corresponding Tier XI vehicle. Other vehicles retain their normal controls.</p><p>🔄 <strong>Automatic Restoration</strong><br>Original key mappings and displaced controls are restored when you leave the vehicle, disable the mod, or finish the battle.</p><p>🛡️ <strong>Conflict Protection</strong><br>Selected ability keys temporarily take priority over conflicting actions. Existing controls return automatically when the Tier XI binding is no longer active.</p><p>🎯 Build one consistent Tier XI control scheme—or give every special ability a completely unique key of its own.</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-09-08_132624900.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7905/",
+      "tagIds": [
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.tier_xi_ability_rebind.2.4.0.0.1.0.1.zip",
+          "updatedAt": "2026-09-08T09:10:29.239Z",
+          "sizeBytes": 139210,
+          "fileName": "gravity.tier_xi_ability_rebind.2.4.0.0.1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed keys showing the rebind but not using the rebind."
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.tier_xi_ability_rebind.2.4.0.0.1.0.1.zip",
+        "changeLog": "Fixed keys showing the rebind but not using the rebind.",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7895",
@@ -6147,16 +6221,6 @@
           "fileName": "Custix_ModPack_for_2.4.0.0_v3.6.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлено Custix ModPack з версії 3.5 до 3.6 (BattleStats оновлено до 1.2.1 — додано статистику в Onslaught; BattleHistory до 1.0.3 — виправлено назви режимів бою без очищення історії; SessionStats до 0.1.7 — покращено обробку помилок джерел WN8/WNX; UpdatedWindows до 1.9.37 — оновлено профілі, чати, меню ПКМ, список контактів, підказки та стартове меню взводу, використано штатні шрифти гри; збережено сумісність із World of Tanks 2.4.0.0). ---- [EN]: Updated Custix ModPack from version 3.5 to 3.6 (updated BattleStats to 1.2.1 with Onslaught statistics; BattleHistory to 1.0.3 with corrected battle-mode names without clearing history; SessionStats to 0.1.7 with better WN8/WNX provider error handling; UpdatedWindows to 1.9.37 with updated profiles, chats, right-click menus, Contacts, tooltips, platoon start menu, and native game fonts; retained World of Tanks 2.4.0.0 compatibility)."
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "3.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.4.0.0_v3.5.exe",
-          "updatedAt": "2026-09-03T09:42:10.844Z",
-          "sizeBytes": 10495266,
-          "fileName": "Custix_ModPack_for_2.4.0.0_v3.5.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлено Custix ModPack з версії 3.4 до 3.5 (оновлено BattleStats до 1.2.0 — додано оцінку кількості пострілів до знищення ворога; BattleHistory до 1.0.2 — покращено відновлення відкладених результатів; SessionStats до 0.1.6; UpdatedWindows до 1.9.1 — покращено оформлення й стабільність та додано сумісність контактів, чатів і запрошень із новим API гри; збережено автоматичне перемикання з MessageCenterFilter 0.5.1; додано підтримку World of Tanks 2.4.0.0). ---- [EN]: Updated Custix ModPack from version 3.4 to 3.5 (updated BattleStats to 1.2.0 with estimated shots to destroy an enemy; BattleHistory to 1.0.2 with improved delayed-result recovery; SessionStats to 0.1.6; UpdatedWindows to 1.9.1 with visual and stability improvements plus compatibility for Contacts, chats, and invitations with the new game API; preserved automatic switching with MessageCenterFilter 0.5.1; added support for World of Tanks 2.4.0.0)."
         }
       ],
       "latest": {
@@ -6225,18 +6289,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.0.2.4.1.wotmod",
-          "updatedAt": "2026-09-03T10:58:28.672Z",
-          "sizeBytes": 1145535,
-          "fileName": "gravity.camo_selector.2.4.0.0.2.4.1.wotmod",
+          "modVersion": "2.4.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.0.2.4.2.wotmod",
+          "updatedAt": "2026-09-08T09:46:06.555Z",
+          "sizeBytes": 1144640,
+          "fileName": "gravity.camo_selector.2.4.0.0.2.4.2.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Improved Depot handling."
+          "changeLog": "Minor Bugfix for Asia and China clients."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.0.0.2.4.1.wotmod",
-        "changeLog": "Improved Depot handling.",
+        "fileName": "gravity.camo_selector.2.4.0.0.2.4.2.wotmod",
+        "changeLog": "Minor Bugfix for Asia and China clients.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6612,7 +6676,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 4,
       "descriptionHtml": "<p>&nbsp;🇺🇦 INQ Pack — a convenient modpack for World of Tanks</p><p>Hello everyone! <strong>INQ Pack</strong> is a convenient modpack that brings together the essential and most useful mods for a comfortable gaming experience. All mods are neatly sorted into categories, with descriptions and previews, so it's easy to find exactly what you need.<br><br><a href=\"https://discord.gg/6aPQv2dwyA\"><strong>DISCORD&nbsp;</strong></a></p><p><strong>🔥 What's inside:</strong><br>✅ sights and combat utilities<br>✅ WN8, in-battle stats, marks of excellence and aces<br>✅ damage, HP, efficiency and spotting panels<br>✅ minimap mods and extra in-battle information<br>✅ PMOD and Pmod|Tweaker with separate settings<br>✅ garage mods, graphics, sound and system enhancements<br>✅ cache, mods, replays and old update cleanup before installation</p><p><strong>⚙️ Convenience:</strong><br>The installer lets you quickly select the mods you need, preview them, apply ready-made presets, and install everything without manually copying files.</p><p><strong>🔄 Auto-update:</strong><br>The pack checks for a new version on launch and asks whether to download the update. Nothing is downloaded without your confirmation.</p><p>💙 INQ Pack is built for players who want to quickly install the mods they need and comfortably customize their game.<br><br>The package includes English, so installation won't be a problem for you.</p>",
       "installationGuideHtml": "<p>Open the modpack and follow the instructions; it will automatically install everything you want.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ig_013532615b881c99016a1441842f748191a5421b24a7b64cd5.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -15842,43 +15906,6 @@
       ],
       "latest": {
         "fileName": "gravity.ebr_cruise_control.2.4.0.0.1.0.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7471",
-      "title": "PTZ-78 Booster Rebind",
-      "ownerUsername": "Gravity_Assist",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br><strong>What this mod does</strong></p><p>This mod forces the PTZ-78 staged jet boosters (special ability) to use <i>only </i>the key you choose, without affecting other tanks. When you enter battle in the PTZ-78, it temporarily remaps the <i>Special Ability</i> command to your configured key and updates the in-battle hotkey display to match. When you leave the PTZ-78, your original keybinds are restored.</p><p><strong>Notes</strong></p><p>- The mod only changes the PTZ-78 boosters key. Other vehicles keep your normal bindings.</p><p>- The mod also updates the in-battle hotkey UI to show the configured key while using PTZ-78 boosters.<br>&nbsp;</p>",
-      "installationGuideHtml": "<ol><li>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</li></ol><p><strong>How to set the wanted key</strong></p><p>1. Click on the modification icon in the bottom right.</p><p>2. Open Mod Configuration.</p><p>4. Click into the Field for the hotkey for the PTZ and click the key you want to use.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-03-05_162949102.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7471/",
-      "tagIds": [
-        "20",
-        "23"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.ptz_rebind.2.4.0.0.1.1.zip",
-          "updatedAt": "2026-09-01T09:44:25.261Z",
-          "sizeBytes": 459838,
-          "fileName": "gravity.ptz_rebind.2.4.0.0.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "gravity.ptz_rebind.2.4.0.0.1.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
