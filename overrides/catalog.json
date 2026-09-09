@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.09.025",
-  "sourceHash": "d41d006978585af48bd9590a74fad5d69bf6abbca32ecd24a3ebd6768451c226",
+  "catalogVersion": "v2026.09.026",
+  "sourceHash": "4054ec9f3df6cb116a61f7d933d2f27fdfbd20703df1121a1f47d204f5d15168",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7906",
+      "title": "简体中文图标（仿巨响）",
+      "ownerUsername": "O_onischan",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>参照巨响标准版的单独图标</p>",
+      "installationGuideHtml": "<p>参照巨响标准版的单独图标，但是不能单独使用呀。</p><p>现在WG不允许直接使用单独插件，来镜像图标。</p><p>所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装使用方法：</p><p>先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。</p><p>用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。</p><p>或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。</p><p>&nbsp;</p><p>--------------</p><p>这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。</p><p>&nbsp;</p><p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-09-08_214311.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7906/",
+      "tagIds": [
+        "14"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA_Icons.2.4.0.0.CN.zip",
+          "updatedAt": "2026-09-09T07:22:09.326Z",
+          "sizeBytes": 6102813,
+          "fileName": "ASMA_Icons.2.4.0.0.CN.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ASMA_Icons.2.4.0.0.CN.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7867",
@@ -514,6 +550,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/9.17.1_tank_models_1.0.4.wotmod",
+          "updatedAt": "2026-09-09T06:03:58.283Z",
+          "sizeBytes": 586937400,
+          "fileName": "9.17.1_tank_models_1.0.4.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "-Added new tank batch"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/9.17.1_tank_models_1.0.3.wotmod",
           "updatedAt": "2026-09-07T22:51:31.180Z",
@@ -554,7 +600,7 @@
         }
       ],
       "latest": {
-        "fileName": "9.17.1_tank_models_1.0.3.wotmod",
+        "fileName": "9.17.1_tank_models_1.0.4.wotmod",
         "changeLog": "-Added new tank batch",
         "wotGameVersionCompatibility": "safe"
       }
@@ -3485,8 +3531,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 3,
       "descriptionHtml": "<p>BOBRKRW ModPack is a convenient collection of modifications for World of Tanks with a graphical setup wizard. The mods are organized into clear categories, including crosshairs, battle panels, Garage features, interface improvements, statistics, XVM, voiceovers, textures, graphics, and other components.</p><p>The installer automatically detects the World of Tanks client, checks the supported game version, and copies only the selected components. Each mod includes a name, description, size, and an available preview. Before an old installation is cleaned, important files are backed up to the `mods_backup` folder.</p><p>The installer interface supports Ukrainian and English. Use the `EN / UA` button to switch languages without restarting the program or losing the selected settings. The collection also includes WOT Stats with player, vehicle, award, and clan statistics, as well as performance charts.</p><p>Modpack version: 1.0.0 &nbsp;<br>Supported World of Tanks version: 2.3.1.0</p>",
       "installationGuideHtml": "<p>1. Download and run `BOBRKRW_ModPack_1.0.0.exe`.<br>2. Close World of Tanks and Wargaming Game Center.<br>3. If necessary, switch the language using the `EN / UA` button at the top of the window.<br>4. Select the folder containing `WorldOfTanks.exe`. The installer normally detects it automatically.<br>5. Choose the required cleanup and maintenance options. A backup is created before old modifications are removed.<br>6. Open the modification selection page and choose the required components and variants.<br>7. Review the final settings and click “Install.”<br>8. Start World of Tanks after the installation is complete.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/01_start.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -4140,16 +4186,6 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "RELOAD 0.9",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ByForMOD_installer_9IV62I6_wSwJyfi_KpLxDlC.zip",
-          "updatedAt": "2026-09-06T10:56:15.193Z",
-          "sizeBytes": 24357129,
-          "fileName": "ByForMOD_installer_9IV62I6_wSwJyfi_KpLxDlC.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "Reload 0.9",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ByForMOD_installer_9IV62I6_wSwJyfi.zip",
@@ -4191,9 +4227,9 @@
         }
       ],
       "latest": {
-        "fileName": "ByForMOD_installer_9IV62I6_wSwJyfi_KpLxDlC.zip",
+        "fileName": "ByForMOD_installer_9IV62I6_wSwJyfi.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
+        "wotGameVersionCompatibility": "risky"
       }
     },
     {
@@ -5128,6 +5164,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "3.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Bizzord_Modpack_3.3.exe",
+          "updatedAt": "2026-09-09T07:21:26.381Z",
+          "sizeBytes": 142753289,
+          "fileName": "Bizzord_Modpack_3.3.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "2.14",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Bizzord_Modpack_3.0.exe",
           "updatedAt": "2026-09-03T09:27:21.242Z",
@@ -5178,7 +5224,7 @@
         }
       ],
       "latest": {
-        "fileName": "Bizzord_Modpack_3.0.exe",
+        "fileName": "Bizzord_Modpack_3.3.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -5230,7 +5276,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Easily create custom Marks of Excellence (Insignia), cap circles, damage stickers, carousel icons, and tech tree icons (which are also used for battle results). The application takes care of the entire process—from designing your assets to building a ready-to-use .wotmod file. Just copy the generated .wotmod into mods/{version}/ and you're ready to go.</p><p>The Tank Icon Builder is a more advanced feature and may take some practice to master.<br><br>Some test images are included, feel free to add your own.</p>",
       "installationGuideHtml": "<p>unzip to its own folder and run WoTModCreator.exe. no installation needed.<br>&nbsp;</p>",
@@ -5241,6 +5287,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "V5a",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Wot-Mod-Creator-v5a-portable-win-x64.zip",
+          "updatedAt": "2026-09-09T07:16:32.269Z",
+          "sizeBytes": 40593236,
+          "fileName": "Wot-Mod-Creator-v5a-portable-win-x64.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated  for new Damage Stickers."
+        },
         {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "V4",
@@ -5253,9 +5309,9 @@
         }
       ],
       "latest": {
-        "fileName": "Wot-Mod-Creator-v4-portable-win-x64_HnrLygu.zip",
-        "changeLog": "None",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Wot-Mod-Creator-v5a-portable-win-x64.zip",
+        "changeLog": "Updated  for new Damage Stickers.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5715,6 +5771,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.5.zip",
+          "updatedAt": "2026-09-09T07:14:21.329Z",
+          "sizeBytes": 373749,
+          "fileName": "Z4imon.tank_info_in_hangar_1.5.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added a different tank stat style. The style is now selectable over the settings."
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.4_y3oRhFN_s0oU6gf.zip",
           "updatedAt": "2026-09-02T06:44:31.100Z",
@@ -5725,8 +5791,8 @@
         }
       ],
       "latest": {
-        "fileName": "Z4imon.tank_info_in_hangar_1.4_y3oRhFN_s0oU6gf.zip",
-        "changeLog": "",
+        "fileName": "Z4imon.tank_info_in_hangar_1.5.zip",
+        "changeLog": "Added a different tank stat style. The style is now selectable over the settings.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6692,6 +6758,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "5.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer.exe",
+          "updatedAt": "2026-09-09T07:21:21.554Z",
+          "sizeBytes": 105426946,
+          "fileName": "INQ_Pack_Installer.exe",
+          "fileExt": ".exe",
+          "changeLog": "Оновлено ще деякі моди добавлено мод на засвіт , ангар сектор 3 "
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "5.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_f8s0HpB.exe",
           "updatedAt": "2026-09-05T13:20:23.279Z",
@@ -6742,8 +6818,8 @@
         }
       ],
       "latest": {
-        "fileName": "INQ_Pack_Installer_f8s0HpB.exe",
-        "changeLog": "Адаптовано деякі моди ",
+        "fileName": "INQ_Pack_Installer.exe",
+        "changeLog": "Оновлено ще деякі моди добавлено мод на засвіт , ангар сектор 3 ",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -10185,6 +10261,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RealtimeDispersionAimTimeRemaining-1.1.5.zip",
+          "updatedAt": "2026-09-09T06:38:49.031Z",
+          "sizeBytes": 491474,
+          "fileName": "RealtimeDispersionAimTimeRemaining-1.1.5.zip",
+          "fileExt": ".zip",
+          "changeLog": "Adapted to WoT 2.4.0.0"
+        },
+        {
           "wotGameVersion": "2.3.0.0",
           "modVersion": "1.1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RealtimeDispersionAimTimeRemaining-1.1.4_nzOx6IE.zip",
@@ -10236,9 +10322,9 @@
         }
       ],
       "latest": {
-        "fileName": "RealtimeDispersionAimTimeRemaining-1.1.4_nzOx6IE.zip",
-        "changeLog": "Adapted to version 2.3.0.0",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "RealtimeDispersionAimTimeRemaining-1.1.5.zip",
+        "changeLog": "Adapted to WoT 2.4.0.0",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10896,7 +10982,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.3,
+      "mark": 3.4,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -12847,7 +12933,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.7,
+      "mark": 3.8,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/NAGLEISHIY_MOD_IuWNHbB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -24120,27 +24206,27 @@
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4-V2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/More_visible_circle_with_pen_indicator-2.4-V2_OjGyQDD.7z",
+          "updatedAt": "2026-09-09T07:22:04.687Z",
+          "sizeBytes": 1222920,
+          "fileName": "More_visible_circle_with_pen_indicator-2.4-V2_OjGyQDD.7z",
+          "fileExt": ".7z",
+          "changeLog": "The wotmod version was missing in the zip file."
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4-V2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/More_visible_circle_with_pen_indicator-2.4-V2.7z",
           "updatedAt": "2026-09-03T09:27:11.933Z",
           "sizeBytes": 831084,
           "fileName": "More_visible_circle_with_pen_indicator-2.4-V2.7z",
           "fileExt": ".7z",
           "changeLog": "Compatibility with 2.4"
-        },
-        {
-          "wotGameVersion": "2.2.1.2",
-          "modVersion": "2.2.1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/More_visible_circle_with_pen_indicator-2.2.1.2_eJlk0iM.7z",
-          "updatedAt": "2026-05-02T17:16:42.347Z",
-          "sizeBytes": 1191436,
-          "fileName": "More_visible_circle_with_pen_indicator-2.2.1.2_eJlk0iM.7z",
-          "fileExt": ".7z",
-          "changeLog": "Compatibility with 2.2.1.2\nCompatibility with Gorilla"
         }
       ],
       "latest": {
-        "fileName": "More_visible_circle_with_pen_indicator-2.4-V2.7z",
-        "changeLog": "Compatibility with 2.4",
+        "fileName": "More_visible_circle_with_pen_indicator-2.4-V2_OjGyQDD.7z",
+        "changeLog": "The wotmod version was missing in the zip file.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -37750,7 +37836,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<ul><li>მოდში გამოყენებულია ფრაზები ქართული კინოფილმებიდან და არა მარტო.</li><li>The mod uses phrases from Georgian films and not only.</li></ul><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/7ER6sc6tJmU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/7ER6sc6tJmU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>არქივის შიგთავსი (ფაილი audioww) მოათავსეთ აქ: «World_of_Tanks \\ res_mods \\ აქტუალური ვერსია.</p><p>Place the contents of the archive (file audioww) here: «World_of_Tanks \\ res_mods \\ current version.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Capture_kOjRxay.PNG.302x170_q85_crop_detail_replace_alpha-white.jpg",

@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.025",
+  "catalogVersion": "v2026.09.026",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7906",
+      "title": "简体中文图标（仿巨响）",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "参照巨响标准版的单独图标，但是不能单独使用呀。 现在WG不允许直接使用单独插件，来镜像图标。 所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装使用方法： 先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。 用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。 或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。 -------------- 这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Guide targets a specific custom file path under res_mods/<version>/gui/flash/atlases and alternatively mentions Aslain_custom_mods, so it is not a supported single template.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7867",
