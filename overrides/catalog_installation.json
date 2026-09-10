@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.029",
+  "catalogVersion": "v2026.09.030",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7909",
+      "title": "XM-57 with crew",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod file there.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7903",
+      "title": "VLADWINNER Modpack",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close the game and the launcher. 2. Extract the archive, run WoT_Mods_Installer_1.0.9.exe. 3. Check the mods you need, click \"Next\" — the installer finds the game itself and installs everything (no folder selection needed). 4. On first run the game restarts itself once (OpenWG rebuilds res_map.json) — this is expected. Panels appear in battle. Uninstall: Windows Apps → VLADWINNER Modpack → Uninstall.3. ...installs everything. If several game copies exist on the PC, verify the install went to the right one (the path is shown in the install report)."
+      },
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires running an included installer executable with installer UI steps and no supported manual copy alternative.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7906",
@@ -2842,13 +2872,13 @@
       "sourceId": "7641",
       "title": "Challenges",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Move the downloaded file to the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion To use the new GUI (Gameface) it is necessary to have the gameface mod installed If you are using a modpack this should be installed automatically. The mod should be named like: net.openwg.gameface_x.x.x.wotmod Gameface might be in a subdirectory called like: net.openwg If you do not have the gameface mod and want to use the new GUI, you can get it from here: https://gitlab.com/openwg/wot.gameface/-/releases Download the .wotmod file from the link above and paste it into your mod folder: yourWoTInstallation/mods/currentGameVersion"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide tells to paste the .wotmod into yourWoTInstallation/mods/currentGameVersion.",
+        "decisionReason": "Archive package and guide points to mods/<version>; dependency note about Gameface is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -3517,13 +3547,13 @@
       "sourceId": "7575",
       "title": "Random Tank Picker",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Move the downloaded file to the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion To use the new GUI (Gameface) it is necessary to have the gameface mod installed If you are using a modpack this should be installed automatically. The mod should be named like: net.openwg.gameface_x.x.x.wotmod Gameface might be in a subdirectory called like: net.openwg If you do not have the gameface mod and want to use the new GUI, you can get it from here: https://gitlab.com/openwg/wot.gameface/-/releases Download the .wotmod file from the link above and paste it into your mod folder: yourWoTInstallation/mods/currentGameVersion"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs moving it to yourWoTInstallation/mods/currentGameVersion.",
+        "decisionReason": "Archive package and guide points to mods/<version>; dependency note about Gameface is non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -3967,13 +3997,13 @@
       "sourceId": "7528",
       "title": "Be Quiet Fool!",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to choose whether to merely silence another player, or to silence them and blacklist them. Enjoy! Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "Guide requires running an included install script and provides no supported manual file-copy target.",
+        "decisionReason": "Archive guide requires running an included install script and gives no supported manual file-copy target.",
         "deleteDataWgpdc": false
       }
     },
