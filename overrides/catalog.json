@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.028",
-  "sourceHash": "714a39a5a9cbd72b69e95cc765ad6c8742ba695f0e40672fe2af2cd716a3bc64",
+  "catalogVersion": "v2026.09.029",
+  "sourceHash": "d8e717ed60cd63d51ea2607d34671e0962a2ff8140891f8fb57a3c2e6e578058",
   "sources": [
     "wgmods",
     "modhub"
@@ -1240,8 +1240,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Makes railway flat wagons more visible to prevent collisions.</p>",
-      "installationGuideHtml": "<p>Copy downloaded file “webium.Railway.wotmod” to /mods/2.3.1.2/ folder</p>",
+      "descriptionHtml": "<p>Повышает видимость железнодорожных платформ, предотвращая столкновения.</p>",
+      "installationGuideHtml": "<p>Скопируйте загруженный файл “webium.Railway.wotmod” в папку /mods/2.3.1.2/</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/3_f4RG5pl.png.1600x0_q85_crop_detail_replace_alpha-white_zQyNDMm.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7851/",
       "tagIds": [
@@ -1251,20 +1251,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.3",
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "0.9.23.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/webium.Railway.wotmod",
-          "updatedAt": "2026-08-22T08:20:38.199Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/webium.Railway_m4JNJNp.wotmod",
+          "updatedAt": "2026-09-10T14:22:37.031Z",
           "sizeBytes": 1749357,
-          "fileName": "webium.Railway.wotmod",
+          "fileName": "webium.Railway_m4JNJNp.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "webium.Railway.wotmod",
+        "fileName": "webium.Railway_m4JNJNp.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5779,16 +5779,6 @@
           "fileName": "Z4imon.tank_info_in_hangar_1.5.zip",
           "fileExt": ".zip",
           "changeLog": "Added a different tank stat style. The style is now selectable over the settings."
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_1.4_y3oRhFN_s0oU6gf.zip",
-          "updatedAt": "2026-09-02T06:44:31.100Z",
-          "sizeBytes": 263987,
-          "fileName": "Z4imon.tank_info_in_hangar_1.4_y3oRhFN_s0oU6gf.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -17923,7 +17913,7 @@
       ],
       "recommended": true,
       "mark": 4.7,
-      "descriptionHtml": "<p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates (but it's still optimised to maximum)</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>I've spend entire week just to micro-optimise this mod to be as lightweight as possible</li><li>However, even after that, due to increased reticle position update frequency, it still may lower FPS a bit (by measurements I estimate about 5% less average FPS)</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
+      "descriptionHtml": "<p>A mod that increases <strong>client reticle</strong> tick rate several dozen times.</p><p>Basically reduces input lag of client reticle <strong>from 100 ms to 1 ms</strong>.</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2lJdt_tFXcs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2lJdt_tFXcs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/87f577d7-cf39-485c-9b0e-608dbbbe4eba.png\"></figure><h2>Notes</h2><ul><li>disabled in replays</li><li>has some smaller impact on FPS due to more frequent reticle position updates (but it's still optimised to maximum)</li></ul><h2>&nbsp;</h2><h2>&nbsp;</h2><h2>&nbsp;</h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ZzuOKe0UlOk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ZzuOKe0UlOk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><h2>FAQ</h2><p><strong>1. Should I have disabled \"Use server aim\" in game settings for responsive reticle?</strong></p><ul><li>Increased responsiveness works only for <strong>disabled server aim</strong> - so only for <strong>client reticle</strong>.</li><li>It does work correctly with mods displaying both client and server reticle - with this mod affecting client reticle.</li></ul><p><strong>2. If I have enabled \"Use server aim\", does this mod affects server reticle in any way?</strong></p><ul><li>Mod has only subtle side-effect on server reticle, by making its movement slightly more consistent due to faster client-side tick rate - but it's nothing spectacular, barely visible.</li></ul><p><strong>3. Does this mod affects game performance?</strong></p><ul><li>I've spend entire week just to micro-optimise this mod to be as lightweight as possible</li><li>However, even after that, due to increased reticle update frequency, it still may lower FPS a bit (by measurements I estimate about 5% less average FPS)</li></ul><h2>Source code &amp; Feedback</h2><p>Source code is on my <a href=\"https://github.com/Pruszko/ResponsiveReticle\">Github repository</a>.</p><p>You can:</p><ul><li>PM me on discord: <strong>fierioziy</strong> (nick: <strong>Pruszko [EU]</strong> on <a href=\"https://discord.gg/world-of-tanks\">WoT official discord</a>)</li><li>in game on EU server: <strong>Pruszko</strong></li><li>or <a href=\"https://github.com/Pruszko/ResponsiveReticle/issues\">GitHub issues here</a>.</li></ul>",
       "installationGuideHtml": "<p>Copy \"<strong>pruszko.responsive_reticle_X.wotmod</strong>\" into \"[WoT game directory]/mods/[version]/\" directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_vWZU5A5.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7413/",
@@ -19794,6 +19784,45 @@
         "fileName": "Old_gunsounds.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7362",
+      "title": "Onslaught Rating Overlay",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": true,
+      "mark": 4.2,
+      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p><p><br><strong>Overview:</strong><br>The <i>Onslaught Rating Overlay</i> is a lightweight, non-intrusive in-game tool that displays your <strong>current Onslaught rating, session progress, and winrate</strong> directly on screen — updating automatically after every battle.</p><p><strong>Features:</strong></p><ol><li>📊 <strong>Live Rating Display</strong> — Shows your current Onslaught rating in real time.</li><li>⬆️⬇️ <strong>Session Delta Tracker</strong> — Tracks how much rating you’ve gained or lost during the current session.</li><li>🏆 <strong>Winrate Overview</strong> — Displays your win/loss ratio and percentage for the session.</li><li>🎮 <strong>Drag &amp; Drop UI</strong> — Freely move the overlay anywhere on your screen.</li><li>🔁 <strong>[reset] and [show/hide] Controls</strong> — Quickly reset session tracking or toggle visibility.</li><li>💡 <strong>Automatic Updates</strong> — The overlay refreshes seamlessly when switching between Garage and Battle.</li></ol><p><strong>Technical Details:</strong></p><p>Designed for <strong>World of Tanks Onslaught mode (Comp7)</strong>.</p><p>Works independently of the default UI.</p><p>Fully client-side and does not affect gameplay or server data.</p><p>Minimal performance impact and no external dependencies.</p>",
+      "installationGuideHtml": "<p>Install the mod by placing it in your <strong>mods/&lt;version&gt;/</strong> folder.&nbsp;<br><br>Launch <strong>World of Tanks</strong>.&nbsp;<br><br>The overlay appears in the top-left corner when you enter the Garage or battle. Drag to reposition, or click <strong>[reset]</strong> / <strong>[show/hide]</strong> to control it.</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7362/",
+      "tagIds": [
+        "18",
+        "22",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.onslaught_rating_overlay.2.4.0.0.1.1.0.zip",
+          "updatedAt": "2026-09-10T12:51:31.851Z",
+          "sizeBytes": 184823,
+          "fileName": "gravity.onslaught_rating_overlay.2.4.0.0.1.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.onslaught_rating_overlay.2.4.0.0.1.1.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
