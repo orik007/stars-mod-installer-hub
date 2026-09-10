@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.028",
+  "catalogVersion": "v2026.09.029",
   "mods": [
     {
       "source": "wgmods",
@@ -473,7 +473,7 @@
       "title": "Better visible flat wagons",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy downloaded file “webium.Railway.wotmod” to /mods/2.3.1.2/ folder"
+        "latestInstallGuide": "Скопируйте загруженный файл “webium.Railway.wotmod” в папку /mods/2.3.1.2/"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
@@ -5793,6 +5793,21 @@
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
         "decisionReason": "latestFileExt is .wotmod but the guide targets a specific subpath under res_mods (res_mods/<version>/audioww), a custom/deeper target path not covered by CopyAllToResMods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7362",
+      "title": "Onslaught Rating Overlay",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Install the mod by placing it in your mods/<version>/ folder. Launch World of Tanks . The overlay appears in the top-left corner when you enter the Garage or battle. Drag to reposition, or click [reset] / [show/hide] to control it."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
