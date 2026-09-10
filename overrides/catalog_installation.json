@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.027",
+  "catalogVersion": "v2026.09.028",
   "mods": [
     {
       "source": "wgmods",
@@ -3952,13 +3952,13 @@
       "sourceId": "7529",
       "title": "Commander Selector",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to select the commander voices you would like to hear. Enjoy! Please report any bugs to loadfastermods@ gmail"
       },
       "installationProcess": {
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "Guide requires running install.cmd installer script rather than a supported direct file-copy operation.",
+        "decisionReason": "Archive package and guide only instructs running included install.cmd with no supported manual copy target.",
         "deleteDataWgpdc": false
       }
     },
