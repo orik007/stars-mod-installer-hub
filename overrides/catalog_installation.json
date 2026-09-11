@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.032",
+  "catalogVersion": "v2026.09.033",
   "mods": [
     {
       "source": "wgmods",
@@ -413,12 +413,12 @@
       "title": "nakom sound mod",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "expand the zip file and replace them for the file (voiceover.bnk) in res or res_mod"
+        "latestInstallGuide": "expand the zip file and replace them for the file (quotemine_archer) in res_mod/2.4.0.0/audioww https://youtu.be/4LGiHXtqyYQ?si=LuDdhMATJ5Qibdgw"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive package and guide targets a specific voiceover.bnk file in res or res_mods audio path, not the versioned res_mods folder itself.",
+        "decisionReason": "Archive package and guide targets a specific file path under res_mods/<version>/audioww, not the res_mods/<version> folder itself.",
         "deleteDataWgpdc": false
       }
     },
@@ -488,12 +488,12 @@
       "title": "Better visible flat wagons",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Скопируйте загруженный файл “webium.Railway.wotmod” в папку /mods/2.3.1.2/"
+        "latestInstallGuide": "Скопируйте загруженный файл “webium.Railway.wotmod” в папку /mods/2.4.0.0/"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -2723,12 +2723,12 @@
       "title": "Challenges",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Move the downloaded file to the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion To use the new GUI (Gameface) it is necessary to have the gameface mod installed If you are using a modpack this should be installed automatically. The mod should be named like: net.openwg.gameface_x.x.x.wotmod Gameface might be in a subdirectory called like: net.openwg If you do not have the gameface mod and want to use the new GUI, you can get it from here: https://gitlab.com/openwg/wot.gameface/-/releases Download the .wotmod file from the link above and paste it into your mod folder: yourWoTInstallation/mods/currentGameVersion"
+        "latestInstallGuide": "Move alle the files in the downloaded zip folder to you world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>; dependency note about Gameface is non-blocking.",
+        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -3398,12 +3398,12 @@
       "title": "Random Tank Picker",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Move the downloaded file to the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion To use the new GUI (Gameface) it is necessary to have the gameface mod installed If you are using a modpack this should be installed automatically. The mod should be named like: net.openwg.gameface_x.x.x.wotmod Gameface might be in a subdirectory called like: net.openwg If you do not have the gameface mod and want to use the new GUI, you can get it from here: https://gitlab.com/openwg/wot.gameface/-/releases Download the .wotmod file from the link above and paste it into your mod folder: yourWoTInstallation/mods/currentGameVersion"
+        "latestInstallGuide": "Move all the files in the downloaded zip file to the world of tanks mod folder: yourWoTInstallation/mods/currentGameVersion"
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>; dependency note about Gameface is non-blocking.",
+        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -7466,21 +7466,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7125",
-      "title": "Stone Sentinel Reskin to Bisonte C45",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Close the game and place the file in the following folder: <World of Tanks folder>\\mods\\<current game version>\\"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide instructs placing the file into <World of Tanks>/mods/<current game version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7121",
       "title": "Jagdpanther II",
       "classificationInput": {
@@ -7551,21 +7536,6 @@
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
         "decisionReason": "Archive package requires choosing one of seven methods before copying a .wotmod into mods/<version>, which is a blocking manual package choice.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7112",
-      "title": "113 and 113 BO",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "latestFileExt is .wotmod and guide explicitly says copy the .wotmod into Games\\World_of_Tanks\\mods\\<version>, matching CopyAllToMods.",
         "deleteDataWgpdc": false
       }
     },
@@ -8399,21 +8369,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6879",
-      "title": "Mars Reskin to Progetto 46",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Close the game and place the file in the following folder: <World of Tanks folder>\\mods\\<current game version>\\"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide explicitly instructs placing the file into <World of Tanks>\\mods\\<current game version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6858",
       "title": "DARK // Object. 705A - MODERN ARMOR",
       "classificationInput": {
@@ -8745,21 +8700,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6678",
-      "title": "Classic's IS-7 \"Bashnya\" Remodel (Raised Machine Gun)",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "To install, drag the included .wotmod file to <Your WoT Directory>\\mods\\<Game Version>. (For example: C:\\Games\\World_of_Tanks\\mods/<version>)"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs dragging the included .wotmod into <WoT Directory>/mods/<Game Version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6664",
       "title": "Classic's CS-63 \"Nawałnica\" Remodel",
       "classificationInput": {
@@ -8955,21 +8895,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6545",
-      "title": "Classic's Black Prince Visual Refresh (Remodel)",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "To install, drag the included .wotmod file to <Your WoT Directory>\\mods\\<Game Version>. (For example: C:\\Games\\World_of_Tanks\\mods/<version>)"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs dragging the included .wotmod into <WoT Directory>/mods/<Game Version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6539",
       "title": "Elkano's All Female Voices",
       "classificationInput": {
@@ -8980,6 +8905,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Package is a .wotmod file and guide directs placing the .wotmod file into World_of_Tanks/mods/(current version) — can be copied as-is.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6543",
+      "title": "Mirny Sky Mod",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "IMPORTANT: The micro-patch hotfix from September 10, 2026, only modifies the \"MirnySBF.wotmod\" file; there is no need to reinstall all profiles—simply replace the file in the \"mods/[current version]\" folder. To install and run the mod, you will need to carefully read the manual attached to the mod. It is recommended to unzip with 7Zip"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide clearly identifies replacing the .wotmod in mods/<current version>; attached manual is a non-blocking note.",
         "deleteDataWgpdc": false
       }
     },
@@ -10156,21 +10096,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "4845",
-      "title": "Girls und Panzer Tanks Skins",
-      "classificationInput": {
-        "latestFileExt": ".rar",
-        "latestInstallGuide": "once the file is downloaded you have to extract it, once this is done you can see that you have 3 files that end in \".wotmod\" those 3 files move them to the \"mods\" folder in the game folder and voila"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide says to extract it and move the .wotmod files to the mods folder in the game folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "4813",
       "title": "Lowe \"Veteran\" Remodel",
       "classificationInput": {
@@ -11146,21 +11071,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "2610",
-      "title": "RazerTeck's SU-122-44",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Open the zip file with Winrar or 7-zip and add one of the two wotmod files to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive package targets mods/<version> but requires choosing one of two .wotmod files.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "2596",
       "title": "RazerTeck's Mod 1",
       "classificationInput": {
@@ -11193,21 +11103,6 @@
       "source": "wgmods",
       "sourceId": "2454",
       "title": "RazerTeck's T-54 LTWT",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "2432",
-      "title": "RazerTeck's ISU-152",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
@@ -11328,21 +11223,6 @@
       "source": "wgmods",
       "sourceId": "1921",
       "title": "RazerTeck's Firefly IC",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "1920",
-      "title": "RazerTeck's M4A3E2 \"Gorilla\"",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
@@ -11596,21 +11476,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "1370",
-      "title": "RazerTeck's M18 Hellcat",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "1368",
       "title": "RazerTeck's HWK 12",
       "classificationInput": {
@@ -11703,21 +11568,6 @@
       "source": "wgmods",
       "sourceId": "1256",
       "title": "RazerTeck's SU 100Y",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "1269",
-      "title": "RazerTeck's Obj.252 Defender",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
