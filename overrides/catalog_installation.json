@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.033",
+  "catalogVersion": "v2026.09.034",
   "mods": [
     {
       "source": "wgmods",
@@ -3968,12 +3968,12 @@
       "title": "WoTVSWAPS",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folders replace them with the newer version (if new wot update : paste it in the newer version). PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update (THE 3D STYLES REPLACE THE VANILLA VERSION, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD FOR SOME , you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)"
+        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folders replace them with the newer version (if new wot update : paste it in the newer version). PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update (THE 3D STYLES REPLACE THE VANILLA VERSION FOR SOME OF THEM, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD (only for basic swaps like Arl 44 --> CDT model, however, custom styles I made, simple turret and gun swaps and imported Mir Tankov styles are not concerned by this issue To optionally fix this issue, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToResMods",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide says to extract complete top-level folders Vehicles and Scripts into res_mods/<version>.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive targets res_mods/<version> but also requires deleting/replacing existing folders as part of installation.",
         "deleteDataWgpdc": true
       }
     },
@@ -7061,38 +7061,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7202",
-      "title": "t110e3",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says copy the .wotmod file into World_of_Tanks\\mods\\<Latest game version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7201",
       "title": "E75",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says copy the .wotmod file into World_of_Tanks\\mods\\<Latest game version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7200",
-      "title": "t-62a",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
@@ -7274,13 +7244,13 @@
       "sourceId": "7175",
       "title": "British Crew Sounds From Wot Blitz",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "Unpack the file, folder mods paste it into the game folder mods/2.1.1.0"
       },
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to the versioned mods folder.",
+        "decisionReason": "Plain .wotmod package with target mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -7296,21 +7266,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide targets mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7173",
-      "title": "Minotauro",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -7406,36 +7361,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7141",
-      "title": "T110E4",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7140",
-      "title": "Kunze Panzer",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7156",
       "title": "Web Modpack",
       "classificationInput": {
@@ -7468,21 +7393,6 @@
       "source": "wgmods",
       "sourceId": "7121",
       "title": "Jagdpanther II",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7122",
-      "title": "Chieftain P",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
@@ -8580,21 +8490,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6748",
-      "title": "IS 7",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Instrucciones de instalación en el video (Installation instructions in the video)"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide is insufficient (installation instructions only in video), default for .wotmod is to copy into mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6711",
       "title": "Clan rewards auto claim",
       "classificationInput": {
@@ -8696,21 +8591,6 @@
         "installableByApp": true,
         "decisionReason": "Archive (.zip) and guide directs placing included .wotmod files into <WoT Directory>/mods/<Game Version>; guide also explicitly instructs deleting data.wgpdc if needed.",
         "deleteDataWgpdc": true
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6664",
-      "title": "Classic's CS-63 \"Nawałnica\" Remodel",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "To install, drag the included .wotmod file to <Your WoT Directory>\\mods\\<Game Version>. (For example: C:\\Games\\World_of_Tanks\\mods/<version>)"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs dragging the included .wotmod into <WoT Directory>/mods/<Game Version>.",
-        "deleteDataWgpdc": false
       }
     },
     {
@@ -11223,6 +11103,21 @@
       "source": "wgmods",
       "sourceId": "1921",
       "title": "RazerTeck's Firefly IC",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1920",
+      "title": "RazerTeck's M4A3E2 \"Gorilla\"",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
