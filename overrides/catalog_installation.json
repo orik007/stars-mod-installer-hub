@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.031",
+  "catalogVersion": "v2026.09.032",
   "mods": [
     {
       "source": "wgmods",
@@ -254,21 +254,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package with empty guide defaults to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7878",
-      "title": "Custom UI Scale",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive installs to mods/<version> but also requires manual changes to res_mods/<version>/audioww/audio_mods.xml.",
         "deleteDataWgpdc": false
       }
     },
@@ -1549,51 +1534,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7748",
-      "title": "Chat Filter",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive installs to mods/<version> but also requires manual changes to res_mods/<version>/audioww/audio_mods.xml.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7749",
-      "title": "Gun Reloaded Sounds",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive installs to mods/<version> but also requires manual changes to res_mods/<version>/audioww/audio_mods.xml.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7747",
-      "title": "Object 279 Mission Auto Reset",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive installs to mods/<version> but also requires manual changes to res_mods/<version>/audioww/audio_mods.xml.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7746",
       "title": "BP II <RESKIN>",
       "classificationInput": {
@@ -1770,51 +1710,6 @@
         "installableByApp": false,
         "decisionReason": "Archive guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself. Dependency note does not change the file operation.",
         "deleteDataWgpdc": true
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7736",
-      "title": "Hitmarker Pro",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive installs to mods/<version> but also requires manual changes to res_mods/<version>/audioww/audio_mods.xml.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7729",
-      "title": "Show vehicle body in the sniper view",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive requires copying files to both mods/<version> and custom path mods/configs.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7728",
-      "title": "Crew Skills Pro",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive requires copying files to both mods/<version> and custom path mods/configs.",
-        "deleteDataWgpdc": false
       }
     },
     {
@@ -2054,51 +1949,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to copy the top-level gui folder into res_mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7708",
-      "title": "Custom Sixth Sense",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive requires copying files to both mods/<version> and custom path mods/configs.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7707",
-      "title": "BalCalcMod",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>; settings notes are non-blocking.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7706",
-      "title": "AutoAim Indication+",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide points to mods/<version>; settings notes are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
@@ -5063,21 +4913,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7429",
-      "title": "Clean Camo - Svitman - HD Version / Part 3",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the Zip File Extract the content of the Zip File Create a folder called \"cleantanks\" in your mods folder (if not there already) Place the extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive instructs creating and installing into a custom subfolder mods/[version]/cleantanks (custom mods subpath not supported by app templates).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7427",
       "title": "Clean Camo - Svitman - HD Version / Part 1",
       "classificationInput": {
@@ -5095,21 +4930,6 @@
       "source": "wgmods",
       "sourceId": "7428",
       "title": "Clean Camo - Svitman - HD Version / Part 2",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the Zip File Extract the content of the Zip File Create a folder called \"cleantanks\" in your mods folder (if not there already) Place the extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive instructs creating and installing into a custom subfolder mods/[version]/cleantanks (custom mods subpath not supported by app templates).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7437",
-      "title": "Clean Camo - Svitman - SD Version",
       "classificationInput": {
         "latestFileExt": ".zip",
         "latestInstallGuide": "Download the Zip File Extract the content of the Zip File Create a folder called \"cleantanks\" in your mods folder (if not there already) Place the extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)"
