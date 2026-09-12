@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.035",
+  "catalogVersion": "v2026.09.036",
   "mods": [
     {
       "source": "wgmods",
@@ -3983,12 +3983,12 @@
       "title": "WoTVSWAPS",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down How to install new version : Delete the folders replace them with the newer version (if new wot update : paste it in the newer version). PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update (THE 3D STYLES REPLACE THE VANILLA VERSION FOR SOME OF THEM, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD (only for basic swaps like Arl 44 --> CDT model, however, custom styles I made, simple turret and gun swaps and imported Mir Tankov styles are not concerned by this issue To optionally fix this issue, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird)"
+        "latestInstallGuide": "How to install : Just open the zip folder and extract the two folders \"Vehicles\" and \"Scripts\" in Wot/res_mods/(latest version) the latest version is usually all the way down PLEASE delete the data.wgpdc file present in your wot folder, xmls are updated after every update (THE 3D STYLES REPLACE THE VANILLA VERSION FOR SOME OF THEM, PUTTING A 2D STYLE ON TOP MIGHT LOOK WEIRD (only for basic swaps like Arl 44 --> CDT model, however, custom styles I made, simple turret and gun swaps and imported Mir Tankov styles are not concerned by this issue To optionally fix this issue, you can choose to only see historical paintjobs in the general settings of wot, which will prevent other vehicles from looking weird) If you're playing on SD client, it is possible you will get problems with my custom styles looking black, if that's the case there is unfortunately no fix for now :("
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive targets res_mods/<version> but also requires deleting/replacing existing folders as part of installation.",
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract the Vehicles and Scripts folders into res_mods/<version>.",
         "deleteDataWgpdc": true
       }
     },
@@ -7166,36 +7166,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7184",
-      "title": "Lion",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7183",
-      "title": "Object 780",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7181",
       "title": "Tiger 131 with crew",
       "classificationInput": {
@@ -7286,6 +7256,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7173",
+      "title": "Minotauro",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7172",
       "title": "Chrome B-C 25 t",
       "classificationInput": {
@@ -7346,8 +7331,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7168",
-      "title": "amx 30",
+      "sourceId": "7141",
+      "title": "T110E4",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
@@ -7355,22 +7340,7 @@
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7167",
-      "title": "cobra",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -7476,21 +7446,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "latestFileExt is .wotmod and guide explicitly targets WorldofTanks > mods > game version, matching CopyAllToMods.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7095",
-      "title": "T110E3 Plunger Editon",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Drop the .wotmod into “World_of_Tanks/mods/“"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to the game's mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -8414,21 +8369,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6793",
-      "title": "Classic's 113 \"Jiangshi\" / \"殭屍\" Remodel",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "To install, drag both of the included .wotmod files to <Your WoT Directory\\mods\\<Game Version>. (Example: C:\\Games\\World_of_Tanks\\mods/<version>)"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is a .zip archive and guide instructs dragging both included .wotmod files into <WoT Directory>\\mods\\<Game Version> (non-blocking multiple files).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6776",
       "title": "Universal Model Loader (UML)",
       "classificationInput": {
@@ -8650,21 +8590,6 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive (.zip) and guide explicitly instructs to extract the zip-archive into the game folder (game root).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6611",
-      "title": "Classic's T 55A \"Thunderbolt\" Remodel (Restored from the Last Waffenträger Gamemode)",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "To install, drag the included .wotmod files to <Your WoT Directory>\\mods\\<Game Version>. (For example: C:\\Games\\World_of_Tanks\\mods/<version>)"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs dragging included .wotmod files into <WoT Directory>/mods/<Game Version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -9491,21 +9416,6 @@
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
         "decisionReason": "Archive (.rar) contains and requires running an included installer (guide says open/run the installer and use its UI); app cannot run external installers.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "5822",
-      "title": "Classic's \"Dakka Plus\" Remodel Pack",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "MAIN: To install, drag the \"CWW-Dakka-Plus\" folder to <Your WoT Directory>\\mods\\<Game Version>. (Example: C:\\Games\\World_Of_Tanks\\mods/<version>). All included vehicles are packaged in separate .wotmods for user convenience. Any vehicles which you do not want to use can be disabled by removing their .wotmod file(s). IMPORTANT NOTE: \" CWW-DakkaPlusCore-REQUIRED.wotmod\" contains files which are used by several vehicles included in the pack, and therefore must be installed for the mod to function correctly (as its name would suggest)."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide instructs to place the provided folder into <WoT Directory>/mods/<Game Version> (versioned mods folder).",
         "deleteDataWgpdc": false
       }
     },
@@ -10786,21 +10696,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "2853",
-      "title": "RazerTeck's VK 45.03 (H)",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to the current version mods folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "2848",
       "title": "RazerTeck's VK 30.02 (M)",
       "classificationInput": {
@@ -10833,21 +10728,6 @@
       "source": "wgmods",
       "sourceId": "2850",
       "title": "RazerTeck's Tiger 1",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to the current version mods folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "2786",
-      "title": "RazerTeck's Hummel",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
@@ -11341,6 +11221,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "1370",
+      "title": "RazerTeck's M18 Hellcat",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "1368",
       "title": "RazerTeck's HWK 12",
       "classificationInput": {
@@ -11401,21 +11296,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "1295",
-      "title": "RazerTeck's M4A3E8 V2",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "1294",
       "title": "RazerTeck's M4A3E2",
       "classificationInput": {
@@ -11431,8 +11311,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "1256",
-      "title": "RazerTeck's SU 100Y",
+      "sourceId": "1269",
+      "title": "RazerTeck's Obj.252 Defender",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
