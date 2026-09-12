@@ -1,11 +1,85 @@
 {
-  "catalogVersion": "v2026.09.036",
-  "sourceHash": "3e58cd80597da291b62fdfaecf5076552e1450ced4bfd3dbb0c6061c7c553acf",
+  "catalogVersion": "v2026.09.037",
+  "sourceHash": "f154a7321a53f870c87addcdb5648e3e755c3105d8028a75c6b99af193d8b2c1",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7912",
+      "title": "nakom sound mod 2.1",
+      "ownerUsername": "cruzseara",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>nakom thai comedy actor star vocal audio for WOT<br><a href=\"https://youtu.be/9_BvBmeggUk?si=5R0_tIpDtHKWfDUo\">https://youtu.be/9_BvBmeggUk?si=5R0_tIpDtHKWfDUo</a></p>",
+      "installationGuideHtml": "<p>expand the zip file and replace them for the file (quotemine_archer) in res_mod/2.4.0.0/audioww<br><a href=\"https://youtu.be/4LGiHXtqyYQ?si=Al1OJddtpgXsihlc\">https://youtu.be/4LGiHXtqyYQ?si=Al1OJddtpgXsihlc</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/images_TQo6D8u.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7912/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/quotemine_archer_cTt1Ns9.zip",
+          "updatedAt": "2026-09-12T11:51:05.851Z",
+          "sizeBytes": 2164276,
+          "fileName": "quotemine_archer_cTt1Ns9.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "quotemine_archer_cTt1Ns9.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7910",
+      "title": "Ammo Caliber Tooltip",
+      "ownerUsername": "XXHunterXX_destroyer",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Brings the gun caliber and the shell name back to the ammunition tooltips in battle.</p><p>Wargaming used to head that tooltip with the full shell name — \"128 mm Armor-Piercing Pzgr. 39 K (170)\" — and at some point cut it down to just the shell kind, \"Armor-Piercing\". The caliber went with it. This mod puts it back.</p><p>WHAT IT DOES</p><p>Hovering a shell on the ammo panel at the bottom of the battle screen now shows:</p><p>&nbsp; &nbsp;128 mm Armor-Piercing Pzgr. 39 K (170)<br>&nbsp; &nbsp;Average damage: 440 HP<br>&nbsp; &nbsp;Average penetration: 238-226 mm*<br>&nbsp; &nbsp;Shell velocity: 810 m/s</p><p>instead of:</p><p>&nbsp; &nbsp;Armor-Piercing<br>&nbsp; &nbsp;Average damage: 440 HP<br>&nbsp; &nbsp;...</p><p>The body of the tooltip — damage, penetration, velocity, damage radius, stun duration — is left exactly as the client produced it. Only the header line changes.</p><p>HOW IT WORKS</p><p>The localised text that produced the old header is still shipped with the game; it simply has no caller left in the client. The mod restores that call rather than inventing a new format, so the wording and the word order stay correct in every language the client ships. No text is hardcoded and no client file is replaced.</p><p>Shell types that were added after that text was written (smoke, and the reworked HE variants) have no entry in it. For those the mod falls back to putting the caliber in front of the kind name the client itself produced, so nothing is ever left blank.</p><p>WHERE IT APPLIES</p><p>- The ammo panel at the bottom of the battle screen.<br>- The loadout panel shown during the pre-battle countdown, which lost the same header. This can be switched off in the config.</p><p>REQUIREMENTS</p><p>- World of Tanks 2.4.0.0.<br>- No library mods needed.<br>- \"Technical Information\" must be enabled in Game settings. That is the client's own switch for the tooltip body, and the mod does not change it.</p><p>CONFIGURATION</p><p>Optional. On first launch the mod writes its defaults to:</p><p>&nbsp; &nbsp;mods\\configs\\schaerfl.ammo_caliber_tooltip\\config.json</p><p>&nbsp; &nbsp;enabled &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;turn the mod off without uninstalling it<br>&nbsp; &nbsp;debug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;log every header it rewrites, for troubleshooting<br>&nbsp; &nbsp;patchPrebattlePanel &nbsp;set to false to leave the pre-battle loadout panel alone</p><p>The folder sits outside the versioned mods folder, so your settings survive client updates.</p><p>NOTES</p><p>The text in parentheses after the shell name — \"(170)\", \"(Maus)\", \"(JT)\" — is Wargaming's own. World of Tanks gives the same historical shell different stats on different vehicles, so each variant is a separate item tagged with the vehicle it belongs to. Your gun's name in the vehicle stats panel carries the same tag.</p><p>The full Python source is included in the package next to the compiled file, so anyone can read exactly what it does before installing it.<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks. The running client keeps the mod files open and will not release them.<br>2. Copy schaerfl.ammo_caliber_tooltip_01.00.00.wotmod into:</p><p>&nbsp; &nbsp; &nbsp; &lt;World of Tanks&gt;\\mods\\2.4.0.0\\</p><p>Create the folder if it is not there. The folder name must match your client version exactly, otherwise the game will not load the mod.<br>3. Start the game.</p><p>To update: delete the older schaerfl.ammo_caliber_tooltip_*.wotmod first. Two versions of the same mod both load and both rewrite the tooltip.</p><p>To uninstall: delete the .wotmod file. The settings folder at mods\\configs\\schaerfl.ammo_caliber_tooltip\\ can be removed too, or left in place if you plan to reinstall.</p><p>If the tooltip still shows no caliber, check that Technical Information is enabled under Settings -&gt; Game. That is the client's own switch for the shell details, and without it the tooltip shows the shell kind only.<br>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_060_LulVYie.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7910/",
+      "tagIds": [
+        "18",
+        "22",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/schaerfl.ammo_caliber_tooltip_01.00.00.wotmod",
+          "updatedAt": "2026-09-12T11:50:59.908Z",
+          "sizeBytes": 18967,
+          "fileName": "schaerfl.ammo_caliber_tooltip_01.00.00.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "schaerfl.ammo_caliber_tooltip_01.00.00.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7914",
@@ -755,7 +829,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "V.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Skin_3D__Audi_Revolut_F1_for_the_VK_100_01Team.wotmod",
-          "updatedAt": "2026-08-30T10:10:51.253Z",
+          "updatedAt": "2026-09-12T12:47:21.480Z",
           "sizeBytes": 20127378,
           "fileName": "Skin_3D__Audi_Revolut_F1_for_the_VK_100_01Team.wotmod",
           "fileExt": ".wotmod",
@@ -866,6 +940,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ver_2.2.0.zip",
+          "updatedAt": "2026-09-12T11:45:59.745Z",
+          "sizeBytes": 1024986549,
+          "fileName": "Ver_2.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Improvements\n1. The original Japanese voice lines were transcribed by ear. Based on these transcriptions, the Chinese and English subtitles were reviewed and corrected for accuracy. A Japanese subtitle version was also created.\n2. Added subtitle versions in Russian, German, French, Spanish, Polish, and Italian."
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "2.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ver_2.1.1.zip",
           "updatedAt": "2026-09-07T21:36:26.941Z",
@@ -896,8 +980,8 @@
         }
       ],
       "latest": {
-        "fileName": "Ver_2.1.1.zip",
-        "changeLog": " Improvements\n1. You can now decide whether to ignore the unique voiceovers of special crew members.\nA new option, “GuP Voice Selector: Ignore the voices of special crews”, has been added at the bottom of Settings → Sound.\nThis option works as follows:\nWhen enabled: The voiceover selected in the GuP Voice Selector will always be used in battle, regardless of which crew members are assigned to the vehicle, including official Girls und Panzer collaboration crew members. The original unique voiceovers of all special crew members will be ignored.\nWhen disabled: Crew members with their own unique voiceovers will continue to use their original voiceovers, and the voiceover selected in the GuP Voice Selector will be ignored for those crew members.\n2. Added a Chinese version of the Girls und Panzer subtitles.\nYou can choose either subtitle version according to your preference, or install neither if you do not need subtitles.",
+        "fileName": "Ver_2.2.0.zip",
+        "changeLog": "Improvements\n1. The original Japanese voice lines were transcribed by ear. Based on these transcriptions, the Chinese and English subtitles were reviewed and corrected for accuracy. A Japanese subtitle version was also created.\n2. Added subtitle versions in Russian, German, French, Spanish, Polish, and Italian.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -963,7 +1047,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TBT_Ambush_v1_cdxFojE.wotmod",
-          "updatedAt": "2026-09-12T09:14:04.508Z",
+          "updatedAt": "2026-09-12T12:44:20.250Z",
           "sizeBytes": 40724337,
           "fileName": "TBT_Ambush_v1_cdxFojE.wotmod",
           "fileExt": ".wotmod",
@@ -1122,7 +1206,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.map_hangar_studio.2.4.0.0.1.0.3.wotmod",
-          "updatedAt": "2026-09-01T09:42:24.055Z",
+          "updatedAt": "2026-09-12T12:46:27.095Z",
           "sizeBytes": 875085,
           "fileName": "gravity.map_hangar_studio.2.4.0.0.1.0.3.wotmod",
           "fileExt": ".wotmod",
@@ -1155,6 +1239,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/quotemine_archer_c6Io6SU.zip",
+          "updatedAt": "2026-09-12T11:49:49.010Z",
+          "sizeBytes": 2164276,
+          "fileName": "quotemine_archer_c6Io6SU.zip",
+          "fileExt": ".zip",
+          "changeLog": "more variety crew sound for vary game event"
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audio_nakom_kay.zip",
@@ -1166,9 +1260,9 @@
         }
       ],
       "latest": {
-        "fileName": "audio_nakom_kay.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "quotemine_archer_c6Io6SU.zip",
+        "changeLog": "more variety crew sound for vary game event",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1195,7 +1289,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/zanju.salvoreticlefix_1.0.0.zip",
-          "updatedAt": "2026-08-24T14:15:31.901Z",
+          "updatedAt": "2026-09-12T12:47:57.589Z",
           "sizeBytes": 45169,
           "fileName": "zanju.salvoreticlefix_1.0.0.zip",
           "fileExt": ".zip",
@@ -1965,7 +2059,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gambling_button_vkFnlEO.wotmod",
-          "updatedAt": "2026-08-16T09:49:32.878Z",
+          "updatedAt": "2026-09-12T12:51:22.553Z",
           "sizeBytes": 202851,
           "fileName": "gambling_button_vkFnlEO.wotmod",
           "fileExt": ".wotmod",
@@ -1973,8 +2067,8 @@
         }
       ],
       "latest": {
-        "fileName": "gambling_button.wotmod",
-        "changeLog": "updated to latest game version",
+        "fileName": "gambling_button_vkFnlEO.wotmod",
+        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -2158,7 +2252,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.2,
       "descriptionHtml": "<h2>Infinitum Aim Timer is a lightweight standalone aiming indicator for World of Tanks.</h2><h2>The mod displays:</h2><ul><li>remaining time until the gun is fully aimed;</li><li>selected aiming progress value;</li><li>a vertical progress bar that fills from bottom to top;</li><li>interactive color changes based on the current aiming progress.</li><li>The indicator transitions from red through yellow to green, allowing you to evaluate the current aiming state at a glance.</li></ul><h2>In-game settings allow you to choose:</h2><ul><li>time-based or circle-based progress;</li><li>theoretical maximum or the maximum for the vehicle’s current state;</li><li>time progress, circle progress, or the current circle-size multiplier below the bar.</li><li>Time-based progress with a percentage value is enabled by default.</li></ul><h2>Features:</h2><ul><li>accounts for increased dispersion while the vehicle is moving;</li><li>adapts to different vehicles, vehicle states, and gameplay mechanics;</li><li>does not modify gun handling, dispersion, firing mechanics, or reticle behavior;</li><li>optimized to avoid additional lag or noticeable FPS loss;</li><li>runs only during battles;</li><li>supports Ukrainian and English;</li><li>uses English as the fallback language;</li><li>allows separate indicator positions for arcade, sniper, and artillery views;</li><li>allows the indicator to be repositioned by dragging it in cursor mode;</li><li>hides after vehicle destruction and returns after respawning;</li><li>preserves settings and positions between game sessions.</li></ul><blockquote><p>All required dependencies are included in the package.</p></blockquote><p>Compatibility: World of Tanks 2.3.1.x<br>Version: 1.1.0<br>Developer: unicorn.ares</p>",
       "installationGuideHtml": "<p>Extract the archive into the World of Tanks root directory.</p><blockquote><p>All included .wotmod files must be placed in the mods/&lt;current game version&gt;/ directory while preserving the included subfolder structure.</p></blockquote>",
@@ -2169,6 +2263,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Infinitum-Aim-Timer-1.1.0-WoT-2.4.0.0.zip",
+          "updatedAt": "2026-09-12T11:48:59.158Z",
+          "sizeBytes": 1744448,
+          "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "no changes; repack for 2.4"
+        },
         {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.1.0",
@@ -2201,9 +2305,9 @@
         }
       ],
       "latest": {
-        "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.3.1.3.zip",
-        "changeLog": "no changes; repack for 2.3.1.3",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "Infinitum-Aim-Timer-1.1.0-WoT-2.4.0.0.zip",
+        "changeLog": "no changes; repack for 2.4",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2229,7 +2333,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/NaaSmoke.wotmod",
-          "updatedAt": "2026-08-13T20:56:42.761Z",
+          "updatedAt": "2026-09-12T12:51:58.577Z",
           "sizeBytes": 189520,
           "fileName": "NaaSmoke.wotmod",
           "fileExt": ".wotmod",
@@ -2508,7 +2612,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UDES-14-ALT-5_RESKIN_z6nR18T.wotmod",
-          "updatedAt": "2026-09-05T15:33:29.219Z",
+          "updatedAt": "2026-09-12T12:44:26.330Z",
           "sizeBytes": 4056751,
           "fileName": "UDES-14-ALT-5_RESKIN_z6nR18T.wotmod",
           "fileExt": ".wotmod",
@@ -2546,9 +2650,9 @@
         }
       ],
       "latest": {
-        "fileName": "UDES-14-ALT-5_RESKIN_P770EFU.wotmod",
+        "fileName": "UDES-14-ALT-5_RESKIN_z6nR18T.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2586,7 +2690,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "v2.3.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TVP_T_5051_deh0mbres_XYDtgol.rar",
-          "updatedAt": "2026-08-10T19:06:29.828Z",
+          "updatedAt": "2026-09-12T12:54:29.258Z",
           "sizeBytes": 148249435,
           "fileName": "TVP_T_5051_deh0mbres_XYDtgol.rar",
           "fileExt": ".rar",
@@ -2653,7 +2757,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PZ-III-IV.wotmod",
-          "updatedAt": "2026-08-10T19:05:24.198Z",
+          "updatedAt": "2026-09-12T12:54:21.447Z",
           "sizeBytes": 8587570,
           "fileName": "PZ-III-IV.wotmod",
           "fileExt": ".wotmod",
@@ -2661,7 +2765,7 @@
         }
       ],
       "latest": {
-        "fileName": "PZ-III-IV_o85TwfI.wotmod",
+        "fileName": "PZ-III-IV.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -3030,7 +3134,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Reload_Time_Base_Values_1.0.2.zip",
-          "updatedAt": "2026-08-29T10:15:54.208Z",
+          "updatedAt": "2026-09-12T12:47:23.363Z",
           "sizeBytes": 15504,
           "fileName": "Reload_Time_Base_Values_1.0.2.zip",
           "fileExt": ".zip",
@@ -3175,7 +3279,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2,5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/R45_IS-7_Skin3D_%C5%BEula.wotmod",
-          "updatedAt": "2026-08-04T14:12:45.228Z",
+          "updatedAt": "2026-09-12T12:56:30.011Z",
           "sizeBytes": 10650688,
           "fileName": "R45_IS-7_Skin3D_žula.wotmod",
           "fileExt": ".wotmod",
@@ -3368,6 +3472,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.001",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/oldammoicon_HquvHJU.wotmod",
+          "updatedAt": "2026-09-12T13:21:08.752Z",
+          "sizeBytes": 6151044,
+          "fileName": "oldammoicon_HquvHJU.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "updated for the new version"
+        },
+        {
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/oldammoicon.wotmod",
@@ -3379,9 +3493,9 @@
         }
       ],
       "latest": {
-        "fileName": "oldammoicon.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "oldammoicon_HquvHJU.wotmod",
+        "changeLog": "updated for the new version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4103,7 +4217,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "VERSION 1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Concept5-NewGen-3dSkinPremiumClassicVersion_FRmDY8j.zip",
-          "updatedAt": "2026-08-15T16:03:49.655Z",
+          "updatedAt": "2026-09-12T12:51:24.552Z",
           "sizeBytes": 77392413,
           "fileName": "Concept5-NewGen-3dSkinPremiumClassicVersion_FRmDY8j.zip",
           "fileExt": ".zip",
@@ -4818,7 +4932,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "4.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_4.0.1.zip",
-          "updatedAt": "2026-08-27T19:01:36.373Z",
+          "updatedAt": "2026-09-12T12:47:27.301Z",
           "sizeBytes": 1574937,
           "fileName": "MoECalculator_4.0.1.zip",
           "fileExt": ".zip",
@@ -5128,7 +5242,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "3.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.2.0.zip",
-          "updatedAt": "2026-08-16T12:11:32.476Z",
+          "updatedAt": "2026-09-12T12:51:20.505Z",
           "sizeBytes": 384254,
           "fileName": "GarageProgressBar-Bundle_3.2.0.zip",
           "fileExt": ".zip",
@@ -5590,7 +5704,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/the_dynamic_playlist_mod_1.4.4_1Vnuqnk.zip",
-          "updatedAt": "2026-07-15T08:26:36.642Z",
+          "updatedAt": "2026-09-12T12:59:30.861Z",
           "sizeBytes": 58207,
           "fileName": "the_dynamic_playlist_mod_1.4.4_1Vnuqnk.zip",
           "fileExt": ".zip",
@@ -5970,7 +6084,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PZ-I-C-Racing_centurion_Ihk0pXe.wotmod",
-          "updatedAt": "2026-08-20T05:11:27.463Z",
+          "updatedAt": "2026-09-12T12:50:22.256Z",
           "sizeBytes": 10888450,
           "fileName": "PZ-I-C-Racing_centurion_Ihk0pXe.wotmod",
           "fileExt": ".wotmod",
@@ -6018,7 +6132,7 @@
         }
       ],
       "latest": {
-        "fileName": "PZ-I-C-Racing_centurion_vb8ITWS.wotmod",
+        "fileName": "PZ-I-C-Racing_centurion_Ihk0pXe.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -7078,7 +7192,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Kilana_Bp8leRI.wotmod",
-          "updatedAt": "2026-08-12T14:39:17.156Z",
+          "updatedAt": "2026-09-12T12:52:59.016Z",
           "sizeBytes": 10085658,
           "fileName": "Kilana_Bp8leRI.wotmod",
           "fileExt": ".wotmod",
@@ -7116,9 +7230,9 @@
         }
       ],
       "latest": {
-        "fileName": "Kilana_9OdEUnj.wotmod",
+        "fileName": "Kilana_Bp8leRI.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
+        "wotGameVersionCompatibility": "risky"
       }
     },
     {
@@ -7482,7 +7596,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sixthSense.wotmod",
-          "updatedAt": "2026-07-20T18:57:01.559Z",
+          "updatedAt": "2026-09-12T12:58:00.506Z",
           "sizeBytes": 6322966,
           "fileName": "sixthSense.wotmod",
           "fileExt": ".wotmod",
@@ -7490,7 +7604,7 @@
         }
       ],
       "latest": {
-        "fileName": "sixthSense_rZ3sFB8.wotmod",
+        "fileName": "sixthSense.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -8010,7 +8124,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_Caernarvon_Mk2_Bullpup_and_Caernarvon_Mk3_Devastator_nXiLuD5.wotmod",
-          "updatedAt": "2026-07-20T08:47:31.409Z",
+          "updatedAt": "2026-09-12T12:58:26.584Z",
           "sizeBytes": 164264653,
           "fileName": "AWW_Caernarvon_Mk2_Bullpup_and_Caernarvon_Mk3_Devastator_nXiLuD5.wotmod",
           "fileExt": ".wotmod",
@@ -8325,7 +8439,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "7.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/spotmeter-v7.2.0.wotmod",
-          "updatedAt": "2026-08-13T15:18:01.405Z",
+          "updatedAt": "2026-09-12T12:52:20.587Z",
           "sizeBytes": 139557,
           "fileName": "spotmeter-v7.2.0.wotmod",
           "fileExt": ".wotmod",
@@ -8439,7 +8553,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KV5_OwtLxpz.wotmod",
-          "updatedAt": "2026-08-20T05:22:32.298Z",
+          "updatedAt": "2026-09-12T12:50:20.230Z",
           "sizeBytes": 11244904,
           "fileName": "KV5_OwtLxpz.wotmod",
           "fileExt": ".wotmod",
@@ -8487,9 +8601,9 @@
         }
       ],
       "latest": {
-        "fileName": "KV5_aiS0w5t.wotmod",
+        "fileName": "KV5_OwtLxpz.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
+        "wotGameVersionCompatibility": "risky"
       }
     },
     {
@@ -9137,7 +9251,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pz-Sfl-IVC_3VDFrKR.wotmod",
-          "updatedAt": "2026-08-10T08:46:59.144Z",
+          "updatedAt": "2026-09-12T12:54:25.435Z",
           "sizeBytes": 9848822,
           "fileName": "Pz-Sfl-IVC_3VDFrKR.wotmod",
           "fileExt": ".wotmod",
@@ -12750,7 +12864,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.3.1.0.exe",
-          "updatedAt": "2026-07-16T14:33:46.273Z",
+          "updatedAt": "2026-09-12T12:59:00.779Z",
           "sizeBytes": 116731551,
           "fileName": "Nagleishiy_ModPack_for_2.3.1.0.exe",
           "fileExt": ".exe",
@@ -13497,7 +13611,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "1.7.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.7.3.zip",
-          "updatedAt": "2026-08-13T10:05:10.933Z",
+          "updatedAt": "2026-09-12T12:52:22.814Z",
           "sizeBytes": 428470595,
           "fileName": "WotVSWAPS-V1.7.3.zip",
           "fileExt": ".zip",
@@ -13696,7 +13810,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_gUQrJXm.wotmod",
-          "updatedAt": "2026-07-15T09:41:40.533Z",
+          "updatedAt": "2026-09-12T12:59:26.851Z",
           "sizeBytes": 15565364,
           "fileName": "voiceoversoundMod_gUQrJXm.wotmod",
           "fileExt": ".wotmod",
@@ -13714,9 +13828,9 @@
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_LJ5NKOS.wotmod",
+        "fileName": "voiceoversoundMod_gUQrJXm.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
+        "wotGameVersionCompatibility": "risky"
       }
     },
     {
@@ -14834,7 +14948,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Pansy_Revamped_Skies_Volume_3_v1.5_S7KlNey.rar",
-          "updatedAt": "2026-08-13T00:36:21.472Z",
+          "updatedAt": "2026-09-12T12:52:28.844Z",
           "sizeBytes": 194425631,
           "fileName": "Pansy_Revamped_Skies_Volume_3_v1.5_S7KlNey.rar",
           "fileExt": ".rar",
@@ -14872,8 +14986,8 @@
         }
       ],
       "latest": {
-        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.5.rar",
-        "changeLog": "v1.5 Update for 2.3.1.1:\n- added various dependency files for functionality between the Skybox Randomizer mod and the new Volume 4",
+        "fileName": "Pansy_Revamped_Skies_Volume_3_v1.5_S7KlNey.rar",
+        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -15346,7 +15460,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_Centurion_Mk12-1_Thunderbolt_II_trIl8wM.wotmod",
-          "updatedAt": "2026-07-20T08:53:30.336Z",
+          "updatedAt": "2026-09-12T12:58:24.691Z",
           "sizeBytes": 245697371,
           "fileName": "AWW_Centurion_Mk12-1_Thunderbolt_II_trIl8wM.wotmod",
           "fileExt": ".wotmod",
@@ -15733,8 +15847,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 3.8,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p><p>Keeps cruise/autospeed active for wheeled tanks (EBR line) during siege/travel mode switching so the vehicle continues moving without re‑pressing W.</p><p><strong>Before (vanilla behavior):</strong><br>When switching between travel and siege modes on wheeled vehicles (e.g., EBR 75/90/105), autospeed/cruise control is canceled during the switch. Even if the cruise indicator is on, the vehicle stops unless you press W again.</p><p><strong>After (with this mod):</strong><br>If cruise/autospeed was active, the mod restores it immediately after the siege/travel switch and re-applies movement input, so the vehicle continues moving through the mode change without needing to press W again.</p><p><strong>What it is:</strong><br>Cruise control is the game’s “auto‑speed” system that keeps your tank moving without holding W/S. Internally it’s treated as its own input mode with separate commands for increasing or decreasing the cruise setting (forward/backward cruise).</p><p><strong>How R / F relate to it:</strong><br>The keybindings for cruise control are exposed as <strong>Forward Cruise</strong> and <strong>Backward Cruise</strong> commands in the keyboard bindings (commonly mapped to <strong>R</strong> to increase and <strong>F</strong> to decrease, depending on your setup). These are the bindings the game uses for cruise control speed steps.<br><br><i>Short Demo Video:&nbsp;</i></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/UkuwUyoN_eo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/UkuwUyoN_eo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-01-28_225725494.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -16487,7 +16601,7 @@
           "wotGameVersion": "2.1.1.0",
           "modVersion": "1.1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/renodx-worldoftanks-wgmods_jWVZwew.7z",
-          "updatedAt": "2026-01-13T20:34:31.039Z",
+          "updatedAt": "2026-09-12T13:03:02.160Z",
           "sizeBytes": 1792841,
           "fileName": "renodx-worldoftanks-wgmods_jWVZwew.7z",
           "fileExt": ".7z",
@@ -16555,7 +16669,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.carousel_warn_remover_1.0.1_wFOEUkp.zip",
-          "updatedAt": "2026-08-20T17:40:42.555Z",
+          "updatedAt": "2026-09-12T12:49:21.942Z",
           "sizeBytes": 51202,
           "fileName": "pruszko.carousel_warn_remover_1.0.1_wFOEUkp.zip",
           "fileExt": ".zip",
@@ -16603,8 +16717,8 @@
         }
       ],
       "latest": {
-        "fileName": "pruszko.carousel_warn_remover_1.0.1_kvOJFXy.zip",
-        "changeLog": "Updated for WoT 2.3.1.0",
+        "fileName": "pruszko.carousel_warn_remover_1.0.1_wFOEUkp.zip",
+        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -16633,7 +16747,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "VERSION 1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/dark.XM57-LEGION-Luxury-Version_oOpVwy6.zip",
-          "updatedAt": "2026-08-21T16:51:19.503Z",
+          "updatedAt": "2026-09-12T12:48:21.867Z",
           "sizeBytes": 188207355,
           "fileName": "dark.XM57-LEGION-Luxury-Version_oOpVwy6.zip",
           "fileExt": ".zip",
@@ -17743,7 +17857,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "v1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_fVg1mcu.rar",
-          "updatedAt": "2026-08-20T22:44:35.799Z",
+          "updatedAt": "2026-09-12T12:48:57.879Z",
           "sizeBytes": 2070736,
           "fileName": "Decalless_Gift_Tanks_v1.1_fVg1mcu.rar",
           "fileExt": ".rar",
@@ -17791,7 +17905,7 @@
         }
       ],
       "latest": {
-        "fileName": "Decalless_Gift_Tanks_v1.1_fnyY0IM.rar",
+        "fileName": "Decalless_Gift_Tanks_v1.1_fVg1mcu.rar",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -17860,7 +17974,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "2.1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Winter_Mod1_modland.zip",
-          "updatedAt": "2025-12-19T17:40:51.185Z",
+          "updatedAt": "2026-09-12T13:05:26.639Z",
           "sizeBytes": 696342544,
           "fileName": "Winter_Mod1_modland.zip",
           "fileExt": ".zip",
@@ -18046,7 +18160,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "12.24",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/xhairs_ZgZMpOD.zip",
-          "updatedAt": "2025-12-25T20:28:12.659Z",
+          "updatedAt": "2026-09-12T13:04:32.468Z",
           "sizeBytes": 875892,
           "fileName": "xhairs_ZgZMpOD.zip",
           "fileExt": ".zip",
@@ -18527,7 +18641,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "VERSION 1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Type71-BLIZTRAGER-Luxury_v3mac0B.zip",
-          "updatedAt": "2026-08-21T16:45:26.133Z",
+          "updatedAt": "2026-09-12T12:48:27.728Z",
           "sizeBytes": 513488785,
           "fileName": "Type71-BLIZTRAGER-Luxury_v3mac0B.zip",
           "fileExt": ".zip",
@@ -18669,7 +18783,7 @@
           "wotGameVersion": "2.1.0.0",
           "modVersion": "3.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Winter_Mod2.zip",
-          "updatedAt": "2025-11-27T09:40:04.059Z",
+          "updatedAt": "2026-09-12T13:07:03.124Z",
           "sizeBytes": 2002849568,
           "fileName": "Winter_Mod2.zip",
           "fileExt": ".zip",
@@ -18804,7 +18918,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "2.1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/DZT_DragonsSoul_BGrfe5x.wotmod",
-          "updatedAt": "2025-12-19T02:38:08.356Z",
+          "updatedAt": "2026-09-12T13:05:24.445Z",
           "sizeBytes": 51373806,
           "fileName": "DZT_DragonsSoul_BGrfe5x.wotmod",
           "fileExt": ".wotmod",
@@ -19178,7 +19292,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/panikaxa.wot.extra_style_filters_1.0.2_DB4exn7.wotmod",
-          "updatedAt": "2025-12-18T15:58:51.581Z",
+          "updatedAt": "2026-09-12T13:05:32.853Z",
           "sizeBytes": 235695,
           "fileName": "panikaxa.wot.extra_style_filters_1.0.2_DB4exn7.wotmod",
           "fileExt": ".wotmod",
@@ -20030,7 +20144,7 @@
           "wotGameVersion": "2.0.1.0",
           "modVersion": "2.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/fv215b_183_2.wotmod",
-          "updatedAt": "2025-10-20T10:54:27.380Z",
+          "updatedAt": "2026-09-12T13:08:03.515Z",
           "sizeBytes": 45568050,
           "fileName": "fv215b_183_2.wotmod",
           "fileExt": ".wotmod",
@@ -20299,7 +20413,7 @@
           "wotGameVersion": "2.0.0.2",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Liquidator_VGBOs7q.wotmod",
-          "updatedAt": "2025-10-04T07:05:29.643Z",
+          "updatedAt": "2026-09-12T13:09:03.874Z",
           "sizeBytes": 40306497,
           "fileName": "Liquidator_VGBOs7q.wotmod",
           "fileExt": ".wotmod",
@@ -20307,7 +20421,7 @@
         }
       ],
       "latest": {
-        "fileName": "Liquidator_CRPCgK7.wotmod",
+        "fileName": "Liquidator_VGBOs7q.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -20424,7 +20538,7 @@
           "wotGameVersion": "2.0.1.1",
           "modVersion": "06",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2rokk.hangar_icons_camo_06.wotmod",
-          "updatedAt": "2025-11-05T14:39:00.801Z",
+          "updatedAt": "2026-09-12T13:08:33.406Z",
           "sizeBytes": 39057420,
           "fileName": "2rokk.hangar_icons_camo_06.wotmod",
           "fileExt": ".wotmod",
@@ -20634,7 +20748,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KR-1_R5ove9f_dNWDocv.wotmod",
-          "updatedAt": "2026-08-19T23:56:02.744Z",
+          "updatedAt": "2026-09-12T12:50:28.301Z",
           "sizeBytes": 48271339,
           "fileName": "KR-1_R5ove9f_dNWDocv.wotmod",
           "fileExt": ".wotmod",
@@ -20730,7 +20844,7 @@
           "wotGameVersion": "2.0.0.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SimpleReticleMod.wotmod",
-          "updatedAt": "2025-09-20T17:46:22.302Z",
+          "updatedAt": "2026-09-12T13:09:33.962Z",
           "sizeBytes": 443485,
           "fileName": "SimpleReticleMod.wotmod",
           "fileExt": ".wotmod",
@@ -20915,7 +21029,7 @@
           "wotGameVersion": "2.0.0.1",
           "modVersion": "1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/OBJ777_II.wotmod",
-          "updatedAt": "2025-09-20T07:38:20.641Z",
+          "updatedAt": "2026-09-12T13:11:04.190Z",
           "sizeBytes": 62196768,
           "fileName": "OBJ777_II.wotmod",
           "fileExt": ".wotmod",
@@ -21150,7 +21264,7 @@
           "wotGameVersion": "2.1.1.0",
           "modVersion": "2.1.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ReplaceMicrochipStyle_06x2jrB.wotmod",
-          "updatedAt": "2026-01-12T06:20:03.502Z",
+          "updatedAt": "2026-09-12T13:03:24.114Z",
           "sizeBytes": 207080,
           "fileName": "ReplaceMicrochipStyle_06x2jrB.wotmod",
           "fileExt": ".wotmod",
@@ -23508,7 +23622,7 @@
           "wotGameVersion": "2.0.1.0",
           "modVersion": "2.0.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pink_sheep_zzKv94p.wotmod",
-          "updatedAt": "2025-10-16T15:49:48.074Z",
+          "updatedAt": "2026-09-12T13:08:25.396Z",
           "sizeBytes": 349561997,
           "fileName": "pink_sheep_zzKv94p.wotmod",
           "fileExt": ".wotmod",
@@ -23516,8 +23630,8 @@
         }
       ],
       "latest": {
-        "fileName": "pink_sheep_5fitzNq.wotmod",
-        "changeLog": "",
+        "fileName": "pink_sheep_zzKv94p.wotmod",
+        "changeLog": "Added Project Babylon map",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -23620,63 +23734,6 @@
       ],
       "latest": {
         "fileName": "GST_Turm_a2Rj5Fp.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7241",
-      "title": "Vz 58 Medved",
-      "ownerUsername": "Inquisitor_117",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>ES: Apóyame suscribiéndote y siguiéndome en Youtube: &nbsp;</p><p>EN: Support me by subscribing and following me on Youtube:<br><br>https://www.youtube.com/@SKINSWORLDOFTANKS</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=yMSEa6rzDyE\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/yMSEa6rzDyE\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>⭐⭐⭐ PREMIUM SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=0PwrOMhj4bI\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/0PwrOMhj4bI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<p>Copy and paste the .wotmod file to :&nbsp;<br><br>Games\\World_of_Tanks\\mods\\Latest game version folder</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/med.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7241/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.0.0.1",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/vz_58_medved_RhX8xH5.wotmod",
-          "updatedAt": "2025-09-20T16:55:47.133Z",
-          "sizeBytes": 50558850,
-          "fileName": "vz_58_medved_RhX8xH5.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.29.1.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/vz_58_medved_yhxmnAJ.wotmod",
-          "updatedAt": "2025-07-28T23:43:57.210Z",
-          "sizeBytes": 50558850,
-          "fileName": "vz_58_medved_yhxmnAJ.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.29.0.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/vz_58_medved.wotmod",
-          "updatedAt": "2025-06-14T16:02:03.109Z",
-          "sizeBytes": 50558850,
-          "fileName": "vz_58_medved.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "vz_58_medved_RhX8xH5.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -24204,7 +24261,7 @@
           "wotGameVersion": "2.1.1.2",
           "modVersion": "2.1.1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T30_skin_for_T34_u7YfpNE.wotmod",
-          "updatedAt": "2026-02-23T11:57:06.084Z",
+          "updatedAt": "2026-09-12T13:02:27.782Z",
           "sizeBytes": 66244069,
           "fileName": "T30_skin_for_T34_u7YfpNE.wotmod",
           "fileExt": ".wotmod",
@@ -24552,7 +24609,7 @@
           "wotGameVersion": "2.1.1.2",
           "modVersion": "2.1.1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LeopardStyle_qLJxYiV.wotmod",
-          "updatedAt": "2026-02-23T11:57:29.167Z",
+          "updatedAt": "2026-09-12T13:02:25.731Z",
           "sizeBytes": 38125097,
           "fileName": "LeopardStyle_qLJxYiV.wotmod",
           "fileExt": ".wotmod",
@@ -24562,7 +24619,7 @@
           "wotGameVersion": "2.1.1.0",
           "modVersion": "2.1.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LeopardStyle_YXbOvez.wotmod",
-          "updatedAt": "2026-01-12T06:14:01.421Z",
+          "updatedAt": "2026-09-12T13:03:32.153Z",
           "sizeBytes": 38125097,
           "fileName": "LeopardStyle_YXbOvez.wotmod",
           "fileExt": ".wotmod",
@@ -24715,7 +24772,7 @@
           "wotGameVersion": "2.1.0.1",
           "modVersion": "2.1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Manticore_z8wRRpA.wotmod",
-          "updatedAt": "2025-12-03T08:03:24.821Z",
+          "updatedAt": "2026-09-12T13:06:33.076Z",
           "sizeBytes": 3717372,
           "fileName": "Manticore_z8wRRpA.wotmod",
           "fileExt": ".wotmod",
@@ -24888,7 +24945,7 @@
           "wotGameVersion": "2.1.0.1",
           "modVersion": "2.1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ChaffeeCamo_0EIkXha.wotmod",
-          "updatedAt": "2025-12-03T08:03:30.055Z",
+          "updatedAt": "2026-09-12T13:06:28.817Z",
           "sizeBytes": 32080556,
           "fileName": "ChaffeeCamo_0EIkXha.wotmod",
           "fileExt": ".wotmod",
@@ -24897,73 +24954,6 @@
       ],
       "latest": {
         "fileName": "ChaffeeCamo_J1bZmsV.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7208",
-      "title": "Chieftain mk6",
-      "ownerUsername": "Inquisitor_117",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>ES: Apóyame suscribiéndote y siguiéndome en Youtube: &nbsp;</p><p>EN: Support me by subscribing and following me on Youtube:<br><br>https://www.youtube.com/@SKINSWORLDOFTANKS</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=f3Cj7Tw1l4g\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/f3Cj7Tw1l4g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>🔥🔥🔥 LUXURY SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Ehh24XqBjSw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Ehh24XqBjSw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>⭐⭐⭐ PREMIUM SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=BqJ3FZ49XE8&amp;t=3s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/BqJ3FZ49XE8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<p>Copy and paste the .wotmod file to :&nbsp;<br><br>Games\\World_of_Tanks\\mods\\Latest game version folder</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CHIEFTAIN.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7208/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.0.0.1",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Chieftain_mk6_zh118IV.wotmod",
-          "updatedAt": "2025-09-20T00:20:56.969Z",
-          "sizeBytes": 56346010,
-          "fileName": "Chieftain_mk6_zh118IV.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.29.1.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Chieftain_mk6_LHjsiem.wotmod",
-          "updatedAt": "2025-07-28T23:43:21.126Z",
-          "sizeBytes": 56346010,
-          "fileName": "Chieftain_mk6_LHjsiem.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.29.0.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Chieftain_mk6_GBvbEYu.wotmod",
-          "updatedAt": "2025-06-14T00:38:52.384Z",
-          "sizeBytes": 56346010,
-          "fileName": "Chieftain_mk6_GBvbEYu.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.28.1.1",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Chieftain_mk6.wotmod",
-          "updatedAt": "2025-05-23T06:24:47.572Z",
-          "sizeBytes": 56346010,
-          "fileName": "Chieftain_mk6.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "Chieftain_mk6_zh118IV.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -25157,73 +25147,6 @@
       "latest": {
         "fileName": "BZ_176_Improved_Model_eqZlZOY.wotmod",
         "changeLog": "NOTHING",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7201",
-      "title": "E75",
-      "ownerUsername": "Inquisitor_117",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>ES: Apóyame suscribiéndote y siguiéndome en Youtube: &nbsp;</p><p>EN: Support me by subscribing and following me on Youtube:<br><br>https://www.youtube.com/@SKINSWORLDOFTANKS</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Osya2nD7AYA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Osya2nD7AYA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>⭐⭐⭐ PREMIUM SKIN:</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=VwL60O9D8c4&amp;t=38s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/VwL60O9D8c4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<p>Copy and paste the .wotmod file to :&nbsp;<br><br>Games\\World_of_Tanks\\mods\\Latest game version folder</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/E75_TWws8Gg.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7201/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.0.0.1",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/E75_Jsg69nL.wotmod",
-          "updatedAt": "2026-09-12T05:13:11.354Z",
-          "sizeBytes": 121311728,
-          "fileName": "E75_Jsg69nL.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.29.1.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/E75_89swVRw.wotmod",
-          "updatedAt": "2025-07-28T23:41:01.033Z",
-          "sizeBytes": 121311728,
-          "fileName": "E75_89swVRw.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.29.0.0",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/E75_Ukw6Jo9.wotmod",
-          "updatedAt": "2025-06-14T01:03:15.041Z",
-          "sizeBytes": 121311728,
-          "fileName": "E75_Ukw6Jo9.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.28.1.1",
-          "modVersion": "1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/E75.wotmod",
-          "updatedAt": "2025-05-22T09:28:00.082Z",
-          "sizeBytes": 121311728,
-          "fileName": "E75.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "E75_Jsg69nL.wotmod",
-        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -25483,7 +25406,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/me.juliette.morevisible_2.3.1.0.wotmod",
-          "updatedAt": "2026-07-14T13:37:39.270Z",
+          "updatedAt": "2026-09-12T13:00:27.197Z",
           "sizeBytes": 598636,
           "fileName": "me.juliette.morevisible_2.3.1.0.wotmod",
           "fileExt": ".wotmod",
@@ -25668,7 +25591,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "Version 1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Obj277-NEW-GEN-ClassicFreeSkin3D_Sx1bqOc.zip",
-          "updatedAt": "2026-08-21T16:52:48.836Z",
+          "updatedAt": "2026-09-12T12:48:19.716Z",
           "sizeBytes": 50632104,
           "fileName": "Obj277-NEW-GEN-ClassicFreeSkin3D_Sx1bqOc.zip",
           "fileExt": ".zip",
@@ -25783,7 +25706,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/British_Crew_hX0bC8N.rar",
-          "updatedAt": "2026-07-15T11:09:51.125Z",
+          "updatedAt": "2026-09-12T12:59:24.859Z",
           "sizeBytes": 12263091,
           "fileName": "British_Crew_hX0bC8N.rar",
           "fileExt": ".rar",
@@ -25801,7 +25724,7 @@
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_rQoKWqj.wotmod",
+        "fileName": "British_Crew_hX0bC8N.rar",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -25869,7 +25792,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/music_interactivesoundMod_w0sZxi9.wotmod",
-          "updatedAt": "2026-07-15T09:46:58.032Z",
+          "updatedAt": "2026-09-12T12:59:22.593Z",
           "sizeBytes": 171196778,
           "fileName": "music_interactivesoundMod_w0sZxi9.wotmod",
           "fileExt": ".wotmod",
@@ -25887,7 +25810,7 @@
         }
       ],
       "latest": {
-        "fileName": "music_interactivesoundMod_CFpieiK.wotmod",
+        "fileName": "music_interactivesoundMod_w0sZxi9.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -26795,7 +26718,7 @@
           "wotGameVersion": "2.1.0.1",
           "modVersion": "2.1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SheridanStyles_JUci7QD.wotmod",
-          "updatedAt": "2025-12-03T08:07:49.471Z",
+          "updatedAt": "2026-09-12T13:06:27.095Z",
           "sizeBytes": 76701214,
           "fileName": "SheridanStyles_JUci7QD.wotmod",
           "fileExt": ".wotmod",
@@ -27188,7 +27111,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "5.2.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HBR_WoT_hPLNPA3.zip",
-          "updatedAt": "2026-07-15T08:54:24.359Z",
+          "updatedAt": "2026-09-12T13:00:31.234Z",
           "sizeBytes": 771549111,
           "fileName": "HBR_WoT_hPLNPA3.zip",
           "fileExt": ".zip",
@@ -27430,7 +27353,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "v1.13",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.13_FNJBUlm.rar",
-          "updatedAt": "2026-08-07T01:14:41.349Z",
+          "updatedAt": "2026-09-12T12:54:59.550Z",
           "sizeBytes": 37373,
           "fileName": "Actual_Lights_v1.13_FNJBUlm.rar",
           "fileExt": ".rar",
@@ -27458,7 +27381,7 @@
         }
       ],
       "latest": {
-        "fileName": "Actual_Lights_v1.13_pmFioNj.rar",
+        "fileName": "Actual_Lights_v1.13_FNJBUlm.rar",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -28152,7 +28075,7 @@
           "wotGameVersion": "2.1.1.2",
           "modVersion": "2.1.1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T62A-Sport_Red_NCfmIEE.wotmod",
-          "updatedAt": "2026-02-23T11:59:53.057Z",
+          "updatedAt": "2026-09-12T13:02:23.771Z",
           "sizeBytes": 33483167,
           "fileName": "T62A-Sport_Red_NCfmIEE.wotmod",
           "fileExt": ".wotmod",
@@ -28268,7 +28191,7 @@
           "wotGameVersion": "2.1.0.1",
           "modVersion": "2.1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T62A_Sport_Blue.wotmod",
-          "updatedAt": "2025-12-03T08:08:01.748Z",
+          "updatedAt": "2026-09-12T13:06:24.765Z",
           "sizeBytes": 33483167,
           "fileName": "T62A_Sport_Blue.wotmod",
           "fileExt": ".wotmod",
@@ -28528,7 +28451,7 @@
           "wotGameVersion": "2.3.0.0",
           "modVersion": "v1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.5.rar",
-          "updatedAt": "2026-06-08T09:16:01.686Z",
+          "updatedAt": "2026-09-12T13:01:31.492Z",
           "sizeBytes": 19398717,
           "fileName": "Lootbox_Tanks_National_Colours_v1.5.rar",
           "fileExt": ".rar",
@@ -28594,7 +28517,7 @@
           "wotGameVersion": "2.1.1.0",
           "modVersion": "2.1.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SixthSense_XJVAyNI.wotmod",
-          "updatedAt": "2026-01-12T06:16:43.382Z",
+          "updatedAt": "2026-09-12T13:03:27.995Z",
           "sizeBytes": 28675,
           "fileName": "SixthSense_XJVAyNI.wotmod",
           "fileExt": ".wotmod",
@@ -28652,7 +28575,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v2.3.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Leopard_1_EOS_1_XZr4MlD.rar",
-          "updatedAt": "2026-08-12T08:23:34.488Z",
+          "updatedAt": "2026-09-12T12:54:29.261Z",
           "sizeBytes": 76636454,
           "fileName": "Leopard_1_EOS_1_XZr4MlD.rar",
           "fileExt": ".rar",
@@ -28662,7 +28585,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "v2.3.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Leopard_1_EOS_1_8BxWoWZ.rar",
-          "updatedAt": "2026-08-10T19:05:52.231Z",
+          "updatedAt": "2026-09-12T12:54:23.412Z",
           "sizeBytes": 76636454,
           "fileName": "Leopard_1_EOS_1_8BxWoWZ.rar",
           "fileExt": ".rar",
@@ -28953,7 +28876,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "2.1.0.2_2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hazber_WOT_for_2.1.0.2_0.2.rar",
-          "updatedAt": "2025-12-19T22:05:34.760Z",
+          "updatedAt": "2026-09-12T13:06:28.791Z",
           "sizeBytes": 83384989,
           "fileName": "Hazber_WOT_for_2.1.0.2_0.2.rar",
           "fileExt": ".rar",
@@ -29107,7 +29030,7 @@
           "wotGameVersion": "2.1.1.0",
           "modVersion": "2.1.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RhmPzw_Z9VnGDN.wotmod",
-          "updatedAt": "2026-01-12T06:18:00.661Z",
+          "updatedAt": "2026-09-12T13:03:26.276Z",
           "sizeBytes": 34952949,
           "fileName": "RhmPzw_Z9VnGDN.wotmod",
           "fileExt": ".wotmod",
@@ -29230,7 +29153,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_FwG42JM.wotmod",
-          "updatedAt": "2026-09-02T09:07:41.347Z",
+          "updatedAt": "2026-09-12T12:45:56.924Z",
           "sizeBytes": 20522106,
           "fileName": "voiceoversoundMod_FwG42JM.wotmod",
           "fileExt": ".wotmod",
@@ -29288,9 +29211,9 @@
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_VnfSy3v.wotmod",
+        "fileName": "voiceoversoundMod_FwG42JM.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -29491,7 +29414,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "2.1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Bobject_jJ5G1nP.wotmod",
-          "updatedAt": "2025-12-19T03:37:38.818Z",
+          "updatedAt": "2026-09-12T13:05:02.832Z",
           "sizeBytes": 56925541,
           "fileName": "Bobject_jJ5G1nP.wotmod",
           "fileExt": ".wotmod",
@@ -29579,7 +29502,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "VERSION 1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/dark.Bourrasque-VALHALLA-ClassicPremium_aWxIiww.wotmod",
-          "updatedAt": "2026-08-15T15:55:31.936Z",
+          "updatedAt": "2026-09-12T12:51:28.550Z",
           "sizeBytes": 69843272,
           "fileName": "dark.Bourrasque-VALHALLA-ClassicPremium_aWxIiww.wotmod",
           "fileExt": ".wotmod",
@@ -29956,7 +29879,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "VERSION 2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CenturionAX-New-Generation-PremiumSkin3D_nWGSdPD.zip",
-          "updatedAt": "2026-08-21T16:49:51.425Z",
+          "updatedAt": "2026-09-12T12:48:23.693Z",
           "sizeBytes": 111128615,
           "fileName": "CenturionAX-New-Generation-PremiumSkin3D_nWGSdPD.zip",
           "fileExt": ".zip",
@@ -30200,7 +30123,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.43.41",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.41.exe",
-          "updatedAt": "2026-08-21T09:11:48.513Z",
+          "updatedAt": "2026-09-12T12:49:19.988Z",
           "sizeBytes": 4428324,
           "fileName": "mod_battle_observer_v1.43.41.exe",
           "fileExt": ".exe",
@@ -30651,7 +30574,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CameraCentered_2.3.1.1.wotmod",
-          "updatedAt": "2026-08-06T14:59:08.481Z",
+          "updatedAt": "2026-09-12T12:55:23.698Z",
           "sizeBytes": 33314,
           "fileName": "CameraCentered_2.3.1.1.wotmod",
           "fileExt": ".wotmod",
@@ -30699,7 +30622,7 @@
         }
       ],
       "latest": {
-        "fileName": "CameraCentered_2.3.1.0.wotmod",
+        "fileName": "CameraCentered_2.3.1.1.wotmod",
         "changeLog": "nothing new",
         "wotGameVersionCompatibility": "risky"
       }
@@ -30998,7 +30921,7 @@
           "wotGameVersion": "2.0.1.0",
           "modVersion": "2.0.1.0_251016",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ContourIcons_PoGs_2.0.1.0_251016_fIc79Nd.zip",
-          "updatedAt": "2025-10-16T07:18:14.451Z",
+          "updatedAt": "2026-09-12T13:08:27.635Z",
           "sizeBytes": 434613960,
           "fileName": "ContourIcons_PoGs_2.0.1.0_251016_fIc79Nd.zip",
           "fileExt": ".zip",
@@ -31134,6 +31057,93 @@
       ],
       "latest": {
         "fileName": "T110E5-and-T110E3-Visual-Refresh-Improved-HD-Models-v1.0.1-2.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6664",
+      "title": "Classic's CS-63 \"Nawałnica\" Remodel",
+      "ownerUsername": "FastestClassic",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Remodel for the CS-63, known as \"Nawałnica\" (\"Tempest\", \"Storm\", or \"Onslaught\"). Originally exclusive to my <a href=\"https://wgmods.net/6621/\">Dakka Plus pack</a>, now available as a standalone mod.</p><p><a href=\"https://classicswotworkshop.weebly.com/\">https://classicswotworkshop.weebly.com/</a></p>",
+      "installationGuideHtml": "<p>To install, drag the included .wotmod file to &lt;Your WoT Directory&gt;\\mods\\&lt;Game Version&gt;.</p><p>(For example: C:\\Games\\World_of_Tanks\\mods\\&lt;version&gt;)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_CS_63_078_dakkaPlus21_PROMO_CiNNhYv.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/6664/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.1.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-2.1.0.1.zip",
+          "updatedAt": "2026-09-12T13:06:02.992Z",
+          "sizeBytes": 22533552,
+          "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-2.1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.0.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-2.0.0.0_OiIlaSv.zip",
+          "updatedAt": "2025-09-11T03:00:08.848Z",
+          "sizeBytes": 22533552,
+          "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-2.0.0.0_OiIlaSv.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.26.1.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.26.1.1.zip",
+          "updatedAt": "2026-09-12T05:23:14.477Z",
+          "sizeBytes": 22533552,
+          "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.26.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.26.0.2",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.26.0.2.zip",
+          "updatedAt": "2026-09-12T09:36:58.536Z",
+          "sizeBytes": 22533552,
+          "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.26.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.26.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.26.0.0.zip",
+          "updatedAt": "2024-09-03T21:23:49.093Z",
+          "sizeBytes": 22533552,
+          "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.26.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.25.0.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.25.0.0.zip",
+          "updatedAt": "2026-09-11T20:16:20.120Z",
+          "sizeBytes": 22533552,
+          "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-1.25.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ClassicsWoTWorkshop-CS-63-Nawalnica-Remodel-v1.0.0-2.1.0.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -31338,7 +31348,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.01.012",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.tankpageopener_1.01.012_2.4.0.0.zip",
-          "updatedAt": "2026-09-02T20:30:05.515Z",
+          "updatedAt": "2026-09-12T12:45:26.797Z",
           "sizeBytes": 515014,
           "fileName": "champi.tankpageopener_1.01.012_2.4.0.0.zip",
           "fileExt": ".zip",
@@ -31492,7 +31502,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "v1.11",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.11.rar",
-          "updatedAt": "2026-08-13T10:05:00.387Z",
+          "updatedAt": "2026-09-12T12:52:24.811Z",
           "sizeBytes": 16569523,
           "fileName": "Mirukiis_FV4206_CTR_AMX_CDA_105_Remodel_v1.11.rar",
           "fileExt": ".rar",
@@ -33690,7 +33700,7 @@
           "wotGameVersion": "1.28.0.1",
           "modVersion": "4.5.25",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/content_Military.zip",
-          "updatedAt": "2025-04-05T16:04:59.209Z",
+          "updatedAt": "2026-09-12T13:13:27.132Z",
           "sizeBytes": 167644037,
           "fileName": "content_Military.zip",
           "fileExt": ".zip",
@@ -33985,7 +33995,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.08.015",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.crewcontrolcenter_1.08.015_2.4.0.0.zip",
-          "updatedAt": "2026-09-02T20:29:24.905Z",
+          "updatedAt": "2026-09-12T12:45:22.767Z",
           "sizeBytes": 534613,
           "fileName": "champi.crewcontrolcenter_1.08.015_2.4.0.0.zip",
           "fileExt": ".zip",
@@ -34352,7 +34362,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_JK2rICD.rar",
-          "updatedAt": "2026-09-03T09:24:08.047Z",
+          "updatedAt": "2026-09-12T12:46:23.081Z",
           "sizeBytes": 46741735,
           "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_JK2rICD.rar",
           "fileExt": ".rar",
@@ -34652,7 +34662,7 @@
           "wotGameVersion": "1.23.1.0",
           "modVersion": "1.0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ClassicsWoTWorkshop-WZ-113G-FT-Remodel-v1.0.3-1.23.1.0_CMfQjBw.zip",
-          "updatedAt": "2024-02-07T03:34:18.884Z",
+          "updatedAt": "2026-09-12T13:31:40.953Z",
           "sizeBytes": 49818827,
           "fileName": "ClassicsWoTWorkshop-WZ-113G-FT-Remodel-v1.0.3-1.23.1.0_CMfQjBw.zip",
           "fileExt": ".zip",
@@ -34689,7 +34699,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "4.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.0.0_Classics_ZorGnome_HRMOD_GunsEngines_Sound_Mod_v4.3.0.zip",
-          "updatedAt": "2026-09-01T16:59:33.952Z",
+          "updatedAt": "2026-09-12T12:46:19.045Z",
           "sizeBytes": 437804512,
           "fileName": "2.4.0.0_Classics_ZorGnome_HRMOD_GunsEngines_Sound_Mod_v4.3.0.zip",
           "fileExt": ".zip",
@@ -34709,7 +34719,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "4.2.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.1.1_Classics_ZorGnome_HRMOD_GunsEngines_Sound_Mod_v4.2.6.zip",
-          "updatedAt": "2026-08-06T10:39:55.838Z",
+          "updatedAt": "2026-09-12T12:55:59.876Z",
           "sizeBytes": 431013690,
           "fileName": "2.3.1.1_Classics_ZorGnome_HRMOD_GunsEngines_Sound_Mod_v4.2.6.zip",
           "fileExt": ".zip",
@@ -35220,7 +35230,7 @@
           "wotGameVersion": "1.25.1.0",
           "modVersion": "1.25.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Katyusha_Sixth_Sense_Arty_Sound_eHWpeWW.zip",
-          "updatedAt": "2024-07-10T09:18:10.359Z",
+          "updatedAt": "2026-09-12T13:23:34.101Z",
           "sizeBytes": 112992,
           "fileName": "Katyusha_Sixth_Sense_Arty_Sound_eHWpeWW.zip",
           "fileExt": ".zip",
@@ -35308,7 +35318,7 @@
           "wotGameVersion": "1.25.1.0",
           "modVersion": "1.25.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nishi_Kinuyo_Sixth_Sense_Arty_Sound_IIMQBBX.zip",
-          "updatedAt": "2024-07-10T09:18:38.426Z",
+          "updatedAt": "2026-09-12T13:23:32.358Z",
           "sizeBytes": 208201,
           "fileName": "Nishi_Kinuyo_Sixth_Sense_Arty_Sound_IIMQBBX.zip",
           "fileExt": ".zip",
@@ -35481,7 +35491,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FastReconnect_HUnt9iR.wotmod",
-          "updatedAt": "2026-08-20T17:39:39.028Z",
+          "updatedAt": "2026-09-12T12:49:23.926Z",
           "sizeBytes": 2567,
           "fileName": "FastReconnect_HUnt9iR.wotmod",
           "fileExt": ".wotmod",
@@ -35529,8 +35539,8 @@
         }
       ],
       "latest": {
-        "fileName": "FastReconnect_spFUV4i.wotmod",
-        "changeLog": "Updated for WoT 2.3.1.0",
+        "fileName": "FastReconnect_HUnt9iR.wotmod",
+        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -35905,7 +35915,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.37",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/War_Mod_GunsV.1.37.rar",
-          "updatedAt": "2026-07-18T13:56:39.058Z",
+          "updatedAt": "2026-09-12T12:58:30.637Z",
           "sizeBytes": 1372952137,
           "fileName": "War_Mod_GunsV.1.37.rar",
           "fileExt": ".rar",
@@ -35923,7 +35933,7 @@
         }
       ],
       "latest": {
-        "fileName": "War_Mod_GunsV.1.37_3r7fkcU.rar",
+        "fileName": "War_Mod_GunsV.1.37.rar",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -36202,7 +36212,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "13",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audioww_U2UeeSh_LLCeyZ4.rar",
-          "updatedAt": "2026-08-20T15:20:25.976Z",
+          "updatedAt": "2026-09-12T12:49:27.964Z",
           "sizeBytes": 21900035,
           "fileName": "audioww_U2UeeSh_LLCeyZ4.rar",
           "fileExt": ".rar",
@@ -36250,8 +36260,8 @@
         }
       ],
       "latest": {
-        "fileName": "audioww_U2UeeSh_r8BjT2b.rar",
-        "changeLog": "updated for patch 2.3.1.1",
+        "fileName": "audioww_U2UeeSh_LLCeyZ4.rar",
+        "changeLog": "updated for patch 2.3.1.3",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -36876,7 +36886,7 @@
           "wotGameVersion": "2.1.0.2",
           "modVersion": "12.25",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/german_heavy_veteran.zip",
-          "updatedAt": "2025-12-25T20:29:10.753Z",
+          "updatedAt": "2026-09-12T13:04:26.374Z",
           "sizeBytes": 274343601,
           "fileName": "german_heavy_veteran.zip",
           "fileExt": ".zip",
@@ -36980,7 +36990,7 @@
           "wotGameVersion": "1.28.0.1",
           "modVersion": "4.4.25",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/G37_Ferdinand_grandpa.zip",
-          "updatedAt": "2025-04-05T16:01:44.472Z",
+          "updatedAt": "2026-09-12T13:13:29.209Z",
           "sizeBytes": 112786934,
           "fileName": "G37_Ferdinand_grandpa.zip",
           "fileExt": ".zip",
@@ -37229,7 +37239,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.69.025",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.littlehelpercollection_1.69.025_2.4.0.0.zip",
-          "updatedAt": "2026-09-02T20:29:43.987Z",
+          "updatedAt": "2026-09-12T12:45:20.775Z",
           "sizeBytes": 616777,
           "fileName": "champi.littlehelpercollection_1.69.025_2.4.0.0.zip",
           "fileExt": ".zip",
@@ -38485,7 +38495,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_T26E5.wotmod",
-          "updatedAt": "2026-07-13T10:49:20.671Z",
+          "updatedAt": "2026-09-12T13:01:23.514Z",
           "sizeBytes": 60423812,
           "fileName": "RazerTecks_T26E5.wotmod",
           "fileExt": ".wotmod",
@@ -39568,7 +39578,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "2.3.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMC_12-Year_Anniversary_Mod_Pack_4B61Z4W.rar",
-          "updatedAt": "2026-08-06T15:46:26.815Z",
+          "updatedAt": "2026-09-12T12:55:21.554Z",
           "sizeBytes": 46626648,
           "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_4B61Z4W.rar",
           "fileExt": ".rar",
@@ -40038,7 +40048,7 @@
           "wotGameVersion": "1.6.0.0",
           "modVersion": "1.6.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_PzBefw_VIB_TigerII_Faust_tKFy9vm.wotmod",
-          "updatedAt": "2019-08-08T12:43:45.441Z",
+          "updatedAt": "2026-09-12T15:11:21.990Z",
           "sizeBytes": 81508617,
           "fileName": "AWW_PzBefw_VIB_TigerII_Faust_tKFy9vm.wotmod",
           "fileExt": ".wotmod",
@@ -40048,6 +40058,53 @@
       "latest": {
         "fileName": "AWW_PzBefw_VIB_TigerII_Faust_kXfHDpg.wotmod",
         "changeLog": "Updated for WoT Version 2.3.1.0",
+        "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2610",
+      "title": "RazerTeck's SU-122-44",
+      "ownerUsername": "RazerTeck",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": 4.6,
+      "descriptionHtml": "<p>New updated version of the old SU-122-44.<br />\nTwo versons are available, with or without sideskirts</p>\n<p>Emblems and inscriptions might not work perfectly.</p>\n<p>~All requests will be ignored~</p>",
+      "installationGuideHtml": "<p>Open the zip file with Winrar or 7-zip and add one of the two wotmod files to Games\\World_of_Tanks\\mods\\current version</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/SU.122.44.PNG.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/2610/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.3.1.0",
+          "modVersion": "1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Razer_Tecks_SU_122-44_Remodel.zip",
+          "updatedAt": "2026-09-12T13:01:01.407Z",
+          "sizeBytes": 119438650,
+          "fileName": "Razer_Tecks_SU_122-44_Remodel.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "1.10.1.3",
+          "modVersion": "1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Razer_Tecks_SU_122-44_Remodel_Y2yYgy4.zip",
+          "updatedAt": "2026-09-11T16:01:00.172Z",
+          "sizeBytes": 119438650,
+          "fileName": "Razer_Tecks_SU_122-44_Remodel_Y2yYgy4.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Razer_Tecks_SU_122-44_Remodel.zip",
+        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -40591,7 +40648,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.3.1.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_AMX30_Intrepid.wotmod",
-          "updatedAt": "2026-07-20T08:52:48.213Z",
+          "updatedAt": "2026-09-12T12:59:22.600Z",
           "sizeBytes": 70457181,
           "fileName": "AWW_AMX30_Intrepid.wotmod",
           "fileExt": ".wotmod",
@@ -40956,7 +41013,7 @@
           "wotGameVersion": "1.6.0.0",
           "modVersion": "1.6.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_Pz_VI_Tiger_Jager_GfEd4Oc.wotmod",
-          "updatedAt": "2019-08-08T12:46:03.688Z",
+          "updatedAt": "2026-09-12T11:41:04.034Z",
           "sizeBytes": 50512045,
           "fileName": "AWW_Pz_VI_Tiger_Jager_GfEd4Oc.wotmod",
           "fileExt": ".wotmod",
@@ -41110,7 +41167,7 @@
           "wotGameVersion": "1.9.0.0",
           "modVersion": "1.9.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_ISU-152-2_Stalins_Hammer.wotmod",
-          "updatedAt": "2020-04-23T08:24:50.371Z",
+          "updatedAt": "2026-09-12T11:02:42.539Z",
           "sizeBytes": 69148042,
           "fileName": "AWW_ISU-152-2_Stalins_Hammer.wotmod",
           "fileExt": ".wotmod",
@@ -41264,7 +41321,7 @@
           "wotGameVersion": "1.10.0.1",
           "modVersion": "1.10.0.1-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_ISU-122S_Stalins_Might_jkO9CfP.wotmod",
-          "updatedAt": "2020-08-25T16:03:06.527Z",
+          "updatedAt": "2026-09-12T14:18:29.928Z",
           "sizeBytes": 67033133,
           "fileName": "AWW_ISU-122S_Stalins_Might_jkO9CfP.wotmod",
           "fileExt": ".wotmod",
@@ -41468,7 +41525,7 @@
           "wotGameVersion": "1.9.0.0",
           "modVersion": "1.9.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_Conway_Viper_TYRev08.wotmod",
-          "updatedAt": "2020-04-23T08:45:52.137Z",
+          "updatedAt": "2026-09-12T11:01:36.521Z",
           "sizeBytes": 125573730,
           "fileName": "AWW_Conway_Viper_TYRev08.wotmod",
           "fileExt": ".wotmod",
@@ -41545,7 +41602,7 @@
           "wotGameVersion": "1.9.0.0",
           "modVersion": "1.9.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_M51_SuperSherman_sbv7MbF.wotmod",
-          "updatedAt": "2020-04-23T08:41:56.379Z",
+          "updatedAt": "2026-09-12T11:02:38.500Z",
           "sizeBytes": 70708654,
           "fileName": "AWW_M51_SuperSherman_sbv7MbF.wotmod",
           "fileExt": ".wotmod",
@@ -41816,7 +41873,7 @@
           "wotGameVersion": "1.9.0.0",
           "modVersion": "1.9.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_CenturionMk5_Victoria_W3olb4f.wotmod",
-          "updatedAt": "2020-04-23T08:53:24.996Z",
+          "updatedAt": "2026-09-12T11:02:34.562Z",
           "sizeBytes": 101012626,
           "fileName": "AWW_CenturionMk5_Victoria_W3olb4f.wotmod",
           "fileExt": ".wotmod",
@@ -42505,7 +42562,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.0.0GIRLS_und_PANZER_UI.wotmod",
-          "updatedAt": "2026-09-02T15:11:49.597Z",
+          "updatedAt": "2026-09-12T12:46:20.867Z",
           "sizeBytes": 638556905,
           "fileName": "2.4.0.0GIRLS_und_PANZER_UI.wotmod",
           "fileExt": ".wotmod",
@@ -42755,7 +42812,7 @@
           "wotGameVersion": "2.3.1.0",
           "modVersion": "2.6.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotinspector.com.battle_assistant.2.6.1_AA7z2Vk.wotmod",
-          "updatedAt": "2026-07-14T12:56:58.305Z",
+          "updatedAt": "2026-09-12T13:00:25.205Z",
           "sizeBytes": 471087,
           "fileName": "wotinspector.com.battle_assistant.2.6.1_AA7z2Vk.wotmod",
           "fileExt": ".wotmod",
@@ -42831,53 +42888,6 @@
       ],
       "latest": {
         "fileName": "RazerTecks_Leopard_PTA.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "961",
-      "title": "RazerTeck's SU 14 2",
-      "ownerUsername": "RazerTeck",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": 4.7,
-      "descriptionHtml": "<p>Modified version of the SU 14 2</p>\n<p>~All requests will be ignored~</p>",
-      "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/SU_14_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/961/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_SU_14-2.wotmod",
-          "updatedAt": "2026-07-13T11:17:28.776Z",
-          "sizeBytes": 67248424,
-          "fileName": "RazerTecks_SU_14-2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.10.1.3",
-          "modVersion": "1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_SU_14-2_soD3MJe.wotmod",
-          "updatedAt": "2020-11-18T17:13:02.728Z",
-          "sizeBytes": 67248424,
-          "fileName": "RazerTecks_SU_14-2_soD3MJe.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "RazerTecks_SU_14-2.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -43445,7 +43455,7 @@
           "wotGameVersion": "2.3.1.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoT_2.3.1.1_CI_removed.zip",
-          "updatedAt": "2026-08-06T13:03:34.681Z",
+          "updatedAt": "2026-09-12T12:55:29.845Z",
           "sizeBytes": 2736389,
           "fileName": "WoT_2.3.1.1_CI_removed.zip",
           "fileExt": ".zip",
@@ -43473,8 +43483,8 @@
         }
       ],
       "latest": {
-        "fileName": "WoT_2.3.1.3_CI_removed.zip",
-        "changeLog": "Updated for 2.3.1.3",
+        "fileName": "WoT_2.3.1.1_CI_removed.zip",
+        "changeLog": "Updated for 2.3.1.1",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -43533,7 +43543,7 @@
           "wotGameVersion": "2.3.1.2",
           "modVersion": "3.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoA_Installer_v3.0_2.3.1.2.exe",
-          "updatedAt": "2026-08-12T10:20:15.596Z",
+          "updatedAt": "2026-09-12T12:53:21.179Z",
           "sizeBytes": 17384947,
           "fileName": "WoA_Installer_v3.0_2.3.1.2.exe",
           "fileExt": ".exe",
