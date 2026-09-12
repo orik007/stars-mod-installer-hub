@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.09.034",
-  "sourceHash": "67125a3bdddd72836bf68def69662c26f6ad04f66d429b35f7419e6f21617117",
+  "catalogVersion": "v2026.09.035",
+  "sourceHash": "7d013ffe1d1b82ef6e0d133d6a96fe27d3672ac5b3357f58a4ef4b72f172c5c4",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7914",
+      "title": "Effect Control — Reduce Effects and Improve FPS",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Effect Control is a performance-focused World of Tanks mod that disables many visual effects which cannot normally be controlled through the game settings.</p><p>Removing unnecessary particles, prefabs, smoke, decals, lighting, and environmental effects can reduce GPU and CPU workload, improve FPS, reduce frame-time spikes, and make busy combat scenes feel smoother. The exact improvement depends on your hardware, map, camera position, and the number of effects occurring.</p><p>All options are available through the included Aslain Mod Menu and are organized into separate combat, environment, and sound columns.</p><p>💥 Combat effects</p><p>You can independently disable:</p><ul><li>New CGF/prefab gun-firing effects</li><li>Traditional muzzle flashes and gun-fire effects</li><li>Ground waves and firing explosions</li><li>Projectile models and tracers</li><li>Shell-impact effects</li><li>Ground-impact marks and decals</li><li>Impact dust, sparks, and particles</li><li>Impact lights</li><li>Water-impact ripples</li><li>New CGF scene-impact effects</li><li>Vehicle-hit particles and prefabs</li><li>Penetration and damage stickers</li><li>HE splash-hit effects</li><li>Collision and ramming particles</li><li>Kill-camera trajectory and impact effects</li></ul><p>Ground-impact marks have their own option. You can keep them visible for detecting blind-shot impacts while disabling the more demanding impact graphics.</p><p>🌲 Vehicle and environment effects</p><p>You can also disable:</p><ul><li>Vehicle dirt accumulation</li><li>Exhaust smoke</li><li>Track, mud, and slipping particles</li><li>Vehicle ambient-occlusion decals</li><li>Vehicle water splashes</li><li>Ambient birds and flocks</li><li>Burning-vehicle flames</li><li>Vehicle destruction and ammunition-rack effects</li><li>Destructible scenery and falling-tree effects</li><li>Broken-track debris</li><li>Special-ability and airstrike area effects</li></ul><p>⚠️ Disabling special-ability effects can remove useful visual warnings.</p><p>🔊 Independent sound controls</p><p>Combat sounds remain enabled by default, even when their corresponding graphics are disabled. Separate controls are provided for:</p><ul><li>Player and enemy gun-fire sounds</li><li>Shell impacts against terrain, water, and scenery</li><li>Penetration, ricochet, and blocked-hit sounds</li><li>Collision and ramming sounds</li></ul><p>This lets you improve performance by removing graphics without making the battle silent.</p><p>⚙️ Defaults and compatibility</p><ul><li>FPS-focused visual suppression is enabled by default.</li><li>Combat sounds remain enabled by default.</li><li>Vehicle outlines remain available.</li><li>Armor flashlight behavior is not modified.</li><li>Includes translations for all 25 supported languages.</li><li>Includes Aslain Mod Menu and OpenWG GameFace.</li></ul><p>The largest improvements should appear during effect-heavy moments with frequent firing, impacts, smoke, moving vehicles, destruction, and explosions. Results vary between systems, and no fixed FPS increase is guaranteed.<br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-09-11_195432079.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7914/",
+      "tagIds": [
+        "17",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.effect_control.2.4.0.0.1.0.1.zip",
+          "updatedAt": "2026-09-12T04:38:52.915Z",
+          "sizeBytes": 1038320,
+          "fileName": "gravity.effect_control.2.4.0.0.1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Bug Fixes"
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.effect_control.2.4.0.0.1.0.1.zip",
+        "changeLog": "Bug Fixes",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7909",
@@ -294,7 +332,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/G114_Rheinmetall_Skorpian_0lewrcQ_LMoYn8g_ZtmNBv0.rar",
-          "updatedAt": "2026-09-06T07:11:04.071Z",
+          "updatedAt": "2026-09-12T04:38:58.921Z",
           "sizeBytes": 6233493,
           "fileName": "G114_Rheinmetall_Skorpian_0lewrcQ_LMoYn8g_ZtmNBv0.rar",
           "fileExt": ".rar",
@@ -368,7 +406,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "0.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.cinematic_freecam.2.4.0.0.0.3.0.wotmod",
-          "updatedAt": "2026-09-05T20:19:49.498Z",
+          "updatedAt": "2026-09-12T04:39:01.048Z",
           "sizeBytes": 25168,
           "fileName": "gravity.cinematic_freecam.2.4.0.0.0.3.0.wotmod",
           "fileExt": ".wotmod",
@@ -2367,8 +2405,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p><strong>A feedback form is now available if you would like to provide feedback on the mod: </strong><a href=\"https://forms.gle/gNq9x4BvmZMzsfmA7\"><strong>https://forms.gle/gNq9x4BvmZMzsfmA7</strong></a><br><br><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><strong>The mod also only fully works Improved Graphics (HD). While Standard Graphics will work, it will be missing the full features of the mod (namely the modified skyboxes) due to limitations.</strong><br><br><br>Like previous Revamped Skies mods, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-4-mod-preview-EYl3r2c\">https://imgur.com/a/wot-revamped-skies-volume-4-mod-preview-EYl3r2c</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><p>I must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance on most maps. This can look off, but various maps includes probes edits that should cause it to reflect the altered skyboxes (at the expense of making water look darker when viewed from higher angles)<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- Various maps feature rain. This reuses assets from the WT Game mode, as well as the probes folders taken from the Rainy Weather mod in Aslain's, credit to Aslain/Pharaon for that. I have also reused some assets from my Aslain's Night Sky Edit, so credit again to Aslain/Pharaon for those.<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: if you're running this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues with the skybox. Do not try to run this alongside any other sky-related mod, or try to run both versions included at the same time</strong></p><p>&nbsp;</p><p>Again this mod is <strong>NOT </strong>intended as a replacement for previous Revamped Skies mods, but simply an additional rework of every map. You can comfortably swap between any of my Revamped Skies mod from time to time to change up the feel of the game.</p>",
       "installationGuideHtml": "<p>To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ModPreviewSmall_dk9AUSm.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3164,7 +3202,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.4.0.0.1.0.6.wotmod",
-          "updatedAt": "2026-09-01T09:41:51.777Z",
+          "updatedAt": "2026-09-12T04:41:53.910Z",
           "sizeBytes": 167564,
           "fileName": "gravity.moe_race_challenge.2.4.0.0.1.0.6.wotmod",
           "fileExt": ".wotmod",
@@ -4760,7 +4798,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "5.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_5.0.0.zip",
-          "updatedAt": "2026-09-02T15:12:04.985Z",
+          "updatedAt": "2026-09-12T04:40:53.612Z",
           "sizeBytes": 1578133,
           "fileName": "MoECalculator_5.0.0.zip",
           "fileExt": ".zip",
@@ -6035,7 +6073,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "0.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/KaucjaDravec_AQQUE8J.wotmod",
-          "updatedAt": "2026-09-05T21:17:44.642Z",
+          "updatedAt": "2026-09-12T04:38:57.044Z",
           "sizeBytes": 20223060,
           "fileName": "KaucjaDravec_AQQUE8J.wotmod",
           "fileExt": ".wotmod",
@@ -6494,7 +6532,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "4.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_t7Ifc5m.exe",
-          "updatedAt": "2026-08-30T10:07:24.135Z",
+          "updatedAt": "2026-09-12T04:42:58.192Z",
           "sizeBytes": 147129858,
           "fileName": "INQ_Pack_Installer_t7Ifc5m.exe",
           "fileExt": ".exe",
@@ -7703,7 +7741,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crosshair.ballistics.info.2.4.0.0.1.5.zip",
-          "updatedAt": "2026-09-01T09:43:02.453Z",
+          "updatedAt": "2026-09-12T04:41:57.901Z",
           "sizeBytes": 157716,
           "fileName": "gravity.crosshair.ballistics.info.2.4.0.0.1.5.zip",
           "fileExt": ".zip",
@@ -9383,7 +9421,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.5.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.autoreloader_overlay.2.4.0.0.1.5.1.zip",
-          "updatedAt": "2026-09-01T09:43:16.213Z",
+          "updatedAt": "2026-09-12T04:41:59.887Z",
           "sizeBytes": 153623,
           "fileName": "gravity.autoreloader_overlay.2.4.0.0.1.5.1.zip",
           "fileExt": ".zip",
@@ -10873,7 +10911,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.4.0.0.1.8.zip",
-          "updatedAt": "2026-09-01T09:43:00.118Z",
+          "updatedAt": "2026-09-12T04:42:01.951Z",
           "sizeBytes": 176250,
           "fileName": "gravity.custom_personal_record.2.4.0.0.1.8.zip",
           "fileExt": ".zip",
@@ -13218,7 +13256,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.10",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.garage_mastery.2.4.0.0.1.10.zip",
-          "updatedAt": "2026-09-01T09:43:32.400Z",
+          "updatedAt": "2026-09-12T04:42:03.958Z",
           "sizeBytes": 159401,
           "fileName": "gravity.garage_mastery.2.4.0.0.1.10.zip",
           "fileExt": ".zip",
@@ -13429,7 +13467,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.8.zip",
-          "updatedAt": "2026-09-05T18:59:02.161Z",
+          "updatedAt": "2026-09-12T04:39:02.943Z",
           "sizeBytes": 253240909,
           "fileName": "WotVSWAPS-V1.8.zip",
           "fileExt": ".zip",
@@ -15366,7 +15404,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2400",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2400.zip",
-          "updatedAt": "2026-09-03T17:13:12.199Z",
+          "updatedAt": "2026-09-12T04:41:01.785Z",
           "sizeBytes": 47367239,
           "fileName": "YaYa_tactical_minimaps2400.zip",
           "fileExt": ".zip",
@@ -26241,7 +26279,7 @@
       ],
       "recommended": true,
       "mark": 4.5,
-      "descriptionHtml": "<p>This mod makes guns recoil faster and finish the cycle significantly faster compared to the vanilla client. The barrel returns to full length in roughly .25s compared to the vanilla values closer to 1 second.</p><p>Realistic Recoil will only work with my other mod (Enhanced 20pdrs) through an option present on Enhanced 20pdrs. Available at https://wgmods.net/6645</p><p>This mod IS compatible with FastestClassic's HRMOD gun sounds.</p><p>Client side only.</p>",
+      "descriptionHtml": "<p>This mod makes guns recoil faster and finish the cycle significantly faster compared to the vanilla client. The barrel returns to full length in roughly .25s compared to the vanilla values closer to 1 second.</p><p>Realistic Recoil will only work with my other mod (Enhanced 20pdrs) through an option present on Enhanced 20pdrs. Available at https://wgmods.net/6645</p><p>This mod IS compatible with FastestClassic's HRMOD gun sounds.</p><p>Client side only.</p><p>Support me on KoFi https://ko-fi.com/badcorps/goal?g=0</p>",
       "installationGuideHtml": "<p>Paste the .wotmod into your [mods] folder under the current patch</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2025-04-12_191756904.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7169/",
@@ -29778,7 +29816,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_dgPOirN.wotmod",
-          "updatedAt": "2026-09-02T09:08:04.584Z",
+          "updatedAt": "2026-09-12T04:41:03.655Z",
           "sizeBytes": 11244582,
           "fileName": "voiceoversoundMod_dgPOirN.wotmod",
           "fileExt": ".wotmod",
@@ -29836,9 +29874,9 @@
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_Yg54RzI.wotmod",
+        "fileName": "voiceoversoundMod_dgPOirN.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31054,7 +31092,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/German_Crew_6Io6joa.rar",
-          "updatedAt": "2026-09-02T15:16:41.025Z",
+          "updatedAt": "2026-09-12T04:41:01.772Z",
           "sizeBytes": 16267926,
           "fileName": "German_Crew_6Io6joa.rar",
           "fileExt": ".rar",
@@ -31112,9 +31150,9 @@
         }
       ],
       "latest": {
-        "fileName": "German_Crew_kZ1Lopz.rar",
+        "fileName": "German_Crew_6Io6joa.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31403,7 +31441,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.2.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.distance_marker_2.2.5.zip",
-          "updatedAt": "2026-09-03T17:22:41.204Z",
+          "updatedAt": "2026-09-12T04:39:53.318Z",
           "sizeBytes": 479416,
           "fileName": "pruszko.distance_marker_2.2.5.zip",
           "fileExt": ".zip",
@@ -31477,7 +31515,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>This mod changes the ingame 20pdr sound to the 85mm sound. This adds more umpf to tanks like the Centurion, Strv 81, Caern AX, and FV4202. Several other vehicles have received upgrades in their sounds such as the Charlemagne and RU 251.</p><p>Realistic Recoil substantially increases the speed of the ingame recoil cycles.<br><br>Unadvised to use other sound mods as this may conflict and cause modded guns to be silent.</p>",
+      "descriptionHtml": "<p>This mod changes the ingame 20pdr sound to the 85mm sound. This adds more umpf to tanks like the Centurion, Strv 81, Caern AX, and FV4202. Several other vehicles have received upgrades in their sounds such as the Charlemagne and RU 251.</p><p>Realistic Recoil substantially increases the speed of the ingame recoil cycles.<br><br>Unadvised to use other sound mods as this may conflict and cause modded guns to be silent.</p><p>Support me on Ko-Fi https://ko-fi.com/badcorps/goal?g=0</p>",
       "installationGuideHtml": "<p>Extract the .zip folder<br>Choose either Enhanced 20pdrs OR Enhanced 20pdrs + Realistic Recoil<br>Copy the corresponding .wotmod<br>Paste the .wotmod into your World of Tanks [mods] folder under the corresponding patch number</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Modpack_Image.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6645/",
@@ -33333,7 +33371,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.8.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unzip.RCamera_2.4.0.0.zip",
-          "updatedAt": "2026-09-03T09:16:44.207Z",
+          "updatedAt": "2026-09-12T04:40:03.325Z",
           "sizeBytes": 34604,
           "fileName": "unzip.RCamera_2.4.0.0.zip",
           "fileExt": ".zip",
@@ -33511,7 +33549,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.4#43",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/TechTree_tAJYfsN.rar",
-          "updatedAt": "2026-09-03T12:32:13.857Z",
+          "updatedAt": "2026-09-12T04:39:59.233Z",
           "sizeBytes": 594017,
           "fileName": "TechTree_tAJYfsN.rar",
           "fileExt": ".rar",
@@ -37121,7 +37159,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/res_mods_zTjIIaz.rar",
-          "updatedAt": "2026-09-02T15:15:50.048Z",
+          "updatedAt": "2026-09-12T04:40:59.578Z",
           "sizeBytes": 22753665,
           "fileName": "res_mods_zTjIIaz.rar",
           "fileExt": ".rar",
@@ -37179,9 +37217,9 @@
         }
       ],
       "latest": {
-        "fileName": "res_mods_MXJZkQl.rar",
+        "fileName": "res_mods_zTjIIaz.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -38236,7 +38274,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/res_mods_f9F2c6a.rar",
-          "updatedAt": "2026-09-02T15:16:25.239Z",
+          "updatedAt": "2026-09-12T04:40:57.457Z",
           "sizeBytes": 14358298,
           "fileName": "res_mods_f9F2c6a.rar",
           "fileExt": ".rar",
@@ -38294,9 +38332,9 @@
         }
       ],
       "latest": {
-        "fileName": "res_mods_cMHVHOw.rar",
+        "fileName": "res_mods_f9F2c6a.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -38533,7 +38571,7 @@
           "wotGameVersion": "1.9.0.0",
           "modVersion": "1.9.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_Strv81_Lollo.wotmod",
-          "updatedAt": "2020-04-23T07:46:09.534Z",
+          "updatedAt": "2026-09-11T21:59:59.362Z",
           "sizeBytes": 93693007,
           "fileName": "AWW_Strv81_Lollo.wotmod",
           "fileExt": ".wotmod",
@@ -39217,7 +39255,7 @@
           "wotGameVersion": "1.9.0.1",
           "modVersion": "0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Japan_old_crew_voices_Lia1sT7.zip",
-          "updatedAt": "2020-04-26T17:58:15.032Z",
+          "updatedAt": "2026-09-11T21:57:57.006Z",
           "sizeBytes": 7619780,
           "fileName": "Japan_old_crew_voices_Lia1sT7.zip",
           "fileExt": ".zip",
@@ -40241,53 +40279,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "2852",
-      "title": "RazerTeck's Tiger P",
-      "ownerUsername": "RazerTeck",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": 4.6,
-      "descriptionHtml": "<p>Modified version of the Tiger P</p>\n<p>Emblems and inscriptions might not work perfectly.</p>\n<p>~All requests will be ignored~</p>",
-      "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/Porsche_Tiger.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/2852/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_Porsche_Tiger.wotmod",
-          "updatedAt": "2026-07-13T10:53:54.257Z",
-          "sizeBytes": 117724692,
-          "fileName": "RazerTecks_Porsche_Tiger.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.10.1.3",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_Porsche_Tiger_5lHXFFY.wotmod",
-          "updatedAt": "2020-11-18T15:00:58.531Z",
-          "sizeBytes": 117724692,
-          "fileName": "RazerTecks_Porsche_Tiger_5lHXFFY.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "RazerTecks_Porsche_Tiger.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "2850",
       "title": "RazerTeck's Tiger 1",
       "ownerUsername": "RazerTeck",
@@ -40329,53 +40320,6 @@
       ],
       "latest": {
         "fileName": "RazerTecks_Tiger_1_qI8iNOt.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "2849",
-      "title": "RazerTeck's AMX ELC bis",
-      "ownerUsername": "RazerTeck",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": 4.7,
-      "descriptionHtml": "<p>Modified version of the AMX ELC bis</p>\n<p>Emblems and inscriptions might not work perfectly.</p>\n<p>~All requests will be ignored~</p>",
-      "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/AMX_ELC_bis.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/2849/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_AMX_ELC_bis.wotmod",
-          "updatedAt": "2026-07-13T10:55:29.081Z",
-          "sizeBytes": 35262342,
-          "fileName": "RazerTecks_AMX_ELC_bis.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.10.1.3",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_AMX_ELC_bis_4eORcU0.wotmod",
-          "updatedAt": "2020-11-18T15:54:04.036Z",
-          "sizeBytes": 35262342,
-          "fileName": "RazerTecks_AMX_ELC_bis_4eORcU0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "RazerTecks_AMX_ELC_bis.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -40470,53 +40414,6 @@
       ],
       "latest": {
         "fileName": "RazerTecks_HT_No.VI_392ilms.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "2785",
-      "title": "RazerTeck's Obj.261",
-      "ownerUsername": "RazerTeck",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Modified version of the Obj.261</p>\n<p>Emblems and inscriptions might not work perfectly.</p>\n<p>~All requests will be ignored~</p>",
-      "installationGuideHtml": "<p>add the wotmod file to Games\\World_of_Tanks\\mods\\current version</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/Obj_261.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/2785/",
-      "tagIds": [
-        "16",
-        "21"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_Obj261.wotmod",
-          "updatedAt": "2026-07-13T10:56:36.396Z",
-          "sizeBytes": 33097064,
-          "fileName": "RazerTecks_Obj261.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "1.10.1.3",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RazerTecks_Obj261_Cd9pQXf.wotmod",
-          "updatedAt": "2020-11-18T15:56:50.177Z",
-          "sizeBytes": 33097064,
-          "fileName": "RazerTecks_Obj261_Cd9pQXf.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "RazerTecks_Obj261.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
@@ -40669,7 +40566,7 @@
           "wotGameVersion": "1.9.0.0",
           "modVersion": "1.9.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_PzBefw_VIB_TigerII_Faust_njPK5xB.wotmod",
-          "updatedAt": "2020-04-23T07:50:36.878Z",
+          "updatedAt": "2026-09-11T21:59:57.596Z",
           "sizeBytes": 81509385,
           "fileName": "AWW_PzBefw_VIB_TigerII_Faust_njPK5xB.wotmod",
           "fileExt": ".wotmod",
@@ -41282,7 +41179,7 @@
           "wotGameVersion": "1.10.0.1",
           "modVersion": "1.10.0.1-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_AMX30_Intrepid_yMibj3P.wotmod",
-          "updatedAt": "2020-08-25T16:03:36.552Z",
+          "updatedAt": "2026-09-11T21:37:51.848Z",
           "sizeBytes": 70462878,
           "fileName": "AWW_AMX30_Intrepid_yMibj3P.wotmod",
           "fileExt": ".wotmod",
@@ -41567,7 +41464,7 @@
           "wotGameVersion": "1.10.0.1",
           "modVersion": "1.10.0.1-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_Pz_VI_Tiger_Jager_Hqnk3p9.wotmod",
-          "updatedAt": "2020-08-25T16:03:23.734Z",
+          "updatedAt": "2026-09-11T21:37:49.590Z",
           "sizeBytes": 50598496,
           "fileName": "AWW_Pz_VI_Tiger_Jager_Hqnk3p9.wotmod",
           "fileExt": ".wotmod",
@@ -41654,7 +41551,7 @@
           "wotGameVersion": "1.10.0.1",
           "modVersion": "1.10.0.1-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_ISU-130_Stalins_Fury_Gx0VUam.wotmod",
-          "updatedAt": "2020-08-25T16:03:11.038Z",
+          "updatedAt": "2026-09-11T21:37:47.809Z",
           "sizeBytes": 63946019,
           "fileName": "AWW_ISU-130_Stalins_Fury_Gx0VUam.wotmod",
           "fileExt": ".wotmod",
@@ -41694,7 +41591,7 @@
           "wotGameVersion": "1.6.0.4",
           "modVersion": "1.6.0.4-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_ISU-130_Stalins_Fury_5jsA2VE.wotmod",
-          "updatedAt": "2019-09-03T12:21:09.714Z",
+          "updatedAt": "2026-09-11T22:35:16.771Z",
           "sizeBytes": 63945429,
           "fileName": "AWW_ISU-130_Stalins_Fury_5jsA2VE.wotmod",
           "fileExt": ".wotmod",
@@ -41925,7 +41822,7 @@
           "wotGameVersion": "1.9.1.0",
           "modVersion": "1.9.1.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_ISU-122S_Stalins_Might.wotmod",
-          "updatedAt": "2020-06-13T15:09:16.107Z",
+          "updatedAt": "2026-09-11T21:53:00.922Z",
           "sizeBytes": 67036213,
           "fileName": "AWW_ISU-122S_Stalins_Might.wotmod",
           "fileExt": ".wotmod",
@@ -41955,7 +41852,7 @@
           "wotGameVersion": "1.6.0.0",
           "modVersion": "1.6.0.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_ISU-122S_Stalins_Might_W3aDDaA.wotmod",
-          "updatedAt": "2019-08-08T12:46:20.079Z",
+          "updatedAt": "2026-09-11T22:40:21.794Z",
           "sizeBytes": 66984692,
           "fileName": "AWW_ISU-122S_Stalins_Might_W3aDDaA.wotmod",
           "fileExt": ".wotmod",
@@ -42176,7 +42073,7 @@
           "wotGameVersion": "1.10.0.1",
           "modVersion": "1.10.0.1-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_M51_SuperSherman.wotmod",
-          "updatedAt": "2020-08-25T16:03:01.888Z",
+          "updatedAt": "2026-09-11T21:37:45.737Z",
           "sizeBytes": 70709816,
           "fileName": "AWW_M51_SuperSherman.wotmod",
           "fileExt": ".wotmod",
@@ -42390,7 +42287,7 @@
           "wotGameVersion": "1.9.1.0",
           "modVersion": "1.9.1.0-0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AWW_CenturionMk5-1_Talisman_v9ZhUC9.wotmod",
-          "updatedAt": "2020-06-13T15:08:49.622Z",
+          "updatedAt": "2026-09-11T21:51:56.888Z",
           "sizeBytes": 129894219,
           "fileName": "AWW_CenturionMk5-1_Talisman_v9ZhUC9.wotmod",
           "fileExt": ".wotmod",
