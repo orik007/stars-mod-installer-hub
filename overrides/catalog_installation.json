@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.036",
+  "catalogVersion": "v2026.09.037",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7912",
+      "title": "nakom sound mod 2.1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "expand the zip file and replace them for the file (quotemine_archer) in res_mod/2.4.0.0/audioww https://youtu.be/4LGiHXtqyYQ?si=Al1OJddtpgXsihlc"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide targets a specific file path under res_mods/<version>/audioww, not the versioned res_mods folder itself.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7910",
+      "title": "Ammo Caliber Tooltip",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Close World of Tanks. The running client keeps the mod files open and will not release them. 2. Copy schaerfl.ammo_caliber_tooltip_01.00.00.wotmod into: <World of Tanks>\\mods\\2.4.0.0\\ Create the folder if it is not there. The folder name must match your client version exactly, otherwise the game will not load the mod. 3. Start the game. To update: delete the older schaerfl.ammo_caliber_tooltip_*.wotmod first. Two versions of the same mod both load and both rewrite the tooltip. To uninstall: delete the .wotmod file. The settings folder at mods\\configs\\schaerfl.ammo_caliber_tooltip\\ can be removed too, or left in place if you plan to reinstall. If the tooltip still shows no caliber, check that Technical Information is enabled under Settings -> Game. That is the client's own switch for the shell details, and without it the tooltip shows the shell kind only."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide clearly says to copy it into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7914",
@@ -6761,21 +6791,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7241",
-      "title": "Vz 58 Medved",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says copy the .wotmod file into World_of_Tanks\\mods\\<current version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7231",
       "title": "Tron KV-4 Style",
       "classificationInput": {
@@ -7016,21 +7031,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7208",
-      "title": "Chieftain mk6",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says copy the .wotmod file into World_of_Tanks\\mods\\<Latest game version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7207",
       "title": "MBT-B",
       "classificationInput": {
@@ -7071,21 +7071,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Package is .wotmod and guide (French) instructs to paste the .wotmod file into mods/<current version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7201",
-      "title": "E75",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says copy the .wotmod file into World_of_Tanks\\mods\\<Latest game version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -7229,13 +7214,13 @@
       "sourceId": "7175",
       "title": "British Crew Sounds From Wot Blitz",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".rar",
         "latestInstallGuide": "Unpack the file, folder mods paste it into the game folder mods/2.1.1.0"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package with target mods/<version>.",
+        "decisionReason": "Archive package and guide points to the versioned mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -8546,6 +8531,21 @@
         "installableByApp": true,
         "decisionReason": "Archive (.zip) and guide directs placing included .wotmod files into <WoT Directory>/mods/<Game Version>; guide also explicitly instructs deleting data.wgpdc if needed.",
         "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6664",
+      "title": "Classic's CS-63 \"Nawałnica\" Remodel",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "To install, drag the included .wotmod file to <Your WoT Directory>\\mods\\<Game Version>. (For example: C:\\Games\\World_of_Tanks\\mods/<version>)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to place the included .wotmod into mods/<version>.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -10801,6 +10801,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "2610",
+      "title": "RazerTeck's SU-122-44",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Open the zip file with Winrar or 7-zip and add one of the two wotmod files to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires choosing one of two .wotmod files, which is a blocking manual package choice.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "2596",
       "title": "RazerTeck's Mod 1",
       "classificationInput": {
@@ -11418,21 +11433,6 @@
       "source": "wgmods",
       "sourceId": "1001",
       "title": "RazerTeck's Leopard PTA",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "961",
-      "title": "RazerTeck's SU 14 2",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
