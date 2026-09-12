@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.037",
+  "catalogVersion": "v2026.09.038",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7917",
+      "title": "AMX CDC WHATSAPP",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Drop the file into mods folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide points to the mods version folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7912",
@@ -982,13 +997,13 @@
       "sourceId": "7817",
       "title": "Блокувальник командирських озвучень/Disable Special Voices",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".rar",
         "latestInstallGuide": "Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU To install the mod, copy the contents of the folder into your game directory: C:\\Games\\World_of_Tanks_EU"
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package with insufficient guide; default to copying into mods/<version>.",
+        "decisionReason": "Archive package and guide says to copy the folder contents into the World of Tanks game directory.",
         "deleteDataWgpdc": false
       }
     },
@@ -1042,13 +1057,13 @@
       "sourceId": "7790",
       "title": "Reload Time Marker - Base Values",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "INSTALLATION Extract the downloaded archive into the main World of Tanks directory while preserving its folder structure. Alternatively, copy: donpedrotv.base_reload_times_*.*.*.wotmod to: [WoT game directory]/mods/[version]/ ---------------------------------------------- Config location file: [WoT game directory]/mods/configs/ReloadReference/config.json Izeberg ModsSettingsAPI is optional. The mod works without it, but the in-garage configuration menu will not be available."
       },
       "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Guide gives multiple install targets: either extract to game root or copy a .wotmod to mods/<version>, plus a config path under mods/configs.",
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide provides a supported alternative target of mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -6791,6 +6806,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7241",
+      "title": "Vz 58 Medved",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7231",
       "title": "Tron KV-4 Style",
       "classificationInput": {
@@ -7031,8 +7061,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7207",
-      "title": "MBT-B",
+      "sourceId": "7208",
+      "title": "Chieftain mk6",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
@@ -7040,7 +7070,7 @@
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is .wotmod and guide explicitly says copy the .wotmod file into World_of_Tanks\\mods\\<Latest game version>.",
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -7147,6 +7177,21 @@
         "installableByApp": true,
         "decisionReason": "Package is a .wotmod and guide explicitly instructs to copy the .wotmod into /mods/<version> and to delete data.wgpdc.",
         "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7184",
+      "title": "Lion",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -7316,21 +7361,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7141",
-      "title": "T110E4",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7156",
       "title": "Web Modpack",
       "classificationInput": {
@@ -7361,8 +7391,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7121",
-      "title": "Jagdpanther II",
+      "sourceId": "7122",
+      "title": "Chieftain P",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
@@ -7370,7 +7400,7 @@
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Package is a .wotmod and guide directs copying the .wotmod into the game's mods/latest version folder.",
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -10816,21 +10846,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "2596",
-      "title": "RazerTeck's Mod 1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "open the zip file with Winrar or 7-zip and add one of the two wotmod files to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive package targets mods/<version> but requires choosing one of two .wotmod files.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "2564",
       "title": "RazerTeck's Progetto M35 mod. 46",
       "classificationInput": {
@@ -10856,6 +10871,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2432",
+      "title": "RazerTeck's ISU-152",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -10962,21 +10992,6 @@
         "installableByApp": true,
         "decisionReason": "Package is a .wotmod and guide explicitly says to copy the .wotmod into World_of_Tanks\\mods\\$VERSION; guide also instructs deleting data.wgpdc.",
         "deleteDataWgpdc": true
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "1921",
-      "title": "RazerTeck's Firefly IC",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
       }
     },
     {
@@ -11251,21 +11266,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "1368",
-      "title": "RazerTeck's HWK 12",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "434",
       "title": "WOTInspector HD minimaps",
       "classificationInput": {
@@ -11296,8 +11296,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "1293",
-      "title": "RazerTeck's M4 Sherman",
+      "sourceId": "1295",
+      "title": "RazerTeck's M4A3E8 V2",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
@@ -11305,7 +11305,7 @@
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -11371,21 +11371,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "1174",
-      "title": "RazerTeck's LeFH18B2",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "1130",
       "title": "RazerTeck's Fury",
       "classificationInput": {
@@ -11441,6 +11426,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "961",
+      "title": "RazerTeck's SU 14 2",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -11506,21 +11506,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "884",
-      "title": "RazerTeck's Firefly",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "885",
       "title": "RazerTeck's FV4202",
       "classificationInput": {
@@ -11551,38 +11536,8 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "887",
-      "title": "RazerTeck's SU-122-44",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "889",
       "title": "RazerTeck's VK 30.02M",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "890",
-      "title": "RazerTeck's VK 45.03",
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
