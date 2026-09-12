@@ -14,7 +14,7 @@ No manual downloads. No rerunning a mod installer after every update. No copying
 
 Stars Mod Installer is currently in **alpha**. Some things may still change, and some mods may not be supported yet.
 
-Found a bug or have an idea? Join us on [Discord](https://discord.gg/CyeFA8T4UP) and let us know.
+Found a bug or have an idea? Join us on [Discord](https://discord.com/invite/yYyep74YHh) and let us know.
 
 ## Screenshots
 
