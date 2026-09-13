@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.039",
+  "catalogVersion": "v2026.09.040",
   "mods": [
     {
       "source": "wgmods",
@@ -7076,6 +7076,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7207",
+      "title": "MBT-B",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy and paste the .wotmod file to : Games\\World_of_Tanks\\mods\\Latest game version folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7204",
       "title": "WOTInspector Heatmaps",
       "classificationInput": {
@@ -10771,6 +10786,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "2786",
+      "title": "RazerTeck's Hummel",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide targets mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "2787",
       "title": "RazerTeck's HT No.VI",
       "classificationInput": {
@@ -10841,6 +10871,21 @@
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
         "decisionReason": "Archive guide requires choosing one of two .wotmod files, which is a blocking manual package choice.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2596",
+      "title": "RazerTeck's Mod 1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "open the zip file with Winrar or 7-zip and add one of the two wotmod files to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive package requires choosing one of two .wotmod files before copying to mods/<version>, which is a blocking manual choice.",
         "deleteDataWgpdc": false
       }
     },
