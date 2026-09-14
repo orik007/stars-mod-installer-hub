@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.042",
+  "catalogVersion": "v2026.09.043",
   "mods": [
     {
       "source": "wgmods",
@@ -10696,6 +10696,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "2849",
+      "title": "RazerTeck's AMX ELC bis",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "2786",
       "title": "RazerTeck's Hummel",
       "classificationInput": {
@@ -10736,21 +10751,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/current version.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "2784",
-      "title": "RazerTeck's M4 Improved",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to the current version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -10856,6 +10856,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod file and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2351",
+      "title": "RazerTeck's IS (IS-2 mod 1943)",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "add the wotmod file to Games\\World_of_Tanks\\mods\\current version"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
