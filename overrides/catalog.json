@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.09.044",
-  "sourceHash": "a17cccb969856fd6d1b2b6a7a652af25931f227a7ef6463a5f437d3ecf8b0292",
+  "catalogVersion": "v2026.09.045",
+  "sourceHash": "391fc4a266b1511c3a3f4553b0591d5319a424737fd216bd5c533db94213b0dd",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7907",
+      "title": "InsigniaOnGun",
+      "ownerUsername": "maxcubeek",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A cosmetic mod for <strong>World of Tanks</strong> that renders the number of Marks of Excellence you choose on the gun barrel — even if the tank actually has 0% marks.</p><p>The mod is <strong>purely visual and client-side</strong>: nothing is sent to the server, and no game files are modified. Other players will always see your real mark count.<br><br><strong>Configuration</strong></p><p>To change the number of displayed marks, or to toggle their display for allies/enemies, you'll need one of the following:</p><ul><li><strong>ModsSettingsApi</strong> - if you use modpacks, you most likely already have it installed;</li><li>or the optional config from <a href=\"https://github.com/sheshiver/InsigniaOnGun\">this repository</a>.</li></ul><blockquote><p>Original idea and code - the mod_InsigniaOnGun.py mod by <a href=\"https://github.com/PolyacovYury\">Polyacov_Yury</a> from the <a href=\"https://github.com/PolyacovYury/PYmods\">PYmods</a> repository.</p><p>The author archived his repository and allowed others to adapt his mods for current game versions or continue developing the idea. This repository is an adaptation of the mod for the current version of World of Tanks.</p></blockquote>",
+      "installationGuideHtml": "<h2>Installation</h2><p>Copy the .wotmod file into your client's mods folder:</p><p>World_of_Tanks/mods/&lt;client_version&gt;/</p><p>By default, the mod displays <strong>3 marks</strong>.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/5e6218c6-c6db-42df-a4f6-80ef2b57922b.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7907/",
+      "tagIds": [
+        "16",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sheshiver.insigniaongun_2.1.0_hr3t6VV.wotmod",
+          "updatedAt": "2026-09-14T13:16:26.823Z",
+          "sizeBytes": 11359,
+          "fileName": "sheshiver.insigniaongun_2.1.0_hr3t6VV.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "sheshiver.insigniaongun_2.1.0_hr3t6VV.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7920",
@@ -6449,18 +6487,28 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.0.2.4.3.wotmod",
-          "updatedAt": "2026-09-10T18:33:03.018Z",
-          "sizeBytes": 1215832,
-          "fileName": "gravity.camo_selector.2.4.0.0.2.4.3.wotmod",
+          "modVersion": "2.4.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector_live.2.4.0.0.2.4.5.wotmod",
+          "updatedAt": "2026-09-14T18:32:18.815Z",
+          "sizeBytes": 602522,
+          "fileName": "gravity.camo_selector_live.2.4.0.0.2.4.5.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Improved Exterior loading speed; added Replay Animations for supported animated styles and 3D attachments, with previews generated automatically from installed game files; improved attachment preview updates; reduced unnecessary network-timeout error reports; removed the redundant Exterior Creations shortcut and obsolete configuration-path support."
+          "changeLog": "Fixed an issue that prevented players from using Apply & Exit when applying a valid style or camouflage to a compatible vehicle."
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.0.2.4.4.wotmod",
+          "updatedAt": "2026-09-14T15:18:35.108Z",
+          "sizeBytes": 1216262,
+          "fileName": "gravity.camo_selector.2.4.0.0.2.4.4.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Reuse the local-asset catalog across saved-outfit item lookups instead of rescanning the asset index and files for every component. Supported asset writes still invalidate and rebuild the catalog  before the next lookup."
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.0.0.2.4.3.wotmod",
-        "changeLog": "Improved Exterior loading speed; added Replay Animations for supported animated styles and 3D attachments, with previews generated automatically from installed game files; improved attachment preview updates; reduced unnecessary network-timeout error reports; removed the redundant Exterior Creations shortcut and obsolete configuration-path support.",
+        "fileName": "gravity.camo_selector_live.2.4.0.0.2.4.5.wotmod",
+        "changeLog": "Fixed an issue that prevented players from using Apply & Exit when applying a valid style or camouflage to a compatible vehicle.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -16586,7 +16634,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.6,
       "descriptionHtml": "<h2>ENJOY WITH old battle results</h2><p>Replaces the new WoT 2.0 battle results screen with the previous layout.</p>",
       "installationGuideHtml": "<p>Copy wotmod file into mods/&lt;version&gt; folder</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/G9_K3OyacAAo8uL.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -38653,16 +38701,6 @@
           "fileName": "FDMOD_EN_4.35.zip",
           "fileExt": ".zip",
           "changeLog": "support last wot client 1.20.0.1"
-        },
-        {
-          "wotGameVersion": "1.19.1.0",
-          "modVersion": "4.33",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FDMOD_EN_4.33.zip",
-          "updatedAt": "2023-01-19T07:47:59.296Z",
-          "sizeBytes": 55569570,
-          "fileName": "FDMOD_EN_4.33.zip",
-          "fileExt": ".zip",
-          "changeLog": "fixed xvm , more mods updated."
         }
       ],
       "latest": {

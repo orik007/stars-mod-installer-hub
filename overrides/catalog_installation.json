@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.044",
+  "catalogVersion": "v2026.09.045",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7907",
+      "title": "InsigniaOnGun",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Installation Copy the .wotmod file into your client's mods folder: World_of_Tanks/mods/<client_version>/ By default, the mod displays 3 marks ."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7920",
