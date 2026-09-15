@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.09.045",
-  "sourceHash": "391fc4a266b1511c3a3f4553b0591d5319a424737fd216bd5c533db94213b0dd",
+  "catalogVersion": "v2026.09.046",
+  "sourceHash": "b8aa0e5a5c08036bdf90f7d1cf94b53b4a52d6d2c1e4fb31bb1ad596e5a1329d",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7919",
+      "title": "AMX CDC WHATSAPP | HD VERSION",
+      "ownerUsername": "Jajamiomate_JA",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>AEMIKS CEDECEE</p>",
+      "installationGuideHtml": "<p>Drop the file into mods folder</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/amxcdc_GSIFXEE.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7919/",
+      "tagIds": [
+        "16"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/amx_cdc_whatsapp_hd.wotmod",
+          "updatedAt": "2026-09-15T08:18:44.983Z",
+          "sizeBytes": 20434878,
+          "fileName": "amx_cdc_whatsapp_hd.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "amx_cdc_whatsapp_hd.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7907",
@@ -67,6 +103,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.0_1.1.zip",
+          "updatedAt": "2026-09-15T08:16:51.146Z",
+          "sizeBytes": 428002,
+          "fileName": "Z4imon.platoon_header_2.4.0_1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "The Platoon window is now moveable when activated in the settings"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.0_1.0_nZ8LAHT.zip",
           "updatedAt": "2026-09-13T18:40:16.349Z",
@@ -77,8 +123,8 @@
         }
       ],
       "latest": {
-        "fileName": "Z4imon.platoon_header_2.4.0_1.0_nZ8LAHT.zip",
-        "changeLog": "",
+        "fileName": "Z4imon.platoon_header_2.4.0_1.1.zip",
+        "changeLog": "The Platoon window is now moveable when activated in the settings",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -13173,16 +13219,6 @@
           "fileName": "commander_selector_1.3.4.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Added Far Cry Commanders"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.0.wotmod",
-          "updatedAt": "2026-06-22T14:53:29.797Z",
-          "sizeBytes": 726424,
-          "fileName": "commander_selector_1.3.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Reverted to a single .wotmod file instead of a zip file with two files."
         }
       ],
       "latest": {
@@ -29905,7 +29941,7 @@
       ],
       "recommended": true,
       "mark": 3.9,
-      "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=I6F6BUIbAdU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/I6F6BUIbAdU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
+      "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OitHDzsJdBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OitHDzsJdBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6811/",
@@ -32466,7 +32502,7 @@
           "wotGameVersion": "2.3.1.3",
           "modVersion": "2.2.01",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.15.1_simcvPJ.zip",
-          "updatedAt": "2026-08-20T05:25:27.751Z",
+          "updatedAt": "2026-09-15T10:31:01.006Z",
           "sizeBytes": 7834550,
           "fileName": "tomatogg_2026.08.15.1_simcvPJ.zip",
           "fileExt": ".zip",
