@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.09.046",
-  "sourceHash": "b8aa0e5a5c08036bdf90f7d1cf94b53b4a52d6d2c1e4fb31bb1ad596e5a1329d",
+  "catalogVersion": "v2026.09.047",
+  "sourceHash": "8f57fbd6f1aa475b8b8c4efa6a9d9bf478e7e32c447f1116f16eff3e8aa8bb41",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7922",
+      "title": "6th sense 10-11-12 seconds audio",
+      "ownerUsername": "kismat",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><a href=\"https://github.com/kizmat/wot-sixth-sense-timer/\">Source</a><br><br>Sixth Sense Tick Timer for World of Tanks</p><p>Exact 12-second audio sequence, with a unique tone for the 10th, 11th, and 12th second.</p><p>Automatically starts when Sixth Sense activates</p><p>\n</p>",
+      "installationGuideHtml": "<ol><li>Close World of Tanks.</li><li>Open your World of Tanks installation directory.</li><li>Typical Steam installation:</li><li>C:\\Program Files (x86)\\Steam\\steamapps\\common\\World of Tanks\\</li><li>Open: mods\\&lt;current_game_version&gt;\\</li><li>Copy the supplied .wotmod file into the folder.</li></ol><p>Example:</p><p>World of Tanks\\ └── mods\\ &nbsp; &nbsp;└── &lt;current_game_version&gt;\\ &nbsp; &nbsp; &nbsp; &nbsp;└── SixthSenseTickTimer.wotmod</p><p>Do not extract the .wotmod file.</p><blockquote><p>After a World of Tanks update, you may need to move or reinstall the mod into the newly created version folder.</p></blockquote><p>Enable the Sound</p><ol><li>Start World of Tanks and open:</li><li>Settings → Sound → Sixth Sense Activation Sound → User sound</li><li>Select: User sound</li></ol><h2>Troubleshooting</h2><p>If the sound does not play:</p><ol><li>Confirm the file is inside: mods\\&lt;current_game_version&gt;\\</li><li>Did you enable user sound in settings?</li></ol><h2>Uninstallation</h2><p>Delete the mod from:</p><p>mods\\&lt;current_game_version&gt;\\</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_compressed.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7922/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/panda.crunchy_sixthsense_1.0.0.wotmod",
+          "updatedAt": "2026-09-15T13:18:31.844Z",
+          "sizeBytes": 435650,
+          "fileName": "panda.crunchy_sixthsense_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "panda.crunchy_sixthsense_1.0.0.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7919",
@@ -374,6 +410,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "2.4.0.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA_CN_Icons.2.4.0.0.1_gEnRSgm.zip",
+          "updatedAt": "2026-09-15T13:18:42.632Z",
+          "sizeBytes": 12626558,
+          "fileName": "ASMA_CN_Icons.2.4.0.0.1_gEnRSgm.zip",
+          "fileExt": ".zip",
+          "changeLog": "1/标准版图标进行了微调。\n2/新增装甲值版。"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA_Icons.2.4.0.0.CN.zip",
           "updatedAt": "2026-09-09T07:22:09.326Z",
@@ -384,8 +430,8 @@
         }
       ],
       "latest": {
-        "fileName": "ASMA_Icons.2.4.0.0.CN.zip",
-        "changeLog": "",
+        "fileName": "ASMA_CN_Icons.2.4.0.0.1_gEnRSgm.zip",
+        "changeLog": "1/标准版图标进行了微调。\n2/新增装甲值版。",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1048,9 +1094,9 @@
       ],
       "recommended": true,
       "mark": 4.7,
-      "descriptionHtml": "<p>🔍 <strong>Vehicle Stat Inspector</strong> expands the Vehicle Hub with detailed, configuration-aware statistics normally hidden from view.</p><p>🚗 <strong>Vehicle Modes</strong></p><p>• Switch between supported travel, siege, rapid, Engagement, Turbo, Pillbox, Power Mode, rocket acceleration, rechargeable Nitro, staged booster, Concentration, Wheeled Dash, Low Charge Shot, and other descriptor-backed states<br>• See firepower, mobility, concealment, spotting, and shell statistics update for the selected mode<br>• Preview each state without changing the vehicle’s actual garage or battle mode</p><p>🧪 <strong>Loadout Sandbox</strong></p><p>• Build hypothetical configurations without modifying your vehicle, inventory, or account<br>• Experiment with compatible equipment variants and stages, consumables, directives, boosted slots, crew perks, and field modifications<br>• Configure Tier XI vehicle skill trees with native artwork and prerequisite-aware selection<br>• Restore the current configuration or remove all sandbox selections at any time</p><p>⚙️ <strong>Effective Mobility</strong></p><p>• Effective traverse speed on firm, medium, and soft terrain<br>• Estimated forward and reverse speed for each terrain type<br>• Ground-resistance values<br>• Detailed breakdowns of active bonuses and modifiers</p><p>🎯 <strong>Gun Handling</strong></p><p>• Gun caliber and ammunition capacity<br>• Reload time, rate of fire, and average damage per minute<br>• Shell-switching time when Intuition is active<br>• Dispersion while moving and during hull or turret rotation<br>• Dispersion after firing and with a damaged gun<br>• Aiming time and gun-traverse values</p><p>💥 <strong>Shell Details</strong></p><p>• Select which shell drives the primary damage, penetration, and DPM values<br>• Average damage and penetration for every shell<br>• Distance-adjusted penetration at 500 metres where applicable<br>• Shell velocity, module damage, and maximum range<br>• Normalization and ricochet angles</p><p>👁️ <strong>Spotting and Concealment</strong></p><p>• View range and signal range<br>• Stationary, moving, and after-firing concealment<br>• Spotting duration and applicable notification delays<br>• Relevant crew-perk, equipment, consumable, and directive effects</p><p>🛡️ <strong>Survivability</strong></p><p>• Vehicle hit points and separate hull- and turret-armor values<br>• Health of the ammunition rack, engine, fuel tanks, tracks, gun, turret ring, optics, and radio<br>• Engine fire chance<br>• Relevant projectile and explosion critical-damage probabilities</p><p>🔧 <strong>Configuration Breakdowns</strong></p><p>Hover over or focus supported statistics to compare the current setup with its configured baseline. See how crew perks, equipment, consumables, directives, field modifications, vehicle upgrades, and conditional effects influence each value.</p><p>🎯 <strong>Armor Inspector Integration</strong></p><p>• Supports the native Shell Calibration model for attacker shells<br>• Adds attacker-mode switching for supported vehicles without changing the selected defender</p><p>🌍 Includes full support for <strong>19 languages</strong>.</p><p>📦 The required <strong>GameFace framework</strong> and optional <strong>Error Reporter</strong> are included in the download.</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "descriptionHtml": "<p>🔍 <strong>Vehicle Stat Inspector</strong> expands the Vehicle Hub with detailed statistics that reflect your selected vehicle mode and loadout.</p><p>🚗 <strong>Vehicle Modes</strong><br>• Preview supported travel, siege, rapid, engagement, turbo, pillbox, and other vehicle-specific states<br>• Explore mechanics such as rocket acceleration, Nitro, staged boosters, Concentration, Wheeled Dash, and Low Charge Shot where supported<br>• See statistics update without changing your vehicle’s actual garage or battle mode</p><p>🧪 <strong>Loadout Sandbox</strong><br>• Experiment with equipment variants and stages, consumables, directives, boosted slots, crew perks, and field modifications<br>• Configure Tier XI upgrade trees with native artwork and prerequisite-aware selection<br>• Hover over field modifications and upgrades to see calculated before → after statistics, including prerequisite and dependent upgrade effects<br>• Adjust opacity with a saved slider: the background fades first, then text, icons, and borders below the marked 50% threshold<br>• Restore your current configuration or remove sandbox bonuses without changing your vehicle, inventory, or account</p><p>⚙️ <strong>Effective Mobility</strong><br>• Effective traverse speed on firm, medium, and soft terrain<br>• Estimated forward and reverse speeds for each terrain type<br>• Ground resistance and detailed modifier breakdowns</p><p>🎯 <strong>Gun Handling</strong><br>• Caliber, ammunition capacity, reload time, rate of fire, and DPM<br>• Shell-switching time with Intuition<br>• Dispersion during movement and hull or turret rotation<br>• Dispersion after firing and with a damaged gun<br>• Aiming time and gun-traverse values</p><p>💥 <strong>Shell Details</strong><br>• Choose which shell determines primary damage, penetration, and DPM<br>• Compare damage, penetration, velocity, module damage, and range<br>• Inspect penetration at 500 metres, normalization, and ricochet angles<br>• View distance-dependent damage, explosion radius, and stun duration where applicable</p><p>👁️ <strong>Spotting and Concealment</strong><br>• View range, signal range, and stationary, moving, and after-firing concealment<br>• Spotting duration, notification delays, and relevant loadout effects</p><p>🛡️ <strong>Survivability</strong><br>• Vehicle HP and separate hull- and turret-armor values<br>• Module health, including damaged-state repair thresholds<br>• Engine fire chance and applicable critical-damage probabilities</p><p>🔧 <strong>Configuration Breakdowns</strong><br>Hover over or focus supported statistics to inspect individual contributions from crew, equipment, consumables, and directives. See how field modifications and vehicle upgrades change the baseline, and explore conditional perk effects.</p><p>🎯 <strong>Armor Inspector Integration</strong><br>• Supports native Shell Calibration for attacker shells<br>• Adds supported attacker-mode switching while preserving the selected defender</p><p>🌍 Available in <strong>19 languages</strong>.<br>📦 Required <strong>GameFace framework</strong> and optional <strong>Error Reporter</strong> included in the download.</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-28_182602822.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-09-15_180814102.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7875/",
       "tagIds": [
         "18",
@@ -1059,18 +1105,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.4.0.0.1.0.5.zip",
-          "updatedAt": "2026-09-11T12:50:10.076Z",
-          "sizeBytes": 554539,
-          "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.1.0.5.zip",
+          "modVersion": "2.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.4.0.0.2.0.1.zip",
+          "updatedAt": "2026-09-15T16:29:01.257Z",
+          "sizeBytes": 756137,
+          "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.2.0.1.zip",
           "fileExt": ".zip",
-          "changeLog": "Added gun caliber, ammunition capacity, and penetration at 500 meters to the vehicle statistics. Improved Firepower ordering and shell-selection presentation. Added Shell Calibration support to Armor Inspector. Added a vanilla-style attacker shell-mode switch for vehicles such as the Pz.Kpfw. Neu. Added native-style Tier XI upgrades to the Loadout Sandbox. Selecting an advanced Tier XI upgrade now automatically activates its prerequisites; selecting the final upgrade activates the complete tree. Tier XI upgrade trees now scale to fit without scrolling. Restored native field-modification level and upgrade icons. Made sandbox selections respond immediately while statistics recalculate in the background. Significantly improved Loadout Sandbox scrolling speed. Improved compatibility with World of Tanks 2.4."
+          "changeLog": "Improved translation a bit."
         }
       ],
       "latest": {
-        "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.1.0.5.zip",
-        "changeLog": "Added gun caliber, ammunition capacity, and penetration at 500 meters to the vehicle statistics. Improved Firepower ordering and shell-selection presentation. Added Shell Calibration support to Armor Inspector. Added a vanilla-style attacker shell-mode switch for vehicles such as the Pz.Kpfw. Neu. Added native-style Tier XI upgrades to the Loadout Sandbox. Selecting an advanced Tier XI upgrade now automatically activates its prerequisites; selecting the final upgrade activates the complete tree. Tier XI upgrade trees now scale to fit without scrolling. Restored native field-modification level and upgrade icons. Made sandbox selections respond immediately while statistics recalculate in the background. Significantly improved Loadout Sandbox scrolling speed. Improved compatibility with World of Tanks 2.4.",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.0.0.2.0.1.zip",
+        "changeLog": "Improved translation a bit.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2650,16 +2696,6 @@
           "fileName": "hangar_carousel_classic_1.0.16_full.zip",
           "fileExt": ".zip",
           "changeLog": "- Fixed some reapply and scaling bugs"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.0.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.8_full.zip",
-          "updatedAt": "2026-09-11T19:19:53.171Z",
-          "sizeBytes": 948928,
-          "fileName": "hangar_carousel_classic_1.0.8_full.zip",
-          "fileExt": ".zip",
-          "changeLog": "Changes\nAdded compatibility fixes for World of Tanks 2.3.1.3\nUpdated native carousel patch support for the current Gameface bundle\nImproved full-package build automation to detect the active client root automatically\nRemoved hardcoded 2.3.1.2 dependency assumptions\nImproved dependency resolution for Gameface and ModsSettingsAPI\nBumped mod version metadata to 1.0.8\n\nTechnical details\nThe native carousel patch includes the new 2.3.1.3 bundle hash and the updated UI references used by the current game build."
         }
       ],
       "latest": {
@@ -16716,16 +16752,6 @@
           "updatedAt": "2026-09-11T13:56:10.292Z",
           "sizeBytes": 17368,
           "fileName": "cilda.oldBattleResults_1.0.7_2FzEngc.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cilda.oldBattleResults_1.0.7_7gdRSTW.wotmod",
-          "updatedAt": "2026-06-14T12:55:28.524Z",
-          "sizeBytes": 17368,
-          "fileName": "cilda.oldBattleResults_1.0.7_7gdRSTW.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -36544,7 +36570,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p>Guns Sound Mod</p><p>&nbsp;</p><p>Sounds of guns of different calibers</p><p>If you appreciate my work and input, you can support me :</p><p><a href=\"https://wgmods.net/5178/\">War Mod</a></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory, the res_mods folder</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/2560x1600_pfcP2a2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
