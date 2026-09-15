@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.046",
+  "catalogVersion": "v2026.09.047",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7922",
+      "title": "6th sense 10-11-12 seconds audio",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Close World of Tanks. Open your World of Tanks installation directory. Typical Steam installation: C:\\Program Files (x86)\\Steam\\steamapps\\common\\World of Tanks\\ Open: mods\\<current_game_version>\\ Copy the supplied .wotmod file into the folder. Example: World of Tanks\\ └── mods\\ └── <current_game_version>\\ └── SixthSenseTickTimer.wotmod Do not extract the .wotmod file. After a World of Tanks update, you may need to move or reinstall the mod into the newly created version folder. Enable the Sound Start World of Tanks and open: Settings → Sound → Sixth Sense Activation Sound → User sound Select: User sound Troubleshooting If the sound does not play: Confirm the file is inside: mods\\<current_game_version>\\ Did you enable user sound in settings? Uninstallation Delete the mod from: mods\\<current_game_version>\\"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": ".wotmod package and guide clearly says to copy the file into mods/<current_game_version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7919",
