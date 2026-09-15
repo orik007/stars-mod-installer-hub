@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.047",
+  "catalogVersion": "v2026.09.048",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7842",
+      "title": "Poppy Field Hangar (Remembrance Day)",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right: 2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG): 3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation: *the Hangar Switcher must be downloaded to activate the hangar in the game"
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7922",
@@ -374,6 +389,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package with empty guide defaults to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7878",
+      "title": "Custom UI Scale",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
         "deleteDataWgpdc": false
       }
     },
@@ -1654,6 +1684,51 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7748",
+      "title": "Chat Filter",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7749",
+      "title": "Gun Reloaded Sounds",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7747",
+      "title": "Object 279 Mission Auto Reset",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7746",
       "title": "BP II <RESKIN>",
       "classificationInput": {
@@ -1830,6 +1905,51 @@
         "installableByApp": false,
         "decisionReason": "Archive guide requires selecting a mod/folder and copying to a custom path under mods/<version>/..., not the mods/<version> folder itself. Dependency note does not change the file operation.",
         "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7736",
+      "title": "Hitmarker Pro",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7729",
+      "title": "Show vehicle body in the sniper view",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7728",
+      "title": "Crew Skills Pro",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -2069,6 +2189,51 @@
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to copy the top-level gui folder into res_mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7708",
+      "title": "Custom Sixth Sense",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7707",
+      "title": "BalCalcMod",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7706",
+      "title": "AutoAim Indication+",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. 3. Confirm overwriting if asked. 4. Start the game. Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
         "deleteDataWgpdc": false
       }
     },
