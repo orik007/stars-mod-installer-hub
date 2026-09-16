@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.049",
-  "sourceHash": "4f80690f4fdbf02adabb0095c6e309c707dfd95e311c21bb194e738c1e4eee14",
+  "catalogVersion": "v2026.09.050",
+  "sourceHash": "11d92db963ece5805e234fe25a47357207a991eb11b6f8d292973585c6a0fce7",
   "sources": [
     "wgmods",
     "modhub"
@@ -220,16 +220,6 @@
           "fileName": "Z4imon.platoon_header_2.4.0_1.1.zip",
           "fileExt": ".zip",
           "changeLog": "The Platoon window is now moveable when activated in the settings"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.0_1.0_nZ8LAHT.zip",
-          "updatedAt": "2026-09-13T18:40:16.349Z",
-          "sizeBytes": 110153,
-          "fileName": "Z4imon.platoon_header_2.4.0_1.0_nZ8LAHT.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -1516,8 +1506,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Turn your favourite World of Tanks map location into a custom hangar scene.</p><p>Choose your location in either of two ways:</p><p>🚗 <strong>Drive there</strong> — drive your tank to the desired location and copy its position into the editor.</p><p>🎥 <strong>Find it with the camera</strong> — explore using the training free camera and place the preview tank beneath the camera.</p><p>After choosing a location, refine the tank’s exact position, rotation and camera framing before saving everything as your garage scene.</p><p>✨ Features</p><ul><li>Choose locations by driving or exploring with the free camera</li><li>Copy your real vehicle’s position and orientation</li><li>Place the preview tank beneath the camera</li><li>Simple directional movement controls</li><li>Standard, Fine and Ultra adjustment modes</li><li>Independent movement, rotation and camera adjustment sizes</li><li>Optional exact coordinates and angles</li><li>Automatic ground placement and slope matching</li><li>Save and manage multiple presets</li><li>Open the editor with <strong>Ctrl + F11</strong> or <strong>/hangar</strong></li><li>Battle Hits compatibility</li><li>Optional ModsList integration</li><li>Available in 20 languages</li></ul><p>🚀 How to use</p><p>Install the .wotmod in your WoT mods/&lt;game-version&gt;/ folder.</p><p>Create and enter a training-room battle on your chosen map.</p><p>Wait for the battle countdown to finish.</p><p>Press <strong>Ctrl + F11</strong> or type <strong>/hangar</strong> in battle chat.</p><p>Choose how you want to find the location:</p><ul><li><strong>Driving:</strong> Drive there, spawn the preview tank and select <strong>Copy my tank position</strong>.</li><li><strong>Free camera:</strong> Enable the training free camera, fly to the location and select <strong>Place below camera</strong>.</li></ul><p>Refine the preview tank’s position and rotation.</p><p>Move the free camera to create the garage view you want.</p><p>Name the preset and select <strong>Save and use this preset</strong>.</p><p>Return to the garage to see your new hangar scene.</p><p>The /hangar command is intercepted locally and is never sent to other players.</p><p>🔒 Safety</p><p>The placement editor and free-camera controls are restricted to training rooms. The control page listens only on your PC, uses a temporary access token, and closes when the battle session ends.</p><p>ℹ️ Notes</p><ul><li>ModsList API is optional and is not included.</li><li>Some screens that depend on native hangar systems temporarily use the standard garage.</li><li>Battle Hits can remain in the custom location through the included compatibility adapter.</li><li>Remove older pre-release builds before installing version 1.0.0.</li></ul><p><i>Due to the Pet not being visible with this mod i recommend the \"Pet Gift Auto Claim\" </i><a href=\"https://wgmods.net/7438/\"><i>https://wgmods.net/7438/ </i></a>along side this mod.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-25_172532230.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -4212,16 +4202,6 @@
           "fileName": "Z4imon.auto_equipment_return_2.4.0_1.3.zip",
           "fileExt": ".zip",
           "changeLog": "- playlist support\n- bugfixes"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.auto_equipment_return_1.2.zip",
-          "updatedAt": "2026-09-12T20:12:30.449Z",
-          "sizeBytes": 861024,
-          "fileName": "Z4imon.auto_equipment_return_1.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Massive performance increases\n- Added setup recommendations\n- Added cloud sync\n- Added streamer recommendations\n- Added a new way to save the equipment\n- Added a way to demount equipment stored in wrong places\n- Added a shield, preventing bond equipment being mounted\n- Visual and acustical rework"
         }
       ],
       "latest": {
@@ -5222,7 +5202,7 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<p>Track your Marks of Excellence (MoE) progress for the vehicle you have selected, in the Garage and live in battle.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A percentile bar in the vehicle-parameters panel with milestone ticks at 65% / 85% / 95%. Every tick is labelled with the combined damage that mark requires, plus a fourth number for 100%, the top of the distribution.</p><p>Ctrl+drag the bar to reposition it (hold Shift to lock one axis). It can also optionally shift with the vehicle carousel so it never overlaps.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li><li>An optional third line shows your <strong>counted assistance</strong> — the highest of track / spot / stun damage, with the icon of whichever is leading.</li></ul><p>The overlay can be set to appear only while you hold Alt.</p><p><strong>In-battle progress bar</strong></p><p>An optional bar &nbsp;that fades in when damage is dealt or assistance is counted. Hold Alt to summon it at any time. Two variants, one chosen in the settings:</p><ul><li><strong>Moving Average</strong> — where your career projected average combined damage sits between the mark you already hold and the next mark's requirement, with the requirement on each end, your pre-battle average marked on the axis, and this battle's signed contribution.</li><li><strong>Damage Efficiency</strong> — this battle's combined damage against all four requirements (65% / 85% / 95% / 100%) on four equal quarters. Each requirement lights up as you pass it and the bar recolours with it — white, green, blue, violet, then gold at 100% — flashing the signed increment of the hit that just landed.</li></ul><h2>Settings</h2><p>Everything is toggleable from the Modification list window (ModsSettingsAPI): the in-battle overlay, its Alt-only mode and its assistance line, the Garage bar and its pinned position, and the centre progress bar with its variant. The settings panel is translated into 11 languages and follows your client automatically. Your settings carry over when you update the mod.</p><h2>&nbsp;</h2><p>Free to include in modpacks with credit and a link — ship the <i>.wotmod</i> and list OpenWG GameFace as a dependency.</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
+      "descriptionHtml": "<p>Track your Marks of Excellence (MoE) progress for the vehicle you have selected, in the Garage and live in battle.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A <strong>percentile bar</strong> in the vehicle-parameters panel with milestone ticks at 65% / 85% / 95%. Every tick is labelled with the combined damage that mark requires, plus a fourth number for 100%, the top of the distribution.</p><p>Ctrl+drag the bar to reposition it (hold Shift to lock one axis). It can also optionally shift with the vehicle carousel so it never overlaps.</p><p><strong>Weekly MoE trend chart</strong> — the vehicle's mark tooltip shows a \"Last 7 Days\" chart: one dot per battle on a percentile axis, horizontal mark lines at 65% / 85% / 95% / 100%, day dividers, and an end-of-day moving-average label for each day.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li><li>An optional third line shows your <strong>counted assistance</strong> — the highest of track / spot / stun damage, with the icon of whichever is leading.</li></ul><p>The overlay can be set to appear only while you hold Alt.</p><p><strong>In-battle progress bar</strong></p><p>An optional bar &nbsp;that fades in when damage is dealt or assistance is counted. Hold Alt to summon it at any time. Two variants, one chosen in the settings:</p><ul><li><strong>Moving Average</strong> — where your career projected average combined damage sits between the mark you already hold and the next mark's requirement, with the requirement on each end, your pre-battle average marked on the axis, and this battle's signed contribution.</li><li><strong>Damage Efficiency</strong> — this battle's combined damage against all four requirements (65% / 85% / 95% / 100%) on four equal quarters. Each requirement lights up as you pass it and the bar recolours with it — white, green, blue, violet, then gold at 100% — flashing the signed increment of the hit that just landed.</li></ul><h2>Settings</h2><p>Everything is toggleable from the Modification list window (ModsSettingsAPI): the in-battle overlay, its Alt-only mode and its assistance line, the Garage bar and its pinned position, and the centre progress bar with its variant. The settings panel is translated into 11 languages and follows your client automatically. Your settings carry over when you update the mod.</p><h2>&nbsp;</h2><p>Free to include in modpacks with credit and a link — ship the <i>.wotmod</i> and list OpenWG GameFace as a dependency.</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/battle.png.1600x0_q85_crop_detail_replace_alpha-white_uPUasNg.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7745/",
@@ -5232,6 +5212,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "5.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_5.1.0.zip",
+          "updatedAt": "2026-09-16T19:50:59.360Z",
+          "sizeBytes": 1711372,
+          "fileName": "MoECalculator_5.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Garage weekly MoE trend chart — the vehicle's mark tooltip now shows a \"Last 7 Days\" chart: one dot per battle on a percentile axis, horizontal mark lines at 65% / 85% / 95% / 100%, day dividers, and an end-of-day moving-average label for each day."
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "5.0.0",
@@ -5271,21 +5261,11 @@
           "fileName": "MoECalculator_3.1.3.zip",
           "fileExt": ".zip",
           "changeLog": "Reveal the Always-mode bar on a cold first-battle mount.\nUn-crop vertical row backdrops by reverting to the shared box.\nKeep the bar hidden until its surface realizes, so it no longer flashes at the wrong spot."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "3.1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.2.zip",
-          "updatedAt": "2026-09-12T18:08:50.419Z",
-          "sizeBytes": 1569984,
-          "fileName": "MoECalculator_3.1.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "Re-mount an in-battle bar window the engine destroys natively (e.g. an alt-equipment click on the battle countdown), so the Progress / Efficiency bar keeps updating for the whole battle instead of silently freezing.\nRestore the last-good bar position when placement fails, instead of stranding the bar at the minimap corner; a first-placement failure can no longer flash the bar at the wrong spot.\nGate the ETA row's backdrop strip on the vertical Progress bar so it no longer renders when the ETA row is hidden; close a small gap to the minimap and correct the Large-mode caption offset direction."
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_5.0.0.zip",
-        "changeLog": "Retargeted to WoT EU client 2.4.0.",
+        "fileName": "MoECalculator_5.1.0.zip",
+        "changeLog": "Garage weekly MoE trend chart — the vehicle's mark tooltip now shows a \"Last 7 Days\" chart: one dot per battle on a percentile axis, horizontal mark lines at 65% / 85% / 95% / 100%, day dividers, and an end-of-day moving-average label for each day.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7323,16 +7303,6 @@
           "fileName": "INQ_Pack_Installer_t7Ifc5m.exe",
           "fileExt": ".exe",
           "changeLog": "Оновлено моди , виправлено баги "
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "4.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_CNEy2DY.exe",
-          "updatedAt": "2026-09-13T20:39:22.620Z",
-          "sizeBytes": 134812162,
-          "fileName": "INQ_Pack_Installer_CNEy2DY.exe",
-          "fileExt": ".exe",
-          "changeLog": "Додано:\nCustom Sixth Sense — налаштовувана лампа засвіту.\nОчищення центру повідомлень.\nОновлено:\nWN8 без XVM \nHP у вухах\nПрибрати затримку прицілу \nINQ Marks (ВАЖЛИВО ПОКИ В ГАРАЖІ НЕМАЄ СТАТИСТИКИ Я НЕ ВСТИГ ЇЇ ЗРОБИТИ КОЛИ ПОЯВИТЬСЯПОКИ НЕ ЗНАЮ)\nКомандирська камера PMOD — плавний зум до 70 м.\n\nEnglish-language support"
         }
       ],
       "latest": {
@@ -33197,6 +33167,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.07.000",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.07.000_2.4.0.0.zip",
+          "updatedAt": "2026-09-16T19:51:06.782Z",
+          "sizeBytes": 616013,
+          "fileName": "champi.reticledispersionpro_1.07.000_2.4.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "- fix: ensured the master switch correctly disables all optional reticles and indicators.\n- fix: improved aiming-time updates during vehicle movement and turret rotation.\n- fix: corrected several initialization, cleanup, and battle-state handling issues.\n- mod: reworked the internal reticle management for better reliability and compatibility between the game clients\n- mod: hide aiming information while statistics screens, pre-battle highlights, or the killcam are active.\n- add: added Dual Accuracy cooling and active-state information to the aiming display. \n- add: added Dual Accuracy cooling information during WG replay playback.\n- add: added and updated translations for Czech, Japanese, Korean, Russian, Thai, Ukrainian, Vietnamese, Simplified Chinese, Singapore Chinese, and Traditional Chinese.\n- upd: updated dependency libs"
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "1.06.025",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.06.025_2.4.0.0.zip",
           "updatedAt": "2026-09-12T15:42:02.395Z",
@@ -33204,21 +33184,11 @@
           "fileName": "champi.reticledispersionpro_1.06.025_2.4.0.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.06.024",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.06.024_2.3.1.3.zip",
-          "updatedAt": "2026-09-11T19:17:58.216Z",
-          "sizeBytes": 522666,
-          "fileName": "champi.reticledispersionpro_1.06.024_2.3.1.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "- repack for current wot version"
         }
       ],
       "latest": {
-        "fileName": "champi.reticledispersionpro_1.06.025_2.4.0.0.zip",
-        "changeLog": "",
+        "fileName": "champi.reticledispersionpro_1.07.000_2.4.0.0.zip",
+        "changeLog": "- fix: ensured the master switch correctly disables all optional reticles and indicators.\n- fix: improved aiming-time updates during vehicle movement and turret rotation.\n- fix: corrected several initialization, cleanup, and battle-state handling issues.\n- mod: reworked the internal reticle management for better reliability and compatibility between the game clients\n- mod: hide aiming information while statistics screens, pre-battle highlights, or the killcam are active.\n- add: added Dual Accuracy cooling and active-state information to the aiming display. \n- add: added Dual Accuracy cooling information during WG replay playback.\n- add: added and updated translations for Czech, Japanese, Korean, Russian, Thai, Ukrainian, Vietnamese, Simplified Chinese, Singapore Chinese, and Traditional Chinese.\n- upd: updated dependency libs",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -37003,6 +36973,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "#03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.4.0.0_03.exe",
+          "updatedAt": "2026-09-16T19:51:03.587Z",
+          "sizeBytes": 4508439,
+          "fileName": "champi-wot-modpack-installer_v2.4.0.0_03.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "#02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.4.0.0_02_ZMcqFqt.exe",
           "updatedAt": "2026-09-07T10:46:46.522Z",
@@ -37010,21 +36990,11 @@
           "fileName": "champi-wot-modpack-installer_v2.4.0.0_02_ZMcqFqt.exe",
           "fileExt": ".exe",
           "changeLog": "- Armor Calculator Pro updated\n- modsmenu updated\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "#01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.4.0.0_01.exe",
-          "updatedAt": "2026-09-11T13:29:50.256Z",
-          "sizeBytes": 4437538,
-          "fileName": "champi-wot-modpack-installer_v2.4.0.0_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "all mods are updated to current version"
         }
       ],
       "latest": {
-        "fileName": "champi-wot-modpack-installer_v2.4.0.0_02_ZMcqFqt.exe",
-        "changeLog": "- Armor Calculator Pro updated\n- modsmenu updated\n",
+        "fileName": "champi-wot-modpack-installer_v2.4.0.0_03.exe",
+        "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -43448,6 +43418,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.0",
+          "modVersion": "3.0.19",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_XFWCozU.zip",
+          "updatedAt": "2026-09-16T17:23:14.512Z",
+          "sizeBytes": 4892302,
+          "fileName": "ProMod_XFWCozU.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.0",
           "modVersion": "3.0.15",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_u0qdsws.zip",
           "updatedAt": "2026-09-11T13:28:57.739Z",
@@ -43495,22 +43475,12 @@
           "fileName": "ProMod_0EMSSsH.zip",
           "fileExt": ".zip",
           "changeLog": "2.4.0.0"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1177",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod.zip",
-          "updatedAt": "2026-09-11T13:00:11.130Z",
-          "sizeBytes": 4168871,
-          "fileName": "ProMod.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ProMod.zip",
+        "fileName": "ProMod_XFWCozU.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
