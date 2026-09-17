@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.053",
+  "catalogVersion": "v2026.09.054",
   "mods": [
     {
       "source": "wgmods",
@@ -1204,21 +1204,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7805",
-      "title": "MOE Race Challenge",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Package type is .wotmod and guide targets mods/<version> despite mentioning unpacking.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7801",
       "title": "Experimental Rocket Boosters",
       "classificationInput": {
@@ -1649,6 +1634,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide targets mods/<game_version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7755",
+      "title": "Crucible Progress Overlay",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -2174,21 +2174,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<current version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7711",
-      "title": "Camo Selector",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -8955,21 +8940,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6493",
-      "title": "DARK // Pack - SINISTER WARIORs (VZ.55 + Epic Crew)",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "⪢ How to install the mod : Copy the folder \" dark.Crew_Sinister-Warriors.wotmod \" and \" dark.VZ-55_Sinister-Warriors.wotmod \" to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ..."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide directs copying .wotmod folders into World_of_Tanks_EU/mods/[current version] (mods patch folder).",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6492",
       "title": "DARK // PREMIUM - RANKs Icons",
       "classificationInput": {
@@ -9055,36 +9025,6 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive (.zip) and guide says to unpack/unpack to the game root folder; extract archive into game root is supported.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6422",
-      "title": "DARK // GOLD PREMIUM AMMO",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "installation: select the mod you want Marked or no icon Marked. Copy the folder \"GOLDEN_Premium_AMMO...\" to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... → Need help? Visit the mod installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide explicitly targets World_of_tanks_EU/mods/[current version] — extract archive and copy into mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6425",
-      "title": "DARK // Replace all Rations- RNG POWER DRINKS 🗿",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "installation: Copy the folder \"dark.Ration_RNG_POWER_DRINKS.wotmod\" to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ..."
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Archive (.zip) and guide instructs copying folder into World_of_tanks_EU/mods/[current version] — extract archive and copy into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
