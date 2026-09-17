@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.053",
-  "sourceHash": "1550f77e4a22e4f39bb37c241642977c2bdd8604bad93936dc67f204de2b6918",
+  "catalogVersion": "v2026.09.054",
+  "sourceHash": "9bac191c4a1c7e283c0d5cda33c91222fe381ccdaefbc142a4df5680ac8d1a50",
   "sources": [
     "wgmods",
     "modhub"
@@ -3598,43 +3598,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7805",
-      "title": "MOE Race Challenge",
-      "ownerUsername": "Gravity_Assist",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><strong>🏁 MOE Race Challenge</strong></p><p>MOE Race Challenge is a streamer-focused Marks of Excellence race tool for World of Tanks.</p><p>Create or join a shared MOE challenge for a specific tank, then show each participant’s battle count and estimated MOE percentage on a shared leaderboard. The mod also provides a local OBS browser source and SVG overlay, so streamers can show race progress to viewers without cluttering the in-game battle view.</p><p>A nice bonus: you can race in tanks you have already marked. The mod tracks its own race progress and estimates the MOE percentage from battle results and requirement data, so you can “race to 3 marks” again with the same tank for streams, community events, or friendly competitions.</p><p>This is mainly built for streamers, community events, and coordinated MOE races with friends. For normal solo play it is probably not very useful, because the point is showing shared race progress to viewers or other participants.</p><p><strong>✨ Features</strong></p><ul><li>Create or join MOE race challenges from a local browser page opened through the game.</li><li>Challenges are tied to one selected tank.</li><li>Works with tanks you have already marked.</li><li>Tracks battle count and estimated MOE progress for the active challenge.</li><li>Publishes progress after final battle results land.</li><li>Provides a local OBS browser source and SVG overlay.</li><li>Includes a hosted invite/leaderboard page for sharing the challenge.</li><li>No in-game overlay, keeping the game view clean.</li></ul><p><strong>🕹️ How To Use</strong></p><ol><li>Select the tank in your garage that the race should use.</li><li>Open MOE Race from the ModsList button.</li><li>A local browser page opens and shows your account plus the currently selected tank.</li><li>Click Create to start a new challenge, or paste a code under Join a Challenge.</li><li>Share the challenge code or invite link with the other players.</li><li>Everyone plays battles in the same race tank.</li><li>The leaderboard updates after final battle results land.</li></ol><p><strong>🎥 For Streamers</strong><br>Use the OBS browser source URL from the local page as a browser source in OBS.</p><p>Suggested OBS size:</p><ul><li>Width: 520</li><li>Height: around 400</li></ul><p>You can also use the OBS image source SVG URL if you prefer an SVG/image source. When the challenge is paused, the stream overlay becomes blank/transparent.</p><p><strong>⚠️ Important</strong></p><ul><li>All participants must use the same tank.</li><li>Progress updates after final battle results, not live during battle.</li><li>The MOE percentage shown is locally estimated from available Marks of Excellence requirement data and should not be treated as an official server value.</li><li>This mod is aimed at streamers and community races; for average solo play it may not be useful.</li></ul><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
-      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-08-04_160926578.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7805/",
-      "tagIds": [
-        "20",
-        "23"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.moe_race_challenge.2.4.0.0.1.0.6.wotmod",
-          "updatedAt": "2026-09-12T04:41:53.910Z",
-          "sizeBytes": 167564,
-          "fileName": "gravity.moe_race_challenge.2.4.0.0.1.0.6.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "gravity.moe_race_challenge.2.4.0.0.1.0.6.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7801",
       "title": "Experimental Rocket Boosters",
       "ownerUsername": "Desyatnik_Pansy",
@@ -5063,6 +5026,42 @@
         "fileName": "Quotemine_Archer_Crew_Voices_zrgFK7N.wotmod",
         "changeLog": "Quotemine — Archer Crew Voices — v1.1\n\n* Retuned the start/end timing on ~60 lines: callouts no longer clip the first word or get cut off at the end, and a few that opened with dead air now fire promptly.\n* Removed two lines that didn't land well in battle.\n* No new events or content — same hookups as v1.0. Just drop in the new .wotmod and delete the old one.",
         "wotGameVersionCompatibility": "risky"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7755",
+      "title": "Crucible Progress Overlay",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": true,
+      "mark": 3,
+      "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>🛡️ <strong>Crucible Progress Overlay</strong> shows your active Crucible mission status directly on-screen, both in the hangar and during battle.</p><p>Features:</p><p>✅ Shows active Crucible difficulty: <strong>Fighter, Elite, or Ace</strong><br>✅ Shows current mission name and stage<br>✅ Displays remaining shields as clear dots<br>✅ Shows the current mission condition<br>✅ Draggable overlay with saved position<br>✅ Separate positions for hangar and battle<br>✅ Full and compact display modes<br>✅ Automatically updates when you change or restart a Crucible mission</p><p>The shield dots make it easy to see how many attempts you have left before the Crucible fails, without needing to open the mission screen.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-17_135441636.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7755/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.0",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
+          "updatedAt": "2026-09-11T12:21:32.394Z",
+          "sizeBytes": 218520,
+          "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed bugs that happened after 2.4.0.0"
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.crucible_progress_overlay.2.4.0.0.1.0.2.zip",
+        "changeLog": "Fixed bugs that happened after 2.4.0.0",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -6861,54 +6860,6 @@
         "fileName": "E50_V1_Leena_Helmet_1I1XJjD.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7711",
-      "title": "Camo Selector",
-      "ownerUsername": "Gravity_Assist",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": true,
-      "mark": 4.5,
-      "descriptionHtml": "<h2><strong>⚠️ The mod does not allow you to buy customization items you normally cannot buy.</strong></h2><p><strong>🎨 Universal Customization</strong></p><p>Customize vehicles with almost any customization element in the game:</p><p>• 2D styles • Camouflages • Paints • Decals<br>• 3D styles • Progressive 3D styles • 3D attachments<br>• Inscriptions • Emblems • Effects</p><p>Mix and match elements to create vehicle appearances that are normally not possible.</p><p><strong>🌐 Style Share</strong></p><p>Other players who use Camo Selector can see your custom battle appearance. Style Share is enabled by default and can be changed in Exterior. Players without the mod will see the normal appearance.</p><p>Local custom asset files are not transferred through Style Share.</p><p><strong>✨ Creations</strong></p><p>Open Exterior and click “<i><strong>Creations (open)</strong></i>” to save and manage complete vehicle designs.</p><p>You can:<br>• Save, apply, refresh and duplicate Creations<br>• Add titles, descriptions, tags and classifications<br>• Search and import approved public Creations<br>• Publish your own Creations for review<br>• Publish and import individual assets through the Asset Library<br>• Publish and import complete Vehicle Presets</p><p>Creations and Vehicle Presets can include the custom local assets they require. When imported, the required assets are installed locally and automatically remapped for your client.</p><p>Nothing is uploaded automatically. Your local assets and Creations remain private unless you explicitly publish them.</p><p>Vehicle Presets are locked after import so they remain identical to the approved version, but can be duplicated into an editable local Creation.</p><p><i>Public gallery / Asset Library:</i><br><a href=\"https://camoselector.wot-tools.dev/\">https://camoselector.wot-tools.dev/</a></p><p><strong>🧩 Custom Assets</strong></p><p>Open Exterior and click “Custom Assets (open)” to create or import:</p><p>• Emblems • Inscriptions • Projection decals<br>• Camouflages • Paints</p><p>PNG/JPG files can be converted automatically where supported. DDS files are validated; DXT5 / BC3 with mipmaps is recommended.</p><p>Projection decal ratios:<br>• 1:1 • 1:2 • 1:3 • 1:4 • 1:6</p><p>Custom camouflages support scale, rotation, exact numeric input and palette-based colour/transparency with up to 3 palettes. Custom paints support colour, gloss and metallic values.</p><p><strong>🛠️ How to use</strong></p><p>•&nbsp;Open Exterior.<br>•&nbsp;Apply any camouflage you own.<br>•&nbsp;Purchase/confirm it and leave Exterior.<br>•&nbsp;Open Exterior again.<br>•&nbsp;Apply any style, camo, paint, decal, attachment, inscription, emblem or effect.<br>•&nbsp;Leave Exterior with Escape.<br>•&nbsp;Switching from an applied 2D style into custom editing keeps the 2D style appearance.</p><p><strong>✨ Recommended</strong></p><p><i>Clean Camo:</i><br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><p><i>Extra Style Filters:</i><br><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><p>Support / Questions / Suggestions:<br><a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Patreon:<br><a href=\"https://www.patreon.com/c/Gravity_Assist\">https://www.patreon.com/c/Gravity_Assist</a></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/WnMGZgt9Xqk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/WnMGZgt9Xqk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-06-12_120610066.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7711/",
-      "tagIds": [
-        "16",
-        "20",
-        "23"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector_live.2.4.0.0.2.4.5.wotmod",
-          "updatedAt": "2026-09-14T18:32:18.815Z",
-          "sizeBytes": 602522,
-          "fileName": "gravity.camo_selector_live.2.4.0.0.2.4.5.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Fixed an issue that prevented players from using Apply & Exit when applying a valid style or camouflage to a compatible vehicle."
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.0.2.4.4.wotmod",
-          "updatedAt": "2026-09-14T15:18:35.108Z",
-          "sizeBytes": 1216262,
-          "fileName": "gravity.camo_selector.2.4.0.0.2.4.4.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Reuse the local-asset catalog across saved-outfit item lookups instead of rescanning the asset index and files for every component. Supported asset writes still invalidate and rebuild the catalog  before the next lookup."
-        }
-      ],
-      "latest": {
-        "fileName": "gravity.camo_selector_live.2.4.0.0.2.4.5.wotmod",
-        "changeLog": "Fixed an issue that prevented players from using Apply & Exit when applying a valid style or camouflage to a compatible vehicle.",
-        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -32426,45 +32377,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "6493",
-      "title": "DARK // Pack - SINISTER WARIORs (VZ.55 + Epic Crew)",
-      "ownerUsername": "DARK0LA",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en",
-        "ru"
-      ],
-      "recommended": false,
-      "mark": 4.4,
-      "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/FTdhEwEtzlk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/FTdhEwEtzlk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>This mod allows you to modify the appearance of the following tank: <strong>VZ.55 </strong>and also add a team of sinister warriors, replacing : Crayfish, Deer, Tomato, Unicorn</p><blockquote><p><i><strong>My WEB SITE - SKIN 3D here :</strong> </i><a href=\"https://mods.darkola.fr/3d-2d-skins-mods/\">https://mods.darkola.fr/</a></p><p><strong>🎁 MY PATREON </strong>: <a href=\"https://www.patreon.com/darkola\">https://www.patreon.com/darkola</a></p></blockquote><p><strong>❗NEW❗Pack - Vz. 55 - MODERN ARMOR</strong></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/i828QxMxZ7A\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/i828QxMxZ7A\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><blockquote><p><strong>Vz. 55 - MODERN ARMOR - HERE</strong><i><strong> : </strong></i><a href=\"https://mods.darkola.fr/2025/12/12/vz-55-modern-armor/\">https://mods.darkola.fr/2025/12/12/vz-55-modern-armor/</a></p></blockquote><p><i>Necessary information :</i><br><br><i>This mod was created by <strong>DARKOLA</strong>. Any unauthorized copy, republication or modification of the content is prohibited. Please contact the creator for any modification.</i></p><p>All elements created from this mod belong to their respective owners. Most of the elements used in this mod come from the Wargaming group. (World of Tanks)</p>",
-      "installationGuideHtml": "<p><i>⪢ How to install the mod : &nbsp;</i><br>Copy the folder \"<strong>dark.Crew_Sinister-Warriors.wotmod</strong>\" and \"<strong>dark.VZ-55_Sinister-Warriors.wotmod</strong>\" to the directory with the game. &nbsp;&nbsp;<br><br>&gt; World_of_tanks_EU / mods / [current version of the game] / ... &nbsp;<br>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/miniature-ghotic-12-2024.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/6493/",
-      "tagIds": [
-        "16",
-        "21",
-        "14"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "VERSION 3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mod-SINISTER-WARRIOR_By_DARKOLA_aXwALEC.zip",
-          "updatedAt": "2026-09-13T19:32:46.077Z",
-          "sizeBytes": 22023304,
-          "fileName": "Mod-SINISTER-WARRIOR_By_DARKOLA_aXwALEC.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "Mod-SINISTER-WARRIOR_By_DARKOLA_aXwALEC.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "6492",
       "title": "DARK // PREMIUM - RANKs Icons",
       "ownerUsername": "DARK0LA",
@@ -32708,82 +32620,6 @@
       "latest": {
         "fileName": "me.kurzdor.autoequipmentreturn_1.4.1.zip",
         "changeLog": "fixes for WoT 2.2",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6422",
-      "title": "DARK // GOLD PREMIUM AMMO",
-      "ownerUsername": "DARK0LA",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": 4.4,
-      "descriptionHtml": "<p>Replace premium ammo: APCR, HESH, HEAT...</p><p><strong>\"Marked ammo icons\"</strong> alternative skin was created by <strong>Pepelus : </strong><a href=\"https://wgmods.net/6053/\"><strong>https://wgmods.net/6053/</strong></a></p><p>This mod based on ammo icon skin of Pepelus. Mods cannot be combined. Choose the one you like more and use it.</p><blockquote><p><strong>WEB SITE (DARK mods) :</strong> <a href=\"https://mods.darkola.fr/\">https://mods.darkola.fr/</a></p><p><strong>🎁 MY PATREON </strong>: <a href=\"https://www.patreon.com/darkola\">https://www.patreon.com/darkola</a></p></blockquote><p><i>Necessary information :</i><br><br><i>This mod was created by <strong>DARKOLA</strong>. Any unauthorized copy, republication or modification of the content is prohibited. Please contact the creator for any modification.</i></p><p>All elements created from this mod belong to their respective owners. Most of the elements used in this mod come from the Wargaming group. (World of Tanks)</p>",
-      "installationGuideHtml": "<p><i><strong>installation:&nbsp;</strong></i></p><p>select the mod you want Marked or no icon Marked.&nbsp;<br><br>Copy the folder \"GOLDEN_Premium_AMMO...\" to the directory with the game. &nbsp;<br><br>&gt; World_of_tanks_EU / mods / [current version of the game] / ...&nbsp;<br><br>→ Need help? Visit the mod installation help centre here: <a href=\"https://mods.darkola.fr/help-support-mods-darkola/\">https://mods.darkola.fr/help-support-mods-darkola/</a><br>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Sans_titre_T2BsTHf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/6422/",
-      "tagIds": [
-        "18",
-        "16",
-        "14"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "VERSION 2.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GOLDEN-GOLD-AMMO-2.0_LURFqFV.zip",
-          "updatedAt": "2026-09-12T09:01:43.931Z",
-          "sizeBytes": 10835985,
-          "fileName": "GOLDEN-GOLD-AMMO-2.0_LURFqFV.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "GOLDEN-GOLD-AMMO-2.0_LURFqFV.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "6425",
-      "title": "DARK // Replace all Rations- RNG POWER DRINKS 🗿",
-      "ownerUsername": "DARK0LA",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": 4.7,
-      "descriptionHtml": "<p>Do you dream of a purple WN8 without having to sell your soul? Then open a can of RNG POWER DRINK, the forbidden nectar that makes everyone tremble and even players with a 5k WN8 jealous. One promise: <strong>+999%</strong> favourable RNG + everything that comes with it.<br>Yes, yes: your shells will really hit where you aim. Even without aiming.<br><br>Possible side effects (fully assumed) ✅:</p><p>• Your driver starts driving as if they had a built-in stabiliser IRL.<br>• Your gunner miraculously obtains a PhD in precision shooting ballistics.<br>• Your HE shells suddenly become lethal.<br>• Your tank finally stops driving slower than a MAUS on a line 0 uphill slope in Himmelsdorf.</p><p><strong>⚠️ Disclaimer: </strong>if your winrate really does increase after drinking this, call an exorcist, not customer service<br>&nbsp;</p><blockquote><p>Mod info: New design for the icons of each nation's rations in RNG POWER DRINK!</p><p><strong>WEB SITE (DARK mods) :</strong> <a href=\"https://mods.darkola.fr/\">https://mods.darkola.fr/</a></p><p>🎁 MY PATREON : <a href=\"https://www.patreon.com/darkola\">https://www.patreon.com/darkola</a></p></blockquote><p><br><i>Necessary information :</i><br><br><i>This mod was created by <strong>DARKOLA</strong>. Any unauthorized copy, republication or modification of the content is prohibited. Please contact the creator for any modification.</i></p><p>All elements created from this mod belong to their respective owners. Most of the elements used in this mod come from the Wargaming group. (World of Tanks)</p>",
-      "installationGuideHtml": "<p><i><strong>installation:&nbsp;</strong></i><br><br>Copy the folder \"dark.Ration_RNG_POWER_DRINKS.wotmod\" to the directory with the game. &nbsp;<br><br>&gt; World_of_tanks_EU / mods / [current version of the game] / ...</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Sans_titre_qaC9ZDx.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/6425/",
-      "tagIds": [
-        "18",
-        "14",
-        "20"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "VERSION +999%",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG-POWER-DRINKS-Rations_kE4DKQ2.zip",
-          "updatedAt": "2026-09-11T12:57:07.963Z",
-          "sizeBytes": 62271079,
-          "fileName": "RNG-POWER-DRINKS-Rations_kE4DKQ2.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "RNG-POWER-DRINKS-Rations_kE4DKQ2.zip",
-        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -35367,16 +35203,6 @@
           "fileName": "RNG_Modpack_2.3.1.0_01.exe",
           "fileExt": ".exe",
           "changeLog": "Adaptation to latest patch (2.3.1.0).\nUpdated XVM nightly to 13.1.0_0033.\nUpdated _Under_Pressure_ CalculationElo.\nUpdated AtotIK Fog Remover.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated iKurzdor Auto Equipment Return.\nUpdated iKurzdor Battle Equipment.\nUpdated Kid9N_Prokhorovka_Legend Old Battle Results.\nUpdated Lebwa MoE Calculator.\nUpdated Pansy Actual Lights.\nUpdated Poliroid & Goldflag Tomato.gg Mod.\nUpdated Poliroid BattleHits.\nUpdated Poliroid PMOD.\nUpdated ProTanki Aim Timer.\nUpdated ProTanki Destroyed White Tanks.\nUpdated Pruszko Dispersion Reticle.\nUpdated Reven86 BattleAssistant.\nUpdated Tomonik Session Statistics.\nAdded Aslain Personal Mission Auto Reset."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "2.3.0.1_03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG_Modpack_2.3.0.1_03.exe",
-          "updatedAt": "2026-07-09T17:43:31.281Z",
-          "sizeBytes": 534938034,
-          "fileName": "RNG_Modpack_2.3.0.1_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "Updated RNG Update Checker."
         }
       ],
       "latest": {
@@ -35918,7 +35744,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.3,
       "descriptionHtml": "<p>Can't see the difference between 'No Pen', 'May Pen' and 'Will Pen'?&nbsp;</p><p>This mod will make it easy to tell. Shows stock crosshair colors, except the 'Will Pen' has an extra cross. No doubt when it's lit. Helps make the penetration indicator on the crosshair more visible to colorblindness.&nbsp;</p><p><i><strong>You must have Settings - Reticle - Gun Marker set to &nbsp;'(with armor penetration indicator)'. See the screenshots for the proper settings.</strong></i></p><p>I have found that just changing the color was not helpful, so added the graphic.&nbsp;</p><p>Please check out Grumpf44's version, he has added a slash for the may pen as well: <a href=\"https://wgmods.net/6496/\">https://wgmods.net/6496/</a></p><p>&nbsp;</p><p><br><br><a href=\"https://wgmods.net/search/?owner=110618\">My WGmods Page:</a></p><p><a href=\"https://wgmods.net/search/?owner=110618\">https://wgmods.net/search/?owner=110618</a></p>",
       "installationGuideHtml": "<p>Just download the .wotmod file to your WorldofTanks&gt;mods&gt;(current version)&gt; folder.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_036_m73wcPb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -36179,7 +36005,7 @@
       ],
       "recommended": true,
       "mark": 4.4,
-      "descriptionHtml": "<p><strong>Hello, on the new YouTube channel you can see the first tank tests</strong></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Giy87DUQgJ4&amp;t=7s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Giy87DUQgJ4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=-OdTO8437fY&amp;t=648s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/-OdTO8437fY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=p11DgYdneek&amp;t=5s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/p11DgYdneek\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=o5FaMMimwLo&amp;t=52s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/o5FaMMimwLo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=1ljLJqQY45o\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/1ljLJqQY45o\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sV38Od4AkpY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sV38Od4AkpY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=i6hAVkMSrh8&amp;t=29s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/i6hAVkMSrh8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=T7rzy0F5WPI\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/T7rzy0F5WPI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=jLO8o7SwNfA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/jLO8o7SwNfA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=anvCGRTnHzo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/anvCGRTnHzo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=r4ttm7kwT6I\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/r4ttm7kwT6I\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=F0A0VIUJO2M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/F0A0VIUJO2M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sqzKDF7XU1g\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sqzKDF7XU1g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=TEAaR8w8WXs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/TEAaR8w8WXs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=m3g_20iswYY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/m3g_20iswYY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=SVo7QLo6Y18\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/SVo7QLo6Y18\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=X0YNKsZpa2k\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/X0YNKsZpa2k\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=LR-sD0EBqW8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/LR-sD0EBqW8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=XqEUkfSuAyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/XqEUkfSuAyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ns2AXECeLyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ns2AXECeLyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Gs3-RTq5a-M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Gs3-RTq5a-M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><a href=\"https://www.youtube.com/channel/UCDQYSyGRYwpo9vF2pHdVN8A\">War Mod Youtube</a></p><p><a href=\"https://aslain.com/index.php?/topic/24731-audio-12310-mody-dzwi%C4%99kowe-by-johntankpl14022024/#comment-118993\">War Mod New Forum</a></p><p><a href=\"https://www.mediafire.com/file_premium/6s6k1tclyjoat4l/War_Mod_Full.rar/file\">War Mod Full + Music</a></p><p><a href=\"https://wgmods.net/7064/\">War Mod Hits (new Project)</a></p><p><a href=\"https://www.mediafire.com/file/ouf70qkh6d00u9h/War_Mod_surface_hits.rar/file\">War Mod Surface Hits</a></p><p><a href=\"https://www.mediafire.com/file_premium/u5sbkyeymr7dj4y/War_Mod_EnginesV1.7.rar/file\">War Mod &nbsp;Engines V1.7 (Japan, China, Italy, Germany, Czechosłowiaka, Swedish)</a></p><p><a href=\"https://www.mediafire.com/file/fw91rubmxl9o6qg/War_Mod_Guns_Configuration_by_Nelumbo.rar/file\">War Mod Guns configs by Nelumbo_N</a></p><p><a href=\"https://www.mediafire.com/file/93uq9grwkgz6h29/War_Mod_Engines_configuration_by_Nelumbo.rar/file\">War Mod Engines configs by Nelumbo_N</a></p><p>Crew sounds:</p><p><a href=\"https://wgmods.net/3837/\">Fury</a></p><p><a href=\"https://wgmods.net/4506/\">War Thunder &nbsp;Crew Sounds</a></p><p>The mod is not finished yet, it took me a long time to create and it still requires some work.</p><p>&nbsp;</p>",
+      "descriptionHtml": "<p><strong>Hello, on the new YouTube channel you can see the first tank tests</strong></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Giy87DUQgJ4&amp;t=4s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Giy87DUQgJ4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=cC2KYikeqb4&amp;t=1s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/cC2KYikeqb4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=-OdTO8437fY&amp;t=648s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/-OdTO8437fY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=p11DgYdneek&amp;t=5s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/p11DgYdneek\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=o5FaMMimwLo&amp;t=52s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/o5FaMMimwLo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=1ljLJqQY45o\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/1ljLJqQY45o\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sV38Od4AkpY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sV38Od4AkpY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=i6hAVkMSrh8&amp;t=29s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/i6hAVkMSrh8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=T7rzy0F5WPI\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/T7rzy0F5WPI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=jLO8o7SwNfA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/jLO8o7SwNfA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=anvCGRTnHzo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/anvCGRTnHzo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=r4ttm7kwT6I\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/r4ttm7kwT6I\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=F0A0VIUJO2M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/F0A0VIUJO2M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=sqzKDF7XU1g\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/sqzKDF7XU1g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=TEAaR8w8WXs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/TEAaR8w8WXs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=m3g_20iswYY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/m3g_20iswYY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=SVo7QLo6Y18\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/SVo7QLo6Y18\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=X0YNKsZpa2k\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/X0YNKsZpa2k\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=LR-sD0EBqW8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/LR-sD0EBqW8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=XqEUkfSuAyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/XqEUkfSuAyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ns2AXECeLyg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ns2AXECeLyg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Gs3-RTq5a-M\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Gs3-RTq5a-M\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><a href=\"https://www.youtube.com/channel/UCDQYSyGRYwpo9vF2pHdVN8A\">War Mod Youtube</a></p><p><a href=\"https://aslain.com/index.php?/topic/24731-audio-12310-mody-dzwi%C4%99kowe-by-johntankpl14022024/#comment-118993\">War Mod New Forum</a></p><p><a href=\"https://www.mediafire.com/file_premium/6s6k1tclyjoat4l/War_Mod_Full.rar/file\">War Mod Full + Music</a></p><p><a href=\"https://wgmods.net/7064/\">War Mod Hits (new Project)</a></p><p><a href=\"https://www.mediafire.com/file/ouf70qkh6d00u9h/War_Mod_surface_hits.rar/file\">War Mod Surface Hits</a></p><p><a href=\"https://www.mediafire.com/file_premium/u5sbkyeymr7dj4y/War_Mod_EnginesV1.7.rar/file\">War Mod &nbsp;Engines V1.7 (Japan, China, Italy, Germany, Czechosłowiaka, Swedish)</a></p><p><a href=\"https://www.mediafire.com/file/fw91rubmxl9o6qg/War_Mod_Guns_Configuration_by_Nelumbo.rar/file\">War Mod Guns configs by Nelumbo_N</a></p><p><a href=\"https://www.mediafire.com/file/93uq9grwkgz6h29/War_Mod_Engines_configuration_by_Nelumbo.rar/file\">War Mod Engines configs by Nelumbo_N</a></p><p>Crew sounds:</p><p><a href=\"https://wgmods.net/3837/\">Fury</a></p><p><a href=\"https://wgmods.net/4506/\">War Thunder &nbsp;Crew Sounds</a></p><p>The mod is not finished yet, it took me a long time to create and it still requires some work.</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Youtube_intro_iGxpllr.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/5178/",
