@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.057",
-  "sourceHash": "0f122dc3e7f919d7590bfb9b77b567e8b8617a6178d4b6b8427c69bc506dfdad",
+  "catalogVersion": "v2026.09.058",
+  "sourceHash": "b3bd7c55a0cb6c0b6ffa1d2bbd4347f7254b1442afed7b92138d93431b5bc86c",
   "sources": [
     "wgmods",
     "modhub"
@@ -18,7 +18,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>Shows aiming information right next to your reticle, set up in the mods menu in the garage.&nbsp;<br><br>- Aim time with an Aimed! state, shell flight time, shell speed, distance to the aim point and aiming circle size&nbsp;<br>- Penetration, damage, shell type, shells left, reload time, own hit points, view range and maximum shot range&nbsp;<br>- Two panels, so the lines can sit on both sides of the reticle, dragged into place with a spot remembered for each view&nbsp;<br>- Choose the views it shows in (arcade, sniper, strategic, artillery), optionally with a show / hide hotkey&nbsp;<br>- Your own lines, with values put in by name&nbsp;<br>- Colors, font, size, outline and background to taste, with a live preview in the menu</p>",
-      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br><br>To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder<br><br>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/AimInfoPro_1_tUduZqb.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7930/",
       "tagIds": [
@@ -887,7 +887,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Stars Mod Installer</p><p><strong>Choose your World of Tanks mods once. Keep them updated automatically.</strong></p><p>Stars Mod Installer is a Windows application that runs quietly in the system tray. Select the mods you want to use once, and the app will keep compatible mods updated when a new mod version is released or when World of Tanks is updated.</p><ul><li>Choose from official World of Tanks mods available on WGMods.net.</li><li>No repeated downloads or copying files into game folders.</li><li>The app starts automatically with Windows and works in the background.</li><li>If World of Tanks is running, installation waits until the game is closed.</li></ul><h2>Alpha version — please read</h2><p>Stars Mod Installer is currently in <strong>alpha</strong>. Bugs may occur, some features may still change, and some mods may not be supported yet.</p><p>If something does not work, please give us a chance to help before leaving a negative rating. Join our Discord, tell us what happened, and we will try to resolve the problem. Your feedback will also help us improve the application for everyone.</p><p><strong>Website:</strong> <a href=\"https://starsmodinstaller.com\">https://starsmodinstaller.com</a><br><strong>Discord:</strong> <a href=\"https://discord.gg/yYyep74YHh\">https://discord.gg/yYyep74YHh</a></p>",
+      "descriptionHtml": "<p><strong>Choose your World of Tanks mods once. Keep them updated automatically.</strong></p><p>Stars Mod Installer is a Windows application that runs quietly in the system tray. Select the mods you want to use once, and the app will keep compatible mods updated when a new mod version is released or when World of Tanks is updated.</p><ul><li>Choose from official World of Tanks mods available on WGMods.net.</li><li>No repeated downloads or copying files into game folders.</li><li>The app starts automatically with Windows and works in the background.</li><li>If World of Tanks is running, installation waits until the game is closed.</li></ul><h2>Alpha version — please read</h2><p>Stars Mod Installer is currently in <strong>alpha</strong>. Bugs may occur, some features may still change, and some mods may not be supported yet.</p><p>If something does not work, please give us a chance to help before leaving a negative rating. Join our Discord, tell us what happened, and we will try to resolve the problem. Your feedback will also help us improve the application for everyone.</p><p><strong>Website:</strong> <a href=\"https://starsmodinstaller.com\">https://starsmodinstaller.com</a><br><strong>Discord:</strong> <a href=\"https://discord.gg/yYyep74YHh\">https://discord.gg/yYyep74YHh</a></p>",
       "installationGuideHtml": "<p>Simply download and run the installer. Administrator rights are not required.</p><p>Once installed, Stars Mod Installer keeps itself up to date automatically, so you do not need to download new versions manually.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-09-02_110736984.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7886/",
@@ -897,6 +897,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "0.5.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/StarsModInstaller-win-Setup_bEss6hk.exe",
+          "updatedAt": "2026-09-18T16:44:49.826Z",
+          "sizeBytes": 84830746,
+          "fileName": "StarsModInstaller-win-Setup_bEss6hk.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "0.5.0",
@@ -909,9 +919,9 @@
         }
       ],
       "latest": {
-        "fileName": "StarsModInstaller-win-Setup.exe",
+        "fileName": "StarsModInstaller-win-Setup_bEss6hk.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2603,9 +2613,10 @@
       "mark": null,
       "descriptionHtml": "<p>[AYA] automatically translates the battle chat messages that YOU send. Type normally in your own language, the mod detects your language and translates the message into your chosen target language before sending it to your team. No copy-pasting, no external tools, and no interruption to your gameplay.&nbsp;<br><br>EXAMPLE&nbsp;<br>ES to EN:&nbsp;<br><br>\"Espero que los jugadores de artilleria pisen un Lego cada dia de su vida!\"&nbsp;<br><br>becomes&nbsp;<br><br>\"I hope artillery players step on a Lego every single day of their lives!\"&nbsp;<br><br>KEY FEATURES&nbsp;<br>Automatic Language Detection &amp; Translation: Supports 20 languages.&nbsp;<br><br>Real-Time Processing: Translates your message before it reaches your team.&nbsp;<br><br>Translation Cache: Delivers instant response times for recurring phrases.&nbsp;<br><br>In-Battle Hotkeys:&nbsp;<br><br>Numpad 0: Toggle mod ON/OFF&nbsp;<br><br>Numpad + / Numpad -: Switch target language on the fly&nbsp;<br><br>On-Screen HUD Feedback: Displays mod status, active language, and warnings above the minimap.&nbsp;<br><br>Smart Quality Protection: Short or ambiguous messages are safely blocked and NOT sent to prevent mistranslations.&nbsp;<br><br>Garage Configuration Panel: Available in 11 languages, allowing you to select your target language, enable auto-start at battle entry, and manage your translation cache.&nbsp;<br><br>REQUIREMENTS&nbsp;<br>Requires ModsListAPI, ModsSettingsAPI, and GameFace installed in your mods folder.&nbsp;<br><br>Found a bug or have a suggestion?&nbsp;<br><br>Contact us: aya.help@proton.me</p>",
       "installationGuideHtml": "<p>IMPORTANT: This mod requires ModsListAPI, ModsSettingsAPI and GameFace to work. Make sure they are installed in the same mods folder.&nbsp;<br><br>Extract the \"aya_m\" folder into: World_of_Tanks/mods/[game_version]/&nbsp;<br>Extract the \"aya_r\" folder into: World_of_Tanks/res_mods/[game_version]/&nbsp;<br><br>After installing, open the Garage, go to the mods settings panel, and configure...</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/aya_translator_thumb_c%C3%B3pia.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/POST_THUMB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7838/",
       "tagIds": [
+        "18",
         "20",
         "23"
       ],
@@ -2932,8 +2943,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p><strong>Version and compatibility</strong></p><p>- Version: 1.0.17</p><p>- Tested game version: 2.4.0.1</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: `aslain.modmenu` and `aslain.modssettingsbridge`<br>&nbsp;</p><p><strong>Features</strong></p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p><strong>Links</strong><br><br><i>*Version Update Notice*</i><br><br>GitHub updates are published first. WGMods may temporarily show an older version while the update awaits review and approval. For the latest version, please check the GitHub:</p><ul><li>[Latest release:] (<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest</a>)</li></ul><p>- Choose either the standalone WOTMOD download or the full package, which includes the HCC mod itself, OpenWG Gameface, and Modmenu. Extract it into the World of Tanks installation directory.(Modmenu is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without Mod Menu, but the GameFace mod is required.)<br><br>- [Technical documentation](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md</a>)</p><p>- [Issue tracker](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues</a>)</p>",
-      "installationGuideHtml": "<p><strong>Installation</strong></p><p>World of Tanks `2.4.0.1` or a compatible client is required. `net.openwg.gameface` is required for the carousel.<br>&nbsp;</p><p><strong>Full package (recommended)</strong></p><p>[Download the ZIP -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.16/hangar_carousel_classic_1.0.16_full.zip\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.17/hangar_carousel_classic_1.0.17_full.zip</a>) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.1/`.<br>&nbsp;</p><p><strong>HCC only</strong></p><p>[Download the WOTMOD -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.13/mod_hangar_carousel_classic_1.0.13.wotmod\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.17/mod_hangar_carousel_classic_1.0.17.wotmod</a>) and copy it to `mods/2.4.0.1/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](<a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\">https://gitlab.com/openwg/wot.gameface/-/releases</a>).</p><p>Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel.</p>",
+      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p><strong>Version and compatibility</strong></p><p>- Version: 1.0.18</p><p>- Tested game version: 2.4.0.1</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: `aslain.modmenu` and `aslain.modssettingsbridge`<br>&nbsp;</p><p><strong>Features</strong></p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p><strong>Links</strong><br><br><i>*Version Update Notice*</i><br><br>GitHub updates are published first. WGMods may temporarily show an older version while the update awaits review and approval. For the latest version, please check the GitHub:</p><ul><li>[Latest release:] (<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest</a>)</li></ul><p>- Choose either the standalone WOTMOD download or the full package, which includes the HCC mod itself, OpenWG Gameface, and Modmenu. Extract it into the World of Tanks installation directory.(Modmenu is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without Mod Menu, but the GameFace mod is required.)<br><br>- [Technical documentation](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md</a>)</p><p>- [Issue tracker](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues</a>)</p>",
+      "installationGuideHtml": "<p><strong>Installation</strong></p><p>World of Tanks `2.4.0.1` or a compatible client is required. `net.openwg.gameface` is required for the carousel.<br>&nbsp;</p><p><strong>Full package (recommended)</strong></p><p>[Download the ZIP -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/hangar_carousel_classic_1.0.18_full.zip\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/hangar_carousel_classic_1.0.18_full.zip</a>) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.1/`.<br>&nbsp;</p><p><strong>HCC only</strong></p><p>[Download the WOTMOD -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/mod_hangar_carousel_classic_1.0.18.wotmod\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/mod_hangar_carousel_classic_1.0.18.wotmod</a>) and copy it to `mods/2.4.0.1/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](<a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\">https://gitlab.com/openwg/wot.gameface/-/releases</a>).</p><p>Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_logo_TKJ5yrr.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7798/",
       "tagIds": [
@@ -5425,16 +5436,6 @@
           "fileName": "MoECalculator_4.0.0.zip",
           "fileExt": ".zip",
           "changeLog": "Retargeted to World of Tanks EU client 2.3.1.3.\nThe garage/battle bar could stay hidden after an off-screen or screen-edge pinned position; placement is now clamped on-screen before the visibility check runs."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "3.1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_3.1.3.zip",
-          "updatedAt": "2026-09-12T04:48:03.641Z",
-          "sizeBytes": 1574047,
-          "fileName": "MoECalculator_3.1.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "Reveal the Always-mode bar on a cold first-battle mount.\nUn-crop vertical row backdrops by reverting to the shared box.\nKeep the bar hidden until its surface realizes, so it no longer flashes at the wrong spot."
         }
       ],
       "latest": {
@@ -5834,16 +5835,6 @@
           "fileName": "GarageProgressBar-Bundle_3.1.0.zip",
           "fileExt": ".zip",
           "changeLog": "Fixed buff coloring. Compound-quality buffs (for example gun depression and in-clip reload) now show green; generic KPI lines render neutral."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "3.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.0.0.zip",
-          "updatedAt": "2026-09-13T05:14:38.652Z",
-          "sizeBytes": 357150,
-          "fileName": "GarageProgressBar-Bundle_3.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for 2.3.1.2."
         }
       ],
       "latest": {
@@ -6114,20 +6105,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.2",
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "V1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/STB-1_-_NEW_WARFARE_-_PremiumV_Rj91oFS.zip",
-          "updatedAt": "2026-09-11T13:40:57.837Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/STB-1_-_NEW_WARFARE_-_PremiumV_jk0D9xF.zip",
+          "updatedAt": "2026-09-18T17:06:04.906Z",
           "sizeBytes": 231258019,
-          "fileName": "STB-1_-_NEW_WARFARE_-_PremiumV_Rj91oFS.zip",
+          "fileName": "STB-1_-_NEW_WARFARE_-_PremiumV_jk0D9xF.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "STB-1_-_NEW_WARFARE_-_PremiumV_Rj91oFS.zip",
+        "fileName": "STB-1_-_NEW_WARFARE_-_PremiumV_jk0D9xF.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -6190,20 +6181,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.2",
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "V1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AMX-M4-54-NEW-WARFARE-Premium_tSSRNbA.zip",
-          "updatedAt": "2026-09-12T15:47:11.832Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AMX-M4-54-NEW-WARFARE-Premium_GrlQIS8.zip",
+          "updatedAt": "2026-09-18T16:44:47.842Z",
           "sizeBytes": 292460382,
-          "fileName": "AMX-M4-54-NEW-WARFARE-Premium_tSSRNbA.zip",
+          "fileName": "AMX-M4-54-NEW-WARFARE-Premium_GrlQIS8.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "AMX-M4-54-NEW-WARFARE-Premium_tSSRNbA.zip",
+        "fileName": "AMX-M4-54-NEW-WARFARE-Premium_GrlQIS8.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -6923,52 +6914,6 @@
         "fileName": "KaucjaDravec_AQQUE8J.wotmod",
         "changeLog": "2.4 update\n",
         "wotGameVersionCompatibility": "likelyCompatible"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7712",
-      "title": "Заміна лапочки шостого відчуття \"Емоджі\"",
-      "ownerUsername": "Rid_Destro",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Ця анімаційна лампочка, яка замінює стандартну з відтворенням 10 секунд&nbsp;</p>",
-      "installationGuideHtml": "<p>Закидайте мод у папку з грою C:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%B5%D0%BC%D0%BE%D0%B4%D0%B6%D1%96_OA2p4vm.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7712/",
-      "tagIds": [
-        "14"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sixthSense_wtFwWCd.wotmod",
-          "updatedAt": "2026-09-11T13:09:09.981Z",
-          "sizeBytes": 6323302,
-          "fileName": "sixthSense_wtFwWCd.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sixthSense_JJ9Dv6T.wotmod",
-          "updatedAt": "2026-09-11T13:17:20.648Z",
-          "sizeBytes": 6323302,
-          "fileName": "sixthSense_JJ9Dv6T.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "sixthSense_JJ9Dv6T.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
       }
     },
     {
@@ -8366,52 +8311,6 @@
       "latest": {
         "fileName": "first_move_0.3_fAifBQE.zip",
         "changeLog": "Added 6k replays, merged regular and clone tanks, fixed and licalized garage settings",
-        "wotGameVersionCompatibility": "risky"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7689",
-      "title": "Заміна лапочки шостого відчуття",
-      "ownerUsername": "Rid_Destro",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Ця анімаційна лампочка, яка замінює стандартну з відтворенням 10 секунд&nbsp;</p><p>This animated SixthSense indicator replaces the standard one and plays a 10-second animation.</p>",
-      "installationGuideHtml": "<p>Закидайте мод у папку з грою C:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0</p><p><strong>Copy the mod to your game folder:</strong><br>C:\\Games\\World_of_Tanks_EU\\mods\\2.3.1.0</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%BB%D0%B0%D0%BC%D0%BF%D0%B0_hbmIlLE.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7689/",
-      "tagIds": [
-        "14"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sixthSense_rZ3sFB8.wotmod",
-          "updatedAt": "2026-09-13T14:46:57.725Z",
-          "sizeBytes": 6322966,
-          "fileName": "sixthSense_rZ3sFB8.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sixthSense.wotmod",
-          "updatedAt": "2026-09-12T12:58:00.506Z",
-          "sizeBytes": 6322966,
-          "fileName": "sixthSense.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "sixthSense_rZ3sFB8.wotmod",
-        "changeLog": "",
         "wotGameVersionCompatibility": "risky"
       }
     },
@@ -17353,16 +17252,6 @@
           "fileName": "Основний_Калібр_rrGSqdT.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%9A%D0%B0%D0%BB%D1%96%D0%B1%D1%80_8ZDG2wy.rar",
-          "updatedAt": "2026-06-12T19:51:56.941Z",
-          "sizeBytes": 152114,
-          "fileName": "Основний_Калібр_8ZDG2wy.rar",
-          "fileExt": ".rar",
-          "changeLog": "Без змін"
         }
       ],
       "latest": {
@@ -17710,20 +17599,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.3",
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "VERSION 1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/dark.XM57-LEGION-Luxury-Version_oOpVwy6.zip",
-          "updatedAt": "2026-09-12T12:48:21.867Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/dark.XM57-LEGION-Luxury-Version_mo0daqu.zip",
+          "updatedAt": "2026-09-18T17:05:30.061Z",
           "sizeBytes": 188207355,
-          "fileName": "dark.XM57-LEGION-Luxury-Version_oOpVwy6.zip",
+          "fileName": "dark.XM57-LEGION-Luxury-Version_mo0daqu.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "dark.XM57-LEGION-Luxury-Version_oOpVwy6.zip",
+        "fileName": "dark.XM57-LEGION-Luxury-Version_mo0daqu.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30683,20 +30572,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.3.1.3",
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "VERSION 2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/K91-MODERN-ARMOR-PremiumSkin3D_N2UxgRv.zip",
-          "updatedAt": "2026-09-13T19:32:42.321Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/K91-MODERN-ARMOR-PremiumSkin3D_zUKfP6r.zip",
+          "updatedAt": "2026-09-18T16:43:53.767Z",
           "sizeBytes": 91749897,
-          "fileName": "K91-MODERN-ARMOR-PremiumSkin3D_N2UxgRv.zip",
+          "fileName": "K91-MODERN-ARMOR-PremiumSkin3D_zUKfP6r.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "K91-MODERN-ARMOR-PremiumSkin3D_N2UxgRv.zip",
+        "fileName": "K91-MODERN-ARMOR-PremiumSkin3D_zUKfP6r.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -43993,6 +43882,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "01",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_01.exe",
+          "updatedAt": "2026-09-18T19:35:10.999Z",
+          "sizeBytes": 63678938,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_01.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated XVM 13.1.0_0089 (hotfix for White Tiger gamemode, the XVM OTM is disabled there automaticaly)\n- Updated the rest mods by CHAMPi\n- Updated Classic Tank Carousel\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "00",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_00.exe",
           "updatedAt": "2026-09-18T14:54:49.980Z",
@@ -44003,8 +43902,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_00.exe",
-        "changeLog": "- initial compatibility with WoT 2.4.0.1\n- Updated XVM 13.1.0_0088\n- Updated net.openwg.common 2.8.0\n- Updated The anti-mirror for non-XVM contour icons\n- Updated Change client language\n- Updated x5 XP Multiplier Counter by OldSkool\n- Updated Expected Vehicle Values 2.04.000 (battle panel positions are saved after dragging; fixed panels showing up during the pre-battle intro and flickering; panels keep their place when the anchor point changes; added the {dmg} token and 10 new languages)\n- Updated Minimap images: YaYa tactical\n- Updated Vehicle Stat Inspector 2.0.3\n- Updated Clean Camo\n- Updated Garage Mastery by OldSkool (ported to mod menu, removed scaleform and switched to gameface, code optimized, API stuff optimized, resolution change support)\n- Updated Players Panel HP by OldSkool (added option to also show vanilla hpbars, code optimization and cleanup)\n- Updated Mod Menu 2.0.16 (new switch look, adjusted tabs, fonts and dropdown lists)\n- Added Aim Info Pro (by Aslain)",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_01.exe",
+        "changeLog": "- Updated XVM 13.1.0_0089 (hotfix for White Tiger gamemode, the XVM OTM is disabled there automaticaly)\n- Updated the rest mods by CHAMPi\n- Updated Classic Tank Carousel\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
