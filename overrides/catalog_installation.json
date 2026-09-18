@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.056",
+  "catalogVersion": "v2026.09.057",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7930",
+      "title": "Aim Info Pro",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place. To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings."
+      },
+      "installationProcess": {
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Archive is copied to game root via included mods folder, but guide also requires modifying audio_mods.xml in a custom res_mods/<version>/audioww path.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7925",
@@ -998,12 +1013,12 @@
       "title": "Hangar Carousel Classic",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Installation World of Tanks `2.4.0.0` or a compatible client is required. `net.openwg.gameface` is required for the carousel. Full package (recommended) [Download the ZIP ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.16/hangar_carousel_classic_1.0.16_full.zip ) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.0/`. HCC only [Download the WOTMOD ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.16/mod_hangar_carousel_classic_1.0.16.wotmod ) and copy it to `mods/2.4.0.0/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases]( https://gitlab.com/openwg/wot.gameface/-/releases ). Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
+        "latestInstallGuide": "Installation World of Tanks `2.4.0.1` or a compatible client is required. `net.openwg.gameface` is required for the carousel. Full package (recommended) [Download the ZIP ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.17/hangar_carousel_classic_1.0.17_full.zip ) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.1/`. HCC only [Download the WOTMOD ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.17/mod_hangar_carousel_classic_1.0.17.wotmod ) and copy it to `mods/2.4.0.1/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases]( https://gitlab.com/openwg/wot.gameface/-/releases ). Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
       },
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide instructs extracting the full ZIP into the WoT root directory; dependency notes are non-blocking.",
+        "decisionReason": "Archive package and guide says to extract the full package into the WoT root directory.",
         "deleteDataWgpdc": false
       }
     },
