@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.055",
-  "sourceHash": "63580d706221e93f95beb0ce6d5d08af6ca6a2e4e88d5f18d76ada77f2a9e5ae",
+  "catalogVersion": "v2026.09.056",
+  "sourceHash": "9529c76426108a4c9ffedcd885b2ac1ef1f6064f3aefc2e442d4bd94a1466e21",
   "sources": [
     "wgmods",
     "modhub"
@@ -64,6 +64,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YarkiLauncher_xXXYrSW.exe",
+          "updatedAt": "2026-09-18T11:07:13.730Z",
+          "sizeBytes": 715264,
+          "fileName": "YarkiLauncher_xXXYrSW.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YarkiLauncher_wpkTSGC.exe",
@@ -75,9 +85,9 @@
         }
       ],
       "latest": {
-        "fileName": "YarkiLauncher_wpkTSGC.exe",
+        "fileName": "YarkiLauncher_xXXYrSW.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -188,6 +198,44 @@
         "fileName": "sheshiver.insigniaongun_2.1.0_hr3t6VV.wotmod",
         "changeLog": "",
         "wotGameVersionCompatibility": "likelyCompatible"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7877",
+      "title": "CustomFOV",
+      "ownerUsername": "upo2137_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Custom FOV allows you to set any Field of View angle beyond the default in-game limit of 120°.&nbsp;<br><br>Features:&nbsp;<br>• In-Game Settings: Adjust your FOV directly in the hangar with a slider.&nbsp;<br>• Reset Protection: Keeps your custom FOV intact even when saving other game settings.&nbsp;<br>• Dynamic FOV: Optional min/max FOV scaling when zooming out.&nbsp;<br><br>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Extract the downloaded archive.&nbsp;<br>2. Copy the files into your current game version folder:&nbsp;<br>&nbsp; &lt;World_of_Tanks&gt;\\mods\\&lt;current_version&gt;\\&nbsp;<br>&nbsp; (or simply merge the \"mods\" folder into your main game directory).&nbsp;<br>&nbsp;</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7877/",
+      "tagIds": [
+        "18",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomFOV_v1.0.0.zip",
+          "updatedAt": "2026-09-18T10:45:42.577Z",
+          "sizeBytes": 231065,
+          "fileName": "CustomFOV_v1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "CustomFOV_v1.0.0.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -475,7 +523,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>参照巨响图标，自制的坦克战斗图标。</p>",
-      "installationGuideHtml": "<p>参照巨响标准版的单独图标，但是无法单独使用。现在WG不允许直接使用单独插件，来镜像图标。</p><p>所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。</p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装使用方法：</p><p>先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。</p><p>用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。</p><p>或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。</p><p>----------------------------------------------------------</p><p>图标现在已经集成至阿斯兰插件包中，直接选择安装即可。</p><p>这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。</p><p>&nbsp;</p><p>&nbsp;</p>",
+      "installationGuideHtml": "<p>参照巨响标准版的单独图标，但是无法单独使用。现在WG不允许直接使用单独插件，来镜像图标。</p><p>所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。</p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装使用方法：</p><p>先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。</p><p>用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。</p><p>或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。</p><p>----------------------------------------------------------</p><p>图标现在已经集成至阿斯兰插件包中，直接选择安装即可。</p><p>这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。</p><p>&nbsp;</p><p>9.18 &nbsp;更新2.4.0.1版本，Simple：简单名字版本。Armor：含装甲值版本。</p><p>&nbsp;</p><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-09-08_214311.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7906/",
       "tagIds": [
@@ -850,6 +898,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/negev_voice_1.0.0_USDrKlI.wotmod",
+          "updatedAt": "2026-09-18T06:13:49.340Z",
+          "sizeBytes": 2111334,
+          "fileName": "negev_voice_1.0.0_USDrKlI.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Update for 2.4.0.1"
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/negev_voice_1.0.0.wotmod",
@@ -861,9 +919,9 @@
         }
       ],
       "latest": {
-        "fileName": "negev_voice_1.0.0.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "negev_voice_1.0.0_USDrKlI.wotmod",
+        "changeLog": "Update for 2.4.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2194,7 +2252,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.6,
       "descriptionHtml": "<p>A classic forest hangar from World of Tanks 1.0 — a calm and atmospheric location surrounded by nature, familiar to many longtime players.</p><p>This mod brings back the original hangar_v3 with its recognizable look and nostalgic feeling. A great choice for players who want to add a touch of the old game atmosphere to their client.</p>",
       "installationGuideHtml": "<h2>1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right:</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/70deba57-d855-49d5-b937-72e001fd36a1.png\"></figure><h2><br><br><br><br>2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG):</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/9c03e72b-11f4-494b-80aa-3768dca7a7ad.png\"></figure><p>&nbsp;</p><p>&nbsp;</p><h2>3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation:</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/8de24886-5eb1-4bbf-a1c1-6fba08f67952.png\"></figure><p>&nbsp;</p><blockquote><p>*the Hangar Switcher must be downloaded to activate the hangar in the game</p></blockquote>",
@@ -2205,6 +2263,16 @@
         "13"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YarkiLauncher_FOQScV2.exe",
+          "updatedAt": "2026-09-18T11:07:31.127Z",
+          "sizeBytes": 715264,
+          "fileName": "YarkiLauncher_FOQScV2.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.2",
@@ -2227,9 +2295,9 @@
         }
       ],
       "latest": {
-        "fileName": "YarkiLauncher_NbESCyO.exe",
+        "fileName": "YarkiLauncher_FOQScV2.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2509,7 +2577,7 @@
       "source": "wgmods",
       "sourceId": "7838",
       "title": "AYA Translator",
-      "ownerUsername": "Veil___",
+      "ownerUsername": "hexe_",
       "languageCode": "en",
       "availableLanguageCodes": [
         "en"
@@ -3146,8 +3214,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p><strong>WOT Tactic Bridge</strong> displays shared tactical drawings from a WOT Tactic room directly on the standard World of Tanks minimap.</p><p>The mod is useful for <strong>training sessions, tournaments and team battles</strong>. The room creator selects the map, while participants with drawing permission can update the plan almost in real time—even when they are not in the battle.</p><p>Supported elements include:</p><ul><li>freehand drawings;</li><li>straight lines and arrows;</li><li>circles;</li><li>solid, dashed and dotted lines.</li></ul><p>Drawings adapt to the minimap size and are hidden together with it. Optional automatic removal can be enabled for each new object from <strong>1 to 60 seconds</strong>. This feature is disabled by default.</p><p>A shared room key is used to connect, while the room creator manually selects the map to display.</p><p><i>The mod is display-only.</i> It does not access battle, vehicle, player-position or enemy data and does not affect controls, firing, aiming or vehicle parameters.</p>",
-      "installationGuideHtml": "<ol><li>Close World of Tanks.</li><li>Copy WOT_Tactic_Bridge_0.2.3.wotmod to&nbsp;<br><i>World_of_Tanks_EU/mods/&lt;game version&gt;/.</i></li><li>In WOT Tactic, click <strong>Display drawings</strong> and copy the room key.</li><li>Launch the game, paste the key into the mod settings and apply it before battle.</li></ol><p><i>Changing the room key does not require reinstalling the mod.</i></p>",
+      "descriptionHtml": "<p><strong>WOT Tactic Bridge</strong> brings shared tactical plans from the <strong>Tank Helper Discord bot</strong> directly to the standard World of Tanks minimap.</p><p>Designed for <strong>training sessions, tournaments and team battles</strong>, the mod connects your game to <strong>WOT Tactic</strong> — Tank Helper’s collaborative planning app. The room creator selects the map, while participants with drawing permission can update the plan almost in real time, even when they are not in the battle.</p><p><strong>Supported elements:</strong></p><ul><li>Freehand drawings, straight lines and arrows.</li><li>Circles.</li><li>Solid, dashed and dotted lines.</li><li>Tactical icons for <strong>heavy tanks, medium tanks, tank destroyers, light tanks and SPGs</strong>.</li><li>Colours and line styles selected in the planning room.</li></ul><p>Drawings automatically adapt to the minimap size and disappear when it is hidden. Optional automatic removal lets each new drawing remain visible for <strong>1–60 seconds</strong>.</p><p><strong>Get started with Tank Helper:</strong></p><ol><li><a href=\"https://discord.com/oauth2/authorize?client_id=1526732455942422718&amp;integration_type=1&amp;scope=applications.commands\"><strong>Add Tank Helper to Discord</strong></a>.</li><li>Open the <strong>Tank Helper app</strong> in Discord and select <strong>WOT Tactic</strong>.</li><li>Create or join a planning room and copy its <strong>shared display key</strong>.</li><li>In the game’s hangar, open <strong>Mod settings → WOT Tactic Bridge</strong>, paste the key and save.</li></ol>",
+      "installationGuideHtml": "<ol><li>Close World of Tanks.</li><li>Copy WOT_Tactic_Bridge_0.2.4.wotmod to&nbsp;<br><i>World_of_Tanks_EU/mods/&lt;game version&gt;/.</i></li><li>In WOT Tactic, click <strong>Display drawings</strong> and copy the room key.</li><li>Launch the game, paste the key into the mod settings and apply it before battle.</li></ol><p><i>Changing the room key does not require reinstalling the mod.</i></p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wot-tactic-cover.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7781/",
       "tagIds": [
@@ -4189,20 +4257,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.0.0.931",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.cn_fonts.2.4.0.0.931.2607998.wotmod",
-          "updatedAt": "2026-09-12T20:14:30.758Z",
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.0.1.949",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.cn_fonts.2.4.0.1.949.2619847.wotmod",
+          "updatedAt": "2026-09-18T06:26:52.217Z",
           "sizeBytes": 96375827,
-          "fileName": "gravity.cn_fonts.2.4.0.0.931.2607998.wotmod",
+          "fileName": "gravity.cn_fonts.2.4.0.1.949.2619847.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "gravity.cn_fonts.2.4.0.0.931.2607998.wotmod",
+        "fileName": "gravity.cn_fonts.2.4.0.1.949.2619847.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4985,7 +5053,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<p>This mod adds a Crucible tab to the Team Composition menu (opened with the Tab key), allowing you to track the progress of your current Crucible mission without leaving the battle.<br><br><strong>Work in progress:</strong> This is the first public version of the mod. More features, improvements, and additional mission support will be added in future updates.<br><br>Due to technical limitations, not every Crucible mission can be tracked accurately in real time.<br><br>Supported Crucible missions:<br>🟢 Deal X damage<br>🟢 Block X damage<br>🟢 Penetrate armor X times<br>🟢 Destroy X vehicles<br>🟢 Critically damage X modules<br>🟢 Destroy X heavy tanks<br>🟢 Deal damage equal to X your vehicle's HP<br>🟢 Deal X damage within the first Y minutes<br>🟢 Deal, receive, and block a total of X damage<br>🟢 Deal X damage or deal and assist Y damage<br>🟢 Deal X damage or destroy X vehicles<br>🟢 Penetrate armor X times<br>🟢 Deal and assist a total of X damage<br>🟢 Deal X damage within view range<br>🟢 Deal X damage within Y meters<br>🟢 Destroy X enemy vehicles while remaining unspotted<br>🟢 Destroy X enemy vehicles of Y different types<br>🟢 Earn \"Duelist\" medal<br>🔴 Finish as the top damage dealer in the battle<br>🔴 Finish as the top damage dealer on your team<br>🔴 Finish in the top X by XP on your team<br>🔴 Earn the High Caliber medal<br><br>Legend<br>🟢 Fully supported<br>🔴 Mission is displayed, but progress cannot be tracked in real time</p>",
       "installationGuideHtml": "<p>Place the downloaded wotmod file in the <i>&lt;WoT folder&gt;/mods/&lt;current version of the game&gt;</i> directory.</p>",
@@ -4995,6 +5063,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/crusable_progress_tracker_1.0.3_kbbXrOO.wotmod",
+          "updatedAt": "2026-09-18T06:44:03.039Z",
+          "sizeBytes": 287550,
+          "fileName": "crusable_progress_tracker_1.0.3_kbbXrOO.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.3",
@@ -5044,22 +5122,12 @@
           "fileName": "crusable_progress_tracker_1.0.1.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Added support for objectives with OR conditions."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/crusable_progress_tracker_1.0.0.wotmod",
-          "updatedAt": "2026-09-11T13:19:15.177Z",
-          "sizeBytes": 240038,
-          "fileName": "crusable_progress_tracker_1.0.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "crusable_progress_tracker_1.0.3.wotmod",
+        "fileName": "crusable_progress_tracker_1.0.3_kbbXrOO.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5838,16 +5906,6 @@
           "fileName": "BizzordModapack_2_ElJxk0M_YqEooye.exe",
           "fileExt": ".exe",
           "changeLog": "Оновлено для мікропатчу 2.3.1.1"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BizzordModapack_2_ElJxk0M.exe",
-          "updatedAt": "2026-09-11T13:55:05.991Z",
-          "sizeBytes": 165959153,
-          "fileName": "BizzordModapack_2_ElJxk0M.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -6908,7 +6966,7 @@
       ],
       "recommended": false,
       "mark": 4.1,
-      "descriptionHtml": "<p><strong>Custix ModPack</strong> is a compact collection of statistics and useful improvements for the standard World of Tanks interface. Nothing unnecessary: every optional mod can be selected separately. Compatible with <strong>World of Tanks EU</strong>.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>🌐 </strong><a href=\"https://modpack.custix.pp.ua/\"><strong>Official website</strong></a> — current modpack releases are available here, and updates are usually published sooner than on <a href=\"http://wgmods.net/\">wgmods.net</a>.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 BattleStats</strong> shows average vehicle tier, battle count, win rate, and <strong>WN8 or WNX</strong> on the Tab screen and team panels.<br>Three modes are available:&nbsp;</p><ul><li>Last 1000 battles</li><li>Overall account statistics</li><li>Current-vehicle statistics</li></ul><p>Panel layout, fonts, colors, badges, and elite levels are configurable. If your anonymizer is enabled, statistics for other players are still displayed.</p><p><strong>📈 SessionStats</strong> adds WN8, WNX, and their change to the native Session Statistics window next to WTR.</p><p><strong>🗂️ BattleHistory</strong> adds a movable battle-history window with map, vehicle, outcome, damage, kills, experience, survival, and WN8/WNX. It supports vehicle filtering, reopening detailed reports, and history limits by battle count or days.</p><p><strong>🪟 UpdatedWindows</strong> modernizes platoon windows, private and group chats, Contacts, Message Center, and Session Statistics. It adds color, opacity, and font settings, contact notes, context menus, emojis, links, message templates, and an integrated filter.</p><p><strong>✉️ MessageCenterFilter</strong> is a standalone filter for users without UpdatedWindows. It independently filters Message Center entries and hangar pop-ups by category. UpdatedWindows and MessageCenterFilter cannot be installed together: selecting either one automatically clears the other.</p><p><strong>🌐 LastServerLogin</strong> remembers the last successful server without storing passwords or tokens.</p><p><strong>✅ PlatoonReady</strong> adds a platoon-commander <strong>READY</strong> button, an indicator for other members, and the Alt+R shortcut.</p><p><strong>🔔 ModpackNotifier</strong> reports new modpack versions. Network failures do not prevent the game from starting.</p><p>The installer adds only libraries required by selected components: <strong>ModsSettingsAPI</strong>, <strong>ModsListAPI</strong>, and <strong>OpenWG Gameface</strong>.</p>",
+      "descriptionHtml": "<p><strong>Custix ModPack</strong> is a compact collection of statistics and useful improvements for the standard World of Tanks interface. Nothing unnecessary: every optional mod can be selected separately. Compatible with <strong>World of Tanks EU</strong>.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>🌐 </strong><a href=\"https://modpack.custix.pp.ua/\"><strong>Official website</strong></a> — current modpack releases are available here, and updates are usually published sooner than on <a href=\"http://wgmods.net/\">wgmods.net</a>. <strong>(A version of the modpack is available for WoT 2.4.0.1)</strong></p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 BattleStats</strong> shows average vehicle tier, battle count, win rate, and <strong>WN8 or WNX</strong> on the Tab screen and team panels.<br>Three modes are available:&nbsp;</p><ul><li>Last 1000 battles</li><li>Overall account statistics</li><li>Current-vehicle statistics</li></ul><p>Panel layout, fonts, colors, badges, and elite levels are configurable. If your anonymizer is enabled, statistics for other players are still displayed.</p><p><strong>📈 SessionStats</strong> adds WN8, WNX, and their change to the native Session Statistics window next to WTR.</p><p><strong>🗂️ BattleHistory</strong> adds a movable battle-history window with map, vehicle, outcome, damage, kills, experience, survival, and WN8/WNX. It supports vehicle filtering, reopening detailed reports, and history limits by battle count or days.</p><p><strong>🪟 UpdatedWindows</strong> modernizes platoon windows, private and group chats, Contacts, Message Center, and Session Statistics. It adds color, opacity, and font settings, contact notes, context menus, emojis, links, message templates, and an integrated filter.</p><p><strong>✉️ MessageCenterFilter</strong> is a standalone filter for users without UpdatedWindows. It independently filters Message Center entries and hangar pop-ups by category. UpdatedWindows and MessageCenterFilter cannot be installed together: selecting either one automatically clears the other.</p><p><strong>🌐 LastServerLogin</strong> remembers the last successful server without storing passwords or tokens.</p><p><strong>✅ PlatoonReady</strong> adds a platoon-commander <strong>READY</strong> button, an indicator for other members, and the Alt+R shortcut.</p><p><strong>🔔 ModpackNotifier</strong> reports new modpack versions. Network failures do not prevent the game from starting.</p><p>The installer adds only libraries required by selected components: <strong>ModsSettingsAPI</strong>, <strong>ModsListAPI</strong>, and <strong>OpenWG Gameface</strong>.</p>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/custix_modpack_saA4svb.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
@@ -6996,17 +7054,17 @@
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "2.4.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.1.2.4.6_dnD29g4.wotmod",
-          "updatedAt": "2026-09-17T19:03:38.085Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.1.2.4.6.wotmod",
+          "updatedAt": "2026-09-18T05:33:37.044Z",
           "sizeBytes": 1221099,
-          "fileName": "gravity.camo_selector.2.4.0.1.2.4.6_dnD29g4.wotmod",
+          "fileName": "gravity.camo_selector.2.4.0.1.2.4.6.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "Reduced style share traffic to reduce load on the style share server."
+          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.0.1.2.4.6_dnD29g4.wotmod",
-        "changeLog": "Reduced style share traffic to reduce load on the style share server.",
+        "fileName": "gravity.camo_selector.2.4.0.1.2.4.6.wotmod",
+        "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7402,16 +7460,6 @@
           "fileName": "INQ_Pack_Installer_E3ZbcBJ.exe",
           "fileExt": ".exe",
           "changeLog": "Оновлено моди "
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "4.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/INQ_Pack_Installer_t7Ifc5m.exe",
-          "updatedAt": "2026-09-12T04:42:58.192Z",
-          "sizeBytes": 147129858,
-          "fileName": "INQ_Pack_Installer_t7Ifc5m.exe",
-          "fileExt": ".exe",
-          "changeLog": "Оновлено моди , виправлено баги "
         }
       ],
       "latest": {
@@ -8359,7 +8407,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.6,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This mod is part 3 of 3 mods, please download the other 2 mods aswell:<br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a><br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder &nbsp;(if not there already)</li><li>Place the 5 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) &nbsp;(replace x.x.x.x with the current version of WoT)<br>&nbsp;</li></ol>",
@@ -8370,20 +8418,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.932",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.3.932.zip",
-          "updatedAt": "2026-09-13T11:43:54.943Z",
-          "sizeBytes": 1306619985,
-          "fileName": "cleantanks.hd.part.3.932.zip",
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.2.952",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.3.952.zip",
+          "updatedAt": "2026-09-18T06:10:56.513Z",
+          "sizeBytes": 1306618998,
+          "fileName": "cleantanks.hd.part.3.952.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.3.932.zip",
+        "fileName": "cleantanks.hd.part.3.952.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8479,6 +8527,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_1ZWX6hK.wotmod",
+          "updatedAt": "2026-09-18T09:25:32.029Z",
+          "sizeBytes": 9377787,
+          "fileName": "voiceoversoundMod_1ZWX6hK.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_oTHrv8T.wotmod",
@@ -8527,22 +8585,12 @@
           "fileName": "voiceoversoundMod_hV4yZl3.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_5LSZEc7.wotmod",
-          "updatedAt": "2026-06-11T08:49:08.836Z",
-          "sizeBytes": 9377787,
-          "fileName": "voiceoversoundMod_5LSZEc7.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_jJDpc9C.wotmod",
+        "fileName": "voiceoversoundMod_1ZWX6hK.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8592,7 +8640,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.9,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Shows distance, dynamic damage, and dynamic penetration at your crosshair.&nbsp;<br>Especially useful for Deep Rifled Guns.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-07-01_235653779.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -10199,6 +10247,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T.F.D._WoT_BNN6Mvi.zip",
+          "updatedAt": "2026-09-18T05:48:45.945Z",
+          "sizeBytes": 64535183,
+          "fileName": "T.F.D._WoT_BNN6Mvi.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T.F.D._WoT_h0zOvgK.zip",
@@ -10237,22 +10295,12 @@
           "fileName": "T.F.D._WoT.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.2.1.3",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/T.F.D._WoT_74fUGyI.zip",
-          "updatedAt": "2026-05-16T14:31:29.678Z",
-          "sizeBytes": 54747251,
-          "fileName": "T.F.D._WoT_74fUGyI.zip",
-          "fileExt": ".zip",
-          "changeLog": "Add 21 voices as battle-start, attack-result, player-died, player-command and so on."
         }
       ],
       "latest": {
-        "fileName": "T.F.D._WoT_9YPclSk.zip",
-        "changeLog": "Add about 20 voices as player's command, sixthsense, and so on from the new story of GFL2.",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "T.F.D._WoT_BNN6Mvi.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -11846,7 +11894,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.8",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.custom_personal_record.2.4.0.1.1.8.zip",
-          "updatedAt": "2026-09-17T17:41:12.505Z",
+          "updatedAt": "2026-09-18T10:31:00.095Z",
           "sizeBytes": 176250,
           "fileName": "gravity.custom_personal_record.2.4.0.1.1.8.zip",
           "fileExt": ".zip",
@@ -13757,7 +13805,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p><strong>Yet Another Modpack</strong><br><br>This modpack provides a curated selection of quality-of-life improvements and popular modifications for World of Tanks. It allows users to choose between <i>Full setup</i>, <i>Сompact setup</i>, <i>Custom setup</i>, or <i>Preset: the_barbarian</i> installation types.&nbsp;<br><br>Key Components:<br><br><strong>Battle Hits</strong>: A viewer to inspect where shots landed and penetrated after battle.&nbsp;<br><strong>Replays Manager</strong>: A dedicated tool for managing and organizing your game replays.&nbsp;<br><strong>Marks of Excellence (MoE)</strong>: Tracks progress towards gun marks in battle (available variants: Lebwa, Protanki).&nbsp;<br><strong>Battle Equipment</strong>: Displays your current vehicle's equipment loadout directly on the battle interface.<br><strong>Tomato.gg</strong>: Links your game client to the Tomato.gg website, giving you quick access to detailed player profiles, vehicle statistics, and automatic updates.<br><strong>PMOD: </strong>A powerful all-in-one package that improves gameplay with session statistics, team HP bars, camera stabilization, and useful tweaks like handbrake on TDs.</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
@@ -13767,6 +13815,16 @@
         "12"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2026.09.13.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.09.13.1_pTkH7RZ.exe",
+          "updatedAt": "2026-09-18T06:41:36.899Z",
+          "sizeBytes": 13859875,
+          "fileName": "yam_2026.09.13.1_pTkH7RZ.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2026.09.13.1",
@@ -13816,22 +13874,12 @@
           "fileName": "yam_2026.08.12.1.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "2026.08.07.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/yam_2026.08.07.1.exe",
-          "updatedAt": "2026-09-11T13:11:12.804Z",
-          "sizeBytes": 13813967,
-          "fileName": "yam_2026.08.07.1.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "yam_2026.09.13.1.exe",
+        "fileName": "yam_2026.09.13.1_pTkH7RZ.exe",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14419,16 +14467,6 @@
           "fileName": "Shelest_soundmod_wB3HgD0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Shelest_soundmod_2Sc2lXu.zip",
-          "updatedAt": "2026-06-11T12:21:45.506Z",
-          "sizeBytes": 9873278,
-          "fileName": "Shelest_soundmod_2Sc2lXu.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -14638,6 +14676,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_wReMfvx.wotmod",
+          "updatedAt": "2026-09-18T09:25:54.695Z",
+          "sizeBytes": 15565364,
+          "fileName": "voiceoversoundMod_wReMfvx.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_LJ5NKOS.wotmod",
@@ -14686,22 +14734,12 @@
           "fileName": "voiceoversoundMod_gUQrJXm.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_cJ4ub9F.wotmod",
-          "updatedAt": "2026-06-11T08:49:28.858Z",
-          "sizeBytes": 15565364,
-          "fileName": "voiceoversoundMod_cJ4ub9F.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod.wotmod",
+        "fileName": "voiceoversoundMod_wReMfvx.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14886,7 +14924,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 4,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod replaces the anonymized name of players in the new battle result with the real name and puts the anonymized name to be shown when hovering over the eye icon.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -14900,7 +14938,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.battle_result_unanonymizer.2.4.0.1.1.5.zip",
-          "updatedAt": "2026-09-17T17:41:10.322Z",
+          "updatedAt": "2026-09-18T10:30:58.799Z",
           "sizeBytes": 154343,
           "fileName": "gravity.battle_result_unanonymizer.2.4.0.1.1.5.zip",
           "fileExt": ".zip",
@@ -16413,7 +16451,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.8,
       "descriptionHtml": "<h2>YaYa's Tactical Minimap Mod:&nbsp;</h2><p>This mod is intended to give new and seasoned players a guide to map starting positions as well as some neat angles to leverage. It is strongly recommended to visit YaYa's Map Website (https://wotmapsbyyaya.com/) as each map has positional information and explanations that put everything into perspective. Should you have questions or give feedback, join our discord: <a href=\"https://discord.gg/D9z2m2Q7ka\">https://discord.gg/D9z2m2Q7ka</a></p><p>Mod Usage Instructions</p><p>A hot-key combination has been created to rebind the default key (ALT) to another during battle: Press ENTER to open the chat and then press CTRL+SHIFT+K to activate key rebinding. A chat message will appear in your in-game battle chat. Once complete, the rebind is then stored in the mod’s xml file for future use.</p><p><br>Note: This procedure must be completed every time the mod is updated including if updating with Aslain’s mod.</p><p>Standalone Installation</p><p>Copy archive content into the mods folder of the game.<br>E.g.: C:\\Games\\World_of_Tanks_EU\\mods<br><br>By default the Mod is set up to show all icons upon pressing the toggle. However, should you wish to turn off the icons, this can be done within the “yayatacticmap” xml located in the “\\mods\\configs\\locastan” folder. Instructions are provided within the xml.</p><p>Map Preview images: &nbsp;</p><p>Ruinberg, Erlenberg, Malinovka, Serene Coast and the Style Guide.</p>",
       "installationGuideHtml": "<p>Copy archive content into mods folder of the game.</p>",
@@ -16425,6 +16463,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2401",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2401.zip",
+          "updatedAt": "2026-09-18T10:47:22.667Z",
+          "sizeBytes": 47363662,
+          "fileName": "YaYa_tactical_minimaps2401.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Just mod folder version name change."
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2400a",
@@ -16474,22 +16522,12 @@
           "fileName": "YaYa_tactical_minimaps2311.zip",
           "fileExt": ".zip",
           "changeLog": "- Updated folder structure for 2.3.1.1\n- Added Gravity Assists error log reporter mod to help me hunt down bugs. :)"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2310",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2310.zip",
-          "updatedAt": "2026-09-13T05:18:41.596Z",
-          "sizeBytes": 47321309,
-          "fileName": "YaYa_tactical_minimaps2310.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated map for Klondike."
         }
       ],
       "latest": {
-        "fileName": "YaYa_tactical_minimaps2400a.zip",
-        "changeLog": "- Updated map for Empires Border.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "YaYa_tactical_minimaps2401.zip",
+        "changeLog": "- Just mod folder version name change.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -17033,16 +17071,6 @@
           "fileName": "USMC_Tank_Scholl_tCF7XRx.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/USMC_Tank_Scholl_70Vsdom.rar",
-          "updatedAt": "2026-06-11T09:18:34.944Z",
-          "sizeBytes": 9209973,
-          "fileName": "USMC_Tank_Scholl_70Vsdom.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -17335,7 +17363,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<h2><strong>Skill4ltu Mod (Official)</strong></h2><p>The official Skill4ltu Mod adds advanced battle analytics and tight integration with <a href=\"https://skill4ltu.eu/\">Skill4ltu Index</a>. Install it, play battles, and unlock deep per-battle insights, extended scoreboards, and powerful progression tracking directly on your Skill4ltu Index profile.</p><h2><strong>Key features</strong></h2><ul><li>Skill4ltu Index integration: a quick-access button in the WoT garage next to each tank to open its rating, recommended equipment, crew layout, field mods, and detailed specs.</li><li>Recent Battles: full battle timeline with personal score, team score, detailed report, and shot-by-shot visualization.</li><li>Battle Hits (3D): replay every shot you fired and every shot received in a 3D viewer with key context such as penetration chance, aim/dispersion circle size at the moment of firing, and impact details.</li><li>Matchmaker analytics: tier distribution and trends for each vehicle.</li><li>Economy breakdown: credits earned, costs, and net profit per vehicle and over time.</li><li>Marks tracking: Marks of Excellence, Marks of Mastery, and MoE progress charts.</li><li>Enhanced scoreboard: expanded per-player stats (damage, assists, stuns, capture/defense, credits, survival).</li></ul><h2><strong>How it works</strong></h2><ol><li>Install the mod.</li><li>Play battles with the mod enabled.</li><li>Log in to Skill4ltu Index via the official Wargaming API to see the new analytics tabs in your profile.</li></ol><h2><strong>Notes</strong></h2><ul><li>Data appears after you play at least one battle with the mod installed.</li><li>Fully compliant with Wargaming Fair Play rules.</li><li>Optimized for minimal performance impact.</li><li>Supports all Wargaming regions: EU, NA, ASIA.</li></ul>",
       "installationGuideHtml": "<p>Open the downloaded file as an archive.</p><p>Run <strong>skill4ltu_*.exe</strong> for automatic installation, or, copy the <strong>“manual-install”</strong> folder into the <strong>mods/&lt;current_game_version&gt;</strong> folder for manual installation.</p><p>Check <strong>README.txt</strong> for more details.</p>",
@@ -17346,6 +17374,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.5.08",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.09.07.1_QcE1vX1.zip",
+          "updatedAt": "2026-09-18T06:41:48.902Z",
+          "sizeBytes": 4801343,
+          "fileName": "skill4ltu_2026.09.07.1_QcE1vX1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.5.08",
@@ -17395,22 +17433,12 @@
           "fileName": "skill4ltu_2026.07.14.1_DJWOpE3.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.5.07",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.07.14.1.zip",
-          "updatedAt": "2026-09-13T05:17:43.550Z",
-          "sizeBytes": 4792630,
-          "fileName": "skill4ltu_2026.07.14.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "skill4ltu_2026.09.07.1.zip",
+        "fileName": "skill4ltu_2026.09.07.1_QcE1vX1.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -26243,7 +26271,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CleanCamoManager.2.4.0.1.exe",
-          "updatedAt": "2026-09-17T17:39:27.699Z",
+          "updatedAt": "2026-09-18T10:30:58.840Z",
           "sizeBytes": 11304016,
           "fileName": "CleanCamoManager.2.4.0.1.exe",
           "fileExt": ".exe",
@@ -26692,16 +26720,6 @@
           "fileName": "British_Crew_hX0bC8N.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/British_Crew_9nRCNXo.rar",
-          "updatedAt": "2026-06-11T09:19:12.647Z",
-          "sizeBytes": 12263091,
-          "fileName": "British_Crew_9nRCNXo.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -26719,7 +26737,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Music Mod:</p><p>Garage Music, Battle Music, Screen Music, Result Music</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=dHFonUqC3p0\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/dHFonUqC3p0\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=_hT_e35rREI&amp;t=26s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/_hT_e35rREI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ewPookTUc9w&amp;t=56s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ewPookTUc9w\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=0pJZ7gmkWBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/0pJZ7gmkWBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Wq4O_sFsVAA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Wq4O_sFsVAA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=uf6ySsrvBxs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/uf6ySsrvBxs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=r7SAI5ov5do\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/r7SAI5ov5do\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=a4aS7HAhvc8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/a4aS7HAhvc8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2ce432JBRUo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2ce432JBRUo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=oFUIaPAVRP4\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/oFUIaPAVRP4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><a href=\"https://www.mediafire.com/file_premium/rt8p5luc5teyv8m/music_interactivesoundMod.wotmod/file\">Fury</a></p><p><a href=\"https://www.mediafire.com/file_premium/db7deji4r9dliws/music_interactivesoundMod.wotmod/file\">Old Basic Music</a></p><p><a href=\"https://www.mediafire.com/file_premium/srwdfpppq0xktfw/music_interactivesoundMod.wotmod/file\">Old Garage Music</a></p><p><a href=\"https://www.mediafire.com/file_premium/93sn9y8cfwh8t0l/music_interactivesoundMod.wotmod/file\">Old Victory Day music</a></p><p><a href=\"https://www.mediafire.com/file_premium/f0jfrwtz611m0z2/music_interactivesoundMod.wotmod/file\">Old Premium Music 2016</a></p><p><a href=\"https://www.mediafire.com/file_premium/0vz4u16xi1skh2q/music_interactivesoundMod.wotmod/file\">Old music menu</a></p><p><a href=\"https://www.mediafire.com/file_premium/h52tc3oyui643sg/music_interactivesoundMod.wotmod/file\">New Victories Await</a></p><p><a href=\"https://www.mediafire.com/file_premium/mirarfx7w5zinx2/music_interactivesoundMod.wotmod/file\">Battle Loading Music Only</a></p><p><a href=\"https://www.mediafire.com/file_premium/382dmvjoeju51ds/music_interactivesoundMod.wotmod/file\">Only Garage and Battle Loading Music</a></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord</a></p><p><a href=\"https://www.youtube.com/@WorldofTanksWarMod\">Youtube</a></p>",
       "installationGuideHtml": "<p>Download the mod, unpack it and paste it into mods/2.0.1.0</p>",
@@ -26729,6 +26747,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/music_interactivesoundMod.wotmod",
+          "updatedAt": "2026-09-18T09:26:41.755Z",
+          "sizeBytes": 171196778,
+          "fileName": "music_interactivesoundMod.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.3",
@@ -26778,22 +26806,12 @@
           "fileName": "music_interactivesoundMod_w0sZxi9.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/music_interactivesoundMod_IWTj89O.wotmod",
-          "updatedAt": "2026-06-11T08:52:07.020Z",
-          "sizeBytes": 171196778,
-          "fileName": "music_interactivesoundMod_IWTj89O.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "music_interactivesoundMod_p2ON1zY.wotmod",
+        "fileName": "music_interactivesoundMod.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -27770,16 +27788,6 @@
           "fileName": "Hits_V1.2.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hits_V1.2_7PHClGc.rar",
-          "updatedAt": "2026-06-11T09:19:08.355Z",
-          "sizeBytes": 96901280,
-          "fileName": "Hits_V1.2_7PHClGc.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -27797,7 +27805,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OoQvmU3GKkU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OoQvmU3GKkU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/ELIjNZpwfXw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ELIjNZpwfXw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>This is the mod which sets \"<strong>HeavenBurnsRed</strong>\"(smartphone game) girls' voice, sound and character textures to crew voice, garage music, loading music, some action sounds, battle-loading-screen pictures and sixthsense icon.</p><p>Depending on whether you apply a specific bnk or wotmod file or not and deleting some lines from xml file, you can choose to leave each of the sounds and textures below as the default or replace them.</p><ul><li><i>Sixthsense sound</i></li><li><i>Artillery Sixthsense sounds(Sound Detection)</i></li><li><i>Garage and game starting screen music</i></li><li><i>Buttons sound in garage</i></li><li><i>Player's command voice</i></li><li><i>Using equipment(repair kit, first aid kit) sound</i></li><li><i>Battle loading music</i></li><li><i>Sound of important Log in battle(anyone dead, enemy spotted)</i></li><li><i>Sixthsense icon</i></li><li><i>Game starting screen</i></li><li><i>Battle loading screen</i></li></ul><p>&nbsp;</p><p><strong>This doesn't work properly in some event modes like \"Steel Hunter\", \"Last stand\"...</strong></p><p><strong>I don't know how I delete default hangar music, so I made the volume of mod's hangar music loud so that default one isn't able to heard.I recommend you set garage music volume about 35%.</strong></p><p>ーーーーーーーーーーーーーーーーーーー</p><p>スマホゲーム\"<strong>HeavenBurnsRed</strong>\"から音声を持ってきているmodです。搭乗員ボイス、ガレージとロード画面の音楽、一部操作音、第六感アイコン及び戦闘ロード画面背景などを置き換えています。</p><p>特定のbnkファイルやwotmodファイルの抜き差し、及びxmlファイルに記述された特定の行の削除により以下のそれぞれを置き換えるかどうか選択できます。</p><ul><li><i>第六感サウンド</i></li><li><i>音響探知</i></li><li><i>ガレージとゲーム起動画面の音楽</i></li><li><i>ガレージの各種ボタンのサウンド</i></li><li><i>自車両の戦闘コマンドのボイス</i></li><li><i>修理キット及び救急キット使用音</i></li><li><i>戦闘ロード画面の音楽</i></li><li><i>戦闘中の重要な通知のボイス(敵車両発見、NPC車両大破)</i></li><li><i>第六感アイコン</i></li><li><i>ゲーム起動画面</i></li><li><i>戦闘ロード画面</i></li></ul><p>&nbsp;</p><p><strong>\"Steel Hunter\"モードや\"ラスト・スタンド\"等、一部イベントモードでは正しく動作しません。</strong></p><p><strong>デフォルトのガレージ音楽の消し方が分からないのでMODのそれの音量を大きくすることでかき消す方法をとっています。ガレージ音楽の音量を35%前後に設定するとバランスが良くなります。</strong></p><p>ーーーーーーーーーーーーーーーーー</p><p><i><strong>hornreny@gmail.com</strong></i></p><p>ーーーーーーーーーーーーーーーーー</p><p>A python file and xml file for loading screen are ones which created by shuxue. Thank you for him.</p>",
       "installationGuideHtml": "<p>Please copy and drag to current version folder in \"res_mods\" or \"mods\".</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/99f87992-bae8-4941-853a-1a840180ca5e.png\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/61615cec-d4db-4f22-8361-ce250ad1ca48.png\"></figure>",
@@ -27809,6 +27817,16 @@
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "5.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HBR_WoT_I9NFUdf.zip",
+          "updatedAt": "2026-09-18T06:01:10.662Z",
+          "sizeBytes": 772550395,
+          "fileName": "HBR_WoT_I9NFUdf.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "5.3",
@@ -27851,9 +27869,9 @@
         }
       ],
       "latest": {
-        "fileName": "HBR_WoT_h7w8keW.zip",
-        "changeLog": "Fix the bug of sixthsense mod. Add 20 voices as battle-start, hit, no hit, and so on.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "HBR_WoT_I9NFUdf.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28319,7 +28337,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This mod is part 2 of 3 mods, please download the other 2 mods aswell<br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a><br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: The extracted mod files take up 2.93GB, this is not a bug.Please report any bugged tanks i will fix / exclude them.&nbsp;<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder (if not there already)</li><li>Place the 7 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)</li></ol>",
@@ -28330,20 +28348,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.932",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.2.932.zip",
-          "updatedAt": "2026-09-13T06:54:40.122Z",
-          "sizeBytes": 1437134766,
-          "fileName": "cleantanks.hd.part.2.932.zip",
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.2.952",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.2.952.zip",
+          "updatedAt": "2026-09-18T06:11:45.225Z",
+          "sizeBytes": 1437133285,
+          "fileName": "cleantanks.hd.part.2.952.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.2.932.zip",
+        "fileName": "cleantanks.hd.part.2.952.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28488,7 +28506,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>This mod is part 1 of 3 mods, please download the other 2 mods aswell<br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a><br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: The extracted mod files take up 2.93GB, this is not a bug.Please report any bugged tanks i will fix / exclude them.<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder &nbsp;(if not there already)</li><li>Place the 5 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) &nbsp;(replace x.x.x.x with the current version of WoT)<br>&nbsp;</li></ol>",
@@ -28499,20 +28517,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.932",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.1.932.zip",
-          "updatedAt": "2026-09-11T13:28:55.098Z",
-          "sizeBytes": 1321518463,
-          "fileName": "cleantanks.hd.part.1.932.zip",
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.2.952",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.hd.part.1.952.zip",
+          "updatedAt": "2026-09-18T06:10:50.996Z",
+          "sizeBytes": 1321518067,
+          "fileName": "cleantanks.hd.part.1.952.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.hd.part.1.932.zip",
+        "fileName": "cleantanks.hd.part.1.952.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -28524,7 +28542,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a><br><br>THIS MOD IS FOR SD CLIENT, DO NOT USE WITH HD VERSION OF THE MOD<br><br>This mod allows you to change the appearance of all tanks to be clean, exactly the same way the competitive streams show tanks.<br>INFO: The extracted mod files take up 1.47GB, this is not a bug.Please report any bugged tanks i will fix / exclude them.<br>INFO: This mod wont allow you to use any other tank mask skins (tank textures like custom lines or whatever work)</p>",
       "installationGuideHtml": "<ol><li>Download the Zip File</li><li>Extract the content of the Zip File</li><li>Create a folder called \"cleantanks\" in your mods folder &nbsp;(if not there already)</li><li>Place the 12 extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)</li></ol>",
@@ -28535,20 +28553,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.2.932",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.sd.932.zip",
-          "updatedAt": "2026-09-11T19:11:52.557Z",
-          "sizeBytes": 1115191469,
-          "fileName": "cleantanks.sd.932.zip",
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.2.952",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cleantanks.sd.952.zip",
+          "updatedAt": "2026-09-18T06:10:58.803Z",
+          "sizeBytes": 1115189261,
+          "fileName": "cleantanks.sd.952.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cleantanks.sd.932.zip",
+        "fileName": "cleantanks.sd.952.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -29815,6 +29833,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_WWBCLNY.wotmod",
+          "updatedAt": "2026-09-18T09:28:50.057Z",
+          "sizeBytes": 20522106,
+          "fileName": "voiceoversoundMod_WWBCLNY.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_FwG42JM.wotmod",
@@ -29863,22 +29891,12 @@
           "fileName": "voiceoversoundMod_mBY6tUt.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_tzLMsbb.wotmod",
-          "updatedAt": "2026-06-11T08:53:47.113Z",
-          "sizeBytes": 20522106,
-          "fileName": "voiceoversoundMod_tzLMsbb.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_MRdVuel.wotmod",
+        "fileName": "voiceoversoundMod_WWBCLNY.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30200,6 +30218,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_7zNV3VL.wotmod",
+          "updatedAt": "2026-09-18T09:29:24.712Z",
+          "sizeBytes": 11244582,
+          "fileName": "voiceoversoundMod_7zNV3VL.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_dgPOirN.wotmod",
@@ -30248,22 +30276,12 @@
           "fileName": "voiceoversoundMod_VPUITJP.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/voiceoversoundMod_sgs7Ory.wotmod",
-          "updatedAt": "2026-06-11T08:54:09.142Z",
-          "sizeBytes": 11244582,
-          "fileName": "voiceoversoundMod_sgs7Ory.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "voiceoversoundMod_jvFe6n8.wotmod",
+        "fileName": "voiceoversoundMod_7zNV3VL.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -30783,36 +30801,6 @@
           "fileName": "mod_battle_observer_v1.43.42.exe",
           "fileExt": ".exe",
           "changeLog": "Update for path 2.4.0.0. Statistics colors correction. Armor calculator icons update."
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.43.41",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.41.exe",
-          "updatedAt": "2026-09-12T12:49:19.988Z",
-          "sizeBytes": 4428324,
-          "fileName": "mod_battle_observer_v1.43.41.exe",
-          "fileExt": ".exe",
-          "changeLog": "Fixed armor calculator colors, added new parameter: piercing chance.\nВиправлено кольори калькулятора броні, додано новий параметр: ймовірність пробиття."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.43.38",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.38.exe",
-          "updatedAt": "2026-09-13T16:22:24.399Z",
-          "sizeBytes": 4425021,
-          "fileName": "mod_battle_observer_v1.43.38.exe",
-          "fileExt": ".exe",
-          "changeLog": "Complete rework of player statistics, correction of the position of icons in different panel modes."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.43.37",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.37.exe",
-          "updatedAt": "2026-09-13T06:58:35.184Z",
-          "sizeBytes": 4426770,
-          "fileName": "mod_battle_observer_v1.43.37.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -31301,7 +31289,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.9,
       "descriptionHtml": "<p>The mod introduces in-battle subtitles for characters from the \"Girls und Panzer\" crew and works with the following voiceovers:&nbsp;<br>- <strong>Team&nbsp;St. Gloriana Girls College</strong> (enabled when Darjeeling, Assam and Orange Pekoe are present in a tank)&nbsp;<br>- <strong>Darjeeling</strong> as a commander&nbsp;<br>- <strong>Alice</strong> as a commander&nbsp;<br>- <strong>Team Jatkosota</strong> (enabled when all 3 crew members from the team Jatkosota are present in a tank)&nbsp;<br>- <strong>Mika</strong> as a commander&nbsp;<br>- <strong>Erika Itsumi</strong> as a commander&nbsp;<br>- <strong>Team Ankou</strong> (enabled when all 5 crew members from the team Ankou are present in a tank)&nbsp;<br>- <strong>Miho Nishizumi</strong> as a commander&nbsp;<br>- <strong>Team-Kabasan</strong> (enabled when all 4 crew members from the Team-Kabasan are present in a tank)&nbsp;<br>- <strong>Erwin </strong>as a commander&nbsp;<br>&nbsp;</p><p><br>The mod also works with crews from the 2021, 2024 and 2025 collaborations.</p>",
       "installationGuideHtml": "<p>Place the file <strong>gup.subtitles_1.2.3.wotmod</strong> in the <i>&lt;WoT folder&gt;/mods/&lt;current version of the game&gt;</i> directory.</p>",
@@ -31312,6 +31300,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.2.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gup.subtitles_1.2.3_NETL1I1.wotmod",
+          "updatedAt": "2026-09-18T06:44:39.073Z",
+          "sizeBytes": 50521613,
+          "fileName": "gup.subtitles_1.2.3_NETL1I1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.2.3",
@@ -31361,22 +31359,12 @@
           "fileName": "gup.subtitles_1.2.3_i13MVsO.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gup.subtitles_1.2.3.wotmod",
-          "updatedAt": "2026-06-11T10:51:25.410Z",
-          "sizeBytes": 50521613,
-          "fileName": "gup.subtitles_1.2.3.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "gup.subtitles_1.2.3_i13MVsO.wotmod",
+        "fileName": "gup.subtitles_1.2.3_NETL1I1.wotmod",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31445,16 +31433,6 @@
           "updatedAt": "2026-09-11T13:21:19.671Z",
           "sizeBytes": 16267926,
           "fileName": "German_Crew_kZ1Lopz.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/German_Crew_BqjT7Ef.rar",
-          "updatedAt": "2026-06-11T09:18:55.412Z",
-          "sizeBytes": 16267926,
-          "fileName": "German_Crew_BqjT7Ef.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
@@ -33280,7 +33258,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Upgrade your player dashboard on <a href=\"https://tomato.gg/\">Tomato.gg</a> with the Tomato.gg Mod!&nbsp;</p><ul><li><strong>Battle tracking</strong> - the mod automatically uploads all battle results to Tomato.gg so you can see your full battle log on the site.</li><li><strong>MoE progress tracking</strong> - enables MoE progress chart on Tomato.gg for any tank you're playing.</li><li><strong>Onslaught ELO tracking</strong> - Track your Onslaught ELO.</li><li><strong>Loadout tracking</strong> - See your in-game loadouts on Tomato.gg and keep track of where your equipment is.</li><li><strong>Credits tracking</strong> - Tracking your credit earnings.</li><li><strong>Easy to use</strong> - Intuitive installer with that automatically your installation every patch.</li><li>Join over <strong>100,000</strong> players who have supercharged their Tomato.gg experience.</li></ul>",
       "installationGuideHtml": "<p>Open the downloaded file as an archive.</p><p>Run <strong>tomatogg_*.exe</strong> for automatic installation, or, copy the <strong>“manual-install”</strong> folder into the <strong>mods/&lt;current_game_version&gt;</strong> folder for manual installation.</p><p>Check <strong>README.txt</strong> for more details.</p>",
@@ -33291,6 +33269,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.2.02",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.09.05.1_ToBhLME.zip",
+          "updatedAt": "2026-09-18T06:42:14.966Z",
+          "sizeBytes": 7868758,
+          "fileName": "tomatogg_2026.09.05.1_ToBhLME.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.2.02",
@@ -33340,22 +33328,12 @@
           "fileName": "tomatogg_2026.08.11.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "2.1.08",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.07.1.zip",
-          "updatedAt": "2026-09-13T16:23:30.925Z",
-          "sizeBytes": 7816314,
-          "fileName": "tomatogg_2026.08.07.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "tomatogg_2026.09.05.1.zip",
+        "fileName": "tomatogg_2026.09.05.1_ToBhLME.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -33871,7 +33849,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.6,
       "descriptionHtml": "<p>The full-fledged voice acting of all crew members of the gaming event 2021 \\ 2022 Return Waffentrager and Waffenter: Heritage.</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/jz3WgtwyZSk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/jz3WgtwyZSk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>Copy the contents of the archive in World_of_tanks</p>",
@@ -33881,6 +33859,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "69",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ozvuchka-Waffentrager_qchbusu.zip",
+          "updatedAt": "2026-09-18T06:18:42.864Z",
+          "sizeBytes": 221672962,
+          "fileName": "Ozvuchka-Waffentrager_qchbusu.zip",
+          "fileExt": ".zip",
+          "changeLog": "Адаптация для патча 2.4.0.1"
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "68",
@@ -33930,22 +33918,12 @@
           "fileName": "Ozvuchka-Waffentrager_INRhdPy.zip",
           "fileExt": ".zip",
           "changeLog": "Адаптация для патча 2.3.1.0"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "63",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ozvuchka-Waffentrager_n2XlVGJ.zip",
-          "updatedAt": "2026-06-11T05:41:26.326Z",
-          "sizeBytes": 221672962,
-          "fileName": "Ozvuchka-Waffentrager_n2XlVGJ.zip",
-          "fileExt": ".zip",
-          "changeLog": "Адаптация для патча 2.3.0.1"
         }
       ],
       "latest": {
-        "fileName": "Ozvuchka-Waffentrager.zip",
-        "changeLog": "Адаптация для патча 2.4.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Ozvuchka-Waffentrager_qchbusu.zip",
+        "changeLog": "Адаптация для патча 2.4.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -34721,7 +34699,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Modification allows you to display the shots fired by or at you in the battles.</p><p>You can also use the modification environment as the main hangar.</p><p><a href=\"https://gitlab.com/wot-public-mods/battle-hits\">Source code</a></p>",
       "installationGuideHtml": "<ul><li>Open the downloaded archive with any archiver, or standard Windows interface.</li><li>Drag or copy from the archive folder \"mods\" in the folder where you have installed the tanks, if you are asked to replace the files or folders can agree or not makes no difference.</li></ul>",
@@ -34733,6 +34711,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.00",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.0.1_BattleHits_2.4.00.zip",
+          "updatedAt": "2026-09-18T06:42:42.967Z",
+          "sizeBytes": 5282977,
+          "fileName": "2.4.0.1_BattleHits_2.4.00.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4.00",
@@ -34782,22 +34770,12 @@
           "fileName": "2.3.1.0_BattleHits_2.4.00.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "2.3.8",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.1.0_BattleHits_2.3.8.zip",
-          "updatedAt": "2026-09-11T13:22:23.327Z",
-          "sizeBytes": 5282382,
-          "fileName": "2.3.1.0_BattleHits_2.3.8.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "2.3.1.3_BattleHits_2.4.00.zip",
+        "fileName": "2.4.0.1_BattleHits_2.4.00.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -36565,16 +36543,6 @@
           "fileName": "War_Mod_GunsV.1.37.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.37",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/War_Mod_GunsV.1.37_9f72Uaa.rar",
-          "updatedAt": "2026-06-11T09:19:04.542Z",
-          "sizeBytes": 1372956707,
-          "fileName": "War_Mod_GunsV.1.37_9f72Uaa.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -37405,16 +37373,6 @@
           "fileName": "res_mods_haDJaAN.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/res_mods.rar",
-          "updatedAt": "2026-06-11T09:18:46.750Z",
-          "sizeBytes": 22753665,
-          "fileName": "res_mods.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -37799,16 +37757,6 @@
           "updatedAt": "2026-09-11T13:20:17.599Z",
           "sizeBytes": 6283519,
           "fileName": "Crew_N80koDb.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Crew.rar",
-          "updatedAt": "2026-06-11T09:18:38.227Z",
-          "sizeBytes": 6283519,
-          "fileName": "Crew.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
@@ -38520,16 +38468,6 @@
           "fileName": "res_mods_e6OTluo.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/res_mods_IgVZOp1.rar",
-          "updatedAt": "2026-06-11T09:18:43.194Z",
-          "sizeBytes": 14358298,
-          "fileName": "res_mods_IgVZOp1.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -38861,16 +38799,6 @@
           "updatedAt": "2026-09-11T13:20:15.743Z",
           "sizeBytes": 20865089,
           "fileName": "res_mods_t4Zw9Fd.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/res_mods_eguxXhO.rar",
-          "updatedAt": "2026-06-11T09:18:50.244Z",
-          "sizeBytes": 20865089,
-          "fileName": "res_mods_eguxXhO.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
@@ -39229,16 +39157,6 @@
           "updatedAt": "2026-09-13T07:01:37.814Z",
           "sizeBytes": 42712656,
           "fileName": "res_mods_ZxD6NLN.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/res_mods_oL2p2Gc.rar",
-          "updatedAt": "2026-06-11T09:18:58.469Z",
-          "sizeBytes": 42712656,
-          "fileName": "res_mods_oL2p2Gc.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
@@ -43656,7 +43574,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=jgR0PJOJeB4\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/jgR0PJOJeB4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p>Originally started in 2017 as the <strong>\"UML Utilization Project\" (UUP)</strong>.</p><p><i>World of Animations</i> (WoA) is a modding project for <i>World of Tanks</i> focused on bringing vehicles more to life through animated components by making use of atacms' <a href=\"https://wgmods.net/6776/\">Universal Model Loader (UML)</a>.</p><p>At this point the project is very much work-in-progress, given the nature of having to manually add animations to hundreds of tanks. Hence a notifier is available to let you know when an update is available.</p><p>For those who do not wish to run the installer, all mod files are available in the \"World-of-Animations\" <a href=\"https://github.com/TheFalkonett/World-of-Animations\">GitHub repository</a>.</p><p>Additional project updates will be posted through the following channels:</p><ul><li><a href=\"https://www.patreon.com/cw/TheFalkonett\">Patreon</a></li><li><a href=\"https://discord.com/channels/161053416796323840/1531982733616611368\">WoT Discord</a></li><li><a href=\"https://discord.com/channels/739241895267663906/1531740754328813609\">Infocord</a></li></ul><figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/b59bd5e1-1d98-4fa1-86ca-f104af73a735.png\"></figure><h2>Features</h2><ul><li>Modular .wotmod packages</li><li>Delta downloads, so you only download what's new/updated</li><li>Update notifier</li><li>Animated vehicle components</li></ul><h2>Compatibility</h2><p>World of Animations modifies the 3D models, and on rare occasion the AO texture. Therefore the following mods will be incompatible:</p><ul><li>Mods that affect the 3D model of a tank (remodels)</li><li>Mods that affect the AO texture of a tank (e.g. \"<a href=\"https://wgmods.net/7193/\">Clean Camo</a>\" by <a href=\"https://wgmods.net/search/?owner=239424\">Gravity_Assist</a>)</li><li>\"<a href=\"https://wgmods.net/7711/\">Camo selector</a>\" by <a href=\"https://wgmods.net/search/?owner=239424\">Gravity_Assist </a>seems to trip up UML's actuators when assigning a 3D-Style to a tank, but works fine otherwise.</li><li>3D attachement slots cannot be animated and thus will cause clipping.</li></ul><p>2D skins however (as long as they don't affect the AO texture) will be compatible.</p><h2>Default controls:</h2><ul><li>Insert: manual actuators forward</li><li>Delete: manual actuators backward</li><li>Backslash: fire secondary cannons</li></ul><p>Modifying these controls is part of UML and covered in the documentation there.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/6f3c718f-bc6f-4ea5-863e-4bc4b3acea27.png\"></figure>",
       "installationGuideHtml": "<ol><li>Install <a href=\"https://wgmods.net/6776/\">UML</a></li><li>Run WoA_Installer.exe</li></ol>",
@@ -43667,6 +43585,26 @@
         "21"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "3.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoA_Installer_v3.2_2.4.0.1.exe",
+          "updatedAt": "2026-09-18T10:47:14.577Z",
+          "sizeBytes": 17410044,
+          "fileName": "WoA_Installer_v3.2_2.4.0.1.exe",
+          "fileExt": ".exe",
+          "changeLog": "Optimized treeView performance, added recursive expand/collapse"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "3.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoA_Installer_v3.1_2.4.0.1.exe",
+          "updatedAt": "2026-09-18T08:21:04.266Z",
+          "sizeBytes": 17393636,
+          "fileName": "WoA_Installer_v3.1_2.4.0.1.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "3.1",
@@ -43706,32 +43644,12 @@
           "fileName": "WoA_Installer_v3.0_2.3.1.2.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "3.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoA_Installer_v3.0_2.3.1.1.exe",
-          "updatedAt": "2026-09-11T13:12:17.822Z",
-          "sizeBytes": 17384947,
-          "fileName": "WoA_Installer_v3.0_2.3.1.1.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "3.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoA_Installer_v3.0_2.3.1.0.exe",
-          "updatedAt": "2026-09-11T13:15:11.864Z",
-          "sizeBytes": 17384947,
-          "fileName": "WoA_Installer_v3.0_2.3.1.0.exe",
-          "fileExt": ".exe",
-          "changeLog": "Re-release of UUP/WoA with new installer and models"
         }
       ],
       "latest": {
-        "fileName": "WoA_Installer_v3.1_2.3.1.3.exe",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "WoA_Installer_v3.2_2.4.0.1.exe",
+        "changeLog": "Optimized treeView performance, added recursive expand/collapse",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -43743,7 +43661,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p>» <strong>PROMOD IS LISTED HERE TO ENSURE YOU ITS A LEGAL MODPACK.</strong><br><br>»&nbsp;<strong>GITHUB FOR SINGLE MODS: </strong><a href=\"https://github.com/deadhat\"><strong>https://github.com/deadhat</strong></a><br>»&nbsp;<strong>OLDSKOOL.VIP FOR THE PACK: </strong><a href=\"https://www.oldskool.vip/\"><strong>https://www.oldskool.vip</strong></a><br><br>OldSkool's ProMod installer has been rebuilt from the ground up for ProMod 2.0. It runs on .NET 8 and installs from our own content servers, which keeps downloads fast and stable. Your selection is stored per game installation — including every variant and setting — so a patch day no longer means clicking through a full setup again.</p><p>Use the ProMod shortcut to start the game and the installer checks for updates first, applies them and hands over to the Wargaming Game Center. Premium supporters get that fully automatic; everyone else confirms with a single click. Want to try someone else's setup? A streamer preset gives you their mod selection, their settings and, if you like, their sixth sense — and from that moment on it is yours to adjust. The built-in sixth sense builder turns any image into your own warning display, with a sound and a countdown to match.</p><p>A lot of the modifications in ProMod are written by us. We do our best to have the installer ready with the majority of features working on the day a new Wargaming patch lands, and we optimise our mods so that players on weaker machines don't lose frames in battle.</p><p>What matters most is that ProMod stays simple to use and quick to run. Nobody should have to wade through unnecessary information: every mod comes with a clear description and a preview image showing exactly what it does. Our focus is on well optimised mods that work properly, which is why ProMod is a modpack built on quality rather than quantity.<br>&nbsp;</p>",
       "installationGuideHtml": "<p>Run the installer, pick your mods and enjoy.&nbsp;<br>I highly recommend doing a clean install.<br><br><strong>You want to support my work?</strong><br><a href=\"https://promod.oldskool.vip/donate/\"><strong>https://promod.oldskool.vip/donate/</strong></a><br><br><strong>Support Discord:</strong><br><a href=\"https://discord.gg/oldskool\"><strong>https://discord.gg/oldskool</strong></a></p>",
@@ -43755,6 +43673,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "3.0.21",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_rhJoyYW.zip",
+          "updatedAt": "2026-09-18T09:55:25.746Z",
+          "sizeBytes": 4902538,
+          "fileName": "ProMod_rhJoyYW.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "3.0.20",
@@ -43804,22 +43732,12 @@
           "fileName": "ProMod_pEHngPC.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "3.0.12",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_FUOXmp5.zip",
-          "updatedAt": "2026-09-11T12:30:04.880Z",
-          "sizeBytes": 4887208,
-          "fileName": "ProMod_FUOXmp5.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ProMod.zip",
+        "fileName": "ProMod_rhJoyYW.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -43996,7 +43914,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.2,
       "descriptionHtml": "<p>PMOD is a complex modification, it's not a modpack, it's one single mod. It allows to improve gameplay, and provides many new features, previously unavailable to the player.</p>",
       "installationGuideHtml": "<ul><li>Open the downloaded archive with any archiver, or standard Windows interface.</li><li>Drag or copy from the archive folder \"mods\" in the folder where you installed the tanks, if you are asked to replace the files or folders can agree or disagree there is no difference.</li></ul><p>This installation is complete, you can go to the tanks and play. Although you probably want to include some options and / or configure the already included. Then take another minute to read.</p><p>To configure the mod you do not need knowledge in programming, or dancing with tambourine. All you need is a the text editor Notepad++ or any analogue. All the settings of the mod are in the files inside the folder: mods/configs/pmod (pmod.json - the root file) Inside the files you will find a detailed description of all the parameters and their standard values.</p>",
@@ -44008,6 +43926,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.81.15",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PMOD_ver_81-15_fS1hbVh.zip",
+          "updatedAt": "2026-09-18T06:43:02.940Z",
+          "sizeBytes": 3268744,
+          "fileName": "PMOD_ver_81-15_fS1hbVh.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.81.15",
@@ -44057,22 +43985,12 @@
           "fileName": "PMOD_ver_81-12_hafrbt0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "1.81.12",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/PMOD_ver_81-12.zip",
-          "updatedAt": "2026-09-13T13:18:23.256Z",
-          "sizeBytes": 3246908,
-          "fileName": "PMOD_ver_81-12.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "PMOD_ver_81-15.zip",
+        "fileName": "PMOD_ver_81-15_fS1hbVh.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44143,7 +44061,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>Replays Manager</p><p>Mod allows you to manage your game replays directly from the the game!</p><p>Main features of the mod:<br>- display in a convenient form all replays from the folder “replays”.<br>- sorting and filtering replays on various parameters, simplifying the search for the desired replay.<br>- viewing the results of the recorded battle in a convenient form.<br>- running the selected replay (is possible only after disconnecting from the server, and then restarting the client).<br>- upload replays to the site wotreplays.com and get a direct link to it.</p>",
       "installationGuideHtml": "<p>Copy content of downloaded archive into game folder, confirm the replacement of files.</p>",
@@ -44153,6 +44071,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "3.8.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.0.1_ReplaysManager_3.8.9.zip",
+          "updatedAt": "2026-09-18T06:45:19.126Z",
+          "sizeBytes": 815091,
+          "fileName": "2.4.0.1_ReplaysManager_3.8.9.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "3.8.9",
@@ -44202,22 +44130,12 @@
           "fileName": "2.3.0.0_ReplaysManager_3.8.9_fvbbdft.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "3.8.9",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.3.0.1_ReplaysManager_3.8.9.zip",
-          "updatedAt": "2026-06-11T10:51:53.680Z",
-          "sizeBytes": 814385,
-          "fileName": "2.3.0.1_ReplaysManager_3.8.9.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "2.3.1.1_ReplaysManager_3.8.9.zip",
+        "fileName": "2.4.0.1_ReplaysManager_3.8.9.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     }
   ]

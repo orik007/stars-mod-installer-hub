@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.055",
+  "catalogVersion": "v2026.09.056",
   "mods": [
     {
       "source": "wgmods",
@@ -74,6 +74,21 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7877",
+      "title": "CustomFOV",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Extract the downloaded archive. 2. Copy the files into your current game version folder: <World_of_Tanks>\\mods\\<current_version>\\ (or simply merge the \"mods\" folder into your main game directory)."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<current_version>; merging the top-level mods folder into game root is an equivalent non-blocking phrasing.",
         "deleteDataWgpdc": false
       }
     },
@@ -188,12 +203,12 @@
       "title": "ASMA简体中文图标（仿巨响）",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "参照巨响标准版的单独图标，但是无法单独使用。现在WG不允许直接使用单独插件，来镜像图标。 所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。 ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装使用方法： 先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。 用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。 或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。 ---------------------------------------------------------- 图标现在已经集成至阿斯兰插件包中，直接选择安装即可。 这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。"
+        "latestInstallGuide": "参照巨响标准版的单独图标，但是无法单独使用。现在WG不允许直接使用单独插件，来镜像图标。 所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。 ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装使用方法： 先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。 用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。 或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。 ---------------------------------------------------------- 图标现在已经集成至阿斯兰插件包中，直接选择安装即可。 这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。 9.18 更新2.4.0.1版本，Simple：简单名字版本。Armor：含装甲值版本。"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive guide requires either replacing same files in a specific custom path under res_mods/<version>/gui/flash/atlases or placing the zip into Aslain_custom_mods, not a supported single template target.",
+        "decisionReason": "Guide targets a specific custom file path under res_mods/<version>/gui/flash/atlases or alternatively Aslain_custom_mods, not a single supported install template.",
         "deleteDataWgpdc": false
       }
     },
@@ -1058,12 +1073,12 @@
       "title": "WOT Tactic Bridge",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.3.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle. Changing the room key does not require reinstalling the mod."
+        "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.4.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle. Changing the room key does not require reinstalling the mod."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<version>; extra usage steps are non-blocking.",
+        "decisionReason": "Plain .wotmod package and guide points to mods/<game version>.",
         "deleteDataWgpdc": false
       }
     },
