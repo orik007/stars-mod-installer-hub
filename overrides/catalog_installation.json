@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.060",
+  "catalogVersion": "v2026.09.061",
   "mods": [
     {
       "source": "wgmods",
@@ -149,21 +149,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod file and guide points to the mods version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7912",
-      "title": "nakom sound mod 2.1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "expand the zip file and replace them for the file (quotemine_archer) in res_mod/2.4.0.0/audioww https://youtu.be/4LGiHXtqyYQ?si=Al1OJddtpgXsihlc"
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive guide targets a specific file path under res_mods/<version>/audioww, not the versioned res_mods folder itself.",
         "deleteDataWgpdc": false
       }
     },
@@ -614,21 +599,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": ".wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7861",
-      "title": "nakom sound mod",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "expand the zip file and replace them for the file (quotemine_archer) in res_mod/2.4.0.0/audioww https://youtu.be/4LGiHXtqyYQ?si=LuDdhMATJ5Qibdgw"
-      },
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "Archive package and guide targets a specific file path under res_mods/<version>/audioww, not the res_mods/<version> folder itself.",
         "deleteDataWgpdc": false
       }
     },
