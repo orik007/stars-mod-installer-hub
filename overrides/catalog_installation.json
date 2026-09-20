@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.063",
+  "catalogVersion": "v2026.09.064",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7936",
+      "title": "HangMan Garage Manager",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download the archive. 2. Open it and copy the mods folder into your World of Tanks game folder. The files go into mods\\[version]\\, where [version] is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy the included mods folder into the World of Tanks game folder, with the archive already containing the correct versioned mods path.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7929",
