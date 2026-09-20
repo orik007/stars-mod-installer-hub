@@ -1,11 +1,47 @@
 {
-  "catalogVersion": "v2026.09.063",
-  "sourceHash": "e78002c4c1623c12a34563f1313e5712bcdb15488b4af3a24a00d0cedb05b219",
+  "catalogVersion": "v2026.09.064",
+  "sourceHash": "b33d74964870be8a20ad6546a17c4fc67a144c30a465ac7c287c00da93bf9fa5",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7936",
+      "title": "HangMan Garage Manager",
+      "ownerUsername": "Aslain",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>With this modification you can manage all installed garages by selecting them directly in the main mod window.&nbsp;<br><br>Additionally, you can create your own garages while in battle by pressing a configurable key combination (see the settings window). Some garages created this way are included in the default configuration, which is downloaded on first run.&nbsp;<br><br>Several selection modes allow you to control how a garage is loaded when entering the lobby:&nbsp;<br>- normal: loads the selected garage&nbsp;<br>- random: displays a random garage each time&nbsp;<br>- nation: loads a garage depending on the vehicle’s nation (may change on vehicle switch; see HangMan.json in /mods/configs/HangMan for details)&nbsp;<br>- last-battle: loads the garage based on the latest known position and map from the previous battle&nbsp;<br><br>Originally this mod was created by goofy67, who later abandoned it and disappeared and did not leave any source code. Because of that, the mod had to be reconstructed for WoT 2.4 by Aslain.&nbsp;<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_15_38_46_Ufl5SoX.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7936/",
+      "tagIds": [
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.70",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.70_2.4.0.1.zip",
+          "updatedAt": "2026-09-20T13:39:59.603Z",
+          "sizeBytes": 1546318,
+          "fileName": "HangMan_2.70_2.4.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "HangMan_2.70_2.4.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7929",
@@ -147,8 +183,8 @@
         "en",
         "ru"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.2,
       "descriptionHtml": "<p>An atmospheric hangar featuring a picturesque landscape, soft lighting, and endless fields of red poppies.</p><p>This mod brings the calm and memorable atmosphere of the Poppy Field hangar back to the game. It is a great choice for players who enjoy beautiful locations and want to make their garage screen feel more distinctive.</p>",
       "installationGuideHtml": "<h2>1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right:</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/70deba57-d855-49d5-b937-72e001fd36a1.png\"></figure><h2><br><br><br><br>2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG):</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/9c03e72b-11f4-494b-80aa-3768dca7a7ad.png\"></figure><p>&nbsp;</p><h2>3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation:</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1dea4394-cc9e-4dd9-b64a-c345f7fb2e62.png\"></figure><p>&nbsp;</p><blockquote><p>*the Hangar Switcher must be downloaded to activate the hangar in the game</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-08-15_121400_ohNvM77.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -161,26 +197,16 @@
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YarkiLauncher_xXXYrSW.exe",
-          "updatedAt": "2026-09-18T11:07:13.730Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YarkiLauncher_1RSBfeb.exe",
+          "updatedAt": "2026-09-20T14:39:43.011Z",
           "sizeBytes": 715264,
-          "fileName": "YarkiLauncher_xXXYrSW.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YarkiLauncher_wpkTSGC.exe",
-          "updatedAt": "2026-09-15T17:23:23.361Z",
-          "sizeBytes": 715264,
-          "fileName": "YarkiLauncher_wpkTSGC.exe",
+          "fileName": "YarkiLauncher_1RSBfeb.exe",
           "fileExt": ".exe",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "YarkiLauncher_xXXYrSW.exe",
+        "fileName": "YarkiLauncher_1RSBfeb.exe",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -5543,7 +5569,7 @@
       "mark": null,
       "descriptionHtml": "<p><strong>Chat Filter hides toxic, insulting and hateful battle chat the moment it arrives, and keeps you from being reported for your own messages.</strong> You keep the useful part of the chat - map calls, tactics, teamwork - while the poison never reaches your screen.</p><p>Everything is set up in the garage through the in-game Mod configurator (mod settings menu).</p><p>Options:<br>• Two levels: ordinary swearing is simply hidden, while serious abuse (slurs, hate speech, racism, wishes of death or illness) can also auto-hide, ignore or report the sender<br>• Hard to fool: catches words disguised with numbers, symbols, dots or spaces (n.o.o.b, l4me) or hidden inside longer words, with a whitelist to protect innocent ones<br>• Self-censor blocks your own rule-breaking messages before they are sent, so you do not get reported in the heat of the moment<br>• Hide chat from players below a chosen rating (XVM WN8 or the Wargaming personal rating)<br>• Anti-spam for repeated messages and flooders<br>• Editable word lists, menu available in 8 languages</p><p>Configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\chatfilter\\chatfilter.json</p><p>Credits: based on the original Chat Filter by Krzysztof_Chodak. This version by Aslain.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p><p>To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_12_42_15.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_31_09_kBXTNFd.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7748/",
       "tagIds": [
         "18"
@@ -5579,7 +5605,7 @@
       "mark": null,
       "descriptionHtml": "<p><strong>Gun Reloaded Sounds plays a sound the moment your gun is reloaded and ready to fire.</strong> No more staring at the reload timer - you hear when you can shoot, so you can keep your eyes on the battle.</p><p>Everything is set up in the garage through the in-game Mod configurator (mod settings menu).</p><p>Options:<br>• Choose your reload sound from a list, with a preview button right in the menu<br>• Magazine-aware: on autoloaders and autoreloaders it plays when the whole magazine is ready, not on every shell in the clip<br>• Minimum reload-time filter, so fast-firing autocannons do not spam the sound<br>• Adjustable volume<br>• Menu available in 9 languages</p><p>Configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\gunreloadedsounds\\gunreloadedsounds.json</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p><p>To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_12_23_24.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_15_55_19.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7749/",
       "tagIds": [
         "17"
@@ -5615,7 +5641,7 @@
       "mark": null,
       "descriptionHtml": "<p>Object 279 Mission Auto Reset clears a wasted mission attempt for you, automatically. Some Object 279 (e) missions ask you to win a number of battles within a limited series - open such a series with a loss and those battles are gone from your limit for nothing. This mod spots a series that holds no win in it at all and resets it right away, handing the whole limit back, so you always start from a clean attempt instead of clearing it by hand.&nbsp;<br><br>A series where you already scored at least one win is never touched, and the mod will never discard the last mission you have selected.&nbsp;<br><br>It works only on the Object 279 (e) missions - the only ones that use a multi-battle series. Excalibur and Chimera are never touched.&nbsp;<br><br>Everything is set up in the garage through the in-game Mod configurator (mod settings menu).&nbsp;<br><br>Options:<br>• Also reset a failed Honors (Advanced) attempt, or leave it for you to handle manually<br>• A notification whenever a reset happens, or run fully silent<br>• Debug logging to python.log for diagnostics<br><br>Configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\pm2autoreset\\pm2autoreset.json&nbsp;<br><br>Credits: based on the original mod by AnNE_DoMini. This version by Aslain.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p><p>To make this mod work with your existing audio_mods.xml, just add the sound bank aslains_reloads.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder</p>",
-      "coverCatalogUrl": "",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_28_06.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7747/",
       "tagIds": [
         "20",
@@ -6306,7 +6332,7 @@
       "mark": 5,
       "descriptionHtml": "<p>Shows a hit marker on your crosshair every time you hit an enemy, set up right in the garage (Mod configurator menu).&nbsp;<br><br>- A different colour for each damage type: regular damage, fire, kill<br>- Animated or static marker, with adjustable size&nbsp;<br>- Optional hit sounds<br>- On tanks that already show their own 3D penetration effect (the Ares line, Czech autocannons, Black Rock and similar) the animated marker is skipped automatically, so it does not double up&nbsp;</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br><br>To make this mod work with your existing audio_mods.xml, just add the sound bank hitmarkerpro.bnk to your current file. You’ll find audio_mods.xml in res_mods/x.x.x.x/audioww/. There’s no need to copy this mod’s res_mods/ folder<br><br>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/HitmarkerPro_1_KAsWEtf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_05_10.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7736/",
       "tagIds": [
         "15"
@@ -6342,7 +6368,7 @@
       "mark": null,
       "descriptionHtml": "<p>Displays your own tank's hull in sniper mode, so you can see your vehicle while you aim.<br><br>The battle can start directly in the wide hull view, and one scroll down below the normal zoom levels brings it back at any time. The toggle hotkey shows or hides the hull instantly (default F11, rebindable, CTRL/ALT combinations supported). All options are available in the in-game mod settings menu.&nbsp;<br><br>Note: how the hull looks depends on the tank. On some tanks little of it is visible, and on others the hull or turret sticks into the camera and gets in the way. For tanks like that you have two options: add them to the Vehicle blacklist in the mod settings (the tooltip explains step by step how to find the tank ID), or simply hide the hull in battle with the toggle hotkey (default F11).<br><br>Credits: &nbsp;mod originally by Polyacov_Yury, totally reworked by Aslain</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Show_Vehicle_1_FbOWgJk.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_19_30.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7729/",
       "tagIds": [
         "18"
@@ -6378,7 +6404,7 @@
       "mark": null,
       "descriptionHtml": "<p>Crew Skills Pro puts your whole crew on screen, live in battle. Every crewman is shown with all of their skills and perks and the exact training percentage of each, so you always know what your crew can do.</p><p>• All skills and perks per crewman, with their training % (the perk currently in training is highlighted)<br>• Crew portraits or clean role icons, whichever you prefer<br>• The tank's mounted equipment and directives, shown next to the crew<br>• Detailed tooltip on hover, including the crew efficiency bonus and exactly where it comes from (commander, Brotherhood, equipment and optional devices)<br>• Compact mode, fully draggable, place it anywhere on screen<br>• Adjustable panel scale and background opacity<br>• Everything is configured in the in-garage settings menu<br>• Works in replays. The crew, their skills and the equipment show in any replay; the battle directives and the crew efficiency bonus appear only when the replay was recorded with the mod installed</p><p>A modern, all-in-one replacement for Crew Skills Informer.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the mods folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CrewSkillsPro_0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_23_39_ZmQIae8.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7728/",
       "tagIds": [
         "18"
@@ -7168,7 +7194,7 @@
       "mark": 5,
       "descriptionHtml": "<p><strong>Custom Sixth Sense replaces the Sixth Sense indicator with a fully customizable one that you set up in the garage.</strong></p><p>Pick a static or animated icon, move it anywhere on the screen, and adjust how it looks. It comes with a large set of ready-made icons, and you can add your own.</p><p>Options:<br>• Choose a static or animated icon, or add your own<br>• Drag the icon and the optional countdown timer anywhere on screen<br>• Adjust the display time, icon scale, opacity and an attention pulse<br>• Optional countdown timer with custom size, color and format</p><p>Your own icons: put a SixthSense.png file in a new folder inside mods/configs/Aslain/customsixthsense/static, then restart the game. Animated icons go in mods/configs/Aslain/customsixthsense/animated with their frames and a config.json.</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\customsixthsense\\customsixthsense.json</p><p>Fair play: the optional countdown is only a fixed reminder based on known game timings that you set yourself. It does not read or show the real live spotted state, and when it ends it does not mean you are no longer spotted. The mod does not reveal any hidden information.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The mod goes into mods\\[version]\\ (the version folder changes after each game update) and the icon set into mods\\configs. The archive already has the correct structure, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/CustomSixthSense_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_15_47_28.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7708/",
       "tagIds": [
         "18",
@@ -7205,7 +7231,7 @@
       "mark": 4.9,
       "descriptionHtml": "<p><strong>BalCalcMod is a ballistic distance helper. It lets you lock the current aiming distance so your shells do not fly over a target that moves or hides behind cover.</strong></p><p>Hold the lock key to keep the current distance to the target. After that the shell keeps the same range even if you move the crosshair up onto the sky, a ridge, or terrain behind the enemy, so it no longer flies over the target.</p><p>How to use it: set the correct distance first, then press and hold the lock key before the target disappears. Keep the crosshair on the point you want to hit and fire while holding the key. It is most useful against enemies that peek and quickly pull back behind hills, rocks or buildings. It works in sniper, arcade and artillery view.</p><p>Options:<br>• Lock key or mouse button (default Q)<br>• Distance indicator color, font, position and shadow<br>• Automatic lock when the crosshair is on a tank, with adjustable hold time (sniper view)<br>• Shell trajectory correction so the aim does not jump to maximum range when pointed at the sky<br>• Mouse wheel step for adjusting the locked distance in artillery view</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\balcalc\\BalCalc.json</p><p>This mod has been reviewed by Wargaming and confirmed as allowed. Using it cannot result in a ban.</p><p>Credits: original BalCalcMod by Evgeni Kiselev (ktod), later maintained by Ktulho. This GUI edition by Aslain.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu) and set the lock key there (default Q). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/BalCalcMod_big_gWyO9WS.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_09_37.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7707/",
       "tagIds": [
         "15",
@@ -7252,7 +7278,7 @@
       "mark": 4.6,
       "descriptionHtml": "<p><strong>AutoAim Indication+ makes it easier to activate the game's standard auto-aim and shows its state on screen.</strong></p><p>It adds no aimbot behavior. It only triggers the normal in-game auto-aim, and only on a target you are actively aiming at. Put your reticle (the center aiming point) on a spotted enemy so the game highlights it with the usual outline, and the mod then locks the standard auto-aim on that target. If the enemy is behind cover, or you cannot place your reticle on it to highlight it, the mod does nothing. It never aims at weak spots, never calculates lead, and never locks through obstacles.</p><p>A slider sets how long the mod keeps waiting for a highlighted target after you press the key (0 means until you toggle it off).</p><p>While auto-aim is active, an indicator near the center of the screen shows the state. It can display the name of the targeted tank or your own custom text.</p><p>Options:<br>• Toggle key to enable or disable the mod during battle<br>• Activation time (how long it waits for a highlighted target)<br>• Indicator text, color and font (several built-in game fonts)<br>• Indicator position (horizontal and vertical offset)<br>• Optional support for wheeled vehicles</p><p>All settings are available in the garage through the in-game Mod configurator (mod settings menu). The configuration is saved to %APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\autoaimindication\\AutoaimIndication.json</p><p>Because it only helps activate the standard auto-aim on a target in your line of sight and adds nothing beyond the vanilla aim lock, this mod complies with the Wargaming Fair Play Policy. It has been reviewed by Wargaming and confirmed as allowed, and using it cannot result in a ban.</p><p>Credits: original mod by Krzysztof Chodak; maintained over the years by OldSkool, RaJCeL, Ktulho, budyx69 and Heliomalt. Current version by Aslain.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.<br>3. Confirm overwriting if asked.<br>4. Start the game.</p><p>Open the settings in the garage through the Mod configurator (mod settings menu). The archive already contains the settings library (modsSettingsApi) needed for that menu; without it the mod runs with default settings.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Autoaim_indication_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_16_04_19.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7706/",
       "tagIds": [
         "15",
@@ -7266,16 +7292,6 @@
           "updatedAt": "2026-09-20T10:42:45.327Z",
           "sizeBytes": 975494,
           "fileName": "Autoaim_indicator_Plus_2.1.02_2.4.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.1.02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Autoaim_indicator_Plus_2.1.02_2.4.0.0.zip",
-          "updatedAt": "2026-09-15T20:33:33.882Z",
-          "sizeBytes": 877330,
-          "fileName": "Autoaim_indicator_Plus_2.1.02_2.4.0.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -14519,6 +14535,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.8.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.8.1_Q4zIQhx.zip",
+          "updatedAt": "2026-09-20T13:26:53.095Z",
+          "sizeBytes": 306656879,
+          "fileName": "WotVSWAPS-V1.8.1_Q4zIQhx.zip",
+          "fileExt": ".zip",
+          "changeLog": "updated for the newer wot version"
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.8.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.8.1.zip",
@@ -14567,22 +14593,12 @@
           "fileName": "WotVSWAPS-V1.7.2.zip",
           "fileExt": ".zip",
           "changeLog": "fixed some issues regarding textures and added more tanks"
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.7.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WotVSWAPS-V1.7.1.zip",
-          "updatedAt": "2026-07-05T09:49:00.133Z",
-          "sizeBytes": 378165587,
-          "fileName": "WotVSWAPS-V1.7.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fixed an issue regarding the E100, added Conway Swap, Fixed missing textures for the Canopener"
         }
       ],
       "latest": {
-        "fileName": "WotVSWAPS-V1.8.1.zip",
-        "changeLog": "FIxed all issue on M4A1 FL 10 (Tracks clipping on middle parts of the VCS hull, lights clipping, and back pannel,  misalignment with the turret, only issue that resides is tracks clipping with the front, but not very noticeable)\n\nAdded Excalibur, it now has rocks on it and a sword plunged in its hull to honor it's name\nreplaced T-26 with T-26 CN bc f russian texs\nFixed an issue with the 130mm gun barrel of the E-100 was painted whereas the rest of the tank was not\nAdded 113 black and white serpent style from lesta\nBison now looks like Karl Gerat (Gun won't move, purely hilarious)\nremoved hetzer\nAdded SU-85B remodel\n\n",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "WotVSWAPS-V1.8.1_Q4zIQhx.zip",
+        "changeLog": "updated for the newer wot version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -21447,7 +21463,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.3,
+      "mark": 4.4,
       "descriptionHtml": "<p><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><br><strong>This mod is an edit to the Night Sky mod found in Aslain's Modpack. While this mod functions standalone without requiring you to use Aslain's, I feel obliged to state that this is NOT my original mod.</strong></p><p>&nbsp;</p><p>This mod takes Aslain's Night Sky mod and, as the name implies, edits the lighting settings of the maps to better fit the night aesthetic. The lighting may still feel brighter than you'd expect night to be but I wanted maps to be somewhat playable. This affects the following maps:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU\">https://imgur.com/a/wot-aslains-night-sky-edit-v1-3-svnsvzU</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Revamped Skies&nbsp;Volume 4:&nbsp;<a href=\"https://wgmods.net/7829/\">https://wgmods.net/7829/</a></p><p>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/&nbsp;</a></p><p>&nbsp;</p><p>Some final notes:<br>- This mod <strong>SHOULD</strong> work with SD/Simplified HD Graphics. Simplified graphics however have a bit of scuff with water appearance. I've done all I can do make it work but on some maps it will look off<br>- I shouldn't have to say this but I want to make it clear: <strong>this mod is dark</strong>. This will likely lead to some disorientation at first and will likely be uncomfortable for those with poor eyesight. Please keep that in mind. An optional mod has been included that may help with this and I highly recommend my <a href=\"https://wgmods.net/7050/\">Actual Lights</a> mod alongside this one<br>- Various ambient map effects may stand out as jarringly bright compared to the overall lighting. Unfortunately I do not know a way to fix this while maintaining the appearance, I apologise for this<br>- Aslain's original Night Sky mod edits various event mode maps as well. I have however removed them (with v1.3) and chosen not to include them since I cannot test them and maintaining event maps that may never return just increases mod size<br><strong>- do not attempt to run this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues and cause the mod to not function as intended</strong></p>",
       "installationGuideHtml": "<p>This mod features two different installation options:<br><strong>wotmod version:</strong> drag or extract the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.0.0.1\\[WOTMOD GOES HERE]</p><p>Do NOT run the wotmod version alongside Aslain's original Night Sky.</p><p><strong>res_mods version (ideal if you are already using Night Sky from Aslain's, allow it to replace all existing files):</strong> drag or extract the included \"spaces\" folder into your WoT Game files and place it in the [PATCH FOLDER] in \"res_mods\". For example: C:\\Games\\World_of_Tanks\\res_mods\\2.0.0.1\\[FOLDER GOES HERE]</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/PreviewMainFull.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -44175,6 +44191,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "04",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
+          "updatedAt": "2026-09-20T15:55:07.134Z",
+          "sizeBytes": 63444829,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated net.openwg.common 2.8.2 (fixed crashing on linux)\n- Updated XVM 13.1.0_0090\n- Updated Auto Equipment Return by Z4imon\n- Updated Players Panel HP by OldSkool\n- Updated Custom UI Scale 1.2.00 (added separate scale settings for the Garage and battles)\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "03",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_03.exe",
           "updatedAt": "2026-09-19T18:00:21.072Z",
@@ -44182,31 +44208,11 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_03.exe",
           "fileExt": ".exe",
           "changeLog": "- Updated net.openwg.common 2.8.1\n- Updated Garage Mastery 1.0.9 by OldSkool (fixed shuttering and movement issues)\n- Updated Players Panel HP by OldSkool\n- Note: for some players on Linux (Proton/Wine), XVM, FPS Optimizer, WOTInspector Heatmaps and Campaign Tracker may cause crashes or FPS drops. The cause is their shared dependency net.openwg.common 2.8.0/2.8.1\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_02.exe",
-          "updatedAt": "2026-09-19T10:30:26.526Z",
-          "sizeBytes": 63584087,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_02.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Battle Assistant\n- Updated Armor Penetration Calculator v1/v2 \n- Updated Classic Tank Carousel\n- Updated Research Progress Bar by 14th_ua\n- Updated Mod Menu 2.0.17 (adjusted text alignment and settings saving)\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_01.exe",
-          "updatedAt": "2026-09-18T19:35:10.999Z",
-          "sizeBytes": 63678938,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated XVM 13.1.0_0089 (hotfix for White Tiger gamemode, the XVM OTM is disabled there automaticaly)\n- Updated the rest mods by CHAMPi\n- Updated Classic Tank Carousel\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_03.exe",
-        "changeLog": "- Updated net.openwg.common 2.8.1\n- Updated Garage Mastery 1.0.9 by OldSkool (fixed shuttering and movement issues)\n- Updated Players Panel HP by OldSkool\n- Note: for some players on Linux (Proton/Wine), XVM, FPS Optimizer, WOTInspector Heatmaps and Campaign Tracker may cause crashes or FPS drops. The cause is their shared dependency net.openwg.common 2.8.0/2.8.1\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
+        "changeLog": "- Updated net.openwg.common 2.8.2 (fixed crashing on linux)\n- Updated XVM 13.1.0_0090\n- Updated Auto Equipment Return by Z4imon\n- Updated Players Panel HP by OldSkool\n- Updated Custom UI Scale 1.2.00 (added separate scale settings for the Garage and battles)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
