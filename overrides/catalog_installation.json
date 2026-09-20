@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.061",
+  "catalogVersion": "v2026.09.062",
   "mods": [
     {
       "source": "wgmods",
@@ -8905,6 +8905,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide clearly identifies replacing the .wotmod in mods/<current version>; attached manual is a non-blocking note.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6519",
+      "title": "VK 72 01 k replaces PzKpfw. VII",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Go to World of tanks --> res_mods --> current version (e.g 1.21.1.1) and just drag and drop the \"vehicles\" file into the folder"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to copy the top-level vehicles folder into res_mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
