@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.065",
+  "catalogVersion": "v2026.09.066",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7933",
+      "title": "WoT Pedal Accessibility Driver for Logitech G29",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Download wot-pedal-driver.ps1 and copy it to: C:\\Users\\Public\\wot-pedal-driver.ps1 2. Open Windows Task Scheduler -> Create Basic Task: - Name: WoTPedalDriver - Trigger: At log on — OR run it manually before launching the game - Action: Start a program: Program/script: powershell.exe Arguments: -ExecutionPolicy Bypass -File \"C:\\Users\\Public\\wot-pedal-driver.ps1\" 3. (Optional) Uncheck \"Run only when user is logged on\" if you want silent background autostart. 4. The script auto-detects WorldOfTanks.exe on its own — nothing extra to click in-game. It only acts while the game is the foreground window. 5. Requirements: a connected Logitech G29 wheel/pedal set (Logitech G HUB drivers installed as usual), Windows PowerShell 5.1+ (built into Windows 10/11). 6. Uninstall: remove the \"WoTPedalDriver\" task from Task Scheduler and delete C:\\Users\\Public\\wot-pedal-driver.ps1."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7940",
+      "title": "Onslaught Key Remap",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file Unzip it inside WoT installation folder Replace existing files with the same name Enjoy"
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7936",

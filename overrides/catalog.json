@@ -1,11 +1,87 @@
 {
-  "catalogVersion": "v2026.09.065",
-  "sourceHash": "adc167ea006441ac23d0179592f181c4336d0a2fdf5aa1b21b2e9186854cc313",
+  "catalogVersion": "v2026.09.066",
+  "sourceHash": "df6694565087dac7de098a59cf26cbc6fe0d51c4cde1d4ed062efe303d2aa360",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7933",
+      "title": "WoT Pedal Accessibility Driver for Logitech G29",
+      "ownerUsername": "TecHniCzny",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Assistive technology for players with physical disabilities. Lets them<br>control tank movement (forward / reverse / turning) in World of Tanks<br>using the pedals of their existing Logitech G29 wheel instead of the<br>keyboard, so their one working hand can stay on the mouse for aiming<br>and firing at all times.</p><p>How it works:<br>- Reads standard USB HID reports directly from an already-connected,<br>&nbsp;commercially available wheel+pedal set. No modification of the<br>&nbsp;device's drivers or calibration — other games work with the wheel<br>&nbsp;exactly as before.<br>- Pedal position is translated 1:1 into standard key presses (W/A/S/D)<br>&nbsp;via the Win32 SendInput API — the same mechanism used by common,<br>&nbsp;legal, commercial remapping tools (AntiMicroX, reWASD, Steam Input,<br>&nbsp;JoyToKey).<br>- Only active while WorldOfTanks.exe is the foreground window.<br>- Starts automatically with the game, releases all keys and stops the<br>&nbsp;moment the game closes.</p><p>What it does NOT do:<br>- Does not read or modify game process memory, does not modify game<br>&nbsp;files.<br>- Does not automate aiming or firing — that stays 100% manual, via<br>&nbsp;mouse.<br>- Zero informational, aiming, or timing advantage — it is purely an<br>&nbsp;alternative input method.</p>",
+      "installationGuideHtml": "<p>1. Download wot-pedal-driver.ps1 and copy it to:<br>&nbsp; C:\\Users\\Public\\wot-pedal-driver.ps1<br>2. Open Windows Task Scheduler -&gt; Create Basic Task:<br>&nbsp; - Name: WoTPedalDriver<br>&nbsp; - Trigger: At log on — OR run it manually before launching the game<br>&nbsp; - Action: Start a program:<br>&nbsp; &nbsp; &nbsp; Program/script: &nbsp;powershell.exe<br>&nbsp; &nbsp; &nbsp; Arguments: &nbsp; &nbsp; &nbsp; -ExecutionPolicy Bypass -File \"C:\\Users\\Public\\wot-pedal-driver.ps1\"<br>3. (Optional) Uncheck \"Run only when user is logged on\" if you want<br>&nbsp; silent background autostart.<br>4. The script auto-detects WorldOfTanks.exe on its own — nothing extra<br>&nbsp; to click in-game. It only acts while the game is the foreground<br>&nbsp; window.<br>5. Requirements: a connected Logitech G29 wheel/pedal set (Logitech G<br>&nbsp; HUB drivers installed as usual), Windows PowerShell 5.1+ (built into<br>&nbsp; Windows 10/11).<br>6. Uninstall: remove the \"WoTPedalDriver\" task from Task Scheduler and<br>&nbsp; delete C:\\Users\\Public\\wot-pedal-driver.ps1.</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/7933/",
+      "tagIds": [
+        "18",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoT-Pedal-Accessibility-Driver.zip",
+          "updatedAt": "2026-09-21T12:13:22.774Z",
+          "sizeBytes": 11878,
+          "fileName": "WoT-Pedal-Accessibility-Driver.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "WoT-Pedal-Accessibility-Driver.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7940",
+      "title": "Onslaught Key Remap",
+      "ownerUsername": "DJ_Dek0",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Overview</strong></p><p>If you like to keep your abilities close to WASD in Onslaught but use the</p><p>default controls everywhere else, you know the problem: you end up</p><p>manually swapping your key bindings back and forth every time you switch</p><p>between Onslaught and Random battles - and sooner or later you forget,</p><p>and find yourself mid-fight in Onslaught fumbling for keys that are still</p><p>set up for Randoms.<br>&nbsp;</p><p>Onslaught Key Remap fixes that. Set your preferred keys for the three</p><p>Onslaught-only abilities (Tank Special Ability, Artillery Strike,</p><p>Radio/Flare) once, from an in-game settings panel, and the mod takes care</p><p>of switching them in and out automatically every time you enter or leave</p><p>Onslaught - your Random battle controls are never touched.</p><p>&nbsp;</p><p><strong>Support and Feedback</strong></p><p><a href=\"https://github.com/deivid7007/OnslaughtKeyRemapWoTMod\">Source code</a></p>",
+      "installationGuideHtml": "<ol><li>Download the zip file</li><li>Unzip it inside WoT installation folder</li><li>Replace existing files with the same name</li><li>Enjoy</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/onslaught_krm.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7940/",
+      "tagIds": [
+        "13",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.0.1+0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/djdek0_onslaughtkeyremap.zip",
+          "updatedAt": "2026-09-21T12:13:07.516Z",
+          "sizeBytes": 232641,
+          "fileName": "djdek0_onslaughtkeyremap.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "djdek0_onslaughtkeyremap.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7936",
@@ -3847,7 +3923,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "v1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Experimental_Rocket_Boosters_v1.0_ZKSEqIk.rar",
-          "updatedAt": "2026-09-20T01:36:52.563Z",
+          "updatedAt": "2026-09-21T09:11:05.759Z",
           "sizeBytes": 8785,
           "fileName": "Experimental_Rocket_Boosters_v1.0_ZKSEqIk.rar",
           "fileExt": ".rar",
@@ -5459,16 +5535,6 @@
           "fileName": "overmatch_dwBv0XV.zip",
           "fileExt": ".zip",
           "changeLog": "Linking your account is now a one-click button in the mod settings — Link or Unlink, with a clear status showing whether you're connected.\nFixed battle results for games you leave early or never open sometimes popping up over a newer battle — they're now captured quietly in the background."
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.4.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch.zip",
-          "updatedAt": "2026-09-11T13:54:05.606Z",
-          "sizeBytes": 237647,
-          "fileName": "overmatch.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -5996,46 +6062,6 @@
           "fileName": "Bizzord_Modpack_3.3.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.14",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Bizzord_Modpack_3.0.exe",
-          "updatedAt": "2026-09-13T21:12:41.944Z",
-          "sizeBytes": 164907017,
-          "fileName": "Bizzord_Modpack_3.0.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "2.13",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Bizzord_Modpack_2.8.exe",
-          "updatedAt": "2026-09-11T13:39:01.346Z",
-          "sizeBytes": 164902409,
-          "fileName": "Bizzord_Modpack_2.8.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "2.12",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Bizzord_Modpack_2.7.exe",
-          "updatedAt": "2026-09-11T13:06:10.996Z",
-          "sizeBytes": 163782335,
-          "fileName": "Bizzord_Modpack_2.7.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "2.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BizzordModapack_2_ElJxk0M_YqEooye.exe",
-          "updatedAt": "2026-09-13T13:18:17.246Z",
-          "sizeBytes": 165959153,
-          "fileName": "BizzordModapack_2_ElJxk0M_YqEooye.exe",
-          "fileExt": ".exe",
-          "changeLog": "Оновлено для мікропатчу 2.3.1.1"
         }
       ],
       "latest": {
@@ -20637,7 +20663,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p><p><br><strong>Overview:</strong><br>The <i>Onslaught Rating Overlay</i> is a lightweight, non-intrusive in-game tool that displays your <strong>current Onslaught rating, session progress, and winrate</strong> directly on screen — updating automatically after every battle.</p><p><strong>Features:</strong></p><ol><li>📊 <strong>Live Rating Display</strong> — Shows your current Onslaught rating in real time.</li><li>⬆️⬇️ <strong>Session Delta Tracker</strong> — Tracks how much rating you’ve gained or lost during the current session.</li><li>🏆 <strong>Winrate Overview</strong> — Displays your win/loss ratio and percentage for the session.</li><li>🎮 <strong>Drag &amp; Drop UI</strong> — Freely move the overlay anywhere on your screen.</li><li>🔁 <strong>[reset] and [show/hide] Controls</strong> — Quickly reset session tracking or toggle visibility.</li><li>💡 <strong>Automatic Updates</strong> — The overlay refreshes seamlessly when switching between Garage and Battle.</li></ol><p><strong>Technical Details:</strong></p><p>Designed for <strong>World of Tanks Onslaught mode (Comp7)</strong>.</p><p>Works independently of the default UI.</p><p>Fully client-side and does not affect gameplay or server data.</p><p>Minimal performance impact and no external dependencies.</p>",
       "installationGuideHtml": "<p>Install the mod by placing it in your <strong>mods/&lt;version&gt;/</strong> folder.&nbsp;<br><br>Launch <strong>World of Tanks</strong>.&nbsp;<br><br>The overlay appears in the top-left corner when you enter the Garage or battle. Drag to reposition, or click <strong>[reset]</strong> / <strong>[show/hide]</strong> to control it.</p>",
       "coverCatalogUrl": "",
@@ -28111,7 +28137,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "v1.13",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.13_v4Yrm35.rar",
-          "updatedAt": "2026-09-20T01:36:47.317Z",
+          "updatedAt": "2026-09-21T09:11:05.804Z",
           "sizeBytes": 37373,
           "fileName": "Actual_Lights_v1.13_v4Yrm35.rar",
           "fileExt": ".rar",
@@ -29199,7 +29225,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "v1.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Lootbox_Tanks_National_Colours_v1.6_WUV2Bfv.rar",
-          "updatedAt": "2026-09-20T01:36:44.846Z",
+          "updatedAt": "2026-09-21T09:11:06.133Z",
           "sizeBytes": 19591321,
           "fileName": "Lootbox_Tanks_National_Colours_v1.6_WUV2Bfv.rar",
           "fileExt": ".rar",
@@ -32096,7 +32122,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "v1.12",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.12_2hMdnzN.rar",
-          "updatedAt": "2026-09-20T01:36:42.564Z",
+          "updatedAt": "2026-09-21T09:11:05.917Z",
           "sizeBytes": 20529399,
           "fileName": "Mirukiis_Kanonenjagdpanzer_105_Remodel_v1.12_2hMdnzN.rar",
           "fileExt": ".rar",
