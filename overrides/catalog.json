@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.066",
-  "sourceHash": "df6694565087dac7de098a59cf26cbc6fe0d51c4cde1d4ed062efe303d2aa360",
+  "catalogVersion": "v2026.09.067",
+  "sourceHash": "c3f8ed793359a038cbb11b31a593b6cf0e50e7c44eae1c53902bf0dcde900163",
   "sources": [
     "wgmods",
     "modhub"
@@ -885,7 +885,7 @@
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/chester.numeric_sensitivity_1.0.1.wotmod",
-          "updatedAt": "2026-09-12T18:03:50.914Z",
+          "updatedAt": "2026-09-21T17:12:39.716Z",
           "sizeBytes": 6593610,
           "fileName": "chester.numeric_sensitivity_1.0.1.wotmod",
           "fileExt": ".wotmod",
@@ -1249,7 +1249,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 4.8,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><br>Restores the classic gun sounds from World of Tanks 2.3.1.3, replacing the redesigned weapon audio introduced in Update 2.4.</p><p>The mod restores both standard cannon and rapid-fire/autocannon sounds for the player and other vehicles. Only the weapon sound banks changed by Update 2.4 are replaced, while the current engine, track, impact, explosion, interface, music, and crew audio remains untouched.</p><p><strong>Features</strong></p><ul><li>Restores classic pre-2.4 cannon sounds</li><li>Restores classic autocannon and rapid-fire sounds</li><li>Covers player, allied, and enemy gunfire</li><li>Preserves all unrelated Update 2.4 audio</li><li>Contains no scripts</li><li>Does not change gameplay or vehicle characteristics</li><li>Lightweight and narrowly scoped to the updated weapon sounds</li></ul><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -2740,6 +2740,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AYA_Translator_hpqyy4J.zip",
+          "updatedAt": "2026-09-21T13:22:44.438Z",
+          "sizeBytes": 1730361,
+          "fileName": "AYA_Translator_hpqyy4J.zip",
+          "fileExt": ".zip",
+          "changeLog": "Settings panel completely redesigned with new visual style and usability improvements"
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AYA_Translator_T8H5o4u.zip",
@@ -2751,9 +2761,9 @@
         }
       ],
       "latest": {
-        "fileName": "AYA_Translator_T8H5o4u.zip",
-        "changeLog": "Added manual cache system in the garage panel, players can now add their own custom phrases and translations directly through the mod's settings interface.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "AYA_Translator_hpqyy4J.zip",
+        "changeLog": "Settings panel completely redesigned with new visual style and usability improvements",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14318,7 +14328,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.5,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This displays the mastery requirements for the selected tank in the hangar.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -44207,6 +44217,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "05",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_05.exe",
+          "updatedAt": "2026-09-21T16:51:44.260Z",
+          "sizeBytes": 63508754,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_05.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated Overmatch\n- Updated HangMan Garage Manager 2.71 (added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back)\n- Updated Expected Vehicle Values (fixed panels staying within screen bounds and keeping their position after anchor changes; added new {pema} token for custom battle template preview)\n- Updated Classic Tank Carousel (hotfix for the missing carousel in Onslaught)\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "04",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
           "updatedAt": "2026-09-20T15:55:07.134Z",
@@ -44227,8 +44247,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
-        "changeLog": "- Updated net.openwg.common 2.8.2 (fixed crashing on linux)\n- Updated XVM 13.1.0_0090\n- Updated Auto Equipment Return by Z4imon\n- Updated Players Panel HP by OldSkool\n- Updated Custom UI Scale 1.2.00 (added separate scale settings for the Garage and battles)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_05.exe",
+        "changeLog": "- Updated Overmatch\n- Updated HangMan Garage Manager 2.71 (added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back)\n- Updated Expected Vehicle Values (fixed panels staying within screen bounds and keeping their position after anchor changes; added new {pema} token for custom battle template preview)\n- Updated Classic Tank Carousel (hotfix for the missing carousel in Onslaught)\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
