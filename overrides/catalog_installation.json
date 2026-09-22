@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.070",
+  "catalogVersion": "v2026.09.071",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7944",
+      "title": "Classic Japanese Female Crew Voice (pre 1.3)",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "安裝：@將“res_mods”資料夾解壓縮到您的World of Tanks資料夾中。"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract the included res_mods folder into the World of Tanks folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7945",
+      "title": "Classic Chinese (Taiwanese) Female Crew Voice (9.19)",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extract the file into your World of Tanks file directory."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game directory.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7937",
@@ -89,6 +119,21 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to copy the included mods folder into the World of Tanks game folder/root.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7916",
+      "title": "Toggle Platoon PTT",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Manual installation: Close World of Tanks. Download the .wotmod file. Locate your World of Tanks installation folder. Open: World of Tanks\\mods\\<current-game-version>\\ Copy the .wotmod file into that folder. Start World of Tanks. Example: World of Tanks\\mods\\2.4.0.0\\panda.toggle_ptt_1.3.0.wotmod"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
