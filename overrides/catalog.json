@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.09.068",
-  "sourceHash": "cb1c74082aff98e655bf7cba234d69c3a2a6fac89db05f6928d217ef55ce646d",
+  "catalogVersion": "v2026.09.069",
+  "sourceHash": "9da23d344de19a89bde5e4c98a0a6136a873af18b1cf311cc325f8a89e086d34",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7937",
+      "title": "Robocop",
+      "ownerUsername": "grumpf44",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>OCP Pacemaker with the required character.</p><p><a href=\"https://wgmods.net/search/?owner=127630\">Mes mods / My mods</a></p>",
+      "installationGuideHtml": "<p>Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/open_Z1UGiiz.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7937/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.x",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Robocop.7z",
+          "updatedAt": "2026-09-22T07:15:48.668Z",
+          "sizeBytes": 3146128,
+          "fileName": "Robocop.7z",
+          "fileExt": ".7z",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Robocop.7z",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7933",
@@ -2682,6 +2720,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wgmods_bundle_v1.0.9_ywQWBTa.zip",
+          "updatedAt": "2026-09-22T09:25:51.226Z",
+          "sizeBytes": 110178,
+          "fileName": "wgmods_bundle_v1.0.9_ywQWBTa.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.3.1.3",
           "modVersion": "1.0.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wgmods_bundle_v1.0.6_kWTHkBy.zip",
@@ -2713,9 +2761,9 @@
         }
       ],
       "latest": {
-        "fileName": "wgmods_bundle_v1.0.6_kWTHkBy.zip",
-        "changeLog": "(v1.0.7)\nДобавлено\nКнопка «глаз» для сворачивания/разворачивания панели — в обеих панелях (журнал попаданий и статистика карт). При сворачивании панель превращается в маленький значок, при нажатии — разворачивается обратно.\nУбрано\nНастройки showInHangar, showInBattle, toggleKey — больше не нужны. Панели работают в ангаре и в бою, управление сворачиванием через кнопку «глаз» и клавишу Esc.\nИсправлено\nОшибка NaN при вычислении размера viewport — applySize(w, h) теперь корректно получает размер панели.\nУлучшено\nКачество шрифтов — добавлены antialiased, optimizeLegibility, letter-spacing для более чёткого отображения текста.",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "wgmods_bundle_v1.0.9_ywQWBTa.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3532,6 +3580,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/DisableSpecialVoices.rar",
+          "updatedAt": "2026-09-22T10:45:01.785Z",
+          "sizeBytes": 1556,
+          "fileName": "DisableSpecialVoices.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ridd.disablespecialvoices_1.0.0.wotmod",
@@ -3563,9 +3621,9 @@
         }
       ],
       "latest": {
-        "fileName": "DisableSpecialVoices_iEZHbEJ.rar",
+        "fileName": "DisableSpecialVoices.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4346,16 +4404,6 @@
           "updatedAt": "2026-09-20T07:19:57.323Z",
           "sizeBytes": 5846988,
           "fileName": "AVG_Damage0.1.2_rw7VV6L.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "0.1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.2.zip",
-          "updatedAt": "2026-09-13T22:53:15.610Z",
-          "sizeBytes": 4742666,
-          "fileName": "AVG_Damage0.1.2.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -17369,7 +17417,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.1,
       "descriptionHtml": "<p><strong>Основний Калібр — мод для World of Tanks</strong></p><p>Мод показує в бою, скільки ще шкоди потрібно нанести для отримання медалі <strong>«Основний Калібр»</strong>.</p><p>На екрані з’являється компактна панель:</p><p>Основний Калібр: 4026</p><p>Цифра автоматично зменшується після нанесення шкоди ворогам. Коли потрібну кількість шкоди виконано, мод покаже:</p><p>Виконано!</p><p>Мод працює тільки у випадкових боях і не впливає на геймплей — він лише показує підказку на екрані.</p><p>В моді можна змінювати задній фон клавішами F12 та F11</p><p>Панель можна перетягувати по екрану та розташувати там, де зручно.</p><p>&nbsp;</p><p><strong>Main Caliber — World of Tanks Mod</strong></p><p>This mod displays how much damage you still need to deal during a battle to earn the <strong>\"Main Caliber\"</strong> medal.</p><p>A compact panel appears on the screen:</p><p><strong>Main Caliber: 4026</strong></p><p>The number automatically decreases as you deal damage to enemy vehicles. Once the required amount of damage has been reached, the mod displays:</p><p><strong>Completed!</strong></p><p>The mod works only in <strong>Random Battles</strong> and does not affect gameplay—it simply provides an on-screen indicator.</p><p>You can change the panel's background by pressing <strong>F12</strong> and <strong>F11</strong>.</p><p>The panel can be dragged anywhere on the screen, allowing you to place it wherever it is most convenient.</p>",
       "installationGuideHtml": "<p>Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU</p><p>To install the mod, copy the contents of the folder into your World of Tanks game directory C:\\Games\\World_of_Tanks_EU</p>",
@@ -17381,6 +17429,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9_%D0%9A%D0%B0%D0%BB%D1%96%D0%B1%D1%80.rar",
+          "updatedAt": "2026-09-22T10:25:41.316Z",
+          "sizeBytes": 153200,
+          "fileName": "Основний_Калібр.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.7",
@@ -17433,9 +17491,9 @@
         }
       ],
       "latest": {
-        "fileName": "Основний_Калібр_rrGSqdT.rar",
+        "fileName": "Основний_Калібр.rar",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -17621,6 +17679,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/renodx-worldoftanks-wgmods_2jgWZqb.7z",
+          "updatedAt": "2026-09-22T10:44:53.335Z",
+          "sizeBytes": 2062539,
+          "fileName": "renodx-worldoftanks-wgmods_2jgWZqb.7z",
+          "fileExt": ".7z",
+          "changeLog": "* Tonemapping overhaul - New extended tonemapper implementation, and now ran in LMS instead of BT.709.\n* Color grading overhaul - Luminance-based adjustments are now applied before tonemapping.\n* Display Mapping is now done using Neutwo per-channel in LMS instead of RenoDRT by luminance. The \"RenoDRT\" label has now been renamed to \"Vanilla+ (HDR)\"\n* Support for lower graphics settings - Output shaders change depending on the lighting quality setting. Previously the mod was made using only Ultra as a reference, but I've added the shaders for lower settings now."
+        },
+        {
           "wotGameVersion": "2.2.0.2",
           "modVersion": "1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/renodx-worldoftanks-wgmods_SD2bZhG.7z",
@@ -17662,9 +17730,9 @@
         }
       ],
       "latest": {
-        "fileName": "renodx-worldoftanks-wgmods_SD2bZhG.7z",
-        "changeLog": "Updated tonemapping - Returned to luminance display mapping. Switched to max channel tonemapping for LUT sampling.",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "renodx-worldoftanks-wgmods_2jgWZqb.7z",
+        "changeLog": "* Tonemapping overhaul - New extended tonemapper implementation, and now ran in LMS instead of BT.709.\n* Color grading overhaul - Luminance-based adjustments are now applied before tonemapping.\n* Display Mapping is now done using Neutwo per-channel in LMS instead of RenoDRT by luminance. The \"RenoDRT\" label has now been renamed to \"Vanilla+ (HDR)\"\n* Support for lower graphics settings - Output shaders change depending on the lighting quality setting. Previously the mod was made using only Ultra as a reference, but I've added the shaders for lower settings now.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -18900,7 +18968,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "v1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Decalless_Gift_Tanks_v1.1_s1hiWth.rar",
-          "updatedAt": "2026-09-20T01:36:50.275Z",
+          "updatedAt": "2026-09-22T11:20:10.674Z",
           "sizeBytes": 2070736,
           "fileName": "Decalless_Gift_Tanks_v1.1_s1hiWth.rar",
           "fileExt": ".rar",
@@ -30884,7 +30952,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.9,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OitHDzsJdBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OitHDzsJdBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
@@ -30897,6 +30965,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.43.44",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.44.exe",
+          "updatedAt": "2026-09-22T09:36:27.196Z",
+          "sizeBytes": 4425545,
+          "fileName": "mod_battle_observer_v1.43.44.exe",
+          "fileExt": ".exe",
+          "changeLog": "2.4.0.1 update"
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.43.42",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.42.exe",
@@ -30908,9 +30986,9 @@
         }
       ],
       "latest": {
-        "fileName": "mod_battle_observer_v1.43.42.exe",
-        "changeLog": "Update for path 2.4.0.0. Statistics colors correction. Armor calculator icons update.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "mod_battle_observer_v1.43.44.exe",
+        "changeLog": "2.4.0.1 update",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -31675,6 +31753,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.0.1_260918",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ContourIcons_PoGs_2.4.0.1_260918.zip",
+          "updatedAt": "2026-09-22T10:24:22.625Z",
+          "sizeBytes": 433857051,
+          "fileName": "ContourIcons_PoGs_2.4.0.1_260918.zip",
+          "fileExt": ".zip",
+          "changeLog": "First update on new machine."
+        },
+        {
           "wotGameVersion": "2.0.1.1",
           "modVersion": "2.0.1.1_251029",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ContourIcons_PoGs_2.0.1.1_251029.zip",
@@ -31726,9 +31814,9 @@
         }
       ],
       "latest": {
-        "fileName": "ContourIcons_PoGs_2.0.1.1_251029.zip",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "ContourIcons_PoGs_2.4.0.1_260918.zip",
+        "changeLog": "First update on new machine.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

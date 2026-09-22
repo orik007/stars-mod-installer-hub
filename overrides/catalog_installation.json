@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.068",
+  "catalogVersion": "v2026.09.069",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7937",
+      "title": "Robocop",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod file there.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7933",
