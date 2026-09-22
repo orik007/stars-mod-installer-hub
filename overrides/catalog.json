@@ -1,11 +1,83 @@
 {
-  "catalogVersion": "v2026.09.070",
-  "sourceHash": "8b3199eb87e3e559bc734387991cb162d63711ece57a3b96c3912f6d818e2ea5",
+  "catalogVersion": "v2026.09.071",
+  "sourceHash": "e3990687699b8bc42417a47f9348ee1b7340c727a663d7a2176730170f939c21",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7944",
+      "title": "Classic Japanese Female Crew Voice (pre 1.3)",
+      "ownerUsername": "kuroneko502",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Restores the classic Japanese female crew voices from an older version of World of Tanks (before 1.3) while keeping the current Japanese male crew voices.</p><p>Features:<br>• Old Japanese female crew voices<br>• Current Japanese male crew voices remain unchanged<br>• Compatible with World of Tanks 2.4</p><p>Credits:<br>Original voice assets belong to Wargaming.<br>The sound bank was adapted for the current World of Tanks Wwise sound system.</p>",
+      "installationGuideHtml": "<p>安裝：@將“res_mods”資料夾解壓縮到您的World of Tanks資料夾中。</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_2026%E5%B9%B49%E6%9C%8823%E6%97%A5_%E4%B8%8A%E5%8D%8803_01_28.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7944/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Classic_Japanese_Female_Crew_Voice_2.4.0.1.zip",
+          "updatedAt": "2026-09-22T20:15:57.685Z",
+          "sizeBytes": 8418503,
+          "fileName": "Classic_Japanese_Female_Crew_Voice_2.4.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Classic_Japanese_Female_Crew_Voice_2.4.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7945",
+      "title": "Classic Chinese (Taiwanese) Female Crew Voice (9.19)",
+      "ownerUsername": "kuroneko502",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Restores the classic Chinese (Taiwanese) female crew voices from an older version of World of Tanks (9.19) while keeping the current Chinese male crew voices.</p><p>Features:<br>• Old Chinese&nbsp;female crew voices<br>• Current Chinese&nbsp;male crew voices remain unchanged<br>• Compatible with World of Tanks 2.4</p><p>Credits:<br>Original voice assets belong to Wargaming.<br>The sound bank was adapted for the current World of Tanks Wwise sound system.</p>",
+      "installationGuideHtml": "<p>Extract the file into your World of Tanks file directory.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_2026%E5%B9%B49%E6%9C%8823%E6%97%A5_%E4%B8%8A%E5%8D%8803_23_25.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7945/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Classic_Chinese_Female_Crew_Voice_2.4.0.1.zip",
+          "updatedAt": "2026-09-22T20:15:47.431Z",
+          "sizeBytes": 6784984,
+          "fileName": "Classic_Chinese_Female_Crew_Voice_2.4.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Classic_Chinese_Female_Crew_Voice_2.4.0.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7937",
@@ -105,18 +177,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.4.0.1+0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/djdek0_onslaughtkeyremap.zip",
-          "updatedAt": "2026-09-21T12:13:07.516Z",
-          "sizeBytes": 232641,
-          "fileName": "djdek0_onslaughtkeyremap.zip",
+          "modVersion": "2.4.0.1+1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/djdek0_onslaughtkeyremap_KJTjxy6.zip",
+          "updatedAt": "2026-09-22T19:58:57.594Z",
+          "sizeBytes": 232750,
+          "fileName": "djdek0_onslaughtkeyremap_KJTjxy6.zip",
           "fileExt": ".zip",
-          "changeLog": ""
+          "changeLog": "Fixed an issue related to the mod not working when playing in onslaught platoon."
         }
       ],
       "latest": {
-        "fileName": "djdek0_onslaughtkeyremap.zip",
-        "changeLog": "",
+        "fileName": "djdek0_onslaughtkeyremap_KJTjxy6.zip",
+        "changeLog": "Fixed an issue related to the mod not working when playing in onslaught platoon.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -141,6 +213,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.71",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.71_2.4.0.1_rKbLkrp.zip",
+          "updatedAt": "2026-09-22T21:04:15.276Z",
+          "sizeBytes": 1536548,
+          "fileName": "HangMan_2.71_2.4.0.1_rKbLkrp.zip",
+          "fileExt": ".zip",
+          "changeLog": "added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "2.70",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.70_2.4.0.1.zip",
           "updatedAt": "2026-09-20T13:39:59.603Z",
@@ -151,8 +233,8 @@
         }
       ],
       "latest": {
-        "fileName": "HangMan_2.70_2.4.0.1.zip",
-        "changeLog": "",
+        "fileName": "HangMan_2.71_2.4.0.1_rKbLkrp.zip",
+        "changeLog": "added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -238,6 +320,45 @@
       "latest": {
         "fileName": "AimInfoPro_1.0.00_2.4.0.1_h138OZp.zip",
         "changeLog": "mod menu 2.0.17",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7916",
+      "title": "Toggle Platoon PTT",
+      "ownerUsername": "kismat",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><a href=\"https://github.com/kizmat/wotptt/releases/tag/1.3.0\">Source Code</a><br><br>Toggle Platoon PTT makes World of Tanks platoon voice chat easier to use by changing Push-to-Talk into a simple toggle while you are in a platoon.</p><p>Press your normal World of Tanks Push-to-Talk key once to turn your microphone on. Press it again to mute.</p><p>The mod automatically uses the Push-to-Talk key already configured in your World of Tanks controls, so no additional hotkey setup is required.</p><p><strong>Features:</strong></p><ul><li>Press once to turn the platoon microphone ON</li><li>Press again to turn the microphone OFF</li><li>Uses your existing World of Tanks PTT key</li><li>ON and OFF status messages appear for 3 seconds</li><li>Automatically mutes when you leave or disband the platoon</li><li>Preserves the microphone state through normal garage/battle transitions</li><li>Restores the active toggle state after a voice-chat reconnect</li><li>Outside a platoon, normal hold-to-talk behavior is unchanged</li><li>No external dependencies required</li><li>Does not record, capture, or transmit audio outside the normal World of Tanks voice-chat system</li></ul><p>The mod only changes how the existing World of Tanks platoon Push-to-Talk control behaves. It does not modify Windows microphone settings or affect other voice applications.</p>",
+      "installationGuideHtml": "<p><strong>Manual installation:</strong></p><ol><li>Close World of Tanks.</li><li>Download the .wotmod file.</li><li>Locate your World of Tanks installation folder.</li><li>Open:</li></ol><p>World of Tanks\\mods\\&lt;current-game-version&gt;\\</p><ol><li>Copy the .wotmod file into that folder.</li><li>Start World of Tanks.</li></ol><p>Example:</p><p>World of Tanks\\mods\\2.4.0.0\\panda.toggle_ptt_1.3.0.wotmod</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_cover_image_5WJPXc0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7916/",
+      "tagIds": [
+        "17",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.4.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/panda_toggle_platoon_ptt_1.4.3.wotmod",
+          "updatedAt": "2026-09-22T19:31:34.431Z",
+          "sizeBytes": 23759,
+          "fileName": "panda_toggle_platoon_ptt_1.4.3.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "fixed mic mute bug"
+        }
+      ],
+      "latest": {
+        "fileName": "panda_toggle_platoon_ptt_1.4.3.wotmod",
+        "changeLog": "fixed mic mute bug",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1858,6 +1979,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Witblitz_Contour_Pack_2.4.0.1.zip",
+          "updatedAt": "2026-09-22T17:43:35.920Z",
+          "sizeBytes": 23534963,
+          "fileName": "Witblitz_Contour_Pack_2.4.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated for 2.4.0.1"
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "2.4.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Witblitz_Contour_Pack_2.4.0.0.zip",
@@ -1869,9 +2000,9 @@
         }
       ],
       "latest": {
-        "fileName": "Witblitz_Contour_Pack_2.4.0.0.zip",
-        "changeLog": "Updated for 2.4.0.0.\nAdded new style: Apex",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Witblitz_Contour_Pack_2.4.0.1.zip",
+        "changeLog": "Updated for 2.4.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44455,38 +44586,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
-          "modVersion": "05",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_05.exe",
-          "updatedAt": "2026-09-21T16:51:44.260Z",
-          "sizeBytes": 63508754,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_05.exe",
+          "modVersion": "06",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_06.exe",
+          "updatedAt": "2026-09-22T20:15:47.685Z",
+          "sizeBytes": 63998786,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_06.exe",
           "fileExt": ".exe",
-          "changeLog": "- Updated Overmatch\n- Updated HangMan Garage Manager 2.71 (added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back)\n- Updated Expected Vehicle Values (fixed panels staying within screen bounds and keeping their position after anchor changes; added new {pema} token for custom battle template preview)\n- Updated Classic Tank Carousel (hotfix for the missing carousel in Onslaught)\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "04",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
-          "updatedAt": "2026-09-20T15:55:07.134Z",
-          "sizeBytes": 63444829,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_04.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated net.openwg.common 2.8.2 (fixed crashing on linux)\n- Updated XVM 13.1.0_0090\n- Updated Auto Equipment Return by Z4imon\n- Updated Players Panel HP by OldSkool\n- Updated Custom UI Scale 1.2.00 (added separate scale settings for the Garage and battles)\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_03.exe",
-          "updatedAt": "2026-09-19T18:00:21.072Z",
-          "sizeBytes": 63664416,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_03.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated net.openwg.common 2.8.1\n- Updated Garage Mastery 1.0.9 by OldSkool (fixed shuttering and movement issues)\n- Updated Players Panel HP by OldSkool\n- Note: for some players on Linux (Proton/Wine), XVM, FPS Optimizer, WOTInspector Heatmaps and Campaign Tracker may cause crashes or FPS drops. The cause is their shared dependency net.openwg.common 2.8.0/2.8.1\n"
+          "changeLog": "- Updated MoE Calculator 14th_ua\n- Updated Aim Info Pro 1.0.01 (fixed: after changing the interface scale during a battle the panel could not be dragged any more)\n- Updated Camo Selector\n- Updated Vehicle Stat Inspector\n- Updated Directives Helper\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_05.exe",
-        "changeLog": "- Updated Overmatch\n- Updated HangMan Garage Manager 2.71 (added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back)\n- Updated Expected Vehicle Values (fixed panels staying within screen bounds and keeping their position after anchor changes; added new {pema} token for custom battle template preview)\n- Updated Classic Tank Carousel (hotfix for the missing carousel in Onslaught)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_06.exe",
+        "changeLog": "- Updated MoE Calculator 14th_ua\n- Updated Aim Info Pro 1.0.01 (fixed: after changing the interface scale during a battle the panel could not be dragged any more)\n- Updated Camo Selector\n- Updated Vehicle Stat Inspector\n- Updated Directives Helper\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
