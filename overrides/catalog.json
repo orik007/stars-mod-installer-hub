@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.072",
-  "sourceHash": "ceca33416256d254cc533d6e216d1d1388dbebaf4f4a911edac3fee8fc3ebac5",
+  "catalogVersion": "v2026.09.073",
+  "sourceHash": "47291346b3fa74f2d2c7299a04c69d653feb5447e792b4d5d6b96d8acc179207",
   "sources": [
     "wgmods",
     "modhub"
@@ -18,7 +18,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Where do your shells actually land inside the aiming circle? This mod records every shot you fire and shows it in a window in the garage: one dot per shell, placed where it went relative to your aim point, measured in the size of the circle at that moment. Over a few dozen battles you see your real shell distribution for each vehicle, next to what the game's own distribution says you should get.</p><p>WHAT YOU SEE</p><p>- The circle: every logged shot of the chosen vehicle, coloured by result (damage / hit without damage / no vehicle hit). Zoom with the mouse wheel.</p><p>- Filters: fully aimed, almost aimed (tracking a moving target) or not aimed; moving or standing still; this session, one day or everything; battles or replays.</p><p>- Pick a shot to see the target's real outline, traced at the moment you fired, the cover in front of it (purple) and, for a shot fired before full aim, how big the circle would have been fully aimed (green ring).</p><p>- Shot / Hit: where the target stood when you fired, and where on the tank the shell actually struck. The difference shows how far the target moved.</p><p>- Hit chance: a rough estimate, per shot, of how likely a shell from that circle and that aim was to land on the target's visible outline.</p><p>- Battles: each battle with its BRNG (\"Bad RNG\") score. 50 is an ordinary battle; higher means your shells landed further out than the game's distribution says they should. A bad roll that still did damage counts less, one that did nothing counts more. It rates the dice, not how you played.</p><p>- English and Russian, following the game's language.</p><p>GOOD TO KNOW</p><p>- The garage window needs net.openwg.gameface (included in the download). The logging itself works without it.</p><p>- Shots fired from closer than 12 m are listed but not counted: at that range the angle between the barrel and the sight says nothing about the shell distribution in the circle.</p><p>- Autocannons: the game reports only part of a burst with a tracer, so only those shells can be placed.</p><p>- Replays can be logged too (switch in the window). A battle that is already in your log is not counted twice.</p><p>- Your logs are kept in World_of_Tanks/mods/shellLogger_local. \"Clear log\" moves them to an archive folder; it never deletes anything.</p><p>CREDITS</p><p>- Built on wotstat-analytics by Andrei Soprachev (WotStat), the free, open mod this one grew out of: https://github.com/wotstat/wotstat-analytics. Everything that sent data to WotStat's servers has been removed.</p><p>- FixedBattleResultsCache by Andrii Andrushchyshyn (MIT licence).</p><p>- net.openwg.gameface by OpenWG (MIT licence): https://gitlab.com/openwg/wot.gameface</p><p>- The expected shell distribution comes from \"Ultimate Gun Mechanics\" by Peter \"Overlord_Prime\" Han (380,000+ logged shots): https://docs.google.com/document/d/1au-7iJuzjSBsjhB6pLiAzMZNPxOOdrx_AFEGa6TU89Q</p>",
+      "descriptionHtml": "<p>Where do your shells actually land inside the aiming circle? This mod records every shot you fire and shows it in a window in the garage: one dot per shell, placed where it went relative to your aim point, measured in the size of the circle at that moment. Over a few dozen battles you see your real shell distribution for each vehicle, next to what the game's own distribution says you should get.</p><p>WHAT YOU SEE</p><p>- The circle: every logged shot of the chosen vehicle, coloured by result (damage / hit without damage / no vehicle hit). Zoom with the mouse wheel.</p><p>- Filters: fully aimed, almost aimed (tracking a moving target) or not aimed; moving or standing still; this session, one day or everything; battles or replays.</p><p>- Pick a shot to see the target's real outline, traced at the moment you fired, the cover in front of it (purple) and, for a shot fired before full aim, how big the circle would have been fully aimed (green ring).</p><p>- Shot / Hit: where the target stood when you fired, and where on the tank the shell actually struck. The difference shows how far the target moved.</p><p>- Hit chance: a rough estimate, per shot, of how likely a shell from that circle and that aim was to land on the target's visible outline.</p><p>- Battles: each battle with its BRNG (\"Bad RNG\") score. 50 is an ordinary battle; higher means your shells landed further out than the game's distribution says they should. A bad roll that still did damage counts less, one that did nothing counts more. It rates the dice, not how you played.</p><p>- English and Russian, following the game's language.</p><p>GOOD TO KNOW</p><p>- The garage window needs net.openwg.gameface (included in the download). The logging itself works without it.</p><p>- Shots fired from closer than 12 m are listed but not counted: at that range the angle between the barrel and the sight says nothing about the shell distribution in the circle.</p><p>- Autocannons: the game reports only part of a burst with a tracer, so only those shells can be placed.</p><p>- Replays can be logged too (switch in the window). A battle that is already in your log is not counted twice.</p><p>Your logs are kept in World_of_Tanks/shellLogger_local, outside the mods folder, so reinstalling mods or a modpack does not touch them.</p><p>CREDITS</p><p>- Built on wotstat-analytics by Andrei Soprachev (WotStat), the free, open mod this one grew out of: https://github.com/wotstat/wotstat-analytics. Everything that sent data to WotStat's servers has been removed.</p><p>- FixedBattleResultsCache by Andrii Andrushchyshyn (MIT licence).</p><p>- net.openwg.gameface by OpenWG (MIT licence): https://gitlab.com/openwg/wot.gameface</p><p>- The expected shell distribution comes from \"Ultimate Gun Mechanics\" by Peter \"Overlord_Prime\" Han (380,000+ logged shots): https://docs.google.com/document/d/1au-7iJuzjSBsjhB6pLiAzMZNPxOOdrx_AFEGa6TU89Q</p>",
       "installationGuideHtml": "<p>1. Unpack the zip into your World of Tanks folder (e.g. C:\\Games\\World_of_Tanks) and allow it to merge folders.</p><p>2. Start the game (restart it if it's running). The client restarts once by itself on the first launch. That's normal.</p><p>3. In the garage, open the mods list and pick \"Shell Distribution Logger\".</p><p>Update: replace the old .wotmod in the mods/&lt;game version&gt; folder with the new one. Your logs are kept.</p><p>After a game update: move the mod into the new mods/&lt;game version&gt; folder.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/BC8FE9DD-45BE-47C8-828C-92EC89238530.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7932/",
@@ -533,6 +533,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/panda.crunchy_sixthsense_1.0.1.wotmod",
+          "updatedAt": "2026-09-23T14:38:53.928Z",
+          "sizeBytes": 435650,
+          "fileName": "panda.crunchy_sixthsense_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Tested with 2.4.0.1"
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/panda.crunchy_sixthsense_1.0.0.wotmod",
@@ -544,9 +554,9 @@
         }
       ],
       "latest": {
-        "fileName": "panda.crunchy_sixthsense_1.0.0.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "panda.crunchy_sixthsense_1.0.1.wotmod",
+        "changeLog": "Tested with 2.4.0.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1626,8 +1636,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.6,
       "descriptionHtml": "<p>Custom UI Scale&nbsp;<br><br>Sets the World of Tanks interface to any size between 50% and 200%, in steps of 1%. The game itself only offers whole doublings, and only those that fit your screen: on a 4K display you get x1 or x2 and nothing in between, one too small to read comfortably and one too large to fit anything on screen. On 1440p you often get no choice at all. This mod fills in everything between them.&nbsp;<br><br>FEATURES&nbsp;<br>- Keyboard shortcuts. Change the size straight from the keyboard, in the garage and in battle. The new size appears in the middle of the screen for a moment. Default is CTRL + ALT + Page Up / Page Down, and you can rebind it to any keys you like.&nbsp;<br>- Two slots of your own. Keep a pair of favourite sizes side by side and switch between them &nbsp;without retyping either.&nbsp;<br>- A proper automatic setting. It aims for the interface size of a 1080p screen and never goes &nbsp;below 100%: 200% on 4K, 135% on 1440p, 100% on 1080p. The game's own automatic can only double, which is why 1440p stays stuck at 100%.&nbsp;<br>- Set it from either place. The game's own Interface Scale option lists the same entries as the mod menu, including your two slots. Change it in one place and the other follows.&nbsp;<br>- Pixel-fit table. Shows which sizes land on whole pixels for your resolution, so you can pick one that stays sharp instead of slightly blurred.&nbsp;<br>- Screen readout. Your resolution, native resolution, aspect ratio, the size the interface is laid out for, and the font cache size the client will use.&nbsp;<br>- 9 languages with auto-detect: English, Polish, German, Spanish, French, Italian, Russian, Ukrainian, Czech.&nbsp;<br><br>SETTINGS&nbsp;<br>In-game settings menu via Aslain's modsSettingsApi or the original izeberg modsSettingsApi. The mod also works standalone, with no menu installed, using its saved settings.&nbsp;<br><br>Settings are stored per user in&nbsp;<br>%APPDATA%\\Wargaming.net\\WorldOfTanks\\mods\\Aslain\\customuiscale\\customuiscale.json&nbsp;<br><br>COMPATIBILITY&nbsp;<br>If another interface scaling mod is detected at startup, this one stands down and says so in python.log, rather than fighting it. Remove one of the two.&nbsp;<br><br>Inspired by UI Scale by goofy67 and Extended Interface Scaling by ANIALLATOR.</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_12_35_07.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -2054,16 +2064,6 @@
           "fileName": "Witblitz_Contour_Pack_2.4.0.1.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for 2.4.0.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Witblitz_Contour_Pack_2.4.0.0.zip",
-          "updatedAt": "2026-09-11T12:31:06.916Z",
-          "sizeBytes": 23534963,
-          "fileName": "Witblitz_Contour_Pack_2.4.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated for 2.4.0.0.\nAdded new style: Apex"
         }
       ],
       "latest": {
@@ -3147,7 +3147,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<h2>Infinitum Aim Timer is a lightweight standalone aiming indicator for World of Tanks.</h2><h2>The mod displays:</h2><ul><li>remaining time until the gun is fully aimed;</li><li>selected aiming progress value;</li><li>a vertical progress bar that fills from bottom to top;</li><li>interactive color changes based on the current aiming progress.</li><li>The indicator transitions from red through yellow to green, allowing you to evaluate the current aiming state at a glance.</li></ul><h2>In-game settings allow you to choose:</h2><ul><li>time-based or circle-based progress;</li><li>theoretical maximum or the maximum for the vehicle’s current state;</li><li>time progress, circle progress, or the current circle-size multiplier below the bar.</li><li>Time-based progress with a percentage value is enabled by default.</li></ul><h2>Features:</h2><ul><li>accounts for increased dispersion while the vehicle is moving;</li><li>adapts to different vehicles, vehicle states, and gameplay mechanics;</li><li>does not modify gun handling, dispersion, firing mechanics, or reticle behavior;</li><li>optimized to avoid additional lag or noticeable FPS loss;</li><li>runs only during battles;</li><li>supports Ukrainian and English;</li><li>uses English as the fallback language;</li><li>allows separate indicator positions for arcade, sniper, and artillery views;</li><li>allows the indicator to be repositioned by dragging it in cursor mode;</li><li>hides after vehicle destruction and returns after respawning;</li><li>preserves settings and positions between game sessions.</li></ul><blockquote><p>All required dependencies are included in the package.</p></blockquote><p>Compatibility: World of Tanks 2.3.1.x<br>Version: 1.1.0<br>Developer: unicorn.ares</p>",
       "installationGuideHtml": "<p>Extract the archive into the World of Tanks root directory.</p><blockquote><p>All included .wotmod files must be placed in the mods/&lt;current game version&gt;/ directory while preserving the included subfolder structure.</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%B7_2026-08-13_17-48-15.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -44673,6 +44673,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "07",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_07.exe",
+          "updatedAt": "2026-09-23T16:53:18.664Z",
+          "sizeBytes": 63998418,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_07.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Updated HangMan Garage Manager 2.72 (fixed the garage getting stuck on its loading screen when an Onslaught night map was set as the garage)\n- Updated Tomato.gg\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "06",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_06.exe",
           "updatedAt": "2026-09-22T20:15:47.685Z",
@@ -44683,8 +44693,8 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_06.exe",
-        "changeLog": "- Updated MoE Calculator 14th_ua\n- Updated Aim Info Pro 1.0.01 (fixed: after changing the interface scale during a battle the panel could not be dragged any more)\n- Updated Camo Selector\n- Updated Vehicle Stat Inspector\n- Updated Directives Helper\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_07.exe",
+        "changeLog": "- Updated HangMan Garage Manager 2.72 (fixed the garage getting stuck on its loading screen when an Onslaught night map was set as the garage)\n- Updated Tomato.gg\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
