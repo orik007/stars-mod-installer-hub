@@ -1,11 +1,88 @@
 {
-  "catalogVersion": "v2026.09.071",
-  "sourceHash": "e3990687699b8bc42417a47f9348ee1b7340c727a663d7a2176730170f939c21",
+  "catalogVersion": "v2026.09.072",
+  "sourceHash": "ceca33416256d254cc533d6e216d1d1388dbebaf4f4a911edac3fee8fc3ebac5",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7932",
+      "title": "Shell Distribution Logger",
+      "ownerUsername": "Stig97_1203219",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Where do your shells actually land inside the aiming circle? This mod records every shot you fire and shows it in a window in the garage: one dot per shell, placed where it went relative to your aim point, measured in the size of the circle at that moment. Over a few dozen battles you see your real shell distribution for each vehicle, next to what the game's own distribution says you should get.</p><p>WHAT YOU SEE</p><p>- The circle: every logged shot of the chosen vehicle, coloured by result (damage / hit without damage / no vehicle hit). Zoom with the mouse wheel.</p><p>- Filters: fully aimed, almost aimed (tracking a moving target) or not aimed; moving or standing still; this session, one day or everything; battles or replays.</p><p>- Pick a shot to see the target's real outline, traced at the moment you fired, the cover in front of it (purple) and, for a shot fired before full aim, how big the circle would have been fully aimed (green ring).</p><p>- Shot / Hit: where the target stood when you fired, and where on the tank the shell actually struck. The difference shows how far the target moved.</p><p>- Hit chance: a rough estimate, per shot, of how likely a shell from that circle and that aim was to land on the target's visible outline.</p><p>- Battles: each battle with its BRNG (\"Bad RNG\") score. 50 is an ordinary battle; higher means your shells landed further out than the game's distribution says they should. A bad roll that still did damage counts less, one that did nothing counts more. It rates the dice, not how you played.</p><p>- English and Russian, following the game's language.</p><p>GOOD TO KNOW</p><p>- The garage window needs net.openwg.gameface (included in the download). The logging itself works without it.</p><p>- Shots fired from closer than 12 m are listed but not counted: at that range the angle between the barrel and the sight says nothing about the shell distribution in the circle.</p><p>- Autocannons: the game reports only part of a burst with a tracer, so only those shells can be placed.</p><p>- Replays can be logged too (switch in the window). A battle that is already in your log is not counted twice.</p><p>- Your logs are kept in World_of_Tanks/mods/shellLogger_local. \"Clear log\" moves them to an archive folder; it never deletes anything.</p><p>CREDITS</p><p>- Built on wotstat-analytics by Andrei Soprachev (WotStat), the free, open mod this one grew out of: https://github.com/wotstat/wotstat-analytics. Everything that sent data to WotStat's servers has been removed.</p><p>- FixedBattleResultsCache by Andrii Andrushchyshyn (MIT licence).</p><p>- net.openwg.gameface by OpenWG (MIT licence): https://gitlab.com/openwg/wot.gameface</p><p>- The expected shell distribution comes from \"Ultimate Gun Mechanics\" by Peter \"Overlord_Prime\" Han (380,000+ logged shots): https://docs.google.com/document/d/1au-7iJuzjSBsjhB6pLiAzMZNPxOOdrx_AFEGa6TU89Q</p>",
+      "installationGuideHtml": "<p>1. Unpack the zip into your World of Tanks folder (e.g. C:\\Games\\World_of_Tanks) and allow it to merge folders.</p><p>2. Start the game (restart it if it's running). The client restarts once by itself on the first launch. That's normal.</p><p>3. In the garage, open the mods list and pick \"Shell Distribution Logger\".</p><p>Update: replace the old .wotmod in the mods/&lt;game version&gt; folder with the new one. Your logs are kept.</p><p>After a game update: move the mod into the new mods/&lt;game version&gt; folder.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/BC8FE9DD-45BE-47C8-828C-92EC89238530.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7932/",
+      "tagIds": [
+        "22",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.6.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShellDistributionLogger_1.6.7.zip",
+          "updatedAt": "2026-09-23T11:45:52.793Z",
+          "sizeBytes": 137689,
+          "fileName": "ShellDistributionLogger_1.6.7.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ShellDistributionLogger_1.6.7.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7928",
+      "title": "unicum.gg",
+      "ownerUsername": "_Winnie",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Player ratings and language flags across the game, straight from unicum.gg, and your Twitch chat in battle and in the garage.</p><p><strong>In battle</strong></p><ul><li>Each player's rating (WN7, WN8 or WNx, overall or last 30 days) and the flags of the languages their clan speaks: in the players panel, the Tab screen, the loading screen and by the names above vehicles.</li><li>Team averages on the Tab and loading screens.</li><li>Per battle mode, choose whose ratings you see: allies, enemies, or both.</li><li>Optionally, per screen: show ratings only while Alt is held.</li><li>Optionally (off by default), announce your own reload in the team chat after a shot, as F8 does.</li></ul><p><strong>Battle results</strong></p><ul><li>Both teams' ratings and language flags beside the results table, outside the rows, so no name is cut shorter.</li><li>Each team's average rating on its header line.</li></ul><p><strong>In the garage</strong></p><ul><li>Ratings and flags in the contacts list, profile windows, skirmish rooms and the Stronghold detachment list.</li><li>A unicum.gg button in the vehicle menu: the tank's page, its marks, history and videos, your current build.</li><li>A unicum.gg card under the mission cards to link your account, and a Twitch chat panel you can move, resize, fold or close.</li></ul><p><strong>Twitch (for streamers)</strong></p><ul><li>Your Twitch chat, with its badges, in the battle chat and in the garage panel.</li><li>Write in your Twitch chat from the game: the battle chat's TO TWITCH channel (Tab), a message starting with !t, or the garage panel.</li></ul><p><strong>What the mod sends, and to whom</strong></p><ul><li>To unicum.gg: the account ids and clan tags of the players on your screen, to get their ratings and languages, and your nickname, to find the Twitch channel linked to it. Nothing else about you unless you link your account.</li><li>Linking your account (Connect) is optional. It opens your own browser and signs you in with the game's Wargaming web sign-in; that token goes from the game to Wargaming only, never to unicum.gg. The game then keeps a random key in mods/configs/unicum/account.json, which only lets it see which account it is linked to and write in your own Twitch chat.</li><li>The Twitch chat is read anonymously from Twitch. Messages you write go through unicum.gg with the Twitch permission you granted, which you can revoke in your Twitch settings.</li><li>If you have the Mod Error Reporter installed, this mod hands it the errors it catches, so they reach its dashboard. Without it, nothing is sent and nothing changes.</li></ul><p><strong>Fair play</strong></p><p>Public statistics and your own reload only: nothing about enemy positions, reload timers or anything the game hides.</p>",
+      "installationGuideHtml": "<ol><li>Unzip the archive into your World of Tanks folder. It puts the mod in mods/2.4.0.1/, openwg_gameface, which the garage features need, in mods/2.4.0.1/net.openwg/, and two empty image folders under res_mods/2.4.0.1/ that the ratings are drawn into.</li><li>Start the game. The first start restarts it once, to register the garage button.</li></ol><p>Optional: modsSettingsApi for the settings window, modsListApi for the menu entry.</p><p>Settings: in the modsSettingsApi window, or in mods/configs/unicum/settings.json.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_fC5aNMa.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7928/",
+      "tagIds": [
+        "18",
+        "22",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "0.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.1.1.zip",
+          "updatedAt": "2026-09-23T11:44:13.956Z",
+          "sizeBytes": 391326,
+          "fileName": "unicum.gg_0.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "unicum.gg_0.1.1.zip",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7944",
@@ -18,7 +95,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>Restores the classic Japanese female crew voices from an older version of World of Tanks (before 1.3) while keeping the current Japanese male crew voices.</p><p>Features:<br>• Old Japanese female crew voices<br>• Current Japanese male crew voices remain unchanged<br>• Compatible with World of Tanks 2.4</p><p>Credits:<br>Original voice assets belong to Wargaming.<br>The sound bank was adapted for the current World of Tanks Wwise sound system.</p>",
-      "installationGuideHtml": "<p>安裝：@將“res_mods”資料夾解壓縮到您的World of Tanks資料夾中。</p>",
+      "installationGuideHtml": "<p>Extract the file into your World of Tanks file directory.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_2026%E5%B9%B49%E6%9C%8823%E6%97%A5_%E4%B8%8A%E5%8D%8803_01_28.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7944/",
       "tagIds": [
@@ -220,16 +297,6 @@
           "fileName": "HangMan_2.71_2.4.0.1_rKbLkrp.zip",
           "fileExt": ".zip",
           "changeLog": "added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.70",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.70_2.4.0.1.zip",
-          "updatedAt": "2026-09-20T13:39:59.603Z",
-          "sizeBytes": 1546318,
-          "fileName": "HangMan_2.70_2.4.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -3630,6 +3697,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "0.2.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mods_A6yV4Ew.zip",
+          "updatedAt": "2026-09-23T11:44:08.850Z",
+          "sizeBytes": 311742,
+          "fileName": "mods_A6yV4Ew.zip",
+          "fileExt": ".zip",
+          "changeLog": "Добавлено отображение тактических значков ТТ, СТ, ПТ-САУ, ЛТ и САУ на мини-карте.\n\nНастройка ключа комнаты перенесена в стандартное окно настроек модификаций со значком шестерёнок.\n\nКомплект состоит из четырёх отдельных файлов: WOT Tactic Bridge, ModsSettingsAPI, ModsListAPI и OpenWG Gameface. Убрано встраивание общих библиотек внутрь WOT Tactic, вызывавшее конфликт с отдельными компонентами меню.\n\nОбновлено описание: добавлены ссылка на Discord-бота Tank Helper и инструкция подключения к комнате WOT Tactic."
+        },
+        {
           "wotGameVersion": "2.3.1.2",
           "modVersion": "0.2.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WOT_Tactic_Bridge_0.2.3.wotmod",
@@ -3641,9 +3718,9 @@
         }
       ],
       "latest": {
-        "fileName": "WOT_Tactic_Bridge_0.2.3.wotmod",
-        "changeLog": "- Fixed the constant right-and-down offset of drawings relative to the standard minimap.\n- The overlay now uses the current minimap size correctly when entering battle and after the size is changed.\n- Fixed arrowheads and perpendicular end markers on freehand strokes.\n- Dashed and dotted styles now render continuously and evenly across freehand paths and circles.",
-        "wotGameVersionCompatibility": "risky"
+        "fileName": "mods_A6yV4Ew.zip",
+        "changeLog": "Добавлено отображение тактических значков ТТ, СТ, ПТ-САУ, ЛТ и САУ на мини-карте.\n\nНастройка ключа комнаты перенесена в стандартное окно настроек модификаций со значком шестерёнок.\n\nКомплект состоит из четырёх отдельных файлов: WOT Tactic Bridge, ModsSettingsAPI, ModsListAPI и OpenWG Gameface. Убрано встраивание общих библиотек внутрь WOT Tactic, вызывавшее конфликт с отдельными компонентами меню.\n\nОбновлено описание: добавлены ссылка на Discord-бота Tank Helper и инструкция подключения к комнате WOT Tactic.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -5746,6 +5823,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.6.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Overmatch-1.6.0-WoT-2.4.0.1.zip",
+          "updatedAt": "2026-09-23T11:46:09.266Z",
+          "sizeBytes": 374674,
+          "fileName": "Overmatch-1.6.0-WoT-2.4.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated the installer for World of Tanks 2.4.0.1.\n- Supporters can create highlights from a button below the battle rewards, when in-game requests are enabled.\n- Get an in-game notification when your highlight is ready, with a link to watch it.\n- The linked mod syncs your exact Marks of Excellence percentage, crew skills and equipment to your private Statistics and replay details.\n- See your exact Marks of Excellence change for new Random Battles."
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.5.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_1QXUrUe.zip",
@@ -5797,9 +5884,9 @@
         }
       ],
       "latest": {
-        "fileName": "overmatch_1QXUrUe.zip",
-        "changeLog": "Updated for World of Tanks 2.4. Fixed the game process sometimes staying open after you quit, especially on a fresh unlinked install. Overmatch now waits for you to click Link in the garage notification or mod settings instead of starting account linking automatically. Background checks and uploads no longer delay shutdown, and interrupted uploads retry the next time you play.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Overmatch-1.6.0-WoT-2.4.0.1.zip",
+        "changeLog": "- Updated the installer for World of Tanks 2.4.0.1.\n- Supporters can create highlights from a button below the battle rewards, when in-game requests are enabled.\n- Get an in-game notification when your highlight is ready, with a link to watch it.\n- The linked mod syncs your exact Marks of Excellence percentage, crew skills and equipment to your private Statistics and replay details.\n- See your exact Marks of Excellence change for new Random Battles.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -33781,6 +33868,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.2.03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.09.23.1.zip",
+          "updatedAt": "2026-09-23T11:40:13.039Z",
+          "sizeBytes": 7872650,
+          "fileName": "tomatogg_2026.09.23.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "2.2.02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.09.05.1_ToBhLME.zip",
           "updatedAt": "2026-09-18T06:42:14.966Z",
@@ -33828,20 +33925,10 @@
           "fileName": "tomatogg_2026.08.15.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "2.2.00",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/tomatogg_2026.08.11.1.zip",
-          "updatedAt": "2026-09-13T14:46:56.121Z",
-          "sizeBytes": 7838376,
-          "fileName": "tomatogg_2026.08.11.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "tomatogg_2026.09.05.1_ToBhLME.zip",
+        "fileName": "tomatogg_2026.09.23.1.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
