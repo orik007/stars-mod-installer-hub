@@ -1,19 +1,49 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.071",
+  "catalogVersion": "v2026.09.072",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7932",
+      "title": "Shell Distribution Logger",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Unpack the zip into your World of Tanks folder (e.g. C:\\Games\\World_of_Tanks) and allow it to merge folders. 2. Start the game (restart it if it's running). The client restarts once by itself on the first launch. That's normal. 3. In the garage, open the mods list and pick \"Shell Distribution Logger\". Update: replace the old .wotmod in the mods/<game version> folder with the new one. Your logs are kept. After a game update: move the mod into the new mods/<game version> folder."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to unpack into the World of Tanks folder with no required custom subpath operation.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7928",
+      "title": "unicum.gg",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Unzip the archive into your World of Tanks folder. It puts the mod in mods/2.4.0.1/, openwg_gameface, which the garage features need, in mods/2.4.0.1/net.openwg/, and two empty image folders under res_mods/2.4.0.1/ that the ratings are drawn into. Start the game. The first start restarts it once, to register the garage button. Optional: modsSettingsApi for the settings window, modsListApi for the menu entry. Settings: in the modsSettingsApi window, or in mods/configs/unicum/settings.json."
+      },
+      "installationProcess": {
+        "installationTemplate": "MixedCustomPathButDeterministic",
+        "installableByApp": false,
+        "decisionReason": "Archive installs to multiple target paths including mods/<version>, mods/<version>/net.openwg, res_mods/<version>, and references mods/configs, so it is a multi-path deterministic install not covered by one supported template.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7944",
       "title": "Classic Japanese Female Crew Voice (pre 1.3)",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "安裝：@將“res_mods”資料夾解壓縮到您的World of Tanks資料夾中。"
+        "latestInstallGuide": "Extract the file into your World of Tanks file directory."
       },
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to extract the included res_mods folder into the World of Tanks folder.",
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game directory.",
         "deleteDataWgpdc": false
       }
     },
@@ -1177,13 +1207,13 @@
       "sourceId": "7781",
       "title": "WOT Tactic Bridge",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.4.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle. Changing the room key does not require reinstalling the mod."
       },
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod package and guide points to mods/<game version>.",
+        "decisionReason": "Archive package and guide points to copying the .wotmod into mods/<game version>.",
         "deleteDataWgpdc": false
       }
     },
