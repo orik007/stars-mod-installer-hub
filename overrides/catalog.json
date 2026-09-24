@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.075",
-  "sourceHash": "bb26c6e1e73370fcd37a96a842f175c827dbb004a47be07c7d2846e5739d46f0",
+  "catalogVersion": "v2026.09.076",
+  "sourceHash": "68b54f318e70c31880222cb6a931d2201ad9c6e4b35d3771875b8ccd0f0baa07",
   "sources": [
     "wgmods",
     "modhub"
@@ -9,7 +9,7 @@
     {
       "source": "wgmods",
       "sourceId": "7947",
-      "title": "nakom crew sound mod",
+      "title": "nakom crew sound mod thai edition",
       "ownerUsername": "cruzseara",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -45,7 +45,7 @@
     {
       "source": "wgmods",
       "sourceId": "7948",
-      "title": "fury crew sound mod",
+      "title": "fury crew sound mod thai edition",
       "ownerUsername": "cruzseara",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -101,6 +101,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.7.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShellDistributionLogger_1.7.1_J6Dgcyw.zip",
+          "updatedAt": "2026-09-24T13:19:33.263Z",
+          "sizeBytes": 145945,
+          "fileName": "ShellDistributionLogger_1.7.1_J6Dgcyw.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Added Heatmap toggle (for more than 100 shots logged)\n- Logs moved out of the mods folder to World_of_Tanks/shellLogger_local, so reinstalling mods or a modpack no longer deletes them. Existing logs are moved there automatically on the first start.\n- Minor UI improvements and readability fixes. UI scale reset hotkey: R"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "1.6.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShellDistributionLogger_1.6.7.zip",
           "updatedAt": "2026-09-23T11:45:52.793Z",
@@ -111,8 +121,8 @@
         }
       ],
       "latest": {
-        "fileName": "ShellDistributionLogger_1.6.7.zip",
-        "changeLog": "",
+        "fileName": "ShellDistributionLogger_1.7.1_J6Dgcyw.zip",
+        "changeLog": "- Added Heatmap toggle (for more than 100 shots logged)\n- Logs moved out of the mods folder to World_of_Tanks/shellLogger_local, so reinstalling mods or a modpack no longer deletes them. Existing logs are moved there automatically on the first start.\n- Minor UI improvements and readability fixes. UI scale reset hotkey: R",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -140,6 +150,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "0.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.2.0.zip",
+          "updatedAt": "2026-09-24T14:01:34.996Z",
+          "sizeBytes": 455203,
+          "fileName": "unicum.gg_0.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "0.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.1.1.zip",
           "updatedAt": "2026-09-23T11:44:13.956Z",
@@ -150,7 +170,7 @@
         }
       ],
       "latest": {
-        "fileName": "unicum.gg_0.1.1.zip",
+        "fileName": "unicum.gg_0.2.0.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -350,8 +370,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 5,
       "descriptionHtml": "<p>With this modification you can manage all installed garages by selecting them directly in the main mod window.&nbsp;<br><br>Additionally, you can create your own garages while in battle by pressing a configurable key combination (see the settings window). Some garages created this way are included in the default configuration, which is downloaded on first run.&nbsp;<br><br>Several selection modes allow you to control how a garage is loaded when entering the lobby:&nbsp;<br>- normal: loads the selected garage&nbsp;<br>- random: displays a random garage each time&nbsp;<br>- nation: loads a garage depending on the vehicle’s nation (may change on vehicle switch; see HangMan.json in /mods/configs/HangMan for details)&nbsp;<br>- last-battle: loads the garage based on the latest known position and map from the previous battle&nbsp;<br><br>Originally this mod was created by goofy67, who later abandoned it and disappeared and did not leave any source code. Because of that, the mod had to be reconstructed for WoT 2.4 by Aslain.&nbsp;<br>&nbsp;</p>",
       "installationGuideHtml": "<p>1. Download the archive.<br>2. Open it and copy the <strong>mods</strong> folder into your World of Tanks game folder. The files go into mods\\[version]\\, where <strong>[version]</strong> is your current game client version (the folder name changes after each game update). The archive already contains the correct version folder, so a normal extract puts everything in place.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Obraz_Codex_20_wrz_2026_15_38_46_Ufl5SoX.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -362,6 +382,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.73",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.73_2.4.0.1.zip",
+          "updatedAt": "2026-09-24T14:47:57.403Z",
+          "sizeBytes": 1541512,
+          "fileName": "HangMan_2.73_2.4.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- fixed the camera circling the usual vehicle spot instead of the vehicle when the vehicle was moved on one of the game's garages, such as V4"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "2.72",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.72_2.4.0.1.zip",
           "updatedAt": "2026-09-24T10:09:36.511Z",
@@ -369,21 +399,11 @@
           "fileName": "HangMan_2.72_2.4.0.1.zip",
           "fileExt": ".zip",
           "changeLog": "- fixed the garage getting stuck on its loading screen when an Onslaught night map was set as the garage"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.71",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/HangMan_2.71_2.4.0.1_rKbLkrp.zip",
-          "updatedAt": "2026-09-22T21:04:15.276Z",
-          "sizeBytes": 1536548,
-          "fileName": "HangMan_2.71_2.4.0.1_rKbLkrp.zip",
-          "fileExt": ".zip",
-          "changeLog": "added a hotkey that hides and shows the garage interface at once, Left Alt and numpad 8 by default; ESC always brings the interface back"
         }
       ],
       "latest": {
-        "fileName": "HangMan_2.72_2.4.0.1.zip",
-        "changeLog": "- fixed the garage getting stuck on its loading screen when an Onslaught night map was set as the garage",
+        "fileName": "HangMan_2.73_2.4.0.1.zip",
+        "changeLog": "- fixed the camera circling the usual vehicle spot instead of the vehicle when the vehicle was moved on one of the game's garages, such as V4",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1041,6 +1061,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.0.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA_CN_Icons.2.4.0.1.1.zip",
+          "updatedAt": "2026-09-24T13:04:36.649Z",
+          "sizeBytes": 11000944,
+          "fileName": "ASMA_CN_Icons.2.4.0.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "1/配色微调\n2/字体微调"
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "2.4.0.1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA_CN_Icons.2.4.0.1.0.zip",
           "updatedAt": "2026-09-22T16:17:29.204Z",
@@ -1071,8 +1101,8 @@
         }
       ],
       "latest": {
-        "fileName": "ASMA_CN_Icons.2.4.0.1.0.zip",
-        "changeLog": "",
+        "fileName": "ASMA_CN_Icons.2.4.0.1.1.zip",
+        "changeLog": "1/配色微调\n2/字体微调",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -14455,6 +14485,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.3.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Commander-Selector-1.3.8-Installer.zip",
+          "updatedAt": "2026-09-24T14:48:41.051Z",
+          "sizeBytes": 583647,
+          "fileName": "Commander-Selector-1.3.8-Installer.zip",
+          "fileExt": ".zip",
+          "changeLog": "Efficiency tweaks."
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "1.3.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Commander-Selector-1.3.7-Installer_tie8WUg.zip",
           "updatedAt": "2026-09-22T13:13:48.134Z",
@@ -14502,21 +14542,11 @@
           "fileName": "commander_selector_1.3.4_tjHDuqN.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "1.3.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/commander_selector_1.3.4_d8JUnWv.wotmod",
-          "updatedAt": "2026-09-13T06:59:31.476Z",
-          "sizeBytes": 726869,
-          "fileName": "commander_selector_1.3.4_d8JUnWv.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Commander-Selector-1.3.7-Installer_tie8WUg.zip",
-        "changeLog": "Code tuning",
+        "fileName": "Commander-Selector-1.3.8-Installer.zip",
+        "changeLog": "Efficiency tweaks.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -14540,6 +14570,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Be-Quiet-Fool-1.0.5-Installer.zip",
+          "updatedAt": "2026-09-24T14:48:33.179Z",
+          "sizeBytes": 507397,
+          "fileName": "Be-Quiet-Fool-1.0.5-Installer.zip",
+          "fileExt": ".zip",
+          "changeLog": "Efficiency tweaks."
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0.4",
@@ -14589,21 +14629,11 @@
           "fileName": "be_quiet_fool_1.0.2_FONEjnk.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/be_quiet_fool_1.0.2.wotmod",
-          "updatedAt": "2026-09-12T18:14:44.012Z",
-          "sizeBytes": 98576,
-          "fileName": "be_quiet_fool_1.0.2.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Code fixes. Same functionality."
         }
       ],
       "latest": {
-        "fileName": "Be-Quiet-Fool-1.0.4-Installer_WMnzBg4.zip",
-        "changeLog": "",
+        "fileName": "Be-Quiet-Fool-1.0.5-Installer.zip",
+        "changeLog": "Efficiency tweaks.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -14826,7 +14856,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.5,
+      "mark": 3.6,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This displays the mastery requirements for the selected tank in the hangar.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "",
@@ -31383,7 +31413,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 4,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OitHDzsJdBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OitHDzsJdBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
