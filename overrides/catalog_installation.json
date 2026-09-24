@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.074",
+  "catalogVersion": "v2026.09.075",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7947",
+      "title": "nakom crew sound mod",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1.close game world of tank 2.open your world of tank directory in computer 3.extrack download file 4.open folder step to step same both directory windows 5.place all fie in world of tank directory 6.start game enjoy ปิดเกม แตกไฟล์ซิป วางไฟล์ทั้งหมดในโฟลเดอร์เกมในเครื่องคอมของคุณ ตามลำดับโฟลเดอร์ในซิปไฟล์"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract/place all files into the World of Tanks game directory following the archive folder structure.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7948",
+      "title": "fury crew sound mod",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1.close game world of tank 2.open your world of tank directory in computer 3.extrack download file 4.open folder step to step same both directory windows 5.place all fie in world of tank directory 6.start game enjoy ปิดเกม แตกไฟล์ซิป วางไฟล์ทั้งหมดในโฟลเดอร์เกมในเครื่องคอมของคุณ ตามลำดับโฟลเดอร์ในซิปไฟล์"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract/place all files into the World of Tanks game directory following the archive folder structure.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7932",
@@ -20,15 +50,15 @@
     {
       "source": "wgmods",
       "sourceId": "7928",
-      "title": "unicum.gg",
+      "title": "unicum.gg: In-Battle Stats, Ratings & Twitch for WoT",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unzip the archive into your World of Tanks folder. It puts the mod in mods/2.4.0.1/, openwg_gameface, which the garage features need, in mods/2.4.0.1/net.openwg/, and two empty image folders under res_mods/2.4.0.1/ that the ratings are drawn into. Start the game. The first start restarts it once, to register the garage button. Optional: modsSettingsApi for the settings window, modsListApi for the menu entry. Settings: in the modsSettingsApi window, or in mods/configs/unicum/settings.json."
+        "latestInstallGuide": "Unzip the archive into your World of Tanks folder. It puts two files in mods/2.4.0.1/. Start the game. The first start restarts it once, to register the garage button. Settings: the unicum.gg tab in the game's own settings window. Optional: modsListApi adds the mod to its menu."
       },
       "installationProcess": {
-        "installationTemplate": "MixedCustomPathButDeterministic",
-        "installableByApp": false,
-        "decisionReason": "Archive installs to multiple target paths including mods/<version>, mods/<version>/net.openwg, res_mods/<version>, and references mods/configs, so it is a multi-path deterministic install not covered by one supported template.",
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to unzip into the World of Tanks folder; mods/<version> placement is described as the result of root extraction.",
         "deleteDataWgpdc": false
       }
     },
@@ -350,15 +380,15 @@
     {
       "source": "wgmods",
       "sourceId": "7906",
-      "title": "ASMA简体中文图标（仿巨响）",
+      "title": "ASMA简体中文图标",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "参照巨响标准版的单独图标，但是无法单独使用。现在WG不允许直接使用单独插件，来镜像图标。 所以只能配合阿斯兰插件包使用，不然右侧敌人的图标是反的。 ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装使用方法： 先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。 用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。 或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。 ---------------------------------------------------------- 图标现在已经集成至阿斯兰插件包中，直接选择安装即可。 这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。 9.18 更新2.4.0.1版本，Simple：简单名字版本。Armor：含装甲值版本。"
+        "latestInstallGuide": "参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。 所以需要安装antimirror反镜像插件，或者配合阿斯兰使用。 Simple：标准版本，只有型号名称。Armor：含装甲值（车体）版本 ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装使用方法： 先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。 用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。 或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。 ---------------------------------------------------------- 图标现在已经集成至阿斯兰插件包中，直接选择安装即可。 这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。 9.18 更新2.4.0.1版本。"
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Guide targets a specific custom file path under res_mods/<version>/gui/flash/atlases or alternatively Aslain_custom_mods, not a single supported install template.",
+        "decisionReason": "Guide requires external dependency/manual replacement in a specific custom path under res_mods/<version>/gui/flash/atlases or use through Aslain custom mods, which is not a supported single template.",
         "deleteDataWgpdc": false
       }
     },
