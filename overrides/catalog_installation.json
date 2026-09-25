@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.076",
+  "catalogVersion": "v2026.09.077",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7950",
+      "title": "Old WoT In-Game HUD",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy \"littlefloof.old.wot_hud.wotmod\" to [ WoT Game Folder > mods > current_version ]"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7947",
@@ -1238,12 +1253,12 @@
       "title": "WOT Tactic Bridge",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.4.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle. Changing the room key does not require reinstalling the mod."
+        "latestInstallGuide": "Close World of Tanks. Copy WOT_Tactic_Bridge_0.2.5.wotmod to World_of_Tanks_EU/mods/<game version>/. In WOT Tactic, click Display drawings and copy the room key. Launch the game, paste the key into the mod settings and apply it before battle."
       },
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide points to copying the .wotmod into mods/<game version>.",
+        "decisionReason": "Archive package and guide points to copying the .wotmod into mods/<version>; remaining steps are post-install usage notes.",
         "deleteDataWgpdc": false
       }
     },
