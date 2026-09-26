@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.079",
+  "catalogVersion": "v2026.09.080",
   "mods": [
     {
       "source": "wgmods",
@@ -353,12 +353,12 @@
       "title": "Ammo Caliber Tooltip",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "1. Close World of Tanks. The running client keeps the mod files open and will not release them. 2. Copy schaerfl.ammo_caliber_tooltip_01.00.00.wotmod into: <World of Tanks>\\mods\\2.4.0.0\\ Create the folder if it is not there. The folder name must match your client version exactly, otherwise the game will not load the mod. 3. Start the game. To update: delete the older schaerfl.ammo_caliber_tooltip_*.wotmod first. Two versions of the same mod both load and both rewrite the tooltip. To uninstall: delete the .wotmod file. The settings folder at mods\\configs\\schaerfl.ammo_caliber_tooltip\\ can be removed too, or left in place if you plan to reinstall. If the tooltip still shows no caliber, check that Technical Information is enabled under Settings -> Game. That is the client's own switch for the shell details, and without it the tooltip shows the shell kind only."
+        "latestInstallGuide": "1. Close World of Tanks. The running client keeps the mod files open and will not release them. 2. Copy schaerfl.ammo_caliber_tooltip_01.00.00.wotmod into: <World of Tanks>\\mods\\version\\ Create the folder if it is not there. The folder name must match your client version exactly, otherwise the game will not load the mod. 3. Start the game. To update: delete the older schaerfl.ammo_caliber_tooltip_*.wotmod first. Two versions of the same mod both load and both rewrite the tooltip. To uninstall: delete the .wotmod file. The settings folder at mods\\configs\\schaerfl.ammo_caliber_tooltip\\ can be removed too, or left in place if you plan to reinstall. If the tooltip still shows no caliber, check that Technical Information is enabled under Settings -> Game. That is the client's own switch for the shell details, and without it the tooltip shows the shell kind only."
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Plain .wotmod file and guide clearly says to copy it into mods/<version>.",
+        "decisionReason": "Plain .wotmod package and guide clearly says to copy it into mods/<version>.",
         "deleteDataWgpdc": false
       }
     },
@@ -554,21 +554,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7888",
-      "title": "Japanese Gun Cooldown Aim Mechanic Timer",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "REQUIRES GUIFlash (gambiter.guiflash), included in Aslain's and most modpacks. The mod draws its icon through it and stays silent without it. Client 2.4.0.0. INSTALL 1. Drop the .wotmod into <World of Tanks>\\mods\\<client version>\\ Example: World_of_Tanks_EU\\mods\\2.4.0.0\\ 2. Take a any capable tank into a battle or training room. Nothing to unpack, no res_mods edits, and noates its own on first launch atmods\\configs\\jp_dual_aim_timer\\config.json. Edit it to move or resize the ring, change the blink, or show it during reload. Settings load once at startup, so a change needs a client restart. AFTER A CLIENT UPDATE unaffected, mods\\configs\\ is shared across versions. NOT WORKING? Check GUIFlash is installed, then search game.log for [JP_DUAL_AIM_TIMER]. No lines means the package was not loaded."
-      },
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": ".wotmod package and guide says to place it into mods/<version>; GUIFlash note and config generation are non-blocking.",
         "deleteDataWgpdc": false
       }
     },
