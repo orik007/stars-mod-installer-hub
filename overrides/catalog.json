@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.079",
-  "sourceHash": "64e8bce3ef659e611ef20bdd37b748e544688d559f89ea77eb69981bf7477224",
+  "catalogVersion": "v2026.09.080",
+  "sourceHash": "ff2001a82442fb5142cf2daf652df64163fb842245dbbc12c27e44538bc4751a",
   "sources": [
     "wgmods",
     "modhub"
@@ -953,8 +953,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Brings the gun caliber and the shell name back to the ammunition tooltips in battle.</p><p>Wargaming used to head that tooltip with the full shell name — \"128 mm Armor-Piercing Pzgr. 39 K (170)\" — and at some point cut it down to just the shell kind, \"Armor-Piercing\". The caliber went with it. This mod puts it back.</p><p>WHAT IT DOES</p><p>Hovering a shell on the ammo panel at the bottom of the battle screen now shows:</p><p>&nbsp; &nbsp;128 mm Armor-Piercing Pzgr. 39 K (170)<br>&nbsp; &nbsp;Average damage: 440 HP<br>&nbsp; &nbsp;Average penetration: 238-226 mm*<br>&nbsp; &nbsp;Shell velocity: 810 m/s</p><p>instead of:</p><p>&nbsp; &nbsp;Armor-Piercing<br>&nbsp; &nbsp;Average damage: 440 HP<br>&nbsp; &nbsp;...</p><p>The body of the tooltip — damage, penetration, velocity, damage radius, stun duration — is left exactly as the client produced it. Only the header line changes.</p><p>HOW IT WORKS</p><p>The localised text that produced the old header is still shipped with the game; it simply has no caller left in the client. The mod restores that call rather than inventing a new format, so the wording and the word order stay correct in every language the client ships. No text is hardcoded and no client file is replaced.</p><p>Shell types that were added after that text was written (smoke, and the reworked HE variants) have no entry in it. For those the mod falls back to putting the caliber in front of the kind name the client itself produced, so nothing is ever left blank.</p><p>WHERE IT APPLIES</p><p>- The ammo panel at the bottom of the battle screen.<br>- The loadout panel shown during the pre-battle countdown, which lost the same header. This can be switched off in the config.</p><p>REQUIREMENTS</p><p>- World of Tanks 2.4.0.0.<br>- No library mods needed.<br>- \"Technical Information\" must be enabled in Game settings. That is the client's own switch for the tooltip body, and the mod does not change it.</p><p>CONFIGURATION</p><p>Optional. On first launch the mod writes its defaults to:</p><p>&nbsp; &nbsp;mods\\configs\\schaerfl.ammo_caliber_tooltip\\config.json</p><p>&nbsp; &nbsp;enabled &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;turn the mod off without uninstalling it<br>&nbsp; &nbsp;debug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;log every header it rewrites, for troubleshooting<br>&nbsp; &nbsp;patchPrebattlePanel &nbsp;set to false to leave the pre-battle loadout panel alone</p><p>The folder sits outside the versioned mods folder, so your settings survive client updates.</p><p>NOTES</p><p>The text in parentheses after the shell name — \"(170)\", \"(Maus)\", \"(JT)\" — is Wargaming's own. World of Tanks gives the same historical shell different stats on different vehicles, so each variant is a separate item tagged with the vehicle it belongs to. Your gun's name in the vehicle stats panel carries the same tag.</p><p>The full Python source is included in the package next to the compiled file, so anyone can read exactly what it does before installing it.<br>&nbsp;</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks. The running client keeps the mod files open and will not release them.<br>2. Copy schaerfl.ammo_caliber_tooltip_01.00.00.wotmod into:</p><p>&nbsp; &nbsp; &nbsp; &lt;World of Tanks&gt;\\mods\\2.4.0.0\\</p><p>Create the folder if it is not there. The folder name must match your client version exactly, otherwise the game will not load the mod.<br>3. Start the game.</p><p>To update: delete the older schaerfl.ammo_caliber_tooltip_*.wotmod first. Two versions of the same mod both load and both rewrite the tooltip.</p><p>To uninstall: delete the .wotmod file. The settings folder at mods\\configs\\schaerfl.ammo_caliber_tooltip\\ can be removed too, or left in place if you plan to reinstall.</p><p>If the tooltip still shows no caliber, check that Technical Information is enabled under Settings -&gt; Game. That is the client's own switch for the shell details, and without it the tooltip shows the shell kind only.<br>&nbsp;</p>",
+      "descriptionHtml": "<p>Brings the gun caliber and the shell name back to the ammunition tooltips in battle.</p><p>Wargaming used to head that tooltip with the full shell name — \"128 mm Armor-Piercing Pzgr. 39 K (170)\" — and at some point cut it down to just the shell kind, \"Armor-Piercing\". The caliber went with it. This mod puts it back.</p><p>WHAT IT DOES</p><p>Hovering a shell on the ammo panel at the bottom of the battle screen now shows:</p><p>&nbsp; &nbsp;128 mm Armor-Piercing Pzgr. 39 K (170)<br>&nbsp; &nbsp;Average damage: 440 HP<br>&nbsp; &nbsp;Average penetration: 238-226 mm*<br>&nbsp; &nbsp;Shell velocity: 810 m/s</p><p>instead of:</p><p>&nbsp; &nbsp;Armor-Piercing<br>&nbsp; &nbsp;Average damage: 440 HP<br>&nbsp; &nbsp;...</p><p>The body of the tooltip — damage, penetration, velocity, damage radius, stun duration — is left exactly as the client produced it. Only the header line changes.</p><p>HOW IT WORKS</p><p>The localised text that produced the old header is still shipped with the game; it simply has no caller left in the client. The mod restores that call rather than inventing a new format, so the wording and the word order stay correct in every language the client ships. No text is hardcoded and no client file is replaced.</p><p>Shell types that were added after that text was written (smoke, and the reworked HE variants) have no entry in it. For those the mod falls back to putting the caliber in front of the kind name the client itself produced, so nothing is ever left blank.</p><p>WHERE IT APPLIES</p><p>- The ammo panel at the bottom of the battle screen.<br>- The loadout panel shown during the pre-battle countdown, which lost the same header. This can be switched off in the config.</p><p>REQUIREMENTS<br>- No library mods needed.<br>- \"Technical Information\" must be enabled in Game settings. That is the client's own switch for the tooltip body, and the mod does not change it.</p><p>CONFIGURATION</p><p>Optional. On first launch the mod writes its defaults to:</p><p>&nbsp; &nbsp;mods\\configs\\schaerfl.ammo_caliber_tooltip\\config.json</p><p>&nbsp; &nbsp;enabled &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;turn the mod off without uninstalling it<br>&nbsp; &nbsp;debug &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;log every header it rewrites, for troubleshooting<br>&nbsp; &nbsp;patchPrebattlePanel &nbsp;set to false to leave the pre-battle loadout panel alone</p><p>The folder sits outside the versioned mods folder, so your settings survive client updates.</p><p>NOTES</p><p>The text in parentheses after the shell name — \"(170)\", \"(Maus)\", \"(JT)\" — is Wargaming's own. World of Tanks gives the same historical shell different stats on different vehicles, so each variant is a separate item tagged with the vehicle it belongs to. Your gun's name in the vehicle stats panel carries the same tag.</p><p>The full Python source is included in the package next to the compiled file, so anyone can read exactly what it does before installing it.<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks. The running client keeps the mod files open and will not release them.<br>2. Copy schaerfl.ammo_caliber_tooltip_01.00.00.wotmod into:</p><p>&nbsp; &nbsp; &nbsp; &lt;World of Tanks&gt;\\mods\\version\\</p><p>Create the folder if it is not there. The folder name must match your client version exactly, otherwise the game will not load the mod.<br>3. Start the game.</p><p>To update: delete the older schaerfl.ammo_caliber_tooltip_*.wotmod first. Two versions of the same mod both load and both rewrite the tooltip.</p><p>To uninstall: delete the .wotmod file. The settings folder at mods\\configs\\schaerfl.ammo_caliber_tooltip\\ can be removed too, or left in place if you plan to reinstall.</p><p>If the tooltip still shows no caliber, check that Technical Information is enabled under Settings -&gt; Game. That is the client's own switch for the shell details, and without it the tooltip shows the shell kind only.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_060_LulVYie.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7910/",
       "tagIds": [
@@ -963,6 +963,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/schaerfl.ammo_caliber_tooltip_01.00.00_jpots2u.wotmod",
+          "updatedAt": "2026-09-26T16:33:15.251Z",
+          "sizeBytes": 18967,
+          "fileName": "schaerfl.ammo_caliber_tooltip_01.00.00_jpots2u.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "No changes, tested with new game version"
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.0.0",
@@ -975,9 +985,9 @@
         }
       ],
       "latest": {
-        "fileName": "schaerfl.ammo_caliber_tooltip_01.00.00.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "schaerfl.ammo_caliber_tooltip_01.00.00_jpots2u.wotmod",
+        "changeLog": "No changes, tested with new game version",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1556,44 +1566,6 @@
         "fileName": "negev_voice_1.0.0_USDrKlI.wotmod",
         "changeLog": "Update for 2.4.0.1",
         "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7888",
-      "title": "Japanese Gun Cooldown Aim Mechanic Timer",
-      "ownerUsername": "XXHunterXX_destroyer",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>The Tier VIII-XI Japanese heavies and the Type 63 have a second, tighter aiming circle that switches on a few seconds after the gun stops cooling. The client shows you the circle, but nothing tells you when it is about to appear, so you either count in your head or you fire early and eat the wider dispersion.</p><p>This mod puts a small ring next to your reticle that answers that at a glance. No digits: the native reload timer already sits in that column.</p><p>HOW IT READS</p><p>1. The ring fills clockwise as the gun cools, running red to orange to yellow to green, like a loading circle.<br>2. Two seconds out, the ring is complete and blinks green twice.<br>3. Double aiming is live: solid green.</p><p>The ring sits where the client draws its own siege indicator on vehicles that have one, so the two mechanics read the same way in the same place. It follows the reticle in arcade and third person, and pins to the screen centre in sniper view, where the reticle itself is fixed.</p><p>By default it stays hidden while you reload, since there is nothing to time yet, and appears the moment the gun is loaded, filling across the part of the cooling window you can actually act on.</p><p>SUPPORTED VEHICLES</p><p>Anything whose gun has a dual-accuracy config: the Tier VIII-XI Japanese heavies and the Type 63. On every other tank it renders nothing at all, including siege-mode vehicles like the Strv S1, which use a different mechanic.</p><p>ACCURACY</p><p>The countdown starts from the crew-modified cooling delay, and the mod also listens to the vehicle's dual-accuracy state from the server. When the server flips the mechanic on, the ring snaps to ready and the measured interval replaces the estimate for the next cycle, so it corrects itself rather than drifting.</p><p>CONFIGURATION</p><p>The mod writes its own config the first time it loads, at mods\\configs\\jp_dual_aim_timer\\config.json. You never have to create it: it arrives with every setting at its default, so the file doubles as the documentation. Your edits survive updating the mod, and any key you remove falls back to its default. Settings are read once at startup, so a change needs a client restart.</p><p>The ones worth knowing:</p><p>offset_px - where the ring sits relative to the reticle, in pixels at 2560x1440, scaled to your resolution. Negative x mirrors it to the left.<br>icon_size_px - drawn size. 24 matches the vehicle-state indicator next to it.<br>hide_while_reloading - set false to show the ring from the shot onward, filling slowly across the whole cooling window instead.<br>flash_count - how many times the full ring blinks. 0 fills straight into the solid hold.<br>flash_lead_time - seconds before activation that the blink starts.<br>debug - writes a [JP_DUAL_AIM_TIMER] trace to game.log.</p><p>FAIR PLAY</p><p>This shows your own vehicle's state, the same state the client already draws for you as the second aiming circle. Same category as a reload timer. It reads client-side data only, touches nothing on the server, and reveals nothing about other players.</p>",
-      "installationGuideHtml": "<p>REQUIRES</p><p>GUIFlash (gambiter.guiflash), included in Aslain's and most modpacks. The mod draws its icon through it and stays silent without it. Client 2.4.0.0.</p><p>INSTALL</p><p>1. Drop the .wotmod into &lt;World of Tanks&gt;\\mods\\&lt;client version&gt;\\<br>&nbsp; Example: World_of_Tanks_EU\\mods\\2.4.0.0\\<br>2. Take a any capable tank into a battle or training room.</p><p>Nothing to unpack, no res_mods edits, and noates its own on first launch atmods\\configs\\jp_dual_aim_timer\\config.json. Edit it to move or resize the ring, change the blink, or show it during reload. Settings load once at startup, so a change needs a client restart.</p><p><br>AFTER A CLIENT UPDATE&nbsp;<br><br>unaffected, mods\\configs\\ is shared across versions.</p><p>NOT WORKING?</p><p>Check GUIFlash is installed, then search game.log for [JP_DUAL_AIM_TIMER]. No lines means the package was not loaded.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/qslv4jjlzu7g1.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7888/",
-      "tagIds": [
-        "15",
-        "18",
-        "23"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/schaerfl.jp_dual_aim_timer_01.00.00.wotmod",
-          "updatedAt": "2026-09-11T12:21:30.403Z",
-          "sizeBytes": 735051,
-          "fileName": "schaerfl.jp_dual_aim_timer_01.00.00.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "schaerfl.jp_dual_aim_timer_01.00.00.wotmod",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
       }
     },
     {
@@ -2881,7 +2853,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.6,
+      "mark": 3.3,
       "descriptionHtml": "<p>A classic forest hangar from World of Tanks 1.0 — a calm and atmospheric location surrounded by nature, familiar to many longtime players.</p><p>This mod brings back the original hangar_v3 with its recognizable look and nostalgic feeling. A great choice for players who want to add a touch of the old game atmosphere to their client.</p>",
       "installationGuideHtml": "<h2>1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right:</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/70deba57-d855-49d5-b937-72e001fd36a1.png\"></figure><h2><br><br><br><br>2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG):</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/9c03e72b-11f4-494b-80aa-3768dca7a7ad.png\"></figure><p>&nbsp;</p><p>&nbsp;</p><h2>3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation:</h2><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/8de24886-5eb1-4bbf-a1c1-6fba08f67952.png\"></figure><p>&nbsp;</p><blockquote><p>*the Hangar Switcher must be downloaded to activate the hangar in the game</p></blockquote>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-08-14_232355.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
