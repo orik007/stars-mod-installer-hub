@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.078",
+  "catalogVersion": "v2026.09.079",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7954",
+      "title": "NightBattles",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package with empty guide defaults to installation into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7950",

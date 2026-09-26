@@ -1,11 +1,48 @@
 {
-  "catalogVersion": "v2026.09.078",
-  "sourceHash": "049362c70fc09539a46152d26a0efe139c2f6efbd05885c2979486d1803ddc29",
+  "catalogVersion": "v2026.09.079",
+  "sourceHash": "64e8bce3ef659e611ef20bdd37b748e544688d559f89ea77eb69981bf7477224",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7954",
+      "title": "NightBattles",
+      "ownerUsername": "ju1ion",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Nightly Battles turns some of your battles into night battles, 20% of them by default. When a battle loads, the mod rolls the dice. On a hit, the map gets a moonlit sky, night fog and darker ambient light. Otherwise you play the normal daytime map.</p><ul><li><strong>Wargaming's own night maps.</strong> Steppes and Sweden use the night presets WG made for Onslaught, unchanged.</li><li><strong>Every other map at night too.</strong> The other 62 battle maps get a night preset built from WG's night sky and moon. Each map keeps its own fog and shadows, and its own light, converted to night: streets and the space under bridges stay darker than open ground.</li><li><strong>Adjustable.</strong> Pick how often a battle takes place at night (0-100%), and choose whether night battles use night fog or the map's normal daytime fog.</li><li><strong>Only you see it.</strong> Night is chosen per battle, on your client. Your teammates and enemies play their normal map.</li></ul><p><strong>Settings</strong></p><p>With ModsSettingsAPI (by izeberg) installed, the settings are in the game's mod settings:</p><ul><li><strong>Night battle chance</strong>: how often a battle takes place at night (default 20%).</li><li><strong>Night fog</strong>: on uses the night fog; off uses the map's normal daytime fog at night.</li></ul><p>Changes apply from the next battle. Without ModsSettingsAPI, edit mods/configs/nightly_battles/config.json, which the mod creates on first start.</p><p><strong>Fair play</strong></p><p>Night battles are purely cosmetic and never give you an advantage:</p><ul><li>The mod only changes sky, moon, fog, color grading and ambient light. It doesn't touch spotting, transparency, vehicle stats, aiming or anything else that affects gameplay.</li><li>Night is never clearer than day. Fog is never thinner and never starts further away than on the day map, and muzzle flashes and other effects are never brighter.</li></ul><p><strong>Installation</strong></p><ol><li>Copy nightly_battles_&lt;version&gt;.wotmod into World_of_Tanks/mods/&lt;game version&gt;/.</li><li>Remove older versions of the mod from that folder.</li></ol><p>The mod is built for one game version. After a game update, use the matching new version of the mod.</p><p><strong>Known limitations</strong></p><ul><li>On maps without a WG night version, the night is an approximation: the moon shines from WG's night angle, while the map's baked shadows were made for its daytime sun.</li><li>Water on those maps looks dark instead of reflecting the night sky.</li><li>Lights that are part of WG's night maps (e.g. lamps) are not added.</li></ul><p><strong>Compatibility</strong></p><ul><li>ModsSettingsAPI is optional and only needed for the in-game settings.</li></ul>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/e355420f-9052-478b-86c9-0994acb4e1d2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7954/",
+      "tagIds": [
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.4.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/nightly_battles_2.4.0.1_TNjFZRD.wotmod",
+          "updatedAt": "2026-09-26T08:12:20.408Z",
+          "sizeBytes": 1198838577,
+          "fileName": "nightly_battles_2.4.0.1_TNjFZRD.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "nightly_battles_2.4.0.1_TNjFZRD.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7950",
@@ -188,6 +225,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "0.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.3.0.zip",
+          "updatedAt": "2026-09-26T08:08:36.595Z",
+          "sizeBytes": 461034,
+          "fileName": "unicum.gg_0.3.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "0.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.2.0.zip",
           "updatedAt": "2026-09-24T14:01:34.996Z",
@@ -208,7 +255,7 @@
         }
       ],
       "latest": {
-        "fileName": "unicum.gg_0.2.0.zip",
+        "fileName": "unicum.gg_0.3.0.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -956,18 +1003,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.effect_control.2.4.0.1.1.0.3.zip",
-          "updatedAt": "2026-09-25T16:00:57.080Z",
-          "sizeBytes": 1067660,
-          "fileName": "gravity.effect_control.2.4.0.1.1.0.3.zip",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.effect_control.2.4.0.1.1.0.4.zip",
+          "updatedAt": "2026-09-26T07:37:13.752Z",
+          "sizeBytes": 1177551,
+          "fileName": "gravity.effect_control.2.4.0.1.1.0.4.zip",
           "fileExt": ".zip",
-          "changeLog": "Improvements to translation and bug fixes."
+          "changeLog": "Fixed a bug with Decals"
         }
       ],
       "latest": {
-        "fileName": "gravity.effect_control.2.4.0.1.1.0.3.zip",
-        "changeLog": "Improvements to translation and bug fixes.",
+        "fileName": "gravity.effect_control.2.4.0.1.1.0.4.zip",
+        "changeLog": "Fixed a bug with Decals",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1068,7 +1115,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.5,
       "descriptionHtml": "<p>参照巨响图标，自制的坦克战斗图标。</p>",
       "installationGuideHtml": "<p>参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。</p><p>所以需要安装antimirror反镜像插件，或者配合阿斯兰使用。</p><p>Simple：标准版本，只有型号名称。Armor：含装甲值（车体）版本</p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装使用方法：</p><p>先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。</p><p>用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。</p><p>或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。</p><p>----------------------------------------------------------</p><p>图标现在已经集成至阿斯兰插件包中，直接选择安装即可。</p><p>这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。</p><p>&nbsp;</p><p>9.18 &nbsp;更新2.4.0.1版本。</p><p>&nbsp;</p><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/asma_aiICaMN.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3564,7 +3611,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 5,
+      "mark": 4.7,
       "descriptionHtml": "<p><strong>A feedback form is now available if you would like to provide feedback on the mod: </strong><a href=\"https://forms.gle/gNq9x4BvmZMzsfmA7\"><strong>https://forms.gle/gNq9x4BvmZMzsfmA7</strong></a><br><br><strong>This mod does not need updating for new patches (outside of when new maps are added or actual updates to the mod itself) and can simply be moved to the newest patch folder whenever WG Updates the game.</strong><br><strong>The mod also only fully works Improved Graphics (HD). While Standard Graphics will work, it will be missing the full features of the mod (namely the modified skyboxes) due to limitations.</strong><br><br><br>Like previous Revamped Skies mods, this mod includes changes to almost all available maps in the game, reworking map ambience and altering the skyboxes to give each map a new feel to it: this does <strong>NOT</strong> include event maps/hangars and will not. This includes:<br>- the default Hangar<br>- all 44 Random Battle maps<br>- all 3 Frontline maps</p><p>Here is an Imgur album showing a preview for every map:&nbsp;<br><a href=\"https://imgur.com/a/wot-revamped-skies-volume-4-mod-preview-EYl3r2c\">https://imgur.com/a/wot-revamped-skies-volume-4-mod-preview-EYl3r2c</a></p><p>If you like the mod, try checking out my other skybox mods:<br>- Revamped Skies&nbsp;Volume 1: <a href=\"https://wgmods.net/6868/\">https://wgmods.net/6868/</a><br>- Revamped Skies&nbsp;Volume 2: <a href=\"https://wgmods.net/7262/\">https://wgmods.net/7262/</a><br>- Revamped Skies&nbsp;Volume 3: <a href=\"https://wgmods.net/7490/\">https://wgmods.net/7490/</a><br>- Aslain's Night Sky Edit: <a href=\"https://wgmods.net/7338/\">https://wgmods.net/7338/</a><br><br>If you are unsure which mod to use, or just like variety, I recommend trying out this mod: Skybox Randomizer <a href=\"https://wgmods.net/7494/\">https://wgmods.net/7494/</a></p><p>I must include some \"issues\" for transparency:<br>- Reflective surfaces (notably water) still mostly reflect the ORIGINAL map appearance on most maps. This can look off, but various maps includes probes edits that should cause it to reflect the altered skyboxes (at the expense of making water look darker when viewed from higher angles)<br>- Ambient map effects such as Airfield's offshore lightning still happen despite the different settings and might look silly, but not something I could fix so you'll have to ignore it<br>- Various maps feature rain. This reuses assets from the WT Game mode, as well as the probes folders taken from the Rainy Weather mod in Aslain's, credit to Aslain/Pharaon for that. I have also reused some assets from my Aslain's Night Sky Edit, so credit again to Aslain/Pharaon for those.<br>- While not necessarily an issue I want to make sure you're aware that altering the feel of the map can <i>potentially</i> lead to some disorientation. Again I apologise for this in advance<br><strong>- Since this has been a constant issue: if you're running this with any other skybox mod (namely No Fog/Sun Glare in Aslain's), it WILL cause issues with the skybox. Do not try to run this alongside any other sky-related mod, or try to run both versions included at the same time</strong></p><p>&nbsp;</p><p>Again this mod is <strong>NOT </strong>intended as a replacement for previous Revamped Skies mods, but simply an additional rework of every map. You can comfortably swap between any of my Revamped Skies mod from time to time to change up the feel of the game.</p>",
       "installationGuideHtml": "<p>To install drag or extract either of the included .wotmod file into your WoT Game files and place it in the [PATCH FOLDER] in \"mods\". For example: C:\\Games\\World_of_Tanks\\mods\\2.3.1.1\\[WOTMOD GOES HERE]</p><p>This mod should work fine even with new updates outside of new maps being added. Even with serious map redesigns it shouldn't run into any problems. If you want to preview it without launching into an actual battle you can always use the Topography Mode to preview a number of maps.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ModPreviewSmall_dk9AUSm.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -6981,6 +7028,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.9.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
+          "updatedAt": "2026-09-26T10:02:32.266Z",
+          "sizeBytes": 47045,
+          "fileName": "mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "1.9.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd.dynpl.v1.9.2.wotmod",
@@ -7029,22 +7086,12 @@
           "fileName": "the_dynamic_playlist_mod_1.4.4_1Vnuqnk.zip",
           "fileExt": ".zip",
           "changeLog": "no changes needed to run with the new patch."
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.4.4.",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/the_dynamic_playlist_mod_1.4.4.zip",
-          "updatedAt": "2026-07-05T09:49:39.215Z",
-          "sizeBytes": 58207,
-          "fileName": "the_dynamic_playlist_mod_1.4.4.zip",
-          "fileExt": ".zip",
-          "changeLog": "1.4.4 - Split into four separate .wotmod files (marks, upgrades, weekly,\n        t11grind). Users can now install only the lists they want.\n        Added \"# XP grind for TXI\" list tracking T10 vehicles that still\n        need XP before their T11 successor can be purchased.\n\t- Switched mod_dynpl_t11grind to language-independent internal\n        vehicle name matching - works correctly on all client locales.\n        Fixed T11 predecessor detection for Objekt 430U, Concept No. 5,\n        Leopard 1 and Bat.-Chatillon 25 t."
         }
       ],
       "latest": {
-        "fileName": "mjrd.dynpl.v1.9.2.wotmod",
-        "changeLog": "— Fixed a bug where disabling one of the Mark of Excellence lists and then re-enabling it could leave a duplicate copy behind in the garage filter dropdown instead of replacing the old one.\n— Fixed the garage filter jumping back to one of the dynamic lists right after a battle, even while \"My Vehicles\" or another list was selected. \n- Fixed a Mod Settings+ button-click bug that could crash other mods' settings tabs too. Assorted log-noise cleanup.\n— \"XP grind for TXI\" is now its own Weekly priority tier — Weekly is four independently toggleable groups instead of three.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -7229,6 +7276,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "2.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.4.0.1.2.1.0.zip",
+          "updatedAt": "2026-09-26T08:40:21.585Z",
+          "sizeBytes": 1033347,
+          "fileName": "gravity.scheduled_personal_reserves.2.4.0.1.2.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added a way to keep schedulings active through multiple sessions and different accounts."
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "2.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.4.0.1.2.0.6.zip",
           "updatedAt": "2026-09-17T17:41:23.934Z",
@@ -7239,8 +7296,8 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.scheduled_personal_reserves.2.4.0.1.2.0.6.zip",
-        "changeLog": "",
+        "fileName": "gravity.scheduled_personal_reserves.2.4.0.1.2.1.0.zip",
+        "changeLog": "Added a way to keep schedulings active through multiple sessions and different accounts.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7562,7 +7619,7 @@
       ],
       "recommended": true,
       "mark": 4.1,
-      "descriptionHtml": "<p><strong>Custix ModPack</strong> is a compact collection of statistics and useful improvements for the standard World of Tanks interface. Nothing unnecessary: every optional mod can be selected separately. Compatible with <strong>World of Tanks EU</strong>.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>🌐 </strong><a href=\"https://modpack.custix.pp.ua/\"><strong>Official website</strong></a> — current modpack releases are available here, and updates are usually published sooner than on <a href=\"http://wgmods.net/\">wgmods.net</a>. <strong>(A version of the modpack is available for WoT 2.4.0.1)</strong></p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 BattleStats</strong> shows average vehicle tier, battle count, win rate, and <strong>WN8 or WNX</strong> on the Tab screen and team panels.<br>Three modes are available:&nbsp;</p><ul><li>Last 1000 battles</li><li>Overall account statistics</li><li>Current-vehicle statistics</li></ul><p>Panel layout, fonts, colors, badges, and elite levels are configurable. If your anonymizer is enabled, statistics for other players are still displayed.</p><p><strong>📈 SessionStats</strong> adds WN8, WNX, and their change to the native Session Statistics window next to WTR.</p><p><strong>🗂️ BattleHistory</strong> adds a movable battle-history window with map, vehicle, outcome, damage, kills, experience, survival, and WN8/WNX. It supports vehicle filtering, reopening detailed reports, and history limits by battle count or days.</p><p><strong>🪟 UpdatedWindows</strong> modernizes platoon windows, private and group chats, Contacts, Message Center, and Session Statistics. It adds color, opacity, and font settings, contact notes, context menus, emojis, links, message templates, and an integrated filter.</p><p><strong>✉️ MessageCenterFilter</strong> is a standalone filter for users without UpdatedWindows. It independently filters Message Center entries and hangar pop-ups by category. UpdatedWindows and MessageCenterFilter cannot be installed together: selecting either one automatically clears the other.</p><p><strong>🌐 LastServerLogin</strong> remembers the last successful server without storing passwords or tokens.</p><p><strong>✅ PlatoonReady</strong> adds a platoon-commander <strong>READY</strong> button, an indicator for other members, and the Alt+R shortcut.</p><p><strong>🔔 ModpackNotifier</strong> reports new modpack versions. Network failures do not prevent the game from starting.</p><p>The installer adds only libraries required by selected components: <strong>ModsSettingsAPI</strong>, <strong>ModsListAPI</strong>, and <strong>OpenWG Gameface</strong>.</p>",
+      "descriptionHtml": "<p><strong>Custix ModPack</strong> is a compact collection of statistics and useful improvements for the standard World of Tanks interface. Nothing unnecessary: every optional mod can be selected separately. Compatible with <strong>World of Tanks EU</strong>.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>🌐 </strong><a href=\"https://modpack.custix.pp.ua/\"><strong>Official website</strong></a> — current modpack releases are available here, and updates are usually published sooner than on <a href=\"http://wgmods.net/\">wgmods.net</a>. <strong>(A version of the modpack is available for WoT 2.4.0.1)</strong></p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 BattleStats</strong> —&nbsp;shows average vehicle tier, battle count, win rate, and <strong>WN8 or WNX</strong> on the Tab screen and team panels.<br>Three modes are available:&nbsp;</p><ul><li>Last 1000 battles</li><li>Overall account statistics</li><li>Current-vehicle statistics</li></ul><p>If your <strong>anonymizer is enabled</strong>, statistics for other players are still displayed.</p><p>❤️ <strong>BattleHP </strong>— (v4.2+) vehicle health on team panels, always or while holding Alt. Formats: current HP, current/maximum HP, or HP with estimated shots to destroy a vehicle. Includes gradient bars and adjustable size, font, and opacity. The key for pinning target HP is configurable; the default is E.</p><p>🎯 <strong>MoE </strong>— (v4.2+) Marks of Excellence: percentages, estimated thresholds, and a garage vehicle filter. In battle, see predicted percentage, its change, and damage. Five display modes, a mode button accessed with Ctrl, and an expanded universal view while holding Alt.</p><p><strong>📈 SessionStats</strong> —&nbsp;adds WN8, WNX, and their change to the native Session Statistics window next to WTR.</p><p><strong>🗂️ BattleHistory</strong> —&nbsp;adds a movable battle-history window with map, vehicle, outcome, damage, kills, experience, survival, and WN8/WNX. It supports vehicle filtering, reopening detailed reports, and history limits by battle count or days.</p><p><strong>🪟 UpdatedWindows</strong> —&nbsp;modernizes platoon windows, private and group chats, Contacts, Message Center, and Session Statistics. It adds color, opacity, and font settings, contact notes, context menus, emojis, links, message templates, and an integrated filter.</p><p><strong>✉️ MessageCenterFilter</strong> —&nbsp;is a standalone filter for users without UpdatedWindows. It independently filters Message Center entries and hangar pop-ups by category. UpdatedWindows and MessageCenterFilter cannot be installed together: selecting either one automatically clears the other.</p><p><strong>🌐 LastServerLogin</strong> —&nbsp;remembers the last successful server without storing passwords or tokens.</p><p><strong>✅ PlatoonReady</strong> —&nbsp;adds a platoon-commander <strong>READY</strong> button, an indicator for other members, and the Alt+R shortcut.</p><p><strong>🔔 ModpackNotifier</strong> —&nbsp;reports new modpack versions. Network failures do not prevent the game from starting.</p><p>The installer adds only libraries required by selected components: <strong>ModsSettingsAPI</strong>, <strong>ModsListAPI</strong>, and <strong>OpenWG Gameface</strong>.</p>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/custix_modpack_saA4svb.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7702/",
@@ -7581,16 +7638,6 @@
           "fileName": "Custix_ModPack_for_2.4.0.1_v4.1.exe",
           "fileExt": ".exe",
           "changeLog": "[UA]: Оновлено Custix ModPack з 3.6 до 4.1 для WoT 2.4.0.1 (BattleStats 1.4.4, UpdatedWindows 1.10.0, PlatoonReady 0.5.3, MessageCenterFilter 0.5.2; додано BattleHP 1.3.4 із закріпленням HP клавішею E, MoE 1.0.1, перегляд влучань, автозбір кланових нагород і подарунків улюбленця, Quick Demount та старі звуки; додано категорії, прокручування й переклади; BattleHits і звуки завантажуються при виборі; збереження налаштувань вмикається вручну).----[EN]: Updated Custix ModPack from 3.6 to 4.1 for WoT 2.4.0.1 (BattleStats 1.4.4, UpdatedWindows 1.10.0, PlatoonReady 0.5.3, MessageCenterFilter 0.5.2; added BattleHP 1.3.4 with E-key HP pinning, MoE 1.0.1, garage hit viewer, automatic clan reward and pet gift collection, Quick Demount, and classic sounds; added categories, scrolling, and translations; BattleHits and sounds download when selected; settings preservation is enabled manually)."
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "3.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Custix_ModPack_for_2.4.0.0_v3.6.exe",
-          "updatedAt": "2026-09-11T12:19:33.853Z",
-          "sizeBytes": 10342891,
-          "fileName": "Custix_ModPack_for_2.4.0.0_v3.6.exe",
-          "fileExt": ".exe",
-          "changeLog": "[UA]: Оновлено Custix ModPack з версії 3.5 до 3.6 (BattleStats оновлено до 1.2.1 — додано статистику в Onslaught; BattleHistory до 1.0.3 — виправлено назви режимів бою без очищення історії; SessionStats до 0.1.7 — покращено обробку помилок джерел WN8/WNX; UpdatedWindows до 1.9.37 — оновлено профілі, чати, меню ПКМ, список контактів, підказки та стартове меню взводу, використано штатні шрифти гри; збережено сумісність із World of Tanks 2.4.0.0). ---- [EN]: Updated Custix ModPack from version 3.5 to 3.6 (updated BattleStats to 1.2.1 with Onslaught statistics; BattleHistory to 1.0.3 with corrected battle-mode names without clearing history; SessionStats to 0.1.7 with better WN8/WNX provider error handling; UpdatedWindows to 1.9.37 with updated profiles, chats, right-click menus, Contacts, tooltips, platoon start menu, and native game fonts; retained World of Tanks 2.4.0.0 compatibility)."
         }
       ],
       "latest": {
@@ -40186,7 +40233,7 @@
       ],
       "recommended": false,
       "mark": 2.9,
-      "descriptionHtml": "<p>I've successfully updated this package since wot 7.2, the goal was to create an uncomplicated, streamlined and, most importantly, functional package of mods.</p><p>list of mods:</p><ul><li>Jimbo crosshair</li><li>Frost icons v1</li><li>Frost consumables/ammo icons</li><li>Fast reconnect - ctrl+K</li><li>Design chat / minimap commands</li><li>Yasen_krasen daily statistics *now not work :/</li><li>Crosshair angles</li><li>UT sounds</li><li>Reload command \"key C\"</li><li>Extended blacklist</li><li>Custom sounds (6sense , can setup ingame in MOD setup window)</li><li>Battle Hits viewer in garage</li><li>XVM mod (with fdmod config:)<br>* team hp bar, + next small tweaks</li><li>Replay manager</li><li>lebwa gunmarks</li><li>remove fog</li><li>autoclaim clan rewards</li><li>friends marker ingame</li></ul><p><a href=\"https://bit.ly/2O1b92k\">Czech version find here + fast updates here.</a></p><p><a href=\"http://bit.ly/changelog_FDMOD_EN\">Full changelog history &gt;&gt;</a></p>",
+      "descriptionHtml": "<p>I've successfully updated this package since wot 7.2, the goal was to create an uncomplicated, streamlined and, most importantly, functional package of mods.</p><p>list of mods:</p><ul><li>Jimbo crosshair</li><li>Frost icons v1</li><li>Frost consumables/ammo icons</li><li>Fast reconnect - ctrl+K</li><li>Design chat / minimap commands</li><li>Yasen_krasen daily statistics&nbsp;</li><li>Crosshair angles</li><li>UT sounds</li><li>Reload command \"key C\"</li><li>Extended blacklist</li><li>Custom sounds (6sense , can setup ingame in MOD setup window)</li><li>Battle Hits viewer in garage</li><li>XVM mod (with fdmod config:)<br>* team hp bar, + next small tweaks</li><li>Replay manager</li><li>lebwa gunmarks</li><li>remove fog</li><li>autoclaim clan rewards</li><li>friends marker ingame</li></ul><p><a href=\"https://bit.ly/2O1b92k\">Czech version find here + fast updates here.</a></p><p><a href=\"http://bit.ly/changelog_FDMOD_EN\">Full changelog history &gt;&gt;</a></p>",
       "installationGuideHtml": "<ol><li>Go to your WOT folder. (standart is: C:/Games/World_of_Tanks/</li><li>Delete folders <strong>“mods”</strong> +&nbsp;<strong>“res_mods”</strong></li><li>Unpack FDMOD file and folders <strong>“mods”</strong> + <strong>“res_mods”</strong> copy to:…World_of_Tanks/</li><li>Now installation fonts from: <strong>…FDMOD EN x.xx / _support_fdmod_&nbsp;/ fonts </strong><i>(just 1 times)</i></li><li>Activation xvm stats on site: <a href=\"http://www.modxvm.com/\">www.modxvm.com</a></li><li>DONE !! …start game!</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wgmodFDMOD_DP0aB6s.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/3355/",
@@ -43875,7 +43922,7 @@
       ],
       "recommended": true,
       "mark": 4.1,
-      "descriptionHtml": "<p>This mod changes the colors of the vehicle contour image icons<br>displayed in the battle loading, battle and team composition screens</p><p>The revised colors are:</p><p>Heavy Tanks = Grey<br>Medium Tanks = Green<br>Light Tanks = White or Yellow<br>Tank Destroyers = Blue<br>Self Propelled Guns = Red</p><p>&nbsp;</p>",
+      "descriptionHtml": "<p>This mod changes the colors of the vehicle contour image icons<br>displayed on the Battle Loading, Battle and Team Composition screens</p><p>The revised colors are:</p><p>Heavy Tanks = Grey<br>Medium Tanks = Green<br>Light Tanks = White or Yellow<br>Tank Destroyers = Blue<br>Self Propelled Guns = Red</p><p>&nbsp;</p>",
       "installationGuideHtml": "<p>Unzip or copy one wotmod file to your ‘game installation\\mods\\version’ folder</p><p>Configure your game to display the vehicle tier via Settings: General Tab - Battle Interface Box - Enable ‘Show vehicle tier’</p><p>XVM can be installed or not installed - If XVM is installed, make sure tank icon mirroring is enabled in XVM’s 'battle.xc' file with the statement of “mirroredVehicleIcons”: true (note: XVM’s default statement in the 'battle.xc' file is “mirroredVehicleIcons”: true)</p><p>This mod also contains two additional wotmods each with the ability to also display enhanced minimaps - try one - you may like it!</p><p>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/new_cover_du37faM.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/1125/",
@@ -43893,16 +43940,6 @@
           "fileName": "battle.contours.v.26.09.18.zip",
           "fileExt": ".zip",
           "changeLog": "For Game Version 2.4.0.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "26.09.01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/battle.contours.v.26.09.01.zip",
-          "updatedAt": "2026-09-13T05:12:39.322Z",
-          "sizeBytes": 29513812,
-          "fileName": "battle.contours.v.26.09.01.zip",
-          "fileExt": ".zip",
-          "changeLog": "For Game Version 2.4.0.0"
         }
       ],
       "latest": {
