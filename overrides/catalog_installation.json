@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.081",
+  "catalogVersion": "v2026.09.082",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7969",
+      "title": "Centered Minimap",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extract the archive, then place all included .wotmod files in World_of_Tanks\\mods\\2.4.0.1\\."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract and place included .wotmod files into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7968",
+      "title": "Dynamic Armor Inspector Colours",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extract the archive into your World of Tanks game folder. The included packages belong in WorldofTanks\\mods\\2.4.0.1\\ while preserving the archive's folders."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game folder while preserving archive folders.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7967",
+      "title": "Onslaught Hangar",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7966",
+      "title": "Pet Renamer",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to unpack and place extracted files into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7954",
