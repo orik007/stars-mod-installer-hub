@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.09.080",
-  "sourceHash": "ff2001a82442fb5142cf2daf652df64163fb842245dbbc12c27e44538bc4751a",
+  "catalogVersion": "v2026.09.081",
+  "sourceHash": "cc64ee0e8e164fd653283f633581072b62ba0173e664452e870a8f9c7ccaf3b9",
   "sources": [
     "wgmods",
     "modhub"
@@ -1128,7 +1128,7 @@
       "mark": 3.5,
       "descriptionHtml": "<p>参照巨响图标，自制的坦克战斗图标。</p>",
       "installationGuideHtml": "<p>参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。</p><p>所以需要安装antimirror反镜像插件，或者配合阿斯兰使用。</p><p>Simple：标准版本，只有型号名称。Armor：含装甲值（车体）版本</p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装使用方法：</p><p>先下载并安装阿斯兰插件包，安装的时候选一个类似带车型的图标安装（别选没字没图的那种，可能会镜像）。</p><p>用安装包里的文件，手动替换\\World_of_Tanks_ASIA\\res_mods\\2.4.0.0(或更新版本号）\\gui\\flash\\atlases里的相同文件，并覆盖。</p><p>或者直接把下载的.zip文件，放到\\World_of_Tanks_ASIA\\Aslain_custom_mods文件夹中，在你安装完其它插件以后，阿斯兰会自动覆盖并安装图标。</p><p>----------------------------------------------------------</p><p>图标现在已经集成至阿斯兰插件包中，直接选择安装即可。</p><p>这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎指正。不喜勿喷。</p><p>&nbsp;</p><p>9.18 &nbsp;更新2.4.0.1版本。</p><p>&nbsp;</p><p>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/asma_aiICaMN.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ASMA%E4%B8%AD%E6%96%87%E5%9B%BE%E6%A0%87%E5%B0%81%E9%9D%A2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7906/",
       "tagIds": [
         "14"
@@ -3536,8 +3536,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p><strong>Version and compatibility</strong></p><p>- Version: 1.0.18</p><p>- Tested game version: 2.4.0.1</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: `aslain.modmenu` and `aslain.modssettingsbridge`<br>&nbsp;</p><p><strong>Features</strong></p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p><strong>Links</strong><br><br><i>*Version Update Notice*</i><br><br>GitHub updates are published first. WGMods may temporarily show an older version while the update awaits review and approval. For the latest version, please check the GitHub:</p><ul><li>[Latest release:] (<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest</a>)</li></ul><p>- Choose either the standalone WOTMOD download or the full package, which includes the HCC mod itself, OpenWG Gameface, and Modmenu. Extract it into the World of Tanks installation directory.(Modmenu is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without Mod Menu, but the GameFace mod is required.)<br><br>- [Technical documentation](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md</a>)</p><p>- [Issue tracker](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues</a>)</p>",
-      "installationGuideHtml": "<p><strong>Installation</strong></p><p>World of Tanks `2.4.0.1` or a compatible client is required. `net.openwg.gameface` is required for the carousel.<br>&nbsp;</p><p><strong>Full package (recommended)</strong></p><p>[Download the ZIP -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/hangar_carousel_classic_1.0.18_full.zip\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/hangar_carousel_classic_1.0.18_full.zip</a>) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.1/`.<br>&nbsp;</p><p><strong>HCC only</strong></p><p>[Download the WOTMOD -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/mod_hangar_carousel_classic_1.0.18.wotmod\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/mod_hangar_carousel_classic_1.0.18.wotmod</a>) and copy it to `mods/2.4.0.1/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](<a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\">https://gitlab.com/openwg/wot.gameface/-/releases</a>).</p><p>Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel.</p>",
+      "descriptionHtml": "<h2>Hangar Carousel Classic<br>&nbsp;</h2><p>Restores and expands the classic World of Tanks hangar carousel with native Gameface integration, configurable filters, hierarchical sorting, and vehicle-card statistics.<br>&nbsp;</p><p><strong>Version and compatibility</strong></p><p>- Version: 1.0.20</p><p>- Tested game version: 2.4.0.1</p><p>- Required dependency: `net.openwg.gameface`</p><p>- Optional dependency: `aslain.modmenu` and `aslain.modssettingsbridge`<br>&nbsp;(not included anymore - u can get it here -&gt; [Aslain's official WoT ModPack page](<a href=\"https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/\">https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/</a>))</p><p><strong>Features</strong></p><p>- Classic carousel layout with 1 to 4 rows and automatic row mode.</p><p>- Vehicle-card statistics: battles, win rate, average damage, alpha damage, mastery badge, and Marks of Excellence.</p><p>- Native filters for bonus crew XP, favorite, elite, premium, non-elite, not ready, incomplete Marks of Excellence, and crew not fully trained.</p><p>- Active filters use AND logic and are applied to the native carousel.</p><p>- Filtering, sorting, and card statistics can be enabled independently.</p><p>- Hierarchical sorting with ascending or descending order per criterion, including `averageDamage` and `alphaDamage`.</p><p>- Custom nation and vehicle-type priority order.</p><p>- Optional hiding of buy vehicle, buy slot, and restore vehicle cards.</p><p>- HCC filter counts use the current native vehicle list. ALL shows the vehicles matching every active filter.<br>&nbsp;</p><p><strong>Links</strong><br><br><i>*Version Update Notice*</i><br><br>GitHub updates are published first. WGMods may temporarily show an older version while the update awaits review and approval. For the latest version, please check the GitHub:</p><ul><li>[Latest release:] (<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/latest</a>)</li></ul><p>- Choose either the standalone WOTMOD download or the full package, which includes the HCC mod itself, OpenWG Gameface, and Modmenu. Extract it into the World of Tanks installation directory.(Modmenu is optional. It provides in-game settings for carousel rows, filtering, sorting, card statistics, and action cards. The HCC panel remains available without Mod Menu, but the GameFace mod is required.)<br><br>- [Technical documentation](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/blob/master/docs/TECHNICAL_DETAILS.md</a>)</p><p>- [Issue tracker](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/issues</a>)</p>",
+      "installationGuideHtml": "<p><strong>Installation</strong></p><p>World of Tanks `2.4.0.1` or a compatible client is required. `net.openwg.gameface` is required for the carousel.<br>&nbsp;</p><p><strong>Full package (recommended)</strong></p><p>[Download the ZIP -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/hangar_carousel_classic_1.0.18_full.zip\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.20/hangar_carousel_classic_1.0.20_full.zip</a>) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.1/`.<br>&nbsp;</p><p><strong>HCC only</strong></p><p>[Download the WOTMOD -&gt;](<a href=\"https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.18/mod_hangar_carousel_classic_1.0.18.wotmod\">https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.20/mod_hangar_carousel_classic_1.0.20.wotmod</a>) and copy it to `mods/2.4.0.1/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases](<a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\">https://gitlab.com/openwg/wot.gameface/-/releases</a>).</p><p>Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod_logo_TKJ5yrr.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7798/",
       "tagIds": [
@@ -3867,6 +3867,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "0.2.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mods_gbWva4f.zip",
+          "updatedAt": "2026-09-27T16:46:53.864Z",
+          "sizeBytes": 326920,
+          "fileName": "mods_gbWva4f.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added synchronization of player badges with World of Tanks. After confirming their account, the mod reads the badges earned in the game and securely sends their IDs to Tank Helper. The player can then use the same badges in the application and select one to display next to their nickname, helping them stand out from other players."
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "0.2.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mods_A6yV4Ew.zip",
           "updatedAt": "2026-09-23T11:44:08.850Z",
@@ -3877,8 +3887,8 @@
         }
       ],
       "latest": {
-        "fileName": "mods_A6yV4Ew.zip",
-        "changeLog": "Добавлено отображение тактических значков ТТ, СТ, ПТ-САУ, ЛТ и САУ на мини-карте.\n\nНастройка ключа комнаты перенесена в стандартное окно настроек модификаций со значком шестерёнок.\n\nКомплект состоит из четырёх отдельных файлов: WOT Tactic Bridge, ModsSettingsAPI, ModsListAPI и OpenWG Gameface. Убрано встраивание общих библиотек внутрь WOT Tactic, вызывавшее конфликт с отдельными компонентами меню.\n\nОбновлено описание: добавлены ссылка на Discord-бота Tank Helper и инструкция подключения к комнате WOT Tactic.",
+        "fileName": "mods_gbWva4f.zip",
+        "changeLog": "Added synchronization of player badges with World of Tanks. After confirming their account, the mod reads the badges earned in the game and securely sends their IDs to Tank Helper. The player can then use the same badges in the application and select one to display next to their nickname, helping them stand out from other players.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -31575,7 +31585,7 @@
         "en"
       ],
       "recommended": false,
-      "mark": 4.1,
+      "mark": 4.2,
       "descriptionHtml": "<p>Allows fine grained control over interface scaling.</p><p>Rescales all text and UI correctly so you get \"like native\" appearance without blur.&nbsp;</p><p>Configurable by a config file and optionally by UI.&nbsp;</p><p>&nbsp;</p><p>Required for UI support:</p><p>https://gitlab.com/wot-public-mods/mods-list/</p><p>https://github.com/izeberg/modssettingsapi</p><p>https://gitlab.com/openwg/wot.gameface/</p>",
       "installationGuideHtml": "<p>This mod is installed by downloading the latest release from the Wargaming Mod portal.</p><p>Place the .wotmod file inside the mods folder in your World of Tanks installation directory for the latest version of the game.</p>",
       "coverCatalogUrl": "",
@@ -44481,6 +44491,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.1",
+          "modVersion": "3.0.26",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_ZXuYvpL.zip",
+          "updatedAt": "2026-09-27T15:25:42.272Z",
+          "sizeBytes": 4914273,
+          "fileName": "ProMod_ZXuYvpL.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
           "modVersion": "3.0.21",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_rhJoyYW.zip",
           "updatedAt": "2026-09-18T09:55:25.746Z",
@@ -44528,20 +44548,10 @@
           "fileName": "ProMod_3x9N4BE.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "3.0.13",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_pEHngPC.zip",
-          "updatedAt": "2026-09-12T08:58:38.605Z",
-          "sizeBytes": 4892716,
-          "fileName": "ProMod_pEHngPC.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ProMod_rhJoyYW.zip",
+        "fileName": "ProMod_ZXuYvpL.zip",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
