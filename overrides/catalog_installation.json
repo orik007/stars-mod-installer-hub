@@ -1,7 +1,82 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.084",
+  "catalogVersion": "v2026.09.085",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7964",
+      "title": "Project ION sound exchanger by TheOnlyApocalypse",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "copy all files to mods/the latest version"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7955",
+      "title": "6th sense audio Argentina",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "1) Close the game. 2) Extract the \"Wachin\" file. 3) Copy the \"res_mods\" folder. 4) Paste the folder into your game installation directory: C:\\Games\\World of Tanks EU. Enable the Sound 1) Start World of Tanks and open: 2) Settings, Sound, Sixth Sense Activation Sound, User sound. 3) Select: User sound. Enjoy the mod."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to paste the included res_mods folder into the game installation directory.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7962",
+      "title": "MoE Pro – Marks of Excellence calculator",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Extract the archive into your World of Tanks folder, so the files end up in mods/2.4.0.1/. 2. Everything the mod needs is included (GUIFlash, ModsSettingsAPI, ModsListAPI, net.openwg.gameface). If you already have any of these files, keep only one copy of each in the folder, the newest version. 3. Start the game. On the first start the game restarts once by itself: net.openwg.gameface sets itself up, this is normal. Open the details window by clicking the panel, with Ctrl+M or from the mods list."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Guide says to extract the archive into the World of Tanks folder so files end up in mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7959",
+      "title": "Fermani Marks — MoE Progress Mod",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks/mods/2.4.0.1/"
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7956",
+      "title": "Jimbo (J1mB0) Crosshair Remake by TecHniCzny",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Remove the original Dispersion Reticle if installed: [WoT]/mods/2.4.0.1/pruszko.dispersion_reticle_*.wotmod 2. Extract the archive into your World of Tanks folder so its \"mods\" folder merges with the game's \"mods\" folder. Allow overwriting. 3. Start the game. Change variant: copy the \"mods\" folder from optional_variants/<variant>/ into the WoT folder (overwrite), then press CTRL+P in the garage or restart the game. Size and colour: [WoT]/mods/configs/DispersionReticle/config.json (section \"hybrid-reticle-extended\") or the in-game mod settings menu (ModsSettingsAPI). Different game version? Rename mods/2.4.0.1 to your version number."
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Guide requires removing an existing mod and supports optional variant replacement and custom config path steps, making it a destructive and multi-step process beyond a single supported install template.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7958",
