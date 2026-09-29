@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.085",
+  "catalogVersion": "v2026.09.086",
   "mods": [
     {
       "source": "wgmods",
       "sourceId": "7964",
-      "title": "Project ION sound exchanger by TheOnlyApocalypse",
+      "title": "Blitzträger auf ION exchanger",
       "classificationInput": {
         "latestFileExt": ".zip",
         "latestInstallGuide": "copy all files to mods/the latest version"
@@ -1365,6 +1365,39 @@
         "installableByApp": true,
         "decisionReason": "Archive package and guide points to mods/<version> with non-blocking choice of included .wotmod file.",
         "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "skyVersionVolume4",
+            "name": "Sky version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "allMaps",
+                "name": "All maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^(?!.*NoDarkMaps).*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^.*NoDarkMaps.*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
