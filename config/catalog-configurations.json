@@ -114,6 +114,44 @@
           }
         ]
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7829",
+      "title": "Pansy's Revamped Skies Volume 4",
+      "configuration": {
+        "groups": [
+          {
+            "id": "skyVersionVolume4",
+            "name": "Sky version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "allMaps",
+                "name": "All maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^(?!.*NoDarkMaps).*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "noDarkMaps",
+                "name": "No Dark Maps",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^.*NoDarkMaps.*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
