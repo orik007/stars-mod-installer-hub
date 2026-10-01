@@ -1,7 +1,52 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.09.088",
+  "catalogVersion": "v2026.10.000",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7973",
+      "title": "DARK // SFAC 105 - ATLAS FV105-2",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod folder and copying it to a custom subpath under mods/<version>; also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7974",
+      "title": "DARK // Ashigaru - NEW GENERATION",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "This mod requires another mod called “LimpidSticker” for better comfort and no visual bugs. ⪢How to install the mod : select your mod and then, copy the folder to the directory with the game. > World_of_tanks_EU / mods / [current version of the game] / ... and delete the “data.wgpdc” file located in your game directory Need help? Visit the mod skin 3D installation help centre here: https://mods.darkola.fr/help-support-mods-darkola/"
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Archive guide requires selecting a mod folder and copying it to a custom subpath under mods/<version>; also mentions deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7975",
+      "title": "Crucible Auto Reset",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extract the archive into your World of Tanks game folder. Preserve the included folders so all packages are placed under WorldofTanks\\mods\\2.4.0.1\\."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game folder/root while preserving included folders.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7964",
