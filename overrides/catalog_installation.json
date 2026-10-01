@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.000",
+  "catalogVersion": "v2026.10.001",
   "mods": [
     {
       "source": "wgmods",
@@ -38,12 +38,12 @@
       "title": "Crucible Auto Reset",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract the archive into your World of Tanks game folder. Preserve the included folders so all packages are placed under WorldofTanks\\mods\\2.4.0.1\\."
+        "latestInstallGuide": "Extract the archive into your World of Tanks game folder. Preserve the included folders so all packages are placed under WorldofTanks\\mods\\x.x.x.x\\."
       },
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Archive package and guide says to extract into the World of Tanks game folder/root while preserving included folders.",
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game folder, preserving included folders under the game root.",
         "deleteDataWgpdc": false
       }
     },
@@ -1532,21 +1532,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide says to copy it into mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7817",
-      "title": "Блокувальник командирських озвучень/Disable Special Voices",
-      "classificationInput": {
-        "latestFileExt": ".rar",
-        "latestInstallGuide": "Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU To install the mod, copy the contents of the folder into your game directory: C:\\Games\\World_of_Tanks_EU"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide says to copy the folder contents into the World of Tanks game directory.",
         "deleteDataWgpdc": false
       }
     },
@@ -5450,21 +5435,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Package is .wotmod and the guide is empty or insufficient; default is to copy the .wotmod into mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7447",
-      "title": "Основний Калібр",
-      "classificationInput": {
-        "latestFileExt": ".rar",
-        "latestInstallGuide": "Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU To install the mod, copy the contents of the folder into your World of Tanks game directory C:\\Games\\World_of_Tanks_EU"
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Archive package and guide says to copy the folder contents into the World of Tanks game directory root.",
         "deleteDataWgpdc": false
       }
     },
