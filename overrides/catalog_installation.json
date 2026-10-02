@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.003",
+  "catalogVersion": "v2026.10.004",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7977",
+      "title": "Gunmarks: Role Skill charges",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds: mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.roleskills_0.1.0.wotmod mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod 3. Start the game. On the first start it restarts once by itself. With another Gunmarks mod installed: extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it. To remove the mod: delete app.gunmarks.roleskills_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings stay in mods\\configs\\app.gunmarks."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game root folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7978",
+      "title": "Gunmarks: Distance to tanks",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds: mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.distance_0.1.0.wotmod mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod 3. Start the game. On the first start it restarts once by itself. With another Gunmarks mod installed: extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it. To remove the mod: delete app.gunmarks.distance_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings stay in mods\\configs\\app.gunmarks."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game root folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7976",
+      "title": "Gunmarks: Onslaught",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds: mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.onslaught_0.1.0.wotmod mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod 3. Start the game. On the first start it restarts once by itself. With another Gunmarks mod installed: extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it. To remove the mod: delete app.gunmarks.onslaught_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings and recorded battles stay in mods\\configs\\app.gunmarks."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game root folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7979",
+      "title": "Gunmarks: Marks of Excellence",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds: mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.randoms_0.1.0.wotmod mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod 3. Start the game. On the first start it restarts once by itself. With another Gunmarks mod installed: extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it. To remove the mod: delete app.gunmarks.randoms_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings stay in mods\\configs\\app.gunmarks."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks game root folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7973",
@@ -98,7 +158,7 @@
       "title": "Fermani Marks — MoE Progress Mod",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks/mods/2.4.0.1/"
+        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks/mods/2.4.0.2/"
       },
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
