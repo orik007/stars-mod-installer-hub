@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.008",
-  "sourceHash": "362b46641ccfb74e0c27f6680b47197817f3e1cbbd77dbf8d33fc20345f304b1",
+  "catalogVersion": "v2026.10.009",
+  "sourceHash": "619ca830c298ff9c7d77c9d345695515788e0966ac3fdf3e60907ca62bbf67e6",
   "sources": [
     "wgmods",
     "modhub"
@@ -308,7 +308,7 @@
     {
       "source": "wgmods",
       "sourceId": "7964",
-      "title": "Blitzträger auf ION Exchanger",
+      "title": "Blitzträger auf ION Exchanger by TheOnlyApocalypse",
       "ownerUsername": "TheOnlyApocalypse",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -1097,6 +1097,44 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7927",
+      "title": "Fuel Bill",
+      "ownerUsername": "BlindCorpseTV",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A World of Tanks joke/immersion mod that estimates the real-world fuel used<br>during a battle and shows an estimated real-world fuel cost in the post-battle<br>results screen.</p><p>No additional credits were harmed while traveling with FuelBill!</p>",
+      "installationGuideHtml": "<p>Close your game and simply place the .wotmod file in World_of_<i>Tanks_EU\\mods\\latest version and you are set!</i></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/FuelBill_Cover2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7927/",
+      "tagIds": [
+        "18",
+        "22",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.6.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/FuelBillWoT.rar",
+          "updatedAt": "2026-10-03T17:11:57.988Z",
+          "sizeBytes": 42255,
+          "fileName": "FuelBillWoT.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "FuelBillWoT.rar",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7911",
       "title": "eFJay's Customization Filter",
       "ownerUsername": "eFJay",
@@ -1229,20 +1267,20 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.4.0.1+1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/djdek0_onslaughtkeyremap_KJTjxy6.zip",
-          "updatedAt": "2026-09-22T19:58:57.594Z",
-          "sizeBytes": 232750,
-          "fileName": "djdek0_onslaughtkeyremap_KJTjxy6.zip",
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.4.0.2+0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/djdek0_onslaughtkeyremap_I3yODrp.zip",
+          "updatedAt": "2026-10-03T17:12:13.402Z",
+          "sizeBytes": 232749,
+          "fileName": "djdek0_onslaughtkeyremap_I3yODrp.zip",
           "fileExt": ".zip",
-          "changeLog": "Fixed an issue related to the mod not working when playing in onslaught platoon."
+          "changeLog": "Ensured compatibility with 2.4.0.2 patch."
         }
       ],
       "latest": {
-        "fileName": "djdek0_onslaughtkeyremap_KJTjxy6.zip",
-        "changeLog": "Fixed an issue related to the mod not working when playing in onslaught platoon.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "djdek0_onslaughtkeyremap_I3yODrp.zip",
+        "changeLog": "Ensured compatibility with 2.4.0.2 patch.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1691,6 +1729,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomFOV_v1.0.0_Evwrmwm.zip",
+          "updatedAt": "2026-10-03T17:12:16.401Z",
+          "sizeBytes": 231065,
+          "fileName": "CustomFOV_v1.0.0_Evwrmwm.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CustomFOV_v1.0.0.zip",
@@ -1702,9 +1750,9 @@
         }
       ],
       "latest": {
-        "fileName": "CustomFOV_v1.0.0.zip",
+        "fileName": "CustomFOV_v1.0.0_Evwrmwm.zip",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14957,7 +15005,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.7,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
@@ -14969,6 +15017,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.4.0.2.exe",
+          "updatedAt": "2026-10-03T17:11:42.268Z",
+          "sizeBytes": 123931607,
+          "fileName": "Nagleishiy_ModPack_for_2.4.0.2.exe",
+          "fileExt": ".exe",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.7",
@@ -15021,9 +15079,9 @@
         }
       ],
       "latest": {
-        "fileName": "Nagleishiy_ModPack_for_2.4.0.1_8j4fi0Z.exe",
-        "changeLog": "Оновлено мод ХМM",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Nagleishiy_ModPack_for_2.4.0.2.exe",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -37949,7 +38007,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<ul><li>მოდში გამოყენებულია ფრაზები ქართული კინოფილმებიდან და არა მარტო.</li><li>The mod uses phrases from Georgian films and not only.</li></ul><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/7ER6sc6tJmU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/7ER6sc6tJmU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>არქივის შიგთავსი (ფაილი audioww) მოათავსეთ აქ: «World_of_Tanks \\ res_mods \\ აქტუალური ვერსია.</p><p>Place the contents of the archive (file audioww) here: «World_of_Tanks \\ res_mods \\ current version.</p>",
@@ -37960,6 +38018,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "13",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audioww_U2UeeSh.rar",
+          "updatedAt": "2026-10-03T19:07:02.398Z",
+          "sizeBytes": 21900035,
+          "fileName": "audioww_U2UeeSh.rar",
+          "fileExt": ".rar",
+          "changeLog": "updated for patch 2.4.0.2"
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "13",
@@ -38009,22 +38077,12 @@
           "fileName": "audioww_U2UeeSh_r8BjT2b.rar",
           "fileExt": ".rar",
           "changeLog": "updated for patch 2.3.1.1"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "13",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audioww_U2UeeSh_0E3Hi0x.rar",
-          "updatedAt": "2026-09-13T05:17:37.528Z",
-          "sizeBytes": 21900035,
-          "fileName": "audioww_U2UeeSh_0E3Hi0x.rar",
-          "fileExt": ".rar",
-          "changeLog": "updated for patch 2.3.1.0"
         }
       ],
       "latest": {
-        "fileName": "audioww_U2UeeSh_WWrCVC0.rar",
-        "changeLog": "updated for patch 2.4.0.1",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "audioww_U2UeeSh.rar",
+        "changeLog": "updated for patch 2.4.0.2",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -42623,7 +42681,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<p><strong>Simple XVM config by Flemishpiotr</strong></p><p>Remember to turn off anonymizer if you want to see other players xvm stats ingame.</p><p>This is not a modpack, it’s a configuration of the xvm mod.</p><p><strong>XVM’s default features include:</strong></p><ul><li>extra stats ingame for your teammates and enemies: wn8, winrates and battles fought</li><li>extra stats in the garage: wn8, winrates and battles fought</li><li>some easy game features like automatically returning crews<br>customized vehicule markers and minimap</li><li>…</li></ul><p><strong>The main difference from xvm default config:</strong></p><ul><li>The ingame XVM damage and hitlogs are turned off.</li><li>The default WoT damage/hitlog panel is used</li></ul><p><strong>Other smaller differences include:</strong></p><ul><li>larger zoom-in (up to 25) and zoom-out</li><li>the sixth sense icon stays onscreen longer (10s instead of 2s) and the game default image and sound are used</li><li>the little xvm colored ribbon on the hp bar of a players marker looks prettier</li><li>the circles on the minimap are thinner</li><li>the lines on the minimap are thinner</li><li>the larger playerpanel has wn8 colors on the vehicles aswell</li><li>stat widget in the garare is turned off</li></ul><p>__</p><p><strong>Extra Mods</strong></p><p>Pet gift auto claim mod by Gravity Assist<br><a href=\"https://wgmods.net/7438/\">https://wgmods.net/7438/</a></p><p>Better Reticle Size by Jak_Atackka<br><a href=\"https://wgmods.net/6349/\">https://wgmods.net/6349/</a></p><p>Clan Rewards Auto Claim by AnNE_DoMini<br><a href=\"https://wgmods.net/6711/\">https://wgmods.net/6711/</a></p>",
       "installationGuideHtml": "<p><strong>Close the game down before installing this modpack.</strong><br><br><i>I. download this modepack</i><br><i>II. unzip the downloaded file to a folder using for example 7-zip or WinRar</i><br><i>III. open this unzipped folder, these are the modpack files</i><br><i>IV. find your game folder, for example C:\\Games\\World_of_Tanks</i><br><i>V. </i>delete the /mods and /res_mods folders inside your world of tanks folder<br><i>VI. </i>copy the /mods and /res_mods folder from the downloaded pack into your world of tank folder<br><br>Do not copy the installation-instruction.txt or the mod_description.txt files to the game folder!<br><br><i><strong>Now activate xvm:</strong></i><br><br>I. go to https://modxvm.com/<br>II. login<br>III. in the top menu bar, activate services&nbsp;<br>(xvm remains active for 14 days, so you need to prolong it every 14 days)<br>IV. in the top menu bar, settings:<br>- xvm services -&gt; check all<br>- scale -&gt; default<br>- rating -&gt; wn8<br>_<br><strong>play game</strong></p><p>Remember to turn off anonymizer if you want to see other players xvm stats ingame.</p>",
@@ -42634,6 +42692,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.4.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/flemishpiotr-simple-xvm-config-2.4.0.2.zip",
+          "updatedAt": "2026-10-03T17:12:52.152Z",
+          "sizeBytes": 14438469,
+          "fileName": "flemishpiotr-simple-xvm-config-2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated to latest xvm and submods"
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "2.4.0.1b",
@@ -42686,9 +42754,9 @@
         }
       ],
       "latest": {
-        "fileName": "flemishpiotr-simple-xvm-config-2.4.0.1b.zip",
-        "changeLog": "Updated to latest xvm and updated submods.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "flemishpiotr-simple-xvm-config-2.4.0.2.zip",
+        "changeLog": "Updated to latest xvm and submods",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -44888,7 +44956,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 2.7,
       "descriptionHtml": "<p>-xvm = XVM &nbsp;!!! NEUSTE !!!<br>-Carusell einstellbar<br>-Top Minimap letzte Position<br>-Bessere Statistik<br>-Goldmuni Anzeige usw…<br>-Hitlog<br>-AutoEquip &amp; Manschaft<br>-Player Ratings WN8<br>-Capture Info<br>-Ingame Uhrzeit und auch im Hangar<br>-Neue TankIcon 3D / Made of SicFunzler<br>-Ingame Damage Log<br>-Sixth Sense Audio Mod und mit SicFunzler LOGO und verbleibende Zeit</p><ul><li>Gunmarks mit SicFunzler LOGO<br>-Erweiterte Gefechtsauswertung<br>-Tank View Range</li></ul><p>-Gold Premium Tank und kaufbar oder nicht.</p><p>Alle Änderungen werden auf meiner Homepage aufgelistet:</p><p><a href=\"http://www.gaisboeck.at/SicFunzler/index.htm\">SicFunzler-Mod-Seite</a></p><p>Ein kleines Video vom Mod:&nbsp;</p><p><a href=\"https://www.youtube.com/watch?v=OM66h7GCrrk\">So spielt man mit diesen Mod&nbsp;</a></p><p>Wer will, der kann:</p><p><a href=\"https://www.paypal.com/paypalme/SicFunzler\">Spende</a></p><p>MFG</p><p>SicFunzler</p>",
       "installationGuideHtml": "<p><strong>Wichtig Einstellungen ganz einfach unter:</strong></p><p>Laufwerk\\Games\\World_of_Tanks\\res_mods\\configs\\xvm\\SicFunzler\\einstellen</p><p>Standart Faben für WOT:</p><p>FarbEinstellungen.xc</p><p>ZoomFaktor:</p><p>KameraZoom.xc</p><p>StartZoom:</p><p>StartZoom.xc</p><p>Laufwerk\\Games\\World_of_Tanks_EU\\res_mods\\configs\\xvm\\SicFunzler\\einstellen\\XVM</p><p>true = Eingeschalted</p><p>false = Ausgeschalted</p><p>Anzeige des TD &amp; Arty wirkbereiches</p><p>Aimingbereich.xc</p><p>Handbremse bei TD´s ausschalten</p><p>TdHandbremse.xc</p><p>&nbsp;</p>",
@@ -44900,6 +44968,16 @@
         "13"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "V334",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V334.exe",
+          "updatedAt": "2026-10-03T17:12:05.214Z",
+          "sizeBytes": 297605908,
+          "fileName": "SicFunzler-Mod_V334.exe",
+          "fileExt": ".exe",
+          "changeLog": "Update auf 2.4.0.2"
+        },
         {
           "wotGameVersion": "2.4.0.0",
           "modVersion": "V322",
@@ -44952,9 +45030,9 @@
         }
       ],
       "latest": {
-        "fileName": "SicFunzler-Mod_V322.exe",
-        "changeLog": "Update 2.4.0.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "SicFunzler-Mod_V334.exe",
+        "changeLog": "Update auf 2.4.0.2",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
