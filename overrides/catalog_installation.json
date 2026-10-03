@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.008",
+  "catalogVersion": "v2026.10.009",
   "mods": [
     {
       "source": "wgmods",
@@ -110,7 +110,7 @@
     {
       "source": "wgmods",
       "sourceId": "7964",
-      "title": "Blitzträger auf ION Exchanger",
+      "title": "Blitzträger auf ION Exchanger by TheOnlyApocalypse",
       "classificationInput": {
         "latestFileExt": ".zip",
         "latestInstallGuide": "copy all files to mods/the latest version"
@@ -374,6 +374,21 @@
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
         "decisionReason": "Archive package and guide says to extract into the World of Tanks game directory.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7927",
+      "title": "Fuel Bill",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Close your game and simply place the .wotmod file in World_of_ Tanks_EU\\mods\\latest version and you are set!"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod into the current version mods folder.",
         "deleteDataWgpdc": false
       }
     },
