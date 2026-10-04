@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.010",
-  "sourceHash": "f6cf7c8b17b48c51b04674c40f97493f9ecb66b5186e1ec68b5fbe5daf229f2a",
+  "catalogVersion": "v2026.10.011",
+  "sourceHash": "5504e2f62b17facad42bb0d49df2ad246986973db7accb31a89cdd2b2d9ec55a",
   "sources": [
     "wgmods",
     "modhub"
@@ -1067,7 +1067,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "0.4.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.4.0.zip",
-          "updatedAt": "2026-09-30T07:31:46.424Z",
+          "updatedAt": "2026-10-04T17:38:44.545Z",
           "sizeBytes": 489702,
           "fileName": "unicum.gg_0.4.0.zip",
           "fileExt": ".zip",
@@ -1077,7 +1077,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "0.3.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.3.0.zip",
-          "updatedAt": "2026-09-26T08:08:36.595Z",
+          "updatedAt": "2026-10-04T17:38:44.586Z",
           "sizeBytes": 461034,
           "fileName": "unicum.gg_0.3.0.zip",
           "fileExt": ".zip",
@@ -1087,7 +1087,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "0.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.2.0.zip",
-          "updatedAt": "2026-09-24T14:01:34.996Z",
+          "updatedAt": "2026-10-04T17:38:44.627Z",
           "sizeBytes": 455203,
           "fileName": "unicum.gg_0.2.0.zip",
           "fileExt": ".zip",
@@ -1097,7 +1097,7 @@
           "wotGameVersion": "2.4.0.1",
           "modVersion": "0.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.1.1.zip",
-          "updatedAt": "2026-09-23T11:44:13.956Z",
+          "updatedAt": "2026-10-04T17:38:44.670Z",
           "sizeBytes": 391326,
           "fileName": "unicum.gg_0.1.1.zip",
           "fileExt": ".zip",
@@ -1380,8 +1380,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Assistive technology for players with physical disabilities. Lets them<br>control tank movement (forward / reverse / turning) in World of Tanks<br>using the pedals of their existing Logitech G29 wheel instead of the<br>keyboard, so their one working hand can stay on the mouse for aiming<br>and firing at all times.</p><p>How it works:<br>- Reads standard USB HID reports directly from an already-connected,<br>&nbsp;commercially available wheel+pedal set. No modification of the<br>&nbsp;device's drivers or calibration — other games work with the wheel<br>&nbsp;exactly as before.<br>- Pedal position is translated 1:1 into standard key presses (W/A/S/D)<br>&nbsp;via the Win32 SendInput API — the same mechanism used by common,<br>&nbsp;legal, commercial remapping tools (AntiMicroX, reWASD, Steam Input,<br>&nbsp;JoyToKey).<br>- Only active while WorldOfTanks.exe is the foreground window.<br>- Starts automatically with the game, releases all keys and stops the<br>&nbsp;moment the game closes.</p><p>What it does NOT do:<br>- Does not read or modify game process memory, does not modify game<br>&nbsp;files.<br>- Does not automate aiming or firing — that stays 100% manual, via<br>&nbsp;mouse.<br>- Zero informational, aiming, or timing advantage — it is purely an<br>&nbsp;alternative input method.</p>",
-      "installationGuideHtml": "<p>1. Download wot-pedal-driver.ps1 and copy it to:<br>&nbsp; C:\\Users\\Public\\wot-pedal-driver.ps1<br>2. Open Windows Task Scheduler -&gt; Create Basic Task:<br>&nbsp; - Name: WoTPedalDriver<br>&nbsp; - Trigger: At log on — OR run it manually before launching the game<br>&nbsp; - Action: Start a program:<br>&nbsp; &nbsp; &nbsp; Program/script: &nbsp;powershell.exe<br>&nbsp; &nbsp; &nbsp; Arguments: &nbsp; &nbsp; &nbsp; -ExecutionPolicy Bypass -File \"C:\\Users\\Public\\wot-pedal-driver.ps1\"<br>3. (Optional) Uncheck \"Run only when user is logged on\" if you want<br>&nbsp; silent background autostart.<br>4. The script auto-detects WorldOfTanks.exe on its own — nothing extra<br>&nbsp; to click in-game. It only acts while the game is the foreground<br>&nbsp; window.<br>5. Requirements: a connected Logitech G29 wheel/pedal set (Logitech G<br>&nbsp; HUB drivers installed as usual), Windows PowerShell 5.1+ (built into<br>&nbsp; Windows 10/11).<br>6. Uninstall: remove the \"WoTPedalDriver\" task from Task Scheduler and<br>&nbsp; delete C:\\Users\\Public\\wot-pedal-driver.ps1.</p>",
+      "descriptionHtml": "<p>&nbsp;&nbsp;&nbsp;WoT Pedal Accessibility Driver (Logitech G29)&nbsp;<br>&nbsp;&nbsp;&nbsp;==============================================&nbsp;<br>&nbsp;&nbsp;&nbsp;An assistive technology accessibility mod designed for players with physical disabilities (such as motor impairments, hemiplegia, or limb loss where only one hand and one foot are functional).&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;It allows full tank movement control (forward, reverse, steering) using the pedals of a Logitech G29 racing wheel instead of the keyboard. This allows the player to keep their functional hand&nbsp;<br>&nbsp;continuously on the mouse for aiming and firing.&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;HOW IT WORKS &amp; CONTROLS&nbsp;<br>&nbsp;&nbsp;&nbsp;-----------------------&nbsp;<br>&nbsp;&nbsp;&nbsp;- Throttle (Gas Pedal) &nbsp;&nbsp;-&gt; W (Forward)&nbsp;<br>&nbsp;&nbsp;&nbsp;- Brake Pedal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&gt; S (Reverse)&nbsp;<br>&nbsp;&nbsp;&nbsp;- Clutch (Shallow Press) -&gt; A (Turn Left)&nbsp;<br>&nbsp;&nbsp;&nbsp;- Clutch (Deep Press) &nbsp;&nbsp;&nbsp;-&gt; D (Turn Right)&nbsp;<br><br>&nbsp;&nbsp;&nbsp;The driver includes hysteresis thresholds so keys do not flicker when hovering between zones. Deadzones can be customized in the script.&nbsp;<br><br>&nbsp;&nbsp;&nbsp;TECHNICAL DETAILS &amp; FAIR PLAY COMPLIANCE&nbsp;<br>&nbsp;&nbsp;&nbsp;----------------------------------------&nbsp;<br>&nbsp;&nbsp;&nbsp;- Native USB HID Reading: Reads standard USB HID reports directly from connected Logitech G29 pedals. No proprietary driver replacement, firmware modifications, or calibration resets required. Your&nbsp;<br>&nbsp;normal steering wheel settings for simulators (e.g. ETS2) remain unchanged.&nbsp;<br>&nbsp;&nbsp;&nbsp;- Standard Win32 API: Translates pedal input 1:1 into keyboard scan codes using the official Win32 SendInput API — the exact same mechanism used by Steam Input, reWASD, and AntiMicroX.&nbsp;<br>&nbsp;&nbsp;&nbsp;- Zero Game Invasiveness:&nbsp;<br>&nbsp;&nbsp; &nbsp;&nbsp;* DOES NOT read, modify, or inject into game process memory.&nbsp;<br>&nbsp;&nbsp; &nbsp;&nbsp;* DOES NOT modify game client files or assets.&nbsp;<br>&nbsp;&nbsp; &nbsp;&nbsp;* DOES NOT automate aiming, shooting, spotting, or tactical decisions.&nbsp;<br>&nbsp;&nbsp; &nbsp;&nbsp;* 100% compliant with Wargaming Fair Play Policy.&nbsp;<br>&nbsp;&nbsp;&nbsp;- Active Window Protection: Keystrokes are sent ONLY when WorldOfTanks.exe is the active foreground window.&nbsp;<br>&nbsp;&nbsp;&nbsp;- Smart Watchdog: Automatically activates when WoT starts and cleanly releases all keys when the game exits or crashes.&nbsp;<br><br>&nbsp;&nbsp;&nbsp;REQUIREMENTS &amp; COMPATIBILITY&nbsp;<br>&nbsp;&nbsp;&nbsp;----------------------------&nbsp;<br>&nbsp;&nbsp;&nbsp;- Tested on World of Tanks 2.4.0.2+.&nbsp;<br>&nbsp;&nbsp;&nbsp;- Hardware: Logitech G29 Driving Force Racing Wheel &amp; Pedals (VID_046D, PID_C24F).&nbsp;<br>&nbsp;&nbsp;&nbsp;- Operating System: Windows 10 / Windows 11 (64-bit), PowerShell 5.1+.&nbsp;<br>&nbsp;&nbsp;&nbsp;- Fully automatic device detection across any USB port.<br><br>&nbsp;</p>",
+      "installationGuideHtml": "<p>INSTALLATION &amp; USAGE&nbsp;<br>&nbsp;&nbsp;&nbsp;--------------------&nbsp;<br>&nbsp;&nbsp;&nbsp;Requirements: Windows 10/11 (64-bit), Logitech G29 pedals connected via USB.&nbsp;<br><br>&nbsp;&nbsp;&nbsp;Method 1: Automatic Background Service (Recommended)&nbsp;<br>&nbsp;&nbsp;&nbsp;1. Extract all files from the ZIP archive to a permanent folder (e.g., C:\\Users\\Public\\WoTPedalDriver or your Documents folder).&nbsp;<br>&nbsp;&nbsp;&nbsp;2. Right-click \"Install_WoTPedalDriver.bat\" and select \"Run as Administrator\".&nbsp;<br>&nbsp;&nbsp;&nbsp;3. A Windows Scheduled Task (\"WoTPedalDriver\") is registered. It starts on Windows login, sits silently in the background, and activates whenever World of Tanks is launched.&nbsp;<br><br>&nbsp;&nbsp;&nbsp;Method 2: Standalone / Direct Run (Testing)&nbsp;<br>&nbsp;&nbsp;&nbsp;- Double-click \"Run_Directly.bat\". A console window will open displaying live pedal status and watchdog logs. Close the console window to stop.&nbsp;<br><br>&nbsp;&nbsp;&nbsp;Uninstallation:&nbsp;<br>&nbsp;&nbsp;&nbsp;- Right-click \"Uninstall_WoTPedalDriver.bat\" and select \"Run as Administrator\". The background task is cleanly stopped and removed.</p>",
       "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7933/",
       "tagIds": [
@@ -3790,7 +3790,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.8,
+      "mark": 4.9,
       "descriptionHtml": "<h2>Overview</h2><p><strong>Armor Penetration Calculator 2</strong> lets you see a tank's armor and your exact probability of penetrating.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1639ebea-5570-4b89-accc-15030d836a28.png\"></figure><blockquote><p><i>How is this different from the original Armor Penetration Calculator?</i></p></blockquote><ol><li>Looks more vanilla</li><li>Better performance</li><li>Fewer labels to reduce clutter</li></ol><h2>settings</h2><p>To change the settings, I recommend using <a href=\"https://github.com/Aslain/modmenu\">modmenu </a>by Aslain.</p><h2>Support</h2><p><a href=\"https://discord.gg/PrzqyneRXv\">Discord Server</a></p><p><a href=\"https://ko-fi.com/pademinune\">Donate</a></p>",
       "installationGuideHtml": "<ol><li>Unzip the zip file</li><li>Place the 2 .wotmod files in your mods/&lt;version&gt; folder.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Screenshot_2026-08-16_21-42-30-cropped.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -7558,7 +7558,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 4.1,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -11484,7 +11484,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>Do you want to play challenges with your platoon mates? How about reaching 120k combined damage in 10 battles with two of your buddies? Or racing them to 20 kills? With this mod you can. HAVE FUN!<br><br><br><strong>TWO WAYS TO PLAY</strong><br><br><strong>OFFLINE </strong>- only you need the mod<br>The challenge is tracked on your PC, no server involved. Your platoon mates' values are read from the battle results and added to yours, so they don't need the mod. When you play solo, only your own values count.<br>- Max battles is one shared counter: one platoon battle counts as one battle.<br>- Wins and Survived always count only you.<br><br><strong>ONLINE </strong>- everyone joins with a code<br>Create a challenge on <a href=\"https://z4imon.de/\">z4imon.de</a>, share the six-character code, and everyone enters it in the garage. It doesn't matter whether you play in one platoon, in different platoons or at different times: all progress is combined (Co-Op) or ranked (Race) live.<br>- Every participant needs the mod and has to join with the code.<br>- Max battles counts per player: in a 10-battle challenge everyone plays their own 10.<br>- In battle, an overlay shows the live standings, including the battle you are in right now.<br>- The creator starts the challenge on the website and can end or delete it at any time.<br>- You get a notification when the challenge is won, passed or failed.<br><br><br><strong>CO-OP OR RACE</strong><br><br>Co-Op: reach the goal together.<br>Race: every player for themselves. Online you choose how the race is decided:<br>- First battle results (default): whoever passes the target first on confirmed battle results wins.<br>- First during battle: the running battle counts too, so the race can be decided mid-battle.<br>- Fewest battles: the race doesn't end with the first finisher. Everyone plays on, and whoever needed the fewest battles wins.<br>- If platoon mates pass the target in the same battle, the higher value wins<br><br><br><strong>CHALLENGE TYPES</strong><br><br>Combined (damage + all assists), Damage, Kills, Spotting, Wins, Survived<br><br><br><strong>HOW TO USE</strong><br><br>Start an offline challenge: Choose Co-Op or Race, the type, the number of battles and the target, then click START CHALLENGE. Click \"+ Save\" to keep the setup as a template and load it again with one click.<br>- If you leave a battle early, your progress from it stays on the list until its result arrives.<br>- The creator starts the challenge on the website and can end or delete it at any time.<br>- You get a notification when the challenge is won, passed or failed.<br><br><strong>SETTINGS</strong><br><br>- Screen corner of the minimized button<br>- Show challenge code: turn it off while streaming, so viewers can't join your challenge<br>&nbsp;</p><p><br>I always play challenges with my platoon mates, and each of us has to pick a new random tank for every battle. If you are interested in that too, have a look at my other mod: <a href=\"https://wgmods.net/7575/\">Random Tank Picker</a><br><br>If you need help, ask here: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a> (Official WoT Discord)<br><br>made by <strong>Z4imon</strong></p>",
       "installationGuideHtml": "<p>Move alle the files in the downloaded zip folder to you world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChallengesModTitleImage.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -21640,7 +21640,7 @@
       "source": "wgmods",
       "sourceId": "7369",
       "title": "TahenRatte skin",
-      "ownerUsername": "Snabb_xdxd",
+      "ownerUsername": "RenamedUser_141592653589",
       "languageCode": "en",
       "availableLanguageCodes": [
         "en"
@@ -37981,7 +37981,7 @@
       ],
       "recommended": true,
       "mark": 3.9,
-      "descriptionHtml": "<p>This is mod of crew voice, it is will make more funny in battles</p><p>Language of this mod: Vietnam</p><p>Mod voice cho lính bằng tiếng Việt&nbsp;</p><p>Bản mod này ngày xưa của anh Tùng chủ acc King_Metal bên NA làm ra với mục đích tạo độ hưng phấn khi chơi game WOT. Người đăng clip này chỉ làm lại mod từ các file âm thanh cũ cho phù hợp với bản hiện tại của WOT</p><p>Đặc điểm:</p><p>1) Chém gió phũ</p><p>2) Không dành cho người nghiêm túc</p><p>3) Do tên file mẫu của WG không đủ nên tôi đã lồng vài file âm thanh cũ (không biết cho vào đâu) vào chung 1 sự kiện (VD: Ngày xưa Teamkill thì mod sẽ nói \"Cản đường tao à\" bây giờ không còn Teamkill thì câu đó sẽ cho vào mục \"Kill Enemy\"...</p><p>Liên hệ làm mod voice cho crew (có tính phí): quanghung.1101@gmail.com</p><p>Zalo: 0399 873 706</p><p>ingame: 01_Destroyer (WOT ASIA)</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=lrb1t36ey4g&amp;feature=youtu.be&amp;ab_channel=WhereAreYou\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/lrb1t36ey4g\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "descriptionHtml": "<p>This is mod of crew voice, it is will make more funny in battles</p><p>Language of this mod: Vietnam</p><p>Mod voice cho lính bằng tiếng Việt&nbsp;</p><p>Bản mod này ngày xưa của anh Tùng chủ acc King_Metal bên NA làm ra với mục đích tạo độ hưng phấn khi chơi game WOT. Người đăng clip này chỉ làm lại mod từ các file âm thanh cũ cho phù hợp với bản hiện tại của WOT</p><p>Đặc điểm:</p><p>1) Chém gió phũ</p><p>2) Không dành cho người nghiêm túc</p><p>3) Do tên file mẫu của WG không đủ nên tôi đã lồng vài file âm thanh cũ (không biết cho vào đâu) vào chung 1 sự kiện (VD: Ngày xưa Teamkill thì mod sẽ nói \"Cản đường tao à\" bây giờ không còn Teamkill thì câu đó sẽ cho vào mục \"Kill Enemy\"...</p><p>Liên hệ làm mod voice cho crew (có tính phí): quanghung.1101@gmail.com</p><p>Zalo: 0399 873 706</p><p>ingame: 01_Destroyer (WOT ASIA)</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=VDpAR0GgXYQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/VDpAR0GgXYQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>VN: Giải nén &gt;&gt; Sao chép thư mục \"audioww\" vào: WOT/res_mods /Phiên bản hiện tại &nbsp;@Để âm thanh chế độ: Standard (VN = Chuẩn) &nbsp;</p><p>English:&nbsp;<br>INSTALLATION&nbsp;<br>Unzip and drop the \"audioww\" folder in WOT/res_mods/Current version&nbsp;<br><br>Make sure to have “Standard” voice activated:&nbsp;<br>Settings &gt; Sound &gt; Voice Messages in Battle &gt; “Standard”.&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Sound_-_Voice_Msg_in_Battle_-_Standard.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/5113/",
