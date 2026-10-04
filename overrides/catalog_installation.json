@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.009",
+  "catalogVersion": "v2026.10.010",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8001",
+      "title": "Gun sounds selector by TheOnlyApocalypse",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Copy all files to latest version floder under mods floder in game client floder."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: AI response is missing result for wgmods::7852.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7977",
@@ -179,6 +194,21 @@
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
         "decisionReason": "Guide requires removing an existing mod and supports optional variant replacement and custom config path steps, making it a destructive and multi-step process beyond a single supported install template.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7939",
+      "title": "MEGA - Make ESC Great Again!",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Download the file, open it, follow the path and paste the files in the correct folder - restart your game, done."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: AI response is missing result for wgmods::7852.",
         "deleteDataWgpdc": false
       }
     },
@@ -379,6 +409,21 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "7852",
+      "title": "Battle Debrief",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Installation World of Tanks vollständig beenden. Die Datei christansteifen.battle_debrief_1.3.0.wotmod nach World_of_Tanks_EU\\mods\\<aktuelle WoT-Version>\\ kopieren. Ältere Dateien mit dem Namen christansteifen.battle_debrief_*.wotmod aus diesem Versionsordner entfernen. World of Tanks neu starten. Anschließend wird Battle Debrief über den normalen Button für die Sitzungsstatistik im Hangar geöffnet."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: AI response is missing result for wgmods::7852.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "7927",
       "title": "Fuel Bill",
       "classificationInput": {
@@ -389,6 +434,21 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod into the current version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7908",
+      "title": "Garage audit",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Unpack the archive into the game folder — where WorldOfTanks.exe is. Start the game. On the first launch the client restarts itself once — that is openwg building its resource table, not a crash. After that the AUDIT button appears in the Garage footer. To remove the mod, delete wot_audit_log_1.1.0.wotmod file."
+      },
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "AI classification failed after 3 attempts: AI response is missing result for wgmods::7852.",
         "deleteDataWgpdc": false
       }
     },
@@ -4720,13 +4780,13 @@
       "sourceId": "7518",
       "title": "SHELEST SoundMod",
       "classificationInput": {
-        "latestFileExt": ".7z",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "1) Choose the desired voice pack version—go to the appropriate folder, copy everything inside the folder (the audioww folder and the gui folder), and move them to the worldOfTanks/res_mods/*current game version* folder 2) Launch the game and set the crew voice to “Standard” or ‘Shelest’ 3) Click the “Test” button—you should hear moans or the voices of anime girls speaking Japanese 4) Click “Into Battle” and enjoy) 5) To use the custom “Sixth Sense” sound, go to the game settings, select ‘Sounds’ > “Sixth Sense” > “Custom Version” The mod may have some bugs or not work; I would really appreciate your feedback) If you encounter bugs or the mod doesn’t work, please leave a comment under the video where I released this mod I’ve also added two versions—one with the phrase “Uncle Sasha” and one without, with the corresponding name) Peace and kindness to all of us! P.S. And remember—always stay human! P.S.S. Spread kindness in this world) Translated with DeepL.com (free version)"
       },
       "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
+        "installationTemplate": "Unknown",
         "installableByApp": false,
-        "decisionReason": "Archive package targets res_mods/<version> but requires choosing one of multiple voice pack versions before copying audioww and gui folders.",
+        "decisionReason": "AI classification failed after 3 attempts: AI response is missing result for wgmods::7852.",
         "deleteDataWgpdc": false
       }
     },
