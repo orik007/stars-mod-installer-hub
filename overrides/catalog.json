@@ -1,11 +1,85 @@
 {
-  "catalogVersion": "v2026.10.012",
-  "sourceHash": "2beb3f42a245657974d9242006788b2a14f408f36bc4fed2aac4b31aabe7bbd2",
+  "catalogVersion": "v2026.10.013",
+  "sourceHash": "a38d29545fd3b716cee9476e5e24558105edb380cb8dff111f18bdea9727fb00",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8003",
+      "title": "Classic Japanese Crew Voice",
+      "ownerUsername": "kuroneko502",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod restores the old Japanese crew voice.</p>",
+      "installationGuideHtml": "<p>Extract the archive into your World of Tanks installation directory.<br>直接解壓到你的WOT資料夾即可</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/8003/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Classic_Japanese_Crew_Voice_2.4.0.2.zip",
+          "updatedAt": "2026-10-05T14:26:59.542Z",
+          "sizeBytes": 8949453,
+          "fileName": "Classic_Japanese_Crew_Voice_2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Classic_Japanese_Crew_Voice_2.4.0.2.zip",
+        "modVersion": "1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8004",
+      "title": "ELC EVEN THE WOT TRIO HALLOWEEN",
+      "ownerUsername": "Jajamiomate_JA",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Boo</p>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/6w2mp5k.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8004/",
+      "tagIds": [
+        "16"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/elc_even_TWT_halloween.wotmod",
+          "updatedAt": "2026-10-05T14:22:12.487Z",
+          "sizeBytes": 27191978,
+          "fileName": "elc_even_TWT_halloween.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "elc_even_TWT_halloween.wotmod",
+        "modVersion": "1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8001",
@@ -376,6 +450,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "5.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Blitztr%C3%A4ger_auf_ION_exchanger_by_TheOnlyApocalypse_Ver_5.0.0.zip",
+          "updatedAt": "2026-10-05T14:29:40.852Z",
+          "sizeBytes": 295007078,
+          "fileName": "Blitzträger_auf_ION_exchanger_by_TheOnlyApocalypse_Ver_5.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "4.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Blitztr%C3%A4ger_auf_ION_exchanger_by_TheOnlyApocalypse_Ver_4.2.0.zip",
           "updatedAt": "2026-10-03T07:16:07.359Z",
@@ -406,8 +490,8 @@
         }
       ],
       "latest": {
-        "fileName": "Blitzträger_auf_ION_exchanger_by_TheOnlyApocalypse_Ver_4.2.0.zip",
-        "modVersion": "4.2.0",
+        "fileName": "Blitzträger_auf_ION_exchanger_by_TheOnlyApocalypse_Ver_5.0.0.zip",
+        "modVersion": "5.0.0",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -482,6 +566,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.4.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoE_Pro_1.4.1_WoT_2.4.0.2.zip",
+          "updatedAt": "2026-10-05T12:53:46.246Z",
+          "sizeBytes": 380452,
+          "fileName": "MoE_Pro_1.4.1_WoT_2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "• Fixed the percentage on tanks with a low mark (below 20 %): the mod showed, for example, 0.18 % where the game showed 3.60 %\n• The forecast is exact far more often. The mod now reads the damage distribution the way the game servers do, cuts the percentage to two decimals instead of rounding it, and works out which day's values the servers are on (they switch some hours after new ones are published). On 181 recorded battles, with the damage the server counted, the forecast is exact to the hundredth in 176 (73 in version 1.4.0); a morning battle, while the servers switch, can still be a few hundredths off\n• Chance of the next mark on a tank with few battles: it showed 0 % and \"1000+ battles\" for the first hundred battles or so. The mod now takes into account that the mark is still filling up\n• A tank whose mark is still at 0.00 % after its first battle gets its panels too"
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.4.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoE_Pro_1.4.0_WoT_2.4.0.1.zip",
@@ -503,10 +597,10 @@
         }
       ],
       "latest": {
-        "fileName": "MoE_Pro_1.4.0_WoT_2.4.0.1.zip",
-        "modVersion": "1.4.0",
-        "changeLog": "• Interface in 11 languages, all languages of the EU client; follows the game language or pick one in the settings\n• Mark history: page through every saved battle (up to 150 per tank) with the arrows in the details window\n• Exact letter widths for every language, so the columns stay aligned\n• The battle panel keeps its size: it no longer grows with your damage\n\n• Интерфейс на 11 языках, все языки клиента EU; выбирается по языку игры или в настройках\n• История отметки: все сохранённые бои (до 150 на танк) листаются стрелками в окне подробностей\n• Точная ширина букв для всех языков, колонки остаются ровными\n• Панель в бою больше не расширяется по мере роста урона",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "MoE_Pro_1.4.1_WoT_2.4.0.2.zip",
+        "modVersion": "1.4.1",
+        "changeLog": "• Fixed the percentage on tanks with a low mark (below 20 %): the mod showed, for example, 0.18 % where the game showed 3.60 %\n• The forecast is exact far more often. The mod now reads the damage distribution the way the game servers do, cuts the percentage to two decimals instead of rounding it, and works out which day's values the servers are on (they switch some hours after new ones are published). On 181 recorded battles, with the damage the server counted, the forecast is exact to the hundredth in 176 (73 in version 1.4.0); a morning battle, while the servers switch, can still be a few hundredths off\n• Chance of the next mark on a tank with few battles: it showed 0 % and \"1000+ battles\" for the first hundred battles or so. The mod now takes into account that the mark is still filling up\n• A tank whose mark is still at 0.00 % after its first battle gets its panels too",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1038,6 +1132,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.7.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShellDistributionLogger_1.7.1.zip",
+          "updatedAt": "2026-10-05T14:22:28.574Z",
+          "sizeBytes": 145945,
+          "fileName": "ShellDistributionLogger_1.7.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.7.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ShellDistributionLogger_1.7.1_J6Dgcyw.zip",
@@ -1059,10 +1163,10 @@
         }
       ],
       "latest": {
-        "fileName": "ShellDistributionLogger_1.7.1_J6Dgcyw.zip",
+        "fileName": "ShellDistributionLogger_1.7.1.zip",
         "modVersion": "1.7.1",
-        "changeLog": "- Added Heatmap toggle (for more than 100 shots logged)\n- Logs moved out of the mods folder to World_of_Tanks/shellLogger_local, so reinstalling mods or a modpack no longer deletes them. Existing logs are moved there automatically on the first start.\n- Minor UI improvements and readability fixes. UI scale reset hotkey: R",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1087,6 +1191,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.4.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/unicum.gg_0.4.1_AWJszKJ.zip",
+          "updatedAt": "2026-10-05T12:54:06.984Z",
+          "sizeBytes": 487841,
+          "fileName": "unicum.gg_0.4.1_AWJszKJ.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed: in the battle players list, the language flags no longer sit a couple of pixels above the badges beside them.\nFixed: on the loading screen, an image tag no longer shows for a moment next to the team names while the ratings are waiting for Alt."
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "0.4.0",
@@ -1129,10 +1243,10 @@
         }
       ],
       "latest": {
-        "fileName": "unicum.gg_0.4.0.zip",
-        "modVersion": "0.4.0",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "unicum.gg_0.4.1_AWJszKJ.zip",
+        "modVersion": "0.4.1",
+        "changeLog": "Fixed: in the battle players list, the language flags no longer sit a couple of pixels above the badges beside them.\nFixed: on the loading screen, an image tag no longer shows for a moment next to the team names while the ratings are waiting for Alt.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1423,6 +1537,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoT_Pedal_Accessibility_Driver_1.0.1_WoT_2.4.0.2_VVEc8R8.zip",
+          "updatedAt": "2026-10-05T14:22:20.965Z",
+          "sizeBytes": 18381,
+          "fileName": "WoT_Pedal_Accessibility_Driver_1.0.1_WoT_2.4.0.2_VVEc8R8.zip",
+          "fileExt": ".zip",
+          "changeLog": "Version 1.0.1 (2026-10-04)\n--------------------------\n- Game Compatibility: Verified compatibility with World of Tanks 2.4.0.2.\n- Device Detection: Added automatic device instance detection fallback for\n  Logitech G29 (VID_046D, PID_C24F) across any USB port/hub, eliminating the\n  need for manual instance ID editing on most systems.\n- 1-Click Installers: Added convenient Windows batch scripts:\n  * Install_WoTPedalDriver.bat (registers autostart background scheduled task)\n  * Uninstall_WoTPedalDriver.bat (cleanly stops and removes the task)\n  * Run_Directly.bat (run directly in console without scheduler)\n- Documentation: Added dedicated English (README_EN.txt) and Polish\n  (README_PL.txt) guides with MIT license."
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/WoT-Pedal-Accessibility-Driver.zip",
@@ -1434,10 +1558,10 @@
         }
       ],
       "latest": {
-        "fileName": "WoT-Pedal-Accessibility-Driver.zip",
-        "modVersion": "1.0",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "WoT_Pedal_Accessibility_Driver_1.0.1_WoT_2.4.0.2_VVEc8R8.zip",
+        "modVersion": "1.0.1",
+        "changeLog": "Version 1.0.1 (2026-10-04)\n--------------------------\n- Game Compatibility: Verified compatibility with World of Tanks 2.4.0.2.\n- Device Detection: Added automatic device instance detection fallback for\n  Logitech G29 (VID_046D, PID_C24F) across any USB port/hub, eliminating the\n  need for manual instance ID editing on most systems.\n- 1-Click Installers: Added convenient Windows batch scripts:\n  * Install_WoTPedalDriver.bat (registers autostart background scheduled task)\n  * Uninstall_WoTPedalDriver.bat (cleanly stops and removes the task)\n  * Run_Directly.bat (run directly in console without scheduler)\n- Documentation: Added dedicated English (README_EN.txt) and Polish\n  (README_PL.txt) guides with MIT license.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2670,6 +2794,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/negev_voice_1.0.1.wotmod",
+          "updatedAt": "2026-10-05T12:52:55.133Z",
+          "sizeBytes": 2112789,
+          "fileName": "negev_voice_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Update for version 2.4.0.2"
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/negev_voice_1.0.0_USDrKlI.wotmod",
@@ -2691,10 +2825,10 @@
         }
       ],
       "latest": {
-        "fileName": "negev_voice_1.0.0_USDrKlI.wotmod",
-        "modVersion": "1.0.0",
-        "changeLog": "Update for 2.4.0.1",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "negev_voice_1.0.1.wotmod",
+        "modVersion": "1.0.1",
+        "changeLog": "Update for version 2.4.0.2",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3369,7 +3503,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<figure class=\"image\"><img src=\"//wgmods.net/media/m_images/1d58347d-1de8-4d4e-a08a-bd96a7e806dc.png\"></figure><p><strong>Witblitz Contour Pack</strong></p><p>Now with two styles: Neon or Apex. After more than a decade, these contour icons are making a comeback for World of Tanks featuring tier, class, name, and designation formatting.</p><p><strong>Credits &amp; Acknowledgments:</strong></p><ul><li>Custom Icons: Witblitz</li><li>Compiled using Tank Icon Maker (TIM), <a href=\"https://github.com/rstarkov/TankIconMaker\">https://github.com/rstarkov/TankIconMaker</a></li><li>Anti-Mirror Mod: Based on the original anti-mirror implementation by night_dragon_on, with packaging, fixes, and support provided via Aslain.</li></ul><p>Heavies = Dark Grey | Mediums = Green | Lights = Yellow | Tank Destroyers = Blurple | Self Propelled Guns = Red</p><p><strong>Looking for the Originals?</strong></p><p>You can still find my original icon contours as part of <a href=\"https://wgmods.net/46/\">Aslain's WoT Modpack</a>.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/5994c663-0c76-4de2-bc47-dda9f4d0d06d.png\"></figure><p><br>&nbsp;</p>",
-      "installationGuideHtml": "<p>Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract straight into your main World of Tanks root folder. ie. \"\\mods\\2.4.0.1\\\"</p><p>Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended.</p><p>Note: Includes Aslain's Anti Mirror for corrected Enemy pane view.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/45c88794-8ea3-4e3d-a163-fddfc4c788e1.png\"></figure>",
+      "installationGuideHtml": "<p>Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract straight into your main World of Tanks root folder. ie. \"\\mods\\2.4.0.2\\\"</p><p>Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended.</p><p>Note: Includes Aslain's Anti Mirror for corrected Enemy pane view.</p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/45c88794-8ea3-4e3d-a163-fddfc4c788e1.png\"></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/front-page-presentation-ministack-3.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7866/",
       "tagIds": [
@@ -3377,21 +3511,21 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.4.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Witblitz_Contour_Pack_2.4.0.1.zip",
-          "updatedAt": "2026-09-22T17:43:35.920Z",
-          "sizeBytes": 23534963,
-          "fileName": "Witblitz_Contour_Pack_2.4.0.1.zip",
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.4.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Witblitz_Contour_Pack_2.4.0.2.zip",
+          "updatedAt": "2026-10-05T12:53:56.592Z",
+          "sizeBytes": 23608402,
+          "fileName": "Witblitz_Contour_Pack_2.4.0.2.zip",
           "fileExt": ".zip",
-          "changeLog": "Updated for 2.4.0.1"
+          "changeLog": "Updated for 2.4.0.2"
         }
       ],
       "latest": {
-        "fileName": "Witblitz_Contour_Pack_2.4.0.1.zip",
-        "modVersion": "2.4.0.1",
-        "changeLog": "Updated for 2.4.0.1",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Witblitz_Contour_Pack_2.4.0.2.zip",
+        "modVersion": "2.4.0.2",
+        "changeLog": "Updated for 2.4.0.2",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4737,6 +4871,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.21",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.21_full.zip",
+          "updatedAt": "2026-10-05T12:53:52.082Z",
+          "sizeBytes": 1182183,
+          "fileName": "hangar_carousel_classic_1.0.21_full.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Add verified native hangar bundle hashes for World of Tanks 2.4.0.2.\n- Update the classic carousel rental-filter patch and validation for the 2.4.0.2 bundle.\n- Include and validate the GameFace layout registration in built packages."
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0.20",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/hangar_carousel_classic_1.0.20_full.zip",
@@ -4768,10 +4912,10 @@
         }
       ],
       "latest": {
-        "fileName": "hangar_carousel_classic_1.0.20_full.zip",
-        "modVersion": "1.0.20",
-        "changeLog": "Refresh vehicle-card statistics when the client completes dossier or account-stats synchronization, including results arriving after returning to the hangar.\nInvalidate HCC's dossier cache before rebuilding the card-stat payload.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "hangar_carousel_classic_1.0.21_full.zip",
+        "modVersion": "1.0.21",
+        "changeLog": "- Add verified native hangar bundle hashes for World of Tanks 2.4.0.2.\n- Update the classic carousel rental-filter patch and validation for the 2.4.0.2 bundle.\n- Include and validate the GameFace layout registration in built packages.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -7623,7 +7767,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/research_G6747NB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -11731,6 +11875,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "3.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.challenges_2.4.0.2_3.3.zip",
+          "updatedAt": "2026-10-05T12:54:10.516Z",
+          "sizeBytes": 545691,
+          "fileName": "Z4imon.challenges_2.4.0.2_3.3.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "3.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.challenges_2.4.0.2_3.2.zip",
           "updatedAt": "2026-10-02T22:12:10.847Z",
@@ -11741,8 +11895,8 @@
         }
       ],
       "latest": {
-        "fileName": "Z4imon.challenges_2.4.0.2_3.2.zip",
-        "modVersion": "3.2",
+        "fileName": "Z4imon.challenges_2.4.0.2_3.3.zip",
+        "modVersion": "3.3",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -13523,7 +13677,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.4,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
@@ -13535,6 +13689,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.0.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Way_to_Valhalla_1.1.41.exe",
+          "updatedAt": "2026-10-05T14:22:33.231Z",
+          "sizeBytes": 161695794,
+          "fileName": "Way_to_Valhalla_1.1.41.exe",
+          "fileExt": ".exe",
+          "changeLog": "Mod version update , Fix audio"
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "2.0.1",
@@ -13587,10 +13751,10 @@
         }
       ],
       "latest": {
-        "fileName": "Way_to_Valhalla_1.1.38.exe",
-        "modVersion": "2.0.1",
-        "changeLog": "update to Game version",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Way_to_Valhalla_1.1.41.exe",
+        "modVersion": "2.0.2",
+        "changeLog": "Mod version update , Fix audio",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -14172,6 +14336,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "4.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.random_tank_picker_2.4.0.2_4.1.zip",
+          "updatedAt": "2026-10-05T12:54:03.372Z",
+          "sizeBytes": 487730,
+          "fileName": "Z4imon.random_tank_picker_2.4.0.2_4.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- bugfixes"
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "4.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.random_tank_picker_2.4.0.2_4.0.zip",
           "updatedAt": "2026-10-01T08:51:04.889Z",
@@ -14182,9 +14356,9 @@
         }
       ],
       "latest": {
-        "fileName": "Z4imon.random_tank_picker_2.4.0.2_4.0.zip",
-        "modVersion": "4.0",
-        "changeLog": "",
+        "fileName": "Z4imon.random_tank_picker_2.4.0.2_4.1.zip",
+        "modVersion": "4.1",
+        "changeLog": "- bugfixes",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -15679,7 +15853,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4,
       "descriptionHtml": "<p>This mod allows you to use an in-game interface to select from a large list of commander voices. It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation.&nbsp;</p>",
       "installationGuideHtml": "<p>Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to select the commander voices you would like to hear. Enjoy!</p><p>Please report any bugs to loadfastermods@ gmail</p>",
@@ -15689,6 +15863,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.4.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Commander-Selector-1.4.1-Installer.zip",
+          "updatedAt": "2026-10-05T14:22:35.993Z",
+          "sizeBytes": 573087,
+          "fileName": "Commander-Selector-1.4.1-Installer.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added Doom Commander voices."
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.4.0",
@@ -15741,10 +15925,10 @@
         }
       ],
       "latest": {
-        "fileName": "Commander-Selector-1.4.0-Installer.zip",
-        "modVersion": "1.4.0",
-        "changeLog": "Code improvements.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Commander-Selector-1.4.1-Installer.zip",
+        "modVersion": "1.4.1",
+        "changeLog": "Added Doom Commander voices.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -19160,7 +19344,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<h2>ENJOY WITH old battle results</h2><p>Replaces the new WoT 2.0 battle results screen with the previous layout.</p>",
       "installationGuideHtml": "<p>Copy wotmod file into mods/&lt;version&gt; folder</p>",
@@ -19170,6 +19354,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cilda.oldBattleResults_1.0.8_jAB3S5o.wotmod",
+          "updatedAt": "2026-10-05T12:34:19.708Z",
+          "sizeBytes": 17374,
+          "fileName": "cilda.oldBattleResults_1.0.8_jAB3S5o.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.0.8",
@@ -19219,23 +19413,13 @@
           "fileName": "cilda.oldBattleResults_1.0.7_2xEXrkR.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/cilda.oldBattleResults_1.0.7_2FzEngc.wotmod",
-          "updatedAt": "2026-09-11T13:56:10.292Z",
-          "sizeBytes": 17368,
-          "fileName": "cilda.oldBattleResults_1.0.7_2FzEngc.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "cilda.oldBattleResults_1.0.8_sxvzsn6.wotmod",
+        "fileName": "cilda.oldBattleResults_1.0.8_jAB3S5o.wotmod",
         "modVersion": "1.0.8",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -33341,6 +33525,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/German.Crew.rar",
+          "updatedAt": "2026-10-05T12:54:21.495Z",
+          "sizeBytes": 16267926,
+          "fileName": "German.Crew.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/German_Crew.rar",
@@ -33389,23 +33583,13 @@
           "fileName": "German_Crew_oVAei7V.rar",
           "fileExt": ".rar",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/German_Crew_kZ1Lopz.rar",
-          "updatedAt": "2026-09-11T13:21:19.671Z",
-          "sizeBytes": 16267926,
-          "fileName": "German_Crew_kZ1Lopz.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "German_Crew.rar",
+        "fileName": "German.Crew.rar",
         "modVersion": "1.1",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -45533,7 +45717,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4,
       "descriptionHtml": "<p><strong>ENGLISH</strong><br><strong>1D6 XVM MODPACK</strong> is a minimalist preconfigured pack containing the most “useful” mods. It is well for players who want to install only the essentials. An automatic installer takes care of everything and a modpack version checker will alert you in game when new version is available.<br>Pack complies with WG Fair Policy Rules.</p><p><strong>English Support</strong> and <strong>Updates</strong> available first on the<strong> 1D6 Modpack Discord :</strong> <a href=\"https://discord.gg/Bm6wnnjZa4\">Link</a></p><p><strong>FRANÇAIS</strong><br><strong>1D6 XVM MODPACK</strong> est un pack minimaliste pré-configuré regroupant les mods les plus “utiles”. Il s’adresse ainsi aux joueurs souhaitant installer l’essentiel simplement. Un installeur automatique s’occupe de tout et un vérificateur de version intégré au jeu se chargera de vous alerter en cas de nouvelle version.<br>Le pack est conforme à la politique de Fair Play WG.</p><p><strong>Support Français</strong> et <strong>Mises à jour</strong> disponibles en premier sur le serveur <strong>Discord 1D6 Modpack :</strong> <a href=\"https://discord.gg/Bm6wnnjZa4\">Lien</a></p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ddd8uV3kUMQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ddd8uV3kUMQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>1) Run Installer<br>2) Choose folder where World of Tanks is installed<br>3) Choose your features and mods<br>4) Click Next and Install</p>",
@@ -45543,6 +45727,16 @@
         "12"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.4.0C",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/1D6_XVM_ModPack_2.4.0c.exe",
+          "updatedAt": "2026-10-05T12:53:27.079Z",
+          "sizeBytes": 96882683,
+          "fileName": "1D6_XVM_ModPack_2.4.0c.exe",
+          "fileExt": ".exe",
+          "changeLog": "2 october 2026 - UPDATE 2.4.0c\nCompatible Wot 2.4.0.2\n- Update XVM 13.1.0.0093\n"
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "2.4.0B",
@@ -45595,10 +45789,10 @@
         }
       ],
       "latest": {
-        "fileName": "1D6_XVM_ModPack_2.4.0b.exe",
-        "modVersion": "2.4.0B",
-        "changeLog": "18 september 2026 - UPDATE 2.4.0b\nCompatible Wot 2.4.0.1\n- Update XVM 13.1.0.0088\n- Update PMOD 1.81.15",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "1D6_XVM_ModPack_2.4.0c.exe",
+        "modVersion": "2.4.0C",
+        "changeLog": "2 october 2026 - UPDATE 2.4.0c\nCompatible Wot 2.4.0.2\n- Update XVM 13.1.0.0093\n",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -46242,6 +46436,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "02",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
+          "updatedAt": "2026-10-05T12:29:13.479Z",
+          "sizeBytes": 64911621,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.4.0.2 #02 (05-10-2026):\n- Installer: restored missing fonts in some XVM configs and damage\n- Updated Contour icons: ASMA and ASMA with armor\n- Updated aim circle: More Visible (update for WoT 2.4.0.2)\n- Updated Classic Tank Carousel 1.0.21 (update for WoT 2.4.0.2, including the rented vehicles filter)\n- Updated Campaign Tracker 1.2.2 (added Simplified Chinese translation)\n- Updated Average Damage Log 1.1.7\n- Updated Mod Menu 2.1.02 (fixes for reset, hotkeys, dropdown lists and pictures; restores settings from backup if the file is lost)\n- Updated Hitmarker Pro 1.1.02, Custom Sixth Sense 1.1.02 and Crew Skills Pro 1.1.04 (replay fixes and improvements)\n- Updated Show vehicle body in the sniper view 2.1.03 (optimization)\n- Updated GUIFlash 0.6.7\n- Repacked mods by Aslain\n- Added Speed Panel by Aslain (shows your current speed and your vehicle's top forward and reverse speed in battle)\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "01",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_01.exe",
           "updatedAt": "2026-10-01T17:24:18.432Z",
@@ -46249,33 +46453,13 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_01.exe",
           "fileExt": ".exe",
           "changeLog": "v2.4.0.2 #01 (01-10-2026):\n- Updated Classic Tank Carousel (fixed the missing garage interface after the game update to 2.4.0.2)\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "00",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_00.exe",
-          "updatedAt": "2026-10-01T15:24:37.100Z",
-          "sizeBytes": 64419729,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_00.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.4.0.2 #00 (01-10-2026):\n- initial compatibility with WoT 2.4.0.2\n- Installer: on Install it now checks whether the game is running from the selected folder and asks you to close it first\n- Updated XVM 13.1.0_0093\n- Updated net.openwg.common 2.8.3\n- Updated The anti-mirror for non-XVM contour icons\n- Updated Change client language\n- Updated All crew sounds unlocker, Crew Voice Overrider, Crew sounds: Girls Und Panzer and Change All Voices\n- Updated Dispersion Reticle by Pruszko 3.1.12\n- Updated Centered minimap 1.3.1, Onslaught Rating Overlay 1.1.1, Vehicle Stat Inspector 2.0.5 and Garage FPS Uncapper 1.1\n- Updated Campaign Tracker 1.2.1\n- Updated Research Progress Bar by Zanju 1.4.5\n- Updated Average Damage Log 1.1.5\n- Updated Skins on destroyed vehicles\n- Added Crucible Auto Reset by Gravity_Assist"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "09",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.1_09.exe",
-          "updatedAt": "2026-09-27T18:02:25.030Z",
-          "sizeBytes": 64148073,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_09.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Updated Mod Menu 2.1.01 (ready for WoT 2.4.1.0; your settings are kept when a mod adds new options; fixed text under pictures in tooltips and settings not being saved with some mods)\n- Updated Effect Control 1.0.4\n- Updated Scheduled Personal Reserves 2.1.0 (added a way to keep schedulings active through multiple sessions and different accounts)\n- Updated Classic Tank Carousel 1.0.20 (fixed vehicle card statistics not refreshing after a battle)\n- Updated Expected Vehicle Values 2.05.001 (fixed the garage panel disappearing after its first drag on a fresh install; the panel can no longer be dragged off the top or bottom of the screen)\n- Added Depth of Field (by Aslain) (blurs the background like a camera lens, for screenshots and videos: in the garage and in replays, in battles only if you switch it on; focus on your vehicle, at a fixed distance or on the screen center, set separately for the arcade, sniper and artillery views; settings panel on CTRL+F9)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.1_09.exe",
-        "modVersion": "09",
-        "changeLog": "- Updated Updated Mod Menu 2.1.01 (ready for WoT 2.4.1.0; your settings are kept when a mod adds new options; fixed text under pictures in tooltips and settings not being saved with some mods)\n- Updated Effect Control 1.0.4\n- Updated Scheduled Personal Reserves 2.1.0 (added a way to keep schedulings active through multiple sessions and different accounts)\n- Updated Classic Tank Carousel 1.0.20 (fixed vehicle card statistics not refreshing after a battle)\n- Updated Expected Vehicle Values 2.05.001 (fixed the garage panel disappearing after its first drag on a fresh install; the panel can no longer be dragged off the top or bottom of the screen)\n- Added Depth of Field (by Aslain) (blurs the background like a camera lens, for screenshots and videos: in the garage and in replays, in battles only if you switch it on; focus on your vehicle, at a fixed distance or on the screen center, set separately for the arcade, sniper and artillery views; settings panel on CTRL+F9)\n",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
+        "modVersion": "02",
+        "changeLog": "v2.4.0.2 #02 (05-10-2026):\n- Installer: restored missing fonts in some XVM configs and damage\n- Updated Contour icons: ASMA and ASMA with armor\n- Updated aim circle: More Visible (update for WoT 2.4.0.2)\n- Updated Classic Tank Carousel 1.0.21 (update for WoT 2.4.0.2, including the rented vehicles filter)\n- Updated Campaign Tracker 1.2.2 (added Simplified Chinese translation)\n- Updated Average Damage Log 1.1.7\n- Updated Mod Menu 2.1.02 (fixes for reset, hotkeys, dropdown lists and pictures; restores settings from backup if the file is lost)\n- Updated Hitmarker Pro 1.1.02, Custom Sixth Sense 1.1.02 and Crew Skills Pro 1.1.04 (replay fixes and improvements)\n- Updated Show vehicle body in the sniper view 2.1.03 (optimization)\n- Updated GUIFlash 0.6.7\n- Repacked mods by Aslain\n- Added Speed Panel by Aslain (shows your current speed and your vehicle's top forward and reverse speed in battle)\n",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
