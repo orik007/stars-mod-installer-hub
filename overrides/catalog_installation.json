@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.012",
+  "catalogVersion": "v2026.10.013",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8003",
+      "title": "Classic Japanese Crew Voice",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extract the archive into your World of Tanks installation directory. 直接解壓到你的WOT資料夾即可"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide says to extract into the World of Tanks installation directory/root folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8004",
+      "title": "ELC EVEN THE WOT TRIO HALLOWEEN",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Plain .wotmod package with empty guide defaults to copying into mods/<version>.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8001",
@@ -1103,12 +1133,12 @@
       "title": "Witblitz Contour Pack",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract straight into your main World of Tanks root folder. ie. \"\\mods\\2.4.0.1\\\" Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
+        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract straight into your main World of Tanks root folder. ie. \"\\mods\\2.4.0.2\\\" Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
       },
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Archive requires a blocking manual choice between mutually exclusive style variants before extracting to the game folder.",
+        "decisionReason": "Archive package requires choosing one mutually exclusive style variant before extracting, which is a blocking manual package choice.",
         "deleteDataWgpdc": false
       }
     },
