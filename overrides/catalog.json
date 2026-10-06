@@ -1,11 +1,123 @@
 {
-  "catalogVersion": "v2026.10.013",
-  "sourceHash": "a38d29545fd3b716cee9476e5e24558105edb380cb8dff111f18bdea9727fb00",
+  "catalogVersion": "v2026.10.014",
+  "sourceHash": "c435d23cefd595c0f345d8232fc9b3d0653e4b1a8fb69e94dc8a21e4647d7f1d",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8006",
+      "title": "Replay Cinema | Functional replays Timeline",
+      "ownerUsername": "RedTailFloofer",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>This mod has been created by ElProjektRED with the assistance of Claude AI&nbsp;<br>-------&nbsp;<br>Feel free to support me on twitch or YouTube: twitch.tv/elprojektred or youTube.com/c/Projektred1&nbsp;<br><br>-------&nbsp;<br>What this mod does is that enables a timeline in the replay to navigate more freely... due to the way the game saves the replays it's quite limited to go back in it and sometimes the game could crash (seems the game generates and destroys the world, so in order to go back it has to be reconstructed or something)&nbsp;<br><br>It also adds timestamps in the timeline for some events in the game, such as: Damage caused, Damage received, Kill (A small \"x\" if happened to one of your team or an enemy and a big \"X\" if you did the kill), also a dot if you shooted.&nbsp;<br><br>It has some compatibility with the free camera mod by goofy67 that allows you to set a path with the free camera (which is fkn cool for some cinematic style footage, montages, etc.)&nbsp;<br><br>By the way, the way the replay is saved, the mod wasn't able to show all the highlights on the timeline, we tried a way but was too annoying to be doing because it required using CMD, now the game does itself at the start of the match. Usually takes a few seconds for the game to preload those highlights in the match (if you toogle the timeline on at the start you can see that it says \"Analyzing N%\", after that the markers on the timeline appear)&nbsp;<br><br>---Keybinds---&nbsp;<br><br>Timeline:&nbsp;<br><br>- Toogle timeline on/off: &nbsp;Ctrl + T (Once toogled on, you can left ctrl click over it to navigate the replay)&nbsp;<br>- Go to the last marker: &nbsp; Ctrl + N&nbsp;<br>- Go to the next marker: &nbsp;Ctrl + M&nbsp;<br><br>Free camera compatibility:&nbsp;<br><br>- Start recording (\"add\" keyframe): &nbsp;F9 &nbsp;(Once pressed the game starts recording the path, so when your movement ends just press F9 again)&nbsp;<br>- Delete all keyframes: &nbsp; Ctrl + F9&nbsp;<br>- Reproduce path: &nbsp; &nbsp;F10 &nbsp;(For this you must be in the free camera mode)&nbsp;<br><br><br>--------------&nbsp;<br><br>As for the crashes... I'm still trying to figure out why they happen, they're not quite often and usually happen because of a heavy demand of the resources (when you go far back on a replay or if the game has a ton of events to register)</p><p>&nbsp;</p>",
+      "installationGuideHtml": "<p>Just copy the .wotmod file to your game mod's folder in the actual version:<br><br>For example<br>F:\\Games\\World_of_Tanks_NA_\\mods\\2.4.0.2</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/miniaturaxD.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8006/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.10.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ReplayCinema_0.10.0_byElProjektRED.wotmod",
+          "updatedAt": "2026-10-06T12:37:09.126Z",
+          "sizeBytes": 88882,
+          "fileName": "ReplayCinema_0.10.0_byElProjektRED.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ReplayCinema_0.10.0_byElProjektRED.wotmod",
+        "modVersion": "0.10.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7980",
+      "title": "Gunmarks: Reticle",
+      "ownerUsername": "H17M4N",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A reticle of your own for arcade and sniper mode, with its own aiming circle and penetration indicator.</p><p><strong>What it does</strong></p><p>- Reload and HP gauges as arcs, angles, slanted lines or bars, the reload time, a net across the centre, the shells left and the distance to your target.</p><p>- An aiming circle that shows whether the shot will penetrate.</p><p>- Size, line weight, opacity and your own colours, colour blind ones too; seven ready-made looks.</p><p>- Set up on a live preview at battle size, sniper mode with the arcade settings or its own.</p><p><strong>Everything else</strong></p><p>Every feature and setting, screenshots, what is good to know and the full changelog: <a href=\"https://gunmarks.app/mod/reticle\">https://gunmarks.app/mod/reticle</a></p><p>Our website, with World of Tanks statistics and Marks of Excellence requirements: <a href=\"https://gunmarks.app\">https://gunmarks.app</a></p><p><strong>Support and feedback</strong></p><p>Need help, have a question or an idea for the mod? Join the gunmarks.app Discord server: <a href=\"https://discord.gg/5YSQCag9Qr\">https://discord.gg/5YSQCag9Qr</a></p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.reticle_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>One file:</strong> nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod.</p><p><strong>Updating, coming from an older version, or removing the mod:</strong> <a href=\"https://gunmarks.app/mod/reticle\">https://gunmarks.app/mod/reticle</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_qTP2q2C.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7980/",
+      "tagIds": [
+        "15"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_reticle_0.1.0.1_wot2.4.0.2_cqncHHG.zip",
+          "updatedAt": "2026-10-06T11:48:05.422Z",
+          "sizeBytes": 560320,
+          "fileName": "gunmarks_reticle_0.1.0.1_wot2.4.0.2_cqncHHG.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gunmarks_reticle_0.1.0.1_wot2.4.0.2_cqncHHG.zip",
+        "modVersion": "0.1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8007",
+      "title": "Fall Tanks exhaust",
+      "ownerUsername": "Vik3Y__",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Tanks exhaust from Fall Tanks arcade mode&nbsp;<br><br>Exchanges standard smoke&nbsp;<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. &nbsp;<br><br>Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/GGGGGGGG.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8007/",
+      "tagIds": [
+        "21",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/fall_tanks_exhaust_aKmmyeN.wotmod",
+          "updatedAt": "2026-10-06T10:17:40.614Z",
+          "sizeBytes": 6032262,
+          "fileName": "fall_tanks_exhaust_aKmmyeN.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "fall_tanks_exhaust_aKmmyeN.wotmod",
+        "modVersion": "1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8003",
@@ -64,6 +176,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ELC_EVEN_TWT_HALLOWEEN.wotmod",
+          "updatedAt": "2026-10-06T14:14:46.605Z",
+          "sizeBytes": 27891408,
+          "fileName": "ELC_EVEN_TWT_HALLOWEEN.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed skin vanising at long distance."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/elc_even_TWT_halloween.wotmod",
           "updatedAt": "2026-10-05T14:22:12.487Z",
@@ -74,9 +196,9 @@
         }
       ],
       "latest": {
-        "fileName": "elc_even_TWT_halloween.wotmod",
-        "modVersion": "1.0",
-        "changeLog": "",
+        "fileName": "ELC_EVEN_TWT_HALLOWEEN.wotmod",
+        "modVersion": "1.1",
+        "changeLog": "Fixed skin vanising at long distance.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -131,14 +253,24 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>In Onslaught, your team's Role Skill charges beside their tanks in the side panel, all the time.</p><p><strong>What it does</strong></p><p>- Beside each ally's tank in the players panel: the role's icon with its three charge pips under it, as many lit as the charge level. Exactly what the Tab screen shows, without holding Tab.</p><p>- A destroyed tank's Role Skill is dimmed, as in the Tab screen.</p><p>- Or, if you prefer, left to the game: only in the Tab screen and on the markers with Alt.</p><p>- Moved left or right to the pixel.<br>&nbsp;</p><p><strong>Settings with a preview</strong></p><p>The gear on the Gunmarks panel in the garage opens the settings. The Team lists tab shows three rows of the side panel with the Role Skills where they will stand. Changes apply from the next battle.<br>&nbsp;</p><p><strong>Good to know</strong></p><p>- Your team only. The game does not send the enemy team's charge levels to your computer, so there is nothing to show for them.</p><p>- Onslaught only. In other battles the mod loads nothing.</p><p>- The damage log moves a little to the right when it would cover the charges, and back when they go.</p><p>- The download includes Gunmarks Core (the part every Gunmarks mod shares) and openwg_gameface.</p><p>- On the first start the game restarts once by itself: openwg_gameface is adding the mod's pages to the game.</p><p>- Works beside the other Gunmarks mods: Marks of Excellence, Onslaught and Distance to tanks.<br>&nbsp;</p><p>Not affiliated with Wargaming.</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.roleskills_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>With another Gunmarks mod installed: </strong>extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it.</p><p><strong>To remove the mod:</strong> delete app.gunmarks.roleskills_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings stay in mods\\configs\\app.gunmarks.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_pyIxAQH.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>In Onslaught, your team's Role Skill charges beside their tanks in the side panel, all the time.</p><p><strong>What it does</strong></p><p>- Each ally's Role Skill and its charge level, as the Tab screen shows them, without holding Tab.</p><p>- After the tank icon or before it, moved to the pixel; or left to the game.</p><p>- Set up on a preview of the side panel in each of its sizes.</p><p>- Your team only, and in Onslaught only: the game sends no one's computer the enemy's charge levels.</p><p><strong>Everything else</strong></p><p>Every feature and setting, screenshots, what is good to know and the full changelog: <a href=\"https://gunmarks.app/mod/role-skills\">https://gunmarks.app/mod/role-skills</a></p><p>Our website, with World of Tanks statistics and Marks of Excellence requirements: <a href=\"https://gunmarks.app\">https://gunmarks.app</a></p><p><strong>Support and feedback</strong></p><p>Need help, have a question or an idea for the mod? Join the gunmarks.app Discord server: <a href=\"https://discord.gg/5YSQCag9Qr\">https://discord.gg/5YSQCag9Qr</a></p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.roleskills_0.2.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>One file:</strong> nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod.</p><p><strong>Updating, coming from an older version, or removing the mod:</strong> <a href=\"https://gunmarks.app/mod/role-skills\">https://gunmarks.app/mod/role-skills</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_x7B7GCo.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7977/",
       "tagIds": [
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_roleskills_0.2.0.37_wot2.4.0.2.zip",
+          "updatedAt": "2026-10-06T11:48:02.291Z",
+          "sizeBytes": 230936,
+          "fileName": "gunmarks_roleskills_0.2.0.37_wot2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "The mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nNew setting, Place: the Role Skills after the tank icon, or before it, between the tank's name and its icon.\nThe offset now goes from -400 to 400 px.\nThe preview shows the side panel in the size you use in battle, with a switch for its other sizes.\nThe settings page has a tab for each Gunmarks mod, under its name, and lists each with its own version.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "0.1.1",
@@ -161,9 +293,9 @@
         }
       ],
       "latest": {
-        "fileName": "gunmarks_0.1.1.36_wot2.4.0.2_roleskills.zip",
-        "modVersion": "0.1.1",
-        "changeLog": "Shown next to PMOD and XVM, which Aslain's modpack and ProMod install. Their changes to the battle's team lists had kept the charge levels from the mod, so nothing showed.\nThe offset now goes up to 160 px, far enough to clear the HP bars that other side-panel mods draw beside the tanks.\nWhen nothing could be shown in an Onslaught battle, game.log now says why.",
+        "fileName": "gunmarks_roleskills_0.2.0.37_wot2.4.0.2.zip",
+        "modVersion": "0.2.0",
+        "changeLog": "The mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nNew setting, Place: the Role Skills after the tank icon, or before it, between the tank's name and its icon.\nThe offset now goes from -400 to 400 px.\nThe preview shows the side panel in the size you use in battle, with a switch for its other sizes.\nThe settings page has a tab for each Gunmarks mod, under its name, and lists each with its own version.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -178,14 +310,24 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>How far each spotted tank is from yours, written on its marker.</p><p><strong>What it does</strong></p><p>- The distance in metres on the marker of every spotted tank, as plain text in the game's own font.</p><p>- Shown always, or only while Alt is held.</p><p>- For every tank, for the enemies only or for your team only.</p><p>- As 312 m, 312 or 312.4 m.</p><p>- Right or left of the name, above the marker or under the tank icon, and moved from there to the pixel.</p><p>- Updated five times a second. None on destroyed tanks.</p><p>- Once your tank is destroyed, it is measured from the tank you are watching.<br>&nbsp;</p><p><strong>Settings with a preview</strong></p><p>The gear on the Gunmarks panel in the garage opens the settings. The Distance tab shows the distance on the game's own sample markers, with your own marker settings and colours, normally and with Alt, so you can set it up before a battle. Changes apply from the next battle.<br>&nbsp;</p><p><strong>Good to know</strong></p><p>- The mod replaces the game's vehicle markers file with a rebuild of it that can also draw the distance. A mod that replaces or changes the vehicle markers too cannot run beside it: use one or the other.</p><p>- The rebuild is made for one exact game build. After a game update the mod switches itself off until its own update for that build is out: the markers are then the game's own, and the settings page says why.</p><p>- No distance in event modes that bring their own markers.</p><p>- Only tanks you can see have a distance: the mod reads the markers the game already shows.</p><p>- To stop showing it, untick \"Distance to tanks\" in the settings. To go back to the game's own markers file, delete the mod's file.</p><p>- The download includes Gunmarks Core (the part every Gunmarks mod shares) and openwg_gameface.</p><p>- On the first start the game restarts once by itself: openwg_gameface is adding the mod's pages to the game.</p><p>- Works beside the other Gunmarks mods: Marks of Excellence, Onslaught and Role Skill charges.<br>&nbsp;</p><p>Not affiliated with Wargaming.</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.distance_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>With another Gunmarks mod installed: </strong>extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it.</p><p><strong>To remove the mod: </strong>delete app.gunmarks.distance_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings stay in mods\\configs\\app.gunmarks.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_MQlX2zy.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>The distance to every spotted tank, on its marker, in the game's own font.</p><p><strong>What it does</strong></p><p>- Always or with Alt; for every tank, the enemies or your team; as 312 m, 312 or 312.4 m.</p><p>- Beside the name, above the marker or under it, moved to the pixel.</p><p>- Set up on a preview of the game's own sample markers, with your marker settings.</p><p><strong>Everything else</strong></p><p>Every feature and setting, screenshots, what is good to know and the full changelog: <a href=\"https://gunmarks.app/mod/distance\">https://gunmarks.app/mod/distance</a></p><p>Our website, with World of Tanks statistics and Marks of Excellence requirements: <a href=\"https://gunmarks.app\">https://gunmarks.app</a></p><p><strong>Support and feedback</strong></p><p>Need help, have a question or an idea for the mod? Join the gunmarks.app Discord server: <a href=\"https://discord.gg/5YSQCag9Qr\">https://discord.gg/5YSQCag9Qr</a></p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.distance_0.2.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>One file:</strong> nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod.</p><p><strong>Updating, coming from an older version, or removing the mod:</strong> <a href=\"https://gunmarks.app/mod/distance\">https://gunmarks.app/mod/distance</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_m5gs9uC.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7978/",
       "tagIds": [
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_distance_0.2.0.37_wot2.4.0.2_CyDOst5.zip",
+          "updatedAt": "2026-10-06T11:47:51.746Z",
+          "sizeBytes": 561221,
+          "fileName": "gunmarks_distance_0.2.0.37_wot2.4.0.2_CyDOst5.zip",
+          "fileExt": ".zip",
+          "changeLog": "The mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nThe settings page has a tab for each Gunmarks mod, under its name, and lists each with its own version.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "0.1.1",
@@ -208,9 +350,9 @@
         }
       ],
       "latest": {
-        "fileName": "gunmarks_0.1.1.36_wot2.4.0.2_distance.zip",
-        "modVersion": "0.1.1",
-        "changeLog": "No longer switches off XVM's markers. When another mod brings vehicle markers of its own, the mod leaves the markers to it and the settings page says why.\nSteadier next to other mods that change the game's markers, whichever starts first.",
+        "fileName": "gunmarks_distance_0.2.0.37_wot2.4.0.2_CyDOst5.zip",
+        "modVersion": "0.2.0",
+        "changeLog": "The mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nThe settings page has a tab for each Gunmarks mod, under its name, and lists each with its own version.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -225,15 +367,25 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Your Onslaught season at a glance: rank, rating, last battles and full statistics, in the Onslaught garage and in battle.</p><p><strong>In the Onslaught garage</strong></p><p>- Your rank emblem and your rating against the top of your division.</p><p>- Your record, average damage and average Prestige Points over your last 5 to 10 battles (you choose how many).</p><p>- Those battles one by one: result, map, tank, damage, Prestige Points and rating change.</p><p>- Drag the panel by its header to put it anywhere; its arrow folds it to one line.<br>&nbsp;</p><p><strong>Statistics</strong></p><p>\"Sessions, maps and tanks\" on the panel opens a full-screen page of every battle the mod has recorded:<br>&nbsp;</p><p>- <strong>Sessions:</strong> your battles grouped into play sessions, each with its duration, win rate, damage, Prestige Points and rating change, and every session battle by battle with the tanks each team banned.</p><p>- <strong>Maps:</strong> every map with win rate, damage, assisted damage, enemies spotted, kills, Prestige Points and rating change, each also from spawn 1 and from spawn 2, and the tank banned most often there.</p><p>- <strong>Tanks:</strong> every tank you played, from each spawn, and how often it was banned.<br>&nbsp;</p><p>Every column sorts with a click; the best line is in gold.<br>&nbsp;</p><p><strong>In battle</strong></p><p>- A small panel with your rank, your rating and your last rating changes.</p><p>- Hold Alt for your last battles. Hold Ctrl and drag to move the panel.<br>&nbsp;</p><p><strong>Good to know</strong></p><p>- Rated battles are recorded from the moment the mod is installed, the last 1,000 of them, on your computer only.</p><p>- Damage, Prestige Points and bans come from a battle's full results. The game loads those after a battle you played to the end, or when you open its results; until then the line shows a dash.</p><p>- \"Reset Onslaught history\" in the settings forgets every recorded battle.</p><p>- After a battle, Esc closes the Onslaught results right away, without a click first.</p><p>- The download includes Gunmarks Core (the part every Gunmarks mod shares) and openwg_gameface.</p><p>- On the first start the game restarts once by itself: openwg_gameface is adding the mod's pages to the game.</p><p>- With Marks of Excellence installed too, the two share one battle panel: each shows in its own battles.<br>&nbsp;</p><p>Not affiliated with Wargaming.</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.onslaught_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>With another Gunmarks mod installed:</strong> extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it.</p><p><strong>To remove the mod:</strong> delete app.gunmarks.onslaught_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings and recorded battles stay in mods\\configs\\app.gunmarks.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_ED78BeT.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>Your Onslaught season at a glance: rank, rating, last battles and full statistics, in the Onslaught garage and in battle.</p><p><strong>What it does</strong></p><p>- <strong>In the Onslaught garage:</strong> your rank and rating, the rating you won or lost this session, and your last 5 to 10 battles with their damage, Prestige Points and rating change.</p><p>- <strong>Statistics:</strong> every recorded battle by session, map and tank, each also from each spawn, with the tanks banned.</p><p>- <strong>In battle:</strong> your rank, your session and your last rating changes. Your last battles in full with Alt, always or never.</p><p>- <strong>Settings:</strong> a preview of both panels that follows every switch.</p><p><strong>Everything else</strong></p><p>Every feature and setting, screenshots, what is good to know and the full changelog: <a href=\"https://gunmarks.app/mod/onslaught\">https://gunmarks.app/mod/onslaught</a></p><p>Our website, with World of Tanks statistics and Marks of Excellence requirements: <a href=\"https://gunmarks.app\">https://gunmarks.app</a></p><p><strong>Support and feedback</strong></p><p>Need help, have a question or an idea for the mod? Join the gunmarks.app Discord server: <a href=\"https://discord.gg/5YSQCag9Qr\">https://discord.gg/5YSQCag9Qr</a></p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.onslaught_0.2.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>**One file:**</strong> nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod.</p><p><strong>**Updating, coming from an older version, or removing the mod:**</strong> <a href=\"https://gunmarks.app/mod/onslaught\">https://gunmarks.app/mod/onslaught</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_9ZoN9Hu.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7976/",
       "tagIds": [
         "18",
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_onslaught_0.2.0.37_wot2.4.0.2.zip",
+          "updatedAt": "2026-10-06T11:47:55.412Z",
+          "sizeBytes": 232620,
+          "fileName": "gunmarks_onslaught_0.2.0.37_wot2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "Your session beside your rating, in the garage and in battle: the rating you won or lost over your battles since you started playing.\nBattle panel: a setting shows your last battles with Alt, always or never.\nThe mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nSettings: a tab for each Gunmarks mod under its name, each listed with its own version, and a preview of the garage panel and of the battle panel beside their settings.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "0.1.1",
@@ -256,9 +408,9 @@
         }
       ],
       "latest": {
-        "fileName": "gunmarks_0.1.1.36_wot2.4.0.2_onslaught.zip",
-        "modVersion": "0.1.1",
-        "changeLog": "Steadier next to other mods, such as those of Aslain's modpack and ProMod, whichever starts first.\ngame.log now names an openwg_gameface that cannot show the Gunmarks panels on this game version, and the one to install.",
+        "fileName": "gunmarks_onslaught_0.2.0.37_wot2.4.0.2.zip",
+        "modVersion": "0.2.0",
+        "changeLog": "Your session beside your rating, in the garage and in battle: the rating you won or lost over your battles since you started playing.\nBattle panel: a setting shows your last battles with Alt, always or never.\nThe mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nSettings: a tab for each Gunmarks mod under its name, each listed with its own version, and a preview of the garage panel and of the battle panel beside their settings.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -273,15 +425,25 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Your Marks of Excellence where you need them: in the garage for the tank you selected, and live in Random battles.</p><p><strong>In the garage</strong></p><p>- The selected tank's MoE percentage and the marks on its gun, the next mark filling up as you get closer.</p><p>- Your pace: your average combined damage over your last 10 battles in the tank, and how many battles at that pace the next mark is away. It starts after 3 battles in a tank.</p><p>- The combined damage needed for 65, 85, 95 and 100 %, from gunmarks.app (EU and NA servers).</p><p>- The tank's Random battles: battles, win rate, average damage and assisted damage.</p><p>- Drag the panel by its header to put it anywhere; its arrow folds it to one line.</p><p><strong>In battle</strong></p><p>- A small panel with your MoE, what it would be if the battle ended now, and the change in green or red.</p><p>- This battle's combined damage, the damage that keeps your MoE and the damage for the next whole percent.</p><p>- Hold Alt for the damage each mark takes. Hold Ctrl and drag to move the panel.</p><p>- Only in the battles that count for marks: Random battles.</p><p><strong>Settings</strong></p><p>The gear on the garage panel opens the settings on a page of their own: what the panel shows, the battle panel on or off, and each panel back in its place with one click.</p><p><strong>Good to know</strong></p><p>- The download includes Gunmarks Core (the part every Gunmarks mod shares) and openwg_gameface.</p><p>- On the first start the game restarts once by itself: openwg_gameface is adding the mod's pages to the game.</p><p>- On servers other than EU and NA the panel shows your MoE without the damage for each mark.</p><p>- The live figure in battle is an estimate from what the game reports during the battle; the server counts the battle itself afterwards.</p><p>- No panel in replays.</p><p>- Works beside the other Gunmarks mods: Onslaught, Distance to tanks and Role Skill charges.<br>&nbsp;</p><p>Not affiliated with Wargaming.</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.core_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.randoms_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>With another Gunmarks mod installed:</strong> extract this one over it. Gunmarks Core is the same file in each. If another mod already brought net.openwg.gameface, keep one copy of it.</p><p><strong>To remove the mod:</strong> delete app.gunmarks.randoms_0.1.0.wotmod. To remove Gunmarks altogether, delete the app.gunmarks folder. Your settings stay in mods\\configs\\app.gunmarks.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_H7qTD96.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>Your Marks of Excellence where you need them: in the garage for the tank you selected, live in Random battles, and battle by battle in a history of your own.</p><p><strong>What it does</strong></p><p>- <strong>In the garage:</strong> the selected tank's MoE and the marks on its gun, your moving average and your pace, what your last battle and your session did to it, the damage each mark takes, and a goal.</p><p>- <strong>In battle:</strong> your MoE live, what it would be if the battle ended now, and your damage and assisted damage apart. Hold Alt for more.</p><p>- <strong>MoE history:</strong> every recorded battle by tank and by session, a tank's MoE as a chart, and what each mark takes.</p><p>- <strong>Settings:</strong> a switch for every line of both panels, with a preview that follows each.</p><p><strong>Everything else</strong></p><p>Every feature and setting, screenshots, what is good to know and the full changelog: <a href=\"https://gunmarks.app/mod/marks-of-excellence\">https://gunmarks.app/mod/marks-of-excellence</a></p><p>Our website, with World of Tanks statistics and Marks of Excellence requirements: <a href=\"https://gunmarks.app\">https://gunmarks.app</a></p><p><strong>Support and feedback</strong></p><p>Need help, have a question or an idea for the mod? Join the gunmarks.app Discord server: <a href=\"https://discord.gg/5YSQCag9Qr\">https://discord.gg/5YSQCag9Qr</a></p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.moe_0.2.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>One file:</strong> nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod.</p><p><strong>Updating, coming from an older version, or removing the mod:</strong> <a href=\"https://gunmarks.app/mod/marks-of-excellence\">https://gunmarks.app/mod/marks-of-excellence</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_O5baqC6.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7979/",
       "tagIds": [
         "18",
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_moe_0.2.0.37_wot2.4.0.2.zip",
+          "updatedAt": "2026-10-06T11:47:58.923Z",
+          "sizeBytes": 284665,
+          "fileName": "gunmarks_moe_0.2.0.37_wot2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "The mod is one file now, app.gunmarks.moe_0.2.0.wotmod, with its own version and updates: delete the old app.gunmarks.randoms_0.1.1.wotmod and, once every Gunmarks mod you have is updated, app.gunmarks.core_0.1.1.wotmod. Your settings and recorded battles are carried over.\nGarage panel: your moving average, what your last battle and your session did to the MoE, and a Goal section (the average damage to reach a mark in 10, 20 or 50 battles).\nMoE history: a page of its own with your recorded battles by tank and by session, a tank's MoE as a chart, and what each mark takes.\nBattle panel: your damage and assisted damage apart, green above your average; your average and each kind of assistance with Alt.\nSettings: a tab for each Gunmarks mod under its name; a switch for every line of both panels, with a preview of each.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "0.1.1",
@@ -304,9 +466,9 @@
         }
       ],
       "latest": {
-        "fileName": "gunmarks_0.1.1.36_wot2.4.0.2_randoms.zip",
-        "modVersion": "0.1.1",
-        "changeLog": "Steadier next to other mods, such as those of Aslain's modpack and ProMod, whichever starts first.\ngame.log now names an openwg_gameface that cannot show the Gunmarks panels on this game version, and the one to install.",
+        "fileName": "gunmarks_moe_0.2.0.37_wot2.4.0.2.zip",
+        "modVersion": "0.2.0",
+        "changeLog": "The mod is one file now, app.gunmarks.moe_0.2.0.wotmod, with its own version and updates: delete the old app.gunmarks.randoms_0.1.1.wotmod and, once every Gunmarks mod you have is updated, app.gunmarks.core_0.1.1.wotmod. Your settings and recorded battles are carried over.\nGarage panel: your moving average, what your last battle and your session did to the MoE, and a Goal section (the average damage to reach a mark in 10, 20 or 50 battles).\nMoE history: a page of its own with your recorded battles by tank and by session, a tank's MoE as a chart, and what each mark takes.\nBattle panel: your damage and assisted damage apart, green above your average; your average and each kind of assistance with Alt.\nSettings: a tab for each Gunmarks mod under its name; a switch for every line of both panels, with a preview of each.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -438,9 +600,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<h2>Blitzträger auf ION Exchanger</h2><p>Think <strong>Projekt ION</strong> still isn't electrifying enough? Then give this mod a try!</p><p><strong>Blitzträger auf ION Exchanger</strong> transforms Projekt ION with the iconic sounds and visual effects of the <strong>Blitzträger auf E 110</strong>, bringing the atmosphere of the legendary Waffenträger event into regular battles.Want to feel like the boss for once? Simply select <strong>Blitzträger auf ION</strong> from the in-game mod menu and turn your Projekt ION into a true high-voltage war machine.</p><p>Four Gun Sound Options<br>The mod includes four different firing sound modes, which can be freely selected from the mod menu:<br><strong>BT E 110 Standard Shot</strong> – uses the Blitzträger auf E 110's regular firing sound.<br><strong>BT E 110 EMP Shot</strong> – uses the electromagnetic pulse shell firing sound.<br><strong>Sequential Mode</strong> – alternates between the two firing sounds.<br><strong>Random Mode</strong> – randomly plays one of the two sounds each time you fire.<br>Whether you prefer the classic heavy blast of the BT E 110 or the distinctive sound of its EMP weapon, there should be an option that suits you.</p><p>Three Appearance Options<br>You can also choose between three visual configurations for Projekt ION:<br><strong>Projekt ION</strong><br>The original in-game appearance, using the default client configuration.<br><strong>Projekt ION (Evolution)</strong><br>An enhanced version of the original Projekt ION skin. It retains Projekt ION's original color scheme while adding the upgraded visual effects found in Blitzträger auf ION.<br><strong>Blitzträger auf ION</strong><br>The full transformation. Projekt ION's glowing effects are changed to the signature <strong>BT E 110 blue</strong>, accompanied by a wide range of additional electrical and combat effects, including enhanced projectile trails, electromagnetic charging effects, muzzle effects, shields, teleportation effects, electrical discharges, hit and penetration effects, and the BT E 110's destruction effects.</p><p>When using <strong>Blitzträger auf ION</strong> or <strong>Projekt ION (Evolution)</strong>, the battle introduction focuses exclusively on your vehicle, while battle music is replaced with randomly selected tracks from the BT E 110 event maps.</p><p>Turn Projekt ION into something more than just a futuristic tank.</p><p>If you find any bugs or have suggestions, feel free to contact me:</p><p><strong>Email:</strong> <a href=\"mailto:2551549074@qq.com\">2551549074@qq.com</a></p><p><strong>Become the Blitzträger.</strong></p>",
+      "descriptionHtml": "<p><strong>Blitzträger auf ION exchanger by TheOnlyApocalypse Ver 5.0.0</strong></p><p><strong>AWAKEN THE ELECTRIC BEAST.</strong></p><p>Bring the <strong>sound, electricity, and atmosphere</strong> of the BT E110 to your Projekt ION.<br>Blitzträger auf ION exchanger gives Projekt ION a complete audiovisual makeover in World of Tanks, adding <strong>electric arcs, charge effects, event-style sounds, music, filters, and more</strong>.</p><p><strong>THREE VISUAL MODES. </strong>YOUR ION, YOUR STYLE.<br>• Projekt ION — restores the vehicle's original sounds and effects.<br>• Projekt ION (evolution) — keeps ION's signature orange energy while adding enhanced electromagnetic effects.<br>• Blitzträger auf ION — transforms the added effects with BT E110-inspired blue electricity.</p><p><strong>FOUR GUN SOUND MODES.</strong><br>In either enhanced visual mode, choose Normal shell, Electromagnetic shell, Mix shell (in order), or Mix shell (random) to customize the sound of every shot.</p><p><strong>CHARGE EFFECTS THAT FOLLOW YOUR MAGAZINE.</strong><br>Four C-shaped charge rings and two pairs of translucent energy cylinders <strong>respond to your magazine state</strong>. Effects fade progressively after firing and disappear when the magazine is empty or reloading, with a short afterglow for smoother transitions.</p><p>A MORE ELECTRIC BATTLEFIELD PRESENCE.<br>Teleport effects, shield deployment and fading, shield feedback on non-penetrating hits, damage-triggered short-circuit arcs, EOS 1-inspired electrical discharges, and event-style destruction effects bring your ION to life.</p><p>A FLASH TO MARK YOUR KILL.<br>Destroying an enemy triggers <strong>a charge-and-fire effect from the small electromagnetic gun on the commander's cupola</strong>, including electricity, sound, and fading energy. Its color matches your selected visual mode.</p><p>EVENT <strong>MUSIC</strong>, <strong>FILTERS</strong>, AND <strong>SHOWCASE EFFECTS</strong>.<br>Randomized event intro and battle music are included, along with separate victory and defeat result tracks. The opening showcase focuses on your ION and its small electromagnetic gun.</p><p>You can also apply the Siegfried Line, Redshire, or Steppes BT E110 event-map filter, or select None to retain your client filter settings.<br>Choose your visuals, gun sounds, and filters in the MOD settings menu.<br>From the garage to the battlefield — awaken your electric beast.<br>For Projekt ION in World of Tanks. Shields and auxiliary-gun animations are audiovisual effects only; they provide no protection or firepower and do not affect vehicle performance. Follow the release's installation and compatibility instructions.<br><br>If you find any bugs or have suggestions, feel free to contact me:</p><p><strong>Email:</strong> <a href=\"mailto:2551549074@qq.com\">2551549074@qq.com</a></p>",
       "installationGuideHtml": "<p>copy all files to mods/the latest version</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/b282c6c8-44a5-4fa9-adee-670641577239.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_%E5%9B%BE%E5%83%8F_2026%E5%B9%B410%E6%9C%886%E6%97%A5_00_00_42.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7964/",
       "tagIds": [
         "16",
@@ -3209,6 +3371,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.4.0.2.2.0.7.zip",
+          "updatedAt": "2026-10-06T14:58:42.917Z",
+          "sizeBytes": 925998,
+          "fileName": "gravity.vehicle_stat_inspector.2.4.0.2.2.0.7.zip",
+          "fileExt": ".zip",
+          "changeLog": "Keeps sandbox changes when the drawer is reopened, adds resolved Tier XI upgrade descriptions, and shows BV-111 External Ammo Feed shell damage and speed values with matching upgrade previews."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "2.0.6",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.vehicle_stat_inspector.2.4.0.2.2.0.6.zip",
           "updatedAt": "2026-10-04T11:30:30.153Z",
@@ -3229,9 +3401,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.vehicle_stat_inspector.2.4.0.2.2.0.6.zip",
-        "modVersion": "2.0.6",
-        "changeLog": "Darkens the statistics-page background, corrects Tier XI shell-damage upgrade values, and prevents duplicate engine-fire-chance tooltip entries after repeatedly toggling the fire concealment penalty.",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.0.2.2.0.7.zip",
+        "modVersion": "2.0.7",
+        "changeLog": "Keeps sandbox changes when the drawer is reopened, adds resolved Tier XI upgrade descriptions, and shows BV-111 External Ammo Feed shell damage and speed values with matching upgrade previews.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7273,6 +7445,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.7.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch.zip",
+          "updatedAt": "2026-10-06T12:35:59.534Z",
+          "sizeBytes": 570581,
+          "fileName": "overmatch.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added personal Onslaught Rating and statistics tracking.\nAdded battle-start Loadout capture for ammunition, consumables, directives, field modifications, and vehicle upgrades.\nCombined replay uploads, Loadout capture, and Onslaught tracking into one mod.\nMoved settings to ModMenu, included in the ZIP."
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.6.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Overmatch-1.6.0-WoT-2.4.0.1.zip",
@@ -7321,23 +7503,13 @@
           "fileName": "overmatch_2GiKubg.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.5.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_dwBv0XV.zip",
-          "updatedAt": "2026-09-13T19:34:40.687Z",
-          "sizeBytes": 295619,
-          "fileName": "overmatch_dwBv0XV.zip",
-          "fileExt": ".zip",
-          "changeLog": "Linking your account is now a one-click button in the mod settings — Link or Unlink, with a clear status showing whether you're connected.\nFixed battle results for games you leave early or never open sometimes popping up over a newer battle — they're now captured quietly in the background."
         }
       ],
       "latest": {
-        "fileName": "Overmatch-1.6.0-WoT-2.4.0.1.zip",
-        "modVersion": "1.6.0",
-        "changeLog": "- Updated the installer for World of Tanks 2.4.0.1.\n- Supporters can create highlights from a button below the battle rewards, when in-game requests are enabled.\n- Get an in-game notification when your highlight is ready, with a link to watch it.\n- The linked mod syncs your exact Marks of Excellence percentage, crew skills and equipment to your private Statistics and replay details.\n- See your exact Marks of Excellence change for new Random Battles.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "overmatch.zip",
+        "modVersion": "1.7.0",
+        "changeLog": "Added personal Onslaught Rating and statistics tracking.\nAdded battle-start Loadout capture for ammunition, consumables, directives, field modifications, and vehicle upgrades.\nCombined replay uploads, Loadout capture, and Onslaught tracking into one mod.\nMoved settings to ModMenu, included in the ZIP.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -7857,7 +8029,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.1,
+      "mark": 4,
       "descriptionHtml": "<p>The main advantage of this modpack is its automatic updates. Install it just once, and everything else is taken care of for you. Whenever a new game update is released, the modpack will automatically prompt you to install the latest version and replace the old one.</p><p>This modpack includes:</p><ul><li>Enhanced crosshairs</li><li>Convenient spotting indicators</li><li>Useful battle markers</li><li>Informative interface panels</li><li>An optimized user interface</li><li>And many more carefully selected and battle-tested mods</li></ul>",
       "installationGuideHtml": "<p>Installation is quick and easy. Everything is intuitive and straightforward.</p><p>You can find the complete modpack installation guide here:<br>&nbsp;</p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/DNBs-6KS7gg\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/DNBs-6KS7gg\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail_-_2026-06-19T180148.962222-hq-scale-2_00x.jpeg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -8321,6 +8493,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.9.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd.dynpl.v1.9.5.wotmod",
+          "updatedAt": "2026-10-06T14:44:32.003Z",
+          "sizeBytes": 53072,
+          "fileName": "mjrd.dynpl.v1.9.5.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "- found a dumb logic and make it smarter"
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.9.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
@@ -8369,23 +8551,13 @@
           "fileName": "mjrd_dynpl_v1.7.0_mCWvbHl.zip",
           "fileExt": ".zip",
           "changeLog": "Added the mod to the Aslain´s Modsettings UI\nAdded \"# Ace Tanker\" list: vehicles without an Ace Tanker badge, with a tier range slider to narrow it down.\nMerged the separate .wotmod files back into a single mjrd_dynpl.wotmod, now fully configurable through Mod Settings+. Every list can be toggled individually; near-mark window and TXI XP threshold are adjustable; Weekly split into three toggleable priority Groups and can set the range of the Tier for the ACE Tanker list.\nadded Force Rebuild"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "00",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/the_dynamic_playlist_mod_1.4.4_1Vnuqnk.zip",
-          "updatedAt": "2026-09-12T12:59:30.861Z",
-          "sizeBytes": 58207,
-          "fileName": "the_dynamic_playlist_mod_1.4.4_1Vnuqnk.zip",
-          "fileExt": ".zip",
-          "changeLog": "no changes needed to run with the new patch."
         }
       ],
       "latest": {
-        "fileName": "mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
-        "modVersion": "1.9.2",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "mjrd.dynpl.v1.9.5.wotmod",
+        "modVersion": "1.9.5",
+        "changeLog": "- found a dumb logic and make it smarter",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8992,6 +9164,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "3.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.2.3.1.0.wotmod",
+          "updatedAt": "2026-10-06T17:05:18.666Z",
+          "sizeBytes": 1299363,
+          "fileName": "gravity.camo_selector.2.4.0.2.3.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Added GIF and animated WebP support for custom camouflages and projection decals, with animated previews and playback in the hangar, Exterior, and battles. Also improved loading for long animations and fixed duplicate custom assets."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "3.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.2.3.0.0.wotmod",
           "updatedAt": "2026-09-30T20:24:29.103Z",
@@ -9002,9 +9184,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.0.2.3.0.0.wotmod",
-        "modVersion": "3.0.0",
-        "changeLog": "",
+        "fileName": "gravity.camo_selector.2.4.0.2.3.1.0.wotmod",
+        "modVersion": "3.1.0",
+        "changeLog": "Added GIF and animated WebP support for custom camouflages and projection decals, with animated previews and playback in the hangar, Exterior, and battles. Also improved loading for long animations and fixed duplicate custom assets.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -10603,6 +10785,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.5.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crosshair.ballistics.info.2.4.0.2.1.5.1.zip",
+          "updatedAt": "2026-10-06T10:13:20.959Z",
+          "sizeBytes": 312172,
+          "fileName": "gravity.crosshair.ballistics.info.2.4.0.2.1.5.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "Made the crosshair ballistics overlay move smoothly while dragging."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "1.5",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.crosshair.ballistics.info.2.4.0.2.1.5.zip",
           "updatedAt": "2026-09-30T20:24:29.358Z",
@@ -10613,9 +10805,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.crosshair.ballistics.info.2.4.0.2.1.5.zip",
-        "modVersion": "1.5",
-        "changeLog": "",
+        "fileName": "gravity.crosshair.ballistics.info.2.4.0.2.1.5.1.zip",
+        "modVersion": "1.5.1",
+        "changeLog": "Made the crosshair ballistics overlay move smoothly while dragging.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -13678,7 +13870,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.4,
+      "mark": 3.3,
       "descriptionHtml": "<p>1)ENG&nbsp;<br><br>2)UA&nbsp;<br><br>1) This modpack is built around a functional minimalist approach for World of Tanks. It includes only tested and truly useful modifications that improve gameplay comfort and client performance.&nbsp;<br><br>The pack contains essential interface elements such as the spotted indicator (Sixth Sense lamp), vehicle markers, HWM and other helpful battle interface mods. It also includes optimization tweaks and FPS-friendly modifications designed to improve performance, especially for lower-end PCs.&nbsp;<br><br>A unique feature of the modpack is the voice-over from a Ukrainian streamer. This is one of the first Ukrainian streamer voice packs created specifically for World of Tanks.&nbsp;<br><br>The modpack follows a strict balance principle: nothing unnecessary and nothing missing. All mods are compactly integrated, keeping the interface clean while improving gameplay comfort, stability and performance.&nbsp;<br><br>2) Цей модпак створений у стилі функціонального мінімалізму для World of Tanks. У ньому присутні лише перевірені та дійсно корисні модифікації, які покращують зручність гри та продуктивність клієнта.&nbsp;<br><br>У модпак входять необхідні елементи інтерфейсу: індикатор засвіту (лампочка), маркери техніки, HWM та інші моди, що допомагають швидше орієнтуватися в бою. Також присутні оптимізаційні модифікації та налаштування, спрямовані на підвищення FPS, що особливо корисно для слабших комп'ютерів.&nbsp;<br><br>Особливістю модпаку є унікальна озвучка українського стримера. Це одна з перших озвучок українського стримера, створених спеціально для World of Tanks.&nbsp;<br><br>Модпак зібраний за принципом строгого балансу: нічого зайвого, нічого відсутнього. Усі моди компактно інтегровані, не перевантажують інтерфейс і допомагають зробити геймплей зручнішим, стабільнішим і приємнішим.</p>",
       "installationGuideHtml": "<p>Run the modpack installer. In the language selection window choose Ukrainian or English and press OK. In the next window press Next.&nbsp;<br><br>On the first page it is recommended to select Full removal of installed modifications and Save selected settings. Then choose the mods you want to install. The main module and its dependent mods must be selected, otherwise some modifications may not work.&nbsp;<br><br>On the next pages choose the additional mods you need. The pack includes a custom Sixth Sense indicator, efficiency panel and other useful gameplay mods. The automatic consumables activation mod is recommended.&nbsp;<br><br>On the final page you can choose voice packs. It is recommended to install Voice Manager, which allows changing voice packs directly in the garage.&nbsp;<br><br>After selecting everything press Next → Install → Finish.&nbsp;<br><br>If you have any issues or questions about the modpack, contact Telegram support of the channel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28_%D0%B1%D0%B5%D1%80._2026_%D1%80._23_11_42_1_gFD68D2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -15854,7 +16046,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 4.1,
       "descriptionHtml": "<p>This mod allows you to use an in-game interface to select from a large list of commander voices. It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). One commander from this group can be excluded. Players can also activate a favorites option where up to five different commanders can be custom selected and will be played in rotation.&nbsp;</p>",
       "installationGuideHtml": "<p>Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to select the commander voices you would like to hear. Enjoy!</p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Commander_Selector_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -20645,6 +20837,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.12",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.12.wotmod",
+          "updatedAt": "2026-10-06T10:13:25.845Z",
+          "sizeBytes": 21338,
+          "fileName": "pruszko.responsive_reticle_1.0.12.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Version 1.0.12 comes with removed reticle lock during shooting which happens for roughly 150 ms (it is vanilla WoT normal logic) due to it being too much noticeable with this mod."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "1.0.11",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.11_kNTGNMV.wotmod",
           "updatedAt": "2026-10-01T17:13:07.299Z",
@@ -20692,22 +20894,12 @@
           "fileName": "pruszko.responsive_reticle_1.0.10_YUooK8z.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Updated for WoT 2.3.1.2"
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "1.0.10",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/pruszko.responsive_reticle_1.0.10_ncpSziE.wotmod",
-          "updatedAt": "2026-09-11T13:48:01.636Z",
-          "sizeBytes": 21724,
-          "fileName": "pruszko.responsive_reticle_1.0.10_ncpSziE.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Updated for WoT 2.3.1.1"
         }
       ],
       "latest": {
-        "fileName": "pruszko.responsive_reticle_1.0.11_kNTGNMV.wotmod",
-        "modVersion": "1.0.11",
-        "changeLog": "",
+        "fileName": "pruszko.responsive_reticle_1.0.12.wotmod",
+        "modVersion": "1.0.12",
+        "changeLog": "Version 1.0.12 comes with removed reticle lock during shooting which happens for roughly 150 ms (it is vanilla WoT normal logic) due to it being too much noticeable with this mod.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -39620,7 +39812,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.3,
       "descriptionHtml": "<p>Guns Sound Mod</p><p>&nbsp;</p><p>Sounds of guns of different calibers</p><p>If you appreciate my work and input, you can support me :</p><p><a href=\"https://wgmods.net/5178/\">War Mod</a></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord Channel</a></p>",
       "installationGuideHtml": "<p>Unpack the file and paste it into the game's main directory, the res_mods folder</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/2560x1600_pfcP2a2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
