@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.015",
+  "catalogVersion": "v2026.10.016",
   "mods": [
     {
       "source": "wgmods",
@@ -639,21 +639,6 @@
       "classificationInput": {
         "latestFileExt": ".wotmod",
         "latestInstallGuide": ""
-      },
-      "installationProcess": {
-        "installationTemplate": "Unknown",
-        "installableByApp": false,
-        "decisionReason": "AI classification failed after 3 attempts: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7842",
-      "title": "Poppy Field Hangar (Remembrance Day)",
-      "classificationInput": {
-        "latestFileExt": ".exe",
-        "latestInstallGuide": "1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right: 2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG): 3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation: *the Hangar Switcher must be downloaded to activate the hangar in the game"
       },
       "installationProcess": {
         "installationTemplate": "Unknown",
@@ -1364,21 +1349,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "Plain .wotmod package and guide points to mods/<version>.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7841",
-      "title": "Forest Hangar from WoT 1.0 (hangar_v3)",
-      "classificationInput": {
-        "latestFileExt": ".exe",
-        "latestInstallGuide": "1. If you're reading this and don't understand Russian—which is entirely possible—you'll need to go to “Settings” and select English from the language menu on the right: 2. My mods are compatible with two regions. So first, you'll need to select the region you want to download the mod for by clicking on the globe (it's probably WG): 3. After selecting a region, proceed to the installation. Select the hangar you want (or any of my other hangars, if you prefer). Proceed with the installation: *the Hangar Switcher must be downloaded to activate the hangar in the game"
-      },
-      "installationProcess": {
-        "installationTemplate": "RunExternalInstaller",
-        "installableByApp": false,
-        "decisionReason": ".exe package with installer UI steps and region/component selection.",
         "deleteDataWgpdc": false
       }
     },
