@@ -1,48 +1,11 @@
 {
-  "catalogVersion": "v2026.10.014",
-  "sourceHash": "c435d23cefd595c0f345d8232fc9b3d0653e4b1a8fb69e94dc8a21e4647d7f1d",
+  "catalogVersion": "v2026.10.015",
+  "sourceHash": "9026c820d9a26be3cb5fa159d8e537e7e8afb2d00d23816c2271fac5300a7420",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
-    {
-      "source": "wgmods",
-      "sourceId": "8006",
-      "title": "Replay Cinema | Functional replays Timeline",
-      "ownerUsername": "RedTailFloofer",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>This mod has been created by ElProjektRED with the assistance of Claude AI&nbsp;<br>-------&nbsp;<br>Feel free to support me on twitch or YouTube: twitch.tv/elprojektred or youTube.com/c/Projektred1&nbsp;<br><br>-------&nbsp;<br>What this mod does is that enables a timeline in the replay to navigate more freely... due to the way the game saves the replays it's quite limited to go back in it and sometimes the game could crash (seems the game generates and destroys the world, so in order to go back it has to be reconstructed or something)&nbsp;<br><br>It also adds timestamps in the timeline for some events in the game, such as: Damage caused, Damage received, Kill (A small \"x\" if happened to one of your team or an enemy and a big \"X\" if you did the kill), also a dot if you shooted.&nbsp;<br><br>It has some compatibility with the free camera mod by goofy67 that allows you to set a path with the free camera (which is fkn cool for some cinematic style footage, montages, etc.)&nbsp;<br><br>By the way, the way the replay is saved, the mod wasn't able to show all the highlights on the timeline, we tried a way but was too annoying to be doing because it required using CMD, now the game does itself at the start of the match. Usually takes a few seconds for the game to preload those highlights in the match (if you toogle the timeline on at the start you can see that it says \"Analyzing N%\", after that the markers on the timeline appear)&nbsp;<br><br>---Keybinds---&nbsp;<br><br>Timeline:&nbsp;<br><br>- Toogle timeline on/off: &nbsp;Ctrl + T (Once toogled on, you can left ctrl click over it to navigate the replay)&nbsp;<br>- Go to the last marker: &nbsp; Ctrl + N&nbsp;<br>- Go to the next marker: &nbsp;Ctrl + M&nbsp;<br><br>Free camera compatibility:&nbsp;<br><br>- Start recording (\"add\" keyframe): &nbsp;F9 &nbsp;(Once pressed the game starts recording the path, so when your movement ends just press F9 again)&nbsp;<br>- Delete all keyframes: &nbsp; Ctrl + F9&nbsp;<br>- Reproduce path: &nbsp; &nbsp;F10 &nbsp;(For this you must be in the free camera mode)&nbsp;<br><br><br>--------------&nbsp;<br><br>As for the crashes... I'm still trying to figure out why they happen, they're not quite often and usually happen because of a heavy demand of the resources (when you go far back on a replay or if the game has a ton of events to register)</p><p>&nbsp;</p>",
-      "installationGuideHtml": "<p>Just copy the .wotmod file to your game mod's folder in the actual version:<br><br>For example<br>F:\\Games\\World_of_Tanks_NA_\\mods\\2.4.0.2</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/miniaturaxD.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/8006/",
-      "tagIds": [
-        "18"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "0.10.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ReplayCinema_0.10.0_byElProjektRED.wotmod",
-          "updatedAt": "2026-10-06T12:37:09.126Z",
-          "sizeBytes": 88882,
-          "fileName": "ReplayCinema_0.10.0_byElProjektRED.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "ReplayCinema_0.10.0_byElProjektRED.wotmod",
-        "modVersion": "0.10.0",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
     {
       "source": "wgmods",
       "sourceId": "7980",
@@ -5375,7 +5338,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.7,
+      "mark": 5,
       "descriptionHtml": "<p><strong>WOT Tactic Bridge</strong> brings shared tactical plans from the <strong>Tank Helper Discord bot</strong> directly to the standard World of Tanks minimap.</p><p>Designed for <strong>training sessions, tournaments and team battles</strong>, the mod connects your game to <strong>WOT Tactic</strong> — Tank Helper’s collaborative planning app. The room creator selects the map, while participants with drawing permission can update the plan almost in real time, even when they are not in the battle.</p><p><strong>Supported elements:</strong></p><ul><li>Freehand drawings, straight lines and arrows.</li><li>Circles.</li><li>Solid, dashed and dotted lines.</li><li>Tactical icons for <strong>heavy tanks, medium tanks, tank destroyers, light tanks and SPGs</strong>.</li><li>Colours and line styles selected in the planning room.</li></ul><p>Drawings automatically adapt to the minimap size and disappear when it is hidden. Optional automatic removal lets each new drawing remain visible for <strong>1–60 seconds</strong>.</p><p><strong>Get started with Tank Helper:</strong></p><ol><li><a href=\"https://discord.com/oauth2/authorize?client_id=1526732455942422718&amp;integration_type=1&amp;scope=applications.commands\"><strong>Add Tank Helper to Discord</strong></a>.</li><li>Open the <strong>Tank Helper app</strong> in Discord and select <strong>WOT Tactic</strong>.</li><li>Create or join a planning room and copy its <strong>shared display key</strong>.</li><li>In the game’s hangar, open <strong>Mod settings → WOT Tactic Bridge</strong>, paste the key and save.</li></ol>",
       "installationGuideHtml": "<ol><li>Close World of Tanks.</li><li>Copy WOT_Tactic_Bridge_0.2.5.wotmod to&nbsp;<br><i>World_of_Tanks_EU/mods/&lt;game version&gt;/.</i></li><li>In WOT Tactic, click <strong>Display drawings</strong> and copy the room key.</li><li>Launch the game, paste the key into the mod settings and apply it before battle.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/wot-tactic-cover.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -9152,7 +9115,7 @@
       ],
       "recommended": true,
       "mark": 4.5,
-      "descriptionHtml": "<h2><strong>⚠️ The mod does not allow you to buy customization items you normally cannot buy.</strong></h2><p><strong>🎨 Universal Customization</strong></p><p>Customize vehicles with almost any customization element in the game:</p><p>• 2D styles • Camouflages • Paints • Decals<br>• 3D styles • Progressive 3D styles • 3D attachments<br>• Inscriptions • Emblems • Effects</p><p>Mix and match elements to create vehicle appearances that are normally not possible.</p><p><strong>🌐 Style Share</strong></p><p>Other players who use Camo Selector can see your custom battle appearance. Style Share is enabled by default and can be changed in Exterior. Players without the mod will see the normal appearance.</p><p>Local custom asset files are not transferred through Style Share.</p><p><strong>✨ Creations</strong></p><p>Open Exterior and click “<i><strong>Creations (open)</strong></i>” to save and manage complete vehicle designs.</p><p>You can:<br>• Save, apply, refresh and duplicate Creations<br>• Add titles, descriptions, tags and classifications<br>• Search and import approved public Creations<br>• Publish your own Creations for review<br>• Publish and import individual assets through the Asset Library<br>• Publish and import complete Vehicle Presets</p><p>Creations and Vehicle Presets can include the custom local assets they require. When imported, the required assets are installed locally and automatically remapped for your client.</p><p>Nothing is uploaded automatically. Your local assets and Creations remain private unless you explicitly publish them.</p><p>Vehicle Presets are locked after import so they remain identical to the approved version, but can be duplicated into an editable local Creation.</p><p><i>Public gallery / Asset Library:</i><br><a href=\"https://camoselector.wot-tools.dev/\">https://camoselector.wot-tools.dev/</a></p><p><strong>🧩 Custom Assets</strong></p><p>Open Exterior and click “Custom Assets (open)” to create or import:</p><p>• Emblems • Inscriptions • Projection decals<br>• Camouflages • Paints</p><p>PNG/JPG files can be converted automatically where supported. DDS files are validated; DXT5 / BC3 with mipmaps is recommended.</p><p>Projection decal ratios:<br>• 1:1 • 1:2 • 1:3 • 1:4 • 1:6</p><p>Custom camouflages support scale, rotation, exact numeric input and palette-based colour/transparency with up to 3 palettes. Custom paints support colour, gloss and metallic values.</p><p><strong>🛠️ How to use</strong></p><p>•&nbsp;Open Exterior.<br>•&nbsp;Apply any camouflage you own.<br>•&nbsp;Purchase/confirm it and leave Exterior.<br>•&nbsp;Open Exterior again.<br>•&nbsp;Apply any style, camo, paint, decal, attachment, inscription, emblem or effect.<br>•&nbsp;Leave Exterior with Escape.<br>•&nbsp;Switching from an applied 2D style into custom editing keeps the 2D style appearance.</p><p><strong>✨ Recommended</strong></p><p><i>Clean Camo:</i><br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><p><i>Extra Style Filters:</i><br><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><p>Support / Questions / Suggestions:<br><a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Patreon:<br><a href=\"https://www.patreon.com/c/Gravity_Assist\">https://www.patreon.com/c/Gravity_Assist</a></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/WnMGZgt9Xqk\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/WnMGZgt9Xqk\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "descriptionHtml": "<h2><strong>⚠️ Purchase safety</strong></h2><p>Camo Selector does not let you purchase customization items that you could not normally buy or apply. Preview-only and local customization changes remain local.</p><h2><strong>🎨 Universal Customization</strong></h2><p>Customize vehicles with a much wider selection of customization elements:</p><p>• 2D styles<br>• Camouflages and paints<br>• Projection decals and legacy decals<br>• Inscriptions and emblems<br>• Compatible 3D and progressive 3D styles<br>• 3D attachments, personal numbers, stat trackers and effects</p><p>Compatible unowned 3D styles can be selected for local customization, but their normal vehicle and model restrictions still apply.</p><p>A 3D style can be combined with projection decals, emblems and inscriptions. Selecting an incompatible category replaces the 3D style.</p><p>Decals, emblems and inscriptions still require genuine placement slots on the selected vehicle.</p><h2><strong>🌐 Style Share</strong></h2><p>Other players using Camo Selector can see your shared custom appearance in battle.</p><p>Style Share is enabled by default and can be switched on or off from Exterior.</p><p>Outfits containing local custom assets remain local-only. Their texture files are not transmitted through Style Share, and players without the mod see the normal server appearance.</p><h2><strong>✨ Creations</strong></h2><p>Open Exterior, click <strong>Custom Assets (open)</strong> and select the <strong>Creations</strong> tab.</p><p>You can:</p><p>• Save, apply, refresh and duplicate complete vehicle designs<br>• Add titles, descriptions, tags and classifications<br>• Search and import approved public Creations<br>• Publish your own Creations for moderation<br>• Publish and import individual Asset Library items<br>• Publish and import complete Vehicle Presets</p><p>Creations and Vehicle Presets can include the local custom assets they require. Imported assets are installed locally and automatically remapped for your client.</p><p>Imported Vehicle Presets remain locked so that they stay identical to the approved version. You can duplicate one into an editable local Creation.</p><p>Nothing from your Asset Library or Creations collection is published publicly unless you explicitly choose to publish it.</p><p><i>Public gallery and Asset Library:</i><br><a href=\"https://camoselector.wot-tools.dev/\">https://camoselector.wot-tools.dev/</a></p><h2><strong>🧩 Custom Assets</strong></h2><p>Open Exterior and click <strong>Custom Assets (open)</strong> to create or import:</p><p>• Emblems<br>• Inscriptions<br>• Projection decals<br>• Camouflages<br>• Paints</p><p>Supported texture sources:</p><p>• PNG and JPG files are converted automatically for supported asset types.<br>• Valid DDS files are accepted directly.<br>• Animated GIF and animated WebP files are supported for camouflages and projection decals.<br>• Animated files may be up to 512 × 512 and are processed in the background with visible progress.</p><p>Renderable DDS textures must use BC3/DXT5 compression with the dimensions and mipmaps required for their selected asset type.</p><p>Projection decal ratios:</p><p>• 1:1<br>• 1:2<br>• 1:3<br>• 1:4<br>• 1:6</p><p>Custom camouflages support scale, rotation, exact numeric input and either full-colour or three-palette mask rendering.</p><p>Custom paints support colour, gloss and metallic values.</p><h2><strong>🛠️ How to use</strong></h2><p>1. Open Exterior.<br>2. Ensure <strong>Camo Mixer: ON</strong> is shown.<br>3. Apply and confirm an owned 2D style, compatible 3D style or hull camouflage at least once. This provides the normal server-owned appearance that authorizes the local override.<br>4. Reopen Exterior.<br>5. Apply the styles, camouflage, paint, decals, attachments, inscriptions, emblems or effects you want.<br>6. Leave Exterior with Escape to keep the locally saved appearance.</p><p>Switching from an applied 2D style into custom editing preserves its appearance.</p><p>Only natively valid, owned changes can be sent through <strong>Purchase &amp; Exit</strong>. Other Camo Selector changes remain local.</p><h2><strong>✨ Recommended mods</strong></h2><p><i>Clean Camo:</i><br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><p><i>Extra Style Filters:</i><br><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><p>Support, questions and suggestions:<br><a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Patreon:<br><a href=\"https://www.patreon.com/c/Gravity_Assist\">https://www.patreon.com/c/Gravity_Assist</a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/7711-Camo-Selector_iLr6dNc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7711/",
@@ -9162,6 +9125,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "3.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.2.3.1.1.wotmod",
+          "updatedAt": "2026-10-06T18:44:52.674Z",
+          "sizeBytes": 1310297,
+          "fileName": "gravity.camo_selector.2.4.0.2.3.1.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Fixed animated custom camouflages and projection decals sometimes showing missing textures after switching World of Tanks clients or failing to restart after leaving Exterior. Large GIF and animated WebP imports now run in the background with visible progress instead of freezing the Local Assets page. Also improved animation resource synchronization, loading, and fallback behavior."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "3.1.0",
@@ -9184,9 +9157,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.0.2.3.1.0.wotmod",
-        "modVersion": "3.1.0",
-        "changeLog": "Added GIF and animated WebP support for custom camouflages and projection decals, with animated previews and playback in the hangar, Exterior, and battles. Also improved loading for long animations and fixed duplicate custom assets.",
+        "fileName": "gravity.camo_selector.2.4.0.2.3.1.1.wotmod",
+        "modVersion": "3.1.1",
+        "changeLog": "Fixed animated custom camouflages and projection decals sometimes showing missing textures after switching World of Tanks clients or failing to restart after leaving Exterior. Large GIF and animated WebP imports now run in the background with visible progress instead of freezing the Local Assets page. Also improved animation resource synchronization, loading, and fallback behavior.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -10773,7 +10746,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.9,
       "descriptionHtml": "<p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Shows distance, dynamic damage, and dynamic penetration at your crosshair.&nbsp;<br>Especially useful for Deep Rifled Guns.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/7681-Crosshair-Ballistics-Info.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -46628,6 +46601,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_03.exe",
+          "updatedAt": "2026-10-06T21:29:00.170Z",
+          "sizeBytes": 64978917,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_03.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.4.0.2 #03 (06-10-2026):\n- Updated HangMan Garage Manager 2.75 (garage music on garages made from maps)\n- Updated Camo Selector 3.1.1 (added animated camouflages and decals from GIF and WebP files; fixes)\n- Updated Dynamic Playlists 1.9.5\n- Updated Garage Mastery 1.1.1 by OldSkool\n- Updated Responsive Reticle 1.0.12\n- Updated Challenges 3.3\n- Updated Random tank selection v1\n- Updated Overmatch.pro 1.7.0\n"
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
           "updatedAt": "2026-10-05T12:29:13.479Z",
@@ -46635,22 +46618,12 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
           "fileExt": ".exe",
           "changeLog": "v2.4.0.2 #02 (05-10-2026):\n- Installer: restored missing fonts in some XVM configs and damage\n- Updated Contour icons: ASMA and ASMA with armor\n- Updated aim circle: More Visible (update for WoT 2.4.0.2)\n- Updated Classic Tank Carousel 1.0.21 (update for WoT 2.4.0.2, including the rented vehicles filter)\n- Updated Campaign Tracker 1.2.2 (added Simplified Chinese translation)\n- Updated Average Damage Log 1.1.7\n- Updated Mod Menu 2.1.02 (fixes for reset, hotkeys, dropdown lists and pictures; restores settings from backup if the file is lost)\n- Updated Hitmarker Pro 1.1.02, Custom Sixth Sense 1.1.02 and Crew Skills Pro 1.1.04 (replay fixes and improvements)\n- Updated Show vehicle body in the sniper view 2.1.03 (optimization)\n- Updated GUIFlash 0.6.7\n- Repacked mods by Aslain\n- Added Speed Panel by Aslain (shows your current speed and your vehicle's top forward and reverse speed in battle)\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_01.exe",
-          "updatedAt": "2026-10-01T17:24:18.432Z",
-          "sizeBytes": 64419548,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.4.0.2 #01 (01-10-2026):\n- Updated Classic Tank Carousel (fixed the missing garage interface after the game update to 2.4.0.2)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
-        "modVersion": "02",
-        "changeLog": "v2.4.0.2 #02 (05-10-2026):\n- Installer: restored missing fonts in some XVM configs and damage\n- Updated Contour icons: ASMA and ASMA with armor\n- Updated aim circle: More Visible (update for WoT 2.4.0.2)\n- Updated Classic Tank Carousel 1.0.21 (update for WoT 2.4.0.2, including the rented vehicles filter)\n- Updated Campaign Tracker 1.2.2 (added Simplified Chinese translation)\n- Updated Average Damage Log 1.1.7\n- Updated Mod Menu 2.1.02 (fixes for reset, hotkeys, dropdown lists and pictures; restores settings from backup if the file is lost)\n- Updated Hitmarker Pro 1.1.02, Custom Sixth Sense 1.1.02 and Crew Skills Pro 1.1.04 (replay fixes and improvements)\n- Updated Show vehicle body in the sniper view 2.1.03 (optimization)\n- Updated GUIFlash 0.6.7\n- Repacked mods by Aslain\n- Added Speed Panel by Aslain (shows your current speed and your vehicle's top forward and reverse speed in battle)\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_03.exe",
+        "modVersion": "03",
+        "changeLog": "v2.4.0.2 #03 (06-10-2026):\n- Updated HangMan Garage Manager 2.75 (garage music on garages made from maps)\n- Updated Camo Selector 3.1.1 (added animated camouflages and decals from GIF and WebP files; fixes)\n- Updated Dynamic Playlists 1.9.5\n- Updated Garage Mastery 1.1.1 by OldSkool\n- Updated Responsive Reticle 1.0.12\n- Updated Challenges 3.3\n- Updated Random tank selection v1\n- Updated Overmatch.pro 1.7.0\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
