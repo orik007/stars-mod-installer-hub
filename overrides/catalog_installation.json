@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.016",
+  "catalogVersion": "v2026.10.017",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8012",
+      "title": "Doom with Crew",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Archive package and guide points to mods/<version> by placing the extracted .wotmod file there.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7980",
