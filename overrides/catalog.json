@@ -1,11 +1,164 @@
 {
-  "catalogVersion": "v2026.10.017",
-  "sourceHash": "056969e8189c36f269e36fc8cecbbb1bbad8c563ec11565a9f616856de14b67d",
+  "catalogVersion": "v2026.10.018",
+  "sourceHash": "92c28487796cf248ce72e9fbd39fc53f0ba00f3d5edeb7d91ccbd4cb42d113eb",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8008",
+      "title": "WOTSubtitles SyncBridge",
+      "ownerUsername": "Ramoscjro",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>WOTSubtitles SyncBridge displays Native, English and Latin American Spanish subtitles for supported World of Tanks voice profiles. It includes movable dialogue frames, character names and portrait references, a silent visual preview, and a portrait gallery. Settings are available in English, Spanish and Russian.\n<br><br>\nThe download contains no original audio recordings, bundled voice banks or official character portraits. Audio resources are prepared locally from the installed game or a separately installed supported mod. Keep the game open while setup completes, then restart only when SyncBridge asks. Individual voice profiles can be enabled or disabled; exclusive local resources are cleaned up after a normal game exit, while shared resources remain available to active profiles.\n<br><br>\nOptional Girls und Panzer compatibility requires the original Girls und Panzer Subtitles Mod 1.2.3, installed separately. SyncBridge handles the supported load relationship automatically. That original mod is not included.\n<br><br>\nThis is an unofficial mod, not affiliated with, endorsed or sponsored by Wargaming. World of Tanks and the corresponding trademarks and content belong to their respective owners. Tested on World of Tanks 2.4.0.2, NA.</p>",
+      "installationGuideHtml": "<p>Close World of Tanks. Copy wotsubtitles.syncbridge_1.0.0.wotmod into &lt;World of Tanks&gt;/mods/&lt;current game version&gt;/ (tested: 2.4.0.2). Start the game normally. Wait for setup to finish and restart when requested. Open SyncBridge from the mod menu and choose subtitle language and voice profiles.<br><br>\nGenerated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/&lt;version&gt;/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only.\n<br><br>\nFor optional GuP compatibility, install Girls und Panzer Subtitles Mod 1.2.3 separately. SyncBridge manages the supported load order; keep other mods and existing load_order.xml. No separate Python install or manual support scripts are required.</p>",
+      "coverCatalogUrl": "",
+      "detailUrl": "https://wgmods.net/8008/",
+      "tagIds": [
+        "18",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotsubtitles.syncbridge_1.0.0.wotmod",
+          "updatedAt": "2026-10-08T14:33:22.087Z",
+          "sizeBytes": 54198254,
+          "fileName": "wotsubtitles.syncbridge_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "wotsubtitles.syncbridge_1.0.0.wotmod",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8010",
+      "title": "ReplayCinema by ElProjektRED",
+      "ownerUsername": "RedTailFloofer",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>It's a mod focused on the content creation, well... kinda... this also makes more easy and practical to navigate in replays.&nbsp;</p><ul><li>A timeline like the one youtube has (to navigate easily on the replays by clicking on it)</li><li>Timestamps / highlights on the timeline like Rocket league or other games (they show damage dealt, received, shots fired, kills done by your team, your enemies and the ones you did... You can ctrl + left click over them to easy navigate) | It also has a filter option</li><li>Free camera built in</li><li>Free camera path (to record and play paths, useful for cinematic footage, works on the garage too!)</li><li>Tank tracker (for the free camera mode, unlike the one goofy's mod had, it woks more like a gimbal, also works in the garage)</li><li>Has compatibility for controller/gamepad in the free camera mode (for smoother control) | *I tested this in a xbox controller, seems like a ps5 controller works different</li><li>Free camera in garage (also with the gamepad compatibility)</li><li>Save camera position (if you need to have the same position of the camera if you want to show cammos of a tank from a same perspective)<br><br>and other stuff<br><br>================================&nbsp;<br>For the Keybinds/Keyboard shortcuts read the \"README\" file on the .rar<br>================================&nbsp;<br><br>If you wanna support my work feel free to visit my YT channel or my Twitch channel&nbsp;<br>YouTube.com/c/ProjektRED1 &nbsp;| &nbsp;twitch.tv/elprojektred</li></ul>",
+      "installationGuideHtml": "<p>Open the .rar file, drag and drop the folder named \"mods\" on the your game directory root (F.E. mine is F:\\Games\\World_of_Tanks_NA)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Miniatura_FdwqUZA.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8010/",
+      "tagIds": [
+        "18",
+        "13",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.20.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ReplayCinema_mod_by_ElProjektRED.rar",
+          "updatedAt": "2026-10-08T14:30:02.469Z",
+          "sizeBytes": 284207,
+          "fileName": "ReplayCinema_mod_by_ElProjektRED.rar",
+          "fileExt": ".rar",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ReplayCinema_mod_by_ElProjektRED.rar",
+        "modVersion": "0.20.7",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7961",
+      "title": "Autoloader Indicator",
+      "ownerUsername": "ImClicker",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A small World of Tanks mod that displays an indicator next to vehicle markers showing the vehicle's <strong>gun type</strong> (autoloader, autoreloader, dual gun, etc.) and, for magazine-fed guns, its <strong>magazine size</strong>.</p><p>The same indicator can also be displayed next to vehicle icons in the <strong>players panel</strong>.</p><h2>Two versions are available</h2><p><strong>Standalone</strong></p><ul><li>Does not require XVM.</li><li>Works independently of XVM.</li><li>Intended for users who do not use XVM.</li></ul><p><strong>XVM</strong></p><ul><li>Requires XVM.</li><li>Uses XVM to display the indicator.</li><li>Does not modify or replace XVM files.</li><li>Intended for users who already use XVM.</li></ul><p><strong>Important</strong></p><p><strong>Do not install both versions at the same time.</strong></p><p>The two versions are alternatives to each other. If you want to switch between them, remove the currently installed .wotmod before installing the other version.</p><h2>Settings</h2><p>If <strong>ModsSettingsAPI</strong> or <strong>Aslain Mod Menu</strong> is installed, the mod provides an in-game settings screen (check screenshots).</p><p>If no supported settings menu is installed, the mod still works using its configuration files and can be edited manually (see <strong>Installation</strong>).</p><h2>Fair Play</h2><p>Autoloader Indicator is intended as an <strong>informational mod</strong>. It displays static vehicle configuration data and does not display enemy reload timers or other live combat information.</p><h2>Support &amp; Bug Reports</h2><p>If you encounter a problem, please report it through the WGMods page or contact me on Discord <strong>juancstar</strong>.</p>",
+      "installationGuideHtml": "<p><strong>Standalone version</strong></p><ul><li>Open the “standalone” directory and copy all of its contents to <i><strong>[WoT game directory]/</strong></i></li><li>Settings file location: <i><strong>[WoT game directory]/mods/configs/AutoloaderIndicator/settings.json</strong></i></li></ul><p><strong>XVM version</strong></p><p><i><strong>XVM has to be installed</strong> prior to the installation of this mod, the mod does not come with XVM .wotmod</i></p><ul><li>Open the “xvm” directory and copy all of its contents to <i><strong>[WoT game directory]/</strong></i></li><li>Settings file location: <i><strong>[WoT game directory]/mods/configs/AutoloaderIndicator/xvm/settings.json</strong></i></li><li>Check the XVM configuration files described below.</li></ul><p><strong>XVM configuration</strong></p><p>The XVM version requires the corresponding XVM features to be enabled in your active configuration.</p><p>Vehicle markers (markers.xc) and Players panel (playersPanel.xc)</p><p>XVM configuration files are normally located under: <i><strong>[WoT game directory]\\res_mods\\configs\\xvm\\&lt;your</strong></i><strong>_</strong><i><strong>config&gt;\\</strong></i></p><blockquote><p><strong>Autoloader Indicator does not modify your XVM configuration files.</strong> These settings must be enabled by the user.</p></blockquote>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_image_en1roxH.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7961/",
+      "tagIds": [
+        "18",
+        "14"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/imclicker.autoloaderindicator_0.2.1_fKonQ8k.zip",
+          "updatedAt": "2026-10-08T14:26:21.227Z",
+          "sizeBytes": 2839703,
+          "fileName": "imclicker.autoloaderindicator_0.2.1_fKonQ8k.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "imclicker.autoloaderindicator_0.2.1_fKonQ8k.zip",
+        "modVersion": "0.2.1",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8002",
+      "title": "Chat Translator",
+      "ownerUsername": "ju1ion",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>Read every chat message in your own language.</strong> Chat Translator translates incoming chat messages and shows the translation as an extra line under the original, which stays untouched.</p><p>Works in <strong>battle chat</strong> and in the <strong>garage</strong>: platoon, clan, private messages, channels and training rooms.</p><h2>Features</h2><ul><li><strong>24 target languages</strong>: English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Czech, Slovak, Russian, Ukrainian, Turkish, Swedish, Danish, Finnish, Norwegian, Hungarian, Romanian, Bulgarian, Greek, Japanese, Korean and Chinese.</li><li><strong>Two translation services</strong><ul><li><strong>Google</strong>: free, works right away, no setup.</li><li><strong>DeepL</strong>: higher quality, needs your own free API key (500,000 characters per month).</li></ul></li><li><strong>\"Do not translate\" list</strong>: enter languages you already understand (e.g. en, de, pl) and no translation is shown for them.</li><li><strong>Choose which chats are translated</strong>: battle, platoon, clan, private messages and channels can each be switched on or off.</li><li><strong>Protects your DeepL quota</strong>: chat spam cannot drain your free characters. After an initial burst of 2,000 characters, at most 600 characters per minute are sent to DeepL; messages beyond that are not translated.</li><li><strong>Your API key stays safe</strong>: the DeepL key is stored encrypted with Windows data protection (only your Windows account on this PC can read it) and is shown masked in the settings.</li><li><strong>Your own messages are never sent anywhere.</strong></li></ul><h2>Requirements</h2><p>This mod uses the in-game mod settings menu. Most modpacks already include these; if you don't have them, install:</p><ul><li><strong>ModsSettingsAPI</strong> (izeberg.modssettingsapi_*.wotmod)</li><li><strong>ModsListAPI</strong> (me.poliroid.modslistapi_*.wotmod)</li></ul><h2>Installation</h2><ol><li>Install the required mods listed above if you don't have them yet.</li><li>Copy ju1ion.chattranslator_&lt;version&gt;.wotmod into &lt;World of Tanks&gt;/mods/&lt;client version&gt;/.</li><li>Restart the game.</li></ol><h2>Settings</h2><p>Open the settings in the garage via the <strong>mods button</strong>, entry <strong>Chat Translator</strong>. Every option has an info icon explaining what it does.&nbsp;</p><p>If you want to use DeepL as a translator, you need an API key: Get a free key at deepl.com/pro-api. To change it, replace the whole masked text; to remove it, clear the field.</p><h2>Privacy</h2><ul><li>Incoming chat messages are sent to the translator you selected (Google or DeepL).</li><li>Messages in \"Do not translate\" languages are usually still sent, because their language is only known from the translator's answer. Only local detection can skip some of them beforehand (non-Latin alphabets); Latin-script languages such as English, German or French are always sent.</li><li>Your own messages are never sent.</li><li>Nothing is sent while the mod is switched off or for chats you have disabled.</li></ul><h2>Good to know</h2><ul><li>Google translation uses Google's free public endpoint, which Google may limit or change at any time. If Google rate-limits requests, the mod pauses for a minute.</li><li>With DeepL, messages in \"Do not translate\" languages still count against your quota (see Privacy).</li></ul>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatTranslator_py5QVSu.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8002/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ju1ion.chattranslator_1.1.0_dUZgK3J.wotmod",
+          "updatedAt": "2026-10-08T14:17:14.660Z",
+          "sizeBytes": 171327,
+          "fileName": "ju1ion.chattranslator_1.1.0_dUZgK3J.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ju1ion.chattranslator_1.1.0_dUZgK3J.wotmod",
+        "modVersion": "1.1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8012",
@@ -2144,6 +2297,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "2.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sheshiver.insigniaongun_2.1.2.wotmod",
+          "updatedAt": "2026-10-08T21:58:04.369Z",
+          "sizeBytes": 11359,
+          "fileName": "sheshiver.insigniaongun_2.1.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "2.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sheshiver.insigniaongun_2.1.1.wotmod",
@@ -2165,10 +2328,10 @@
         }
       ],
       "latest": {
-        "fileName": "sheshiver.insigniaongun_2.1.1.wotmod",
-        "modVersion": "2.1.1",
-        "changeLog": "Ничего не изменилось, кроме названия",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "sheshiver.insigniaongun_2.1.2.wotmod",
+        "modVersion": "2.1.2",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2223,7 +2386,7 @@
     {
       "source": "wgmods",
       "sourceId": "7920",
-      "title": "Platoon Window Reworked",
+      "title": "Improved Platoon Window",
       "ownerUsername": "Z4imon",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -2243,19 +2406,19 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
-          "modVersion": "1.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.0.2_1.1.zip",
-          "updatedAt": "2026-10-01T08:50:22.882Z",
-          "sizeBytes": 428002,
-          "fileName": "Z4imon.platoon_header_2.4.0.2_1.1.zip",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.0.2_1.2.zip",
+          "updatedAt": "2026-10-08T14:21:23.739Z",
+          "sizeBytes": 432124,
+          "fileName": "Z4imon.platoon_header_2.4.0.2_1.2.zip",
           "fileExt": ".zip",
-          "changeLog": ""
+          "changeLog": "- The vehicle type is now displayed behind the vehicle\n- This can be changed and deactivated in the settings"
         }
       ],
       "latest": {
-        "fileName": "Z4imon.platoon_header_2.4.0.2_1.1.zip",
-        "modVersion": "1.1",
-        "changeLog": "",
+        "fileName": "Z4imon.platoon_header_2.4.0.2_1.2.zip",
+        "modVersion": "1.2",
+        "changeLog": "- The vehicle type is now displayed behind the vehicle\n- This can be changed and deactivated in the settings",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2872,6 +3035,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.5.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/StarsModInstaller-win-Setup_T7rxbby.exe",
+          "updatedAt": "2026-10-08T14:28:12.095Z",
+          "sizeBytes": 88022624,
+          "fileName": "StarsModInstaller-win-Setup_T7rxbby.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Removing mods from My Mods now starts reinstalling the remaining mods. (Removing Auto mods; Auto-install enabled; WoT not running.)\n- Adding mods from Browse Catalog now starts installation right away. (Auto mods only; Auto-install enabled; WoT not running.)\n- Mod details now show file name and file size on separate lines.\n- Tooltips now open immediately across the app.\n- Button labels are now clearer and more explicit, so actions are easier to understand at first glance.\n- When you complete required mod options in Browse Catalog, the mod is selected automatically.\n- Fixed: mods that reuse the same file name across versions now download the correct latest version."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "0.5.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/StarsModInstaller-win-Setup_KpYHZHp.exe",
           "updatedAt": "2026-10-01T10:35:42.459Z",
@@ -2902,9 +3075,9 @@
         }
       ],
       "latest": {
-        "fileName": "StarsModInstaller-win-Setup_KpYHZHp.exe",
-        "modVersion": "0.5.0",
-        "changeLog": "",
+        "fileName": "StarsModInstaller-win-Setup_T7rxbby.exe",
+        "modVersion": "0.5.1",
+        "changeLog": "- Removing mods from My Mods now starts reinstalling the remaining mods. (Removing Auto mods; Auto-install enabled; WoT not running.)\n- Adding mods from Browse Catalog now starts installation right away. (Auto mods only; Auto-install enabled; WoT not running.)\n- Mod details now show file name and file size on separate lines.\n- Tooltips now open immediately across the app.\n- Button labels are now clearer and more explicit, so actions are easier to understand at first glance.\n- When you complete required mod options in Browse Catalog, the mod is selected automatically.\n- Fixed: mods that reuse the same file name across versions now download the correct latest version.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -7370,6 +7543,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.7.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch_6.zip",
+          "updatedAt": "2026-10-08T14:33:59.692Z",
+          "sizeBytes": 571851,
+          "fileName": "overmatch_6.zip",
+          "fileExt": ".zip",
+          "changeLog": "Adds garage syncing to Marks and Mastery, including tanks without recorded battles."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "1.7.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/overmatch.zip",
           "updatedAt": "2026-10-06T12:35:59.534Z",
@@ -7420,9 +7603,9 @@
         }
       ],
       "latest": {
-        "fileName": "overmatch.zip",
-        "modVersion": "1.7.0",
-        "changeLog": "Added personal Onslaught Rating and statistics tracking.\nAdded battle-start Loadout capture for ammunition, consumables, directives, field modifications, and vehicle upgrades.\nCombined replay uploads, Loadout capture, and Onslaught tracking into one mod.\nMoved settings to ModMenu, included in the ZIP.",
+        "fileName": "overmatch_6.zip",
+        "modVersion": "1.7.1",
+        "changeLog": "Adds garage syncing to Marks and Mastery, including tanks without recorded battles.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -11991,18 +12174,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
-          "modVersion": "3.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.challenges_2.4.0.2_3.2.zip",
-          "updatedAt": "2026-10-07T17:13:55.670Z",
-          "sizeBytes": 539524,
-          "fileName": "Z4imon.challenges_2.4.0.2_3.2.zip",
+          "modVersion": "3.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.challenges_2.4.0.2_3.3_QdM96k2.zip",
+          "updatedAt": "2026-10-08T14:31:28.426Z",
+          "sizeBytes": 544673,
+          "fileName": "Z4imon.challenges_2.4.0.2_3.3_QdM96k2.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Z4imon.challenges_2.4.0.2_3.2.zip",
-        "modVersion": "3.2",
+        "fileName": "Z4imon.challenges_2.4.0.2_3.3_QdM96k2.zip",
+        "modVersion": "3.3",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -14449,16 +14632,6 @@
           "fileName": "Z4imon.random_tank_picker_2.4.0.2_4.1.zip",
           "fileExt": ".zip",
           "changeLog": "- bugfixes"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "4.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.random_tank_picker_2.4.0.2_4.0.zip",
-          "updatedAt": "2026-10-01T08:51:04.889Z",
-          "sizeBytes": 326609,
-          "fileName": "Z4imon.random_tank_picker_2.4.0.2_4.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -15787,7 +15960,7 @@
       "mark": 3.7,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/NAGLEISHIY_MOD_IuWNHbB.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/NGL_MOD_MSNSMAL_UKR.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7535/",
       "tagIds": [
         "12",
@@ -15795,6 +15968,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.4.0.2_h4QQmxE.exe",
+          "updatedAt": "2026-10-08T14:40:59.517Z",
+          "sizeBytes": 128529958,
+          "fileName": "Nagleishiy_ModPack_for_2.4.0.2_h4QQmxE.exe",
+          "fileExt": ".exe",
+          "changeLog": "Додані\\змінені моди:\nMoE Pro – калькулятор позначок\nGarage Progress Bar"
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "1.8",
@@ -15844,22 +16027,12 @@
           "fileName": "Nagleishiy_ModPack_for_2.3.1.3.exe",
           "fileExt": ".exe",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.3.1.2.exe",
-          "updatedAt": "2026-09-11T13:44:55.174Z",
-          "sizeBytes": 116731563,
-          "fileName": "Nagleishiy_ModPack_for_2.3.1.2.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Nagleishiy_ModPack_for_2.4.0.2.exe",
-        "modVersion": "1.8",
-        "changeLog": "",
+        "fileName": "Nagleishiy_ModPack_for_2.4.0.2_h4QQmxE.exe",
+        "modVersion": "1.9",
+        "changeLog": "Додані\\змінені моди:\nMoE Pro – калькулятор позначок\nGarage Progress Bar",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -46542,29 +46715,19 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
-          "modVersion": "03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_03.exe",
-          "updatedAt": "2026-10-06T21:29:00.170Z",
-          "sizeBytes": 64978917,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_03.exe",
+          "modVersion": "04",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_04.exe",
+          "updatedAt": "2026-10-08T20:57:03.962Z",
+          "sizeBytes": 64994312,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_04.exe",
           "fileExt": ".exe",
-          "changeLog": "v2.4.0.2 #03 (06-10-2026):\n- Updated HangMan Garage Manager 2.75 (garage music on garages made from maps)\n- Updated Camo Selector 3.1.1 (added animated camouflages and decals from GIF and WebP files; fixes)\n- Updated Dynamic Playlists 1.9.5\n- Updated Garage Mastery 1.1.1 by OldSkool\n- Updated Responsive Reticle 1.0.12\n- Updated Challenges 3.3\n- Updated Random tank selection v1\n- Updated Overmatch.pro 1.7.0\n"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "02",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
-          "updatedAt": "2026-10-05T12:29:13.479Z",
-          "sizeBytes": 64911621,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_02.exe",
-          "fileExt": ".exe",
-          "changeLog": "v2.4.0.2 #02 (05-10-2026):\n- Installer: restored missing fonts in some XVM configs and damage\n- Updated Contour icons: ASMA and ASMA with armor\n- Updated aim circle: More Visible (update for WoT 2.4.0.2)\n- Updated Classic Tank Carousel 1.0.21 (update for WoT 2.4.0.2, including the rented vehicles filter)\n- Updated Campaign Tracker 1.2.2 (added Simplified Chinese translation)\n- Updated Average Damage Log 1.1.7\n- Updated Mod Menu 2.1.02 (fixes for reset, hotkeys, dropdown lists and pictures; restores settings from backup if the file is lost)\n- Updated Hitmarker Pro 1.1.02, Custom Sixth Sense 1.1.02 and Crew Skills Pro 1.1.04 (replay fixes and improvements)\n- Updated Show vehicle body in the sniper view 2.1.03 (optimization)\n- Updated GUIFlash 0.6.7\n- Repacked mods by Aslain\n- Added Speed Panel by Aslain (shows your current speed and your vehicle's top forward and reverse speed in battle)\n"
+          "changeLog": "- Updated Overmatch.pro 1.7.1 (garage syncing for Marks and Mastery, also for tanks without recorded battles)\n- Fixed conflict with aim circle: More Visible \n- Rebuilt mods by Aslain\n- Re-added tank contour icons PogS\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_03.exe",
-        "modVersion": "03",
-        "changeLog": "v2.4.0.2 #03 (06-10-2026):\n- Updated HangMan Garage Manager 2.75 (garage music on garages made from maps)\n- Updated Camo Selector 3.1.1 (added animated camouflages and decals from GIF and WebP files; fixes)\n- Updated Dynamic Playlists 1.9.5\n- Updated Garage Mastery 1.1.1 by OldSkool\n- Updated Responsive Reticle 1.0.12\n- Updated Challenges 3.3\n- Updated Random tank selection v1\n- Updated Overmatch.pro 1.7.0\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_04.exe",
+        "modVersion": "04",
+        "changeLog": "- Updated Overmatch.pro 1.7.1 (garage syncing for Marks and Mastery, also for tanks without recorded battles)\n- Fixed conflict with aim circle: More Visible \n- Rebuilt mods by Aslain\n- Re-added tank contour icons PogS\n",
         "wotGameVersionCompatibility": "safe"
       }
     },

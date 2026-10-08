@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.017",
+  "catalogVersion": "v2026.10.018",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8008",
+      "title": "WOTSubtitles SyncBridge",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Close World of Tanks. Copy wotsubtitles.syncbridge_1.0.0.wotmod into <World of Tanks>/mods/<current game version>/ (tested: 2.4.0.2). Start the game normally. Wait for setup to finish and restart when requested. Open SyncBridge from the mod menu and choose subtitle language and voice profiles. Generated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/<version>/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only. For optional GuP compatibility, install Girls und Panzer Subtitles Mod 1.2.3 separately. SyncBridge manages the supported load order; keep other mods and existing load_order.xml. No separate Python install or manual support scripts are required."
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The .wotmod file is copied into mods/<current game version>; setup and configuration steps are post-installation notes.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8010",
+      "title": "ReplayCinema by ElProjektRED",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Open the .rar file, drag and drop the folder named \"mods\" on the your game directory root (F.E. mine is F:\\Games\\World_of_Tanks_NA)"
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "The archive contains a named mods folder to extract into the game directory root.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7961",
+      "title": "Autoloader Indicator",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Standalone version Open the “standalone” directory and copy all of its contents to [WoT game directory]/ Settings file location: [WoT game directory]/mods/configs/AutoloaderIndicator/settings.json XVM version XVM has to be installed prior to the installation of this mod, the mod does not come with XVM .wotmod Open the “xvm” directory and copy all of its contents to [WoT game directory]/ Settings file location: [WoT game directory]/mods/configs/AutoloaderIndicator/xvm/settings.json Check the XVM configuration files described below. XVM configuration The XVM version requires the corresponding XVM features to be enabled in your active configuration. Vehicle markers (markers.xc) and Players panel (playersPanel.xc) XVM configuration files are normally located under: [WoT game directory]\\res_mods\\configs\\xvm\\<your _ config>\\ Autoloader Indicator does not modify your XVM configuration files. These settings must be enabled by the user."
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "The guide requires choosing between mutually exclusive standalone and XVM package variants.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8002",
+      "title": "Chat Translator",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The package is a plain .wotmod and the empty guide is insufficient to specify another target.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8012",
@@ -725,7 +785,7 @@
     {
       "source": "wgmods",
       "sourceId": "7920",
-      "title": "Platoon Window Reworked",
+      "title": "Improved Platoon Window",
       "classificationInput": {
         "latestFileExt": ".zip",
         "latestInstallGuide": "Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation. <yourWoT>/mods/<currentVersion>/..."
