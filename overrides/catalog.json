@@ -1,11 +1,50 @@
 {
-  "catalogVersion": "v2026.10.018",
-  "sourceHash": "92c28487796cf248ce72e9fbd39fc53f0ba00f3d5edeb7d91ccbd4cb42d113eb",
+  "catalogVersion": "v2026.10.019",
+  "sourceHash": "e27816c7800172233edb6f6ef5dfb83c70be8cf468145c7b103102291309cce6",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8013",
+      "title": "B.O.M.B. - the Beautiful Original #mjrd Ban-list-mod",
+      "ownerUsername": "Oooompf",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>B.O.M.B. - the Beautiful Original #mjrd Ban-list-mod<br>Per-player blacklist reasons for World of Tanks.&nbsp;<br><br>Ever blacklisted someone, then run into them weeks later and wondered what&nbsp;<br>they did to earn it? B.O.M.B. lets you tag a reason onto a player the moment&nbsp;<br>you blacklist them, and shows that reason back to you every time you see them&nbsp;<br>again.&nbsp;<br><br>WHAT IT DOES&nbsp;<br>- When you right-click a player to blacklist them, pick a reason from a short&nbsp;<br>&nbsp;preset menu (Blocker / Rammer / Pusher, Spammer, Delulu, Redliner / Camper,&nbsp;<br>&nbsp;Roleplayer, Yapping / Toxic, Drowner, Other).&nbsp;<br>- The reason is shown right in that player's right-click menu, in all four&nbsp;<br>&nbsp;places: the battle ears, the garage, the after-battle results screen, and&nbsp;<br>&nbsp;the contacts list (friends / ignore list).&nbsp;<br>- A highlighted status line tells you the state at a glance:&nbsp;<br>&nbsp; &nbsp; &nbsp;\"Blacklisted: &lt;reason&gt;\" &nbsp;while they are on your ignore list&nbsp;<br>&nbsp; &nbsp; &nbsp;\"Note: &lt;reason&gt;\" &nbsp; &nbsp; &nbsp; &nbsp; if you unblocked them but kept the note&nbsp;<br>- One reason per player; picking a new one overwrites the old. Reasons are&nbsp;<br>&nbsp;kept even after you unblock, and are never deleted automatically.&nbsp;<br>- Everything is stored locally and privately on your PC — nothing is sent&nbsp;<br>&nbsp;anywhere, no account linking, no online service.&nbsp;</p>",
+      "installationGuideHtml": "<p>DEPENDENCIES&nbsp;<br>- None. Standard .wotmod — no extra libraries required.&nbsp;<br><br>LIMITATIONS&nbsp;<br>- In fully anonymized battles the client gives no player ID, so no reason can&nbsp;<br>&nbsp;be attached or shown there. This is a game restriction, not a bug.&nbsp;<br><br>INSTALLATION&nbsp;<br>1. Download the .wotmod file below.&nbsp;<br>2. Copy it into your World of Tanks mods folder for your client version, e.g.:&nbsp;<br>&nbsp; &nbsp; &nbsp;World_of_Tanks_EU/mods/2.4.0.2/&nbsp;<br>3. Restart the game client.&nbsp;<br>4. Right-click any player (ears / garage / results / contacts) and blacklist&nbsp;<br>&nbsp; them to start tagging reasons.&nbsp;<br><br>Tested on World of Tanks 2.4.0.2 (EU).</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mjrd_b.o.m.b._cover_bdVFgzO.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8013/",
+      "tagIds": [
+        "18",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.1.15",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd_b.o.m.b._0.1.15.wotmod",
+          "updatedAt": "2026-10-09T08:20:23.153Z",
+          "sizeBytes": 25865,
+          "fileName": "mjrd_b.o.m.b._0.1.15.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "mjrd_b.o.m.b._0.1.15.wotmod",
+        "modVersion": "0.1.15",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8008",
@@ -19,7 +58,7 @@
       "mark": null,
       "descriptionHtml": "<p>WOTSubtitles SyncBridge displays Native, English and Latin American Spanish subtitles for supported World of Tanks voice profiles. It includes movable dialogue frames, character names and portrait references, a silent visual preview, and a portrait gallery. Settings are available in English, Spanish and Russian.\n<br><br>\nThe download contains no original audio recordings, bundled voice banks or official character portraits. Audio resources are prepared locally from the installed game or a separately installed supported mod. Keep the game open while setup completes, then restart only when SyncBridge asks. Individual voice profiles can be enabled or disabled; exclusive local resources are cleaned up after a normal game exit, while shared resources remain available to active profiles.\n<br><br>\nOptional Girls und Panzer compatibility requires the original Girls und Panzer Subtitles Mod 1.2.3, installed separately. SyncBridge handles the supported load relationship automatically. That original mod is not included.\n<br><br>\nThis is an unofficial mod, not affiliated with, endorsed or sponsored by Wargaming. World of Tanks and the corresponding trademarks and content belong to their respective owners. Tested on World of Tanks 2.4.0.2, NA.</p>",
       "installationGuideHtml": "<p>Close World of Tanks. Copy wotsubtitles.syncbridge_1.0.0.wotmod into &lt;World of Tanks&gt;/mods/&lt;current game version&gt;/ (tested: 2.4.0.2). Start the game normally. Wait for setup to finish and restart when requested. Open SyncBridge from the mod menu and choose subtitle language and voice profiles.<br><br>\nGenerated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/&lt;version&gt;/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only.\n<br><br>\nFor optional GuP compatibility, install Girls und Panzer Subtitles Mod 1.2.3 separately. SyncBridge manages the supported load order; keep other mods and existing load_order.xml. No separate Python install or manual support scripts are required.</p>",
-      "coverCatalogUrl": "",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Logo_DYfid4i.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8008/",
       "tagIds": [
         "18",
@@ -1920,8 +1959,8 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
+      "recommended": true,
+      "mark": 4.6,
       "descriptionHtml": "<p><strong>Overview</strong></p><p>If you like to keep your abilities close to WASD in Onslaught but use the</p><p>default controls everywhere else, you know the problem: you end up</p><p>manually swapping your key bindings back and forth every time you switch</p><p>between Onslaught and Random battles - and sooner or later you forget,</p><p>and find yourself mid-fight in Onslaught fumbling for keys that are still</p><p>set up for Randoms.<br>&nbsp;</p><p>Onslaught Key Remap fixes that. Set your preferred keys for the three</p><p>Onslaught-only abilities (Tank Special Ability, Artillery Strike,</p><p>Radio/Flare) once, from an in-game settings panel, and the mod takes care</p><p>of switching them in and out automatically every time you enter or leave</p><p>Onslaught - your Random battle controls are never touched.</p><p>&nbsp;</p><p><strong>Support and Feedback</strong></p><p><a href=\"https://github.com/deivid7007/OnslaughtKeyRemapWoTMod\">Source code</a></p>",
       "installationGuideHtml": "<ol><li>Download the zip file</li><li>Unzip it inside WoT installation folder</li><li>Replace existing files with the same name</li><li>Enjoy</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/onslaught_krm.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -3023,7 +3062,7 @@
       ],
       "recommended": true,
       "mark": 3.9,
-      "descriptionHtml": "<p><strong>Choose your World of Tanks mods once. Keep them updated automatically.</strong></p><p>Stars Mod Installer is a Windows application that runs quietly in the system tray. Select the mods you want to use once, and the app will keep compatible mods updated when a new mod version is released or when World of Tanks is updated.</p><ul><li>Choose from official World of Tanks mods available on WGMods.net.</li><li>No repeated downloads or copying files into game folders.</li><li>The app starts automatically with Windows and works in the background.</li><li>If World of Tanks is running, installation waits until the game is closed.</li></ul><h2>How to use?</h2><ul><li>Download and install the application.</li><li>Choose your mods in the <strong>Browse Catalog</strong> tab and click <strong>Add to My Mods</strong>.</li><li>Wait for the mods to install automatically, or force a reinstall from the <strong>My Mods</strong> tab by clicking <strong>Reinstall Mods</strong>.</li><li>That’s it — your mods stay up to date automatically.</li></ul><h2>Alpha version — please read</h2><p>Stars Mod Installer is currently in <strong>alpha</strong>. Bugs may occur, some features may still change, and some mods may not be supported yet.</p><p>If something does not work, please give us a chance to help before leaving a negative rating. Join our Discord, tell us what happened, and we will try to resolve the problem. Your feedback will also help us improve the application for everyone.</p><p><strong>Website:</strong> <a href=\"https://starsmodinstaller.com\">https://starsmodinstaller.com</a><br><strong>Discord:</strong> <a href=\"https://discord.gg/yYyep74YHh\">https://discord.gg/yYyep74YHh</a></p>",
+      "descriptionHtml": "<p><strong>Choose your World of Tanks mods once. Keep them updated automatically.</strong></p><p>Stars Mod Installer is a Windows application that runs quietly in the system tray. Select the mods you want to use once, and the app will keep compatible mods updated when a new mod version is released or when World of Tanks is updated.</p><ul><li>Choose from official World of Tanks mods available on WGMods.net.</li><li>No repeated downloads or copying files into game folders.</li><li>The app starts automatically with Windows and works in the background.</li><li>If World of Tanks is running, installation waits until the game is closed.</li><li>Since version 0.5.3, the application <strong>updates quietly</strong> in the system tray without interrupting you</li></ul><h2>How to use?</h2><ul><li>Download and install the application.</li><li>Choose your mods in the <strong>Browse Catalog</strong> tab and click <strong>Install selected Mods</strong>.</li><li>That’s it — your mods stay up to date automatically.</li></ul><h2>Alpha version — please read</h2><p>Stars Mod Installer is currently in <strong>alpha</strong>. Bugs may occur, some features may still change, and some mods may not be supported yet.</p><p>If something does not work, please give us a chance to help before leaving a negative rating. Join our Discord, tell us what happened, and we will try to resolve the problem. Your feedback will also help us improve the application for everyone.</p><p><strong>Website:</strong> <a href=\"https://starsmodinstaller.com\">https://starsmodinstaller.com</a><br><strong>Discord:</strong> <a href=\"https://discord.gg/yYyep74YHh\">https://discord.gg/yYyep74YHh</a></p>",
       "installationGuideHtml": "<p>Simply download and run the installer. Administrator rights are not required.</p><p>Once installed, Stars Mod Installer keeps itself up to date automatically, so you do not need to download new versions manually.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-09-02_110736984.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7886/",
@@ -7680,16 +7719,6 @@
           "fileName": "MoECalculator_4.0.1.zip",
           "fileExt": ".zip",
           "changeLog": "Moving Average bar — the fill now opens at the axis floor instead of the pre_avg stop, so the bar reads from the correct baseline.\nVertical bars — the wide-glow backdrop no longer clips on the left edge."
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "4.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_4.0.0.zip",
-          "updatedAt": "2026-09-11T12:57:09.715Z",
-          "sizeBytes": 1574885,
-          "fileName": "MoECalculator_4.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Retargeted to World of Tanks EU client 2.3.1.3.\nThe garage/battle bar could stay hidden after an off-screen or screen-edge pinned position; placement is now clamped on-screen before the visibility check runs."
         }
       ],
       "latest": {
@@ -8096,16 +8125,6 @@
           "fileName": "GarageProgressBar-Bundle_3.2.0.zip",
           "fileExt": ".zip",
           "changeLog": "The Tier XI skill tree bar now shows the next locked upgrades one step ahead. Each next chip links to the unlocked skill it builds on."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "3.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_3.1.0.zip",
-          "updatedAt": "2026-09-13T05:13:42.541Z",
-          "sizeBytes": 381798,
-          "fileName": "GarageProgressBar-Bundle_3.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "Fixed buff coloring. Compound-quality buffs (for example gun depression and in-clip reload) now show green; generic KPI lines render neutral."
         }
       ],
       "latest": {
@@ -33157,7 +33176,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.8,
+      "mark": 3.9,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OitHDzsJdBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OitHDzsJdBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
