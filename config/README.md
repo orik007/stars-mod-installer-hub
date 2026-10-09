@@ -6,7 +6,7 @@ The configuration source is separate from the generated catalog because these ru
 
 ## Source file
 
-The configuration source will be stored in:
+The configuration source is stored in:
 
 ```text
 config/catalog-configurations.json
@@ -130,9 +130,9 @@ A configured mod may optionally include a complete `installationProcess` beside 
 
 Replace the illustrative empty groups with the verified choices and file-selection rules for the actual package.
 
-When this optional object is present, the publisher replaces the complete AI-classified installation process on every publish. It does not merge individual fields. When absent, the classifier result is preserved. The presence of radio buttons or checkboxes alone does not change Manual to Auto.
+When this optional object is present, the publisher replaces the complete AI-classified installation process on every publish. It does not merge individual fields. When absent, the classifier result is preserved. Optional means omitting the field; `null`, an empty object, and partial objects are invalid. The `configuration` object and its `groups` array remain required. The presence of radio buttons or checkboxes alone does not change Manual to Auto.
 
-Required fields are `installationTemplate`, `installableByApp`, `decisionReason`, and `deleteDataWgpdc`. The reason must be non-empty and both flags must be booleans. Use `deleteDataWgpdc`, never `deleteWgpdc`.
+Required fields are `installationTemplate`, `installableByApp`, `decisionReason`, and `deleteDataWgpdc`. The reason must be a non-empty string and both flags must be booleans. Use `deleteDataWgpdc`, never `deleteWgpdc`.
 
 App-installable templates require `installableByApp=true`:
 
@@ -151,7 +151,7 @@ Manual templates require `installableByApp=false`:
 - `MixedCustomPathButDeterministic`
 - `Unknown`
 
-`manualFolder` is required and non-empty only for `ExtractArchiveAndCopyFolderToMods`; it must be omitted for all other templates. Missing fields, unsupported templates, incompatible capability flags, or an invalid folder field stop publishing.
+`manualFolder` is required and must be a non-empty string only for `ExtractArchiveAndCopyFolderToMods`; it must be omitted for all other templates. Missing fields, unsupported templates, incompatible capability flags, or an invalid folder field stop publishing.
 
 Existing entries without this optional object remain valid under schema version 1. The separate manual installation override workflow remains a quick repair of the published catalog; this source records persistent, reviewed installation behavior. Upstream-package change detection is outside this addition.
 
@@ -294,7 +294,7 @@ The mod requires one selected variant:
       "configuration": {
         "groups": [
           {
-            "id": "skyVersion",
+            "id": "skyVersionVolume1",
             "name": "Sky version",
             "required": true,
             "type": "single",
@@ -346,6 +346,7 @@ The publishing process must fail when:
 - a group has an unsupported `type`,
 - a required field is missing,
 - a regular expression is invalid,
-- a configuration tree is structurally invalid.
+- a configuration tree is structurally invalid,
+- a supplied `installationProcess` is incomplete or invalid, including template/capability or `manualFolder` mismatches.
 
 Runtime matching against the downloaded package is performed by the desktop application during mod preparation. User-facing handling for a valid expression that no longer matches any target file is defined by the application, not by this source document.
