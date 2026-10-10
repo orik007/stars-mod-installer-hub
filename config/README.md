@@ -134,6 +134,8 @@ When this optional object is present, the publisher replaces the complete AI-cla
 
 For generated catalog entries with a persistent process replacement, the publisher preserves the original model decision in `classifiedInstallationProcess` beside the effective `installationProcess`. This is generated reuse metadata, not a field to write in this configuration source. The classifier reuses the original model decision and the publisher reapplies the current configuration. Removing the process replacement or the complete source entry therefore restores the model decision on the next publish. Repeated publishing does not turn a configured replacement into an AI classification. The desktop application installs using only the effective `installationProcess`.
 
+Unknown or misspelled fields inside the process object are rejected.
+
 Required fields are `installationTemplate`, `installableByApp`, `decisionReason`, and `deleteDataWgpdc`. The reason must be a non-empty string and both flags must be booleans. Use `deleteDataWgpdc`, never `deleteWgpdc`.
 
 App-installable templates require `installableByApp=true`:
@@ -352,3 +354,5 @@ The publishing process must fail when:
 - a supplied `installationProcess` is incomplete or invalid, including template/capability or `manualFolder` mismatches.
 
 Runtime matching against the downloaded package is performed by the desktop application during mod preparation. User-facing handling for a valid expression that no longer matches any target file is defined by the application, not by this source document.
+
+A quick override edits the published result only. When the same mod has a persistent configured process, the next publish reapplies that process; also update the authoritative configuration source when a repair must persist.
