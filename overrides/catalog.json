@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.020",
-  "sourceHash": "173b91f3161a5d0555ac802a52f382d5c5194b9728a5a598f53d265ec17846fe",
+  "catalogVersion": "v2026.10.021",
+  "sourceHash": "3972367013f445b6e04dc0194c374d33019b42f3056ce1921fd8de3db836cf81",
   "sources": [
     "wgmods",
     "modhub"
@@ -326,12 +326,22 @@
       "mark": null,
       "descriptionHtml": "<p>A reticle of your own for arcade and sniper mode, with its own aiming circle and penetration indicator.</p><p><strong>What it does</strong></p><p>- Reload and HP gauges as arcs, angles, slanted lines or bars, the reload time, a net across the centre, the shells left and the distance to your target.</p><p>- An aiming circle that shows whether the shot will penetrate.</p><p>- Size, line weight, opacity and your own colours, colour blind ones too; seven ready-made looks.</p><p>- Set up on a live preview at battle size, sniper mode with the arcade settings or its own.</p><p><strong>Everything else</strong></p><p>Every feature and setting, screenshots, what is good to know and the full changelog: <a href=\"https://gunmarks.app/mod/reticle\">https://gunmarks.app/mod/reticle</a></p><p>Our website, with World of Tanks statistics and Marks of Excellence requirements: <a href=\"https://gunmarks.app\">https://gunmarks.app</a></p><p><strong>Support and feedback</strong></p><p>Need help, have a question or an idea for the mod? Join the gunmarks.app Discord server: <a href=\"https://discord.gg/5YSQCag9Qr\">https://discord.gg/5YSQCag9Qr</a></p>",
       "installationGuideHtml": "<p>1. Close World of Tanks.</p><p>2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds:</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\app.gunmarks\\app.gunmarks.reticle_0.1.0.wotmod</p><p>&nbsp; &nbsp;mods\\2.4.0.2\\net.openwg\\net.openwg.gameface_1.1.6.wotmod</p><p>3. Start the game. On the first start it restarts once by itself.</p><p><strong>One file:</strong> nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod.</p><p><strong>Updating, coming from an older version, or removing the mod:</strong> <a href=\"https://gunmarks.app/mod/reticle\">https://gunmarks.app/mod/reticle</a></p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_qTP2q2C.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_oCTqPEH.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7980/",
       "tagIds": [
         "15"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_reticle_0.2.0.3_wot2.4.0.2.zip",
+          "updatedAt": "2026-10-10T13:56:35.352Z",
+          "sizeBytes": 630483,
+          "fileName": "gunmarks_reticle_0.2.0.3_wot2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "https://gunmarks.app/mod/reticle"
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "0.1.1",
@@ -354,9 +364,9 @@
         }
       ],
       "latest": {
-        "fileName": "gunmarks_reticle_0.1.1.2_wot2.4.0.2.zip",
-        "modVersion": "0.1.1",
-        "changeLog": "Works on the NA and ASIA clients too.\nKeeps working after a small game patch that leaves the game's version as it is.\nThe mod's file has a new name: delete the older app.gunmarks.reticle_0.1.0.wotmod.",
+        "fileName": "gunmarks_reticle_0.2.0.3_wot2.4.0.2.zip",
+        "modVersion": "0.2.0",
+        "changeLog": "https://gunmarks.app/mod/reticle",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -678,6 +688,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.2.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_onslaught_0.2.1.38_wot2.4.0.2.zip",
+          "updatedAt": "2026-10-10T13:56:32.548Z",
+          "sizeBytes": 253226,
+          "fileName": "gunmarks_onslaught_0.2.1.38_wot2.4.0.2.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Closing the game or logging out from the Onslaught garage no longer writes an error into the game's log."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "0.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gunmarks_onslaught_0.2.0.37_wot2.4.0.2.zip",
           "updatedAt": "2026-10-06T11:47:55.412Z",
@@ -708,9 +728,9 @@
         }
       ],
       "latest": {
-        "fileName": "gunmarks_onslaught_0.2.0.37_wot2.4.0.2.zip",
-        "modVersion": "0.2.0",
-        "changeLog": "Your session beside your rating, in the garage and in battle: the rating you won or lost over your battles since you started playing.\nBattle panel: a setting shows your last battles with Alt, always or never.\nThe mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nSettings: a tab for each Gunmarks mod under its name, each listed with its own version, and a preview of the garage panel and of the battle panel beside their settings.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens.",
+        "fileName": "gunmarks_onslaught_0.2.1.38_wot2.4.0.2.zip",
+        "modVersion": "0.2.1",
+        "changeLog": "- Closing the game or logging out from the Onslaught garage no longer writes an error into the game's log.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -46525,6 +46545,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "3.0.30",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_0P5wZ1O.zip",
+          "updatedAt": "2026-10-10T17:43:22.932Z",
+          "sizeBytes": 4915760,
+          "fileName": "ProMod_0P5wZ1O.zip",
+          "fileExt": ".zip",
+          "changeLog": "Updated Reduction Info\nUpdated GUIFlash\nUpdated Hitmarker Pro\nUpdated Hanar Manager\nUpdated Overmatch"
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "3.0.28",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_B1foz15.zip",
           "updatedAt": "2026-10-03T10:22:43.733Z",
@@ -46572,22 +46602,12 @@
           "fileName": "ProMod.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "3.0.19",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_XFWCozU.zip",
-          "updatedAt": "2026-09-16T17:23:14.512Z",
-          "sizeBytes": 4892302,
-          "fileName": "ProMod_XFWCozU.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ProMod_B1foz15.zip",
-        "modVersion": "3.0.28",
-        "changeLog": "",
+        "fileName": "ProMod_0P5wZ1O.zip",
+        "modVersion": "3.0.30",
+        "changeLog": "Updated Reduction Info\nUpdated GUIFlash\nUpdated Hitmarker Pro\nUpdated Hanar Manager\nUpdated Overmatch",
         "wotGameVersionCompatibility": "safe"
       }
     },
