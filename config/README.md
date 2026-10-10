@@ -132,6 +132,8 @@ Replace the illustrative empty groups with the verified choices and file-selecti
 
 When this optional object is present, the publisher replaces the complete AI-classified installation process on every publish. It does not merge individual fields. When absent, the classifier result is preserved. Optional means omitting the field; `null`, an empty object, and partial objects are invalid. The `configuration` object and its `groups` array remain required. The presence of radio buttons or checkboxes alone does not change Manual to Auto.
 
+For generated catalog entries with a persistent process replacement, the publisher preserves the original model decision in `classifiedInstallationProcess` beside the effective `installationProcess`. This is generated reuse metadata, not a field to write in this configuration source. The classifier reuses the original model decision and the publisher reapplies the current configuration. Removing the process replacement or the complete source entry therefore restores the model decision on the next publish. Repeated publishing does not turn a configured replacement into an AI classification. The desktop application installs using only the effective `installationProcess`.
+
 Required fields are `installationTemplate`, `installableByApp`, `decisionReason`, and `deleteDataWgpdc`. The reason must be a non-empty string and both flags must be booleans. Use `deleteDataWgpdc`, never `deleteWgpdc`.
 
 App-installable templates require `installableByApp=true`:
