@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.019",
+  "catalogVersion": "v2026.10.020",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8011",
+      "title": "Local 3D Attachments",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Install OpenWG Gameface (net.openwg.gameface) into mods\\<game version>\\ (required). ModsListAPI (me.poliroid.modslistapi) is optional: it adds the button to the Mods list. 2. Close the game. 3. Copy local.keepattachments_4.0.wotmod from the archive into mods\\<game version>\\ (for example mods\\2.4.0.2\\). Remove any older local.keepattachments_*.wotmod first; two versions must not be installed together. 4. Start the game. On the first launch the game restarts itself once; this is normal (the resource map is updated for the new window). 5. In the hangar open the Mods list and choose \"Local 3D attachments\" (or press Ctrl+F9 if ModsListAPI is not installed). Your choice is saved in mods\\configs\\local.attachments\\selection.json. To uninstall, delete the .wotmod file (and that folder if you want)."
+      },
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "The guide requires removing older matching .wotmod files before installing, an additional destructive operation the app cannot perform as a supported install.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8014",
+      "title": "Exterior Studio",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Extract all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Restart the game, select a vehicle in the garage and open Exterior. Keep all included files together; the required GameFace dependency is included. Camo Selector is optional and can be installed separately from https://wgmods.net/7711/ (version 3.1.2 or newer)."
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "The archive’s .wotmod files are copied together into the versioned mods folder; the included dependency is a non-blocking note.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8013",
