@@ -1,11 +1,87 @@
 {
-  "catalogVersion": "v2026.10.019",
-  "sourceHash": "e27816c7800172233edb6f6ef5dfb83c70be8cf468145c7b103102291309cce6",
+  "catalogVersion": "v2026.10.020",
+  "sourceHash": "173b91f3161a5d0555ac802a52f382d5c5194b9728a5a598f53d265ec17846fe",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8011",
+      "title": "Local 3D Attachments",
+      "ownerUsername": "asdev1us",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Put any 3D attachment from the game on your tank, locally, and see it right away in the hangar and in battle.</p><p>What it does<br>- Opens a window with picture tiles (in the style of a styles aggregator) from the hangar \"Mods\" list (or with Ctrl+F9 if ModsListAPI is not installed).<br>- Shows only attachments that really fit the current tank, and only the slots that tank actually has. The game's own rules are used (item.mayInstall, visible slots, slot type, scale limits), so nothing illegal is offered.<br>- One tab per slot (universal, turret, gun mantlet, gun...). Click a tile and the attachment appears on the tank instantly.<br>- Filter by name, sort by name or by rarity, and show a single rarity only (Common / Rare / Epic / Legendary) with counters. Rarity badges on the tiles.<br>- You can still rotate and zoom the hangar tank while choosing: drag with the left mouse button on the empty part of the screen, use the wheel there to zoom.<br>- The choice is saved per tank and applied automatically in the hangar and in battle (on your own tank).<br>- Attachment animations and effects play as on real attachments.<br>- If you use the User Customization aggregator (valberton.userCustomization), your own attachments are kept on top of its styles. The other mod is not modified.</p><p>How it works<br>Everything is client-side and cosmetic. The mod wraps Vehicle.getOutfit (hangar) and CompoundAppearance._prepareOutfit (battle, own tank) and adds the chosen attachments to the outfit the client draws. Nothing is sent to the server, so other players do not see your attachments. Local attachments are never added to the standard customization screen, so they cannot end up in a server request. Every entry is checked against the game's own rules before use, and any error falls back to the original outfit.</p><p>Requirements<br>- World of Tanks 2.4.0.2 (tested on EU).<br>- OpenWG Gameface (net.openwg.gameface 1.1.5 or newer): required, not included.<br>- ModsListAPI (me.poliroid.modslistapi 1.7.9): optional, not included. It adds the button to the Mods list; without it, press Ctrl+F9 in the hangar.<br>If something is missing, the mod shows a message in the hangar telling you what to install.</p><p>Notes<br>- The mod's interface is in English; attachment names are shown in your game client's language.<br>- In battle the attachments are shown on your own tank only.<br>- While the window is open, other clicks in the hangar are blocked (close it with the cross or Esc).<br>- A few attachments may fail to load a texture on some installs; this is a property of the item, not of the mod.<br>- Source code is included in the archive. Created with the help of AI (Claude by Anthropic). Not affiliated with Wargaming.</p>",
+      "installationGuideHtml": "<p>1. Install OpenWG Gameface (net.openwg.gameface) into mods\\&lt;game version&gt;\\ (required). ModsListAPI (me.poliroid.modslistapi) is optional: it adds the button to the Mods list.<br>2. Close the game.<br>3. Copy local.keepattachments_4.0.wotmod from the archive into mods\\&lt;game version&gt;\\ (for example mods\\2.4.0.2\\). Remove any older local.keepattachments_*.wotmod first; two versions must not be installed together.<br>4. Start the game. On the first launch the game restarts itself once; this is normal (the resource map is updated for the new window).<br>5. In the hangar open the Mods list and choose \"Local 3D attachments\" (or press Ctrl+F9 if ModsListAPI is not installed).</p><p>Your choice is saved in mods\\configs\\local.attachments\\selection.json. To uninstall, delete the .wotmod file (and that folder if you want).</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image-1791389111269.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8011/",
+      "tagIds": [
+        "18",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "4.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LocalAttachments_4.0_with_dependencies_installer.zip",
+          "updatedAt": "2026-10-10T10:55:36.537Z",
+          "sizeBytes": 151416,
+          "fileName": "LocalAttachments_4.0_with_dependencies_installer.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "LocalAttachments_4.0_with_dependencies_installer.zip",
+        "modVersion": "4.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8014",
+      "title": "Exterior Studio",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p><strong>A fresh look for vehicle customization.</strong></p><p>Exterior Studio redesigns the World of Tanks Exterior window, keeping your tank in view while you browse and apply customization items.</p><p>Browse 3D and 2D styles, attachments, paints, camouflage, projection decals, emblems, inscriptions and effects. Select an item, then click its location on the vehicle to place it.</p><p><strong>Find your next look faster</strong></p><ul><li>Searchable item carousels with previews and clear selected, owned and applied indicators.</li><li>Native customization filters, including category-specific options.</li><li>Persistent favourites, marked with the Gravity paw, and a favourites-only filter.</li><li>Scroll with the mouse wheel, scrollbar or by clicking and dragging the carousel.</li><li>Upward-opening filter menus to keep the vehicle visible.</li><li>Guide, screenshot controls and access to the classic Exterior interface.</li></ul><p><strong>Optional Camo Selector integration</strong></p><p>Install <a href=\"https://wgmods.net/7711/\">Camo Selector 3.1.2 or newer</a> separately for its expanded customization and custom assets. Exterior Studio provides quick access to Camo Selector tools, tutorial links and a custom-assets-only filter. Purchase controls reflect Camo Selector's purchase restrictions.</p><p>Exterior Studio also works without Camo Selector. The required GameFace dependency is included in the download.</p><p><strong>Support, questions and suggestions</strong><br><a href=\"https://discord.gg/DqZ8fuX43C\">Join the Discord</a></p><p><strong>Support my work</strong><br><a href=\"https://www.patreon.com/c/Gravity_Assist\">Gravity Assist on Patreon</a></p>",
+      "installationGuideHtml": "<p>Extract all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Restart the game, select a vehicle in the garage and open Exterior. Keep all included files together; the required GameFace dependency is included. Camo Selector is optional and can be installed separately from https://wgmods.net/7711/ (version 3.1.2 or newer).</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover-exterior-studio-wgmods-banner.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8014/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.exterior_studio.2.4.0.2.1.0.0.zip",
+          "updatedAt": "2026-10-10T08:36:38.167Z",
+          "sizeBytes": 568543,
+          "fileName": "gravity.exterior_studio.2.4.0.2.1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.exterior_studio.2.4.0.2.1.0.0.zip",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8013",
@@ -430,6 +506,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Gun_sounds_selector_by_TheOnlyApocalypse_Ver_1.2.0.zip",
+          "updatedAt": "2026-10-10T10:56:45.945Z",
+          "sizeBytes": 146795780,
+          "fileName": "Gun_sounds_selector_by_TheOnlyApocalypse_Ver_1.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "1.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Gun_sounds_selector_by_TheOnlyApocalypse_Ver_1.0.1.zip",
           "updatedAt": "2026-10-04T10:57:20.071Z",
@@ -440,8 +526,8 @@
         }
       ],
       "latest": {
-        "fileName": "Gun_sounds_selector_by_TheOnlyApocalypse_Ver_1.0.1.zip",
-        "modVersion": "1.0.1",
+        "fileName": "Gun_sounds_selector_by_TheOnlyApocalypse_Ver_1.2.0.zip",
+        "modVersion": "1.2.0",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -991,7 +1077,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Бро, вот английская версия в том же стиле, без лишней отсебятины, и внизу добавил сайт + канал.</p><p><strong>Fermani Marks (3 Marks / MoE Mod)</strong> is a convenient World of Tanks mod for tracking your <strong>Marks of Excellence (MoE)</strong> progress.</p><p>The mod shows your current MoE percentage and helps you understand directly during battle how your current result affects your progress toward the next goal. The compact interface does not interfere with gameplay and displays only the information that really matters.</p><p><strong>Main features:</strong></p><p>• current Marks of Excellence percentage;<br>• clear progress toward the next mark;<br>• evaluation of the current battle result;<br>• compact display without unnecessary elements;<br>• automatic language selection;<br>• support for Ukrainian, Russian, English and Polish languages.</p><p><strong>Ranks from Noob to Unicum.</strong></p><p>Fermani Marks is suitable both for players who are just starting to work on Marks of Excellence and for those pushing toward the coveted <strong>95% / 3 MoE</strong>.</p><p><strong>Official website:</strong><br><a href=\"https://fermaniwot.com/\">https://fermaniwot.com/</a></p><p><strong>Fermani WoT YouTube channel:</strong><br><a href=\"https://www.youtube.com/user/fermani1\">https://www.youtube.com/user/fermani1</a></p><p>&nbsp;</p>",
+      "descriptionHtml": "<p><strong>Fermani Marks (3 Marks / MoE Mod)</strong> is a convenient World of Tanks mod for tracking your <strong>Marks of Excellence (MoE)</strong> progress.</p><p>The mod shows your current MoE percentage and helps you understand directly during battle how your current result affects your progress toward the next goal. The compact interface does not interfere with gameplay and displays only the information that really matters.</p><p><strong>Main features:</strong></p><p>• current Marks of Excellence percentage;<br>• clear progress toward the next mark;<br>• evaluation of the current battle result;<br>• compact display without unnecessary elements;<br>• automatic language selection;<br>• support for Ukrainian, Russian, English and Polish languages.</p><p><strong>Ranks from Noob to Unicum.</strong></p><p>Fermani Marks is suitable both for players who are just starting to work on Marks of Excellence and for those pushing toward the coveted <strong>95% / 3 MoE</strong>.</p><p><strong>Official website:</strong><br><a href=\"https://fermaniwot.com/\">https://fermaniwot.com/</a></p><p><strong>Fermani WoT YouTube channel:</strong><br><a href=\"https://www.youtube.com/user/fermani1\">https://www.youtube.com/user/fermani1</a></p><p>&nbsp;</p>",
       "installationGuideHtml": "<ul><li>Download the mod file.</li><li>Open your World of Tanks installation folder.</li><li>Copy the .wotmod file into: World_of_Tanks/mods/2.4.0.2/</li></ul>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/b7198f72-db84-48e9-b0ec-78b048162b38_YhM7lAf.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7959/",
@@ -1001,6 +1087,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.9.24.39",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Fermani_Marks_FREE_v0.9.24.39_Ix75Aro.wotmod",
+          "updatedAt": "2026-10-10T10:56:52.817Z",
+          "sizeBytes": 209082,
+          "fileName": "Fermani_Marks_FREE_v0.9.24.39_Ix75Aro.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Обновлён дизайн ангарного мода. Исправлено отображение «Нет данных» для танков.\nUpdated the Garage mod design. Fixed the “No data” display issue for tanks."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "0.9.24.37",
@@ -1023,9 +1119,9 @@
         }
       ],
       "latest": {
-        "fileName": "Fermani_Marks_FREE_v0.9.24.37_6M3d334.wotmod",
-        "modVersion": "0.9.24.37",
-        "changeLog": "",
+        "fileName": "Fermani_Marks_FREE_v0.9.24.39_Ix75Aro.wotmod",
+        "modVersion": "0.9.24.39",
+        "changeLog": "Обновлён дизайн ангарного мода. Исправлено отображение «Нет данных» для танков.\nUpdated the Garage mod design. Fixed the “No data” display issue for tanks.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2433,7 +2529,7 @@
       ],
       "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<p><strong>Replaces the platoon window by adding the functionality in the header of the garage.</strong></p><p>Tired of always having to open the platton window and then having it always open in your face? Now the whole platoon functinality is put next to the battle button.</p><p>Compact and simple</p><p>&nbsp;</p><p><strong>If you want it as a floating window and not next to the battle button, you can change that in the settings. Be aware, that the platton leader then can't ready up while in the battle results.</strong></p>",
+      "descriptionHtml": "<p><strong>Replaces the platoon window by adding the functionality in the header of the garage.</strong></p><p>Tired of always having to open the platton window and then having it always open in your face? Now the whole platoon functinality is put next to the battle button.</p><p>Compact and simple</p><p>&nbsp;</p><p><strong>If you want it as a floating window and not next to the battle button, you can change that in the settings. Be aware, that the platton leader then can't ready up while in the battle results.&nbsp;</strong></p><p><strong>The style in which the tank class is displayed can be configured in the mod settings over the mod menu</strong></p><p>&nbsp;</p><p><i>Thanks to </i><a href=\"https://www.twitch.tv/einfachsmon\"><i>EinfachSmon </i></a><i>for the idea of the mod</i></p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p>",
       "installationGuideHtml": "<p>Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation.</p><p>&lt;yourWoT&gt;/mods/&lt;currentVersion&gt;/...</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage_HtuJpfv.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7920/",
@@ -3074,6 +3170,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "0.5.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/StarsModInstaller-win-Setup_opKXOh0.exe",
+          "updatedAt": "2026-10-10T10:56:39.230Z",
+          "sizeBytes": 88095220,
+          "fileName": "StarsModInstaller-win-Setup_opKXOh0.exe",
+          "fileExt": ".exe",
+          "changeLog": "•\tFixed RAR archive extraction that could produce corrupted mod files.\n•\tOpening Browse Catalog now focuses the search field so you can start typing immediately.\n•\tInstalled Version now uses compatibility colors when its game version matches Latest Version; other versions remain neutral.\n•\tAbout now includes a direct link to Stars Mod Installer on WGMods next to Discord.\n•\tButtons now clearly say “Install selected mods” and “Uninstall selected mods”.\n•\tTooltips explain automatic and manual installation, and warn when mod files may need to be removed by hand.\n•\tThe Auto-install is off warning opens the setting where automatic mod changes can be turned on.\n•\tPending changes explain how to apply them, and failed operations offer a shortcut to Diagnostics.\n•\tAn empty My Mods list points you to Browse Catalog; adding mods no longer needs a separate confirmation message."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "0.5.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/StarsModInstaller-win-Setup_T7rxbby.exe",
           "updatedAt": "2026-10-08T14:28:12.095Z",
@@ -3114,9 +3220,9 @@
         }
       ],
       "latest": {
-        "fileName": "StarsModInstaller-win-Setup_T7rxbby.exe",
-        "modVersion": "0.5.1",
-        "changeLog": "- Removing mods from My Mods now starts reinstalling the remaining mods. (Removing Auto mods; Auto-install enabled; WoT not running.)\n- Adding mods from Browse Catalog now starts installation right away. (Auto mods only; Auto-install enabled; WoT not running.)\n- Mod details now show file name and file size on separate lines.\n- Tooltips now open immediately across the app.\n- Button labels are now clearer and more explicit, so actions are easier to understand at first glance.\n- When you complete required mod options in Browse Catalog, the mod is selected automatically.\n- Fixed: mods that reuse the same file name across versions now download the correct latest version.",
+        "fileName": "StarsModInstaller-win-Setup_opKXOh0.exe",
+        "modVersion": "0.5.2",
+        "changeLog": "•\tFixed RAR archive extraction that could produce corrupted mod files.\n•\tOpening Browse Catalog now focuses the search field so you can start typing immediately.\n•\tInstalled Version now uses compatibility colors when its game version matches Latest Version; other versions remain neutral.\n•\tAbout now includes a direct link to Stars Mod Installer on WGMods next to Discord.\n•\tButtons now clearly say “Install selected mods” and “Uninstall selected mods”.\n•\tTooltips explain automatic and manual installation, and warn when mod files may need to be removed by hand.\n•\tThe Auto-install is off warning opens the setting where automatic mod changes can be turned on.\n•\tPending changes explain how to apply them, and failed operations offer a shortcut to Diagnostics.\n•\tAn empty My Mods list points you to Browse Catalog; adding mods no longer needs a separate confirmation message.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -6574,7 +6680,7 @@
       ],
       "recommended": true,
       "mark": 4.8,
-      "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p><a href=\"https://youtu.be/YLCMhmeEWsc\">Explanatory Video EN</a></p><p><a href=\"https://youtu.be/4945ncAWJXU\">Deutsches Erklärungs Video</a></p><p>&nbsp;</p><p><a href=\"https://youtu.be/oYIu0OX_bxU\">ENG: Update 1.2</a></p><p><a href=\"https://youtu.be/2Xj8SlljOtE\">DE: Update 1.2</a></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><strong>Gameface</strong> (<a href=\"https://gitlab.com/openwg/wot.gameface\">https://gitlab.com/openwg/wot.gameface</a>)</li><li><strong>ModsSettingsAPI</strong> (<a href=\"https://github.com/izeberg/modssettingsapi\">https://github.com/izeberg/modssettingsapi</a>)</li><li><strong>ModsListAPI</strong> (<a href=\"https://github.com/wot-public-mods/mods-list\">https://github.com/wot-public-mods/mods-list</a>)</li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
+      "descriptionHtml": "<h2>Auto Equipment Return Mod by Z4imon</h2><p><strong>requires wot plus subscription</strong></p><p><a href=\"https://youtu.be/YLCMhmeEWsc\">Explanatory Video EN</a></p><p><a href=\"https://youtu.be/4945ncAWJXU\">Deutsches Erklärungs Video</a></p><p>&nbsp;</p><p><a href=\"https://youtu.be/oYIu0OX_bxU\">ENG: Update 1.2</a></p><p><a href=\"https://youtu.be/2Xj8SlljOtE\">DE: Update 1.2</a></p><p>&nbsp;</p><h2>Features</h2><ul><li>Saves your tank equipments and automatically reinstalls both equipment sets when selecting the tank<ul><li>installation can take up to a (very) few seconds, because both equipment sets are filled</li></ul></li><li>Allows you to equip all your tanks with bounty equipment by moving the equipment between your tanks</li><li>The equipment is pulled from depot or other tanks (only if demounting is free)</li><li><i>Downgrade:</i> if activated, installs a standard equipment instead of the bounty or bond equipment if there is none available.</li><li><i>Equip all primary vehicles:</i> if clicked, installs the equipment for all the (filtered) primary vehicles in your garage. Ideal for <strong>Frontline</strong>, <strong>Onslaught</strong> and <strong>Onslaught light</strong>. Using this, you have all your tanks for those game modes available within seconds.<ul><li>Depending on the amount of vehicles, this takes time, this is normal!</li><li>After all equipments are succesfully equipped, the automatic equipment return is disabled to allow browsing the other tanks.<ul><li>Just re-enable it as soon as you want to (see screenshot)</li></ul></li></ul></li><li>Allows you to import saved equipment from kurzdor's auto equipment return (only for the same account)<ul><li>Done automatically on the first start of the mod or later over the modsettings</li></ul></li><li>Allows you to import saved equipments from other accounts (within the mod)</li></ul><p>&nbsp;</p><h2>Dependencies</h2><ul><li><strong>Wot Plus</strong> or <strong>Wot Plus Pro</strong> subscription</li><li><a href=\"https://gitlab.com/openwg/wot.gameface\"><strong>Gameface</strong></a></li><li><a href=\"https://github.com/izeberg/modssettingsapi\"><strong>ModsSettingsAPI</strong>&nbsp;</a></li><li><a href=\"https://github.com/wot-public-mods/mods-list\"><strong>ModsListAPI</strong></a></li></ul><p>&nbsp;</p><h2>Ingame</h2><p>The mod menu opens with the button in the vehicle menu row of the hangar, right next to the customization button.</p><figure class=\"image\"><img src=\"https://github.com/z4imon/auto-equipment-return/raw/main/images/ingame.png\" alt=\"The mod menu in the hangar\"></figure><ul><li><strong>Set 1</strong> and <strong>Set 2</strong> show the equipment that is currently saved for the selected tank.<ul><li>Tanks without a second loadout only show Set 1</li></ul></li><li><strong>Auto-install:</strong> turns the automatic reinstalling on vehicle selection on and off</li><li><strong>Enable downgrade:</strong> If turned on installs the standard equipment when the bounty or bond one is not available for free</li><li><strong>Save set 1</strong> / <strong>Save set 2</strong> / <strong>Save both sets:</strong> saves the equipment currently mounted on the selected tank</li><li><strong>Equip all primary vehicles:</strong> equips all your filtered primary vehicles with their saved equipment<ul><li>Perfect for equipping all potentially driven tanks in onslaught and frontile</li><li>If there is not enough bounty + standard equipment available, you will receive a message that tells you which equipment you are missing so you can buy some</li></ul></li></ul><p>&nbsp;</p><h2>Contributing</h2><p>Want to improve the mod? Please do! Fork the <a href=\"https://github.com/z4imon/auto-equipment-return/\">repository</a>, make your changes and open a pull request. The mod is open-sourced under the GPL-3.0 License</p><p>&nbsp;</p><h2>Bug reports and ideas for improvements</h2><p>Bug reports and ideas are welcome in my channel of the official WoT discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p><p>&nbsp;</p><h2>CREDITS</h2><p>Huge thanks to kurzdor for his Auto Equipment Return mod, which made my life easier for years.</p><p>This mod is my take on the same idea, adding features I wanted for some time.</p>",
       "installationGuideHtml": "<h2>INSTALLATION</h2><ol><li>Download the mod</li><li>Unpack the downloaded zip file</li><li>Move the .wotmod files into your World of Tanks mods folder:<br>&nbsp; &nbsp; yourWoTInstallation/mods/&lt;game version&gt;</li></ol><p>&nbsp;If you already have some of the files installed, only move the new files into the folder</p><p>&nbsp;</p><p><strong>Optional:&nbsp;</strong><br>If you want to support me with fixing bugs and error of this mod, also move the gravity.error.reporter.log.&lt;version&gt;.wotmod file into your mods folder. This will automatically report bugs and errors to me.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7784/",
@@ -7658,7 +7764,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Track your Marks of Excellence (MoE) progress for the vehicle you have selected, in the Garage and live in battle.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A <strong>percentile bar</strong> in the vehicle-parameters panel with milestone ticks at 65% / 85% / 95%. Every tick is labelled with the combined damage that mark requires, plus a fourth number for 100%, the top of the distribution.</p><p>Ctrl+drag the bar to reposition it (hold Shift to lock one axis). It can also optionally shift with the vehicle carousel so it never overlaps.</p><p><strong>Weekly MoE trend chart</strong> — the vehicle's mark tooltip shows a \"Last 7 Days\" chart: one dot per battle on a percentile axis, horizontal mark lines at 65% / 85% / 95% / 100%, day dividers, and an end-of-day moving-average label for each day.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li><li>An optional third line shows your <strong>counted assistance</strong> — the highest of track / spot / stun damage, with the icon of whichever is leading.</li></ul><p>The overlay can be set to appear only while you hold Alt.</p><p><strong>In-battle progress bar</strong></p><p>An optional bar &nbsp;that fades in when damage is dealt or assistance is counted. Hold Alt to summon it at any time. Two variants, one chosen in the settings:</p><ul><li><strong>Moving Average</strong> — where your career projected average combined damage sits between the mark you already hold and the next mark's requirement, with the requirement on each end, your pre-battle average marked on the axis, and this battle's signed contribution.</li><li><strong>Damage Efficiency</strong> — this battle's combined damage against all four requirements (65% / 85% / 95% / 100%) on four equal quarters. Each requirement lights up as you pass it and the bar recolours with it — white, green, blue, violet, then gold at 100% — flashing the signed increment of the hit that just landed.</li></ul><h2>Settings</h2><p>Everything is toggleable from the Modification list window (ModsSettingsAPI): the in-battle overlay, its Alt-only mode and its assistance line, the Garage bar and its pinned position, and the centre progress bar with its variant. The settings panel is translated into 11 languages and follows your client automatically. Your settings carry over when you update the mod.</p><h2>&nbsp;</h2><p>Free to include in modpacks with credit and a link — ship the <i>.wotmod</i> and list OpenWG GameFace as a dependency.</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
@@ -7670,6 +7776,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "7.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_7.0.0.zip",
+          "updatedAt": "2026-10-10T10:50:14.283Z",
+          "sizeBytes": 2179249,
+          "fileName": "MoECalculator_7.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Client upgrade: retargeted to WoT EU 2.4.0.2.\nIn-battle bars — MoE %: both centre bars now show your Mark of Excellence percentage in brackets beside the current damage, in both orientations. Moving Average: your live MoE % with this battle counted. Damage Efficiency: the MoE % this battle's damage alone is worth.\nNew settings (Progress Bar column, after Scale), all on by default:\nMoving Average: show % / Moving Average: show change\nDamage Efficiency: show % / Damage Efficiency: show change\nThe % uses the same font size as the damage number. Both bars' surfaces grew slightly to fit it (the horizontal Moving Average bar is wider; the vertical bars are wider on the left). Your saved bar position is kept."
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "6.0.1",
@@ -7722,10 +7838,10 @@
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_6.0.1.zip",
-        "modVersion": "6.0.1",
-        "changeLog": "Moving Average and Damage Efficiency bars now draw a per-value shadow behind each number instead of one backdrop behind the whole bar, and their box is tighter, so you can drag them closer to the bottom of the screen.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "MoECalculator_7.0.0.zip",
+        "modVersion": "7.0.0",
+        "changeLog": "Client upgrade: retargeted to WoT EU 2.4.0.2.\nIn-battle bars — MoE %: both centre bars now show your Mark of Excellence percentage in brackets beside the current damage, in both orientations. Moving Average: your live MoE % with this battle counted. Damage Efficiency: the MoE % this battle's damage alone is worth.\nNew settings (Progress Bar column, after Scale), all on by default:\nMoving Average: show % / Moving Average: show change\nDamage Efficiency: show % / Damage Efficiency: show change\nThe % uses the same font size as the damage number. Both bars' surfaces grew slightly to fit it (the horizontal Moving Average bar is wider; the vertical bars are wider on the left). Your saved bar position is kept.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8064,7 +8180,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
@@ -8076,6 +8192,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "7.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_7.0.0.zip",
+          "updatedAt": "2026-10-10T10:50:17.604Z",
+          "sizeBytes": 628539,
+          "fileName": "GarageProgressBar-Bundle_7.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Compatible with World of Tanks EU 2.4.0.2."
+        },
         {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "6.0.0",
@@ -8128,10 +8254,10 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_6.0.0.zip",
-        "modVersion": "6.0.0",
-        "changeLog": "Retargeted to WoT EU client 2.4.0.1.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "GarageProgressBar-Bundle_7.0.0.zip",
+        "modVersion": "7.0.0",
+        "changeLog": "Compatible with World of Tanks EU 2.4.0.2.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -8737,7 +8863,7 @@
       ],
       "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info. You can choose your tank info style in the mod settings.</p><p>&nbsp;</p><p>Created by <strong>Z4imon</strong></p><p>&nbsp;</p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p>",
+      "descriptionHtml": "<p><strong>Do you miss to have your Tank info available all the time?</strong></p><p>Just install this mod.</p><p>In the hangar just choose between the visibility of the daily missions and event or the tank info. You can choose your tank info style in the mod settings.</p><p>&nbsp;</p><p>Created by <strong>Z4imon</strong></p><p>&nbsp;</p><p>If you want to play challenges with, or damage (etc.) races against your friends, have a look at my <a href=\"https://wgmods.net/7641/\">Challenges</a> mod.</p><p>If you never know what to play look at my <a href=\"https://wgmods.net/7575/\">random tank picker</a> mod.</p><p>Please report bugs and errors in my channel in the official WorldOfTanks Discord: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a></p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p>",
       "installationGuideHtml": "<p>Unpack the downloaded file and move both .wotmod files into the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion<br><br>If you already have gameface installed, only copy the tank_info_in_hangar file</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/tankInfo_EEhT20W.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7722/",
@@ -9268,7 +9394,7 @@
       ],
       "recommended": true,
       "mark": 4.5,
-      "descriptionHtml": "<h2><strong>⚠️ Purchase safety</strong></h2><p>Camo Selector does not let you purchase customization items that you could not normally buy or apply. Preview-only and local customization changes remain local.</p><h2><strong>🎨 Universal Customization</strong></h2><p>Customize vehicles with a much wider selection of customization elements:</p><p>• 2D styles<br>• Camouflages and paints<br>• Projection decals and legacy decals<br>• Inscriptions and emblems<br>• Compatible 3D and progressive 3D styles<br>• 3D attachments, personal numbers, stat trackers and effects</p><p>Compatible unowned 3D styles can be selected for local customization, but their normal vehicle and model restrictions still apply.</p><p>A 3D style can be combined with projection decals, emblems and inscriptions. Selecting an incompatible category replaces the 3D style.</p><p>Decals, emblems and inscriptions still require genuine placement slots on the selected vehicle.</p><h2><strong>🌐 Style Share</strong></h2><p>Other players using Camo Selector can see your shared custom appearance in battle.</p><p>Style Share is enabled by default and can be switched on or off from Exterior.</p><p>Outfits containing local custom assets remain local-only. Their texture files are not transmitted through Style Share, and players without the mod see the normal server appearance.</p><h2><strong>✨ Creations</strong></h2><p>Open Exterior, click <strong>Custom Assets (open)</strong> and select the <strong>Creations</strong> tab.</p><p>You can:</p><p>• Save, apply, refresh and duplicate complete vehicle designs<br>• Add titles, descriptions, tags and classifications<br>• Search and import approved public Creations<br>• Publish your own Creations for moderation<br>• Publish and import individual Asset Library items<br>• Publish and import complete Vehicle Presets</p><p>Creations and Vehicle Presets can include the local custom assets they require. Imported assets are installed locally and automatically remapped for your client.</p><p>Imported Vehicle Presets remain locked so that they stay identical to the approved version. You can duplicate one into an editable local Creation.</p><p>Nothing from your Asset Library or Creations collection is published publicly unless you explicitly choose to publish it.</p><p><i>Public gallery and Asset Library:</i><br><a href=\"https://camoselector.wot-tools.dev/\">https://camoselector.wot-tools.dev/</a></p><h2><strong>🧩 Custom Assets</strong></h2><p>Open Exterior and click <strong>Custom Assets (open)</strong> to create or import:</p><p>• Emblems<br>• Inscriptions<br>• Projection decals<br>• Camouflages<br>• Paints</p><p>Supported texture sources:</p><p>• PNG and JPG files are converted automatically for supported asset types.<br>• Valid DDS files are accepted directly.<br>• Animated GIF and animated WebP files are supported for camouflages and projection decals.<br>• Animated files may be up to 512 × 512 and are processed in the background with visible progress.</p><p>Renderable DDS textures must use BC3/DXT5 compression with the dimensions and mipmaps required for their selected asset type.</p><p>Projection decal ratios:</p><p>• 1:1<br>• 1:2<br>• 1:3<br>• 1:4<br>• 1:6</p><p>Custom camouflages support scale, rotation, exact numeric input and either full-colour or three-palette mask rendering.</p><p>Custom paints support colour, gloss and metallic values.</p><h2><strong>🛠️ How to use</strong></h2><p>1. Open Exterior.<br>2. Ensure <strong>Camo Mixer: ON</strong> is shown.<br>3. Apply and confirm an owned 2D style, compatible 3D style or hull camouflage at least once. This provides the normal server-owned appearance that authorizes the local override.<br>4. Reopen Exterior.<br>5. Apply the styles, camouflage, paint, decals, attachments, inscriptions, emblems or effects you want.<br>6. Leave Exterior with Escape to keep the locally saved appearance.</p><p>Switching from an applied 2D style into custom editing preserves its appearance.</p><p>Only natively valid, owned changes can be sent through <strong>Purchase &amp; Exit</strong>. Other Camo Selector changes remain local.</p><h2><strong>✨ Recommended mods</strong></h2><p><i>Clean Camo:</i><br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><p><i>Extra Style Filters:</i><br><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><p>Support, questions and suggestions:<br><a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Patreon:<br><a href=\"https://www.patreon.com/c/Gravity_Assist\">https://www.patreon.com/c/Gravity_Assist</a></p>",
+      "descriptionHtml": "<h2><strong>⚠️ Purchase safety</strong></h2><p>Camo Selector does not let you purchase customization items that you could not normally buy or apply. Preview-only and local customization changes remain local.</p><h2><strong>🎨 Universal Customization</strong></h2><p>Customize vehicles with a much wider selection of customization elements:</p><p>• 2D styles<br>• Camouflages and paints<br>• Projection decals and legacy decals<br>• Inscriptions and emblems<br>• Compatible 3D and progressive 3D styles<br>• 3D attachments, personal numbers, stat trackers and effects</p><p>Compatible unowned 3D styles can be selected for local customization, but their normal vehicle and model restrictions still apply.</p><p>A 3D style can be combined with projection decals, emblems and inscriptions. Selecting an incompatible category replaces the 3D style.</p><p>Decals, emblems and inscriptions still require genuine placement slots on the selected vehicle.</p><h2><strong>🌐 Style Share</strong></h2><p>Other players using Camo Selector can see your shared custom appearance in battle.</p><p>Style Share is enabled by default and can be switched on or off from Exterior.</p><p>Outfits containing local custom assets remain local-only. Their texture files are not transmitted through Style Share, and players without the mod see the normal server appearance.</p><h2><strong>✨ Creations</strong></h2><p>Open Exterior, click <strong>Custom Assets (open)</strong> and select the <strong>Creations</strong> tab.</p><p>You can:</p><p>• Save, apply, refresh and duplicate complete vehicle designs<br>• Add titles, descriptions, tags and classifications<br>• Search and import approved public Creations<br>• Publish your own Creations for moderation<br>• Publish and import individual Asset Library items<br>• Publish and import complete Vehicle Presets</p><p>Creations and Vehicle Presets can include the local custom assets they require. Imported assets are installed locally and automatically remapped for your client.</p><p>Imported Vehicle Presets remain locked so that they stay identical to the approved version. You can duplicate one into an editable local Creation.</p><p>Nothing from your Asset Library or Creations collection is published publicly unless you explicitly choose to publish it.</p><p><i>Public gallery and Asset Library:</i><br><a href=\"https://camoselector.wot-tools.dev/\">https://camoselector.wot-tools.dev/</a></p><h2><strong>🧩 Custom Assets</strong></h2><p>Open Exterior and click <strong>Custom Assets (open)</strong> to create or import:</p><p>• Emblems<br>• Inscriptions<br>• Projection decals<br>• Camouflages<br>• Paints</p><p>Supported texture sources:</p><p>• PNG and JPG files are converted automatically for supported asset types.<br>• Valid DDS files are accepted directly.<br>• Animated GIF and animated WebP files are supported for camouflages and projection decals.<br>• Animated files may be up to 512 × 512 and are processed in the background with visible progress.</p><p>Renderable DDS textures must use BC3/DXT5 compression with the dimensions and mipmaps required for their selected asset type.</p><p>Projection decal ratios:</p><p>• 1:1<br>• 1:2<br>• 1:3<br>• 1:4<br>• 1:6</p><p>Custom camouflages support scale, rotation, exact numeric input and either full-colour or three-palette mask rendering.</p><p>Custom paints support colour, gloss and metallic values.</p><h2><strong>🛠️ How to use</strong></h2><p>1. Open Exterior.<br>2. Ensure <strong>Camo Mixer: ON</strong> is shown.<br>3. Apply and confirm an owned 2D style, compatible 3D style or hull camouflage at least once. This provides the normal server-owned appearance that authorizes the local override.<br>4. Reopen Exterior.<br>5. Apply the styles, camouflage, paint, decals, attachments, inscriptions, emblems or effects you want.<br>6. Leave Exterior with Escape to keep the locally saved appearance.</p><p>Switching from an applied 2D style into custom editing preserves its appearance.</p><p>Only natively valid, owned changes can be sent through <strong>Purchase &amp; Exit</strong>. Other Camo Selector changes remain local.</p><h2><strong>✨ Recommended mods</strong></h2><p><a href=\"https://wgmods.net/8014/\"><strong>Exterior Studio</strong></a> - an optional redesigned Exterior interface with search, filters and favourites. Compatible with Camo Selector 3.1.2 or newer; Camo Selector also works without it.</p><p><i>Clean Camo:</i><br>Part 1: <a href=\"https://wgmods.net/6997/\">https://wgmods.net/6997/</a><br>Part 2: <a href=\"https://wgmods.net/6996/\">https://wgmods.net/6996/</a><br>Part 3: <a href=\"https://wgmods.net/7687/\">https://wgmods.net/7687/</a></p><p><i>Extra Style Filters:</i><br><a href=\"https://wgmods.net/7370/\">https://wgmods.net/7370/</a></p><p>Support, questions and suggestions:<br><a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>Patreon:<br><a href=\"https://www.patreon.com/c/Gravity_Assist\">https://www.patreon.com/c/Gravity_Assist</a></p>",
       "installationGuideHtml": "<p>Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/7711-Camo-Selector_iLr6dNc.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7711/",
@@ -9278,6 +9404,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "3.1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.0.2.3.1.2.wotmod",
+          "updatedAt": "2026-10-10T08:36:18.367Z",
+          "sizeBytes": 1322048,
+          "fileName": "gravity.camo_selector.2.4.0.2.3.1.2.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Restart local camouflage and projection-decal animations after returning from battle results; keep local animations running across Ready-triggered hangar vehicle reloads; rotate Creations diagnostics at 2 MiB and keep one previous log; add optional Exterior Studio compatibility."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "3.1.1",
@@ -9310,9 +9446,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.0.2.3.1.1.wotmod",
-        "modVersion": "3.1.1",
-        "changeLog": "Fixed animated custom camouflages and projection decals sometimes showing missing textures after switching World of Tanks clients or failing to restart after leaving Exterior. Large GIF and animated WebP imports now run in the background with visible progress instead of freezing the Local Assets page. Also improved animation resource synchronization, loading, and fallback behavior.",
+        "fileName": "gravity.camo_selector.2.4.0.2.3.1.2.wotmod",
+        "modVersion": "3.1.2",
+        "changeLog": "Restart local camouflage and projection-decal animations after returning from battle results; keep local animations running across Ready-triggered hangar vehicle reloads; rotate Creations diagnostics at 2 MiB and keep one previous log; add optional Exterior Studio compatibility.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -12181,7 +12317,7 @@
       ],
       "recommended": true,
       "mark": 4.6,
-      "descriptionHtml": "<p>Do you want to play challenges with your platoon mates? How about reaching 120k combined damage in 10 battles with two of your buddies? Or racing them to 20 kills? With this mod you can. HAVE FUN!<br><br><br><strong>TWO WAYS TO PLAY</strong><br><br><strong>OFFLINE </strong>- only you need the mod<br>The challenge is tracked on your PC, no server involved. Your platoon mates' values are read from the battle results and added to yours, so they don't need the mod. When you play solo, only your own values count.<br>- Max battles is one shared counter: one platoon battle counts as one battle.<br>- Wins and Survived always count only you.<br><br><strong>ONLINE </strong>- everyone joins with a code<br>Create a challenge on <a href=\"https://z4imon.de/\">z4imon.de</a>, share the six-character code, and everyone enters it in the garage. It doesn't matter whether you play in one platoon, in different platoons or at different times: all progress is combined (Co-Op) or ranked (Race) live.<br>- Every participant needs the mod and has to join with the code.<br>- Max battles counts per player: in a 10-battle challenge everyone plays their own 10.<br>- In battle, an overlay shows the live standings, including the battle you are in right now.<br>- The creator starts the challenge on the website and can end or delete it at any time.<br>- You get a notification when the challenge is won, passed or failed.<br><br><br><strong>CO-OP OR RACE</strong><br><br>Co-Op: reach the goal together.<br>Race: every player for themselves. Online you choose how the race is decided:<br>- First battle results (default): whoever passes the target first on confirmed battle results wins.<br>- First during battle: the running battle counts too, so the race can be decided mid-battle.<br>- Fewest battles: the race doesn't end with the first finisher. Everyone plays on, and whoever needed the fewest battles wins.<br>- If platoon mates pass the target in the same battle, the higher value wins<br><br><br><strong>CHALLENGE TYPES</strong><br><br>Combined (damage + all assists), Damage, Kills, Spotting, Wins, Survived<br><br><br><strong>HOW TO USE</strong><br><br>Start an offline challenge: Choose Co-Op or Race, the type, the number of battles and the target, then click START CHALLENGE. Click \"+ Save\" to keep the setup as a template and load it again with one click.<br>- If you leave a battle early, your progress from it stays on the list until its result arrives.<br>- The creator starts the challenge on the website and can end or delete it at any time.<br>- You get a notification when the challenge is won, passed or failed.<br><br><strong>SETTINGS</strong><br><br>- Screen corner of the minimized button<br>- Show challenge code: turn it off while streaming, so viewers can't join your challenge<br>&nbsp;</p><p><br>I always play challenges with my platoon mates, and each of us has to pick a new random tank for every battle. If you are interested in that too, have a look at my other mod: <a href=\"https://wgmods.net/7575/\">Random Tank Picker</a><br><br>If you need help, ask here: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a> (Official WoT Discord)<br><br>made by <strong>Z4imon</strong></p>",
+      "descriptionHtml": "<p>Do you want to play challenges with your platoon mates? How about reaching 120k combined damage in 10 battles with two of your buddies? Or racing them to 20 kills? With this mod you can. HAVE FUN!<br><br><br><strong>TWO WAYS TO PLAY</strong><br><br><strong>OFFLINE </strong>- only you need the mod<br>The challenge is tracked on your PC, no server involved. Your platoon mates' values are read from the battle results and added to yours, so they don't need the mod. When you play solo, only your own values count.<br>- Max battles is one shared counter: one platoon battle counts as one battle.<br>- Wins and Survived always count only you.<br><br><strong>ONLINE </strong>- everyone joins with a code<br>Create a challenge on <a href=\"https://z4imon.de/\">z4imon.de</a>, share the six-character code, and everyone enters it in the garage. It doesn't matter whether you play in one platoon, in different platoons or at different times: all progress is combined (Co-Op) or ranked (Race) live.<br>- Every participant needs the mod and has to join with the code.<br>- Max battles counts per player: in a 10-battle challenge everyone plays their own 10.<br>- In battle, an overlay shows the live standings, including the battle you are in right now.<br>- The creator starts the challenge on the website and can end or delete it at any time.<br>- You get a notification when the challenge is won, passed or failed.<br><br><br><strong>CO-OP OR RACE</strong><br><br>Co-Op: reach the goal together.<br>Race: every player for themselves. Online you choose how the race is decided:<br>- First battle results (default): whoever passes the target first on confirmed battle results wins.<br>- First during battle: the running battle counts too, so the race can be decided mid-battle.<br>- Fewest battles: the race doesn't end with the first finisher. Everyone plays on, and whoever needed the fewest battles wins.<br>- If platoon mates pass the target in the same battle, the higher value wins<br><br><br><strong>CHALLENGE TYPES</strong><br><br>Combined (damage + all assists), Damage, Kills, Spotting, Wins, Survived<br><br><br><strong>HOW TO USE</strong><br><br>Start an offline challenge: Choose Co-Op or Race, the type, the number of battles and the target, then click START CHALLENGE. Click \"+ Save\" to keep the setup as a template and load it again with one click.<br>- If you leave a battle early, your progress from it stays on the list until its result arrives.<br>- The creator starts the challenge on the website and can end or delete it at any time.<br>- You get a notification when the challenge is won, passed or failed.<br><br><strong>SETTINGS</strong><br><br>- Screen corner of the minimized button<br>- Show challenge code: turn it off while streaming, so viewers can't join your challenge<br>&nbsp;</p><p><br>I always play challenges with my platoon mates, and each of us has to pick a new random tank for every battle. If you are interested in that too, have a look at my other mod: <a href=\"https://wgmods.net/7575/\">Random Tank Picker</a><br><br>If you need help, ask here: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a> (Official WoT Discord)<br><br>made by <strong>Z4imon</strong></p><p>&nbsp;</p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p>",
       "installationGuideHtml": "<p>Move alle the files in the downloaded zip folder to you world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChallengesModTitleImage.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7641/",
@@ -14075,7 +14211,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.4,
       "descriptionHtml": "<p><strong>Recommended in combination with:&nbsp;</strong><a href=\"https://wgmods.net/7578/\"><strong>https://wgmods.net/7578/</strong></a><br><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p>This mod shows you your current MOE rating, projected MOE rating, and damage needed to sustain current MOE rating in battle. As well as your current moving average damage and the new moving average damage.<br>You can drag the overlay around.</p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) &nbsp;(replace x.x.x.x with the current version of WoT)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/7596-marks-of-excellence-overlay-asset-first-2026-10-02_17nBmYn.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -14632,7 +14768,7 @@
       ],
       "recommended": true,
       "mark": 4.8,
-      "descriptionHtml": "<p><strong>Do you never know what tank to play?</strong><br><br>This mod adds buttons to the garage that allow you to pick a tank of the tiers I to XI by random. This brings more variety to your gameplay. It is also possible to use the ingame filters to get a random tank over multiple tiers.</p><p>Additionally it allows you to pick the tank closest to the next gunmark.</p><p>I always use this mod when driving challenges with my platoon mates. If you wnat to do that too, take a look at my other mod: <a href=\"https://wgmods.net/7641/\">Challenges</a></p><p>If you need help ask here: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a> (Official WoT Discord)</p><p><br>Mady by <strong>Z4imon</strong><br><i>Thanks to PanzerKnutsel for the idea of the mod</i></p>",
+      "descriptionHtml": "<p><strong>Do you never know what tank to play?</strong><br><br>This mod adds buttons to the garage that allow you to pick a tank of the tiers I to XI by random. This brings more variety to your gameplay. It is also possible to use the ingame filters to get a random tank over multiple tiers.</p><p>Additionally it allows you to pick the tank closest to the next gunmark.</p><p>I always use this mod when driving challenges with my platoon mates. If you wnat to do that too, take a look at my other mod: <a href=\"https://wgmods.net/7641/\">Challenges</a></p><p>If you need help ask here: <a href=\"https://discord.com/channels/161053416796323840/1496838335857954887\">Z4imon's mods</a> (Official WoT Discord)</p><p><br>Mady by <strong>Z4imon</strong><br><i>Thanks to PanzerKnutsel for the idea of the mod</i></p><p>&nbsp;</p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p>",
       "installationGuideHtml": "<p>Move all the files in the downloaded zip file to the world of tanks mod folder:</p><p>yourWoTInstallation/mods/currentGameVersion</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/ChatGPT_Image_28._Sept._2026_00_15_27.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7575/",
