@@ -756,6 +756,196 @@
       "configuration": {
         "groups": []
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6403",
+      "title": "Custom Gonsalo Model",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included Installation.txt verified: a single root Gonsalo wotmod replaces the older loose-file layout described in the catalog; copy all files to mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6601",
+      "title": "Mirukii's Restored FV4206 CTR \"Contender\" (AMX CDA 105) Remodel",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: scripts and vehicles are below a named remodel wrapper that must be stripped into res_mods/version. No supported template performs that mapping. The guide requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6602",
+      "title": "Mirukii's Restored Kanonenjagdpanzer 105 Remodel",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: scripts and vehicles are below a named remodel wrapper that must be stripped into res_mods/version. No supported template performs that mapping. The guide requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7525",
+      "title": "DARK // ELC EVEN 90 - THE BUSH",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one ELC EVEN 90 wotmod and installation text, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7866",
+      "title": "Witblitz Contour Pack",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: exclusive Apex and Neon payloads have different bytes but collapse to the same mods/version/witblitz_contour filename. Target-only filters cannot distinguish them.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7322",
+      "title": "Girls und Panzer Voice Pack Saori Takebe ガールズ＆パンツァーボイスパック第三弾　武部沙織 GIRLS und PANZER Saori Takebe",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Included Japanese readme verified: copy audioww into res_mods/version. The archive places audioww below a named wrapper and no supported template strips that wrapper into res_mods.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6963",
+      "title": "DARK // BZ-75 - THE BEAST",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free-version BZ-75 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7476",
+      "title": "DARK //  Centurion AX - Triumphant",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one classic Centurion AX wotmod and installation text, with no variant choice; copy the complete package and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6600",
+      "title": "Mirukii's Restored Tiran 5Sh (T-55A) Remodel",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: scripts and vehicles are below a named remodel wrapper that must be stripped into res_mods/version. No supported template performs that mapping. The guide requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1125",
+      "title": "Armor's Battle Contours",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: copy exactly one of four incompatible contour variants, selecting white or yellow light-tank icons with or without enhanced minimaps. In-game and XVM settings remain user actions.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "contourVariant",
+            "name": "Contour and minimap variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "white",
+                "name": "White light tanks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.white\\.light\\.tanks\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "whiteMinimap",
+                "name": "White light tanks + enhanced minimap",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.white\\.light\\.tanks\\.plus\\.mm\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "yellow",
+                "name": "Yellow light tanks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.yellow\\.light\\.tanks\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "yellowMinimap",
+                "name": "Yellow light tanks + enhanced minimap",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.yellow\\.light\\.tanks\\.plus\\.mm\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
