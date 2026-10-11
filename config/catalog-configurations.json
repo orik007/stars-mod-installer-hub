@@ -19,9 +19,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -29,9 +27,7 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
@@ -57,9 +53,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -67,9 +61,7 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
@@ -95,9 +87,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -105,9 +95,7 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
@@ -133,9 +121,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -143,14 +129,375 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7939",
+      "title": "MEGA - Make ESC Great Again!",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Prepared mods/version tree includes Gameface; root and version normalization is sufficient.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "installation",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "mod",
+                "name": "MEGA and bundled Gameface",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/[^/]+\\.wotmod$"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7113",
+      "title": "Aim Pro: Monitor Distance Sensitivity",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Choose-One contains eight sensitivity methods. Install exactly one selected method using the fixed-folder template.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Choose-One"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "method",
+            "name": "Sensitivity method",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "fl",
+                "name": "FL",
+                "groups": [],
+                "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[FL\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "jt",
+                "name": "JT",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[JT\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdh100",
+                "name": "MDH100",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[MDH100\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdh60",
+                "name": "MDH60",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[MDH60\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdh75",
+                "name": "MDH75",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[MDH75\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdv100",
+                "name": "MDV100",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[MDV100\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdv133",
+                "name": "MDV133",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[MDV133\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "xy",
+                "name": "XY",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/shuxue\\.pruszko\\.AimPro-\\[XY\\]_\\d+(?:\\.\\d+)+\\.wotmod$"
                   ]
                 }
               }
             ]
           }
         ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7387",
+      "title": "DARK // SIMPLE UI PLATOON 2.0",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: A single root wotmod and an installation text; no component choice.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "installation",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "mod",
+                "name": "Platoon UI",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.SimpleUI-Platoon\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4389",
+      "title": "Visible Injured Crew Icons (Colorblind)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Red and White replace the same damagePanel.swf resource; choose one.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "variant",
+            "name": "Icon color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "red",
+                "name": "Red",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FiT\\.Graphics\\.VisibleInjuredCrewRed_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "white",
+                "name": "White",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FiT\\.Graphics\\.VisibleInjuredCrewWhite_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7956",
+      "title": "Jimbo (J1mB0) Crosshair Remake by TecHniCzny",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Base and three optional configs collapse to the same target config.json. Target-only filters cannot distinguish them. README also requires removing a conflicting Dispersion Reticle mod if installed.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6496",
+      "title": "FartsInTanksEU's crosshair for colorblind",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: HowTo.txt offers root wotmod to mods or loose gui to res_mods; prefer the supported wotmod installation.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "installation",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "mod",
+                "name": "Colorblind crosshair",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FiT\\.Graphics-Gr44\\.ColorblindPenIndicator_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7487",
+      "title": "Vehicle Reskin Renamer (DEPRECATED)",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Long and Short have prepared mods/version trees and distinct filenames; select one.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "variant",
+            "name": "Name length",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "long",
+                "name": "Long",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Vehicle Reskin Renamer \\(Long, \\d+(?:\\.\\d+)+\\)\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "short",
+                "name": "Short",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Vehicle Reskin Renamer \\(Short, \\d+(?:\\.\\d+)+\\)\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7114",
+      "title": "Font Size and Interface Scale UI mod",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Manual.txt requires gui from a named wrapper in res_mods/version and a preferences.xml edit. No suitable wrapper-to-res_mods template exists.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7838",
+      "title": "AYA Translator",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: The wrapper contains both prepared mods and res_mods trees; normalization installs both correctly.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "installation",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "mod",
+                "name": "AYA and bundled dependencies",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^(?:mods|res_mods)/"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7351",
+      "title": "Login Screen Dark Ambiance",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Only a loose loginscreen.bnk; the required audioww destination folder is absent and cannot be created by configuration.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
       }
     }
   ]
