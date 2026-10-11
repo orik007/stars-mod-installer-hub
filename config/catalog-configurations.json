@@ -1177,6 +1177,296 @@
           }
         ]
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6858",
+      "title": "DARK // Object. 705A - MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the premium Obj.705A folder is present. Copy the complete package into mods/version and delete data.wgpdc; no variant choice is needed.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7358",
+      "title": "DARK // ST-II - PROJECT BABYLON",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free ST-II version is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7232",
+      "title": "FV Gun Carriage",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: copy exactly one of the standard and purple FV4005 remodel wotmods into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Remodel color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "standard",
+                "name": "Standard",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FV4005_Remodel\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "purple",
+                "name": "Purple",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FV4005_remodel_purple\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7390",
+      "title": "DARK // 60TP – MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the premium classic 60TP wotmod is present. Copy the complete package into mods/version; no variant choice is needed.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7696",
+      "title": "PzKpfw V Panther \"Elster\"",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose the striped or white Panther Elster wotmod, copy it into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Elster color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "striped",
+                "name": "Striped",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/PzKpfw_V_Panther_Elster_Gestreift\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "white",
+                "name": "White",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/PzKpfw_V_Panther_Elster_Weiss\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7197",
+      "title": "DARK //  Chieftain Mk. 6 - MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free Chieftain Mk.6 version is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7772",
+      "title": "DARK // Concept 5 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select the Classic or Premium Concept 5 folder, copy that folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic version/dark\\.Concept5-NewGen-classicVersion\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premium",
+                "name": "Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/premium version/dark\\.Concept5-NewGen-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7177",
+      "title": "DARK // KanJPz 105 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the classic free KanJPz105 version is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7317",
+      "title": "G. Destroyer - NEW GEN",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose exactly one Classic or Black G.Destroyer wotmod and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.G\\.Destroyer-NEW-GEN\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.G\\.Destroyer-NEW-GEN-Black\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7293",
+      "title": "DARK // Minotauro - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose the Classic or Black Premium Minotauro folder, copy that folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic premium/dark\\.Minotauro-NEW-WARFARE-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black premium/dark\\.Minotauro-NEW-WARFARE-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
