@@ -19,9 +19,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -29,14 +27,18 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 1 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume1, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -57,9 +59,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -67,14 +67,18 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 2 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume2, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -95,9 +99,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -105,14 +107,18 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 3 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume3, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -133,9 +139,7 @@
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -143,14 +147,4773 @@
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 4 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume4, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7939",
+      "title": "MEGA - Make ESC Great Again!",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Prepared mods/version tree includes Gameface; root and version normalization is sufficient.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7113",
+      "title": "Aim Pro: Monitor Distance Sensitivity",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Choose-One contains eight sensitivity methods. Install exactly one selected method using the fixed-folder template.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Choose-One"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "method",
+            "name": "Sensitivity method",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "fl",
+                "name": "FL",
+                "groups": [],
+                "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
+                    "^mods/[^/]+/[^/]*AimPro-\\[FL\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "jt",
+                "name": "JT",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[JT\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdh100",
+                "name": "MDH100",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[MDH100\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdh60",
+                "name": "MDH60",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[MDH60\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdh75",
+                "name": "MDH75",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[MDH75\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdv100",
+                "name": "MDV100",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[MDV100\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "mdv133",
+                "name": "MDV133",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[MDV133\\][^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "xy",
+                "name": "XY",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*AimPro-\\[XY\\][^/]*\\.wotmod$"
                   ]
                 }
               }
             ]
           }
         ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7860",
+      "title": "Zanju's Salvo Reticle Fix",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy the complete prepared mods/version tree, rewriting the game version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7800",
+      "title": "Zanju's Premium Time",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy both Premium Time and its bundled Gameface component from mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7815",
+      "title": "Zanju's Directives Helper",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy both Directives Helper and its bundled Gameface component from mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7874",
+      "title": "Zanju's Campaign Tracker",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy both Campaign Tracker and its bundled Gameface component from mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4772",
+      "title": "QuickLog",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: loose wotmods require mods/version while configs require mods/configs. The supported templates cannot perform this split mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7227",
+      "title": "More visible circle with pen indication",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Included HowTo and package verified: install the loose gui/flash folder into res_mods/version and delete data.wgpdc. The advertised wotmod is absent; the nested archive repeats the same loose payload.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7691",
+      "title": "Zanju's Research Progress Bar",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy the complete mods/version tree including both bundled shared components.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7961",
+      "title": "Autoloader Indicator",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: select Standalone or XVM; both have prepared mods/version trees and identical shared components. XVM and its enabled features remain user prerequisites.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "indicatorVersion",
+            "name": "Indicator version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "standalone",
+                "name": "Standalone",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?![^/]*xvm)[^/]*autoloaderindicator[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "xvm",
+                "name": "XVM (requires configured XVM)",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?=[^/]*xvm)[^/]*autoloaderindicator[^/]*\\.wotmod$"
+                  ]
+                }
+              }
+            ],
+            "installationContent": {
+              "includeTargetPathRegexes": [
+                "^mods/[^/]+/(?:izeberg\\.modssettingsapi|me\\.poliroid\\.modslistapi|net\\.openwg\\.gameface)_\\d+(?:\\.\\d+)+\\.wotmod$"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6645",
+      "title": "Enhanced 20pdrs (Sound Mod)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: choose exactly one of four root wotmods; the included readme requires using only one variant.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "soundVariant",
+            "name": "Sound and recoil variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "soundOnly",
+                "name": "Enhanced 20pdrs",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Enhanced_20pdrs-BadCorps\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "soundRecoil",
+                "name": "Enhanced 20pdrs + Realistic Recoil",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Enhanced_20pdrs\\+Recoil-BadCorps\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "soundRecoilKnockback",
+                "name": "Enhanced 20pdrs + Realistic Recoil + Knockback",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Enh_20pdrs\\+Recoil\\+Knockback-BadCorps\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "recoilKnockback",
+                "name": "Realistic Recoil + Knockback (without sound changes)",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Realistic_Recoil\\+Knockback-BadCorps\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4894",
+      "title": "Wwise project for World of Tanks",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included PDF verified: this is a Wwise authoring project, requiring soundbank generation and audio_mods.xml editing before a game payload exists.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7199",
+      "title": "T-103 130mm Variants",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: three exclusive variants contain vehicles below named wrappers. No supported template strips a selected wrapper into res_mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7688",
+      "title": "ReShade",
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Manual installation required: the package installs a dxgi.dll proxy and ReShade INI/preset files in win64. No author installation guide is included, rendering is unverified, and managed reinstall would overwrite user presets.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7733",
+      "title": "DARK // KV-2-2-2 and KV-2x9",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select V1 with three turrets or V2 with nine turrets, copy the selected folder to mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "turretVariant",
+            "name": "Turret variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "threeTurrets",
+                "name": "V1 - Three turrets",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/dark\\.KV-2-2-2-Crazy3dSkin\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "nineTurrets",
+                "name": "V2 - Nine turrets",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/dark\\.KV-2-X9-Crazy3dSkin\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7299",
+      "title": "Old gun sounds (From 0.8.9)",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: loose audio_mods.xml and oldguns.bnk require res_mods/version/audioww, but the audioww directory is absent and no supported template creates this mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6934",
+      "title": "PeacemakeR Voice Mod",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: the selected sixth-sense MP3 must be renamed and moved into audioww; the voice payload also has an unsupported wrapper-to-res_mods mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7885",
+      "title": "Colored Contour Icons",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: two compatible icon payloads are already under mods/version; copy both and rewrite the game version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "5663",
+      "title": "Mirukii's AMX 13 90 Remodel *Unofficial update*",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose one side-skirt wotmod and delete data.wgpdc as instructed. Match the root payload or one wrapper without pinning its wording or release. The wrapper remains in the normalized mods/version target. Explicit backup/old-version folders and deeper copies are excluded; an archive with multiple release copies would require a new package review.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "sideSkirt",
+            "name": "Side skirt",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "withoutSkirt",
+                "name": "Without side skirt",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withSkirt",
+                "name": "With side skirt",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Mirukii_AMX1390_Remodel_With_Skirt(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7254",
+      "title": "MoE Nation Change For All Tanks",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one of eleven national marks-of-excellence wotmods, which replace the same insignia resources.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "moeNation",
+            "name": "Marks of excellence nation",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "china",
+                "name": "China",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/ChinaMOE\\.wotmod$"]
+                }
+              },
+              {
+                "id": "czech",
+                "name": "Czech",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/CzechMOE\\.wotmod$"]
+                }
+              },
+              {
+                "id": "france",
+                "name": "France",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FranceMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "germany",
+                "name": "Germany",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/GermanyMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "italy",
+                "name": "Italy",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/ItalyMOE\\.wotmod$"]
+                }
+              },
+              {
+                "id": "japan",
+                "name": "Japan",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/JapanMOE\\.wotmod$"]
+                }
+              },
+              {
+                "id": "poland",
+                "name": "Poland",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/PolandMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "sweden",
+                "name": "Sweden",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/SwedenMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "uk",
+                "name": "UK",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/UK_MOE\\.wotmod$"]
+                }
+              },
+              {
+                "id": "usa",
+                "name": "USA",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/USA_MOE\\.wotmod$"]
+                }
+              },
+              {
+                "id": "ussr",
+                "name": "USSR",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/USSR_MOE\\.wotmod$"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7518",
+      "title": "SHELEST SoundMod",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guides verified: select one voice variant and strip two named wrappers before copying audioww and gui into res_mods/version. No supported template performs that mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6422",
+      "title": "DARK // GOLD PREMIUM AMMO",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select the Marked or No marked folder and copy that folder into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "ammoMarking",
+            "name": "Premium ammo marking",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "marked",
+                "name": "Marked",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1 - Marked/dark\\.GOLDEN-GOLD-AMMO-Marked\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "unmarked",
+                "name": "No marking",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2 - No marked/dark\\.GOLDEN-GOLD-AMMO-NoMarked\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7906",
+      "title": "ASMA简体中文图标",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Armor and Simple payloads are nested ZIPs with the same atlas targets. Preparation cannot recursively unpack them; their literal res_mods/version placeholder also needs renaming.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7668",
+      "title": "DARK // IS 7 - RED GUARDIAN",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: the crew member and IS-7 style are compatible bundled components; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6403",
+      "title": "Custom Gonsalo Model",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included Installation.txt verified: a single root Gonsalo wotmod replaces the older loose-file layout described in the catalog; copy all files to mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6601",
+      "title": "Mirukii's Restored FV4206 CTR \"Contender\" (AMX CDA 105) Remodel",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: scripts and vehicles are below a named remodel wrapper that must be stripped into res_mods/version. No supported template performs that mapping. The guide requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6602",
+      "title": "Mirukii's Restored Kanonenjagdpanzer 105 Remodel",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: scripts and vehicles are below a named remodel wrapper that must be stripped into res_mods/version. No supported template performs that mapping. The guide requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7525",
+      "title": "DARK // ELC EVEN 90 - THE BUSH",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one ELC EVEN 90 wotmod and installation text, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7866",
+      "title": "Witblitz Contour Pack",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: exclusive Apex and Neon payloads have different bytes but collapse to the same mods/version/witblitz_contour filename. Target-only filters cannot distinguish them.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7322",
+      "title": "Girls und Panzer Voice Pack Saori Takebe ガールズ＆パンツァーボイスパック第三弾　武部沙織 GIRLS und PANZER Saori Takebe",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Included Japanese readme verified: copy audioww into res_mods/version. The archive places audioww below a named wrapper and no supported template strips that wrapper into res_mods.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6963",
+      "title": "DARK // BZ-75 - THE BEAST",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free-version BZ-75 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7476",
+      "title": "DARK //  Centurion AX - Triumphant",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one classic Centurion AX wotmod and installation text, with no variant choice; copy the complete package and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6600",
+      "title": "Mirukii's Restored Tiran 5Sh (T-55A) Remodel",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: scripts and vehicles are below a named remodel wrapper that must be stripped into res_mods/version. No supported template performs that mapping. The guide requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "1125",
+      "title": "Armor's Battle Contours",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: copy exactly one of four incompatible contour variants, selecting white or yellow light-tank icons with or without enhanced minimaps. In-game and XVM settings remain user actions.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "contourVariant",
+            "name": "Contour and minimap variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "white",
+                "name": "White light tanks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.white\\.light\\.tanks\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "whiteMinimap",
+                "name": "White light tanks + enhanced minimap",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.white\\.light\\.tanks\\.plus\\.mm\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "yellow",
+                "name": "Yellow light tanks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.yellow\\.light\\.tanks\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "yellowMinimap",
+                "name": "Yellow light tanks + enhanced minimap",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/battle\\.contours\\.v\\.\\d+(?:\\.\\d+)+_with\\.yellow\\.light\\.tanks\\.plus\\.mm\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7198",
+      "title": "DARK // SFAC-105 -GENDARMERIE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free SFAC-105 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7350",
+      "title": "Mach 6 - EBR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one root Mach 6 wotmod, Clean or Paint, and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "paintVariant",
+            "name": "Paint variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "clean",
+                "name": "Clean",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Mach 6 - Clean\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "paint",
+                "name": "Paint",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Mach 6 - Paint\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6926",
+      "title": "DARK // LEOPARD 1 - Waffenträger",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free Leopard 1 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7726",
+      "title": "Wot Mod Creator (Icons)",
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Package and guide verified: a portable WoTModCreator executable with authoring assets, intended for its own folder. No game-installable payload or game destination is provided.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7178",
+      "title": "DARK // Obj.277 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one classic free Obj.277 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7054",
+      "title": "DARK // DZT-159 - MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free DZT-159 wotmod, preview and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7225",
+      "title": "DARK // BZ-75 - DIVINE VALOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black BZ-75, each a distinct root wotmod. Copy exactly the selected variant into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.BZ-75-DIVINE-VALOR-ClassicV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.BZ-75-DIVINE-VALOR-BlackV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7055",
+      "title": "DARK // IS-7 - HEDGEHOG",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free IS-7 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7501",
+      "title": "DARK // Obj.703 II - NIGHTMARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one Luxury Obj.703 II wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7338",
+      "title": "Aslain's Night Sky Edit",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guides verified: prefer the wotmod representations; select Night Sky, its independently usable Night Light component, or both. Extract matching wotmod version folders into mods/version. Night Light requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true,
+        "manualFolder": "wotmod version"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "nightComponents",
+            "name": "Night components",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "nightSky",
+                "name": "Night Sky Edit",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/AslainsNightSkyEditv\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "nightLight",
+                "name": "Night Light attachment",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Nightlight3DAttachment\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6858",
+      "title": "DARK // Object. 705A - MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the premium Obj.705A folder is present. Copy the complete package into mods/version and delete data.wgpdc; no variant choice is needed.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7358",
+      "title": "DARK // ST-II - PROJECT BABYLON",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free ST-II version is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7232",
+      "title": "FV Gun Carriage",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: copy exactly one of the standard and purple FV4005 remodel wotmods into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Remodel color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "standard",
+                "name": "Standard",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FV4005_Remodel\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "purple",
+                "name": "Purple",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FV4005_remodel_purple\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7390",
+      "title": "DARK // 60TP – MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the premium classic 60TP wotmod is present. Copy the complete package into mods/version; no variant choice is needed.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7696",
+      "title": "PzKpfw V Panther \"Elster\"",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose the striped or white Panther Elster wotmod, copy it into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Elster color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "striped",
+                "name": "Striped",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/PzKpfw_V_Panther_Elster_Gestreift\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "white",
+                "name": "White",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/PzKpfw_V_Panther_Elster_Weiss\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7197",
+      "title": "DARK //  Chieftain Mk. 6 - MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free Chieftain Mk.6 version is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7772",
+      "title": "DARK // Concept 5 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select the Classic or Premium Concept 5 folder, copy that folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic version/dark\\.Concept5-NewGen-classicVersion\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premium",
+                "name": "Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/premium version/dark\\.Concept5-NewGen-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7177",
+      "title": "DARK // KanJPz 105 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the classic free KanJPz105 version is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7317",
+      "title": "G. Destroyer - NEW GEN",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose exactly one Classic or Black G.Destroyer wotmod and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.G\\.Destroyer-NEW-GEN\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.G\\.Destroyer-NEW-GEN-Black\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7293",
+      "title": "DARK // Minotauro - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose the Classic or Black Premium Minotauro folder, copy that folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic premium/dark\\.Minotauro-NEW-WARFARE-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black premium/dark\\.Minotauro-NEW-WARFARE-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6839",
+      "title": "DARK // MODERN ARMOR -  K-91",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Grey or Black Premium K-91, copy the selected folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Armor color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "grey",
+                "name": "Grey Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Grey premium/dark\\.K91-MODERN-ARMOR-Grey-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black premium/dark\\.K91-MODERN-ARMOR-BLACK-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7053",
+      "title": "DARK // GROM - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free Grom wotmod is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7052",
+      "title": "DARK // GSOR TANK - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose exactly one Classic or Black Premium GSOR wotmod and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.GSOR-TANK-ARMORED-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.GSOR-TANK-ARMORED-BlackPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7015",
+      "title": "DARK // KV 1 - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose exactly one Classic or Black Premium KV-1 wotmod and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.KV-1_ARMORED-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.KV-1_ARMORED-Black-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7022",
+      "title": "DARK // BZ-75 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose the Classic or Premium BZ-75 folder, copy that folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic version/dark\\.BZ-75-NEW-GEN-ClassicVersion\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premium",
+                "name": "Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium version/dark\\.BZ-75-NEW-GEN-Premium3dSkin\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7607",
+      "title": "DARK // Rhm -B. WT - NEW MODEL",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free Rhm-B.WT wotmod is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6871",
+      "title": "DARK // Centurion AX - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium Centurion AX, copy the selected folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic premium/dark\\.CenturionAX-NEW-GEN-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black premium/dark\\.CenturionAX-NEW-GEN-blackPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7572",
+      "title": "American Steel Hunter Hybrids",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and resource inspection verified: T26E5 has two incompatible remodel variants; TS-54 is independently selectable. Install the selected tank payloads into mods/version, with exactly one T26E5 variant when that tank is selected.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "hybridTanks",
+            "name": "Hybrid tanks",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "t26e5",
+                "name": "T26E5",
+                "groups": [
+                  {
+                    "id": "t26e5Variant",
+                    "name": "T26E5 remodel",
+                    "required": true,
+                    "type": "single",
+                    "groups": [],
+                    "options": [
+                      {
+                        "id": "sh",
+                        "name": "Hybrid SH",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/A117_T26E5_SH\\.wotmod$"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "sh1",
+                        "name": "Hybrid SH1",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/A117_T26E5_SH1\\.wotmod$"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ts54",
+                "name": "TS-54",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A145_TS_54_SH\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2610",
+      "title": "RazerTeck's SU-122-44",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose the SU-122-44 remodel with or without side skirts; strip the fixed archive folder and copy exactly the selected wotmod into mods/version.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Razer Teck's SU 122-44 Remodel"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "sideSkirt",
+            "name": "Side skirts",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "withoutSkirts",
+                "name": "Without side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's SU 122-44\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withSkirts",
+                "name": "With side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's SU 122-44 With Sideskirts\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7269",
+      "title": "DARK // CONCEPT 1B - NEW GEN",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose the Classic or Black Premium Concept 1B folder, copy that folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic premium/dark\\.Concept1B-NEW-GEN-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black premium/dark\\.Concept1B-Black-NEW-GEN-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7509",
+      "title": "\"The Prototype\" VK45.02A Custom 3D Model and Paint Scheme",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose one of three VK4502A remodels, Prototype, camouflage-compatible 3D model or late turret, and copy exactly its wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "modelVariant",
+            "name": "VK4502A model",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "prototype",
+                "name": "The Prototype",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/ThePrototypeVK4502A\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "model3d",
+                "name": "3D model with camouflage",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/VK4502A3dmodel\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "lateTurret",
+                "name": "Late turret",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/VK4502ALateTurret3dmodel\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7665",
+      "title": "DARK // T7 Combat Car - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo Premium T7, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.T7\\-Car\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.T7\\-Car\\-NEW\\-WARFARE\\-CamoPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7973",
+      "title": "DARK // SFAC 105 - ATLAS FV105-2",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo Premium SFAC105 Atlas, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.SFAC\\-105\\-ATLAS\\-FV105\\-2\\-Classic\\-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.SFAC\\-105\\-ATLAS\\-FV105\\-2\\-Camo\\-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7016",
+      "title": "DARK // T 34-85 & M - WARRIOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one classic T34-85 and M wotmod with readme; copy the complete package into mods/version without an artificial choice.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2596",
+      "title": "RazerTeck's Mod 1",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose the Mod 1 remodel with or without side skirts; strip the fixed archive folder and copy exactly the selected wotmod into mods/version.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Razer Teck's Mod 1 Remodel"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "sideSkirt",
+            "name": "Side skirts",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "withoutSkirts",
+                "name": "Without side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's\\ Mod\\ 1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withSkirts",
+                "name": "With side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's\\ Mod\\ 1\\ With\\ Sideskirts\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7314",
+      "title": "FV215B (183) - STEAMPUNK",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic, Premium with light on or Premium with light off; copy exactly one FV215B183 wotmod into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and light",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ version/dark\\.FV215B183\\-STEAMPUNK\\-ClassicV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premiumLightOn",
+                "name": "Premium - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium\\ version/Light\\ ON/dark\\.FV215B183\\-STEAMPUNK\\-PremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premiumLightOff",
+                "name": "Premium - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium\\ version/Light\\ OFF/dark\\.FV215B183\\-STEAMPUNK\\-PremiumVLightOff\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7796",
+      "title": "DARK // Jagdpanzer E 90 - LEGIONNAIRE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo Premium Jagdpanzer E90, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.JgPzE90\\-Legionnaire\\-ClassicPremium3Dskin\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.JgPzE90\\-Legionnaire\\-CamoPremium3Dskin\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7316",
+      "title": "Obj.703 II - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium Obj.703 II and copy exactly that wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.obj\\-703II\\-Armored\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.obj\\-703II\\-Armored\\-black\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7667",
+      "title": "DARK // E100 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium E100, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.E100\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.E100\\-NEW\\-WARFARE\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6816",
+      "title": "DARK // Rinoceronte - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose one of the three supplied Premium Rinoceronte variants, Classic, Black or Black and White. Copy exactly the selected wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackWhite",
+                "name": "Black and White Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/B\\&W\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-B\\&WPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7685",
+      "title": "Chrysler MTC 2 Remodel (2 Versions)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one Chrysler MTC2 remodel, V1 or V2, and copy its root wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "modelVariant",
+            "name": "Remodel variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "v1",
+                "name": "V1",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A159_Chrysler_MTC_2_V1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2",
+                "name": "V2",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A159_Chrysler_MTC_2_V2\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7797",
+      "title": "DARK // Obj.268 V5 - VALHALLA",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium Obj.268 V5, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Obj268V5\\-VALHALLA\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ premium/dark\\.Obj268V5\\-VALHALLA\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7666",
+      "title": "DARK // Pz.S35 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic, Black or Camo Luxury Pz.S35, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ luxury/dark\\.PzS35\\-NEW\\-WARFARE\\-ClassicLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ luxury/dark\\.PzS35\\-NEW\\-WARFARE\\-BlackLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ luxury/dark\\.PzS35\\-NEW\\-WARFARE\\-CamoLuxury\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6981",
+      "title": "Recoloured T49 Revenant Style",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one of five T49 Revenant colors and copy its root wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Revenant color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "blue",
+                "name": "Blue",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/T49_Blue\\.wotmod$"]
+                }
+              },
+              {
+                "id": "brightred",
+                "name": "BrightRed",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_BrightRed\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "green",
+                "name": "Green",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Green\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "orange",
+                "name": "Orange",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Orange\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "purple",
+                "name": "Purple",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Purple\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7443",
+      "title": "DARK // XM57 - LEGIONNAIRE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo XM57, copy its root wotmod into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.XM57\\-LEGION\\-ClassicLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.XM57\\-LEGION\\-CamoLuxury\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7364",
+      "title": "DARK // AE PHASE 1 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic, Black or Camo Premium AE Phase I, copy its folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.AE\\-PHASE\\-I\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.AE\\-PHASE\\-I\\-NEW\\-WARFARE\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.AE\\-PHASE\\-I\\-NEW\\-WARFARE\\-CamoPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6854",
+      "title": "DARK // NEW GENERATION - BZ-176",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Free, Gray Premium or Black Premium BZ-176 wotmod. The archive contains all three variants although the catalog title mentions Free.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "free",
+                "name": "Free",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/free\\ version/dark\\.BZ\\-176_NEW\\-GEN\\-FREE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "gray",
+                "name": "Gray Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Gray\\ Premium/dark\\.BZ\\-176_NEW\\-GEN\\-Gray\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ Premium/dark\\.BZ\\-176_NEW\\-GEN\\-Black\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "5965",
+      "title": "Skorpion - Improved",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: select Skorpion G, Skorpion or both. Nested resources are disjoint between the tanks; Skorpion has four mutually exclusive complete variants, each selected by its actual archive name.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "remodelTanks",
+            "name": "Remodeled tanks",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "skorpionG",
+                "name": "Skorpion G - Basic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/SkorpionG_Crew_Season_Basic\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "skorpion",
+                "name": "Skorpion",
+                "groups": [
+                  {
+                    "id": "skorpionVariant",
+                    "name": "Skorpion variant",
+                    "required": true,
+                    "type": "single",
+                    "groups": [],
+                    "options": [
+                      {
+                        "id": "basic",
+                        "name": "Basic",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/Skorpion_Crew_Season_Basic\\.wotmod$"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "different",
+                        "name": "Different",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/Skorpion_Crew_Season_Different\\.wotmod$"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "double",
+                        "name": "Double",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/Skorpion_Crew_Season_Double\\.wotmod$"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "skin",
+                        "name": "Skin",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/Skorpion_Crew_Season_Skin\\.wotmod$"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7664",
+      "title": "DARK // ARES 75 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic Premium, Black Premium or Camo Premium ARES 75 wotmod. Catalog requires deleting data.wgpdc; LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.ARES\\-75\\-NEW\\-GEN\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.ARES\\-75\\-NEW\\-GEN\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.ARES\\-75\\-NEW\\-GEN\\-CamoPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7573",
+      "title": "Russain Steel Hunter Hybrid Remodels",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: select independent Churchill III, KV-13, KV-2 and KV-1 remodels. Resource inspection confirms disjoint vehicle paths except the two exclusive KV-1 alternatives; require one KV-1 variant when that tank is selected.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "hybridTanks",
+            "name": "Hybrid tanks",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "churchillIII",
+                "name": "Churchill III",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/R33_Churchill_LL_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "kv13",
+                "name": "KV-13",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/R46_KV-13_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "kv2",
+                "name": "KV-2",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/R77_KV2_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "kv1",
+                "name": "KV-1",
+                "groups": [
+                  {
+                    "id": "kv1Variant",
+                    "name": "KV-1 remodel",
+                    "required": true,
+                    "type": "single",
+                    "groups": [],
+                    "options": [
+                      {
+                        "id": "sh",
+                        "name": "Hybrid SH",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/R80_KV1_SH\\.wotmod$"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "sh1",
+                        "name": "Hybrid SH1",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/R80_KV1_SH1\\.wotmod$"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7582",
+      "title": "German Steel Hunter Hybrid Remodels",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: select any non-empty combination of VK 75.01 K, VK 30.02 D and Pz. IV Schmalturm remodels. Nested resource inspection confirms disjoint resource paths.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "hybridTanks",
+            "name": "Hybrid tanks",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "vk7501k",
+                "name": "VK 75.01 K",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/G141_VK7501K_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "vk3002d",
+                "name": "VK 30.02 D",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/G24_VK3002DB_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "pzIVSchmalturm",
+                "name": "Pz. IV Schmalturm",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/G77_PzIV_Schmalturm_SH\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7444",
+      "title": "DARK // WZ-113G FT - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic Premium or Black Premium WZ-113G FT wotmod. Catalog requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.WZ\\-113GFT\\-NEW\\-GEN\\-ClassicVersion\\-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.WZ\\-113GFT\\-NEW\\-GEN\\-BlackVersion\\-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6410",
+      "title": "TERMINATOR 2",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection verified a complete audioww folder containing TERMINATOR.bnk and audio_mods.xml. Copy the complete folder into res_mods/current-version; the catalog destination wording is malformed.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7363",
+      "title": "DARK // AMX 30 B - SPECIALE FORCE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one AMX 30 B variant. Archive contains Classic Premium, Black Premium, Camo Luxury and Black Luxury; included guide describes only Classic Premium and Camo Luxury. Catalog mentions an absent Free payload and requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicPremium",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium\\ Version/Classic\\ Premium/[^/]*AMX30B_SpecialForce[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackPremium",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium\\ Version/Black\\ Premium/[^/]*AMX30B_BLACK_SpecialForce[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoLuxury",
+                "name": "Camo Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Luxury\\ Version/Camo\\ Luxury/dark\\.AMX30B\\-Luxury\\-special\\-force\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLuxury",
+                "name": "Black Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Luxury\\ Version/Black\\ Luxury/dark\\.AMX30B\\-Luxury\\-black\\-special\\-force\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7068",
+      "title": "DARK // WT-E100 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic Luxury or Black Luxury WT-E100 wotmod.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.WT\\-E100\\-NEW\\-GEN\\-ClassicLuxuryVersion\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.WT\\-E100\\-NEW\\-GEN\\-BlackLuxuryVersion\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7732",
+      "title": "DARK // STB-1 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic Premium, Black Premium or Camo Premium STB-1 wotmod. Catalog requires deleting data.wgpdc; LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.STB\\-1\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.STB\\-1\\-NEW\\-WARFARE\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.STB\\-1\\-NEW\\-WARFARE\\-CamoPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7404",
+      "title": "Grandpa's Icons",
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Package inspection finds three conflicting icon payloads for Mirror, XVM and non-XVM plus a separate anti-mirror Flash helper. The catalog only says desired files and no included guide defines which helper/XVM combinations are intended; keep Manual rather than inventing dependency or conflict resolution.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7730",
+      "title": "DARK // AMX M4 mle. 54 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic Premium, Black Premium or Camo Premium AMX M4 54 wotmod. Catalog requires deleting data.wgpdc; LimpidSticker remains an external user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.AMX\\-M4\\-54\\-NEW\\-WARFARE\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.AMX\\-M4\\-54\\-NEW\\-WARFARE\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.AMX\\-M4\\-54\\-NEW\\-WARFARE\\-CamoPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7583",
+      "title": "Hybrid Remodels",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: independently select ARL 44, AMX 65 t, P.43, DS PZInz and CS-44 remodels. Nested resource inspection confirms all five payloads have disjoint paths.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "hybridTanks",
+            "name": "Hybrid tanks",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "arl44",
+                "name": "ARL 44",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/F06_ARL_44_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "amx65t",
+                "name": "AMX 65 t",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/F81_Char_de_65t_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "p43",
+                "name": "P.43",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/It11_P43_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "dsPzinz",
+                "name": "DS PZInz",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Pl17_DS_PZlnz_SH\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "cs44",
+                "name": "CS-44",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Pl20_CS_44_SH\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6753",
+      "title": "DARK // BLACK KNIGHT - Object 452K",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one V1 or V2 Object 452K remodel in Classic Premium or Black Premium. Catalog filenames are older than the actual four complete alternatives.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Model and style",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "v1Classic",
+                "name": "V1 - Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Classic\\ premium/dark\\.Obj452K\\-BlackKnight\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v1Black",
+                "name": "V1 - Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Black\\ premium/dark\\.Obj452K\\-BlackKnight\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2Classic",
+                "name": "V2 - Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Classic\\ premium/dark\\.Obj452K\\-V2\\-Knight\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2Black",
+                "name": "V2 - Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Black\\ premium/dark\\.Obj452K\\-V2\\-Knight\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7500",
+      "title": "DARK // E-100 - THE HUNTER",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic Luxury or Black Luxury E-100 with lights on or off. Catalog requires deleting data.wgpdc; LimpidSticker remains an external user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and light",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicLightOn",
+                "name": "Classic Luxury - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ Luxury/Light\\ ON/dark\\.E100\\-THE\\-HUNTER\\-ClassicLuxuryLightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicLightOff",
+                "name": "Classic Luxury - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ Luxury/Light\\ OFF/dark\\.E100\\-THE\\-HUNTER\\-ClassicLuxuryLightOFF\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLightOn",
+                "name": "Black Luxury - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ Luxury/Light\\ ON/dark\\.E100\\-THE\\-HUNTER\\-BlackLuxuryLightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLightOff",
+                "name": "Black Luxury - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ Luxury/Light\\ OFF/dark\\.E100\\-THE\\-HUNTER\\-BlackLuxuryLightOFF\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7062",
+      "title": "TURTLE 1 - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic Premium or Black Premium Turtle I, each available with standard or alternative gun/no anti-aircraft remodel.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and model",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Turtle\\-I\\-ARMORED\\-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ premium/dark\\.Turtle\\-I\\-ARMORED\\-Black\\-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicAlternative",
+                "name": "Classic Premium - Alternative",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Turtle\\-I\\-ARMORED\\-Premium\\-AlternativeVersion\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackAlternative",
+                "name": "Black Premium - Alternative",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ premium/dark\\.Turtle\\-I\\-ARMORED\\-Black\\-Premium\\-AlternativeVersion\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7441",
+      "title": "DARK // Fantôme - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic Premium, Black Premium or Camo Premium Fantome wotmod. The catalog guide explicitly requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Fantome\\-New\\-Warfare\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ premium/dark\\.Fantome\\-New\\-Warfare\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Camo\\ premium/dark\\.Fantome\\-New\\-Warfare\\-CamoPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7640",
+      "title": "Bunch of Chrysler Ks",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: select exactly one of four Chrysler K remodels, KR1, OBJ277, TP60 or VZ55. Labels follow the actual payload filenames.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "modelVariant",
+            "name": "Chrysler K remodel",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "kr1",
+                "name": "KR1",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A115_Chrysler_K_KR1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "obj277",
+                "name": "OBJ277",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A115_Chrysler_K_OBJ277\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "tp60",
+                "name": "TP60",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A115_Chrysler_K_TP60\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "vz55",
+                "name": "VZ55",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A115_Chrysler_K_VZ55\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7581",
+      "title": "Improved Hangar Lighting",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Night, Sunny or Sunset hangar wotmod. Strip the Hangars wrapper with the supported fixed-folder template; exclude loose authoring resources and preview files using the selected final target path.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Hangars"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "lightingVariant",
+            "name": "Hangar lighting",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "night",
+                "name": "Night",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Night_Hangar\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "sunny",
+                "name": "Sunny",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Sunny_Hangar\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "sunset",
+                "name": "Sunset",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Sunset_Hangar\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6878",
+      "title": "DARK //  121B - GREEN DRAGON",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Classic or Camo 121B luxury remodel, with or without custom tracks. The catalog guide explicitly requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and tracks",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicV1",
+                "name": "Classic - No custom tracks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1\\ \\-\\ NO\\ custom\\ tracks/Classic\\ luxury/dark\\.121B\\-GreenDragon\\-ClassicV1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoV1",
+                "name": "Camo - No custom tracks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1\\ \\-\\ NO\\ custom\\ tracks/Camo\\ luxury/dark\\.121B\\-GreenDragon\\-CamoV1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicV2",
+                "name": "Classic - Custom tracks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2\\ \\-\\ Custom\\ tracks\\ ON/Classic\\ Luxury/dark\\.121B\\-GreenDragon\\-ClassicV2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoV2",
+                "name": "Camo - Custom tracks",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2\\ \\-\\ Custom\\ tracks\\ ON/Camo\\ Luxury/dark\\.121B\\-GreenDragon\\-CamoV2\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7391",
+      "title": "DARK // TYPE 71 - BLITZTRÄGER",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Type 71 Classic or Black Luxury with effects on/off and standard/custom tracks. All eight complete variants have distinct final paths. Catalog requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style, effects and tracks",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "blackV1Off",
+                "name": "Black - Standard tracks - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V1(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V1(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicV1Off",
+                "name": "Classic - Standard tracks - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V1(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V1(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackV2Off",
+                "name": "Black - Custom tracks - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V2(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V2(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicV2Off",
+                "name": "Classic - Custom tracks - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V2(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V2(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackV1On",
+                "name": "Black - Standard tracks - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V1(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V1(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicV1On",
+                "name": "Classic - Standard tracks - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V1(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V1(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackV2On",
+                "name": "Black - Custom tracks - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V2(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V2(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicV2On",
+                "name": "Classic - Custom tracks - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V2(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V2(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7502",
+      "title": "\"Der König\" Command Tiger II Custom 3D Style W/ Zimmerit Armor and Custom 2 Tone Paint Scheme",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Tech Tree, Early Turret or Late Turret Tiger II wotmod. Identical basenames remain distinguishable by their retained variant folders; previews are excluded.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "turretVariant",
+            "name": "Turret variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "techTree",
+                "name": "Tech Tree",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/TechTreeVersion/DerKönigTiger2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "early",
+                "name": "Early Turret",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/EarlyTurret/DerKönigTiger2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "late",
+                "name": "Late Turret",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/LateTurret/DerKönigTiger2\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6543",
+      "title": "Mirny Sky Mod",
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Included PDF manual pages 8-10 require a primary wotmod in mods/version, secondary phase resources in res_mods/version, execution of a phase-installation batch script and one matching graphics/fog/phase wotmod. Custom installation additionally assembles per-map presets. These operations are outside the supported managed copy templates.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6669",
+      "title": "P_o_g_S Contour Icon Mod [continued by DaMatz]",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and catalog guide verified: choose one of 25 nested icon ZIP variants and extract that inner archive into the game root. Inner inspection confirms a prepared res_mods/version tree; the client does not recursively unpack nested archives.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6770",
+      "title": "DARK // MODERN ARMOR  - Kpz 07P(e)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic, Black or Camo Luxury Kpz 07P(e), with lights on or off. Both Black payloads are named LightOFF but have different SHA-256 and distinct Light ON/OFF folders retained in final targets. Catalog requires deleting data.wgpdc; LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and light",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicLightOn",
+                "name": "Classic - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ Luxury/Light\\ ON/dark\\.Kpz07pe\\-MODERN\\-ARMOR\\-ClassicLuxury\\-LightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicLightOff",
+                "name": "Classic - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ Luxury/Light\\ OFF/dark\\.Kpz07pe\\-MODERN\\-ARMOR\\-ClassicLuxury\\-LightOFF\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLightOn",
+                "name": "Black - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ Luxury/Light\\ ON/dark\\.Kpz07pe\\-MODERN\\-ARMOR\\-BlackLuxury\\-LightOFF\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLightOff",
+                "name": "Black - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ Luxury/Light\\ OFF/dark\\.Kpz07pe\\-MODERN\\-ARMOR\\-BlackLuxury\\-LightOFF\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoLightOn",
+                "name": "Camo - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Camo\\ Luxury/Light\\ ON/dark\\.Kpz07pe\\-MODERN\\-ARMOR\\-CamoLuxury\\-LightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoLightOff",
+                "name": "Camo - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Camo\\ Luxury/Light\\ OFF/dark\\.Kpz07pe\\-MODERN\\-ARMOR\\-CamoLuxury\\-LightOFF\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7270",
+      "title": "DARK // WZ-111 Model 6 - BLITZTRAGER",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic, Black or Camo Luxury WZ-111 Model 6, with effects on or off. Catalog requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and effects",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicEffectOn",
+                "name": "Classic - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Effect\\ on/classic\\ luxury/dark\\.WZ\\-111\\-Model\\-6\\-NEW\\-WARFARE\\-ClassicLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicEffectOff",
+                "name": "Classic - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Effect\\ off/classic\\ luxury/dark\\.WZ\\-111\\-Model\\-6\\-NEW\\-WARFARE\\-ClassicLuxury\\-NoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackEffectOn",
+                "name": "Black - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Effect\\ on/Black\\ luxury/dark\\.WZ\\-111\\-Model\\-6\\-NEW\\-WARFARE\\-BlackLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackEffectOff",
+                "name": "Black - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Effect\\ off/Black\\ luxury/dark\\.WZ\\-111\\-Model\\-6\\-NEW\\-WARFARE\\-BlackLuxury\\-NoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoEffectOn",
+                "name": "Camo - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Effect\\ on/camo\\ luxury/dark\\.WZ\\-111\\-Model\\-6\\-NEW\\-WARFARE\\-CamoLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoEffectOff",
+                "name": "Camo - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Effect\\ off/camo\\ luxury/dark\\.WZ\\-111\\-Model\\-6\\-NEW\\-WARFARE\\-CamoLuxury\\-NoEffect\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6869",
+      "title": "DARK // S.CONQUEROR - ABRAMS M1DA",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic Premium or Black Premium S.Conqueror, with or without blade. Same filenames are separated by distinct retained folders, so final target filters distinguish all four alternatives. Catalog requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and blade",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicBlade",
+                "name": "Classic - With blade",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-classicPremium[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicNoBlade",
+                "name": "Classic - No blade",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic[ _-]+premium/no[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-classicPremium[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackBlade",
+                "name": "Black - With blade",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-blackPremium[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackNoBlade",
+                "name": "Black - No blade",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black[ _-]+premium/no[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-blackPremium[^/]*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7731",
+      "title": "DARK // Char MURAT - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic Premium, Black Premium or Camo Premium Char Murat. The guide repeats the Classic filename for Black, but the actual archive has a distinct Black payload. Catalog requires deleting data.wgpdc; LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.Char\\-MURAT\\-NEW\\-GEN\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.Char\\-MURAT\\-NEW\\-GEN\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.Char\\-MURAT\\-NEW\\-GEN\\-CamoPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7315",
+      "title": "KPZ. EK 1 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic Luxury or Black Luxury Kpz. EK I, with or without shovel. Catalog requires deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and shovel",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicShovel",
+                "name": "Classic - With shovel",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/with\\ shovel/classic\\ version/dark\\.Kpz\\.EK\\-I\\-NEW\\-GEN\\-ClassicLuxuryV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackShovel",
+                "name": "Black - With shovel",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/with\\ shovel/Black\\ version/dark\\.Kpz\\.EK\\-I\\-NEW\\-GEN\\-BlackLuxuryV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicNoShovel",
+                "name": "Classic - No shovel",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/no\\ shovel/classic\\ version/dark\\.Kpz\\.EK\\-I\\-NEW\\-GEN\\-ClassicLuxuryV\\-No\\-shovel\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackNoShovel",
+                "name": "Black - No shovel",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/no\\ shovel/Black\\ version/dark\\.Kpz\\.EK\\-I\\-NEW\\-GEN\\-BlackLuxuryV\\-No\\-shovel\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7048",
+      "title": "AMX 50B Reskin",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: select exactly one Green, Pink or Blue AMX 50 B reskin wotmod.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Reskin color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "green",
+                "name": "Green",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/AMX50B_Green\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "pink",
+                "name": "Pink",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/AMX50B_Pink\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blue",
+                "name": "Blue",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/AMX50B_Blue\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7974",
+      "title": "DARK // Ashigaru - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one Classic, Black or Camo Luxury Ashigaru with lights on or off. Catalog requires deleting data.wgpdc; LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and light",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classicLightOn",
+                "name": "Classic Luxury - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ luxury/Light\\ ON/dark\\.Ashigaru\\-NEW\\-GEN\\-ClassicLuxuryLightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "classicLightOff",
+                "name": "Classic Luxury - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ luxury/Light\\ OFF/dark\\.Ashigaru\\-NEW\\-GEN\\-ClassicLuxuryLightOFF\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLightOn",
+                "name": "Black Luxury - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ Luxury/Light\\ ON/dark\\.Ashigaru\\-NEW\\-GEN\\-BlackLuxuryLightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackLightOff",
+                "name": "Black Luxury - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ Luxury/Light\\ OFF/dark\\.Ashigaru\\-NEW\\-GEN\\-BlackLuxuryLightOFF\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoLightOn",
+                "name": "Camo Luxury - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ Luxury/Light\\ ON/dark\\.Ashigaru\\-NEW\\-GEN\\-CamoLuxuryLightON\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camoLightOff",
+                "name": "Camo Luxury - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ Luxury/Light\\ OFF/dark\\.Ashigaru\\-NEW\\-GEN\\-CamoLuxuryLightOFF\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7795",
+      "title": "DARK // UDES 03 Alt 3 - BLITZTRÄGER",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select one UDES 03 Alt 3 V1 or V2, Classic/Black/Camo Luxury and effects on/off. Twelve complete alternatives remain distinct in final paths. Catalog requires deleting data.wgpdc; LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Model, style and effects",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "v1classicEffectsOn",
+                "name": "V1 - Classic Luxury - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Effect\\ ON/classic\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-ClassicLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v1classicEffectsOff",
+                "name": "V1 - Classic Luxury - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Effect\\ OFF/classic\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-ClassicLuxuryNoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v1blackEffectsOn",
+                "name": "V1 - Black Luxury - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Effect\\ ON/black\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-BlackLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v1blackEffectsOff",
+                "name": "V1 - Black Luxury - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Effect\\ OFF/black\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-BlackLuxuryNoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v1camoEffectsOn",
+                "name": "V1 - Camo Luxury - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Effect\\ ON/camo\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-CamoLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v1camoEffectsOff",
+                "name": "V1 - Camo Luxury - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/Effect\\ OFF/camo\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-CamoLuxuryNoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2classicEffectsOn",
+                "name": "V2 - Classic Luxury - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Effect\\ ON/classic\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-ClassicLuxuryV2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2classicEffectsOff",
+                "name": "V2 - Classic Luxury - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Effect\\ OFF/classic\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-ClassicLuxuryV2NoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2blackEffectsOn",
+                "name": "V2 - Black Luxury - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Effect\\ ON/Black\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-BlackLuxuryV2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2blackEffectsOff",
+                "name": "V2 - Black Luxury - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Effect\\ OFF/Black\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-BlackLuxuryV2NoEffect\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2camoEffectsOn",
+                "name": "V2 - Camo Luxury - Effects on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Effect\\ ON/camo\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-CamoLuxuryV2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2camoEffectsOff",
+                "name": "V2 - Camo Luxury - Effects off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/Effect\\ OFF/camo\\ luxury/dark\\.UDES\\-03\\-alt3\\-BLITZTRAGER\\-CamoLuxuryV2NoEffect\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4895",
+      "title": "Unified Editor for World of Tanks",
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Package and included author documentation verified: Unified Editor is a standalone content authoring application, not a prepared game mod. The guide launches unified_editor/unifiededitor.exe; exporting game content requires editing, running compile_spaces.cmd and manually copying generated map output. No managed destination or package selection can substitute for these authoring steps.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7722",
+      "title": "Tank Info in Hangar",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: when Gameface is already installed, copy only Tank Info in Hangar; otherwise copy all four bundled wotmods. The guide mentions two files but the archive contains four.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "gamefaceInstallation",
+            "name": "Gameface installation",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "alreadyInstalled",
+                "name": "Gameface already installed",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*tank_info_in_hangar[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withBundledComponents",
+                "name": "Install with bundled components",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": ["^mods/[^/]+/[^/]+\\.wotmod$"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7387",
+      "title": "DARK // SIMPLE UI PLATOON 2.0",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: A single root wotmod and an installation text; no component choice.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4389",
+      "title": "Visible Injured Crew Icons (Colorblind)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Red and White replace the same damagePanel.swf resource; choose one.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "variant",
+            "name": "Icon color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "red",
+                "name": "Red",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*VisibleInjuredCrewRed[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "white",
+                "name": "White",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*VisibleInjuredCrewWhite[^/]*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7956",
+      "title": "Jimbo (J1mB0) Crosshair Remake by TecHniCzny",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Base and three optional configs collapse to the same target config.json. Target-only filters cannot distinguish them. README also requires removing a conflicting Dispersion Reticle mod if installed.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6496",
+      "title": "FartsInTanksEU's crosshair for colorblind",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: HowTo.txt offers root wotmod to mods or loose gui to res_mods; prefer the supported wotmod installation.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7487",
+      "title": "Vehicle Reskin Renamer (DEPRECATED)",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: Long and Short have prepared mods/version trees and distinct filenames; select one.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "variant",
+            "name": "Name length",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "long",
+                "name": "Long",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*Vehicle Reskin Renamer \\(Long\\b[^/]*\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "short",
+                "name": "Short",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/[^/]*Vehicle Reskin Renamer \\(Short\\b[^/]*\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7114",
+      "title": "Font Size and Interface Scale UI mod",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Manual.txt requires gui from a named wrapper in res_mods/version and a preferences.xml edit. No suitable wrapper-to-res_mods template exists.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7838",
+      "title": "AYA Translator",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: The wrapper contains both prepared mods and res_mods trees; normalization installs both correctly.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7351",
+      "title": "Login Screen Dark Ambiance",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Only a loose loginscreen.bnk; the required audioww destination folder is absent and cannot be created by configuration.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
       }
     }
   ]
