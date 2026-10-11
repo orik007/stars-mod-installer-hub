@@ -403,7 +403,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?![^/]*autoloaderindicator\\.xvm)[^/]*autoloaderindicator[^/]*\\.wotmod$"
+                    "^mods/[^/]+/(?![^/]*xvm)[^/]*autoloaderindicator[^/]*\\.wotmod$"
                   ]
                 }
               },
@@ -413,7 +413,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/[^/]*autoloaderindicator\\.xvm[^/]*\\.wotmod$"
+                    "^mods/[^/]+/(?=[^/]*xvm)[^/]*autoloaderindicator[^/]*\\.wotmod$"
                   ]
                 }
               }
@@ -626,7 +626,7 @@
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package and guide verified: choose one side-skirt wotmod and delete data.wgpdc as instructed. Match the root payload or one Mirukii_AMX1390_Remodel wrapper with a release-independent name; the wrapper remains in the normalized mods/version target. Backup and deeper duplicate copies are excluded.",
+        "decisionReason": "Package and guide verified: choose one side-skirt wotmod and delete data.wgpdc as instructed. Match the root payload or one wrapper without pinning its wording or release. The wrapper remains in the normalized mods/version target. Explicit backup/old-version folders and deeper copies are excluded; an archive with multiple release copies would require a new package review.",
         "deleteDataWgpdc": true
       },
       "configuration": {
@@ -644,7 +644,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?/)?Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -654,7 +654,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?/)?Mirukii_AMX1390_Remodel_With_Skirt(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Mirukii_AMX1390_Remodel_With_Skirt(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
@@ -3895,7 +3895,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V1(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V1(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3905,7 +3905,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V1(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V1(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3915,7 +3915,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V2(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V2(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3925,7 +3925,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?(?:Effects?[ _-]*Off|No[ _-]*Effects?)/(?:V2(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V2(?:[ _-]*(?:Effects?[ _-]*Off|No[ _-]*Effects?))?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3935,7 +3935,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V1(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V1(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3945,7 +3945,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V1(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V1(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3955,7 +3955,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V2(?:[ _-]+[^/]*)?/)?(?:Black(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Black(?:Luxury|Luruxy)V2(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3965,7 +3965,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:(?!(?:backup|old(?:[ _-]+(?:version|release))?)(?:[ _-][^/]*)?/)[^/]+/)?Effects?[ _-]*On/(?:V2(?:[ _-]+[^/]*)?/)?(?:Classic(?:[ _-]+[^/]*)?/)?[^/]*Type[ _-]*71[^/]*-Classic(?:Luxury|Luruxy)V2(?:[ _-]*Effects?[ _-]*On)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
@@ -4249,7 +4249,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Classic[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*SConqueror[^/]*-classicPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Classic[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-classicPremium[^/]*\\.wotmod$"
                   ]
                 }
               },
@@ -4259,7 +4259,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Classic[ _-]+premium/no[ _-]+blade/[^/]*SConqueror[^/]*-classicPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Classic[ _-]+premium/no[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-classicPremium[^/]*\\.wotmod$"
                   ]
                 }
               },
@@ -4269,7 +4269,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Black[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*SConqueror[^/]*-blackPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Black[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-blackPremium[^/]*\\.wotmod$"
                   ]
                 }
               },
@@ -4279,7 +4279,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Black[ _-]+premium/no[ _-]+blade/[^/]*SConqueror[^/]*-blackPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Black[ _-]+premium/no[ _-]+blade/[^/]*S[ _-]*Conqueror[^/]*-blackPremium[^/]*\\.wotmod$"
                   ]
                 }
               }
