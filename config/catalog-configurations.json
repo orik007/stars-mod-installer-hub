@@ -524,9 +524,9 @@
       "sourceId": "7688",
       "title": "ReShade",
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
-        "installableByApp": true,
-        "decisionReason": "Package inspection: prepared win64 tree contains dxgi.dll, shader files and relative-path ReShade configuration; copy the complete tree into the game root without running an installer.",
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Manual installation required: the package installs a dxgi.dll proxy and ReShade INI/preset files in win64. No author installation guide is included, rendering is unverified, and managed reinstall would overwrite user presets.",
         "deleteDataWgpdc": false
       },
       "configuration": {
@@ -624,11 +624,10 @@
       "sourceId": "5663",
       "title": "Mirukii's AMX 13 90 Remodel *Unofficial update*",
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package and guide verified: choose one side-skirt variant from the fixed archive folder, copy its wotmod into mods/version and delete data.wgpdc.",
-        "deleteDataWgpdc": true,
-        "manualFolder": "Mirukii_AMX1390_Remodel - 2.0"
+        "decisionReason": "Package and guide verified: choose one side-skirt wotmod and delete data.wgpdc as instructed. Select by stable payload name under any wrapper folder rather than pinning the archive folder release.",
+        "deleteDataWgpdc": true
       },
       "configuration": {
         "groups": [
@@ -645,7 +644,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Mirukii_AMX1390_Remodel\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Mirukii_AMX1390_Remodel(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -655,7 +654,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Mirukii_AMX1390_Remodel_With_Skirt\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Mirukii_AMX1390_Remodel_With_Skirt(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
@@ -3896,7 +3895,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ Off/V1\\ \\-\\ no\\ custom\\ tacks/black\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-BlackLuruxyV1EffectOff\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3906,7 +3905,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ Off/V1\\ \\-\\ no\\ custom\\ tacks/classic\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-ClassicLuruxyV1EffectOff\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3916,7 +3915,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ Off/V2\\ \\-\\ custom\\ tracks/Black\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-BlackLuruxyV2EffectOff\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3926,7 +3925,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ Off/V2\\ \\-\\ custom\\ tracks/Classic\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-ClassicLuruxyV2EffectOff\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3936,7 +3935,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ ON/V1\\ \\-\\ no\\ custom\\ tacks/black\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-BlackLuruxyV1\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3946,7 +3945,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ ON/V1\\ \\-\\ no\\ custom\\ tacks/classic\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-ClassicLuruxyV1\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3956,7 +3955,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ ON/V2\\ \\-\\ custom\\ tracks/Black\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-BlackLuruxyV2\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3966,7 +3965,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Effect\\ ON/V2\\ \\-\\ custom\\ tracks/Classic\\ luxury/dark\\.Type71\\-BLITZTRAGER\\-ClassicLuruxyV2\\.wotmod$"
+                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
@@ -4098,7 +4097,7 @@
               },
               {
                 "id": "blackLightOn",
-                "name": "Black - Light on (folder label)",
+                "name": "Black - Light on",
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
