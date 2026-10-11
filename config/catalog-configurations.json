@@ -1467,6 +1467,412 @@
           }
         ]
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6839",
+      "title": "DARK // MODERN ARMOR -  K-91",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Grey or Black Premium K-91, copy the selected folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Armor color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "grey",
+                "name": "Grey Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Grey premium/dark\\.K91-MODERN-ARMOR-Grey-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black premium/dark\\.K91-MODERN-ARMOR-BLACK-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7053",
+      "title": "DARK // GROM - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free Grom wotmod is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7052",
+      "title": "DARK // GSOR TANK - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose exactly one Classic or Black Premium GSOR wotmod and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.GSOR-TANK-ARMORED-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.GSOR-TANK-ARMORED-BlackPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7015",
+      "title": "DARK // KV 1 - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose exactly one Classic or Black Premium KV-1 wotmod and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.KV-1_ARMORED-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.KV-1_ARMORED-Black-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7022",
+      "title": "DARK // BZ-75 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose the Classic or Premium BZ-75 folder, copy that folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic version/dark\\.BZ-75-NEW-GEN-ClassicVersion\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premium",
+                "name": "Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium version/dark\\.BZ-75-NEW-GEN-Premium3dSkin\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7607",
+      "title": "DARK // Rhm -B. WT - NEW MODEL",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: only the free Rhm-B.WT wotmod is present. Copy the complete package into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6871",
+      "title": "DARK // Centurion AX - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium Centurion AX, copy the selected folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic premium/dark\\.CenturionAX-NEW-GEN-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black premium/dark\\.CenturionAX-NEW-GEN-blackPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7572",
+      "title": "American Steel Hunter Hybrids",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and resource inspection verified: T26E5 has two incompatible remodel variants; TS-54 is independently selectable. Install the selected tank payloads into mods/version, with exactly one T26E5 variant when that tank is selected.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "hybridTanks",
+            "name": "Hybrid tanks",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "t26e5",
+                "name": "T26E5",
+                "groups": [
+                  {
+                    "id": "t26e5Variant",
+                    "name": "T26E5 remodel",
+                    "required": true,
+                    "type": "single",
+                    "groups": [],
+                    "options": [
+                      {
+                        "id": "sh",
+                        "name": "Hybrid SH",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/A117_T26E5_SH\\.wotmod$"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "sh1",
+                        "name": "Hybrid SH1",
+                        "groups": [],
+                        "installationContent": {
+                          "includeTargetPathRegexes": [
+                            "^mods/[^/]+/A117_T26E5_SH1\\.wotmod$"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ts54",
+                "name": "TS-54",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A145_TS_54_SH\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2610",
+      "title": "RazerTeck's SU-122-44",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose the SU-122-44 remodel with or without side skirts; strip the fixed archive folder and copy exactly the selected wotmod into mods/version.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Razer Teck's SU 122-44 Remodel"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "sideSkirt",
+            "name": "Side skirts",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "withoutSkirts",
+                "name": "Without side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's SU 122-44\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withSkirts",
+                "name": "With side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's SU 122-44 With Sideskirts\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7269",
+      "title": "DARK // CONCEPT 1B - NEW GEN",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose the Classic or Black Premium Concept 1B folder, copy that folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic premium/dark\\.Concept1B-NEW-GEN-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black premium/dark\\.Concept1B-Black-NEW-GEN-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
