@@ -128,7 +128,7 @@ A configured mod may optionally include a complete `installationProcess` beside 
 }
 ```
 
-Replace the illustrative empty groups with the verified choices and file-selection rules for the actual package.
+Leave groups empty for a whole-package installation without choices. Add verified groups and file-selection rules only when the package requires component selection.
 
 When this optional object is present, the publisher replaces the complete AI-classified installation process on every publish. It does not merge individual fields. When absent, the classifier result is preserved. Optional means omitting the field; `null`, an empty object, and partial objects are invalid. The `configuration` object and its `groups` array remain required. The presence of radio buttons or checkboxes alone does not change Manual to Auto.
 
@@ -150,9 +150,7 @@ App-installable templates require `installableByApp=true`:
 Manual templates require `installableByApp=false`:
 
 - `RunExternalInstaller`
-- `ManualExternalDependency`
 - `DeterministicButUnsupported`
-- `MixedCustomPathButDeterministic`
 - `Unknown`
 
 `manualFolder` is required and must be a non-empty string only for `ExtractArchiveAndCopyFolderToMods`; it must be omitted for all other templates. Missing fields, unsupported templates, incompatible capability flags, or an invalid folder field stop publishing.
@@ -161,7 +159,9 @@ Existing entries without this optional object remain valid under schema version 
 
 ## Configuration model
 
-A configuration contains one or more root groups.
+A configuration contains zero or more root groups.
+
+An empty root `groups` array records no user choices. The publisher applies any supplied installation-process replacement but omits `configuration` from the generated mod entry. The desktop copies the complete package using the effective template and normalization, without a selection UI or file filter. Non-empty root groups retain selection-based filtering.
 
 ```text
 Configuration
@@ -195,12 +195,12 @@ Fields:
 
 Selection rules:
 
-| Type | Required | Valid selection |
-|---|---:|---|
-| `single` | `true` | Exactly one option |
-| `single` | `false` | Zero or one option |
-| `multiple` | `true` | At least one option |
-| `multiple` | `false` | Zero or more options |
+| Type       | Required | Valid selection      |
+| ---------- | -------: | -------------------- |
+| `single`   |   `true` | Exactly one option   |
+| `single`   |  `false` | Zero or one option   |
+| `multiple` |   `true` | At least one option  |
+| `multiple` |  `false` | Zero or more options |
 
 A `single` group is rendered as radio buttons. All direct options in that group automatically belong to the same radio group.
 
@@ -242,9 +242,7 @@ InstallationContent
 
 ```json
 {
-  "includeTargetPathRegexes": [
-    "^.*\\.wotmod$"
-  ]
+  "includeTargetPathRegexes": ["^.*\\.wotmod$"]
 }
 ```
 
@@ -309,9 +307,7 @@ The mod requires one selected variant:
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -319,9 +315,7 @@ The mod requires one selected variant:
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
