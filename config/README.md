@@ -1,6 +1,6 @@
 # Catalog configurations
 
-This directory contains manually maintained configuration data for mods that require the user to choose installation variants or optional components in Stars Mod Installer.
+This directory contains manually maintained installation rules for Stars Mod Installer: persistent installation-process replacements and user choices for installation variants or optional components.
 
 The configuration source is separate from the generated catalog because these rules describe known exceptions that must survive normal catalog regeneration.
 
@@ -23,13 +23,13 @@ The catalog publishing process must:
 1. Generate the normal `catalog_installation.json` in the private application repository.
 2. Read `config/catalog-configurations.json` from this hub repository.
 3. Match configuration entries to generated installation entries by `source` and `sourceId`.
-4. Apply the matching complete `installationProcess` when supplied, then add the `configuration` object to the mod entry in `catalog_installation.json`.
+4. Apply the matching complete `installationProcess` when supplied, then add the `configuration` object to the mod entry in `catalog_installation.json` only when its root `groups` array is non-empty. Omit `configuration` when the root groups are empty.
 5. Validate the merged installation catalog.
 6. Package the merged `catalog_installation.json` into `latest/catalog.zip` and the corresponding history artifact.
 
 The desktop application continues to download the normal catalog bundle. No additional configuration file is added to the downloaded ZIP.
 
-The published installation entry has this shape:
+A published installation entry without user choices has this shape:
 
 ```json
 {
@@ -45,19 +45,16 @@ The published installation entry has this shape:
     "installableByApp": true,
     "decisionReason": "...",
     "deleteDataWgpdc": false
-  },
-  "configuration": {
-    "groups": []
   }
 }
 ```
 
-`configuration` is a sibling of `installationProcess`:
+When user choices are present, `configuration` is a sibling of `installationProcess`:
 
 - `installationProcess` defines how the downloaded package is prepared and where its files would normally be copied.
 - `configuration` defines which prepared target files belong to the user's selected options.
 
-Mods without manual configuration do not contain the `configuration` property.
+Published entries without user choices do not contain the `configuration` property, including source entries with empty root groups.
 
 ## Source document structure
 
@@ -86,6 +83,12 @@ Example:
       "source": "wgmods",
       "sourceId": "1234",
       "title": "Example mod",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Verified whole-package installation into mods.",
+        "deleteDataWgpdc": false
+      },
       "configuration": {
         "groups": []
       }
@@ -119,7 +122,7 @@ A configured mod may optionally include a complete `installationProcess` beside 
   "installationProcess": {
     "installationTemplate": "ExtractArchiveThenCopyToMods",
     "installableByApp": true,
-    "decisionReason": "Package variants are handled by the verified configuration.",
+    "decisionReason": "Verified whole-package installation into mods.",
     "deleteDataWgpdc": false
   },
   "configuration": {
@@ -162,6 +165,8 @@ Existing entries without this optional object remain valid under schema version 
 A configuration contains zero or more root groups.
 
 An empty root `groups` array records no user choices. The publisher applies any supplied installation-process replacement but omits `configuration` from the generated mod entry. The desktop copies the complete package using the effective template and normalization, without a selection UI or file filter. Non-empty root groups retain selection-based filtering.
+
+Changing a previously non-empty choice tree to `groups: []` does not silently discard existing saved selections. If a user still has non-empty saved group selections, the desktop reports that the configuration has changed and blocks installation until the user removes the mod from My Mods and adds it again from Browse Catalog. An absent or empty saved selection is already treated as no configuration and does not require re-adding the mod. Preserve existing choice trees and stable IDs unless changing their behavior is intentional.
 
 ```text
 Configuration
@@ -271,7 +276,7 @@ The final set of files is the union of installation content from:
 
 Each target file is copied at most once.
 
-Files that do not match any collected expression are not copied. There is no fallback that copies the complete package when matching fails.
+For non-empty configurations, files that do not match any collected expression are not copied. Failed matching never falls back to copying the complete package. An empty root `groups` array intentionally requests an unfiltered whole-package installation; it is not a fallback for failed selection rules.
 
 ## Pansy's Revamped Skies Volume 1 example
 
