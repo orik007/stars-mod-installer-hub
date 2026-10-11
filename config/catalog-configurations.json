@@ -1873,6 +1873,447 @@
           }
         ]
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7509",
+      "title": "\"The Prototype\" VK45.02A Custom 3D Model and Paint Scheme",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose one of three VK4502A remodels, Prototype, camouflage-compatible 3D model or late turret, and copy exactly its wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "modelVariant",
+            "name": "VK4502A model",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "prototype",
+                "name": "The Prototype",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/ThePrototypeVK4502A\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "model3d",
+                "name": "3D model with camouflage",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/VK4502A3dmodel\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "lateTurret",
+                "name": "Late turret",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/VK4502ALateTurret3dmodel\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7665",
+      "title": "DARK // T7 Combat Car - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo Premium T7, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.T7\\-Car\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.T7\\-Car\\-NEW\\-WARFARE\\-CamoPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7973",
+      "title": "DARK // SFAC 105 - ATLAS FV105-2",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo Premium SFAC105 Atlas, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.SFAC\\-105\\-ATLAS\\-FV105\\-2\\-Classic\\-Premium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.SFAC\\-105\\-ATLAS\\-FV105\\-2\\-Camo\\-Premium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7016",
+      "title": "DARK // T 34-85 & M - WARRIOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one classic T34-85 and M wotmod with readme; copy the complete package into mods/version without an artificial choice.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "2596",
+      "title": "RazerTeck's Mod 1",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose the Mod 1 remodel with or without side skirts; strip the fixed archive folder and copy exactly the selected wotmod into mods/version.",
+        "deleteDataWgpdc": false,
+        "manualFolder": "Razer Teck's Mod 1 Remodel"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "sideSkirt",
+            "name": "Side skirts",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "withoutSkirts",
+                "name": "Without side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's\\ Mod\\ 1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withSkirts",
+                "name": "With side skirts",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/RazerTeck's\\ Mod\\ 1\\ With\\ Sideskirts\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7314",
+      "title": "FV215B (183) - STEAMPUNK",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic, Premium with light on or Premium with light off; copy exactly one FV215B183 wotmod into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style and light",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ version/dark\\.FV215B183\\-STEAMPUNK\\-ClassicV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premiumLightOn",
+                "name": "Premium - Light on",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium\\ version/Light\\ ON/dark\\.FV215B183\\-STEAMPUNK\\-PremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "premiumLightOff",
+                "name": "Premium - Light off",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Premium\\ version/Light\\ OFF/dark\\.FV215B183\\-STEAMPUNK\\-PremiumVLightOff\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7796",
+      "title": "DARK // Jagdpanzer E 90 - LEGIONNAIRE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo Premium Jagdpanzer E90, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.JgPzE90\\-Legionnaire\\-ClassicPremium3Dskin\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.JgPzE90\\-Legionnaire\\-CamoPremium3Dskin\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7316",
+      "title": "Obj.703 II - ARMORED",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium Obj.703 II and copy exactly that wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.obj\\-703II\\-Armored\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.obj\\-703II\\-Armored\\-black\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7667",
+      "title": "DARK // E100 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium E100, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.E100\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.E100\\-NEW\\-WARFARE\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6816",
+      "title": "DARK // Rinoceronte - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose one of the three supplied Premium Rinoceronte variants, Classic, Black or Black and White. Copy exactly the selected wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-ClassicPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-BlackPremium\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "blackWhite",
+                "name": "Black and White Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/B\\&W\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-B\\&WPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
