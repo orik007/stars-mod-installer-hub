@@ -343,7 +343,7 @@
       "installationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "Package inspection: loose wotmods require mods/version while configs requires mods/configs. The supported templates cannot perform this split mapping.",
+        "decisionReason": "Package inspection: loose wotmods require mods/version while configs require mods/configs. The supported templates cannot perform this split mapping.",
         "deleteDataWgpdc": false
       },
       "configuration": {
@@ -403,7 +403,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/imclicker\\.autoloaderindicator_\\d+(?:\\.\\d+)+\\.wotmod$"
+                    "^mods/[^/]+/(?![^/]*autoloaderindicator\\.xvm)[^/]*autoloaderindicator[^/]*\\.wotmod$"
                   ]
                 }
               },
@@ -413,7 +413,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/imclicker\\.autoloaderindicator\\.xvm_\\d+(?:\\.\\d+)+\\.wotmod$"
+                    "^mods/[^/]+/[^/]*autoloaderindicator\\.xvm[^/]*\\.wotmod$"
                   ]
                 }
               }
@@ -626,7 +626,7 @@
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Package and guide verified: choose one side-skirt wotmod and delete data.wgpdc as instructed. Select by stable payload name under any wrapper folder rather than pinning the archive folder release.",
+        "decisionReason": "Package and guide verified: choose one side-skirt wotmod and delete data.wgpdc as instructed. Match the root payload or one Mirukii_AMX1390_Remodel wrapper with a release-independent name; the wrapper remains in the normalized mods/version target. Backup and deeper duplicate copies are excluded.",
         "deleteDataWgpdc": true
       },
       "configuration": {
@@ -644,7 +644,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Mirukii_AMX1390_Remodel(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?/)?Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -654,7 +654,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Mirukii_AMX1390_Remodel_With_Skirt(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/(?:Mirukii_AMX1390_Remodel(?:[ _-]*v?\\d+(?:\\.\\d+)*)?/)?Mirukii_AMX1390_Remodel_With_Skirt(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
@@ -3895,7 +3895,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3905,7 +3905,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3915,7 +3915,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3925,7 +3925,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2EffectOff(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+Off/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2(?:EffectOff|NoEffect)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3935,7 +3935,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3945,7 +3945,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V1(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3955,7 +3955,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Black(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -3965,7 +3965,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/(?:[^/]+/)*(?![^/]*EffectOff)[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[_ -]v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
+                    "^mods/[^/]+/Effect[ _-]+On/(?:[^/]+/)*[^/]*Type71[^/]*-Classic(?:Luxury|Luruxy)V2(?:EffectOn)?(?:[ _-]+v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
@@ -4035,7 +4035,7 @@
       "installationProcess": {
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "Included PDF manual pages 8-10 requires a primary wotmod in mods/version, secondary phase resources in res_mods/version, execution of a phase-installation batch script and one matching graphics/fog/phase wotmod. Custom installation additionally assembles per-map presets. These operations are outside the supported managed copy templates.",
+        "decisionReason": "Included PDF manual pages 8-10 require a primary wotmod in mods/version, secondary phase resources in res_mods/version, execution of a phase-installation batch script and one matching graphics/fog/phase wotmod. Custom installation additionally assembles per-map presets. These operations are outside the supported managed copy templates.",
         "deleteDataWgpdc": false
       },
       "configuration": {
@@ -4249,7 +4249,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Classic\\ premium/with\\ blade/dark\\.SConqueror\\-AbramsM1DA2\\-classicPremium\\.wotmod$"
+                    "^mods/[^/]+/Classic[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*SConqueror[^/]*-classicPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -4259,7 +4259,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Classic\\ premium/no\\ blade/dark\\.SConqueror\\-AbramsM1DA2\\-classicPremium\\.wotmod$"
+                    "^mods/[^/]+/Classic[ _-]+premium/no[ _-]+blade/[^/]*SConqueror[^/]*-classicPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -4269,7 +4269,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Black\\ premium/whith\\ blade/dark\\.SConqueror\\-AbramsM1DA2\\-blackPremium\\.wotmod$"
+                    "^mods/[^/]+/Black[ _-]+premium/w(?:h)?ith[ _-]+blade/[^/]*SConqueror[^/]*-blackPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               },
@@ -4279,7 +4279,7 @@
                 "groups": [],
                 "installationContent": {
                   "includeTargetPathRegexes": [
-                    "^mods/[^/]+/Black\\ premium/no\\ blade/dark\\.SConqueror\\-AbramsM1DA2\\-blackPremium\\.wotmod$"
+                    "^mods/[^/]+/Black[ _-]+premium/no[ _-]+blade/[^/]*SConqueror[^/]*-blackPremium(?:[ _-]*v?\\d+(?:\\.\\d+)*)?\\.wotmod$"
                   ]
                 }
               }
