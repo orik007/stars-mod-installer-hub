@@ -1,12 +1,12 @@
 # Catalog configurations
 
-This directory contains manually maintained configuration data for mods that require the user to choose installation variants or optional components in Stars Mod Installer.
+This directory contains manually maintained installation rules for Stars Mod Installer: persistent installation-process replacements and user choices for installation variants or optional components.
 
 The configuration source is separate from the generated catalog because these rules describe known exceptions that must survive normal catalog regeneration.
 
 ## Source file
 
-The configuration source will be stored in:
+The configuration source is stored in:
 
 ```text
 config/catalog-configurations.json
@@ -23,13 +23,13 @@ The catalog publishing process must:
 1. Generate the normal `catalog_installation.json` in the private application repository.
 2. Read `config/catalog-configurations.json` from this hub repository.
 3. Match configuration entries to generated installation entries by `source` and `sourceId`.
-4. Add the matching `configuration` object to the mod entry in `catalog_installation.json`.
+4. Apply the matching complete `installationProcess` when supplied, then add the `configuration` object to the mod entry in `catalog_installation.json` only when its root `groups` array is non-empty. Omit `configuration` when the root groups are empty.
 5. Validate the merged installation catalog.
 6. Package the merged `catalog_installation.json` into `latest/catalog.zip` and the corresponding history artifact.
 
 The desktop application continues to download the normal catalog bundle. No additional configuration file is added to the downloaded ZIP.
 
-The published installation entry has this shape:
+A published installation entry without user choices has this shape:
 
 ```json
 {
@@ -45,19 +45,16 @@ The published installation entry has this shape:
     "installableByApp": true,
     "decisionReason": "...",
     "deleteDataWgpdc": false
-  },
-  "configuration": {
-    "groups": []
   }
 }
 ```
 
-`configuration` is a sibling of `installationProcess`:
+When user choices are present, `configuration` is a sibling of `installationProcess`:
 
 - `installationProcess` defines how the downloaded package is prepared and where its files would normally be copied.
 - `configuration` defines which prepared target files belong to the user's selected options.
 
-Mods without manual configuration do not contain the `configuration` property.
+Published entries without user choices do not contain the `configuration` property, including source entries with empty root groups.
 
 ## Source document structure
 
@@ -72,6 +69,7 @@ CatalogConfigurationMod
 - source
 - sourceId
 - title
+- installationProcess (optional)
 - configuration
 ```
 
@@ -85,6 +83,12 @@ Example:
       "source": "wgmods",
       "sourceId": "1234",
       "title": "Example mod",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Verified whole-package installation into mods.",
+        "deleteDataWgpdc": false
+      },
       "configuration": {
         "groups": []
       }
@@ -106,9 +110,65 @@ sourceId
 
 The source document does not contain `catalogVersion`. Its entries persist across published catalog versions until they are changed or removed manually.
 
+## Persistent installation process
+
+A configured mod may optionally include a complete `installationProcess` beside `configuration`:
+
+```json
+{
+  "source": "wgmods",
+  "sourceId": "1234",
+  "title": "Example mod",
+  "installationProcess": {
+    "installationTemplate": "ExtractArchiveThenCopyToMods",
+    "installableByApp": true,
+    "decisionReason": "Verified whole-package installation into mods.",
+    "deleteDataWgpdc": false
+  },
+  "configuration": {
+    "groups": []
+  }
+}
+```
+
+Leave groups empty for a whole-package installation without choices. Add verified groups and file-selection rules only when the package requires component selection.
+
+When this optional object is present, the publisher replaces the complete AI-classified installation process on every publish. It does not merge individual fields. When absent, the classifier result is preserved. Optional means omitting the field; `null`, an empty object, and partial objects are invalid. The `configuration` object and its `groups` array remain required. The presence of radio buttons or checkboxes alone does not change Manual to Auto.
+
+For generated catalog entries with a persistent process replacement, the publisher preserves the original model decision in `classifiedInstallationProcess` beside the effective `installationProcess`. This is generated reuse metadata, not a field to write in this configuration source. The classifier reuses the original model decision and the publisher reapplies the current configuration. Removing the process replacement or the complete source entry therefore restores the model decision on the next publish. Repeated publishing does not turn a configured replacement into an AI classification. The desktop application installs using only the effective `installationProcess`.
+
+Unknown or misspelled fields inside the process object are rejected.
+
+Required fields are `installationTemplate`, `installableByApp`, `decisionReason`, and `deleteDataWgpdc`. The reason must be a non-empty string and both flags must be booleans. Use `deleteDataWgpdc`, never `deleteWgpdc`.
+
+App-installable templates require `installableByApp=true`:
+
+- `CopyAllToMods`
+- `CopyAllToResMods`
+- `ExtractArchiveThenCopyToMods`
+- `ExtractArchiveThenCopyToResMods`
+- `ExtractArchiveAndCopyFolderToMods`
+- `ExtractToGameRoot`
+
+Manual templates require `installableByApp=false`:
+
+- `RunExternalInstaller`
+- `DeterministicButUnsupported`
+- `Unknown`
+
+`ManualExternalDependency` and `MixedCustomPathButDeterministic` are legacy catalog template names. They may still occur in older published catalogs or the quick manual-override workflow, but they are intentionally excluded from persistent `installationProcess` replacements. The publisher rejects them as unsupported templates; use one of the three current Manual templates above for a new persistent rule.
+
+`manualFolder` is required and must be a non-empty string only for `ExtractArchiveAndCopyFolderToMods`; it must be omitted for all other templates. Missing fields, unsupported templates, incompatible capability flags, or an invalid folder field stop publishing.
+
+Existing entries without this optional object remain valid under schema version 1. The separate manual installation override workflow remains a quick repair of the published catalog; this source records persistent, reviewed installation behavior. Upstream-package change detection is outside this addition.
+
 ## Configuration model
 
-A configuration contains one or more root groups.
+A configuration contains zero or more root groups.
+
+An empty root `groups` array records no user choices. The publisher applies any supplied installation-process replacement but omits `configuration` from the generated mod entry. The desktop copies the complete package using the effective template and normalization, without a selection UI or file filter. Non-empty root groups retain selection-based filtering.
+
+Changing a previously non-empty choice tree to `groups: []` does not silently discard existing saved selections. If a user still has non-empty saved group selections, the desktop reports that the configuration has changed and blocks installation until the user removes the mod from My Mods and adds it again from Browse Catalog. An absent or empty saved selection is already treated as no configuration and does not require re-adding the mod. Preserve existing choice trees and stable IDs unless changing their behavior is intentional.
 
 ```text
 Configuration
@@ -142,12 +202,12 @@ Fields:
 
 Selection rules:
 
-| Type | Required | Valid selection |
-|---|---:|---|
-| `single` | `true` | Exactly one option |
-| `single` | `false` | Zero or one option |
-| `multiple` | `true` | At least one option |
-| `multiple` | `false` | Zero or more options |
+| Type       | Required | Valid selection      |
+| ---------- | -------: | -------------------- |
+| `single`   |   `true` | Exactly one option   |
+| `single`   |  `false` | Zero or one option   |
+| `multiple` |   `true` | At least one option  |
+| `multiple` |  `false` | Zero or more options |
 
 A `single` group is rendered as radio buttons. All direct options in that group automatically belong to the same radio group.
 
@@ -189,9 +249,7 @@ InstallationContent
 
 ```json
 {
-  "includeTargetPathRegexes": [
-    "^.*\\.wotmod$"
-  ]
+  "includeTargetPathRegexes": ["^.*\\.wotmod$"]
 }
 ```
 
@@ -220,7 +278,7 @@ The final set of files is the union of installation content from:
 
 Each target file is copied at most once.
 
-Files that do not match any collected expression are not copied. There is no fallback that copies the complete package when matching fails.
+For non-empty configurations, files that do not match any collected expression are not copied. Failed matching never falls back to copying the complete package. An empty root `groups` array intentionally requests an unfiltered whole-package installation; it is not a fallback for failed selection rules.
 
 ### Writing durable file-selection regexes
 
@@ -265,7 +323,7 @@ The mod requires one selected variant:
       "configuration": {
         "groups": [
           {
-            "id": "skyVersion",
+            "id": "skyVersionVolume1",
             "name": "Sky version",
             "required": true,
             "type": "single",
@@ -276,9 +334,7 @@ The mod requires one selected variant:
                 "name": "All maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^(?!.*NoDarkMaps).*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^(?!.*NoDarkMaps).*\\.wotmod$"]
                 }
               },
               {
@@ -286,9 +342,7 @@ The mod requires one selected variant:
                 "name": "No Dark Maps",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^.*NoDarkMaps.*\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^.*NoDarkMaps.*\\.wotmod$"]
                 }
               }
             ]
@@ -317,6 +371,9 @@ The publishing process must fail when:
 - a group has an unsupported `type`,
 - a required field is missing,
 - a regular expression is invalid,
-- a configuration tree is structurally invalid.
+- a configuration tree is structurally invalid,
+- a supplied `installationProcess` is incomplete or invalid, including template/capability or `manualFolder` mismatches.
 
 Runtime matching against the downloaded package is performed by the desktop application during mod preparation. User-facing handling for a valid expression that no longer matches any target file is defined by the application, not by this source document.
+
+A quick override edits the published result only. When the same mod has a persistent configured process, the next publish reapplies that process; also update the authoritative configuration source when a repair must persist.
