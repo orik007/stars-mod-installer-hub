@@ -946,6 +946,237 @@
           }
         ]
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7198",
+      "title": "DARK // SFAC-105 -GENDARMERIE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free SFAC-105 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7350",
+      "title": "Mach 6 - EBR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one root Mach 6 wotmod, Clean or Paint, and copy it into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "paintVariant",
+            "name": "Paint variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "clean",
+                "name": "Clean",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Mach 6 - Clean\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "paint",
+                "name": "Paint",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Mach 6 - Paint\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6926",
+      "title": "DARK // LEOPARD 1 - Waffenträger",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free Leopard 1 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7726",
+      "title": "Wot Mod Creator (Icons)",
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "Package and guide verified: a portable WoTModCreator executable with authoring assets, intended for its own folder. No game-installable payload or game destination is provided.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7178",
+      "title": "DARK // Obj.277 - NEW GENERATION",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one classic free Obj.277 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7054",
+      "title": "DARK // DZT-159 - MODERN ARMOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free DZT-159 wotmod, preview and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7225",
+      "title": "DARK // BZ-75 - DIVINE VALOR",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black BZ-75, each a distinct root wotmod. Copy exactly the selected variant into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.BZ-75-DIVINE-VALOR-ClassicV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.BZ-75-DIVINE-VALOR-BlackV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7055",
+      "title": "DARK // IS-7 - HEDGEHOG",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one free IS-7 wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7501",
+      "title": "DARK // Obj.703 II - NIGHTMARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: one Luxury Obj.703 II wotmod and readme, with no variant choice; copy the complete package and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7338",
+      "title": "Aslain's Night Sky Edit",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guides verified: prefer the wotmod representations; select Night Sky, its independently usable Night Light component, or both. Extract matching wotmod version folders into mods/version. Night Light requests deletion of data.wgpdc.",
+        "deleteDataWgpdc": true,
+        "manualFolder": "wotmod version"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "nightComponents",
+            "name": "Night components",
+            "required": true,
+            "type": "multiple",
+            "groups": [],
+            "options": [
+              {
+                "id": "nightSky",
+                "name": "Night Sky Edit",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/AslainsNightSkyEditv\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "nightLight",
+                "name": "Night Light attachment",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Nightlight3DAttachment\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
