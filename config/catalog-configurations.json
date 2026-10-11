@@ -152,6 +152,610 @@
           }
         ]
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7860",
+      "title": "Zanju's Salvo Reticle Fix",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy the complete prepared mods/version tree, rewriting the game version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7800",
+      "title": "Zanju's Premium Time",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy both Premium Time and its bundled Gameface component from mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7815",
+      "title": "Zanju's Directives Helper",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy both Directives Helper and its bundled Gameface component from mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7874",
+      "title": "Zanju's Campaign Tracker",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy both Campaign Tracker and its bundled Gameface component from mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4772",
+      "title": "QuickLog",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: loose wotmods require mods/version while configs requires mods/configs. The supported templates cannot perform this split mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7227",
+      "title": "More visible circle with pen indication",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Included HowTo and package verified: install the loose gui/flash folder into res_mods/version and delete data.wgpdc. The advertised wotmod is absent; the nested archive repeats the same loose payload.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7691",
+      "title": "Zanju's Research Progress Bar",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package and linked author guide verified: copy the complete mods/version tree including both bundled shared components.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7961",
+      "title": "Autoloader Indicator",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: select Standalone or XVM; both have prepared mods/version trees and identical shared components. XVM and its enabled features remain user prerequisites.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "indicatorVersion",
+            "name": "Indicator version",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "standalone",
+                "name": "Standalone",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/imclicker\\.autoloaderindicator_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "xvm",
+                "name": "XVM (requires configured XVM)",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/imclicker\\.autoloaderindicator\\.xvm_\\d+(?:\\.\\d+)+\\.wotmod$"
+                  ]
+                }
+              }
+            ],
+            "installationContent": {
+              "includeTargetPathRegexes": [
+                "^mods/[^/]+/(?:izeberg\\.modssettingsapi|me\\.poliroid\\.modslistapi|net\\.openwg\\.gameface)_\\d+(?:\\.\\d+)+\\.wotmod$"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6645",
+      "title": "Enhanced 20pdrs (Sound Mod)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: choose exactly one of four root wotmods; the included readme requires using only one variant.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "soundVariant",
+            "name": "Sound and recoil variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "soundOnly",
+                "name": "Enhanced 20pdrs",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Enhanced_20pdrs-BadCorps\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "soundRecoil",
+                "name": "Enhanced 20pdrs + Realistic Recoil",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Enhanced_20pdrs\\+Recoil-BadCorps\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "soundRecoilKnockback",
+                "name": "Enhanced 20pdrs + Realistic Recoil + Knockback",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Enh_20pdrs\\+Recoil\\+Knockback-BadCorps\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "recoilKnockback",
+                "name": "Realistic Recoil + Knockback (without sound changes)",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Realistic_Recoil\\+Knockback-BadCorps\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "4894",
+      "title": "Wwise project for World of Tanks",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included PDF verified: this is a Wwise authoring project, requiring soundbank generation and audio_mods.xml editing before a game payload exists.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7199",
+      "title": "T-103 130mm Variants",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: three exclusive variants contain vehicles below named wrappers. No supported template strips a selected wrapper into res_mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7688",
+      "title": "ReShade",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: prepared win64 tree contains dxgi.dll, shader files and relative-path ReShade configuration; copy the complete tree into the game root without running an installer.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7733",
+      "title": "DARK // KV-2-2-2 and KV-2x9",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select V1 with three turrets or V2 with nine turrets, copy the selected folder to mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "turretVariant",
+            "name": "Turret variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "threeTurrets",
+                "name": "V1 - Three turrets",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1/dark\\.KV-2-2-2-Crazy3dSkin\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "nineTurrets",
+                "name": "V2 - Nine turrets",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2/dark\\.KV-2-X9-Crazy3dSkin\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7299",
+      "title": "Old gun sounds (From 0.8.9)",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: loose audio_mods.xml and oldguns.bnk require res_mods/version/audioww, but the audioww directory is absent and no supported template creates this mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6934",
+      "title": "PeacemakeR Voice Mod",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guide verified: the selected sixth-sense MP3 must be renamed and moved into audioww; the voice payload also has an unsupported wrapper-to-res_mods mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7885",
+      "title": "Colored Contour Icons",
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Package inspection: two compatible icon payloads are already under mods/version; copy both and rewrite the game version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "5663",
+      "title": "Mirukii's AMX 13 90 Remodel *Unofficial update*",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveAndCopyFolderToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose one side-skirt variant from the fixed archive folder, copy its wotmod into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true,
+        "manualFolder": "Mirukii_AMX1390_Remodel - 2.0"
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "sideSkirt",
+            "name": "Side skirt",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "withoutSkirt",
+                "name": "Without side skirt",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Mirukii_AMX1390_Remodel\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withSkirt",
+                "name": "With side skirt",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Mirukii_AMX1390_Remodel_With_Skirt\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7254",
+      "title": "MoE Nation Change For All Tanks",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one of eleven national marks-of-excellence wotmods, which replace the same insignia resources.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "moeNation",
+            "name": "Marks of excellence nation",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "china",
+                "name": "China",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/ChinaMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "czech",
+                "name": "Czech",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/CzechMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "france",
+                "name": "France",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/FranceMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "germany",
+                "name": "Germany",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/GermanyMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "italy",
+                "name": "Italy",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/ItalyMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "japan",
+                "name": "Japan",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/JapanMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "poland",
+                "name": "Poland",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/PolandMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "sweden",
+                "name": "Sweden",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/SwedenMOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "uk",
+                "name": "UK",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/UK_MOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "usa",
+                "name": "USA",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/USA_MOE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "ussr",
+                "name": "USSR",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/USSR_MOE\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7518",
+      "title": "SHELEST SoundMod",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package and included guides verified: select one voice variant and strip two named wrappers before copying audioww and gui into res_mods/version. No supported template performs that mapping.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6422",
+      "title": "DARK // GOLD PREMIUM AMMO",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select the Marked or No marked folder and copy that folder into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "ammoMarking",
+            "name": "Premium ammo marking",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "marked",
+                "name": "Marked",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V1 - Marked/dark\\.GOLDEN-GOLD-AMMO-Marked\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "unmarked",
+                "name": "No marking",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/V2 - No marked/dark\\.GOLDEN-GOLD-AMMO-NoMarked\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7906",
+      "title": "ASMA简体中文图标",
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "Package inspection: Armor and Simple payloads are nested ZIPs with the same atlas targets. Preparation cannot recursively unpack them; their literal res_mods/version placeholder also needs renaming.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": []
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7668",
+      "title": "DARK // IS 7 - RED GUARDIAN",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: the crew member and IS-7 style are compatible bundled components; copy the complete package and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": []
+      }
     }
   ]
 }
