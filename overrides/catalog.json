@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.022",
-  "sourceHash": "3972367013f445b6e04dc0194c374d33019b42f3056ce1921fd8de3db836cf81",
+  "catalogVersion": "v2026.10.023",
+  "sourceHash": "e87afc64cc958f5a9b1e97643d984016f53ad768854f01b1191d324f058da71d",
   "sources": [
     "wgmods",
     "modhub"
@@ -466,6 +466,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ELC_EVEN_TWT_HALLOWEEN_GdxXide.wotmod",
+          "updatedAt": "2026-10-11T07:25:02.281Z",
+          "sizeBytes": 27891408,
+          "fileName": "ELC_EVEN_TWT_HALLOWEEN_GdxXide.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Tank no longer gets dirty."
+        },
+        {
+          "wotGameVersion": "2.4.0.2",
           "modVersion": "1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ELC_EVEN_TWT_HALLOWEEN.wotmod",
           "updatedAt": "2026-10-06T14:14:46.605Z",
@@ -486,9 +496,9 @@
         }
       ],
       "latest": {
-        "fileName": "ELC_EVEN_TWT_HALLOWEEN.wotmod",
-        "modVersion": "1.1",
-        "changeLog": "Fixed skin vanising at long distance.",
+        "fileName": "ELC_EVEN_TWT_HALLOWEEN_GdxXide.wotmod",
+        "modVersion": "1.2",
+        "changeLog": "Tank no longer gets dirty.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2814,7 +2824,7 @@
       "mark": 3.7,
       "descriptionHtml": "<p>仿照巨响图标，自制的坦克战斗中文图标。</p>",
       "installationGuideHtml": "<p>参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。</p><p><strong>Simple（标准版）：含型号名称+弹夹容量</strong></p><p><strong>Armor（装甲版）：含型号名称+装甲值（车体）</strong></p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装方法：</p><p>下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。</p><p>或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。</p><p>PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。</p><p>&nbsp;</p><p>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ASMA%E4%B8%AD%E6%96%87%E5%9B%BE%E6%A0%87%E5%B0%81%E9%9D%A2.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "",
       "detailUrl": "https://wgmods.net/7906/",
       "tagIds": [
         "14"
@@ -7380,16 +7390,6 @@
           "fileName": "Hangar_Carousel_Plus_0.8.11_complete.zip",
           "fileExt": ".zip",
           "changeLog": "Added support of Frontline and other carousel modes"
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "0.8.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/com.rcooler.hangar_carousel_plus_0.8.7.wotmod",
-          "updatedAt": "2026-09-13T05:15:45.078Z",
-          "sizeBytes": 727707,
-          "fileName": "com.rcooler.hangar_carousel_plus_0.8.7.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "Нове сортування: основні → незавершена польова модернізація → штатний порядок. Усередині кожної групи порядок клієнта зберігається.\nДодано окрему білу іконку та локалізацію для всіх підтримуваних мов.\nНапрямок ↑/↓ для цього режиму приховується, бо він не застосовується\nАудит швидкодії:\nРаніше повне оновлення для 379 машин могло робити приблизно 758 читань досьє, а з активним фільтром відміток — до 1516.\nТепер перший знімок читає кожне досьє один раз, а перемикання фільтрів використовує кеш — 0 повторних читань досьє.\nЗміни окремої машини інвалідують лише її кеш.\nПрибрано постійне сканування карток кожні 250 мс; залишено фільтровану й обмежену за частотою реакцію на DOM.\n"
         }
       ],
       "latest": {
@@ -9336,7 +9336,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4,
+      "mark": 3.9,
       "descriptionHtml": "<p><strong>Custix ModPack</strong> is a compact collection of statistics and useful improvements for the standard World of Tanks interface. Nothing unnecessary: every optional mod can be selected separately.</p><blockquote><p><strong>✍️ Authorship</strong> The core mods of the pack — are developed by <strong>Custix</strong>.</p><p><strong>🌐 </strong><a href=\"https://modpack.custix.pp.ua/\"><strong>Official website</strong></a> — current modpack releases are available here, and updates are usually published sooner than on <a href=\"http://wgmods.net/\">wgmods.net</a>. <strong>(A version of the modpack is available for WoT 2.4.0.2)</strong></p><p>💬 <a href=\"https://discord.gg/jcS7HUeFp\"><strong>Custix | Support &amp; Community</strong></a> — our Discord server for installation and configuration support, bug reports, suggestions, and community chat.</p><p><strong>✅ Wargaming rules compliance</strong><br>All mods in the pack are developed in accordance with Wargaming's rules for modifications (Fair Play Policy) and do not violate them. The pack contains no prohibited functionality!</p></blockquote><p><strong>📊 BattleStats</strong> —&nbsp;shows average vehicle tier, battle count, win rate, and <strong>WN8 or WNX</strong> on the Tab screen and team panels.<br>Three modes are available:&nbsp;</p><ul><li>Last 1000 battles</li><li>Overall account statistics</li><li>Current-vehicle statistics</li></ul><p>If your <strong>anonymizer is enabled</strong>, statistics for other players are still displayed.</p><p>❤️ <strong>BattleHP </strong>— (v4.2+) vehicle health on team panels, always or while holding Alt. Formats: current HP, current/maximum HP, or HP with estimated shots to destroy a vehicle. Includes gradient bars and adjustable size, font, and opacity. The key for pinning target HP is configurable; the default is E.</p><p>🎯 <strong>MoE </strong>— (v4.2+) Marks of Excellence: percentages, estimated thresholds, and a garage vehicle filter. In battle, see predicted percentage, its change, and damage. Five display modes, a mode button accessed with Ctrl, and an expanded universal view while holding Alt.</p><p><strong>📈 SessionStats</strong> —&nbsp;adds WN8, WNX, and their change to the native Session Statistics window next to WTR.</p><p><strong>🗂️ BattleHistory</strong> —&nbsp;adds a movable battle-history window with map, vehicle, outcome, damage, kills, experience, survival, and WN8/WNX. It supports vehicle filtering, reopening detailed reports, and history limits by battle count or days.</p><p><strong>🪟 UpdatedWindows</strong> —&nbsp;modernizes platoon windows, private and group chats, Contacts, Message Center, and Session Statistics. It adds color, opacity, and font settings, contact notes, context menus, emojis, links, message templates, and an integrated filter.</p><p><strong>✉️ MessageCenterFilter</strong> —&nbsp;is a standalone filter for users without UpdatedWindows. It independently filters Message Center entries and hangar pop-ups by category. UpdatedWindows and MessageCenterFilter cannot be installed together: selecting either one automatically clears the other.</p><p><strong>🌐 LastServerLogin</strong> —&nbsp;remembers the last successful server without storing passwords or tokens.</p><p><strong>✅ PlatoonReady</strong> —&nbsp;adds a platoon-commander <strong>READY</strong> button, an indicator for other members, and the Alt+R shortcut.</p><p><strong>🔔 ModpackNotifier</strong> —&nbsp;reports new modpack versions. Network failures do not prevent the game from starting.</p><p>The installer adds only libraries required by selected components: <strong>ModsSettingsAPI</strong>, <strong>ModsListAPI</strong>, and <strong>OpenWG Gameface</strong>.</p>",
       "installationGuideHtml": "<p><strong>⚙️ Installer features</strong></p><ul><li>Auto-detects the game folder and checks the version.</li><li>Asks you to close the game before installing.</li><li>Convenient component selection with a description for each.</li><li>Extra options: clean mods/res_mods, cache and logs; remember selected mods; reset game settings; delete old updates and replays.</li><li>Installer languages: Ukrainian and English.</li></ul><p><strong>💾 Installation</strong></p><ol><li>Close World of Tanks.</li><li>Run the installer — it will find the game folder automatically (set it manually if needed).</li><li>Select components (exactly one statistics option) and click Install.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/custix_modpack_saA4svb.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
