@@ -156,6 +156,8 @@ Manual templates require `installableByApp=false`:
 - `DeterministicButUnsupported`
 - `Unknown`
 
+`ManualExternalDependency` and `MixedCustomPathButDeterministic` are legacy catalog template names. They may still occur in older published catalogs or the quick manual-override workflow, but they are intentionally excluded from persistent `installationProcess` replacements. The publisher rejects them as unsupported templates; use one of the three current Manual templates above for a new persistent rule.
+
 `manualFolder` is required and must be a non-empty string only for `ExtractArchiveAndCopyFolderToMods`; it must be omitted for all other templates. Missing fields, unsupported templates, incompatible capability flags, or an invalid folder field stop publishing.
 
 Existing entries without this optional object remain valid under schema version 1. The separate manual installation override workflow remains a quick repair of the published catalog; this source records persistent, reviewed installation behavior. Upstream-package change detection is outside this addition.
