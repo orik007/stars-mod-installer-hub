@@ -1,0 +1,72 @@
+{
+  "catalogVersion": "v2026.10.024",
+  "previousCatalogVersion": "v2026.10.023",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "updated": 3,
+    "unchanged": 816
+  },
+  "changes": [
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8014",
+      "title": "Exterior Studio",
+      "previous": {
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.exterior_studio.2.4.0.2.1.0.0.zip",
+        "updatedAt": "2026-10-10T08:36:38.167Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.exterior_studio.2.4.0.2.1.1.0.zip",
+        "updatedAt": "2026-10-11T17:54:12.824Z",
+        "changeLog": "Faster Exterior entry, category switching and large catalogs with deferred details and bounded caches; tank switching with tier/class/nation filters; all-season applied-items overview beside checkout; combined Base64 outfit import/export with read-only export and no custom assets; Apply to all seasons; larger card artwork, owned counts and editing gear icons; smooth swipe momentum; richer delayed tooltips with large animated art, cursor offset, hover updates during scrolling and dismissal outside the game; animated camouflage/decal cards with source timing and no 24-frame cap; native 2D style details; clearer attachment collection labels and nearby editing controls; hide unavailable actions and restore the catalog after style adjustment; keep filter menus within bounds; Suitable only toggle; clearer checkout reasons and compatibility checks for purchasable items and Camo Selector previews."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7711",
+      "title": "Camo Selector",
+      "previous": {
+        "modVersion": "3.1.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.camo_selector.2.4.0.2.3.1.2.wotmod",
+        "updatedAt": "2026-10-10T08:36:18.367Z",
+        "changeLog": "Restart local camouflage and projection-decal animations after returning from battle results; keep local animations running across Ready-triggered hangar vehicle reloads; rotate Creations diagnostics at 2 MiB and keep one previous log; add optional Exterior Studio compatibility."
+      },
+      "current": {
+        "modVersion": "3.2.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.camo_selector.2.4.0.2.3.2.0.zip",
+        "updatedAt": "2026-10-11T17:54:12.823Z",
+        "changeLog": "Faster Exterior loading and catalog browsing, especially with Exterior Studio, by avoiding repeated eligibility, outfit and inventory scans; convert animated GIF camouflage and projection-decal frames in one batch with improved converter shutdown and temporary-file cleanup; add animated Exterior Studio card and tooltip previews preserving every source frame and its timing, shared preview generation and resource cleanup; refresh the Studio catalog after custom-asset changes; hide empty internal style entries and keep uploaded assets out of editable-style configuration; allow valid owned or purchasable items through checkout while blocking only changed outfit items that cannot be applied server-side, including custom assets and incompatible combinations."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "46",
+      "title": "Aslain's WoT Modpack",
+      "previous": {
+        "modVersion": "04",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_04.exe",
+        "updatedAt": "2026-10-08T20:57:03.962Z",
+        "changeLog": "- Updated Overmatch.pro 1.7.1 (garage syncing for Marks and Mastery, also for tanks without recorded battles)\n- Fixed conflict with aim circle: More Visible \n- Rebuilt mods by Aslain\n- Re-added tank contour icons PogS\n"
+      },
+      "current": {
+        "modVersion": "05",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_05.exe",
+        "updatedAt": "2026-10-11T18:32:05.996Z",
+        "changeLog": "- Installer: mod previews can now show up to 10 pictures\n- Added B.O.M.B. by #mjrd\n- Added Exterior Studio by Gravity_Assist\n- Added Depot Cleaner by Aslain\n- Updated Session Statistics and Battle Result Messages by Tomonik\n- Updated Camo Selector 3.2.0\n- Updated MoE Calculator 14th_ua 7.0.0\n- Updated Research Progress Bar by 14th_ua 7.0.0\n- Rebuilt mods by Aslain"
+      }
+    }
+  ]
+}
