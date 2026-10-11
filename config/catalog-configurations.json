@@ -75,6 +75,12 @@
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 2 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume2, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -113,6 +119,12 @@
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 3 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume3, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -151,6 +163,12 @@
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 4 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume4, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -2307,6 +2325,374 @@
                 "installationContent": {
                   "includeTargetPathRegexes": [
                     "^mods/[^/]+/B\\&W\\ premium/dark\\.Rinoceronte\\-NEW\\-GEN\\-B\\&WPremium\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7685",
+      "title": "Chrysler MTC 2 Remodel (2 Versions)",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one Chrysler MTC2 remodel, V1 or V2, and copy its root wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "modelVariant",
+            "name": "Remodel variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "v1",
+                "name": "V1",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A159_Chrysler_MTC_2_V1\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "v2",
+                "name": "V2",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/A159_Chrysler_MTC_2_V2\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7797",
+      "title": "DARK // Obj.268 V5 - VALHALLA",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Black Premium Obj.268 V5, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Classic\\ premium/dark\\.Obj268V5\\-VALHALLA\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ premium/dark\\.Obj268V5\\-VALHALLA\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7666",
+      "title": "DARK // Pz.S35 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic, Black or Camo Luxury Pz.S35, copy its folder into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ luxury/dark\\.PzS35\\-NEW\\-WARFARE\\-ClassicLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ luxury/dark\\.PzS35\\-NEW\\-WARFARE\\-BlackLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ luxury/dark\\.PzS35\\-NEW\\-WARFARE\\-CamoLuxury\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6981",
+      "title": "Recoloured T49 Revenant Style",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and guide verified: choose exactly one of five T49 Revenant colors and copy its root wotmod into mods/version.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "colorVariant",
+            "name": "Revenant color",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "blue",
+                "name": "Blue",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Blue\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "brightred",
+                "name": "BrightRed",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_BrightRed\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "green",
+                "name": "Green",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Green\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "orange",
+                "name": "Orange",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Orange\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "purple",
+                "name": "Purple",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/T49_Purple\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7443",
+      "title": "DARK // XM57 - LEGIONNAIRE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic or Camo XM57, copy its root wotmod into mods/version and delete data.wgpdc. LimpidSticker remains a user prerequisite.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.XM57\\-LEGION\\-ClassicLuxury\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Luxury",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/dark\\.XM57\\-LEGION\\-CamoLuxury\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7364",
+      "title": "DARK // AE PHASE 1 - NEW WARFARE",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: choose Classic, Black or Camo Premium AE Phase I, copy its folder into mods/version and delete data.wgpdc.",
+        "deleteDataWgpdc": true
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "classic",
+                "name": "Classic Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/classic\\ premium/dark\\.AE\\-PHASE\\-I\\-NEW\\-WARFARE\\-ClassicPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/black\\ premium/dark\\.AE\\-PHASE\\-I\\-NEW\\-WARFARE\\-BlackPremiumV\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "camo",
+                "name": "Camo Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/camo\\ premium/dark\\.AE\\-PHASE\\-I\\-NEW\\-WARFARE\\-CamoPremiumV\\.wotmod$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "6854",
+      "title": "DARK // NEW GENERATION - BZ-176",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: select exactly one Free, Gray Premium or Black Premium BZ-176 wotmod. The archive contains all three variants although the catalog title mentions Free.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "styleVariant",
+            "name": "Style variant",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "free",
+                "name": "Free",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/free\\ version/dark\\.BZ\\-176_NEW\\-GEN\\-FREE\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "gray",
+                "name": "Gray Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Gray\\ Premium/dark\\.BZ\\-176_NEW\\-GEN\\-Gray\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "black",
+                "name": "Black Premium",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Black\\ Premium/dark\\.BZ\\-176_NEW\\-GEN\\-Black\\.wotmod$"
                   ]
                 }
               }
