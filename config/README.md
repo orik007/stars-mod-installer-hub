@@ -222,6 +222,26 @@ Each target file is copied at most once.
 
 Files that do not match any collected expression are not copied. There is no fallback that copies the complete package when matching fails.
 
+### Writing durable file-selection regexes
+
+Match the stable mod or component name rather than the complete filename from one downloaded release. Keep expressions as general as possible while still selecting only the intended files. Do not pin mod versions, game versions, or changeable author prefixes when they are unnecessary for identifying the component.
+
+For example, Tank Info in Hangar should match any `.wotmod` basename containing `tank_info_in_hangar`, instead of requiring `Z4imon.tank_info_in_hangar_1.5.2.wotmod`:
+
+```json
+{
+  "includeTargetPathRegexes": [
+    "^mods/[^/]+/[^/]*tank_info_in_hangar[^/]*\\.wotmod$"
+  ]
+}
+```
+
+Here `[^/]+` accepts the normalized current game-version folder, and `[^/]*` accepts changing filename prefixes and suffixes without crossing directory boundaries. These are regular expressions, not glob patterns; a glob such as `*tank_info_in_hangar*.wotmod` must be translated into regex syntax and JSON backslashes must be escaped.
+
+Preserve stable variant distinctions such as color, effects, tank identity, or V1/V2 when those names identify different selectable payloads rather than release versions. A broader pattern must not select an alternative variant or unrelated component. When an option intentionally installs every bundled `.wotmod`, match that set by directory and extension instead of enumerating the current versioned filenames.
+
+Validate each expression against the current archive and representative renamed prefixes or changed version suffixes. Also verify that other variants, unrelated files, and non-payload documents remain excluded where appropriate.
+
 ## Pansy's Revamped Skies Volume 1 example
 
 The current archive contains:
