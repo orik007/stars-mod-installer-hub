@@ -4615,6 +4615,50 @@
       "configuration": {
         "groups": []
       }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7722",
+      "title": "Tank Info in Hangar",
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and catalog guide verified: when Gameface is already installed, copy only Tank Info in Hangar; otherwise copy all four bundled wotmods. The guide mentions two files but the archive contains four.",
+        "deleteDataWgpdc": false
+      },
+      "configuration": {
+        "groups": [
+          {
+            "id": "gamefaceInstallation",
+            "name": "Gameface installation",
+            "required": true,
+            "type": "single",
+            "groups": [],
+            "options": [
+              {
+                "id": "alreadyInstalled",
+                "name": "Gameface already installed",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/Z4imon\\.tank_info_in_hangar_1\\.5\\.2\\.wotmod$"
+                  ]
+                }
+              },
+              {
+                "id": "withBundledComponents",
+                "name": "Install with bundled components",
+                "groups": [],
+                "installationContent": {
+                  "includeTargetPathRegexes": [
+                    "^mods/[^/]+/(?:aslain\\.modmenu_2\\.0\\.12\\.wotmod|gravity\\.error\\.reporter\\.log\\.1\\.0\\.7\\.wotmod|net\\.openwg\\.gameface_1\\.1\\.6\\.wotmod|Z4imon\\.tank_info_in_hangar_1\\.5\\.2\\.wotmod)$"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }

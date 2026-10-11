@@ -134,3 +134,13 @@ The review compares the catalog installation guide, included documents, actual p
 - All package downloads were sequential, with at least ten seconds between completed downloads and the next request. Existing six packages were reused.
 
 No files were applied to a game installation, no downloaded program was executed, and game functionality was not tested. External dependencies and in-game settings remain user responsibilities. Package evidence hashes are local review evidence; they are not recurring reclassification triggers.
+
+## Additional review: Tank Info in Hangar (7722)
+
+The original 115-package review remains unchanged. [Tank Info in Hangar](https://wgmods.net/7722/) was reviewed separately after a missing installation choice was reported.
+
+The catalog guide says to copy only the Tank Info file when Gameface is already installed. Although it mentions two files, the downloaded 1.5.2 archive contains four loose wotmods: `Z4imon.tank_info_in_hangar_1.5.2.wotmod`, `net.openwg.gameface_1.1.6.wotmod`, `gravity.error.reporter.log.1.0.7.wotmod`, and `aslain.modmenu_2.0.12.wotmod`. No TXT or README is present. The package is downloaded from WGMods; a bundled component filename does not introduce another download source.
+
+The Auto process is `ExtractArchiveThenCopyToMods`, with `deleteDataWgpdc=false`. Required single group `gamefaceInstallation` offers `alreadyInstalled` (Gameface already installed: only the Tank Info file) and `withBundledComponents` (Install with bundled components: all four files). Filters match the exact normalized target filenames under `mods/current-version`. Existing components are a user prerequisite for the first option; the installer does not detect or resolve dependencies.
+
+Both options passed actual client command building and preparation at 2.4.0.2 and 2.5.0.0. File counts were exactly one and four respectively; all ten prepared files matched the archive by SHA-256. Full 819-mod schema validation and repeated publisher merge also passed. No files were applied to the game, and gameplay was not tested.
