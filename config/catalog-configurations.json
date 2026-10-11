@@ -153,6 +153,12 @@
             ]
           }
         ]
+      },
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Package and included guide verified: install exactly one Volume 4 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume4, allMaps and noDarkMaps IDs and target rules.",
+        "deleteDataWgpdc": false
       }
     },
     {
@@ -272,12 +278,6 @@
             ]
           }
         ]
-      },
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "Package and included guide verified: install exactly one Volume 4 wotmod, All maps or No Dark Maps. Preserve the existing skyVersionVolume4, allMaps and noDarkMaps IDs and target rules.",
-        "deleteDataWgpdc": false
       }
     },
     {
@@ -688,9 +688,7 @@
                 "name": "China",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/ChinaMOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/ChinaMOE\\.wotmod$"]
                 }
               },
               {
@@ -698,9 +696,7 @@
                 "name": "Czech",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/CzechMOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/CzechMOE\\.wotmod$"]
                 }
               },
               {
@@ -728,9 +724,7 @@
                 "name": "Italy",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/ItalyMOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/ItalyMOE\\.wotmod$"]
                 }
               },
               {
@@ -738,9 +732,7 @@
                 "name": "Japan",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/JapanMOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/JapanMOE\\.wotmod$"]
                 }
               },
               {
@@ -768,9 +760,7 @@
                 "name": "UK",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/UK_MOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/UK_MOE\\.wotmod$"]
                 }
               },
               {
@@ -778,9 +768,7 @@
                 "name": "USA",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/USA_MOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/USA_MOE\\.wotmod$"]
                 }
               },
               {
@@ -788,9 +776,7 @@
                 "name": "USSR",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/USSR_MOE\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/USSR_MOE\\.wotmod$"]
                 }
               }
             ]
@@ -2608,9 +2594,7 @@
                 "name": "Blue",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/T49_Blue\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/T49_Blue\\.wotmod$"]
                 }
               },
               {
@@ -4753,9 +4737,7 @@
                 "name": "Install with bundled components",
                 "groups": [],
                 "installationContent": {
-                  "includeTargetPathRegexes": [
-                    "^mods/[^/]+/[^/]+\\.wotmod$"
-                  ]
+                  "includeTargetPathRegexes": ["^mods/[^/]+/[^/]+\\.wotmod$"]
                 }
               }
             ]
