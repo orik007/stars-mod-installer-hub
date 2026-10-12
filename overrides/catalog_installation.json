@@ -1,7 +1,75 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.024",
+  "catalogVersion": "v2026.10.025",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8017",
+      "title": "Cinematic Hangar",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation. <yourWoT>/mods/<currentVersion>/..."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy all its files into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8018",
+      "title": "Minimap DOOM",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the mod and place the .wotmod file into World_of_Tanks\\mods\\x.x.x.x\\ , replacing x.x.x.x with the current World of Tanks version."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8016",
+      "title": "121 remodel",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed track models with chassis."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods/current-version; the guide also instructs deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8015",
+      "title": "FPS, Ping and Lag",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy sagtary.fps_ping_1.0.0.wotmod into the [WoT game directory]/mods/[game version]/ folder."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8011",
@@ -3179,13 +3247,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "In World of Tanks: Settings → General → Save replays = All . Extract the zip into your World of Tanks game folder (the one with WorldOfTanks.exe) — merge/overwrite the mods folder when asked. It installs into World_of_Tanks\\mods\\2.3.0.1\\ (matches your client version). (Re)start World of Tanks. Open Settings → mod settings → Overmatch and tick “Link my account.” A browser tab opens — confirm it's you, and you're done."
+        "latestInstallGuide": "In World of Tanks: Settings → General → Save replays = All . Extract the zip into your World of Tanks game folder (the one with WorldOfTanks.exe) — merge/overwrite the mods folder when asked. It installs into World_of_Tanks\\mods\\2.4.1.0\\ (matches your client version). (Re)start World of Tanks. Open Mod settings → Overmatch and press “Link.” A browser tab opens — confirm it's you, and you're done."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP into the game directory as instructed.",
+        "decisionReason": "Extract the ZIP into the game folder, merging its prepared mods tree.",
         "deleteDataWgpdc": false
       }
     },
@@ -8367,40 +8435,6 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "The .wotmod file is copied unchanged into mods/current-version.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7427",
-      "title": "Clean Camo - Svitman - HD Version / Part 1",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the Zip File Extract the content of the Zip File Create a folder called \"cleantanks\" in your mods folder (if not there already) Place the extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "The guide requires creating a custom cleantanks destination and moving the extracted files into it.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7428",
-      "title": "Clean Camo - Svitman - HD Version / Part 2",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the Zip File Extract the content of the Zip File Create a folder called \"cleantanks\" in your mods folder (if not there already) Place the extracted files into the folder (WorldofTanks\\mods\\x.x.x.x\\cleantanks) (replace x.x.x.x with the current version of WoT)"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "DeterministicButUnsupported",
-        "installableByApp": false,
-        "decisionReason": "The guide requires creating a custom cleantanks destination and moving the extracted files into it.",
         "deleteDataWgpdc": false
       }
     },
