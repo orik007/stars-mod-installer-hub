@@ -1,30 +1,1250 @@
 {
-  "catalogVersion": "v2026.10.026",
-  "previousCatalogVersion": "v2026.10.025",
+  "catalogVersion": "v2026.10.027",
+  "previousCatalogVersion": "v2026.10.026",
   "summary": {
     "added": 0,
     "removed": 0,
-    "updated": 1,
-    "unchanged": 820
+    "updated": 62,
+    "unchanged": 759
   },
   "changes": [
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7980",
-      "title": "Gunmarks: Reticle",
+      "sourceId": "8018",
+      "title": "Minimap DOOM",
       "previous": {
-        "modVersion": "0.2.0",
+        "modVersion": "1.0.0",
         "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_reticle_0.2.0.3_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-10T13:56:35.352Z",
-        "changeLog": "https://gunmarks.app/mod/reticle"
+        "fileName": "gravity.minimap_doom.2.4.0.2.1.0.0.wotmod",
+        "updatedAt": "2026-10-12T11:56:48.346Z",
+        "changeLog": ""
       },
       "current": {
-        "modVersion": "0.2.1",
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.minimap_doom.2.4.1.0.1.0.0.zip",
+        "updatedAt": "2026-10-13T09:21:12.556Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8014",
+      "title": "Exterior Studio",
+      "previous": {
+        "modVersion": "1.1.1",
         "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_reticle_0.2.1.4_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-13T09:28:24.010Z",
+        "fileName": "gravity.exterior_studio.2.4.0.2.1.1.1.zip",
+        "updatedAt": "2026-10-12T11:26:06.498Z",
+        "changeLog": "Added Traditional Chinese translation; improved tooltip dismissal when leaving hovered items."
+      },
+      "current": {
+        "modVersion": "1.1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.exterior_studio.2.4.1.0.1.1.2.zip",
+        "updatedAt": "2026-10-13T09:21:28.167Z",
+        "changeLog": "Fixed opening Exterior Studio and switching seasons; added translations for Camo Selector's style-owned item filters."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7975",
+      "title": "Crucible Auto Reset",
+      "previous": {
+        "modVersion": "1.0.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.crucible_auto_reset.2.4.0.2.1.0.1.zip",
+        "updatedAt": "2026-10-01T15:57:44.675Z",
+        "changeLog": "Fixed the Auto Reset control not appearing when Crucible is opened through the Missions tab."
+      },
+      "current": {
+        "modVersion": "1.0.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.crucible_auto_reset.2.4.1.0.1.0.2.zip",
+        "updatedAt": "2026-10-13T09:21:29.348Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7969",
+      "title": "Centered Minimap",
+      "previous": {
+        "modVersion": "1.3.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.centered_minimap.2.4.0.2.1.3.1.zip",
+        "updatedAt": "2026-09-30T20:24:25.126Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.3.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.centered_minimap.2.4.1.0.1.3.1.zip",
+        "updatedAt": "2026-10-13T09:21:30.448Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7968",
+      "title": "Dynamic Armor Inspector Colours",
+      "previous": {
+        "modVersion": "0.1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.dynamic_armor_inspector_colours.2.4.0.2.0.1.0.zip",
+        "updatedAt": "2026-09-30T20:24:25.370Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "0.1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.dynamic_armor_inspector_colours.2.4.1.0.0.1.1.zip",
+        "updatedAt": "2026-10-13T09:21:31.621Z",
+        "changeLog": "Fixed custom armour colours not activating on the first launch after installation."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7967",
+      "title": "Onslaught Hangar",
+      "previous": {
+        "modVersion": "0.1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.onslaught_hangar.2.4.0.2.0.1.0.wotmod",
+        "updatedAt": "2026-09-30T20:24:25.611Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "0.1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.onslaught_hangar.2.4.1.0.0.1.0.zip",
+        "updatedAt": "2026-10-13T09:21:32.844Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7966",
+      "title": "Pet Renamer",
+      "previous": {
+        "modVersion": "1.1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.pet_renamer.2.4.0.2.1.1.0.zip",
+        "updatedAt": "2026-09-30T20:24:25.848Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.pet_renamer.2.4.1.0.1.1.0.zip",
+        "updatedAt": "2026-10-13T09:21:33.924Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7914",
+      "title": "Effect Control - Reduce Effects and Improve FPS",
+      "previous": {
+        "modVersion": "1.0.4",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.effect_control.2.4.0.2.1.0.4.zip",
+        "updatedAt": "2026-09-30T20:24:26.106Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.4",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.effect_control.2.4.1.0.1.0.4.zip",
+        "updatedAt": "2026-10-13T09:21:34.984Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7905",
+      "title": "Tier XI Ability Keybinds",
+      "previous": {
+        "modVersion": "1.0.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.tier_xi_ability_rebind.2.4.0.2.1.0.1.zip",
+        "updatedAt": "2026-09-30T20:24:26.344Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.tier_xi_ability_rebind.2.4.1.0.1.0.1.zip",
+        "updatedAt": "2026-10-13T09:21:36.140Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7898",
+      "title": "Cinematic Freecam - Training Room | Replay | Hangar",
+      "previous": {
+        "modVersion": "0.4.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.cinematic_freecam.2.4.0.2.0.4.0.wotmod",
+        "updatedAt": "2026-09-30T20:24:26.582Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "0.4.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.cinematic_freecam.2.4.1.0.0.4.0.zip",
+        "updatedAt": "2026-10-13T09:22:58.101Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7887",
+      "title": "Pre-2.4 Gun Sounds",
+      "previous": {
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.pre24_sounds.full.2.4.0.2.1.0.0.zip",
+        "updatedAt": "2026-09-30T20:24:26.825Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.pre24_sounds.full.2.4.1.0.1.0.0.zip",
+        "updatedAt": "2026-10-13T09:22:59.312Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7875",
+      "title": "Vehicle Stat Inspector",
+      "previous": {
+        "modVersion": "2.0.7",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.0.2.2.0.7.zip",
+        "updatedAt": "2026-10-06T14:58:42.917Z",
+        "changeLog": "Keeps sandbox changes when the drawer is reopened, adds resolved Tier XI upgrade descriptions, and shows BV-111 External Ammo Feed shell damage and speed values with matching upgrade previews."
+      },
+      "current": {
+        "modVersion": "2.0.7",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.1.0.2.0.7.zip",
+        "updatedAt": "2026-10-13T09:23:00.647Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7863",
+      "title": "Map Hangar Studio",
+      "previous": {
+        "modVersion": "1.0.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.map_hangar_studio.2.4.0.2.1.0.5.wotmod",
+        "updatedAt": "2026-09-30T20:24:27.341Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.6",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.map_hangar_studio.2.4.1.0.1.0.6.zip",
+        "updatedAt": "2026-10-13T09:23:02.088Z",
+        "changeLog": "Moved the launcher to Aslain Mod Menu and prevented hangar reloads while the client is shutting down."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7821",
+      "title": "Sector 3 Hangar",
+      "previous": {
+        "modVersion": "0.1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.sector3_hangar.2.4.0.2.0.1.1.wotmod",
+        "updatedAt": "2026-09-30T20:24:27.596Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "0.1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.sector3_hangar.2.4.1.0.0.1.1.zip",
+        "updatedAt": "2026-10-13T09:23:03.282Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7764",
+      "title": "Battle Timeline Results",
+      "previous": {
+        "modVersion": "0.1.3",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.battle_timeline_results.2.4.0.2.0.1.3.zip",
+        "updatedAt": "2026-09-30T20:24:28.094Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "0.1.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.battle_timeline_results.2.4.1.0.0.1.3.zip",
+        "updatedAt": "2026-10-13T09:23:05.605Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7760",
+      "title": "Crucible Progress Tracker",
+      "previous": {
+        "modVersion": "1.0.3",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "crusable_progress_tracker_1.0.3_9bWFPVS.wotmod",
+        "updatedAt": "2026-09-30T23:03:38.781Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.4",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "crusable_progress_tracker_1.0.4.wotmod",
+        "updatedAt": "2026-10-13T04:20:56.490Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7755",
+      "title": "Crucible Progress Overlay",
+      "previous": {
+        "modVersion": "1.0.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.crucible_progress_overlay.2.4.0.2.1.0.2.zip",
+        "updatedAt": "2026-09-30T20:24:28.338Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.crucible_progress_overlay.2.4.1.0.1.0.3.zip",
+        "updatedAt": "2026-10-13T09:23:06.773Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7752",
+      "title": "Overmatch.pro",
+      "previous": {
+        "modVersion": "1.7.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "overmatch_6.zip",
+        "updatedAt": "2026-10-08T14:33:59.692Z",
+        "changeLog": "Adds garage syncing to Marks and Mastery, including tanks without recorded battles."
+      },
+      "current": {
+        "modVersion": "1.7.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "overmatch_8.zip",
+        "updatedAt": "2026-10-13T16:47:18.735Z",
+        "changeLog": "Added Personal Missions progress syncing for Long-Awaited Backup, The Second Front and Sector 3.\nSynced garage tanks now support mission eligibility guidance on Overmatch.pro.\nAdded automatic contribution of counted replays from supported successful mission attempts.\nAdded a ModMenu toggle for Personal Missions progress and garage syncing."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7721",
+      "title": "Visible Enemy Spotted icons",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "FiT.Graphics.VisibleSpottedIcons_1.1_5N4E5EL.wotmod",
+        "updatedAt": "2026-09-19T20:02:51.435Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "FiT.Graphics.VisibleSpottedIcons_1.1.wotmod",
+        "updatedAt": "2026-10-13T22:51:40.017Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7720",
+      "title": "Scheduled Personal Reserves",
+      "previous": {
+        "modVersion": "2.1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.scheduled_personal_reserves.2.4.0.2.2.1.0.zip",
+        "updatedAt": "2026-09-30T20:24:28.594Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.scheduled_personal_reserves.2.4.1.0.2.1.0.zip",
+        "updatedAt": "2026-10-13T09:23:07.973Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7718",
+      "title": "Crew Book Auto Claim",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.crew.book.autoclaim.2.4.0.2.1.1.wotmod",
+        "updatedAt": "2026-09-30T20:24:28.842Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.crew_book_auto_claim.2.4.1.0.1.1.zip",
+        "updatedAt": "2026-10-13T09:23:09.181Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7711",
+      "title": "Camo Selector",
+      "previous": {
+        "modVersion": "3.2.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.camo_selector.2.4.0.2.3.2.0.zip",
+        "updatedAt": "2026-10-11T17:54:12.823Z",
+        "changeLog": "Faster Exterior loading and catalog browsing, especially with Exterior Studio, by avoiding repeated eligibility, outfit and inventory scans; convert animated GIF camouflage and projection-decal frames in one batch with improved converter shutdown and temporary-file cleanup; add animated Exterior Studio card and tooltip previews preserving every source frame and its timing, shared preview generation and resource cleanup; refresh the Studio catalog after custom-asset changes; hide empty internal style entries and keep uploaded assets out of editable-style configuration; allow valid owned or purchasable items through checkout while blocking only changed outfit items that cannot be applied server-side, including custom assets and incompatible combinations."
+      },
+      "current": {
+        "modVersion": "3.2.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.camo_selector.2.4.1.0.3.2.1.zip",
+        "updatedAt": "2026-10-13T09:23:10.432Z",
+        "changeLog": "Added style-owned paints, camouflage, decals, emblems and inscriptions with category filters; fixed style decal replacements and removals reverting after reopening Exterior."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7687",
+      "title": "Clean Camo - HD Version / Part 3",
+      "previous": {
+        "modVersion": "2.2.956",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "cleantanks.hd.part.3.956.zip",
+        "updatedAt": "2026-10-01T08:25:37.520Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.2.974",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "cleantanks.hd.part.3.974.zip",
+        "updatedAt": "2026-10-13T08:17:24.386Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7681",
+      "title": "Crosshair Ballistics Info",
+      "previous": {
+        "modVersion": "1.5.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.crosshair.ballistics.info.2.4.0.2.1.5.1.zip",
+        "updatedAt": "2026-10-06T10:13:20.959Z",
+        "changeLog": "Made the crosshair ballistics overlay move smoothly while dragging."
+      },
+      "current": {
+        "modVersion": "1.5.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.ballistics_crosshair_overlay.2.4.1.0.1.5.1.zip",
+        "updatedAt": "2026-10-13T09:23:11.657Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7673",
+      "title": "Kpz Erich Konzept 3-Axis Turret",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.kpz_erich_konzept_3_axis_turret.2.4.0.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:29.614Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.kpz_erich_konzept_3_axis_turret.2.4.1.0.1.0.zip",
+        "updatedAt": "2026-10-13T09:23:12.776Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7633",
+      "title": "Accurate Sixth Sense Duration",
+      "previous": {
+        "modVersion": "1.0.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.sixthsense_bymode_duration.2.4.0.2.1.0.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:30.128Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.sixth_sense_by_mode.2.4.1.0.1.0.2.zip",
+        "updatedAt": "2026-10-13T09:23:14.988Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7631",
+      "title": "Autoreloader Loading Overlay",
+      "previous": {
+        "modVersion": "1.5.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.autoreloader_overlay.2.4.0.2.1.5.1.zip",
+        "updatedAt": "2026-09-30T20:24:30.377Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.5.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.autoreloader_overlay.2.4.1.0.1.5.2.zip",
+        "updatedAt": "2026-10-13T09:09:58.391Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7598",
+      "title": "Skirmish Tank Sync",
+      "previous": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.skirmish_tank_sync.2.4.0.2.1.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:30.639Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.skirmish_tank_sync.2.4.1.0.1.2.zip",
+        "updatedAt": "2026-10-13T09:23:16.126Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7596",
+      "title": "Marks Of Excellence Overlay",
+      "previous": {
+        "modVersion": "1.9",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.battle_moe_overlay.2.4.0.2.1.9.zip",
+        "updatedAt": "2026-09-30T20:24:30.883Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.9.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.battle_moe_overlay.2.4.1.0.1.9.1.zip",
+        "updatedAt": "2026-10-13T09:23:17.317Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7592",
+      "title": "Personal Record Customisation",
+      "previous": {
+        "modVersion": "1.8",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.custom_personal_record.2.4.0.2.1.8.zip",
+        "updatedAt": "2026-09-30T20:24:31.119Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.8",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.personal_record_customisation.2.4.1.0.1.8.zip",
+        "updatedAt": "2026-10-13T09:23:18.503Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7587",
+      "title": "Gun Caliber Overlay",
+      "previous": {
+        "modVersion": "1.5.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.gun_caliber_overlay.2.4.0.2.1.5.1.zip",
+        "updatedAt": "2026-09-30T20:24:31.383Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.5.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.caliber_overlay.2.4.1.0.1.5.2.zip",
+        "updatedAt": "2026-10-13T09:23:19.645Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7578",
+      "title": "Moe Tracker",
+      "previous": {
+        "modVersion": "1.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.moe_tracker.2.4.0.2.1.5.zip",
+        "updatedAt": "2026-09-30T20:24:31.631Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.5.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.moe_tracker.2.4.1.0.1.5.1.zip",
+        "updatedAt": "2026-10-13T09:23:20.763Z",
+        "changeLog": "Fixed repeated window errors when refreshing the Garage with the MoE Tracker overlay already open."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7571",
+      "title": "Auto Voucher Scratcher",
+      "previous": {
+        "modVersion": "1.0.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.elite_circuit_autoclaim.2.4.0.2.1.0.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:31.879Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.elite_circuit_autoclaim.2.4.1.0.1.0.2.zip",
+        "updatedAt": "2026-10-13T09:23:21.925Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7565",
+      "title": "Dynamic Flashlight Colours",
+      "previous": {
+        "modVersion": "1.3",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.dynamic_flashlight.2.4.0.2.1.3.zip",
+        "updatedAt": "2026-09-30T20:24:32.132Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.dynamic_flashlight_colours.2.4.1.0.1.3.zip",
+        "updatedAt": "2026-10-13T09:23:23.126Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7557",
+      "title": "Thousand separators for Numbers",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.thousand_separator.2.4.0.2.1.0.zip",
+        "updatedAt": "2026-09-30T20:24:32.383Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.thousand_separator.2.4.1.0.1.0.1.zip",
+        "updatedAt": "2026-10-13T09:23:24.304Z",
+        "changeLog": "Moved settings to Aslain Mod Menu and fixed errors when applying settings."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7524",
+      "title": "Garage Mastery",
+      "previous": {
+        "modVersion": "1.10",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.garage_mastery.2.4.0.2.1.10.zip",
+        "updatedAt": "2026-09-30T20:24:32.628Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.10",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.garage_mastery.2.4.1.0.1.10.zip",
+        "updatedAt": "2026-10-13T09:23:25.478Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7507",
+      "title": "Battle Result Unanonymizer",
+      "previous": {
+        "modVersion": "1.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.battle_result_unanonymizer.2.4.0.2.1.5.zip",
+        "updatedAt": "2026-09-30T20:24:32.853Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.5",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.unanonymizer.2.4.1.0.1.5.zip",
+        "updatedAt": "2026-10-13T09:23:26.695Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7504",
+      "title": "Better Vehicle Preview",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.better_vehicle_preview.2.4.0.2.1.1.wotmod",
+        "updatedAt": "2026-09-30T20:24:33.083Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.better_vehicle_preview.2.4.1.0.1.1.zip",
+        "updatedAt": "2026-10-13T09:23:27.822Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7489",
+      "title": "Notification Filter",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.notification_filter.2.4.0.2.1.0.wotmod",
+        "updatedAt": "2026-09-30T20:24:33.335Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.notification_filter.2.4.1.0.1.0.zip",
+        "updatedAt": "2026-10-13T09:23:28.882Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7472",
+      "title": "EBR Cruise Retainer (Siege Switch)",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.ebr_cruise_control.2.4.0.2.1.0.wotmod",
+        "updatedAt": "2026-09-30T20:24:33.579Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.ebr_cruise_control.2.4.1.0.1.0.zip",
+        "updatedAt": "2026-10-13T09:23:29.943Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7465",
+      "title": "Platoon Window Opener",
+      "previous": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.platoon_window.2.4.0.2.1.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:33.819Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.3.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.platoon_window.2.4.1.0.1.3.0.zip",
+        "updatedAt": "2026-10-13T09:23:31.023Z",
+        "changeLog": "Improved automatic post-battle platoon window opening while the Garage loads, preserved its position, and prevented duplicate opening attempts."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7456",
+      "title": "Skill4ltu Mod",
+      "previous": {
+        "modVersion": "1.5.08",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "skill4ltu_2026.09.24.1_FJsmgM8.zip",
+        "updatedAt": "2026-09-30T21:38:44.219Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.5.09",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "skill4ltu_2026.10.12.1.zip",
+        "updatedAt": "2026-10-12T14:18:59.884Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7440",
+      "title": "Tyto the Tank",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.tyto.the.tank.2.4.0.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:34.064Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.tyto_the_tank.2.4.1.0.1.0.zip",
+        "updatedAt": "2026-10-13T09:23:32.161Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7438",
+      "title": "Pet Gift Auto Claim",
+      "previous": {
+        "modVersion": "2.0.4",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.pet_gift_auto_claim.2.4.0.2.2.0.4.wotmod",
+        "updatedAt": "2026-09-30T20:24:34.308Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.0.4",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.pet_gift_auto_claim.2.4.1.0.2.0.4.zip",
+        "updatedAt": "2026-10-13T09:23:33.432Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7399",
+      "title": "Playlist Sync",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.playlistsync.2.4.0.2.1.1.wotmod",
+        "updatedAt": "2026-09-30T20:24:34.557Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.playlistsync.2.4.1.0.1.2.zip",
+        "updatedAt": "2026-10-13T09:23:34.514Z",
+        "changeLog": "Fixed playlist synchronisation errors during Garage transitions and ignored invalid remote playlists."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7362",
+      "title": "Onslaught Rating Overlay",
+      "previous": {
+        "modVersion": "1.1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.onslaught_rating_overlay.2.4.0.2.1.1.1.zip",
+        "updatedAt": "2026-09-30T20:24:34.818Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.onslaught_rating_overlay.2.4.1.0.1.1.1.zip",
+        "updatedAt": "2026-10-13T09:23:35.748Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7260",
+      "title": "Hangar FPS Uncapper",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gravity.hangar.fps.uncapped.2.4.0.2.1.1.wotmod",
+        "updatedAt": "2026-09-30T20:24:35.058Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.hangar_fps_uncapper.2.4.1.0.1.1.zip",
+        "updatedAt": "2026-10-13T09:23:36.848Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7193",
+      "title": "Clean Camo Manager",
+      "previous": {
+        "modVersion": "3.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "CleanCamoManager.2.4.0.2.exe",
+        "updatedAt": "2026-09-30T20:24:35.306Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "3.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "CleanCamoManager.2.4.1.0.exe",
+        "updatedAt": "2026-10-13T08:53:59.940Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7063",
+      "title": "HeavenBurnsRed Voice ＆ Sixthsense MOD",
+      "previous": {
+        "modVersion": "5.4",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "HBR_WoT_NOtUTPl.zip",
+        "updatedAt": "2026-10-03T16:25:11.900Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "5.4",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "HBR_WoT_MBr8uJb.zip",
+        "updatedAt": "2026-10-13T09:30:03.198Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6996",
+      "title": "Clean Camo - HD Version / Part 2",
+      "previous": {
+        "modVersion": "2.2.956",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "cleantanks.hd.part.2.956.zip",
+        "updatedAt": "2026-10-01T08:24:44.720Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.2.974",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "cleantanks.hd.part.2.974.zip",
+        "updatedAt": "2026-10-13T08:18:11.449Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7051",
+      "title": "Golden LeFH",
+      "previous": {
+        "modVersion": "2.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "goldenlefh.2.4.0.2.wotmod",
+        "updatedAt": "2026-09-30T20:24:35.545Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "goldenlefh.2.4.1.0.2.0.zip",
+        "updatedAt": "2026-10-13T09:23:38.088Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6997",
+      "title": "Clean Camo - HD Version / Part 1",
+      "previous": {
+        "modVersion": "2.2.956",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "cleantanks.hd.part.1.956.zip",
+        "updatedAt": "2026-10-01T08:25:25.522Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.2.974",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "cleantanks.hd.part.1.974.zip",
+        "updatedAt": "2026-10-13T08:17:39.407Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6998",
+      "title": "Clean Camo - SD Version",
+      "previous": {
+        "modVersion": "2.2.956",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "cleantanks.sd.956.zip",
+        "updatedAt": "2026-10-01T08:25:22.814Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.2.974",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "cleantanks.sd.974.zip",
+        "updatedAt": "2026-10-13T21:37:42.209Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6725",
+      "title": "Girls und Panzer Subtitles Mod",
+      "previous": {
+        "modVersion": "1.2.3",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "gup.subtitles_1.2.3.wotmod",
+        "updatedAt": "2026-09-30T23:02:40.716Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.2.4",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gup.subtitles_1.2.4.wotmod",
+        "updatedAt": "2026-10-13T03:53:44.973Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6539",
+      "title": "Elkano's All Female Voices",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "FiT.Sound.ElkanoAllFemaleVoice_2.0.wotmod",
+        "updatedAt": "2026-09-19T20:03:53.185Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "FiT.Sound.ElkanoAllFemaleVoice_2.0_DELRIG1.wotmod",
+        "updatedAt": "2026-10-13T22:52:38.068Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6391",
+      "title": "Tomato.gg",
+      "previous": {
+        "modVersion": "2.2.03",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "tomatogg_2026.09.23.1_cP5cVP7.zip",
+        "updatedAt": "2026-09-30T22:46:05.852Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.2.04",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "tomatogg_2026.10.12.1.zip",
+        "updatedAt": "2026-10-12T14:20:15.602Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6349",
+      "title": "Better Reticle Size",
+      "previous": {
+        "modVersion": "1.2.6",
+        "wotGameVersion": "2.4.0.0",
+        "fileName": "Jak_Atackka.betterReticleSize_1.2.6.zip",
+        "updatedAt": "2026-09-11T19:13:52.961Z",
+        "changeLog": "Updated some dependencies"
+      },
+      "current": {
+        "modVersion": "1.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Jak_Atackka.betterReticleSize_1.3.zip",
+        "updatedAt": "2026-10-13T20:59:48.253Z",
+        "changeLog": "- Updated for version 2.4.1\n- Server reticle now shows the twin gun reticle for the secondary reticle"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "5912",
+      "title": "Battle Hits",
+      "previous": {
+        "modVersion": "2.4.00",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "2.4.0.2_BattleHits_2.4.00.zip",
+        "updatedAt": "2026-09-30T21:22:45.417Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.4.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "2.4.1.0_BattleHits_2.4.2.zip",
+        "updatedAt": "2026-10-13T08:25:03.754Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "5668",
+      "title": "Classic's ZorGnome HRMOD Gun + Engine Sounds (Continuation of Zorgane's/Gnomefather's Historical Realism Sounds)",
+      "previous": {
+        "modVersion": "4.3.1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "2.4.0.1_Classics_ZorGnome_HRMOD_GunsEngines_Sound_Mod_v4.3.1.zip",
+        "updatedAt": "2026-09-20T07:16:51.262Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "4.3.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "2.4.1.0_Classics_ZorGnome_HRMOD_GunsEngines_Sound_Mod_v4.3.2.zip",
+        "updatedAt": "2026-10-13T07:22:42.924Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "5113",
+      "title": "Voice cho lính - King Metal Crew Voice (For Vietnam People)",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "audioww_6n4YqL7.rar",
+        "updatedAt": "2026-10-01T12:25:27.854Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "audioww_zy8akVC.rar",
+        "updatedAt": "2026-10-13T11:35:59.149Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "50",
+      "title": "PMOD",
+      "previous": {
+        "modVersion": "1.81.15",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "PMOD_ver_81-15_nKe9lRE.zip",
+        "updatedAt": "2026-09-30T21:23:45.469Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.81.16",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "PMOD_ver_81-16.zip",
+        "updatedAt": "2026-10-13T04:52:28.245Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "22",
+      "title": "Replay Manager",
+      "previous": {
+        "modVersion": "3.8.9",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "2.4.0.2_ReplaysManager_3.8.9.zip",
+        "updatedAt": "2026-09-30T23:01:47.138Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "3.9.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "2.4.1.0_ReplaysManager_3.9.0.zip",
+        "updatedAt": "2026-10-13T04:23:02.622Z",
         "changeLog": ""
       }
     }

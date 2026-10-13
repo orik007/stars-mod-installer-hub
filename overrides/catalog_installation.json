@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.026",
+  "catalogVersion": "v2026.10.027",
   "mods": [
     {
       "source": "wgmods",
@@ -25,14 +25,14 @@
       "title": "Minimap DOOM",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -128,13 +128,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Close World of Tanks. Copy wotsubtitles.syncbridge_1.0.0.wotmod into <World of Tanks>/mods/<current game version>/ (tested: 2.4.0.2). Start the game normally. Wait for setup to finish and restart when requested. Open SyncBridge from the mod menu and choose subtitle language and voice profiles. Generated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/<version>/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only. For optional GuP compatibility, install Girls und Panzer Subtitles Mod 1.2.3 separately. SyncBridge manages the supported load order; keep other mods and existing load_order.xml. No separate Python install or manual support scripts are required."
+        "latestInstallGuide": "Close World of Tanks. Copy wotsubtitles.syncbridge_1.X.X.wotmod into <World of Tanks>/mods/<current game version>/ . Start the game normally. Wait for setup to finish and restart when requested. Open SyncBridge from the mod menu and choose subtitle language and voice profiles. Generated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/<version>/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only. For optional GuP compatibility, install Girls und Panzer Subtitles Mod 1.X.X separately. SyncBridge manages the supported load order; keep other mods and existing load_order.xml. No separate Python install or manual support scripts are required."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into the current-version mods folder.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -743,14 +743,14 @@
       "title": "Onslaught Hangar",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -1412,14 +1412,14 @@
       "title": "Cinematic Freecam - Training Room | Replay | Hangar",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -1719,14 +1719,14 @@
       "title": "Map Hangar Studio",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -2349,14 +2349,14 @@
       "title": "Sector 3 Hangar",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -3919,14 +3919,14 @@
       "title": "Crew Book Auto Claim",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -4706,14 +4706,14 @@
       "title": "Kpz Erich Konzept 3-Axis Turret",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -5458,14 +5458,14 @@
       "title": "Accurate Sixth Sense Duration",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -5906,14 +5906,14 @@
       "title": "Skirmish Tank Sync",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -6459,14 +6459,14 @@
       "title": "Auto Voucher Scratcher",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -7285,14 +7285,14 @@
       "title": "Better Vehicle Preview",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -7676,14 +7676,14 @@
       "title": "Notification Filter",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game. Edit mods/configs/notification_filter.json to add your filters."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods; the file-editing instruction does not change this classification.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder; the filter edit is optional configuration.",
         "deleteDataWgpdc": false
       }
     },
@@ -7976,14 +7976,14 @@
       "title": "EBR Cruise Retainer (Siege Switch)",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -8044,14 +8044,14 @@
       "title": "Platoon Window Opener",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -8410,14 +8410,14 @@
       "title": "Tyto the Tank",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -8427,14 +8427,14 @@
       "title": "Pet Gift Auto Claim",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -8824,14 +8824,14 @@
       "title": "Playlist Sync",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -11007,14 +11007,14 @@
       "title": "Hangar FPS Uncapper",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -12582,14 +12582,14 @@
       "title": "Golden LeFH",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The ZIP is extracted and its included mod files are copied to the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
