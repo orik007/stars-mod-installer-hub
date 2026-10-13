@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.025",
+  "catalogVersion": "v2026.10.026",
   "mods": [
     {
       "source": "wgmods",
@@ -26,13 +26,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place the .wotmod file into World_of_Tanks\\mods\\x.x.x.x\\ , replacing x.x.x.x with the current World of Tanks version."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Copy the downloaded .wotmod unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -94,13 +94,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Restart the game, select a vehicle in the garage and open Exterior. Keep all included files together; the required GameFace dependency is included. Camo Selector is optional and can be installed separately from https://wgmods.net/7711/ (version 3.1.2 or newer)."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game. Select a vehicle in the Garage and open Exterior. Camo Selector is optional; install its current compatible release separately from Camo Selector on WGMods ."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The guide says to extract all included .wotmod files into the current-version mods folder; the included dependency is copied with them.",
+        "decisionReason": "The guide says to extract the ZIP and copy every included .wotmod into mods/current-version; the optional separate dependency does not affect installation.",
         "deleteDataWgpdc": false
       }
     },
@@ -562,13 +562,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract the archive into your World of Tanks game folder. Preserve the included folders so all packages are placed under WorldofTanks\\mods\\x.x.x.x\\."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The guide says to extract the archive into the game folder and preserve its included folder tree.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -710,13 +710,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract the archive, then place all included .wotmod files in World_of_Tanks\\mods\\2.4.0.1\\."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the archive and place its included files in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -727,13 +727,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Extract the archive into your World of Tanks game folder. The included packages belong in WorldofTanks\\mods\\2.4.0.1\\ while preserving the archive's folders."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the archive into the game folder while preserving its folder structure.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -744,7 +744,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
@@ -761,13 +761,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Unpack the archive and place its extracted files in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1237,13 +1237,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The extracted archive files are placed in the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1288,7 +1288,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。 Simple（标准版）：含型号名称+弹夹容量 Armor（装甲版）：含型号名称+装甲值（车体） ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装方法： 下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。 或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。 PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。"
+        "latestInstallGuide": "参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。 如果喜欢，请登录账号给个赞。谢谢 Simple（标准版）：含型号名称+弹夹容量 Armor（装甲版）：含型号名称+装甲值（车体） ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装方法： 下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。 或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。 PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。"
       },
       "requiresReview": true,
       "installationProcess": {
@@ -1300,7 +1300,7 @@
       "classifiedInstallationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "The archive can be placed along the stated res_mods paths, but it is unclear how the Simple and Armor editions are supplied.",
+        "decisionReason": "The archive is copied along the supplied res_mods path, but the Simple and Armor editions are listed without clarifying how they are packaged or selected; inspect the archive to resolve that uncertainty.",
         "deleteDataWgpdc": false
       }
     },
@@ -1345,13 +1345,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The extracted archive files are placed in the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1413,13 +1413,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded file has a .wotmod extension and is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1504,13 +1504,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip archive and unpack the contents into res_mods directory of your game (WorldofTanks\\res_mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks and extract the ZIP archive. Copy the audioww folder into World_of_Tanks/res_mods/x.x.x.x/ and every included .wotmod file into World_of_Tanks/mods/x.x.x.x/. Replace x.x.x.x with your current game version, then start the game."
       },
-      "requiresReview": false,
+      "requiresReview": true,
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToResMods",
-        "installableByApp": true,
-        "decisionReason": "The archive contents are extracted into the current-version res_mods directory.",
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "The guide sends the audioww folder to res_mods and the included .wotmod files to mods; inspect the archive to determine whether it already has supported mods/res_mods roots or requires unsupported splitting and rerouting.",
         "deleteDataWgpdc": false
       }
     },
@@ -1595,13 +1595,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The archive is unpacked and its files are placed in the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1720,13 +1720,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -2350,13 +2350,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -3145,13 +3145,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy its files into the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -3213,13 +3213,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy its files into the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -3903,13 +3903,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and place its contents in the game's mods version directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -3920,13 +3920,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -4039,13 +4039,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy its contents into the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -4605,13 +4605,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in the current-version mods directory.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -4707,13 +4707,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The .wotmod is placed in the current-version mods directory.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -5459,13 +5459,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is placed in the current game-version mods directory.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -5510,13 +5510,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Unpack the ZIP and place the extracted files in the current-version mods folder.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -5907,7 +5907,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
@@ -5958,13 +5958,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -5992,13 +5992,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -6077,13 +6077,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -6261,13 +6261,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -6460,13 +6460,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -6545,13 +6545,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -6630,13 +6630,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Unpack the ZIP and place its extracted files in the current mods version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -6993,13 +6993,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Unpack the ZIP and place its extracted files in the current mods version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -7218,13 +7218,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Download the zip file and unpack it, place the extracted files into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and its extracted files are placed in mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -7286,13 +7286,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is placed in mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -7677,13 +7677,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT) Run the game. Edit mods/configs/notification_filter.json to add your filters."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game. Edit mods/configs/notification_filter.json to add your filters."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into mods; the later configuration edit does not affect this classification.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods; the file-editing instruction does not change this classification.",
         "deleteDataWgpdc": false
       }
     },
@@ -7977,13 +7977,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into the current mods version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -8045,13 +8045,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into the current mods version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -8411,13 +8411,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The .wotmod file is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -8428,13 +8428,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The .wotmod file is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -8825,13 +8825,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Install the mod by placing it in your mods/<version>/ folder. Launch World of Tanks ."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The .wotmod is copied unchanged into the specified mods version folder.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -9469,13 +9469,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Install the mod by placing it in your mods/<version>/ folder. Launch World of Tanks . The overlay appears in the top-left corner when you enter the Garage or battle. Drag to reposition, or click [reset] / [show/hide] to control it."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game. The overlay appears in the top-left corner in the Garage or battle. Drag to reposition, or click [reset] / [show/hide] to control it."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy its contents into mods/current-version.",
+        "decisionReason": "Extract the ZIP and copy every included .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -11008,13 +11008,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download and place into mods directory and respective version of the game."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -12583,7 +12583,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod Put the mod into the mod folder for the current version."
+        "latestInstallGuide": "Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game."
       },
       "requiresReview": false,
       "installationProcess": {
@@ -14131,13 +14131,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Place the file gup.subtitles_1.2.3.wotmod in the <WoT folder>/mods/<current version of the game> directory."
+        "latestInstallGuide": "Place the file gup.subtitles_1.2.4.wotmod in the <WoT folder>/mods/<current version of the game> directory."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The .wotmod file is placed unchanged in the current-version mods folder.",
+        "decisionReason": "The downloaded .wotmod is placed in the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
