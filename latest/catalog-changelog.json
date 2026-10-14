@@ -1,410 +1,150 @@
 {
-  "catalogVersion": "v2026.10.029",
-  "previousCatalogVersion": "v2026.10.028",
+  "catalogVersion": "v2026.10.030",
+  "previousCatalogVersion": "v2026.10.029",
   "summary": {
     "added": 0,
     "removed": 0,
-    "updated": 22,
-    "unchanged": 799
+    "updated": 9,
+    "unchanged": 812
   },
   "changes": [
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7980",
-      "title": "Gunmarks: Reticle",
+      "sourceId": "7784",
+      "title": "Auto Equipment Return",
       "previous": {
-        "modVersion": "0.2.1",
+        "modVersion": "1.5",
         "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_reticle_0.2.1.4_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-13T09:28:24.010Z",
-        "changeLog": ""
+        "fileName": "Z4imon.auto_equipment_return_2.4.0.2_1.5.zip",
+        "updatedAt": "2026-10-12T07:50:52.854Z",
+        "changeLog": "- View streamer equipment without WoT Plus\n- Install buttons when Auto-install is disabled\n- Separate equipment for Frontline and Onslaught (enable in the settings)\n- Bugfixes"
       },
       "current": {
-        "modVersion": "0.2.2",
+        "modVersion": "1.6",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_reticle_0.2.2.5_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-14T14:26:40.923Z",
-        "changeLog": ""
+        "fileName": "Z4imon.auto_equipment_return_2.4.1_1.6.zip",
+        "updatedAt": "2026-10-14T16:13:46.288Z",
+        "changeLog": "Update for 2.4.1"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7977",
-      "title": "Gunmarks: Role Skill charges",
+      "sourceId": "7726",
+      "title": "Wot Mod Creator (Icons)",
       "previous": {
-        "modVersion": "0.2.0",
+        "modVersion": "V5a",
         "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_roleskills_0.2.0.37_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-06T11:48:02.291Z",
-        "changeLog": "The mod is one file now, with its own version and its own updates. It no longer needs Gunmarks Core: once every Gunmarks mod you have is updated, delete app.gunmarks.core_0.1.1.wotmod.\nNew setting, Place: the Role Skills after the tank icon, or before it, between the tank's name and its icon.\nThe offset now goes from -400 to 400 px.\nThe preview shows the side panel in the size you use in battle, with a switch for its other sizes.\nThe settings page has a tab for each Gunmarks mod, under its name, and lists each with its own version.\nThe notice of a new version lists each of your mods that has one, with the version you have and the new one.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens."
+        "fileName": "Wot-Mod-Creator-v5a-portable-win-x64.zip",
+        "updatedAt": "2026-10-01T12:22:48.268Z",
+        "changeLog": "No change."
       },
       "current": {
-        "modVersion": "0.2.1",
+        "modVersion": "V5a",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_roleskills_0.2.1.38_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-14T14:26:30.200Z",
-        "changeLog": ""
+        "fileName": "Wot-Mod-Creator-v5a-portable-win-x64_iyyy5Zq.zip",
+        "updatedAt": "2026-10-14T14:57:54.843Z",
+        "changeLog": "None."
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7978",
-      "title": "Gunmarks: Distance to tanks",
+      "sourceId": "5827",
+      "title": "[Anime-Style Mod Collection] - Vinyl Edition",
       "previous": {
-        "modVersion": "0.2.1",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_distance_0.2.1.38_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-07T13:39:59.925Z",
-        "changeLog": "Works on the NA and ASIA clients too.\nKeeps working after a small game patch that leaves the game's version as it is.\nThe mod's file has a new name: delete the older app.gunmarks.distance_0.2.0.wotmod."
-      },
-      "current": {
-        "modVersion": "0.2.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_distance_0.2.2.39_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-14T14:27:02.377Z",
+        "modVersion": "2.4.0.0",
+        "wotGameVersion": "2.4.0.0",
+        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_JK2rICD.rar",
+        "updatedAt": "2026-09-12T12:46:23.081Z",
         "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7976",
-      "title": "Gunmarks: Onslaught",
-      "previous": {
-        "modVersion": "0.2.1",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_onslaught_0.2.1.38_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-10T13:56:32.548Z",
-        "changeLog": "- Closing the game or logging out from the Onslaught garage no longer writes an error into the game's log."
-      },
-      "current": {
-        "modVersion": "0.2.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_onslaught_0.2.2.39_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-14T14:26:17.973Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7979",
-      "title": "Gunmarks: Marks of Excellence",
-      "previous": {
-        "modVersion": "0.2.0",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "gunmarks_moe_0.2.0.37_wot2.4.0.2.zip",
-        "updatedAt": "2026-10-06T11:47:58.923Z",
-        "changeLog": "The mod is one file now, app.gunmarks.moe_0.2.0.wotmod, with its own version and updates: delete the old app.gunmarks.randoms_0.1.1.wotmod and, once every Gunmarks mod you have is updated, app.gunmarks.core_0.1.1.wotmod. Your settings and recorded battles are carried over.\nGarage panel: your moving average, what your last battle and your session did to the MoE, and a Goal section (the average damage to reach a mark in 10, 20 or 50 battles).\nMoE history: a page of its own with your recorded battles by tank and by session, a tank's MoE as a chart, and what each mark takes.\nBattle panel: your damage and assisted damage apart, green above your average; your average and each kind of assistance with Alt.\nSettings: a tab for each Gunmarks mod under its name; a switch for every line of both panels, with a preview of each.\nThe garage panel no longer stays on top of the equipment, shells and consumables screens."
-      },
-      "current": {
-        "modVersion": "0.2.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_moe_0.2.1.38_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-14T14:26:52.214Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7711",
-      "title": "Camo Selector",
-      "previous": {
-        "modVersion": "3.2.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.camo_selector.2.4.1.0.3.2.1.zip",
-        "updatedAt": "2026-10-13T09:23:10.432Z",
-        "changeLog": "Added style-owned paints, camouflage, decals, emblems and inscriptions with category filters; fixed style decal replacements and removals reverting after reopening Exterior."
-      },
-      "current": {
-        "modVersion": "3.2.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.camo_selector.2.4.1.0.3.2.2.zip",
-        "updatedAt": "2026-10-14T08:51:11.101Z",
-        "changeLog": "Fixed custom camouflage and decal textures requiring a restart after first use in a new game folder."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7680",
-      "title": "French Crew Sounds From Wot Blitz",
-      "previous": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "voiceoversoundMod_Rcd8V7g.wotmod",
-        "updatedAt": "2026-10-01T11:02:46.108Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "voiceoversoundMod_vlrR7B5.wotmod",
-        "updatedAt": "2026-10-14T09:09:26.574Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7681",
-      "title": "Crosshair Ballistics Info",
-      "previous": {
-        "modVersion": "1.5.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.ballistics_crosshair_overlay.2.4.1.0.1.5.1.zip",
-        "updatedAt": "2026-10-13T09:23:11.657Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.5.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.ballistics_crosshair_overlay.2.4.1.0.1.5.2.zip",
-        "updatedAt": "2026-10-14T08:51:11.744Z",
-        "changeLog": "Fixed repeated overlay visibility errors flooding the game log."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7596",
-      "title": "Marks Of Excellence Overlay",
-      "previous": {
-        "modVersion": "1.9.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.battle_moe_overlay.2.4.1.0.1.9.1.zip",
-        "updatedAt": "2026-10-13T09:23:17.317Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.9.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.battle_moe_overlay.2.4.1.0.1.9.2.zip",
-        "updatedAt": "2026-10-14T08:51:11.747Z",
-        "changeLog": "Fixed repeated overlay visibility errors flooding the game log."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7587",
-      "title": "Gun Caliber Overlay",
-      "previous": {
-        "modVersion": "1.5.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.caliber_overlay.2.4.1.0.1.5.2.zip",
-        "updatedAt": "2026-10-13T09:23:19.645Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.5.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gravity.caliber_overlay.2.4.1.0.1.5.3.zip",
-        "updatedAt": "2026-10-14T08:51:11.105Z",
-        "changeLog": "Fixed repeated overlay visibility errors flooding the game log."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7533",
-      "title": "Yet Another Modpack",
-      "previous": {
-        "modVersion": "2026.09.13.1",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "yam_2026.09.13.1_nK2H16c.exe",
-        "updatedAt": "2026-09-30T21:24:17.496Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "2026.10.14.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "yam_2026.10.14.1.exe",
-        "updatedAt": "2026-10-14T06:23:36.280Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7511",
-      "title": "Japan Old Crew Sounds",
-      "previous": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "voiceoversoundMod_TZxA7iX.wotmod",
-        "updatedAt": "2026-10-01T11:03:05.260Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "voiceoversoundMod_7ouvdsu.wotmod",
-        "updatedAt": "2026-10-14T09:09:52.604Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7361",
-      "title": "Purple Trees",
-      "previous": {
-        "modVersion": "2.3.1.2",
-        "wotGameVersion": "2.3.1.2",
-        "fileName": "PurpleTrees_6PETU08.wotmod",
-        "updatedAt": "2026-09-14T01:07:15.518Z",
-        "changeLog": "uploaded for current game version - no changes made"
       },
       "current": {
         "modVersion": "2.4.1.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "PurpleTrees_k1pZroB.wotmod",
-        "updatedAt": "2026-10-14T10:40:48.105Z",
-        "changeLog": "Updated for all limited time modes"
+        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_I6JBgI8.rar",
+        "updatedAt": "2026-10-14T15:33:28.867Z",
+        "changeLog": "Updated for WoT 2.4.1.x"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7244",
-      "title": "Pink Trees",
+      "sourceId": "2955",
+      "title": "[Anime-Style Mod Collection] - Steel Maiden Edition",
       "previous": {
-        "modVersion": "2.0.4",
-        "wotGameVersion": "2.0.1.1",
-        "fileName": "pink_sheep_aCuTJKY.wotmod",
-        "updatedAt": "2026-09-12T16:01:12.199Z",
+        "modVersion": "2.4.0.0",
+        "wotGameVersion": "2.4.0.0",
+        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_3sSrK0Z.rar",
+        "updatedAt": "2026-09-13T20:39:15.581Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "2.1",
+        "modVersion": "2.4.1.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "pink_sheep.wotmod",
-        "updatedAt": "2026-10-14T10:40:44.144Z",
-        "changeLog": "Added missing story mode maps.\nAdded Black Signal maps.\nAdded Onslaught Night maps."
+        "fileName": "ASMC_12-Year_Anniversary_Mod_Pack_pZHk87u.rar",
+        "updatedAt": "2026-10-14T15:33:47.248Z",
+        "changeLog": "Updated for WoT 2.4.1.x"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7174",
-      "title": "Old Music Mod",
+      "sourceId": "434",
+      "title": "WOTInspector HD minimaps",
       "previous": {
-        "modVersion": "1.3",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "music_interactivesoundMod_f8AnEVx.wotmod",
-        "updatedAt": "2026-10-01T11:04:59.405Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "music_interactivesoundMod_mL3ticM.wotmod",
-        "updatedAt": "2026-10-14T09:12:33.997Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "6937",
-      "title": "Ala Polish Crew Sounds",
-      "previous": {
-        "modVersion": "1.2",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "voiceoversoundMod_ugMtBpf.wotmod",
-        "updatedAt": "2026-10-01T11:05:58.172Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "voiceoversoundMod_BKPbDST.wotmod",
-        "updatedAt": "2026-10-14T09:13:36.370Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "6845",
-      "title": "Polish Crew Sounds From Wot Blitz",
-      "previous": {
-        "modVersion": "1.1",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "voiceoversoundMod_W5G5bQ3.wotmod",
-        "updatedAt": "2026-10-01T11:06:19.427Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "voiceoversoundMod_c96MqC4.wotmod",
-        "updatedAt": "2026-10-14T09:13:58.015Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "6519",
-      "title": "VK 72 01 k replaces PzKpfw. VII",
-      "previous": {
-        "modVersion": "1.1",
+        "modVersion": "2.4.0",
         "wotGameVersion": "2.4.0.1",
-        "fileName": "Chieftainer_-_VK_72_Replace_Pz_Kpfw_VII.rar",
-        "updatedAt": "2026-09-19T21:10:43.351Z",
+        "fileName": "wotinspector.com.hd_maps.2.4.0_7jxMmfF.wotmod",
+        "updatedAt": "2026-09-19T06:27:22.984Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "1.2",
+        "modVersion": "2.4.1",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Chieftainer_-_VK_72_Replace_Pz_Kpfw_VII_OnzMaO3.rar",
-        "updatedAt": "2026-10-14T09:48:14.278Z",
-        "changeLog": ""
+        "fileName": "wotinspector.com.hd_maps.2.4.1.wotmod",
+        "updatedAt": "2026-10-14T15:56:52.175Z",
+        "changeLog": "updated maps"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "6241",
-      "title": "Waffenter crew for World of Tanks",
+      "sourceId": "433",
+      "title": "WOTInspector Tech minimaps",
       "previous": {
-        "modVersion": "70",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "Ozvuchka-Waffentrager_BCRLCH0.zip",
-        "updatedAt": "2026-10-01T05:25:22.316Z",
-        "changeLog": "Адаптация для патча 2.4.0.2"
+        "modVersion": "2.4.0.1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "wotinspector.com.tech_maps.2.4.0_nk6y4b8.wotmod",
+        "updatedAt": "2026-09-19T06:25:48.894Z",
+        "changeLog": ""
       },
       "current": {
-        "modVersion": "71",
+        "modVersion": "2.4.1",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Ozvuchka-Waffentrager_HRUdGL9.zip",
-        "updatedAt": "2026-10-14T06:49:10.904Z",
-        "changeLog": "Адаптация для патча 2.4.1.0"
+        "fileName": "wotinspector.com.tech_maps.2.4.1_gdJ93U1.wotmod",
+        "updatedAt": "2026-10-14T15:55:22.101Z",
+        "changeLog": "updated maps"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "4963",
-      "title": "KorbenTeam Modpack",
+      "sourceId": "435",
+      "title": "Battle Assistant",
       "previous": {
-        "modVersion": "4",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "KorbenTeamModpack_2.4.0.2_v3.exe",
-        "updatedAt": "2026-10-01T10:28:56.076Z",
+        "modVersion": "2.6.2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "wotinspector.com.battle_assistant.2.6.2_Mtbd41J.wotmod",
+        "updatedAt": "2026-09-19T07:13:43.655Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "1",
+        "modVersion": "2.6.3",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "KorbenTeamModpack_2.4.1.0_v1.exe",
-        "updatedAt": "2026-10-14T10:42:40.771Z",
+        "fileName": "wotinspector.com.battle_assistant.2.6.3.wotmod",
+        "updatedAt": "2026-10-14T15:57:17.348Z",
         "changeLog": ""
       }
     },
@@ -414,18 +154,18 @@
       "sourceId": "535",
       "title": "OldSkools ProMod",
       "previous": {
-        "modVersion": "3.0.30",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "ProMod_0P5wZ1O.zip",
-        "updatedAt": "2026-10-10T17:43:22.932Z",
-        "changeLog": "Updated Reduction Info\nUpdated GUIFlash\nUpdated Hitmarker Pro\nUpdated Hanar Manager\nUpdated Overmatch"
-      },
-      "current": {
         "modVersion": "3.0.31",
         "wotGameVersion": "2.4.1.0",
         "fileName": "ProMod_578MX1O.zip",
         "updatedAt": "2026-10-14T07:45:19.835Z",
         "changeLog": ""
+      },
+      "current": {
+        "modVersion": "3.0.32",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ProMod.zip",
+        "updatedAt": "2026-10-14T16:38:17.384Z",
+        "changeLog": "Installer: Fixed Handling of previous Modfolders (ignore them for now)\nInstaller: Fixed Custom Sixth Sense Install from Streamer\n\nAdded Chat Bug fix by Aslain (new bug introduced by WG lul)\n\nUpdated Advanced Techtree\nUpdated Battle Efficiency\nUpdated Research Progressbar\nUpdated Battle Equipment\n\nDisabled Spot Meter\nDisabled Advanced Personal Efficiency\nDisabled Damage Stickers\nDisabled Gun Contraints"
       }
     },
     {
@@ -434,18 +174,18 @@
       "sourceId": "46",
       "title": "Aslain's WoT Modpack",
       "previous": {
-        "modVersion": "06",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.0.2_06.exe",
-        "updatedAt": "2026-10-12T15:38:31.391Z",
-        "changeLog": "- Updated Mod Menu 2.1.03\n- Updated Limpid Stickers 2.18\n- Updated Modpack version checker 1.1.04\n- Updated Exterior Studio 1.1.1\n- Updated Overmatch.pro 1.7.2\n- Updated Auto Equipment Return by Z4imon 1.5"
-      },
-      "current": {
         "modVersion": "01",
         "wotGameVersion": "2.4.1.0",
         "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_01.exe",
         "updatedAt": "2026-10-14T08:10:32.383Z",
         "changeLog": "- Updated Change client language\n- Updated Dispersion Reticle 3.1.13 by Pruszko\n- Updated Classic Tank Carousel (hotfix for WoT 2.4.1.0)\n- Added Cinematic Garage (by Z4imon) (when the game starts rotating the camera around your tank in the garage, the interface fades out and leaves a clean view; move the mouse and it comes back)\n"
+      },
+      "current": {
+        "modVersion": "02",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_02.exe",
+        "updatedAt": "2026-10-14T16:22:07.632Z",
+        "changeLog": "- Added Battle Chat Fix (experimental; restores typing in the battle chat after firing)\n- Updated Limpid Stickers 2.18 (fixed conflict with Effect Control)\n- Updated all CHAMPi mods for WoT 2.4.1.0: Armor Calculator Pro, Player Panel Pro, Reticle Dispersion Pro, Sixth Sense Timer, Fight Button Text, Arty Ready Warning and Minimap Spam Protector are available again\n- Updated Advanced Tech-tree 0.1.6 and Battle efficiency 1.5.0 by OldSkool\n- Updated HD and Tech minimaps, also the alt versions (3 new maps)\n- Updated Battle Assistant 2.6.3, Directives Helper 1.0.7, Premium Time 1.0.3 and Battle Equipment 3.12.02\n- Updated Camo Selector 3.2.2, Gun Caliber Overlay 1.5.3, Ballistics Info 1.5.2 and MoE Overlay 1.9.2\n- Updated WoT Tweaker Plus, Pink Trees, Purple Trees and contour icons Man1aq\n- Restored ProTanki Efficiency, Aiming timer and Repairs, Damage Log GambitER, Gun Constraints and Info Panel Phantasm, Research Progress Bar and Campaign Tracker by Zanju"
       }
     }
   ]
