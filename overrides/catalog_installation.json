@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.028",
+  "catalogVersion": "v2026.10.029",
   "mods": [
     {
       "source": "wgmods",
@@ -630,13 +630,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks/mods/2.4.0.2/"
+        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks\\mods\\2.4.1.0\\"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into the current-version mods folder.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1697,7 +1697,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract straight into your main World of Tanks root folder. ie. \"\\mods\\2.4.0.2\\\" Turn off \"Show Vehicle Tier\" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
+        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract its contents straight into your main World of Tanks root folder. ie. \"[World_ of_ Tanks]\\mods\\2.4.1.0\\\" Turn off \" Show Vehicle Tier \" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
       },
       "requiresReview": true,
       "installationProcess": {
@@ -1709,7 +1709,7 @@
       "classifiedInstallationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "The guide requires choosing between the exclusive Neon and Apex styles before extraction.",
+        "decisionReason": "The guide requires choosing one of the alternative Neon or Apex styles before extracting into mods; the installer cannot select between these variants.",
         "deleteDataWgpdc": false
       }
     },
