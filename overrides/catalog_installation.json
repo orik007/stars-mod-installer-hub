@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.031",
+  "catalogVersion": "v2026.10.032",
   "mods": [
     {
       "source": "wgmods",
@@ -982,13 +982,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unpack the archive into the game folder — where WorldOfTanks.exe is. Start the game. On the first launch the client restarts itself once — that is openwg building its resource table, not a crash. After that the AUDIT button appears in the Garage footer. To remove the mod, delete wot_audit_log_1.1.0.wotmod file."
+        "latestInstallGuide": "Unpack the archive into the game folder — where `WorldOfTanks.exe` is. Start the game. A mods list button appears in the Garage footer, with a Garage Audit entry in it. To remove the mod, delete the `wot_audit_log_1.3.19.wotmod` file."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Unpack the archive into the game folder.",
+        "decisionReason": "The archive is unpacked into the game folder containing WorldOfTanks.exe.",
         "deleteDataWgpdc": false
       }
     },
