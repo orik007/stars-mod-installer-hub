@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.031",
-  "sourceHash": "537924a606fed16216f7f0d50e92cbaad33206465310d532517f531a14f2bc19",
+  "catalogVersion": "v2026.10.032",
+  "sourceHash": "ec078364d54157ef07effae118701490d73d2c7f3ccc370de37f223bb0407a11",
   "sources": [
     "wgmods",
     "modhub"
@@ -110,16 +110,6 @@
           "fileName": "Z4imon.cinematic_hangar_2.4.1_1.1.zip",
           "fileExt": ".zip",
           "changeLog": "Update for 2.4.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.cinematic_hangar_2.4.0.2_1.0.zip",
-          "updatedAt": "2026-10-12T12:21:20.299Z",
-          "sizeBytes": 480019,
-          "fileName": "Z4imon.cinematic_hangar_2.4.0.2_1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -1857,6 +1847,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_Nakom_FajM6Wp.zip",
+          "updatedAt": "2026-10-15T11:08:38.676Z",
+          "sizeBytes": 4961343,
+          "fileName": "sound_mod_Nakom_FajM6Wp.zip",
+          "fileExt": ".zip",
+          "changeLog": "support 2.4.1.0"
+        },
+        {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "2.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_Nakom.zip",
@@ -1878,10 +1878,10 @@
         }
       ],
       "latest": {
-        "fileName": "sound_mod_Nakom.zip",
+        "fileName": "sound_mod_Nakom_FajM6Wp.zip",
         "modVersion": "2.2",
-        "changeLog": "support 2.4.0.2",
-        "wotGameVersionCompatibility": "warning"
+        "changeLog": "support 2.4.1.0",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -1904,6 +1904,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_fury_thai_AN0QAJY.zip",
+          "updatedAt": "2026-10-15T11:06:48.774Z",
+          "sizeBytes": 13620606,
+          "fileName": "sound_mod_fury_thai_AN0QAJY.zip",
+          "fileExt": ".zip",
+          "changeLog": "support 2.4.1.0"
+        },
+        {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_fury_thai_aQDMCFq.zip",
@@ -1925,10 +1935,10 @@
         }
       ],
       "latest": {
-        "fileName": "sound_mod_fury_thai_aQDMCFq.zip",
+        "fileName": "sound_mod_fury_thai_AN0QAJY.zip",
         "modVersion": "1.0",
-        "changeLog": "support 2.4.0.2",
-        "wotGameVersionCompatibility": "warning"
+        "changeLog": "support 2.4.1.0",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -2213,8 +2223,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>The panel finds what your Garage costs you — in credits or in combat readiness — and what no single screen of the game shows.</p><p>One rule decides what goes in: the mod shows only what exists in the sum over the whole Garage. If the game already shows it on the selected vehicle or in the Barracks, the mod does not repeat it.</p><p>An AUDIT button appears in the Garage footer. Hover it for a short summary, click it for the panel.</p><p>Sections:</p><ul><li>Empty slots;</li><li>No consumables;</li><li>No camouflage;</li><li>Stranded crew XP;</li><li>No recent battles;</li><li>Hangar worth.</li></ul><p>The mod changes nothing. It finds and explains; every fix is made by the player, in the game's own interface. In battle the mod does not run at all.</p><p>The interface language comes from the client. Eleven catalogues: English, Ukrainian, Russian, German, Polish, Czech, Spanish, French, Italian, Hungarian, Turkish. Any other client language gets English.</p>",
-      "installationGuideHtml": "<p>Unpack the archive into the game folder — where <strong>WorldOfTanks.exe</strong> is.&nbsp;</p><p>Start the game. On the first launch the client restarts itself once — that is openwg building its resource table, not a crash. After that the AUDIT button appears in the Garage footer.</p><p>To remove the mod, delete <strong>wot_audit_log_1.1.0.wotmod </strong>file.</p>",
+      "descriptionHtml": "<p>The panel finds what your Garage costs you — in credits or in combat readiness — and what no single screen of the game shows.</p><p>One rule decides what goes in: the mod shows only what exists in the sum over the whole Garage. If the game already shows it on the selected vehicle or in the Barracks, the mod does not repeat it.</p><p>A mods list button (modsList, shipped in the archive with the mod) appears in the Garage footer, with a Garage Audit entry in it. Hover the entry for a short summary, click it for the panel. Drag the panel by its header and resize it by the right or bottom edge or the corner — up to 90% of the screen. If modsList is already installed by other mods, Garage Audit simply joins its list.</p><p>Sections:</p><p>* Vehicles: vehicle issues — empty slots, no consumables, incomplete ammo (fewer shells than the gun holds, in the active loadout or the alternative configuration), no camouflage, rearrange equipment (the same equipment, rearranged across slots, earns more specialisation bonuses) — in one table with an issue-type filter; 3D styles — every 3D style of the vehicles in your Garage: which one is applied, which ones are lying idle, and the vehicles that have a style but none applied; no recent battles — with the credits the equipment on those vehicles returns; vehicle experience — combat XP on vehicles in the Garage and on sold ones, the total and your free XP; marks of excellence — marks, percentage and mastery badge of every tier V–XI vehicle in one table;</p><p>* Crew: stranded crew XP; accelerated crew training — elite vehicles with the toggle state and field modification progress; crew members — every crew member with battles, average XP and skills in one table;</p><p>* Hangar worth — vehicles, equipment, consumables, ammunition and the exterior items the game lets you sell for credits, next to your credits balance.<br>&nbsp;</p><p>The mod changes nothing. It finds and explains; every fix is made by the player, in the game's own interface. In battle the mod does not run at all.<br>The interface language comes from the client. Eleven catalogues: English, Ukrainian, Russian, German, Polish, Czech, Spanish, French, Italian, Hungarian, Turkish. Any other client language gets English.</p>",
+      "installationGuideHtml": "<p>Unpack the archive into the game folder — where `WorldOfTanks.exe` is.</p><p>Start the game. A mods list button appears in the Garage footer, with a Garage Audit entry in it.</p><p>To remove the mod, delete the `wot_audit_log_1.3.19.wotmod` file.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/garage-audit-cover-302x170.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7908/",
       "tagIds": [
@@ -2887,16 +2897,6 @@
           "fileName": "Z4imon.platoon_header_2.4.1_1.3.zip",
           "fileExt": ".zip",
           "changeLog": "Update for 2.4.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.0.2_1.2.zip",
-          "updatedAt": "2026-10-08T14:21:23.739Z",
-          "sizeBytes": 432124,
-          "fileName": "Z4imon.platoon_header_2.4.0.2_1.2.zip",
-          "fileExt": ".zip",
-          "changeLog": "- The vehicle type is now displayed behind the vehicle\n- This can be changed and deactivated in the settings"
         }
       ],
       "latest": {
@@ -4038,7 +4038,7 @@
         "ru"
       ],
       "recommended": false,
-      "mark": 4.9,
+      "mark": 4.8,
       "descriptionHtml": "<p>Bring your favorite <strong>Girls und Panzer</strong> voices into every battle!</p><p>The <strong>GuP Voice Selector</strong> allows you to freely choose Girls und Panzer crew voices in <strong>World of Tanks</strong>, without being limited to specific vehicles, nations, or crew setups.<br>The mod currently contains <strong>63 crew voice options</strong>, covering almost all major teams and schools from the anime. It also includes voice content adapted from the official <strong>World of Tanks × Girls und Panzer collaborations</strong>, clearly marked with the <strong>“(by official)”</strong> suffix.<br>Voice packs have been reorganized, renamed, and volume-balanced to make them easier to find and more consistent to use.</p><h2>Main Features</h2><p><strong>63 Girls und Panzer crew voices</strong><br>Covers most major characters, teams, and schools<br>Includes official WoT × GuP collaboration voices<br>Improved support for special crew members with unique voices<br>Optional override for special crew voices<br>Built-in Girls und Panzer subtitle system<br>Subtitles available in <strong>9 languages</strong>: English, Chinese, Japanese, Russian, German, French, Spanish, Polish, and Italian<br>Garage <strong>Subtitle Selector</strong> with all languages plus <strong>Off</strong><br>Subtitle and voice settings are automatically saved</p><p>The option <strong>“GuP Voice Selector: Ignore the voices of special crews”</strong> lets you decide how special crew voices are handled.<br>When enabled, the voice selected in GuP Voice Selector will override special crew voices.<br>When disabled, special crew members will keep their original unique voices.<br>The mod has also been improved so that newly added special commanders with built-in voices can normally use their unique voices without requiring an immediate mod update.</p><h2>Important Note</h2><p>This mod conflicts with the official <strong>Girls und Panzer Subtitles Mod</strong>. Using both at the same time may cause the game to malfunction.<br>If you need subtitles, please use the subtitle system included with this mod instead. You can select any of the nine available languages or simply choose <strong>Off</strong>.</p><h2>About This Mod</h2><p>This has always been one of my favorite World of Tanks mods. Unfortunately, the original version disappeared from the Mod Hub a long time ago.<br>At the time, I was a complete beginner and could not do much about it. Now, with the help of AI tools and what I have learned, I can finally bring this mod back and keep it working.<br>I still hope that the original creator may return and maintain this mod again someday. Many thanks to the original author for creating it.<br>Theoretically, the mod should continue to work with future game updates. Because I am busy with my studies and research, updates may not be frequent. I will mainly update it when major bugs appear, compatibility problems occur, or enough new unique crew voices are added to the game.</p><p>If you find any bugs or have suggestions, feel free to contact me:</p><p><strong>Email:</strong> <a href=\"mailto:2551549074@qq.com\">2551549074@qq.com</a></p><p>Thank you for using GuP Voice Selector.</p><p><strong>Panzer Vor!</strong></p>",
       "installationGuideHtml": "<p>Copy all files to latest version floder under mods floder in game client floder.<br>If you don't want some voice such as six sence to be changed to GUP version, delete GuP(X.X) audio VoiceSelector xml.wotmod</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/6cdc727a-8554-454c-a2e6-293dc1791def.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -6847,9 +6847,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li><li><strong>Klávesa, </strong>&nbsp;možnost zobrazení vždy nebo jen při stisku klávesy&nbsp;</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.1 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
+      "descriptionHtml": "<ul><li><strong>CZ</strong></li><li>Tohle je mód, který ukazuje <strong>Průměrné poškození za bitvy</strong> přímo v bitvě. Je to hlavně když plníte výzvu a chcete mít aktuální přehled jak vám to jde. :)</li><li><strong>V módu se dá</strong>:</li></ul><ol><li><strong>Nastavit jazyk</strong> (CZ/EN)</li><li><strong>Pozastavit sledování</strong> statistiky (hrát s tankem aniž by se statistiky z daných bitev započítávaly)</li><li><strong>Vynulovat počítadlo</strong></li><li><strong>Nastavit hodnota</strong>, které chcete dosáhnout</li><li><strong>Nastavit pozice</strong> ukazatele (ukazatel se dá přemístit kamkoliv na obrazovce a pozice se dá uzamknout)</li><li><strong>Nastavení písma</strong>, velikost a barva</li><li><strong>Klávesa, </strong>&nbsp;možnost zobrazení vždy nebo jen při stisku klávesy</li></ol><ul><li><strong>VAROVÁNÍ: Aby sledování bylo správně musíte nejprve resetovat statistiky přímo ve hře obr.1 a i v nastavení módu jinak se nebudou shodovat!!!</strong></li></ul><p>&nbsp;</p><ul><li><strong>EN</strong></li><li>This mod displays your <strong>Average Damage per Battle</strong> directly in-game. It’s especially useful when you're completing challenges and want to track your progress in real time.</li><li><strong>Features:</strong></li></ul><ol><li><strong>Language selection</strong> (CZ / EN)</li><li><strong>Pause tracking</strong> (play battles without affecting your current statistics)</li><li><strong>Reset counter</strong></li><li><strong>Set target value</strong> (set the avereage damage goal you want to reach)</li><li><strong>Adjustable position</strong> (move the display anywhere on your screen and lock its position)</li><li><strong>Customizable font </strong>size and color</li></ol>",
       "installationGuideHtml": "<p>Mód rozbalte a složku mods dejte do kořenového adresáře hry.</p><p>Extract the mod and place the 'mods' folder into the game's root directory.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/03_goHA7kf.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/05_SO4tgDe.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7789/",
       "tagIds": [
         "22"
@@ -7008,16 +7008,6 @@
           "fileName": "Z4imon.auto_equipment_return_2.4.1_1.6.zip",
           "fileExt": ".zip",
           "changeLog": "Update for 2.4.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.auto_equipment_return_2.4.0.2_1.5.zip",
-          "updatedAt": "2026-10-12T07:50:52.854Z",
-          "sizeBytes": 831351,
-          "fileName": "Z4imon.auto_equipment_return_2.4.0.2_1.5.zip",
-          "fileExt": ".zip",
-          "changeLog": "- View streamer equipment without WoT Plus\n- Install buttons when Auto-install is disabled\n- Separate equipment for Frontline and Onslaught (enable in the settings)\n- Bugfixes"
         }
       ],
       "latest": {
@@ -9190,16 +9180,6 @@
           "fileName": "Z4imon.tank_info_in_hangar_2.4.1_1.6.zip",
           "fileExt": ".zip",
           "changeLog": "Update for 2.4.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "1.5.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.tank_info_in_hangar_2.4.0.2_1.5.2.zip",
-          "updatedAt": "2026-10-01T08:50:52.666Z",
-          "sizeBytes": 413286,
-          "fileName": "Z4imon.tank_info_in_hangar_2.4.0.2_1.5.2.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -12635,16 +12615,6 @@
           "fileName": "Z4imon.challenges_2.4.1_3.4.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "3.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.challenges_2.4.0.2_3.3_QdM96k2.zip",
-          "updatedAt": "2026-10-08T14:31:28.426Z",
-          "sizeBytes": 544673,
-          "fileName": "Z4imon.challenges_2.4.0.2_3.3_QdM96k2.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -13830,16 +13800,6 @@
           "fileName": "champi.fightbuttontext_0.91.006_2.4.0.0.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "0.91.005",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.fightbuttontext_0.91.005_2.3.1.3.zip",
-          "updatedAt": "2026-09-12T04:45:00.800Z",
-          "sizeBytes": 546395,
-          "fileName": "champi.fightbuttontext_0.91.005_2.3.1.3.zip",
-          "fileExt": ".zip",
-          "changeLog": "- repack for current wot version"
         }
       ],
       "latest": {
@@ -15116,16 +15076,6 @@
           "fileName": "Z4imon.random_tank_picker_2.4.1_4.2.zip",
           "fileExt": ".zip",
           "changeLog": "Update for 2.4.1"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "4.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.random_tank_picker_2.4.0.2_4.1.zip",
-          "updatedAt": "2026-10-05T12:54:03.372Z",
-          "sizeBytes": 487730,
-          "fileName": "Z4imon.random_tank_picker_2.4.0.2_4.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- bugfixes"
         }
       ],
       "latest": {
@@ -16685,16 +16635,6 @@
           "fileName": "Commander-Selector-1.3.7-Installer.zip",
           "fileExt": ".zip",
           "changeLog": "Bug fixing."
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.3.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Commander-Selector-1.3.6-Installer.zip",
-          "updatedAt": "2026-09-10T06:33:23.154Z",
-          "sizeBytes": 581265,
-          "fileName": "Commander-Selector-1.3.6-Installer.zip",
-          "fileExt": ".zip",
-          "changeLog": "General code improvements. Made this mod play nicer with other mods that have in-garage UIs. "
         }
       ],
       "latest": {
@@ -16773,16 +16713,6 @@
           "fileName": "Be-Quiet-Fool-1.0.4-Installer.zip",
           "fileExt": ".zip",
           "changeLog": "Code improvements. Also, an installer was added that helps the mod play nicer with other mods. "
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.0.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/be_quiet_fool_1.0.2_VvJIzHh.wotmod",
-          "updatedAt": "2026-09-11T19:18:58.595Z",
-          "sizeBytes": 98576,
-          "fileName": "be_quiet_fool_1.0.2_VvJIzHh.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -17064,6 +16994,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.7",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.7_ncOymdY.wotmod",
+          "updatedAt": "2026-10-15T10:38:00.245Z",
+          "sizeBytes": 8725,
+          "fileName": "no_notifications_1.0.7_ncOymdY.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "1.0.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.7_5ERjNRs.wotmod",
@@ -17112,23 +17052,13 @@
           "fileName": "no_notifications_1.0.3_e1QxmiI.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.3_hOHVFlS.wotmod",
-          "updatedAt": "2026-09-11T13:42:04.417Z",
-          "sizeBytes": 20969,
-          "fileName": "no_notifications_1.0.3_hOHVFlS.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "no_notifications_1.0.7_5ERjNRs.wotmod",
+        "fileName": "no_notifications_1.0.7_ncOymdY.wotmod",
         "modVersion": "1.0.7",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -22933,7 +22863,7 @@
       "source": "wgmods",
       "sourceId": "7369",
       "title": "TahenRatte skin",
-      "ownerUsername": "RenamedUser_141592653589",
+      "ownerUsername": "Snabb___________________",
       "languageCode": "en",
       "availableLanguageCodes": [
         "en"
@@ -33587,12 +33517,22 @@
           "fileName": "mod_battle_observer_v1.43.44_nrXXRpW.exe",
           "fileExt": ".exe",
           "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.0.1",
+          "modVersion": "1.43.44",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mod_battle_observer_v1.43.44.exe",
+          "updatedAt": "2026-10-15T08:34:18.861Z",
+          "sizeBytes": 4425545,
+          "fileName": "mod_battle_observer_v1.43.44.exe",
+          "fileExt": ".exe",
+          "changeLog": "2.4.0.1 update"
         }
       ],
       "latest": {
-        "fileName": "mod_battle_observer_v1.43.44_nrXXRpW.exe",
+        "fileName": "mod_battle_observer_v1.43.44.exe",
         "modVersion": "1.43.44",
-        "changeLog": "",
+        "changeLog": "2.4.0.1 update",
         "wotGameVersionCompatibility": "warning"
       }
     },
@@ -36430,16 +36370,6 @@
           "fileName": "champi.reticledispersionpro_1.07.000_2.4.0.2.zip",
           "fileExt": ".zip",
           "changeLog": "- repack for current wot version"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.07.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.reticledispersionpro_1.07.000_2.4.0.0.zip",
-          "updatedAt": "2026-09-16T19:51:06.782Z",
-          "sizeBytes": 616013,
-          "fileName": "champi.reticledispersionpro_1.07.000_2.4.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": "- fix: ensured the master switch correctly disables all optional reticles and indicators.\n- fix: improved aiming-time updates during vehicle movement and turret rotation.\n- fix: corrected several initialization, cleanup, and battle-state handling issues.\n- mod: reworked the internal reticle management for better reliability and compatibility between the game clients\n- mod: hide aiming information while statistics screens, pre-battle highlights, or the killcam are active.\n- add: added Dual Accuracy cooling and active-state information to the aiming display. \n- add: added Dual Accuracy cooling information during WG replay playback.\n- add: added and updated translations for Czech, Japanese, Korean, Russian, Thai, Ukrainian, Vietnamese, Simplified Chinese, Singapore Chinese, and Traditional Chinese.\n- upd: updated dependency libs"
         }
       ],
       "latest": {
@@ -38660,16 +38590,6 @@
           "fileName": "RNG_Modpack_2.3.1.2_01.exe",
           "fileExt": ".exe",
           "changeLog": "Adaptation to latest patch (2.3.1.2).\nUpdated XVM nightly to 13.1.0_0062.\nUpdated RNG Modpack carousel icons.\nUpdated RNG Modpack contour icons.\nUpdated RNG Modpack tech tree icons.\nUpdated RNG Modpack battle buttons.\nUpdated Aslain Personal Mission Auto Reset.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated Kid9N_Prokhorovka_Legend Old Battle Results.\nUpdated Poliroid ModList API."
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "2.3.1.1_01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/RNG_Modpack_2.3.1.1_01.exe",
-          "updatedAt": "2026-09-12T15:50:06.841Z",
-          "sizeBytes": 536588043,
-          "fileName": "RNG_Modpack_2.3.1.1_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "Adaptation to latest patch (2.3.1.1).\nUpdated XVM nightly to 13.1.0_0059.\nUpdated RNG Modpack carousel icons.\nUpdated RNG Modpack contour icons.\nUpdated RNG Modpack tech tree icons.\nUpdated RNG Modpack battle buttons.\nUpdated Aslain Personal Mission Auto Reset.\nUpdated AtotIK Fog Remover.\nUpdated Gravity_Assist Dynamic Flashlight Colours.\nUpdated Gravity_Assist Pet Gift Auto Claim.\nUpdated Gravity_Assist Skirmish Tank Sync.\nUpdated iKurzdor Battle Equipment.\nUpdated Jak_Atackka Better Reticle Size.\nUpdated OpenWG Fixes + Libs.\nUpdated Pansy Actual Lights.\nUpdated Pansy Revamped Skies Vol1, Vol2 & Vol3.\nUpdated Poliroid & Goldflag Tomato.gg Mod.\nUpdated Poliroid PMOD.\nUpdated Pruszko Dispersion Reticle.\nUpdated Pruszko Responsive Reticle.\nAdded Aslain Clan Rewards Auto Claim."
         }
       ],
       "latest": {
@@ -40290,16 +40210,6 @@
           "fileName": "champi-wot-modpack-installer_v2.4.0.2_01.exe",
           "fileExt": ".exe",
           "changeLog": "- all mods updated to current version\n- mod installation folder changed\n- dependency libs updated"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "#03",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi-wot-modpack-installer_v2.4.0.0_03.exe",
-          "updatedAt": "2026-09-16T19:51:03.587Z",
-          "sizeBytes": 4508439,
-          "fileName": "champi-wot-modpack-installer_v2.4.0.0_03.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -41153,7 +41063,7 @@
         "en"
       ],
       "recommended": false,
-      "mark": 4.5,
+      "mark": 4.4,
       "descriptionHtml": "<blockquote><p><strong>ATTENTION!</strong></p><p><i><strong>This crosshair from now on will only ever be updated when it requires it, and currently works.</strong></i></p><p><i>For example, when it is broken from a major update, or just an update in general that changes some textures within the vanilla crosshair which in turn would affect this crosshair mod. </i><strong>The crosshair will still continue to work even though it is not updated for each individual patch.</strong><i> I had been doing updates each patch for the sake of convenience because it appears on the front page of the mod portal. The reason for this is because I have found out the hard way the more times you add updates the higher the chances something will break which it has done a few times recently so you have been notified!</i></p></blockquote><p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p><p>Goal of this crosshair was simplicity and clarity, you dont need anything else but this crosshair imo in terms of crosshairs. It has two colors one white the second yellow. I've removed all the dark spots around the crosshair and brightened it up and made it easy for sniping and keeping track of targets. Might not be the best to some sure, though I made it for myself in the beginning when I wanted a crosshair close to vanilla and made this and haven't use any other crosshair since.</p><p><i><strong>This crosshair is also available to install from </strong></i><a href=\"https://wgmods.net/46/\"><i><strong>Aslains modpack</strong></i></a></p><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/c243427c-cfad-46fe-8e6d-030bd9de60d2.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/bd3e6e2f-831b-4100-88be-7aee6b22526c.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/a402d6f8-2455-4df6-9e0f-309f7bfbc9ac.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/3769bdec-740f-4c40-a266-32371f806d36.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/60eaec04-21c9-44f7-8ccf-fca4595854df.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/34b7e4e4-1241-49db-948d-0022cd0552f3.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/2c52d622-18ac-4ca3-a6d3-e0a93191877f.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/8d4a2abb-2fd3-4316-91bf-778f28f839a3.jpg\"></figure><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/5f1fd5ef-ca7b-4b3b-8849-fd9982f8b828.jpg\"></figure>",
       "installationGuideHtml": "<p>Put the file into your mods folder. World_of_Tanks\\mods\\(Current game version)</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_007_6ot0Kyt.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -41260,16 +41170,6 @@
           "fileName": "champi.expectedvehiclevalues2_2.05.001_2.4.0.2.zip",
           "fileExt": ".zip",
           "changeLog": "- fix: Prevented the GameFace garage panel from disappearing after its first drag on fresh installations (below tier 5 only).\n- fix: Improved panel initialization while vehicle data is still loading in the garage.\n- mod: Added a safe top and bottom boundary for the GameFace garage panel to keep it accessible."
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.05.000",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/champi.expectedvehiclevalues2_2.05.000_2.4.0.1.zip",
-          "updatedAt": "2026-09-20T20:53:18.314Z",
-          "sizeBytes": 1461732,
-          "fileName": "champi.expectedvehiclevalues2_2.05.000_2.4.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "- fix: keep draggable flash panels within the visible screen area, the garage panel also retains a safety margin at the top and bottom.\n- fix: preserve the garage panel position when changing its anchor point, including changes made from the login screen before the garage UI is loaded.\n- add: compatibility with upcoming World of Tanks 2.4.1 while retaining support for 2.4.0.\n- add: {pema} token added for custom battle template preview\n- dependancy libs updated"
         }
       ],
       "latest": {
@@ -46780,6 +46680,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "3.0.34",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_yAZLLjR.zip",
+          "updatedAt": "2026-10-15T09:34:25.617Z",
+          "sizeBytes": 4928556,
+          "fileName": "ProMod_yAZLLjR.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added Damage Stickers by OldSkool\nUpdated to XVM Build 13.1.0.0098\nUpdated High Caliber Display"
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "3.0.33",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_4gDxwza.zip",
           "updatedAt": "2026-10-14T23:21:33.463Z",
@@ -46827,22 +46737,12 @@
           "fileName": "ProMod_LUAUe8U.zip",
           "fileExt": ".zip",
           "changeLog": "Updated for Micropatch 2.4.0.2\nUpdated to XVM Build 13.1.0.0092\nUpdated OpenWG Common Utils (FPS Limiter)\nUpdated Dispersion Reticle (fix stuck turret with dual guns)"
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "3.0.26",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_ZXuYvpL.zip",
-          "updatedAt": "2026-09-27T15:25:42.272Z",
-          "sizeBytes": 4914273,
-          "fileName": "ProMod_ZXuYvpL.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ProMod_4gDxwza.zip",
-        "modVersion": "3.0.33",
-        "changeLog": "Added Damage Stickers by OldSkool (use mod menu for options)\nUpdated Battle Button\nUpdated Vehicle Stats Inspector",
+        "fileName": "ProMod_yAZLLjR.zip",
+        "modVersion": "3.0.34",
+        "changeLog": "Added Damage Stickers by OldSkool\nUpdated to XVM Build 13.1.0.0098\nUpdated High Caliber Display",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -47125,6 +47025,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "03",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.1.0_03.exe",
+          "updatedAt": "2026-10-15T10:25:39.177Z",
+          "sizeBytes": 65048268,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_03.exe",
+          "fileExt": ".exe",
+          "changeLog": "v2.4.1.0 #03 (15-10-2026):\n- Added Crucible Garage Shortcut and Sector 3 Garage Shortcut (by Gravity_Assist) (bring back the Crucible and Sector 3 banners in the garage when the game leaves them out)\n- Added Colored Damage Stickers by OldSkool (colored hit marks on every graphics setting; in the Mod Menu you choose whether they show on your own tank, allies and enemies, or only on vehicles you hit)\n- Updated XVM 13.1.0_0098\n- Updated High caliber progress in the battle 1.2.0 by OldSkool (optional dark panel background with rounded corners instead of the transparency slider)\n- Updated Armor Inspector wotinspector 4.5.3 and WOTInspector Heatmaps 1.0.9 (update for WoT 2.4.1.0)\n- Updated The Old Battle Results Windows 1.0.9\n"
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "02",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.1.0_02.exe",
           "updatedAt": "2026-10-14T16:22:07.632Z",
@@ -47132,22 +47042,12 @@
           "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_02.exe",
           "fileExt": ".exe",
           "changeLog": "- Added Battle Chat Fix (experimental; restores typing in the battle chat after firing)\n- Updated Limpid Stickers 2.18 (fixed conflict with Effect Control)\n- Updated all CHAMPi mods for WoT 2.4.1.0: Armor Calculator Pro, Player Panel Pro, Reticle Dispersion Pro, Sixth Sense Timer, Fight Button Text, Arty Ready Warning and Minimap Spam Protector are available again\n- Updated Advanced Tech-tree 0.1.6 and Battle efficiency 1.5.0 by OldSkool\n- Updated HD and Tech minimaps, also the alt versions (3 new maps)\n- Updated Battle Assistant 2.6.3, Directives Helper 1.0.7, Premium Time 1.0.3 and Battle Equipment 3.12.02\n- Updated Camo Selector 3.2.2, Gun Caliber Overlay 1.5.3, Ballistics Info 1.5.2 and MoE Overlay 1.9.2\n- Updated WoT Tweaker Plus, Pink Trees, Purple Trees and contour icons Man1aq\n- Restored ProTanki Efficiency, Aiming timer and Repairs, Damage Log GambitER, Gun Constraints and Info Panel Phantasm, Research Progress Bar and Campaign Tracker by Zanju"
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "01",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.1.0_01.exe",
-          "updatedAt": "2026-10-14T08:10:32.383Z",
-          "sizeBytes": 60996069,
-          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_01.exe",
-          "fileExt": ".exe",
-          "changeLog": "- Updated Change client language\n- Updated Dispersion Reticle 3.1.13 by Pruszko\n- Updated Classic Tank Carousel (hotfix for WoT 2.4.1.0)\n- Added Cinematic Garage (by Z4imon) (when the game starts rotating the camera around your tank in the garage, the interface fades out and leaves a clean view; move the mouse and it comes back)\n"
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_02.exe",
-        "modVersion": "02",
-        "changeLog": "- Added Battle Chat Fix (experimental; restores typing in the battle chat after firing)\n- Updated Limpid Stickers 2.18 (fixed conflict with Effect Control)\n- Updated all CHAMPi mods for WoT 2.4.1.0: Armor Calculator Pro, Player Panel Pro, Reticle Dispersion Pro, Sixth Sense Timer, Fight Button Text, Arty Ready Warning and Minimap Spam Protector are available again\n- Updated Advanced Tech-tree 0.1.6 and Battle efficiency 1.5.0 by OldSkool\n- Updated HD and Tech minimaps, also the alt versions (3 new maps)\n- Updated Battle Assistant 2.6.3, Directives Helper 1.0.7, Premium Time 1.0.3 and Battle Equipment 3.12.02\n- Updated Camo Selector 3.2.2, Gun Caliber Overlay 1.5.3, Ballistics Info 1.5.2 and MoE Overlay 1.9.2\n- Updated WoT Tweaker Plus, Pink Trees, Purple Trees and contour icons Man1aq\n- Restored ProTanki Efficiency, Aiming timer and Repairs, Damage Log GambitER, Gun Constraints and Info Panel Phantasm, Research Progress Bar and Campaign Tracker by Zanju",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_03.exe",
+        "modVersion": "03",
+        "changeLog": "v2.4.1.0 #03 (15-10-2026):\n- Added Crucible Garage Shortcut and Sector 3 Garage Shortcut (by Gravity_Assist) (bring back the Crucible and Sector 3 banners in the garage when the game leaves them out)\n- Added Colored Damage Stickers by OldSkool (colored hit marks on every graphics setting; in the Mod Menu you choose whether they show on your own tank, allies and enemies, or only on vehicles you hit)\n- Updated XVM 13.1.0_0098\n- Updated High caliber progress in the battle 1.2.0 by OldSkool (optional dark panel background with rounded corners instead of the transparency slider)\n- Updated Armor Inspector wotinspector 4.5.3 and WOTInspector Heatmaps 1.0.9 (update for WoT 2.4.1.0)\n- Updated The Old Battle Results Windows 1.0.9\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
