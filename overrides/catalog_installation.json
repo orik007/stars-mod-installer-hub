@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.037",
+  "catalogVersion": "v2026.10.038",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8021",
+      "title": "Sheep-Go",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".7z",
+        "latestInstallGuide": "Download the 7zip file and drop the wotmod file in (your game)\\mods\\2.x.x.x"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the 7z archive and copy its .wotmod payload into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8025",
@@ -2209,13 +2226,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Installation World of Tanks `2.4.0.2` or a compatible client is required. `net.openwg.gameface` is required for the carousel. Full package (recommended) [Download the ZIP ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.21/hangar_carousel_classic_1.0.21_full.zip ) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.2/`. HCC only [Download the WOTMOD ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.21/mod_hangar_carousel_classic_1.0.21.wotmod ) and copy it to `mods/2.4.0.2/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases]( https://gitlab.com/openwg/wot.gameface/-/releases ). Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
+        "latestInstallGuide": "Installation World of Tanks `2.4.1.x` or a compatible client is required. `net.openwg.gameface` is required for the carousel. Full package (recommended) [Download the ZIP ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.22/hangar_carousel_classic_1.0.22_full.zip ) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.2/`. HCC only [Download the WOTMOD ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.22/mod_hangar_carousel_classic_1.0.22.wotmod ) and copy it to `mods/2.4.1.x/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases]( https://gitlab.com/openwg/wot.gameface/-/releases ). Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "The ZIP's full-package option is extracted into the game root; external dependencies do not alter this package installation.",
+        "decisionReason": "The full ZIP package is extracted into the WoT root; included dependencies do not block installation.",
         "deleteDataWgpdc": false
       }
     },
