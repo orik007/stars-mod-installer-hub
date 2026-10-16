@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.038",
-  "sourceHash": "6c0638f0a7789fbde43efcfdfd3610ea9f3a378d277bf5df9f48cdfeb9e598bd",
+  "catalogVersion": "v2026.10.039",
+  "sourceHash": "2f27136f08c671c0bf9259c2cd75ce27d34b65d303da96a6c5c79446f9df8e17",
   "sources": [
     "wgmods",
     "modhub"
@@ -3187,7 +3187,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.7,
       "descriptionHtml": "<p>仿照巨响图标，自制的坦克战斗中文图标。</p>",
       "installationGuideHtml": "<p><strong>EN_Simple：Short Name + Clip Size</strong></p><p>Included natively in Aslain's WoT Mod Manager</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Aslain</p><p>----------------------------------------------------------------------------------------------------------</p><p>参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。</p><p>如果喜欢，请登录账号给个赞。谢谢</p><p><strong>CN_Simple（标准版）：含型号名称+弹夹容量</strong></p><p><strong>CN_Armor（装甲版）：含型号名称+装甲值（车体）</strong></p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装方法：</p><p>下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。</p><p>或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。</p><p>PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
@@ -3197,6 +3197,16 @@
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA.Icons.CN.2.4.1.0.0.zip",
+          "updatedAt": "2026-10-16T21:54:22.809Z",
+          "sizeBytes": 10651580,
+          "fileName": "ASMA.Icons.CN.2.4.1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "1/样式修改及优化\n2/星号表示弹夹车载弹量\n3/增加英文版"
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "2.4.0.2.0",
@@ -3249,10 +3259,10 @@
         }
       ],
       "latest": {
-        "fileName": "ASMA_CN_Icons.2.4.0.2.0.zip",
-        "modVersion": "2.4.0.2.0",
-        "changeLog": "1/微调。\n2/标准版更新弹夹容量。",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "ASMA.Icons.CN.2.4.1.0.0.zip",
+        "modVersion": "2.4.1.0.0",
+        "changeLog": "1/样式修改及优化\n2/星号表示弹夹车载弹量\n3/增加英文版",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10278,21 +10288,21 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.4.0.1",
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Concept5_remodel_Mirny_8ADv5P9_YmTONSX.wotmod",
-          "updatedAt": "2026-09-19T18:30:50.660Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Concept5_remodel_Mirny_8ADv5P9.wotmod",
+          "updatedAt": "2026-10-16T21:36:30.912Z",
           "sizeBytes": 35901829,
-          "fileName": "Concept5_remodel_Mirny_8ADv5P9_YmTONSX.wotmod",
+          "fileName": "Concept5_remodel_Mirny_8ADv5P9.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Concept5_remodel_Mirny_8ADv5P9_YmTONSX.wotmod",
+        "fileName": "Concept5_remodel_Mirny_8ADv5P9.wotmod",
         "modVersion": "1.0",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
