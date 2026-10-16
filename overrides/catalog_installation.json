@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.036",
+  "catalogVersion": "v2026.10.037",
   "mods": [
     {
       "source": "wgmods",
@@ -1646,13 +1646,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Copy all files to latest version floder under mods floder in game client floder. If you don't want some voice such as six sence to be changed to GUP version, delete GuP(X.X) audio VoiceSelector xml.wotmod"
+        "latestInstallGuide": "Copy all files to latest version floder under mods floder in game client floder."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The guide says to copy all archive files into the latest-version mods folder; deleting an optional voice file is not required.",
+        "decisionReason": "Extract the ZIP and copy all files into the latest-version folder under mods.",
         "deleteDataWgpdc": false
       }
     },
