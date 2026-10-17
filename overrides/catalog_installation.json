@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.040",
+  "catalogVersion": "v2026.10.041",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8038",
+      "title": "Hide Completed Mission Categories",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download and extract the ZIP archive. Copy all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current World of Tanks version. Restart the game client."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy all included .wotmod files into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8021",
@@ -15893,7 +15910,7 @@
     {
       "source": "wgmods",
       "sourceId": "5178",
-      "title": "War Mod V1.37",
+      "title": "War Mod V1.38",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".rar",
