@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.039",
+  "catalogVersion": "v2026.10.040",
   "mods": [
     {
       "source": "wgmods",
@@ -620,23 +620,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "Extract the ZIP and copy every included .wotmod into mods/current-version.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7964",
-      "title": "Blitzträger auf ION Exchanger by TheOnlyApocalypse",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "copy all files to mods/the latest version"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "The guide says to copy all archive files into the latest-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
