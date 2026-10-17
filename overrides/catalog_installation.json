@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.041",
+  "catalogVersion": "v2026.10.042",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "7981",
+      "title": "Gunmarks: Battle results",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Extract the archive into your World of Tanks folder, the one with WorldOfTanks.exe (for example C:\\Games\\World_of_Tanks_EU). It adds: mods\\2.4.1.0\\app.gunmarks\\app.gunmarks.results_0.1.0.wotmod mods\\2.4.1.0\\net.openwg\\net.openwg.gameface_1.2.2.wotmod 3. Start the game. One file: nothing else of Gunmarks is needed, and it runs beside any other Gunmarks mod. Updating, coming from an older version, or removing the mod: https://gunmarks.app/mod/battle-results"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP into the game folder; its ready-made mods tree is copied intact.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8038",
@@ -389,7 +406,7 @@
     {
       "source": "wgmods",
       "sourceId": "8001",
-      "title": "Gun sounds selector by TheOnlyApocalypse",
+      "title": "REVIEWING! Gun sounds selector by TheOnlyApocalypse",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
@@ -1659,7 +1676,7 @@
     {
       "source": "wgmods",
       "sourceId": "7872",
-      "title": "Evolved: Girls and Panzer Voice Selector (all voices)",
+      "title": "REVIEWING! Evolved: Girls and Panzer Voice Selector (all voices)",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
