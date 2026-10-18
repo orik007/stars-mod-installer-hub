@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.043",
+  "catalogVersion": "v2026.10.044",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8044",
+      "title": "Radio UA (Dance Radio)",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Розпакуйте архів та скопіююйте в папку з грою за шляхом C:\\Games\\World_of_Tanks_EU"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "The guide says to extract the RAR archive and copy its contents into the game directory.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8026",
+      "title": "3D Camo Selector",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, click the 3D button in the garage and select your camo. Enjoy! Please report any bugs to loadfastermods@ gmail"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Installing this package requires running install.cmd to select and install the correct mod version.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "7981",
@@ -1676,7 +1710,7 @@
     {
       "source": "wgmods",
       "sourceId": "7872",
-      "title": "Evolved: Girls and Panzer Voice Selector (all voices)",
+      "title": "Evolved: Girls und Panzer Voice Selector (all voices)",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
@@ -8205,6 +8239,23 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "The .wotmod file is copied unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7447",
+      "title": "Основний Калібр",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Щоб встановити мод, скопіюйте вміст папки в папку з грою C:\\Games\\World_of_Tanks_EU To install the mod, copy the contents of the folder into your World of Tanks game directory C:\\Games\\World_of_Tanks_EU"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "The guide says to copy the archive contents into the World of Tanks game directory.",
         "deleteDataWgpdc": false
       }
     },

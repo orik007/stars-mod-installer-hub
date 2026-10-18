@@ -1,0 +1,114 @@
+{
+  "catalogVersion": "v2026.10.044",
+  "previousCatalogVersion": "v2026.10.043",
+  "summary": {
+    "added": 3,
+    "removed": 0,
+    "updated": 3,
+    "unchanged": 822
+  },
+  "changes": [
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8044",
+      "title": "Radio UA (Dance Radio)",
+      "previous": null,
+      "current": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "RadioUA.rar",
+        "updatedAt": "2026-10-18T09:57:01.446Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8026",
+      "title": "3D Camo Selector",
+      "previous": null,
+      "current": {
+        "modVersion": "2.8.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "3D-Camo-Selector-2.8.2-Installer.zip",
+        "updatedAt": "2026-10-18T07:09:29.317Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7908",
+      "title": "Garage audit",
+      "previous": {
+        "modVersion": "1.1.3",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "wot_audit_log_1.1.3.zip",
+        "updatedAt": "2026-10-04T11:25:31.541Z",
+        "changeLog": "Changes from 1.1.0 to 1.1.3:\n• With modsList installed, Garage Audit is an entry in its list instead of the footer button. Without modsList, the button stays.\n• The AUDIT button no longer shows a vehicle counter; the count is in the panel.\n• Fixed: mode vehicles (Waffenträger, Steel Hunter, vehicles hidden in the current mode) no longer appear in the sections.\n• Built for client 2.4.0.2."
+      },
+      "current": {
+        "modVersion": "1.3.19",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_audit_log_1.3.19_NMGRLZ2.zip",
+        "updatedAt": "2026-10-18T07:17:35.646Z",
+        "changeLog": "• New sections: \"Vehicle XP\" (combat XP on garage and sold vehicles, elite status, free XP), \"Incomplete ammo\" (fewer shells than the gun holds), \"Marks of excellence\" (marks, percentage and mastery of tier V–XI vehicles in one table), \"Crew members\" (every crew member with battles, average XP and skills), \"3D styles\" (which 3D style is applied on each vehicle and which ones are unused).\n• \"Vehicle issues\" is now a single table instead of five sections. The filter has an \"Issue type\" group so you can pick which issues to show.\n• Hangar worth: a new \"Exterior\" row. It covers customisation in the depot that the game lets you sell for credits, with a price table and a \"Type\" filter.\n• The panel opens from the mods list button in the Garage footer.\n• The panel can be resized and the left menu scrolls. "
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "7447",
+      "title": "Основний Калібр",
+      "previous": null,
+      "current": {
+        "modVersion": "1.7",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "Основний_Калібр.rar",
+        "updatedAt": "2026-09-22T10:25:41.316Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6776",
+      "title": "Universal Model Loader (UML)",
+      "previous": {
+        "modVersion": "1.7.3.6",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "2.4.0.1EUUniversalModelLoader_B260920.zip",
+        "updatedAt": "2026-09-20T07:18:15.530Z",
+        "changeLog": "* fixed series of UML animation issues related to gun\n* fixed mirrored gun insignia if 'isMirrored' is not in UMLprofile (WG changed its default value, or have added functionality to this keyword)\n* fixed having 'delay' in 'onKeyShoot' animator incorrectly disables animation\n* fixed crash when model swap is applied on G197_Pz_Kpfw_Neu\n* added fan-made plugin to make result of autoScale visible in hangar."
+      },
+      "current": {
+        "modVersion": "1.7.3.7",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "2.4.1.0EUUniversalModelLoader_B261017.zip",
+        "updatedAt": "2026-10-18T07:09:13.676Z",
+        "changeLog": "* adapt to WoT V2.4.1.0\n* update embeded modsListAPI to V1.8.0\n* update embeded OpenWG Gameface to v1.2.2"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "561",
+      "title": "World of Animations",
+      "previous": {
+        "modVersion": "3.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "WoA_Installer_v3.2_2.4.0.2.exe",
+        "updatedAt": "2026-10-02T10:36:58.453Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "3.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "WoA_Installer_v3.2_2.4.1.0.exe",
+        "updatedAt": "2026-10-18T09:08:08.001Z",
+        "changeLog": ""
+      }
+    }
+  ]
+}
