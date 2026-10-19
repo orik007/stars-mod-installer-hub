@@ -1,7 +1,143 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.048",
+  "catalogVersion": "v2026.10.049",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8045",
+      "title": "Hagymásbab for WoT",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download and unzip the archive. It contains one folder named audioww. Copy the audioww folder into World_of_Tanks\\res_mods\\<latest version>\\ (for example res_mods\\2.4.1.0\\). If Windows asks about merging folders or replacing files, choose yes. Start the game. No further setup is needed. Uninstall: delete the voiceover.bnk and the nation folders (china, czech, france, germany, italy, japan, poland, sweden, uk, usa, ussr) from res_mods/<version>\\audioww. Leave any other mod’s files (e.g. XVM) alone."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive and copy its audioww folder into res_mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8037",
+      "title": "Roll Analyzer",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Unpack the archive into the game folder — where WorldOfTanks.exe is. The files land in mods/2.4.1.0/ by themselves. Start the game and enter a Random Battle: the native damage log is replaced by one with a roll column. Settings are in the mods list (the button at the right of the Garage footer), entry Roll Analyzer. To remove the mod, delete mods/2.4.1.0/wot_roll_analyzer_0.2.2.wotmod. Settings are stored in mods/configs/wot_roll_analyzer/."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive into the game folder; it provides the mods tree there.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8036",
+      "title": "Dark Pavilion",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Remove previous versions of Dark Pavilion and disable conflicting hangar mods. 3. Extract the archive into your World of Tanks folder, merging the mods folder. 4. Launch the game."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive into the game folder, merging its mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8041",
+      "title": "Fixed: Girls und Panzer music mod",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": ""
+      },
+      "requiresReview": true,
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "No installation guide is provided, so a usable installation procedure or destination cannot be determined.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8048",
+      "title": "Mod Unique 3D Style Update 2.4.1",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Paste at World_of_Tanks_ASIA\\mods\\2.4.1.0"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "The archive is to be placed in mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8047",
+      "title": "EZ_ROOM",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": ""
+      },
+      "requiresReview": true,
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "No installation guide is provided, so a usable installation procedure or destination cannot be determined.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8046",
+      "title": "Camo Replacer",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Make sure World of Tanks is closed. Download the .wotmod file and make your way to your world of tanks instillation folder and paste it inside the mods folder under the current game version."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "A downloaded .wotmod is copied unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8040",
+      "title": "Fochträger - Foch 155",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Put it in mods folder"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "A downloaded .wotmod is copied unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8029",
