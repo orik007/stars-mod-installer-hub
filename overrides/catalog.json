@@ -1,11 +1,325 @@
 {
-  "catalogVersion": "v2026.10.048",
-  "sourceHash": "94d44838c7abf6a9f9f4de4ac4e959b110a6a2e651b4f41734ce3c2a846c065d",
+  "catalogVersion": "v2026.10.049",
+  "sourceHash": "8537bf3fb48e5aa5187e1bdba41b61193138d6177cdb1e5513ac4b9b0b9eb087",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8045",
+      "title": "Hagymásbab for WoT",
+      "ownerUsername": "JohnnyEasy",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Hagymásbab replaces the standard crew voice lines in World of Tanks with a custom voice pack. It contains around 460 recorded lines in <strong>Hungarian </strong>and covers most of the standard crew events: shots that hit, penetrate or ricochet, kills, fires, module and crew damage and repairs, target acquired and lost, battle start, bail-out and more. Lines for each event are picked at random, so the crew doesn’t repeat itself too often.</p><p>The pack works with male and female crews, and with all 11 nations that have their own crew voices (China, Czechoslovakia, France, Germany, Italy, Japan, Poland, Sweden, UK, USA, USSR). A handful of rare events have no recording and keep the default English voice. It is a sound-only mod: no config, no scripts.</p>",
+      "installationGuideHtml": "<ol><li>Download and unzip the archive. It contains one folder named audioww.</li><li>Copy the audioww folder into World_of_Tanks\\res_mods\\&lt;latest version&gt;\\ (for example res_mods\\2.4.1.0\\). If Windows asks about merging folders or replacing files, choose yes.</li><li>Start the game. No further setup is needed.</li></ol><p><strong>Uninstall:</strong> delete the voiceover.bnk and the nation folders (china, czech, france, germany, italy, japan, poland, sweden, uk, usa, ussr) from res_mods\\&lt;version&gt;\\audioww. Leave any other mod’s files (e.g. XVM) alone.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/WoT_Hagym%C3%A1sbab.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8045/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0.02",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hagym%C3%A1sBab_mod_2.4.1.0.v02.zip",
+          "updatedAt": "2026-10-19T11:57:04.486Z",
+          "sizeBytes": 165758481,
+          "fileName": "HagymásBab_mod_2.4.1.0.v02.zip",
+          "fileExt": ".zip",
+          "changeLog": "v02 (game version 2.4.1.0)\n- Volume levelled: every voice line was normalised to a consistent loudness. Before, the quietest and the\n  loudest lines differed by about 19 dB; now they are within a few dB of each other.\n- Overall level raised to match the stock crew voices (average speech level about -12.5 dBFS).\n- Peaks limited to -1 dBFS, so there is no clipping.\n- All lines re-encoded; the download is slightly smaller."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hagym%C3%A1sBab_mod_2.4.1.0.zip",
+          "updatedAt": "2026-10-19T10:58:42.677Z",
+          "sizeBytes": 179372931,
+          "fileName": "HagymásBab_mod_2.4.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "HagymásBab_mod_2.4.1.0.v02.zip",
+        "modVersion": "2.4.1.0.02",
+        "changeLog": "v02 (game version 2.4.1.0)\n- Volume levelled: every voice line was normalised to a consistent loudness. Before, the quietest and the\n  loudest lines differed by about 19 dB; now they are within a few dB of each other.\n- Overall level raised to match the stock crew voices (average speech level about -12.5 dBFS).\n- Peaks limited to -1 dBFS, so there is no clipping.\n- All lines re-encoded; the download is slightly smaller.",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8037",
+      "title": "Roll Analyzer",
+      "ownerUsername": "KataStRofaSD",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Roll Analyzer shows how lucky the damage roll of every hit was — yours and the ones you take.</p><p>Shell damage deviates from its nominal value at random, within ±25%. The mod replaces the native damage log with its own one that looks the same — the same plates, action icons, shell badges and vehicle classes — and adds a roll column right after the number: how many percent the damage deviated from nominal. Green means you were lucky, red means you were not. The summary row shows the roll for the whole battle.</p><p>After the battle, the Garage notification centre gets a summary: the roll both ways, how much damage was rated and what was left out.</p><p>Settings are the Roll Analyzer entry in the mods list (the modsList button in the Garage footer): what the log shows, how many event rows (1–8), the detailed log on Alt only, the post-battle notification. The preview in the window shows the log exactly as it will look in battle. Drag the panel with Ctrl+mouse.</p><p>Where it works: • Random Battles only. Other modes and replays keep the native log. • The roll is shown only where damage depends on the spread alone. No roll for finishing blows, fires, rams, your HE without penetration, HE hitting you, shells with damage falloff over distance, and targets under a target designator.</p><p>Some vehicles have a mechanic that changes shot damage, and the mod does not rate their roll yet: the log works as usual, only the roll cell stays empty. Teaching the mod these mechanics takes battles in the vehicles themselves, and the author does not have them in the Garage. • Your hits when you drive: Object 432U, Gorilla, Fauteur, BV-111, Vz. 63P, FV4602 Victorious, Pz.Kpfw. 55, HWK 40, Versuchspanzer 57, Pz.Kpfw. Neu, Kampfpanzer 67. • Hits on you from: Hirschkäfer, Object 432U, Gorilla, Fauteur, BV-111, Vz. 63P, FV4602 Victorious. Hits on you from the Pz.Kpfw. 55 line do have a roll if the attacker was visible when firing; so do your hits in the Hirschkäfer, with overheat accounted for.</p><p>If you play these vehicles and want to help develop the mod, send the author a private message.</p>",
+      "installationGuideHtml": "<p>Unpack the archive into the game folder — where WorldOfTanks.exe is. The files land in mods/2.4.1.0/ by themselves.</p><p>Start the game and enter a Random Battle: the native damage log is replaced by one with a roll column. Settings are in the mods list (the button at the right of the Garage footer), entry Roll Analyzer.</p><p>To remove the mod, delete mods/2.4.1.0/wot_roll_analyzer_0.2.2.wotmod. Settings are stored in mods/configs/wot_roll_analyzer/.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/roll-analyzer-1a-cover.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8037/",
+      "tagIds": [
+        "11",
+        "22"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "0.2.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wot_roll_analyzer_0.2.2.zip",
+          "updatedAt": "2026-10-19T10:58:32.456Z",
+          "sizeBytes": 303900,
+          "fileName": "wot_roll_analyzer_0.2.2.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "wot_roll_analyzer_0.2.2.zip",
+        "modVersion": "0.2.2",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8036",
+      "title": "Dark Pavilion",
+      "ownerUsername": "777_Verruckt_777",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Dark Pavilion is a custom hangar featuring a dark open pavilion, white marble flooring, LED lighting and decorative plants.\n\nIncludes neutral tank lighting, a smooth idle camera and two additional vehicle positions for platoons.\n\nBETA: platoon placement and the post-battle background still require in-game testing.\n\nCompatibility: World of Tanks EU 2.4.1.0.</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.\n<br>2. Remove previous versions of Dark Pavilion and disable conflicting hangar mods.\n<br>3. Extract the archive into your World of Tanks folder, merging the mods folder.\n4. Launch the game.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-10-17_105822575.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8036/",
+      "tagIds": [
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "0.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Dark_Pavilion_EU_2.4.1.0_BETA.zip",
+          "updatedAt": "2026-10-19T10:55:30.302Z",
+          "sizeBytes": 10427123,
+          "fileName": "Dark_Pavilion_EU_2.4.1.0_BETA.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Dark_Pavilion_EU_2.4.1.0_BETA.zip",
+        "modVersion": "0.9",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8041",
+      "title": "Fixed: Girls und Panzer music mod",
+      "ownerUsername": "TheOnlyApocalypse",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>The <strong>Girls und Panzer Music Mod</strong> was originally shared with me by another player. Unfortunately, it had not been maintained for a long time and was no longer compatible with the latest version of World of Tanks.</p><p>This mod replaces most of the in-game music in <strong>World of Tanks</strong> with tracks from <strong>Girls und Panzer</strong>, bringing the spirit of tankery to the battlefield and making the game even more enjoyable.</p><p>After successfully restoring its functionality, I was impressed by the quality of the mod and decided to share it with the entire World of Tanks community so that more players could enjoy it.</p><p><strong>Special thanks to the original mod creator!</strong> It is clear how much passion, time, and effort went into creating this mod, and I truly appreciate their work. If the original creator has any objections to my restoration or redistribution of the mod, please feel free to contact me. I will take it down immediately upon request.</p><p>If you have any questions or encounter any issues, please contact me at <a href=\"mailto:2551549074@qq.com\"><strong>2551549074@qq.com</strong></a>.</p>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%E6%88%98%E8%BD%A6%E4%B9%90%E7%AB%A0%E9%9F%B3%E4%B9%90%E5%B0%91%E5%A5%B3%E5%9D%A6%E5%85%8B%E6%B5%B7%E6%8A%A5.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8041/",
+      "tagIds": [
+        "17",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GuP_music_Ver_1.0.0.zip",
+          "updatedAt": "2026-10-19T10:47:43.298Z",
+          "sizeBytes": 627700883,
+          "fileName": "GuP_music_Ver_1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "GuP_music_Ver_1.0.0.zip",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8048",
+      "title": "Mod Unique 3D Style Update 2.4.1",
+      "ownerUsername": "experrer",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Mod Unique 3D Style Work with Version 2.4.1 update Compare with Fair Play Policy of WG, If you Like this Please Voted</p>",
+      "installationGuideHtml": "<p>Paste at World_of_Tanks_ASIA\\mods\\2.4.1.0</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_094_K0LGKx3.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8048/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Update_2.4.1_phuochung94.uniquestyles_mDs9pAh.zip",
+          "updatedAt": "2026-10-19T10:10:24.375Z",
+          "sizeBytes": 719524,
+          "fileName": "Update_2.4.1_phuochung94.uniquestyles_mDs9pAh.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Update_2.4.1_phuochung94.uniquestyles_mDs9pAh.zip",
+        "modVersion": "2.4.1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8047",
+      "title": "EZ_ROOM",
+      "ownerUsername": "im_y0ur_pr0b7em_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<ul><li>New UI for Clanbattles<br><br>- New Design<br>- Filters&nbsp;<br>- New Buttons<br>- Fale save bc its in dev<br><br>https://github.com/dodojesuslol/wot-advances-room<br><br><br>&nbsp;</li></ul>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Bildschirmfoto_20261019_005754_Tj9KK8j.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8047/",
+      "tagIds": [
+        "18",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/EZ_ROOM_0.7.35.zip",
+          "updatedAt": "2026-10-19T09:37:02.400Z",
+          "sizeBytes": 628948,
+          "fileName": "EZ_ROOM_0.7.35.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "EZ_ROOM_0.7.35.zip",
+        "modVersion": "1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8046",
+      "title": "Camo Replacer",
+      "ownerUsername": "BaggieChan",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Camo Replacer is a mod that allows you to change the texture of any currently existing camo in World of Tanks to be that of another camo within the game.<br><br>All changes to camos are simply cosmetic and only appear on your screen, it any camo replaced will also appear on vehicles of allies and enemies who use the same camo.<br><br>**You must actually own the camo that you are wanting replaced and this mod does not allow you to purchase camos not currently available to purchase**</p>",
+      "installationGuideHtml": "<p>Make sure World of Tanks is closed. Download the .wotmod file and make your way to your world of tanks instillation folder and paste it inside the mods folder under the current game version.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-10-18_092819584.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8046/",
+      "tagIds": [
+        "16"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/personal.camo_replacer_1.0.0.wotmod",
+          "updatedAt": "2026-10-19T08:53:31.485Z",
+          "sizeBytes": 40773428,
+          "fileName": "personal.camo_replacer_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "personal.camo_replacer_1.0.0.wotmod",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8040",
+      "title": "Fochträger - Foch 155",
+      "ownerUsername": "Jajamiomate_JA",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<h2>Not suitable for lower end&nbsp;devices!</h2><p>&nbsp;</p><p>Can we have blitzträger at home?</p><p>Blitzträger at home:</p><p>&nbsp;</p><p>&nbsp;</p><p>I might optimize it in the future.</p>",
+      "installationGuideHtml": "<p>Put it in mods folder</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/p30f3q1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8040/",
+      "tagIds": [
+        "16",
+        "21"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Fochtrager.wotmod",
+          "updatedAt": "2026-10-19T08:32:41.505Z",
+          "sizeBytes": 42727121,
+          "fileName": "Fochtrager.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Fochtrager.wotmod",
+        "modVersion": "1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8029",
@@ -104,6 +418,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.8.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/3D-Camo-Selector-2.8.3-Installer.zip",
+          "updatedAt": "2026-10-19T10:10:29.550Z",
+          "sizeBytes": 857078,
+          "fileName": "3D-Camo-Selector-2.8.3-Installer.zip",
+          "fileExt": ".zip",
+          "changeLog": "Code polishing."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "2.8.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/3D-Camo-Selector-2.8.2-Installer.zip",
           "updatedAt": "2026-10-18T07:09:29.317Z",
@@ -114,9 +438,9 @@
         }
       ],
       "latest": {
-        "fileName": "3D-Camo-Selector-2.8.2-Installer.zip",
-        "modVersion": "2.8.2",
-        "changeLog": "",
+        "fileName": "3D-Camo-Selector-2.8.3-Installer.zip",
+        "modVersion": "2.8.3",
+        "changeLog": "Code polishing.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2078,6 +2402,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ju1ion.nightly_battles_2.4.1.0.wotmod",
+          "updatedAt": "2026-10-19T08:32:38.731Z",
+          "sizeBytes": 1198832208,
+          "fileName": "ju1ion.nightly_battles_2.4.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "2.4.0.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/nightly_battles_2.4.0.1_TNjFZRD.wotmod",
@@ -2089,10 +2423,10 @@
         }
       ],
       "latest": {
-        "fileName": "nightly_battles_2.4.0.1_TNjFZRD.wotmod",
-        "modVersion": "2.4.0.1",
+        "fileName": "ju1ion.nightly_battles_2.4.1.0.wotmod",
+        "modVersion": "2.4.1.0",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -17044,7 +17378,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.2,
+      "mark": 4.3,
       "descriptionHtml": "<p>This mod allows you to use a garage interface to select from a large list of commander voices (<strong>almost every special voice in the game!</strong>). It does nothing to the crews you have in your tanks. It simply makes the commander voice you hear in battle be the commander that you have selected. You will hear the selected commander voice no matter what tank or nation you are playing. Commanders are organized by groups so they are easy to find.&nbsp;</p><p>There is an option to randomly play commanders from a group (i.e. Vikings). You can exclude any commanders from that group you don't like.&nbsp;</p><p><strong>You can use the favorites option to play exactly the commanders you want in rotation!</strong> &nbsp;</p><p>Do you have a special commander in a tank, and you hate their voice? This mod will eliminate that problem!&nbsp;</p><p>If you would like to see English subtitles for Girls und Panzer commanders, install the <a href=\"https://wgmods.net/6725/\">wargaming mod</a>.&nbsp;</p><p><i><strong>If you like the mod, please give it a like, so other players know to try it out. Thanks!</strong></i></p><p>Try my other mods:</p><ul><li><a href=\"https://wgmods.net/8026/\">3D Camo Selector</a></li><li><a href=\"https://wgmods.net/7528/\">Be Quiet Fool!</a></li><li><a href=\"https://wgmods.net/7520/\">No Notifications!</a></li></ul>",
       "installationGuideHtml": "<p>Download the zip file and unzip it. Run the 'install.cmd' file. It will check your other mods and install the correct version of the Loadfaster UI file, so as not to interfere with your other mods that have garage UIs. After you start the game, use the in-garage mod interface to select the commander voices you would like to hear. Enjoy!</p><p>Please report any bugs to loadfastermods@ gmail</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Commander_Selector_thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -17053,6 +17387,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.5.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Commander-Selector-1.5.2-Installer.zip",
+          "updatedAt": "2026-10-19T10:10:35.366Z",
+          "sizeBytes": 888034,
+          "fileName": "Commander-Selector-1.5.2-Installer.zip",
+          "fileExt": ".zip",
+          "changeLog": "Code polishing."
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.5.1",
@@ -17102,22 +17446,12 @@
           "fileName": "Commander-Selector-1.3.8-Installer.zip",
           "fileExt": ".zip",
           "changeLog": "Efficiency tweaks."
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "1.3.7",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Commander-Selector-1.3.7-Installer_tie8WUg.zip",
-          "updatedAt": "2026-09-22T13:13:48.134Z",
-          "sizeBytes": 581716,
-          "fileName": "Commander-Selector-1.3.7-Installer_tie8WUg.zip",
-          "fileExt": ".zip",
-          "changeLog": "Code tuning"
         }
       ],
       "latest": {
-        "fileName": "Commander-Selector-1.5.1-Installer.zip",
-        "modVersion": "1.5.1",
-        "changeLog": "Big UI improvement",
+        "fileName": "Commander-Selector-1.5.2-Installer.zip",
+        "modVersion": "1.5.2",
+        "changeLog": "Code polishing.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -17141,6 +17475,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Be-Quiet-Fool-1.0.8-Installer.zip",
+          "updatedAt": "2026-10-19T10:47:46.109Z",
+          "sizeBytes": 877973,
+          "fileName": "Be-Quiet-Fool-1.0.8-Installer.zip",
+          "fileExt": ".zip",
+          "changeLog": "Code polishing."
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0.7",
@@ -17190,22 +17534,12 @@
           "fileName": "Be-Quiet-Fool-1.0.4-Installer_WMnzBg4.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Be-Quiet-Fool-1.0.4-Installer.zip",
-          "updatedAt": "2026-09-10T18:32:20.185Z",
-          "sizeBytes": 504430,
-          "fileName": "Be-Quiet-Fool-1.0.4-Installer.zip",
-          "fileExt": ".zip",
-          "changeLog": "Code improvements. Also, an installer was added that helps the mod play nicer with other mods. "
         }
       ],
       "latest": {
-        "fileName": "Be-Quiet-Fool-1.0.7-Installer.zip",
-        "modVersion": "1.0.7",
-        "changeLog": "",
+        "fileName": "Be-Quiet-Fool-1.0.8-Installer.zip",
+        "modVersion": "1.0.8",
+        "changeLog": "Code polishing.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -17482,6 +17816,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.8",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.8.wotmod",
+          "updatedAt": "2026-10-19T10:47:49.007Z",
+          "sizeBytes": 10438,
+          "fileName": "no_notifications_1.0.8.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Code polishing."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0.7",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.7_ncOymdY.wotmod",
           "updatedAt": "2026-10-15T10:38:00.245Z",
@@ -17529,22 +17873,12 @@
           "fileName": "no_notifications_1.0.4.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "Code efficiency improvements."
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/no_notifications_1.0.3_e1QxmiI.wotmod",
-          "updatedAt": "2026-09-13T20:06:17.887Z",
-          "sizeBytes": 20969,
-          "fileName": "no_notifications_1.0.3_e1QxmiI.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "no_notifications_1.0.7_ncOymdY.wotmod",
-        "modVersion": "1.0.7",
-        "changeLog": "",
+        "fileName": "no_notifications_1.0.8.wotmod",
+        "modVersion": "1.0.8",
+        "changeLog": "Code polishing.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -34926,6 +35260,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0_261018",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ContourIcons_PoGs_2.4.1.0_261018.zip",
+          "updatedAt": "2026-10-19T09:36:40.935Z",
+          "sizeBytes": 362605471,
+          "fileName": "ContourIcons_PoGs_2.4.1.0_261018.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "2.4.0.2_261003",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ContourIcons_PoGs_2.4.0.2_261003.zip",
@@ -34977,10 +35321,10 @@
         }
       ],
       "latest": {
-        "fileName": "ContourIcons_PoGs_2.4.0.2_261003.zip",
-        "modVersion": "2.4.0.2_261003",
+        "fileName": "ContourIcons_PoGs_2.4.1.0_261018.zip",
+        "modVersion": "2.4.1.0_261018",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
