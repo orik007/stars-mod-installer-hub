@@ -1,131 +1,51 @@
 {
-  "catalogVersion": "v2026.10.047",
-  "previousCatalogVersion": "v2026.10.046",
+  "catalogVersion": "v2026.10.048",
+  "previousCatalogVersion": "v2026.10.047",
   "summary": {
     "added": 0,
     "removed": 0,
-    "updated": 6,
-    "unchanged": 823
+    "updated": 2,
+    "unchanged": 827
   },
   "changes": [
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7981",
-      "title": "Gunmarks: Battle results",
+      "sourceId": "7932",
+      "title": "Shell Distribution Logger",
       "previous": {
-        "modVersion": "0.1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_results_0.1.0.1_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-17T11:10:43.915Z",
+        "modVersion": "1.7.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "ShellDistributionLogger_1.7.1.zip",
+        "updatedAt": "2026-10-05T14:22:28.574Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "0.1.1",
+        "modVersion": "1.7.4",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_results_0.1.1.2_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-18T22:08:28.984Z",
-        "changeLog": ""
+        "fileName": "ShellDistributionLogger_1.7.4.zip",
+        "updatedAt": "2026-10-18T23:22:53.597Z",
+        "changeLog": "- Updated for client 2.4.1.0. Install to mods\\2.4.1.0. The archive includes the required gameface 1.2.2.\n- Fixed: the mod didn’t show up in the mods list on the new client, and its garage window wouldn’t open.\n- Fixed: an error could appear in the game log after returning from battle to the garage.\n- Changed: in the Hit view, cover now stays where it was when you fired. Only the target tank moves to where the shell landed."
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7980",
-      "title": "Gunmarks: Reticle",
+      "sourceId": "7798",
+      "title": "Hangar Carousel Classic",
       "previous": {
-        "modVersion": "0.2.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_reticle_0.2.3.6_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-17T11:07:20.491Z",
-        "changeLog": ""
+        "modVersion": "1.0.21",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "hangar_carousel_classic_1.0.21_full.zip",
+        "updatedAt": "2026-10-05T12:53:52.082Z",
+        "changeLog": "- Add verified native hangar bundle hashes for World of Tanks 2.4.0.2.\n- Update the classic carousel rental-filter patch and validation for the 2.4.0.2 bundle.\n- Include and validate the GameFace layout registration in built packages."
       },
       "current": {
-        "modVersion": "0.2.4",
+        "modVersion": "1.0.22",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_reticle_0.2.4.7_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-18T22:08:29.538Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7978",
-      "title": "Gunmarks: Distance to tanks",
-      "previous": {
-        "modVersion": "0.2.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_distance_0.2.3.40_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-17T11:07:10.262Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "0.2.4",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_distance_0.2.4.41_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-18T22:08:30.481Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7976",
-      "title": "Gunmarks: Onslaught",
-      "previous": {
-        "modVersion": "0.2.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_onslaught_0.2.3.40_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-17T11:07:12.319Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "0.2.4",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_onslaught_0.2.4.41_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-18T22:08:30.930Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7979",
-      "title": "Gunmarks: Marks of Excellence",
-      "previous": {
-        "modVersion": "0.2.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_moe_0.2.3.40_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-17T18:14:55.110Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "0.2.4",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "gunmarks_moe_0.2.4.41_wot2.4.1.0.zip",
-        "updatedAt": "2026-10-18T22:08:30.023Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7529",
-      "title": "Commander Selector",
-      "previous": {
-        "modVersion": "1.4.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Commander-Selector-1.4.2-Installer.zip",
-        "updatedAt": "2026-10-17T12:12:10.634Z",
-        "changeLog": "Updated to work with World of Tanks version 2.4.1."
-      },
-      "current": {
-        "modVersion": "1.5.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Commander-Selector-1.5.1-Installer.zip",
-        "updatedAt": "2026-10-18T22:07:50.297Z",
-        "changeLog": "Big UI improvement"
+        "fileName": "hangar_carousel_classic_1.0.22_full.zip",
+        "updatedAt": "2026-10-18T23:11:05.754Z",
+        "changeLog": "Updated for WoT 2.4.1.0"
       }
     }
   ]
