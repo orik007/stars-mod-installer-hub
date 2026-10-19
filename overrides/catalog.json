@@ -1,11 +1,87 @@
 {
-  "catalogVersion": "v2026.10.049",
-  "sourceHash": "8537bf3fb48e5aa5187e1bdba41b61193138d6177cdb1e5513ac4b9b0b9eb087",
+  "catalogVersion": "v2026.10.050",
+  "sourceHash": "2f72fca2c7b7c6dc42cb160831410e525975398c70d49fb76d20d78096aeb651",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8053",
+      "title": "Battle-Conquest",
+      "ownerUsername": "okuni",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Battle Capture Mod for Battle-Conquest. With this mod, you can record all your battles directly on Battle-Conquest, allowing you to take part in the Onslaught tournaments while also making it easier to complete your quests.</p><p>More information : https://battle-conquest.eu</p>",
+      "installationGuideHtml": "<p>Put the wotmod inside World of Tanks\\eu\\mods\\2.4.1.0</p><p>Then start de game and link your account (see the notification tab)</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Logo_B-C_302x302.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8053/",
+      "tagIds": [
+        "22",
+        "20",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/eu.battle-conquest_1.0.0.wotmod",
+          "updatedAt": "2026-10-19T19:49:46.922Z",
+          "sizeBytes": 158741,
+          "fileName": "eu.battle-conquest_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "eu.battle-conquest_1.0.0.wotmod",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8052",
+      "title": "Custom Vehicle Names",
+      "ownerUsername": "rezaiden",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Custom Vehicle Names lets you rename vehicles locally in your World Of Tanks client. Press Ctrl + Alt + N to open the mod user interface, where you can customize vehicle names and use filters to find specific vehicles.</p>",
+      "installationGuideHtml": "<p>Drop the .wotmod file in World_<i>of</i>_<i>Tanks\\mods\\&lt;game_version&gt;\\. For example, </i>C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8052/",
+      "tagIds": [
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.0.2",
+          "modVersion": "1.1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/local.custom_vehicle_names_1.1.5.wotmod",
+          "updatedAt": "2026-10-19T19:45:59.153Z",
+          "sizeBytes": 49035,
+          "fileName": "local.custom_vehicle_names_1.1.5.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "local.custom_vehicle_names_1.1.5.wotmod",
+        "modVersion": "1.1.5",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "warning"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8045",
@@ -34,16 +110,6 @@
           "fileName": "HagymásBab_mod_2.4.1.0.v02.zip",
           "fileExt": ".zip",
           "changeLog": "v02 (game version 2.4.1.0)\n- Volume levelled: every voice line was normalised to a consistent loudness. Before, the quietest and the\n  loudest lines differed by about 19 dB; now they are within a few dB of each other.\n- Overall level raised to match the stock crew voices (average speech level about -12.5 dBFS).\n- Peaks limited to -1 dBFS, so there is no clipping.\n- All lines re-encoded; the download is slightly smaller."
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "2.4.1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Hagym%C3%A1sBab_mod_2.4.1.0.zip",
-          "updatedAt": "2026-10-19T10:58:42.677Z",
-          "sizeBytes": 179372931,
-          "fileName": "HagymásBab_mod_2.4.1.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -241,43 +307,6 @@
       "latest": {
         "fileName": "EZ_ROOM_0.7.35.zip",
         "modVersion": "1.0",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "8046",
-      "title": "Camo Replacer",
-      "ownerUsername": "BaggieChan",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Camo Replacer is a mod that allows you to change the texture of any currently existing camo in World of Tanks to be that of another camo within the game.<br><br>All changes to camos are simply cosmetic and only appear on your screen, it any camo replaced will also appear on vehicles of allies and enemies who use the same camo.<br><br>**You must actually own the camo that you are wanting replaced and this mod does not allow you to purchase camos not currently available to purchase**</p>",
-      "installationGuideHtml": "<p>Make sure World of Tanks is closed. Download the .wotmod file and make your way to your world of tanks instillation folder and paste it inside the mods folder under the current game version.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-10-18_092819584.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/8046/",
-      "tagIds": [
-        "16"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/personal.camo_replacer_1.0.0.wotmod",
-          "updatedAt": "2026-10-19T08:53:31.485Z",
-          "sizeBytes": 40773428,
-          "fileName": "personal.camo_replacer_1.0.0.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "personal.camo_replacer_1.0.0.wotmod",
-        "modVersion": "1.0.0",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -1928,6 +1957,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Wachin.rar",
+          "updatedAt": "2026-10-19T19:36:12.744Z",
+          "sizeBytes": 42094,
+          "fileName": "Wachin.rar",
+          "fileExt": ".rar",
+          "changeLog": "Mod updated to version 2.4.1.0"
+        },
+        {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "1.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Wachin_zSbhRyE.rar",
@@ -1949,10 +1988,10 @@
         }
       ],
       "latest": {
-        "fileName": "Wachin_zSbhRyE.rar",
+        "fileName": "Wachin.rar",
         "modVersion": "1.0",
-        "changeLog": "The mod has been updated to game version 2.4.0.2",
-        "wotGameVersionCompatibility": "warning"
+        "changeLog": "Mod updated to version 2.4.1.0",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -4710,7 +4749,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.5,
       "descriptionHtml": "<p>🔍 <strong>Vehicle Stat Inspector</strong> expands the Vehicle Hub with detailed statistics that reflect your selected vehicle mode and loadout.</p><p>🚗 <strong>Vehicle Modes</strong><br>• Preview supported travel, siege, rapid, engagement, turbo, pillbox, and other vehicle-specific states<br>• Explore mechanics such as rocket acceleration, Nitro, staged boosters, Concentration, Wheeled Dash, and Low Charge Shot where supported<br>• See statistics update without changing your vehicle’s actual garage or battle mode</p><p>🧪 <strong>Loadout Sandbox</strong><br>• Experiment with equipment variants and stages, consumables, directives, boosted slots, crew perks, and field modifications<br>• Configure Tier XI upgrade trees with native artwork and prerequisite-aware selection<br>• Hover over field modifications and upgrades to see calculated before → after statistics, including prerequisite and dependent upgrade effects<br>• Adjust opacity with a saved slider: the background fades first, then text, icons, and borders below the marked 50% threshold<br>• Restore your current configuration or remove sandbox bonuses without changing your vehicle, inventory, or account</p><p>⚙️ <strong>Effective Mobility</strong><br>• Effective traverse speed on firm, medium, and soft terrain<br>• Estimated forward and reverse speeds for each terrain type<br>• Ground resistance and detailed modifier breakdowns</p><p>🎯 <strong>Gun Handling</strong><br>• Caliber, ammunition capacity, reload time, rate of fire, and DPM<br>• Shell-switching time with Intuition<br>• Dispersion during movement and hull or turret rotation<br>• Dispersion after firing and with a damaged gun<br>• Aiming time and gun-traverse values</p><p>💥 <strong>Shell Details</strong><br>• Choose which shell determines primary damage, penetration, and DPM<br>• Compare damage, penetration, velocity, module damage, and range<br>• Inspect penetration at 500 metres, normalization, and ricochet angles<br>• View distance-dependent damage, explosion radius, and stun duration where applicable</p><p>👁️ <strong>Spotting and Concealment</strong><br>• View range, signal range, and stationary, moving, and after-firing concealment<br>• Spotting duration, notification delays, and relevant loadout effects</p><p>🛡️ <strong>Survivability</strong><br>• Vehicle HP and separate hull- and turret-armor values<br>• Module health, including damaged-state repair thresholds<br>• Engine fire chance and applicable critical-damage probabilities</p><p>🔧 <strong>Configuration Breakdowns</strong><br>Hover over or focus supported statistics to inspect individual contributions from crew, equipment, consumables, and directives. See how field modifications and vehicle upgrades change the baseline, and explore conditional perk effects.</p><p>🎯 <strong>Armor Inspector Integration</strong><br>• Supports native Shell Calibration for attacker shells<br>• Adds supported attacker-mode switching while preserving the selected defender</p><p>🌍 Available in <strong>19 languages</strong>.<br>📦 Required <strong>GameFace framework</strong> included in the download.</p><p>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a><br><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/7875-Vehicle-Stat-Inspector_Vdptrb9.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -7603,16 +7642,6 @@
           "updatedAt": "2026-10-18T15:33:57.130Z",
           "sizeBytes": 6469957,
           "fileName": "AVG_Damage0.1.4.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "0.1.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.3_JPb7Obd.zip",
-          "updatedAt": "2026-10-12T07:52:05.413Z",
-          "sizeBytes": 6466940,
-          "fileName": "AVG_Damage0.1.3_JPb7Obd.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
@@ -17201,7 +17230,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 3.7,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=EJfZUBKAORY\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/EJfZUBKAORY\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><br>We are pleased to present you the Ukrainian modpack, which contains only important and useful mods</p>",
       "installationGuideHtml": "<p>&nbsp;</p>",
@@ -17213,6 +17242,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.10",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.4.1.0.exe",
+          "updatedAt": "2026-10-19T19:29:08.949Z",
+          "sizeBytes": 130800142,
+          "fileName": "Nagleishiy_ModPack_for_2.4.1.0.exe",
+          "fileExt": ".exe",
+          "changeLog": "Додано мод Власний ангар"
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "1.9",
@@ -17262,23 +17301,13 @@
           "fileName": "Nagleishiy_ModPack_for_2.4.0.0.exe",
           "fileExt": ".exe",
           "changeLog": "Додані моди:    \n-Слпиваючий урон без XVM  \n-Знищена техніка на мапі"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "1.4",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.3.1.3.exe",
-          "updatedAt": "2026-09-11T13:37:58.707Z",
-          "sizeBytes": 116731553,
-          "fileName": "Nagleishiy_ModPack_for_2.3.1.3.exe",
-          "fileExt": ".exe",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Nagleishiy_ModPack_for_2.4.0.2_h4QQmxE.exe",
-        "modVersion": "1.9",
-        "changeLog": "Додані\\змінені моди:\nMoE Pro – калькулятор позначок\nGarage Progress Bar",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "Nagleishiy_ModPack_for_2.4.1.0.exe",
+        "modVersion": "1.10",
+        "changeLog": "Додано мод Власний ангар",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -25795,7 +25824,7 @@
         "en"
       ],
       "recommended": false,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>Default penetration indicator is little difficult to see for me, so I changed texture so that simply and easy to see.</p><p>This mod works in \"<strong>Crosshair Ⅰ(with penetration indicator)</strong>\".</p><p>--------------------------------------------------------------------------------</p><p>デフォルトの装甲貫通インジケータ―が見づらく感じた為、テクスチャを置き替えました。</p><p><strong>十字線Ⅰ(装甲貫通インジケータ―付き)</strong>に設定したときに動作します。</p><p>-------------------------------------------------------------------------------</p><p><i><strong>hornreny@gmail.com</strong></i></p>",
       "installationGuideHtml": "<p>Copy to the current version folder in mods folder.</p><p>If you use Aslain's modpack, you might have same name file there, but you should overwrite that.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/pm_NJuefO1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -47700,6 +47729,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "3.0.37",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_TCm596K.zip",
+          "updatedAt": "2026-10-19T17:03:16.979Z",
+          "sizeBytes": 4944514,
+          "fileName": "ProMod_TCm596K.zip",
+          "fileExt": ".zip",
+          "changeLog": "new: WarMod Engine Sounds\nnew: Friends Marker\nUpdated WarMod Gun Sounds\nUpdated HR Engine Sounds\nUpdated Mod Menu\nUpdated Advanced Personal Efficiency\nUpdated Aiminfo Pro\nUpdated HangMan Hangar Manager"
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "3.0.36",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_GXOLpua.zip",
           "updatedAt": "2026-10-16T09:22:25.133Z",
@@ -47747,22 +47786,12 @@
           "fileName": "ProMod.zip",
           "fileExt": ".zip",
           "changeLog": "Installer: Fixed Handling of previous Modfolders (ignore them for now)\nInstaller: Fixed Custom Sixth Sense Install from Streamer\n\nAdded Chat Bug fix by Aslain (new bug introduced by WG lul)\n\nUpdated Advanced Techtree\nUpdated Battle Efficiency\nUpdated Research Progressbar\nUpdated Battle Equipment\n\nDisabled Spot Meter\nDisabled Advanced Personal Efficiency\nDisabled Damage Stickers\nDisabled Gun Contraints"
-        },
-        {
-          "wotGameVersion": "2.4.0.2",
-          "modVersion": "3.0.30",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_0P5wZ1O.zip",
-          "updatedAt": "2026-10-10T17:43:22.932Z",
-          "sizeBytes": 4915760,
-          "fileName": "ProMod_0P5wZ1O.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated Reduction Info\nUpdated GUIFlash\nUpdated Hitmarker Pro\nUpdated Hanar Manager\nUpdated Overmatch"
         }
       ],
       "latest": {
-        "fileName": "ProMod_GXOLpua.zip",
-        "modVersion": "3.0.36",
-        "changeLog": "Updated Pro Core Engine (Clan Rewards Claim Fix)\nUpdated HangMan (Hangar Manager)",
+        "fileName": "ProMod_TCm596K.zip",
+        "modVersion": "3.0.37",
+        "changeLog": "new: WarMod Engine Sounds\nnew: Friends Marker\nUpdated WarMod Gun Sounds\nUpdated HR Engine Sounds\nUpdated Mod Menu\nUpdated Advanced Personal Efficiency\nUpdated Aiminfo Pro\nUpdated HangMan Hangar Manager",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -47775,7 +47804,7 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 2.7,
       "descriptionHtml": "<p>-xvm = XVM &nbsp;!!! NEUSTE !!!<br>-Carusell einstellbar<br>-Top Minimap letzte Position<br>-Bessere Statistik<br>-Goldmuni Anzeige usw…<br>-Hitlog<br>-AutoEquip &amp; Manschaft<br>-Player Ratings WN8<br>-Capture Info<br>-Ingame Uhrzeit und auch im Hangar<br>-Neue TankIcon 3D / Made of SicFunzler<br>-Ingame Damage Log<br>-Sixth Sense Audio Mod und mit SicFunzler LOGO und verbleibende Zeit</p><ul><li>Gunmarks mit SicFunzler LOGO<br>-Erweiterte Gefechtsauswertung<br>-Tank View Range</li></ul><p>-Gold Premium Tank und kaufbar oder nicht.</p><p>Alle Änderungen werden auf meiner Homepage aufgelistet:</p><p><a href=\"http://www.gaisboeck.at/SicFunzler/index.htm\">SicFunzler-Mod-Seite</a></p><p>Ein kleines Video vom Mod:&nbsp;</p><p><a href=\"https://www.youtube.com/watch?v=OM66h7GCrrk\">So spielt man mit diesen Mod&nbsp;</a></p><p>Wer will, der kann:</p><p><a href=\"https://www.paypal.com/paypalme/SicFunzler\">Spende</a></p><p>MFG</p><p>SicFunzler</p>",
       "installationGuideHtml": "<p><strong>Wichtig Einstellungen ganz einfach unter:</strong></p><p>Laufwerk\\Games\\World_of_Tanks\\res_mods\\configs\\xvm\\SicFunzler\\einstellen</p><p>Standart Faben für WOT:</p><p>FarbEinstellungen.xc</p><p>ZoomFaktor:</p><p>KameraZoom.xc</p><p>StartZoom:</p><p>StartZoom.xc</p><p>Laufwerk\\Games\\World_of_Tanks_EU\\res_mods\\configs\\xvm\\SicFunzler\\einstellen\\XVM</p><p>true = Eingeschalted</p><p>false = Ausgeschalted</p><p>Anzeige des TD &amp; Arty wirkbereiches</p><p>Aimingbereich.xc</p><p>Handbremse bei TD´s ausschalten</p><p>TdHandbremse.xc</p><p>&nbsp;</p>",
@@ -47787,6 +47816,16 @@
         "13"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "V342",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V342.exe",
+          "updatedAt": "2026-10-19T19:16:55.369Z",
+          "sizeBytes": 296879952,
+          "fileName": "SicFunzler-Mod_V342.exe",
+          "fileExt": ".exe",
+          "changeLog": "Einige kleine Updates "
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "V334",
@@ -47836,23 +47875,13 @@
           "fileName": "SicFunzler-Mod_V310.exe",
           "fileExt": ".exe",
           "changeLog": "Kleine Verbesserungen"
-        },
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "V308",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SicFunzler-Mod_V308.exe",
-          "updatedAt": "2026-09-11T19:34:07.268Z",
-          "sizeBytes": 296513704,
-          "fileName": "SicFunzler-Mod_V308.exe",
-          "fileExt": ".exe",
-          "changeLog": "Update \n2.3.1.0"
         }
       ],
       "latest": {
-        "fileName": "SicFunzler-Mod_V334.exe",
-        "modVersion": "V334",
-        "changeLog": "Update auf 2.4.0.2",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "SicFunzler-Mod_V342.exe",
+        "modVersion": "V342",
+        "changeLog": "Einige kleine Updates ",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

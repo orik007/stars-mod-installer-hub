@@ -1,244 +1,134 @@
 {
-  "catalogVersion": "v2026.10.049",
-  "previousCatalogVersion": "v2026.10.048",
+  "catalogVersion": "v2026.10.050",
+  "previousCatalogVersion": "v2026.10.049",
   "summary": {
-    "added": 8,
-    "removed": 0,
-    "updated": 6,
-    "unchanged": 823
+    "added": 2,
+    "removed": 1,
+    "updated": 4,
+    "unchanged": 832
   },
   "changes": [
     {
       "type": "added",
       "source": "wgmods",
-      "sourceId": "8045",
-      "title": "Hagymásbab for WoT",
-      "previous": null,
-      "current": {
-        "modVersion": "2.4.1.0.02",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "HagymásBab_mod_2.4.1.0.v02.zip",
-        "updatedAt": "2026-10-19T11:57:04.486Z",
-        "changeLog": "v02 (game version 2.4.1.0)\n- Volume levelled: every voice line was normalised to a consistent loudness. Before, the quietest and the\n  loudest lines differed by about 19 dB; now they are within a few dB of each other.\n- Overall level raised to match the stock crew voices (average speech level about -12.5 dBFS).\n- Peaks limited to -1 dBFS, so there is no clipping.\n- All lines re-encoded; the download is slightly smaller."
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8037",
-      "title": "Roll Analyzer",
-      "previous": null,
-      "current": {
-        "modVersion": "0.2.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "wot_roll_analyzer_0.2.2.zip",
-        "updatedAt": "2026-10-19T10:58:32.456Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8036",
-      "title": "Dark Pavilion",
-      "previous": null,
-      "current": {
-        "modVersion": "0.9",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Dark_Pavilion_EU_2.4.1.0_BETA.zip",
-        "updatedAt": "2026-10-19T10:55:30.302Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8041",
-      "title": "Fixed: Girls und Panzer music mod",
+      "sourceId": "8053",
+      "title": "Battle-Conquest",
       "previous": null,
       "current": {
         "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "GuP_music_Ver_1.0.0.zip",
-        "updatedAt": "2026-10-19T10:47:43.298Z",
+        "fileName": "eu.battle-conquest_1.0.0.wotmod",
+        "updatedAt": "2026-10-19T19:49:46.922Z",
         "changeLog": ""
       }
     },
     {
       "type": "added",
       "source": "wgmods",
-      "sourceId": "8048",
-      "title": "Mod Unique 3D Style Update 2.4.1",
+      "sourceId": "8052",
+      "title": "Custom Vehicle Names",
       "previous": null,
       "current": {
-        "modVersion": "2.4.1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Update_2.4.1_phuochung94.uniquestyles_mDs9pAh.zip",
-        "updatedAt": "2026-10-19T10:10:24.375Z",
+        "modVersion": "1.1.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "local.custom_vehicle_names_1.1.5.wotmod",
+        "updatedAt": "2026-10-19T19:45:59.153Z",
         "changeLog": ""
       }
     },
     {
-      "type": "added",
+      "type": "updated",
       "source": "wgmods",
-      "sourceId": "8047",
-      "title": "EZ_ROOM",
-      "previous": null,
+      "sourceId": "7955",
+      "title": "6th sense audio Argentina",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "Wachin_zSbhRyE.rar",
+        "updatedAt": "2026-10-01T13:39:48.212Z",
+        "changeLog": "The mod has been updated to game version 2.4.0.2"
+      },
       "current": {
         "modVersion": "1.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "EZ_ROOM_0.7.35.zip",
-        "updatedAt": "2026-10-19T09:37:02.400Z",
-        "changeLog": ""
+        "fileName": "Wachin.rar",
+        "updatedAt": "2026-10-19T19:36:12.744Z",
+        "changeLog": "Mod updated to version 2.4.1.0"
       }
     },
     {
-      "type": "added",
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7535",
+      "title": "MODPAK Nagleishiy",
+      "previous": {
+        "modVersion": "1.9",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "Nagleishiy_ModPack_for_2.4.0.2_h4QQmxE.exe",
+        "updatedAt": "2026-10-08T14:40:59.517Z",
+        "changeLog": "Додані\\змінені моди:\nMoE Pro – калькулятор позначок\nGarage Progress Bar"
+      },
+      "current": {
+        "modVersion": "1.10",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Nagleishiy_ModPack_for_2.4.1.0.exe",
+        "updatedAt": "2026-10-19T19:29:08.949Z",
+        "changeLog": "Додано мод Власний ангар"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "535",
+      "title": "OldSkools ProMod",
+      "previous": {
+        "modVersion": "3.0.36",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ProMod_GXOLpua.zip",
+        "updatedAt": "2026-10-16T09:22:25.133Z",
+        "changeLog": "Updated Pro Core Engine (Clan Rewards Claim Fix)\nUpdated HangMan (Hangar Manager)"
+      },
+      "current": {
+        "modVersion": "3.0.37",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ProMod_TCm596K.zip",
+        "updatedAt": "2026-10-19T17:03:16.979Z",
+        "changeLog": "new: WarMod Engine Sounds\nnew: Friends Marker\nUpdated WarMod Gun Sounds\nUpdated HR Engine Sounds\nUpdated Mod Menu\nUpdated Advanced Personal Efficiency\nUpdated Aiminfo Pro\nUpdated HangMan Hangar Manager"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "508",
+      "title": "SicFunzler Mod",
+      "previous": {
+        "modVersion": "V334",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "SicFunzler-Mod_V334.exe",
+        "updatedAt": "2026-10-03T17:12:05.214Z",
+        "changeLog": "Update auf 2.4.0.2"
+      },
+      "current": {
+        "modVersion": "V342",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "SicFunzler-Mod_V342.exe",
+        "updatedAt": "2026-10-19T19:16:55.369Z",
+        "changeLog": "Einige kleine Updates "
+      }
+    },
+    {
+      "type": "removed",
       "source": "wgmods",
       "sourceId": "8046",
       "title": "Camo Replacer",
-      "previous": null,
-      "current": {
+      "previous": {
         "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.0",
         "fileName": "personal.camo_replacer_1.0.0.wotmod",
         "updatedAt": "2026-10-19T08:53:31.485Z",
         "changeLog": ""
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8040",
-      "title": "Fochträger - Foch 155",
-      "previous": null,
-      "current": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Fochtrager.wotmod",
-        "updatedAt": "2026-10-19T08:32:41.505Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8026",
-      "title": "3D Camo Selector",
-      "previous": {
-        "modVersion": "2.8.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "3D-Camo-Selector-2.8.2-Installer.zip",
-        "updatedAt": "2026-10-18T07:09:29.317Z",
-        "changeLog": ""
       },
-      "current": {
-        "modVersion": "2.8.3",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "3D-Camo-Selector-2.8.3-Installer.zip",
-        "updatedAt": "2026-10-19T10:10:29.550Z",
-        "changeLog": "Code polishing."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7954",
-      "title": "NightBattles",
-      "previous": {
-        "modVersion": "2.4.0.1",
-        "wotGameVersion": "2.4.0.1",
-        "fileName": "nightly_battles_2.4.0.1_TNjFZRD.wotmod",
-        "updatedAt": "2026-09-26T08:12:20.408Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "2.4.1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "ju1ion.nightly_battles_2.4.1.0.wotmod",
-        "updatedAt": "2026-10-19T08:32:38.731Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7529",
-      "title": "Commander Selector",
-      "previous": {
-        "modVersion": "1.5.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Commander-Selector-1.5.1-Installer.zip",
-        "updatedAt": "2026-10-18T22:07:50.297Z",
-        "changeLog": "Big UI improvement"
-      },
-      "current": {
-        "modVersion": "1.5.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Commander-Selector-1.5.2-Installer.zip",
-        "updatedAt": "2026-10-19T10:10:35.366Z",
-        "changeLog": "Code polishing."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7528",
-      "title": "Be Quiet Fool!",
-      "previous": {
-        "modVersion": "1.0.7",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Be-Quiet-Fool-1.0.7-Installer.zip",
-        "updatedAt": "2026-10-17T12:12:06.678Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.0.8",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Be-Quiet-Fool-1.0.8-Installer.zip",
-        "updatedAt": "2026-10-19T10:47:46.109Z",
-        "changeLog": "Code polishing."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7520",
-      "title": "No Notifications!",
-      "previous": {
-        "modVersion": "1.0.7",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "no_notifications_1.0.7_ncOymdY.wotmod",
-        "updatedAt": "2026-10-15T10:38:00.245Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.0.8",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "no_notifications_1.0.8.wotmod",
-        "updatedAt": "2026-10-19T10:47:49.007Z",
-        "changeLog": "Code polishing."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "6669",
-      "title": "P_o_g_S Contour Icon Mod [continued by DaMatz]",
-      "previous": {
-        "modVersion": "2.4.0.2_261003",
-        "wotGameVersion": "2.4.0.2",
-        "fileName": "ContourIcons_PoGs_2.4.0.2_261003.zip",
-        "updatedAt": "2026-10-04T10:57:26.362Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "2.4.1.0_261018",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "ContourIcons_PoGs_2.4.1.0_261018.zip",
-        "updatedAt": "2026-10-19T09:36:40.935Z",
-        "changeLog": ""
-      }
+      "current": null
     }
   ]
 }
