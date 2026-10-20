@@ -1,11 +1,50 @@
 {
-  "catalogVersion": "v2026.10.052",
-  "sourceHash": "8d3ba9eb0a12b0923178643fda216245f8a2aada59369fd2ef6f2d3505912f7e",
+  "catalogVersion": "v2026.10.053",
+  "sourceHash": "ccfe4ad6c8a3aa398ad7a3e141a4ecbfaad7360abb4200563a1fe3c1b24b0f1c",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8035",
+      "title": "P.E.N.D.I.N.G.: Progress Empty Nodes Displayed In Name Garage.",
+      "ownerUsername": "Oooompf",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>A tiny [x/y] next to each tank’s name tells you at a glance how far you’ve got with its field mods and upgrades – so you can finally stop clicking through all the tanks and start playing the game. You’re welcome!</p>",
+      "installationGuideHtml": "<ol><li>Download the .wotmod file below. Groundbreaking, I know.</li><li>Drop it into your World of Tanks mods folder for your client version, e.g. World_of_Tanks_EU/mods/2.4.1.0/. Yes, that folder. The one you never open.</li><li>Restart the game. Go on, you were going to alt-F4 after the next loss anyway.</li><li>Open the garage and enjoy the numbers judging you.<br>&nbsp;</li></ol><p><strong>Dependencies:</strong> None. It’s a single .wotmod — no libraries, no launcher, no 40-minute setup video.<br><strong>Tested on</strong> World of Tanks 2.4.1.0 (EU). Other versions may work, may not, may set your garage on fire. Probably fine.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mjrd_missing_mods_cover_en.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8035/",
+      "tagIds": [
+        "18",
+        "13",
+        "20"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "0.1.18",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd_missing_mods_v0.1.16.wotmod",
+          "updatedAt": "2026-10-20T09:01:31.670Z",
+          "sizeBytes": 3259,
+          "fileName": "mjrd_missing_mods_v0.1.16.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "mjrd_missing_mods_v0.1.16.wotmod",
+        "modVersion": "0.1.18",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8053",
@@ -56,7 +95,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Custom Vehicle Names lets you rename vehicles locally in your World Of Tanks client. Press Ctrl + Alt + N to open the mod user interface, where you can customize vehicle names and use filters to find specific vehicles.</p>",
+      "descriptionHtml": "<p>Custom Vehicle Names lets you rename vehicles locally in your World Of Tanks client. Press Ctrl + Alt + N to open the mod user interface, where you can customize vehicle names and use filters to find specific vehicles. Mod discovers vehicles dynamically, so it should be able to pick up any new vehicles WG adds to the game.&nbsp;</p>",
       "installationGuideHtml": "<p>Drop the .wotmod file in World_<i>of</i>_<i>Tanks\\mods\\&lt;game_version&gt;\\. For example, </i>C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/thumbnail.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8052/",
@@ -64,6 +103,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/local.custom_vehicle_names_1.1.5_9XZIJX9.wotmod",
+          "updatedAt": "2026-10-20T12:20:30.052Z",
+          "sizeBytes": 49035,
+          "fileName": "local.custom_vehicle_names_1.1.5_9XZIJX9.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "1.1.5",
@@ -76,10 +125,10 @@
         }
       ],
       "latest": {
-        "fileName": "local.custom_vehicle_names_1.1.5.wotmod",
+        "fileName": "local.custom_vehicle_names_1.1.5_9XZIJX9.wotmod",
         "modVersion": "1.1.5",
         "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -232,6 +281,45 @@
         "fileName": "GuP_music_Ver_1.0.0.zip",
         "modVersion": "1.0.0",
         "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8039",
+      "title": "Bansliders Mods",
+      "ownerUsername": "ReZ0NanS",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Bansliders Mods is a modpack for World of Tanks EU with a Windows installer. The installer finds your game folder, shows every mod with a short description, installs the ones you tick and removes them in one click. Your existing mod settings are kept.</p><p>&nbsp;</p><p>Included mods:</p><ul><li>Player stats: battles, win rate and WN8 next to every player in the ears and TAB, plus your own win rate on hangar tank cards (official Wargaming API, XVM is not needed).</li><li>- Sixth sense with the Bansliders logo and a countdown.</li><li>- Main Caliber: how much damage is left for the medal.</li><li>- Battle equipment panel.</li><li>- Armor calculator.</li><li>- Distance to enemies.</li><li>- Gun marks: mastery progress in battle and in the hangar.</li><li>- White destroyed tanks.</li><li>- No fog.</li><li>- Space sky: Milky Way, stars only, nebula or night.</li><li>- Coloured trees and bushes.</li><li>- FPS limit.</li></ul><p>Required libraries (GUIFlash, ModsSettings API, ModsList API with OpenWG Gameface, OpenWG Common) are installed automatically. Works on Windows 10/11, nothing else has to be installed.</p><p>&nbsp;</p><p>Українською: Bansliders Mods — модпак для World of Tanks EU з інсталятором для Windows. Інсталятор сам знаходить гру, показує кожен мод із коротким описом, ставить обрані й видаляє їх одним кліком, а ваші налаштування модів лишаються. У складі: статистика гравців (бої, відсоток перемог і WN8 у вухах і TAB, ваш відсоток перемог на картках танків в ангарі), шосте чуття з логотипом Bansliders, «Основний калібр», обладнання в бою, калькулятор бронепробиття, відстань до ворогів, відмітки на гарматі, білі знищені танки, без туману, космічне небо (Чумацький Шлях, лише зорі, туманність, ніч), кольорові дерева й кущі, обмеження FPS. Потрібні бібліотеки встановлюються автоматично.</p>",
+      "installationGuideHtml": "<p>Download BanslidersModsSetup.exe and run it (Windows 10/11, no archive to unpack). Step 1: the installer finds your World of Tanks EU folder itself; if not, press Browse and pick WorldOfTanks.exe, then Next. Step 2: tick the mods you want; for Space sky choose a sky, for Coloured trees a colour. Step 3: press Install and wait for the result, then start the game. To remove mods, tick them and press Remove selected; your settings are kept. Українською: завантажте й запустіть BanslidersModsSetup.exe (Windows 10/11, архів розпаковувати не треба). Крок 1: інсталятор сам знаходить папку гри, якщо ні, натисніть «Огляд» і виберіть WorldOfTanks.exe. Крок 2: позначте моди, для неба оберіть небо, для дерев колір. Крок 3: «Встановити» і запустіть гру. Видалення: позначте моди й «Видалити вибрані», налаштування лишаються.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_bs_logo.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8039/",
+      "tagIds": [
+        "12",
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.8.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/BanslidersModsSetup_1.8.3.exe",
+          "updatedAt": "2026-10-20T13:53:07.873Z",
+          "sizeBytes": 13980160,
+          "fileName": "BanslidersModsSetup_1.8.3.exe",
+          "fileExt": ".exe",
+          "changeLog": "A mod has been added that calculates the HP of all tanks in the team lists."
+        }
+      ],
+      "latest": {
+        "fileName": "BanslidersModsSetup_1.8.3.exe",
+        "modVersion": "1.8.3",
+        "changeLog": "A mod has been added that calculates the HP of all tanks in the team lists.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2895,6 +2983,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.3.30",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wot_audit_log_1.3.30.zip",
+          "updatedAt": "2026-10-20T14:16:32.710Z",
+          "sizeBytes": 369268,
+          "fileName": "wot_audit_log_1.3.30.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added\n- Vehicle issues: \"Field upgrade ready\" – vehicles with enough combat XP for the next field modification step (same rule as the in-game counter; free XP not counted).\n- Vehicle issues: \"Directives not working\" – a directive without its equipment, or a crew directive with nothing left to give. The alternative setup is checked too.\n- New \"Statistics\" section replaces \"Marks of Excellence\": random-battle stats for owned and sold vehicles in one table. Choose columns (same groups as the in-game profile), sort by header, scroll sideways; filter by tier, nation, type, ownership, marks, mastery and minimum battles.\n\nChanged\n- New modsList icon: magnifier with an exclamation mark.\n\nRemoved\n- \"Marks of Excellence\" section – now columns and filters in \"Statistics\"."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "1.3.19",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wot_audit_log_1.3.19_NMGRLZ2.zip",
           "updatedAt": "2026-10-18T07:17:35.646Z",
@@ -2915,9 +3013,9 @@
         }
       ],
       "latest": {
-        "fileName": "wot_audit_log_1.3.19_NMGRLZ2.zip",
-        "modVersion": "1.3.19",
-        "changeLog": "• New sections: \"Vehicle XP\" (combat XP on garage and sold vehicles, elite status, free XP), \"Incomplete ammo\" (fewer shells than the gun holds), \"Marks of excellence\" (marks, percentage and mastery of tier V–XI vehicles in one table), \"Crew members\" (every crew member with battles, average XP and skills), \"3D styles\" (which 3D style is applied on each vehicle and which ones are unused).\n• \"Vehicle issues\" is now a single table instead of five sections. The filter has an \"Issue type\" group so you can pick which issues to show.\n• Hangar worth: a new \"Exterior\" row. It covers customisation in the depot that the game lets you sell for credits, with a price table and a \"Type\" filter.\n• The panel opens from the mods list button in the Garage footer.\n• The panel can be resized and the left menu scrolls. ",
+        "fileName": "wot_audit_log_1.3.30.zip",
+        "modVersion": "1.3.30",
+        "changeLog": "Added\n- Vehicle issues: \"Field upgrade ready\" – vehicles with enough combat XP for the next field modification step (same rule as the in-game counter; free XP not counted).\n- Vehicle issues: \"Directives not working\" – a directive without its equipment, or a crew directive with nothing left to give. The alternative setup is checked too.\n- New \"Statistics\" section replaces \"Marks of Excellence\": random-battle stats for owned and sold vehicles in one table. Choose columns (same groups as the in-game profile), sort by header, scroll sideways; filter by tier, nation, type, ownership, marks, mastery and minimum battles.\n\nChanged\n- New modsList icon: magnifier with an exclamation mark.\n\nRemoved\n- \"Marks of Excellence\" section – now columns and filters in \"Statistics\".",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3813,13 +3911,23 @@
       "recommended": true,
       "mark": 3.7,
       "descriptionHtml": "<p>仿照巨响图标，自制的坦克战斗中文图标。</p>",
-      "installationGuideHtml": "<p><strong>EN_Simple：Short Name + Clip Size</strong></p><p>Included natively in Aslain's WoT Mod Manager</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Aslain</p><p>----------------------------------------------------------------------------------------------------------</p><p>参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。</p><p>如果喜欢，请登录账号给个赞。谢谢</p><p><strong>CN_Simple（标准版）：含型号名称+弹夹容量</strong></p><p><strong>CN_Armor（装甲版）：含型号名称+装甲值（车体）</strong></p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装方法：</p><p>下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。</p><p>或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。</p><p>PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ASMA%E4%B8%AD%E6%96%87%E5%9B%BE%E6%A0%87%E5%B0%81%E9%9D%A2_YH2myTD.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "installationGuideHtml": "<p>参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。</p><p><strong>CN_Simple（标准版）：含型号名称+弹夹容量</strong></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* Classic magazine/传统弹夹车</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+ Autoreloader/弹鼓车</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^ &nbsp;Double-barreled/双管车</p><p><strong>CN_Armor（装甲版）：含型号名称+装甲值（车体）</strong></p><p>----------------------------------------------------------------------------------------------------------</p><p>1/使用效果：</p><p>战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。</p><p>2/图标颜色的含义：</p><p>背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮</p><p>名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车</p><p>3/安装方法：</p><p>下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。</p><p>或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。</p><p>PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。</p><p>如果喜欢，请登录账号给个赞。谢谢</p><p>Created using <a href=\"https://roman.st/TankIconMaker\"><i>Tank Icon Maker</i></a><i> </i>software developed by Aslain</p><p>&nbsp;</p><p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/ASMA%E4%B8%AD%E6%96%87%E5%9B%BE%E6%A0%87%E5%B0%81%E9%9D%A2_igLanks.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7906/",
       "tagIds": [
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA.Icons.2.4.1.0.1.zip",
+          "updatedAt": "2026-10-20T13:28:18.308Z",
+          "sizeBytes": 7154590,
+          "fileName": "ASMA.Icons.2.4.1.0.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "对标准版中的弹夹容量，进一步进行区分。以不同符号表示不同装填机制。具体看详细介绍 。"
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "2.4.1.0.0",
@@ -3869,22 +3977,12 @@
           "fileName": "ASMA_CN_Icons.2.4.0.0.1_gEnRSgm.zip",
           "fileExt": ".zip",
           "changeLog": "1/标准版图标进行了微调。\n2/新增装甲值版。"
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.4.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ASMA_Icons.2.4.0.0.CN.zip",
-          "updatedAt": "2026-09-09T07:22:09.326Z",
-          "sizeBytes": 6102813,
-          "fileName": "ASMA_Icons.2.4.0.0.CN.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "ASMA.Icons.CN.2.4.1.0.0.zip",
-        "modVersion": "2.4.1.0.0",
-        "changeLog": "1/样式修改及优化\n2/星号表示弹夹车载弹量\n3/增加英文版",
+        "fileName": "ASMA.Icons.2.4.1.0.1.zip",
+        "modVersion": "2.4.1.0.1",
+        "changeLog": "对标准版中的弹夹容量，进一步进行区分。以不同符号表示不同装填机制。具体看详细介绍 。",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -34506,7 +34604,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 3.9,
+      "mark": 3.8,
       "descriptionHtml": "<figure class=\"media\"><div data-oembed-url=\"https://youtu.be/OitHDzsJdBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/OitHDzsJdBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><strong>Supported Languages:</strong> українська, English, Deutsch, polski, русский<br><br><a href=\"https://github.com/Armagomen/battle_observer\">GITHUB</a></p><p><strong>Interface and Battle Statistics Enhancements</strong><br>1. Display of team health (HP of individual tanks + strength difference)<br>2. Log of dealt and received damage<br>3. Counter of active and destroyed tanks<br>4. Updated PING and FPS panels<br>5. Customizable battle timer<br>6. Player stats in battle (WG rating only)<br>7. Modified base capture indicators<br>8. Damage counter for “High Caliber” medal<br>9. Display of your tank's HP in a visible spot<br>10. Highlighting players with hidden names in team lists<br>11. Clock in garage and battle</p><p><strong>Camera, Aiming, and Visual Settings</strong><br>1. Dynamic camera zoom based on distance<br>2. Maximum camera distance<br>3. Projectile flight time indicator<br>4. Improved aiming circle and server reticle (size, stabilization timer)<br>5. Centering the minimap via hotkey + info about destroyed tanks (icon/name)<br>6. Customization of icons in team lists (brightness, color)<br>7. Armor calculator: actual thickness + reticle color change<br>8. Distance to the nearest spotted enemy (no direction)<br>9. Disable effects: shaking, flashes, blackout in sniper mode<br>10. Disable commander voiceovers<br>11. Auto-exit sniper mode after firing (optional)<br>12. Customization of “Sixth Sense” icon (timer, animation, image)</p><p><strong>Team, System, and Utility Features</strong><br>1. Auto-clear game cache on exit<br>2. Highlighting friends/clanmates in team lists with a special symbol<br>3. Message filtering in system chat<br>4. Check slot availability for map blacklist<br>5. Tank performance widget in garage (damage, spotting, blocking, stun, gun mark progress)<br>6. Auto-toggle “accelerated crew training” based on field modifications<br>7. Auto-collection of clan rewards<br>8. Disable base capture siren</p><p><strong>Post-Destruction Modes</strong><br>1. After death, the camera anchors to the last-known position<br>2. Adjust camera distance after being destroyed</p>",
       "installationGuideHtml": "<p>Run the installation file.&nbsp;<br>Go to the hangar, customize the mod for yourself, if you did not do it during the installation stage.&nbsp;<br>Play.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/logo_2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -47054,7 +47152,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>由于是亚服账号，将根据亚服更新进度更新。</p><p>As it is the Asian service account, it will be updated according to the update schedule of Asian service.</p><p>这是通用的，可以用在任何语言环境。</p><p>This is universal and can be used in any language.<br>——————————————————————————————</p><p>主题包反馈QQ群：1022803107</p><p>当审核缓慢时，你可以提前到github下载最新版。</p><p>When the mod approval is slow, you can download it here.</p><p>github:<a href=\"https://github.com/SEA-group/GIRLS-und-PANZER-UI\">SEA-group/GIRLS-und-PANZER-UI</a></p><p>——————————————————————————————</p><p>This theme pack is created based on the principle of not conflicting with other plugins as much as possible,&nbsp;<br>So no modifications were made to files that conflict with other functional plugins. &nbsp;<br><br>本主题包本着尽量与其他插件不冲突的原则制作，&nbsp;<br>因此没有对与其他功能插件冲突的文件进行修改。</p><p>——————————————————————————————</p><p>修改了坦克世界的以下内容<br>（The following contents have been modified）：</p><p>对话框背景（Dialog box background）;<br>大部分界面按钮（Most of the interface buttons）；<br>大部分界面背景（Most of the interface background）；<br>抬头图（Head up map）；<br>登录界面图片（Login interface picture）；<br>旗帜（Flags and signs）；<br>战斗中玩家列表（Player list in battle）；<br>载入标志（logo）；<br>etc.</p><p>———————————————————————————————</p><p><strong>感谢以下画师对本主题包的授权支持：</strong><br><strong>Thanks to the following painter’s authorization for this UI</strong></p><p>画师昵称以及P站ID：<br>はんじゅくいぬ（278064）<br>幻像黒兎（4462245）<br>ひづき夜宵（37274）<br>Yoo菌（4473405）<br>描にゃー（586844）<br>Renard_1118（18482655）<br>MA-2（12519877）<br>巻羊（9145919）<br>raiber0731（16316024）<br>葵蜜柑（2806035）<br>片塚工司（14272）<br>くらがり（38082）<br>椎名エクセル（3388173）<br>マサム（1922283）<br>ｍ－くん（899657）<br>野良苺（947712）<br>Renatus·Z（4565747）<br>Schmeichel20（5178112）&nbsp;<br>rurudo（25760573）&nbsp;<br>Useless（5815364）</p><p><strong>感谢以下画师的画作：</strong><br><strong>Thanks to the drawing of the following painter</strong></p><p>わたのん（1202103）<br>瑞樹（850379）<br>米白粕（867590）<br>芦原（3226932）<br>Anmi（212801）<br>はるこん（973926）<br>あかさあい?（427664）<br>かぱたろー（5261301）<br>まるかた（6359）<br>シシャモ子爵（18634583）<br>そま莉（14277724）<br>もぶ（6676101）<br>うずら（15460358）<br>はれぽれ（3847）<br>NAbyssor（467511）<br>奏南（1183402）<br>?（8203）<br>吉啓（676562）</p>",
       "installationGuideHtml": "<p>Put the “[2.2.1.3]GIRLS und PANZER UI.wotmod” file in \"/mods/2.2.1.3/\" folder&nbsp;<br><br>把“[2.2.1.3]GIRLS und PANZER UI.wotmod”安装在“/mods/2.2.1.3/”文件夹里</p>",
@@ -47066,6 +47164,16 @@
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.4.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.1.0GIRLS_und_PANZER_UI.wotmod",
+          "updatedAt": "2026-10-20T12:32:52.788Z",
+          "sizeBytes": 639003570,
+          "fileName": "2.4.1.0GIRLS_und_PANZER_UI.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Change the main menu text of the garage to blue, and add pictures to the garage."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "2.4.0.2",
@@ -47118,10 +47226,10 @@
         }
       ],
       "latest": {
-        "fileName": "2.4.0.2GIRLS_und_PANZER_UI_KYqID33.wotmod",
-        "modVersion": "2.4.0.2",
-        "changeLog": "2.4.0.2",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "2.4.1.0GIRLS_und_PANZER_UI.wotmod",
+        "modVersion": "2.4.1.0",
+        "changeLog": "Change the main menu text of the garage to blue, and add pictures to the garage.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

@@ -1,45 +1,99 @@
 {
-  "catalogVersion": "v2026.10.052",
-  "previousCatalogVersion": "v2026.10.051",
+  "catalogVersion": "v2026.10.053",
+  "previousCatalogVersion": "v2026.10.052",
   "summary": {
-    "added": 1,
-    "removed": 2,
-    "updated": 2,
-    "unchanged": 835
+    "added": 2,
+    "removed": 0,
+    "updated": 4,
+    "unchanged": 834
   },
   "changes": [
     {
       "type": "added",
       "source": "wgmods",
-      "sourceId": "7817",
-      "title": "Блокувальник командирських озвучень/Disable Special Voices",
+      "sourceId": "8035",
+      "title": "P.E.N.D.I.N.G.: Progress Empty Nodes Displayed In Name Garage.",
       "previous": null,
       "current": {
-        "modVersion": "1.1",
-        "wotGameVersion": "2.4.0.1",
-        "fileName": "DisableSpecialVoices.rar",
-        "updatedAt": "2026-09-22T10:45:01.785Z",
+        "modVersion": "0.1.18",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "mjrd_missing_mods_v0.1.16.wotmod",
+        "updatedAt": "2026-10-20T09:01:31.670Z",
         "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7050",
-      "title": "Actual Lights (Standalone)",
+      "sourceId": "8052",
+      "title": "Custom Vehicle Names",
       "previous": {
-        "modVersion": "v1.13",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "Actual_Lights_v1.13.rar",
-        "updatedAt": "2026-10-17T00:00:35.055Z",
+        "modVersion": "1.1.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "local.custom_vehicle_names_1.1.5.wotmod",
+        "updatedAt": "2026-10-19T19:45:59.153Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "v1.14",
+        "modVersion": "1.1.5",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Actual_Lights_v1.14.rar",
-        "updatedAt": "2026-10-20T07:21:34.808Z",
-        "changeLog": "v1.14 Update for 2.4.1.0:\n- added lights for E 77 \"Monarch\" and adjusted default emission settings to make the lights stand out more"
+        "fileName": "local.custom_vehicle_names_1.1.5_9XZIJX9.wotmod",
+        "updatedAt": "2026-10-20T12:20:30.052Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8039",
+      "title": "Bansliders Mods",
+      "previous": null,
+      "current": {
+        "modVersion": "1.8.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "BanslidersModsSetup_1.8.3.exe",
+        "updatedAt": "2026-10-20T13:53:07.873Z",
+        "changeLog": "A mod has been added that calculates the HP of all tanks in the team lists."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7908",
+      "title": "Garage audit",
+      "previous": {
+        "modVersion": "1.3.19",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_audit_log_1.3.19_NMGRLZ2.zip",
+        "updatedAt": "2026-10-18T07:17:35.646Z",
+        "changeLog": "• New sections: \"Vehicle XP\" (combat XP on garage and sold vehicles, elite status, free XP), \"Incomplete ammo\" (fewer shells than the gun holds), \"Marks of excellence\" (marks, percentage and mastery of tier V–XI vehicles in one table), \"Crew members\" (every crew member with battles, average XP and skills), \"3D styles\" (which 3D style is applied on each vehicle and which ones are unused).\n• \"Vehicle issues\" is now a single table instead of five sections. The filter has an \"Issue type\" group so you can pick which issues to show.\n• Hangar worth: a new \"Exterior\" row. It covers customisation in the depot that the game lets you sell for credits, with a price table and a \"Type\" filter.\n• The panel opens from the mods list button in the Garage footer.\n• The panel can be resized and the left menu scrolls. "
+      },
+      "current": {
+        "modVersion": "1.3.30",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_audit_log_1.3.30.zip",
+        "updatedAt": "2026-10-20T14:16:32.710Z",
+        "changeLog": "Added\n- Vehicle issues: \"Field upgrade ready\" – vehicles with enough combat XP for the next field modification step (same rule as the in-game counter; free XP not counted).\n- Vehicle issues: \"Directives not working\" – a directive without its equipment, or a crew directive with nothing left to give. The alternative setup is checked too.\n- New \"Statistics\" section replaces \"Marks of Excellence\": random-battle stats for owned and sold vehicles in one table. Choose columns (same groups as the in-game profile), sort by header, scroll sideways; filter by tier, nation, type, ownership, marks, mastery and minimum battles.\n\nChanged\n- New modsList icon: magnifier with an exclamation mark.\n\nRemoved\n- \"Marks of Excellence\" section – now columns and filters in \"Statistics\"."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7906",
+      "title": "ASMA Battle Contours Icons 中文图标",
+      "previous": {
+        "modVersion": "2.4.1.0.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ASMA.Icons.CN.2.4.1.0.0.zip",
+        "updatedAt": "2026-10-16T21:54:22.809Z",
+        "changeLog": "1/样式修改及优化\n2/星号表示弹夹车载弹量\n3/增加英文版"
+      },
+      "current": {
+        "modVersion": "2.4.1.0.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ASMA.Icons.2.4.1.0.1.zip",
+        "updatedAt": "2026-10-20T13:28:18.308Z",
+        "changeLog": "对标准版中的弹夹容量，进一步进行区分。以不同符号表示不同装填机制。具体看详细介绍 。"
       }
     },
     {
@@ -48,47 +102,19 @@
       "sourceId": "1177",
       "title": "GIRLS und PANZER UI",
       "previous": {
-        "modVersion": "2.4.1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "2.4.1.0GIRLS_und_PANZER_UI.wotmod",
-        "updatedAt": "2026-10-18T15:36:09.958Z",
-        "changeLog": "2.4.1.0"
-      },
-      "current": {
         "modVersion": "2.4.0.2",
         "wotGameVersion": "2.4.0.2",
         "fileName": "2.4.0.2GIRLS_und_PANZER_UI_KYqID33.wotmod",
         "updatedAt": "2026-10-01T12:25:27.850Z",
         "changeLog": "2.4.0.2"
+      },
+      "current": {
+        "modVersion": "2.4.1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "2.4.1.0GIRLS_und_PANZER_UI.wotmod",
+        "updatedAt": "2026-10-20T12:32:52.788Z",
+        "changeLog": "Change the main menu text of the garage to blue, and add pictures to the garage."
       }
-    },
-    {
-      "type": "removed",
-      "source": "wgmods",
-      "sourceId": "8029",
-      "title": "Negev Voiceover — Girls' Frontline",
-      "previous": {
-        "modVersion": "1.0.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "negev_voice_1.0.1_QlyHHh3.wotmod",
-        "updatedAt": "2026-10-18T15:36:59.588Z",
-        "changeLog": ""
-      },
-      "current": null
-    },
-    {
-      "type": "removed",
-      "source": "wgmods",
-      "sourceId": "8044",
-      "title": "Radio UA (Dance Radio)",
-      "previous": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "RadioUA.rar",
-        "updatedAt": "2026-10-18T09:57:01.446Z",
-        "changeLog": ""
-      },
-      "current": null
     }
   ]
 }
