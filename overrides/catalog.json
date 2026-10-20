@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.050",
-  "sourceHash": "2f72fca2c7b7c6dc42cb160831410e525975398c70d49fb76d20d78096aeb651",
+  "catalogVersion": "v2026.10.051",
+  "sourceHash": "ce33a74974b585c0dfd11cc5411bae65b25dc167ccd37960cdc45e5484461b68",
   "sources": [
     "wgmods",
     "modhub"
@@ -308,6 +308,53 @@
         "fileName": "EZ_ROOM_0.7.35.zip",
         "modVersion": "1.0",
         "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8046",
+      "title": "Camo Replacer",
+      "ownerUsername": "BaggieChan",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Camo Replacer is a mod that allows you to change the texture of any currently existing camo in World of Tanks to be that of another camo within the game.<br><br>All changes to camos are simply cosmetic and only appear on your screen, it any camo replaced will also appear on vehicles of allies and enemies who use the same camo.<br><br>Credit to POLIROID for the modification list.<br><br>**You must actually own the camo that you are wanting replaced and this mod does not allow you to purchase camos not currently available to purchase**</p>",
+      "installationGuideHtml": "<p>Make sure World of Tanks is closed. Download the zip file and make your way to your world of tanks instillation folder and paste all of the contents inside the file inside the mods folder under the current game version.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/image_2026-10-19_121907670.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8046/",
+      "tagIds": [
+        "16"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/camo_replacer_1.1.1.zip",
+          "updatedAt": "2026-10-19T19:41:17.888Z",
+          "sizeBytes": 38438755,
+          "fileName": "camo_replacer_1.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Fixed an issue with favorites and replaced camos not saving on game relaunch\n- Added integration with the modification list\n- Replaced camos now have the correct paint, decals, and wear\n- Added a random camo and a random favorite camo button"
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/personal.camo_replacer_1.0.0.wotmod",
+          "updatedAt": "2026-10-19T08:53:31.485Z",
+          "sizeBytes": 40773428,
+          "fileName": "personal.camo_replacer_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "camo_replacer_1.1.1.zip",
+        "modVersion": "1.1.1",
+        "changeLog": "- Fixed an issue with favorites and replaced camos not saving on game relaunch\n- Added integration with the modification list\n- Replaced camos now have the correct paint, decals, and wear\n- Added a random camo and a random favorite camo button",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -10075,8 +10122,8 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.3,
-      "descriptionHtml": "<p>Stops your Personal Reserves from starting while you are still stuck in a fight. ⏳💥 Pick a Personal Reserve normally, and the mod will hold it until you leave the battle or the battle is decided. Enable Auto Renew to keep scheduling another reserve of the same type until you stop it or run out.</p><p>That means less wasted boost time and better timing for your next match. No menus to babysit, no awkward waiting—just choose your reserve and keep playing.</p><p><strong>Features:</strong></p><p>⏳ Activates scheduled Personal Reserves when you leave the battle or the battle is decided<br>🔁 Optionally keeps automatically scheduling reserves of the same type<br>💾 Remembers your Auto Renew preference between game restarts<br>💥 Helps prevent wasted boost minutes<br>🎯 Works from the garage and in battle<br>🔔 Shows translated hangar notifications with Auto Renew and Cancel buttons<br>⚡ Instantly activates scheduled reserves with Ctrl + Alt + A<br>❌ Cancels scheduled reserves with the notification’s <strong>Cancel</strong> button or Ctrl + Alt + R<br>🛑 <strong>Stop Renew</strong> disables future renewals without cancelling the current schedule</p><p>To cancel the next automatic renewal completely, click <strong>Cancel</strong>.<br>&nbsp;</p><p><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
+      "mark": 4.4,
+      "descriptionHtml": "<p>Stops your Personal Reserves from starting while you are still stuck in a fight. ⏳💥 Pick a Personal Reserve normally, and the mod will hold it until you leave the battle or the battle is decided. Enable Auto Renew to keep scheduling another reserve of the same type until you stop it or run out.</p><p>That means less wasted boost time and better timing for your next match. No menus to babysit, no awkward waiting—just choose your reserve and keep playing.</p><p><strong>Controls in the Personal Reserves window:</strong> Use <strong>Activate now</strong>, <strong>Clear schedule</strong>, <strong>Auto-renew reserves</strong>, and <strong>Remember schedule</strong> directly beside your reserves. Hover over either setting for details. Remember schedule is off by default; enable it to keep your selected reserve types queued after restarting the game or switching accounts.</p><p><strong>Features:</strong></p><p>⏳ Activates scheduled Personal Reserves when you leave the battle or the battle is decided<br>🔁 Optionally keeps automatically scheduling reserves of the same type<br>💾 Remembers your Auto Renew preference between game restarts<br>💥 Helps prevent wasted boost minutes<br>🎯 Works from the garage and in battle<br>🔔 Shows translated hangar notifications with Auto Renew and Cancel buttons<br>⚡ Instantly activates scheduled reserves with Ctrl + Alt + A<br>❌ Cancels scheduled reserves with the notification’s <strong>Cancel</strong> button or Ctrl + Alt + R<br>🛑 <strong>Stop Renew</strong> disables future renewals without cancelling the current schedule</p><p>To cancel the next automatic renewal completely, click <strong>Cancel</strong>.<br>&nbsp;</p><p><br>For Support / Questions / Suggestions visit: <a href=\"https://discord.gg/DqZ8fuX43C\">https://discord.gg/DqZ8fuX43C</a></p><p><i>Support me on Patreon: </i><a href=\"https://www.patreon.com/c/Gravity_Assist\"><i>https://www.patreon.com/c/Gravity_Assist</i></a></p>",
       "installationGuideHtml": "<p>Close World of Tanks. Extract the ZIP archive and copy every included .wotmod file into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Remove older versions of the same mod, then start the game.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/7720-Scheduled-Personal-Reserves.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7720/",
@@ -10085,6 +10132,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "2.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.scheduled_personal_reserves.2.4.1.0.2.2.0.zip",
+          "updatedAt": "2026-10-19T21:07:37.826Z",
+          "sizeBytes": 1295234,
+          "fileName": "gravity.scheduled_personal_reserves.2.4.1.0.2.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added scheduling controls and hover help to the Personal Reserves window; improved saved schedule restoration across restarts and reconnects."
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "2.1.0",
@@ -10097,9 +10154,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.scheduled_personal_reserves.2.4.1.0.2.1.0.zip",
-        "modVersion": "2.1.0",
-        "changeLog": "",
+        "fileName": "gravity.scheduled_personal_reserves.2.4.1.0.2.2.0.zip",
+        "modVersion": "2.2.0",
+        "changeLog": "Added scheduling controls and hover help to the Personal Reserves window; improved saved schedule restoration across restarts and reconnects.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -20911,6 +20968,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.5.10",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.10.20.1.zip",
+          "updatedAt": "2026-10-19T21:55:46.428Z",
+          "sizeBytes": 4841362,
+          "fileName": "skill4ltu_2026.10.20.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "1.5.09",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.10.12.1.zip",
           "updatedAt": "2026-10-12T14:18:59.884Z",
@@ -20958,21 +21025,11 @@
           "fileName": "skill4ltu_2026.09.07.1.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.5.07",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/skill4ltu_2026.09.01.1.zip",
-          "updatedAt": "2026-09-11T12:54:06.037Z",
-          "sizeBytes": 4794964,
-          "fileName": "skill4ltu_2026.09.01.1.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "skill4ltu_2026.10.12.1.zip",
-        "modVersion": "1.5.09",
+        "fileName": "skill4ltu_2026.10.20.1.zip",
+        "modVersion": "1.5.10",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -31745,16 +31802,6 @@
           "updatedAt": "2026-09-12T15:45:03.216Z",
           "sizeBytes": 37373,
           "fileName": "Actual_Lights_v1.13_MlnktDD.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "v1.13",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Actual_Lights_v1.13_pmFioNj.rar",
-          "updatedAt": "2026-09-12T04:50:04.410Z",
-          "sizeBytes": 37373,
-          "fileName": "Actual_Lights_v1.13_pmFioNj.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
