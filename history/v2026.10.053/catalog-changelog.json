@@ -1,0 +1,1294 @@
+{
+  "catalogVersion": "v2026.10.053",
+  "previousCatalogVersion": "v2026.10.052",
+  "summary": {
+    "added": 3,
+    "removed": 0,
+    "updated": 62,
+    "unchanged": 776
+  },
+  "changes": [
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8055",
+      "title": "Real World Weather - Local Weather & Time of Day",
+      "previous": null,
+      "current": {
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "real-world-weather-1.0.0-wot-2.4.1.0.zip",
+        "updatedAt": "2026-10-20T19:02:17.306Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8035",
+      "title": "P.E.N.D.I.N.G.: Progress Empty Nodes Displayed In Name Garage",
+      "previous": null,
+      "current": {
+        "modVersion": "0.1.18",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "mjrd_missing_mods_v0.1.16.wotmod",
+        "updatedAt": "2026-10-20T09:01:31.670Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8052",
+      "title": "Custom Vehicle Names",
+      "previous": {
+        "modVersion": "1.1.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "local.custom_vehicle_names_1.1.5.wotmod",
+        "updatedAt": "2026-10-19T19:45:59.153Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1.5",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "local.custom_vehicle_names_1.1.5_9XZIJX9.wotmod",
+        "updatedAt": "2026-10-20T12:20:30.052Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8037",
+      "title": "Roll Analyzer",
+      "previous": {
+        "modVersion": "0.2.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_roll_analyzer_0.2.2.zip",
+        "updatedAt": "2026-10-19T10:58:32.456Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "0.2.11",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_roll_analyzer_0.2.11.zip",
+        "updatedAt": "2026-10-20T14:26:26.832Z",
+        "changeLog": "New\n- Settings window: set your own thresholds for when a row's roll turns green (in your favour) or red (against you), 1–25% each, with − / + buttons. Default is still 10%; the battle summary is coloured as before.\n\nChanged\n- Row colour follows the shown percentage: \"+10%\" at a 10% threshold is always green (it could stay white at 9.96%).\n\nFixed\n- The native damage log comes back if our panel stops updating due to an error or breaks in the first seconds of battle.\n- If the game didn't report a battle's end, the next battle closes the previous one properly.\n- On unload, the mod restores the native log without touching other mods' changes.\n- A hit you survived before the fatal one is no longer marked as a finishing blow.\n- Post-battle notification: consistent rounding; vehicles without mechanics show a normal summary.\n- Log rows no longer jump into the summary row if it failed to draw; assist rows stay even if the assist type is unknown."
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8039",
+      "title": "Bansliders Mods",
+      "previous": null,
+      "current": {
+        "modVersion": "1.8.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "BanslidersModsSetup_1.8.3.exe",
+        "updatedAt": "2026-10-20T13:53:07.873Z",
+        "changeLog": "A mod has been added that calculates the HP of all tanks in the team lists."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7973",
+      "title": "DARK // SFAC 105 - ATLAS FV105-2",
+      "previous": {
+        "modVersion": "Version 1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "SFAC-105-ATLAS-FV105-2-PremiumSkin3D.zip",
+        "updatedAt": "2026-09-30T23:38:38.782Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "Version 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "SFAC-105-ATLAS-FV105-2-PremiumSkin3D_ewyQCCR.zip",
+        "updatedAt": "2026-10-20T15:35:34.385Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7974",
+      "title": "DARK // Ashigaru - NEW GENERATION",
+      "previous": {
+        "modVersion": "Version 1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "Ashigaru-NEW-GENERATION-Skin3DLuxurys.zip",
+        "updatedAt": "2026-09-30T23:38:24.641Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "Version 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Ashigaru-NEW-GENERATION-Skin3DLuxurys_vtLbiPS.zip",
+        "updatedAt": "2026-10-20T15:01:00.512Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7908",
+      "title": "Garage audit",
+      "previous": {
+        "modVersion": "1.3.19",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_audit_log_1.3.19_NMGRLZ2.zip",
+        "updatedAt": "2026-10-18T07:17:35.646Z",
+        "changeLog": "• New sections: \"Vehicle XP\" (combat XP on garage and sold vehicles, elite status, free XP), \"Incomplete ammo\" (fewer shells than the gun holds), \"Marks of excellence\" (marks, percentage and mastery of tier V–XI vehicles in one table), \"Crew members\" (every crew member with battles, average XP and skills), \"3D styles\" (which 3D style is applied on each vehicle and which ones are unused).\n• \"Vehicle issues\" is now a single table instead of five sections. The filter has an \"Issue type\" group so you can pick which issues to show.\n• Hangar worth: a new \"Exterior\" row. It covers customisation in the depot that the game lets you sell for credits, with a price table and a \"Type\" filter.\n• The panel opens from the mods list button in the Garage footer.\n• The panel can be resized and the left menu scrolls. "
+      },
+      "current": {
+        "modVersion": "1.3.30",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wot_audit_log_1.3.30.zip",
+        "updatedAt": "2026-10-20T14:16:32.710Z",
+        "changeLog": "Added\n- Vehicle issues: \"Field upgrade ready\" – vehicles with enough combat XP for the next field modification step (same rule as the in-game counter; free XP not counted).\n- Vehicle issues: \"Directives not working\" – a directive without its equipment, or a crew directive with nothing left to give. The alternative setup is checked too.\n- New \"Statistics\" section replaces \"Marks of Excellence\": random-battle stats for owned and sold vehicles in one table. Choose columns (same groups as the in-game profile), sort by header, scroll sideways; filter by tier, nation, type, ownership, marks, mastery and minimum battles.\n\nChanged\n- New modsList icon: magnifier with an exclamation mark.\n\nRemoved\n- \"Marks of Excellence\" section – now columns and filters in \"Statistics\"."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7906",
+      "title": "ASMA Battle Contours Icons 中文图标",
+      "previous": {
+        "modVersion": "2.4.1.0.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ASMA.Icons.CN.2.4.1.0.0.zip",
+        "updatedAt": "2026-10-16T21:54:22.809Z",
+        "changeLog": "1/样式修改及优化\n2/星号表示弹夹车载弹量\n3/增加英文版"
+      },
+      "current": {
+        "modVersion": "2.4.1.0.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ASMA.Icons.2.4.1.0.1.zip",
+        "updatedAt": "2026-10-20T13:28:18.308Z",
+        "changeLog": "对标准版中的弹夹容量，进一步进行区分。以不同符号表示不同装填机制。具体看详细介绍 。"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7875",
+      "title": "Vehicle Stat Inspector",
+      "previous": {
+        "modVersion": "2.0.7",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.1.0.2.0.7.zip",
+        "updatedAt": "2026-10-13T09:23:00.647Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.0.8",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "gravity.vehicle_stat_inspector.2.4.1.0.2.0.8.zip",
+        "updatedAt": "2026-10-20T17:24:32.241Z",
+        "changeLog": "Shows Object 432U heat-level damage in HP instead of percentages; updates heat damage and timings with selected Tier XI upgrades and shows matching upgrade-preview changes."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7797",
+      "title": "DARK // Obj.268 V5 - VALHALLA",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "dark.Obj.268V5-Valhalla-PremiumV.zip",
+        "updatedAt": "2026-09-11T13:03:16.051Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.Obj.268V5-Valhalla-PremiumV_Y3YbgZH.zip",
+        "updatedAt": "2026-10-20T15:01:46.561Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7795",
+      "title": "DARK // UDES 03 Alt 3 - BLITZTRÄGER",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "dark.UDES-03-alt3-BLITZTRAGER-Luxury.zip",
+        "updatedAt": "2026-09-11T13:50:58.512Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.UDES-03-alt3-BLITZTRAGER-Luxury_MIbGVZo.zip",
+        "updatedAt": "2026-10-20T15:44:33.121Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7796",
+      "title": "DARK // Jagdpanzer E 90 - LEGIONNAIRE",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "JgPzE90-Legionnaire-PremiumSkin3D.zip",
+        "updatedAt": "2026-09-13T05:16:37.220Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "JgPzE90-Legionnaire-PremiumSkin3D_9KvpPan.zip",
+        "updatedAt": "2026-10-20T15:55:23.459Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7772",
+      "title": "DARK // Concept 5 - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "Concept5-NewGen-3dSkinPremiumClassicVersion_FRmDY8j.zip",
+        "updatedAt": "2026-09-12T12:51:24.552Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Concept5-NewGen-3dSkinPremiumClassicVersion_GosoKnD.zip",
+        "updatedAt": "2026-10-20T15:02:18.595Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7732",
+      "title": "DARK // STB-1 - NEW WARFARE",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "STB-1_-_NEW_WARFARE_-_PremiumV_jk0D9xF.zip",
+        "updatedAt": "2026-09-18T17:06:04.906Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "STB-1_-_NEW_WARFARE_-_PremiumV_Q4RjvyR.zip",
+        "updatedAt": "2026-10-20T15:00:42.501Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7731",
+      "title": "DARK // Char MURAT - NEW GENERATION",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "Char-MURAT-NEW-GEN-Premium_5uUrtXe.zip",
+        "updatedAt": "2026-09-12T04:56:02.222Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Char-MURAT-NEW-GEN-Premium_HDFWEpB.zip",
+        "updatedAt": "2026-10-20T15:37:41.117Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7730",
+      "title": "DARK // AMX M4 mle. 54 - NEW WARFARE",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "AMX-M4-54-NEW-WARFARE-Premium_GrlQIS8.zip",
+        "updatedAt": "2026-09-18T16:44:47.842Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "AMX-M4-54-NEW-WARFARE-Premium_P2IDcjP.zip",
+        "updatedAt": "2026-10-20T15:03:30.675Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7695",
+      "title": "Marked ammo icons for WoT 2.0",
+      "previous": {
+        "modVersion": "1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "letter_shell_icons_2.0_v1.0_5QyBYhQ.wotmod",
+        "updatedAt": "2026-10-14T22:39:03.345Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "letter_shell_icons_2.0_v1.1.wotmod",
+        "updatedAt": "2026-10-20T19:12:10.912Z",
+        "changeLog": "Added all of the Halloween / Babylon Dark Tower ammo icons"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7675",
+      "title": "DARK // Serpente - THE DESTRUCTOR",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.2.1.3",
+        "fileName": "dark.Serpente-Destructor-FreeVersionSkin3D.wotmod",
+        "updatedAt": "2026-05-20T21:59:34.662Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.Serpente-Destructor-FreeVersionSkin3D_dyQLVvN.wotmod",
+        "updatedAt": "2026-10-20T15:04:05.116Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7664",
+      "title": "DARK // ARES 75 - NEW GENERATION",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "ARES-75-NEW-GEN-PremiumSkin3D_xSxI0yS.zip",
+        "updatedAt": "2026-09-12T20:20:34.708Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ARES-75-NEW-GEN-PremiumSkin3D_GP8eMZc.zip",
+        "updatedAt": "2026-10-20T15:39:14.775Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7500",
+      "title": "DARK // E-100 - THE HUNTER",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "E-100-THE-HUNTER-LuxurySkin3D_1IqHwLc.zip",
+        "updatedAt": "2026-09-12T09:04:48.632Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "E-100-THE-HUNTER-LuxurySkin3D_VsWB9Pr.zip",
+        "updatedAt": "2026-10-20T15:06:00.829Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7501",
+      "title": "DARK // Obj.703 II - NIGHTMARE",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "Obj703II-NIGHTMARE-LuxuryV_IHuateH.zip",
+        "updatedAt": "2026-09-13T21:46:44.550Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Obj703II-NIGHTMARE-LuxuryV_jayXPNv.zip",
+        "updatedAt": "2026-10-20T15:06:50.895Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7443",
+      "title": "DARK // XM57 - LEGIONNAIRE",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "dark.XM57-LEGION-Luxury-Version_mo0daqu.zip",
+        "updatedAt": "2026-09-18T17:05:30.061Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.XM57-LEGION-Luxury-Version_J75hfl5.zip",
+        "updatedAt": "2026-10-20T15:07:30.927Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7444",
+      "title": "DARK // WZ-113G FT - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "dark.WZ-113GFT-NEW-GEN-Premium_VuYXVlm.zip",
+        "updatedAt": "2026-09-11T13:03:07.964Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.WZ-113GFT-NEW-GEN-Premium_GWLmRk9.zip",
+        "updatedAt": "2026-10-20T15:23:27.898Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7441",
+      "title": "DARK // Fantôme - NEW WARFARE",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "Fantome-NEW-WARFARE-Skin3D_NZFHdWQ.zip",
+        "updatedAt": "2026-09-11T13:03:13.906Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Fantome-NEW-WARFARE-Skin3D_L2jCkdC.zip",
+        "updatedAt": "2026-10-20T15:19:51.597Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7390",
+      "title": "DARK // 60TP – MODERN ARMOR",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.2.1.2",
+        "fileName": "60TP-Modern-Armor-Premium_CgYR7l1.zip",
+        "updatedAt": "2026-04-29T23:50:17.473Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "60TP-Modern-Armor-Premium_T1j4RV6.zip",
+        "updatedAt": "2026-10-20T15:42:33.116Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7391",
+      "title": "DARK // TYPE 71 - BLITZTRÄGER",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "Type71-BLIZTRAGER-Luxury_v3mac0B.zip",
+        "updatedAt": "2026-09-12T12:48:27.728Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Type71-BLIZTRAGER-Luxury_EgRwOBZ.zip",
+        "updatedAt": "2026-10-20T15:36:56.480Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7363",
+      "title": "DARK // AMX 30 B - SPECIALE FORCE",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "AMX30B-SPECIALE_FORCE-LuxuryPremiumskin3D_KG7ZZkD.zip",
+        "updatedAt": "2026-09-12T15:52:11.452Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "AMX30B-SPECIALE_FORCE-LuxuryPremiumskin3D_3EXzYcw.zip",
+        "updatedAt": "2026-10-20T15:51:28.263Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7364",
+      "title": "DARK // AE PHASE 1 - NEW WARFARE",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "AE-Phase1-NEW-WARFARE-PremiumSkin3D_offvW3w.zip",
+        "updatedAt": "2026-09-18T16:19:21.768Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "AE-Phase1-NEW-WARFARE-PremiumSkin3D_sIRWzEZ.zip",
+        "updatedAt": "2026-10-20T15:29:57.550Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7358",
+      "title": "DARK // ST-II - PROJECT BABYLON",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "ST-II-BABYLON-Projet-FreeVersion_grdTYSJ.zip",
+        "updatedAt": "2026-09-12T18:06:41.683Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "ST-II-BABYLON-Projet-FreeVersion_oLwdgTe.zip",
+        "updatedAt": "2026-10-20T14:59:16.429Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7316",
+      "title": "Obj.703 II - ARMORED",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "dark.obj-703II-Armored-premium_WWuWK7N.zip",
+        "updatedAt": "2026-09-12T15:52:09.407Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.obj-703II-Armored-premium_EVJlZDX.zip",
+        "updatedAt": "2026-10-20T15:38:12.504Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7315",
+      "title": "KPZ. EK 1 - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "KPZ-EK1-NEW-GEN-LuxuryVersion-skin3D_4AJ5bNX.zip",
+        "updatedAt": "2026-09-18T16:09:51.970Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "KPZ-EK1-NEW-GEN-LuxuryVersion-skin3D_awVJ66E.zip",
+        "updatedAt": "2026-10-20T15:24:57.850Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7314",
+      "title": "FV215B (183) - STEAMPUNK",
+      "previous": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "FV215B-183-STEAMPUNK-PremiumVClassic.zip_uoGaprd.zip",
+        "updatedAt": "2026-09-13T18:15:40.884Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "V1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "FV215B-183-STEAMPUNK-PremiumVClassic.zip_PeXYUqD.zip",
+        "updatedAt": "2026-10-20T15:54:41.498Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7293",
+      "title": "DARK // Minotauro - NEW WARFARE",
+      "previous": {
+        "modVersion": "Version 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "Minotauro-NEW-WARFARE-PremiumV_uk0bSUB.zip",
+        "updatedAt": "2026-09-11T13:40:53.773Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "Version 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Minotauro-NEW-WARFARE-PremiumV_yTHKNDs.zip",
+        "updatedAt": "2026-10-20T15:55:55.486Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7270",
+      "title": "DARK // WZ-111 Model 6 - BLITZTRAGER",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.2.1.2",
+        "fileName": "dark.WZ-111-Model-6-NEW-WARFARE-Luxury_tVvkn3W.zip",
+        "updatedAt": "2026-04-29T23:49:51.450Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.WZ-111-Model-6-NEW-WARFARE-Luxury_mTx3hg6.zip",
+        "updatedAt": "2026-10-20T15:58:53.645Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7269",
+      "title": "DARK // CONCEPT 1B - NEW GEN",
+      "previous": {
+        "modVersion": "Version 1.2",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "Concept1B-NEW-GEN-PremiumSkin3D_S6Mrgyo.zip",
+        "updatedAt": "2026-09-12T04:57:02.491Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "Version 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Concept1B-NEW-GEN-PremiumSkin3D_G8aZtns.zip",
+        "updatedAt": "2026-10-20T15:32:17.981Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7198",
+      "title": "DARK // SFAC-105 -GENDARMERIE",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "dark.SFAC105-GENDARMERIE-FreeV_qJ6SsU5.zip",
+        "updatedAt": "2026-09-11T13:16:18.945Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.SFAC105-GENDARMERIE-FreeV_jlN1baB.zip",
+        "updatedAt": "2026-10-20T15:53:49.365Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7197",
+      "title": "DARK //  Chieftain Mk. 6 - MODERN ARMOR",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "dark.ChieftainMk.6-MORDERN-ARMOR-FreeV_zKS6Ox8.zip",
+        "updatedAt": "2026-09-12T20:20:30.802Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.ChieftainMk.6-MORDERN-ARMOR-FreeV_Q27ylzi.zip",
+        "updatedAt": "2026-10-20T15:57:08.284Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7178",
+      "title": "DARK // Obj.277 - NEW GENERATION",
+      "previous": {
+        "modVersion": "Version 1.2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "Obj277-NEW-GEN-ClassicFreeSkin3D_Sx1bqOc.zip",
+        "updatedAt": "2026-09-12T12:48:19.716Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "Version 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Obj277-NEW-GEN-ClassicFreeSkin3D_0C0ATPh.zip",
+        "updatedAt": "2026-10-20T15:28:00.028Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7177",
+      "title": "DARK // KanJPz 105 - NEW WARFARE",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.2.1.2",
+        "fileName": "dark.KanJPz105-NEW-WARFARE-ClassicFreeV_tt4ipUt.zip",
+        "updatedAt": "2026-04-29T23:51:17.526Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.KanJPz105-NEW-WARFARE-ClassicFreeV_FgehWN1.zip",
+        "updatedAt": "2026-10-20T15:59:01.648Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7068",
+      "title": "DARK // WT-E100 - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.2.1.2",
+        "fileName": "dark.WT-E100-NEW-GEN-LuxuryVersion_SB8PQlf.zip",
+        "updatedAt": "2026-04-29T23:51:53.577Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.WT-E100-NEW-GEN-LuxuryVersion_j3tCS2a.zip",
+        "updatedAt": "2026-10-20T15:59:54.565Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7055",
+      "title": "DARK // IS-7 - HEDGEHOG",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "dark.IS-7-Hedgehog_FREE-Version_FR3YH8J.zip",
+        "updatedAt": "2026-09-11T13:03:10.025Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.IS-7-Hedgehog_FREE-Version_EDjsUUy.zip",
+        "updatedAt": "2026-10-20T14:57:42.311Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7053",
+      "title": "DARK // GROM - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "dark.Grom-NEW-GEN-FREE-Version_Wjsd5cm.zip",
+        "updatedAt": "2026-09-12T09:11:42.670Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.Grom-NEW-GEN-FREE-Version_L4gGjrr.zip",
+        "updatedAt": "2026-10-20T15:53:07.337Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7054",
+      "title": "DARK // DZT-159 - MODERN ARMOR",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "DZT-159_MODERN_ARMOR_FREE_Version_RmAAzMu.zip",
+        "updatedAt": "2026-09-13T05:16:43.104Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "DZT-159_MODERN_ARMOR_FREE_Version_vJD2FRP.zip",
+        "updatedAt": "2026-10-20T16:00:18.962Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7022",
+      "title": "DARK // BZ-75 - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "BZ-75-NEW-GEN-PremiumClassic3dSkins.zip",
+        "updatedAt": "2026-09-13T07:02:40.043Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "BZ-75-NEW-GEN-PremiumClassic3dSkins_3kSE3Kd.zip",
+        "updatedAt": "2026-10-20T16:00:39.737Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6943",
+      "title": "DARK // VIPERA - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.0",
+        "fileName": "VIPERA-NEW-GEN-3DskinPremium_GQPucIl.zip",
+        "updatedAt": "2026-09-12T15:52:07.348Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "VIPERA-NEW-GEN-3DskinPremium_dxpsVDX.zip",
+        "updatedAt": "2026-10-20T15:49:41.387Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6962",
+      "title": "DARK // Pack - OBJ. 907 - THE TRACKER",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "dark.THE-TRACKER-Skin3DCrew_ZY6m7HK.zip",
+        "updatedAt": "2026-09-18T16:05:07.720Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.THE-TRACKER-Skin3DCrew_uC72b0H.zip",
+        "updatedAt": "2026-10-20T15:21:15.568Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6963",
+      "title": "DARK // BZ-75 - THE BEAST",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "dark.BZ-75-THE-BEAST-FreeVersion_81UWCy6.zip",
+        "updatedAt": "2026-09-13T21:46:46.671Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.BZ-75-THE-BEAST-FreeVersion_yaWNOh6.zip",
+        "updatedAt": "2026-10-20T15:48:51.207Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6926",
+      "title": "DARK // LEOPARD 1 - Waffenträger",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "dark.LEOPARD-1-Waffentrager-FreeVersion_F14EgYm.zip",
+        "updatedAt": "2026-09-18T15:55:53.208Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.LEOPARD-1-Waffentrager-FreeVersion_CKWUeaB.zip",
+        "updatedAt": "2026-10-20T15:30:56.086Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6897",
+      "title": "DARK // PROGETTO 46 - THE VIKING",
+      "previous": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "dark.Progetto46-VIKING_sXs4OOi.zip",
+        "updatedAt": "2026-09-12T15:47:09.849Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.Progetto46-VIKING_5SGD9vA.zip",
+        "updatedAt": "2026-10-20T15:57:48.285Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6898",
+      "title": "DARK // BOURRASQUE - THE WOLF VIKING",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "dark.Bourrasque-VALHALLA-ClassicPremium_aWxIiww.wotmod",
+        "updatedAt": "2026-09-12T12:51:28.550Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.Bourrasque-VALHALLA-ClassicPremium_HjV9X0B.wotmod",
+        "updatedAt": "2026-10-20T15:35:00.311Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6878",
+      "title": "DARK //  121B - GREEN DRAGON",
+      "previous": {
+        "modVersion": "VERSION 2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "121B-GREEN-DRAGON-Luxury3Dskin_eCFuiZn.zip",
+        "updatedAt": "2026-09-12T18:06:43.686Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "121B-GREEN-DRAGON-Luxury3Dskin_52qrOBN.zip",
+        "updatedAt": "2026-10-20T15:56:33.283Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6869",
+      "title": "DARK // S.CONQUEROR - ABRAMS M1DA",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.2",
+        "fileName": "super-conqueror-ABRAMS-M1DA2-Skin3DPremium_g7azdsC.zip",
+        "updatedAt": "2026-09-13T05:13:36.500Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "super-conqueror-ABRAMS-M1DA2-Skin3DPremium_Ec5fqWF.zip",
+        "updatedAt": "2026-10-20T15:41:08.096Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6871",
+      "title": "DARK // Centurion AX - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "CenturionAX-New-Generation-PremiumSkin3D_XClCMQv.zip",
+        "updatedAt": "2026-09-18T16:11:54.827Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "CenturionAX-New-Generation-PremiumSkin3D_CjkACp9.zip",
+        "updatedAt": "2026-10-20T15:40:14.317Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6858",
+      "title": "DARK // Object. 705A - MODERN ARMOR",
+      "previous": {
+        "modVersion": "VERSION 1.4",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "obj705A-MODERN-ARMOR-Skin3D-Premiums.zip",
+        "updatedAt": "2026-09-13T18:15:42.838Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.4",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "obj705A-MODERN-ARMOR-Skin3D-Premiums_yIxq6JN.zip",
+        "updatedAt": "2026-10-20T14:56:58.715Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6854",
+      "title": "DARK // NEW GENERATION - BZ-176",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "BZ-176_Free_Version__PREMIUM_Version_8zNdjVe.zip",
+        "updatedAt": "2026-09-12T18:06:49.686Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "BZ-176_Free_Version__PREMIUM_Version_ZPzFKbr.zip",
+        "updatedAt": "2026-10-20T15:28:51.993Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6839",
+      "title": "DARK // MODERN ARMOR -  K-91",
+      "previous": {
+        "modVersion": "VERSION 2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "K91-MODERN-ARMOR-PremiumSkin3D_zUKfP6r.zip",
+        "updatedAt": "2026-09-18T16:43:53.767Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "K91-MODERN-ARMOR-PremiumSkin3D.zip",
+        "updatedAt": "2026-10-20T14:56:30.266Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6816",
+      "title": "DARK // Rinoceronte - NEW GENERATION",
+      "previous": {
+        "modVersion": "VERSION 1.3",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "Rinoceronte-NEW-GEN-3DSkinPremium_FJgzZCW.zip",
+        "updatedAt": "2026-09-18T16:08:15.872Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Rinoceronte-NEW-GEN-3DSkinPremium_d4LbAQw.zip",
+        "updatedAt": "2026-10-20T14:55:56.221Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6753",
+      "title": "DARK // BLACK KNIGHT - Object 452K",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "Obj.452K-Black-Knight-V1V2-Premium_vYB7FB4.zip",
+        "updatedAt": "2026-09-13T06:56:36.643Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Obj.452K-Black-Knight-V1V2-Premium.zip",
+        "updatedAt": "2026-10-20T14:49:01.406Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6770",
+      "title": "DARK // MODERN ARMOR  - Kpz 07P(e)",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "Kpz07pe-MODERN-ARMOR-LuxuryVersion_Ymn7WFe.zip",
+        "updatedAt": "2026-09-13T19:32:44.044Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Kpz07pe-MODERN-ARMOR-LuxuryVersion_0WaajtB.zip",
+        "updatedAt": "2026-10-20T14:55:12.208Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6558",
+      "title": "DARK //  Pack - INFERNAL KNIGHT (Centurion AX + Epic Member)",
+      "previous": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.3.1.3",
+        "fileName": "dark.CenturionAX-INFERNAL-Skin3DEpic_Crew_1.26.zip",
+        "updatedAt": "2026-09-11T12:57:06.048Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "dark.CenturionAX-INFERNAL-Skin3DEpic_Crew_1.26_omatpDU.zip",
+        "updatedAt": "2026-10-20T14:47:41.786Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6493",
+      "title": "DARK // Pack - SINISTER WARIORs (VZ.55 + Epic Crew)",
+      "previous": {
+        "modVersion": "VERSION 3",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "Mod-SINISTER-WARRIOR_By_DARKOLA_iCQXjLH.zip",
+        "updatedAt": "2026-09-17T17:20:36.568Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Mod-SINISTER-WARRIOR_By_DARKOLA_BbMcyMc.zip",
+        "updatedAt": "2026-10-20T14:46:27.512Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6422",
+      "title": "DARK // GOLD PREMIUM AMMO",
+      "previous": {
+        "modVersion": "VERSION 2.0",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "GOLDEN-GOLD-AMMO-2.0_yN6wHUi.zip",
+        "updatedAt": "2026-09-17T17:18:08.454Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION 2.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "GOLDEN-GOLD-AMMO-2.0_xwVfgqt.zip",
+        "updatedAt": "2026-10-20T14:44:25.622Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6425",
+      "title": "DARK // Replace all Rations- RNG POWER DRINKS 🗿",
+      "previous": {
+        "modVersion": "VERSION +999%",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "RNG-POWER-DRINKS-Rations.zip",
+        "updatedAt": "2026-09-17T17:18:38.297Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "VERSION +999%",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "RNG-POWER-DRINKS-Rations_deC7CEx.zip",
+        "updatedAt": "2026-10-20T14:45:17.662Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "1177",
+      "title": "GIRLS und PANZER UI",
+      "previous": {
+        "modVersion": "2.4.0.2",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "2.4.0.2GIRLS_und_PANZER_UI_KYqID33.wotmod",
+        "updatedAt": "2026-10-01T12:25:27.850Z",
+        "changeLog": "2.4.0.2"
+      },
+      "current": {
+        "modVersion": "2.4.1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "2.4.1.0GIRLS_und_PANZER_UI.wotmod",
+        "updatedAt": "2026-10-20T12:32:52.788Z",
+        "changeLog": "Change the main menu text of the garage to blue, and add pictures to the garage."
+      }
+    }
+  ]
+}
