@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.10.053",
-  "sourceHash": "7da6fc848b6c3cd2eda3f37ad590940052f12b0d392d7d921b0f36fe61a509fe",
+  "catalogVersion": "v2026.10.054",
+  "sourceHash": "4d1e64c04860e8105b747b5b416c1a2dd6e5655066ba7027193a030b5caeb2ef",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8054",
+      "title": "Darth - Player Tags",
+      "ownerUsername": "TheDarthFather",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<ul><li><strong>Summary</strong><br><br><i>Player Tags</i> lets you keep private notes(Icons) on other players and see them at a glance in battle.&nbsp;<br><br><strong>CTRL+ ALT + Right-click</strong> a player (battle)&nbsp;<br>or&nbsp;<br><strong>ALT + Right-click </strong>(lobby, battle results, replays) and pick a tag/Icon.&nbsp;<br><br>Every tag has its own icon, shown:&nbsp;<br>• Above the player's tanks (can be switched off) | Picture_1<br>• Icon column next to the side panels (Ctrl+Tab panel) | Picture_2<br><br><br><i><strong>Tags are personal notes</strong></i>, not proof — report cheaters with the in-game form.&nbsp;<br><br><strong>Features</strong><br><br>• Works with other panel mods, no setup needed&nbsp;<br>• Settings page (Independent menu or with modsSettingsApi)<br>• Tagged players overview, clean-up (archive, never delete) and restore&nbsp;<br>• Statistics: a self-contained HTML page (local / no internet) with tag counts and encounters.&nbsp;<br>• Data is keyed by account ID, so renames do not lose a tag; crash-safe saves and a backup copy<br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings) &nbsp;<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides. Automates the sync between the WOT blacklist and the negative tags.<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
+      "installationGuideHtml": "<p>Copy the mod, as any other mods, in your mods folder. No special instructions.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-10-21_01-40-48.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8054/",
+      "tagIds": [
+        "18",
+        "14"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.0_b0Nvvfh.wotmod",
+          "updatedAt": "2026-10-20T19:34:19.326Z",
+          "sizeBytes": 308995,
+          "fileName": "darth.player_tags_1.0.0_b0Nvvfh.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "darth.player_tags_1.0.0_b0Nvvfh.wotmod",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8055",
@@ -4075,44 +4113,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7896",
-      "title": "Assist Counter",
-      "ownerUsername": "piotr22c",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Assist Counter displays the current amount of assistance damage during battle.</p><p>It tracks spotting and tracking assistance and displays both values along with the total assistance damage in real time.</p><p>The mod can be repositioned during battle by dragging it with the mouse, while its size can be adjusted in the garage settings.</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks.<br><br>2. Copy the .wotmod file to:&nbsp;<br>World_of_Tanks_EU/mods/&lt;current game version&gt;/</p><p>3. Start or restart World of Tanks.</p><p>The mod can be repositioned during battle by dragging it with the mouse, while its size can be adjusted in the garage settings.<br><br><strong>Requirements</strong></p><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.9+<br>&nbsp;</li></ul>",
-      "coverCatalogUrl": "",
-      "detailUrl": "https://wgmods.net/7896/",
-      "tagIds": [
-        "18",
-        "22"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AssistCounter_1.0.0.zip",
-          "updatedAt": "2026-09-11T12:19:31.836Z",
-          "sizeBytes": 285115,
-          "fileName": "AssistCounter_1.0.0.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "AssistCounter_1.0.0.zip",
-        "modVersion": "1.0.0",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "warning"
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7905",
       "title": "Tier XI Ability Keybinds",
       "ownerUsername": "Gravity_Assist",
@@ -7990,44 +7990,6 @@
         "modVersion": "1.6",
         "changeLog": "Update for 2.4.1",
         "wotGameVersionCompatibility": "safe"
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7777",
-      "title": "Salvo Gun Indicator",
-      "ownerUsername": "piotr22c",
-      "languageCode": "en",
-      "availableLanguageCodes": [
-        "en"
-      ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>Salvo Gun Indicator shows which gun is currently being used for aiming during salvo preparation.</p><p>This information is not displayed in the standard World of Tanks interface.</p><p>The indicator shows the active left or right gun. It appears only when both guns are loaded and salvo preparation is in progress, and disappears when the salvo button is released.</p><p>&nbsp;</p>",
-      "installationGuideHtml": "<p>1. Close World of Tanks.<br><br>2. Copy the .wotmod file to:&nbsp;<br>World_of_Tanks_EU/mods/&lt;current game version&gt;/</p><p>3. Start or restart World of Tanks.</p><p>The mod does not require any additional configuration.<br><br><strong>Requirements</strong></p><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li></ul>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/salwa4_x81MJjJ.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
-      "detailUrl": "https://wgmods.net/7777/",
-      "tagIds": [
-        "18",
-        "20"
-      ],
-      "files": [
-        {
-          "wotGameVersion": "2.3.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/SalvoGunIndicator_v1.0.0_70mvzLm.zip",
-          "updatedAt": "2026-09-12T20:20:28.792Z",
-          "sizeBytes": 21815,
-          "fileName": "SalvoGunIndicator_v1.0.0_70mvzLm.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
-        }
-      ],
-      "latest": {
-        "fileName": "SalvoGunIndicator_v1.0.0_70mvzLm.zip",
-        "modVersion": "1.0.0",
-        "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
       }
     },
     {
@@ -17449,6 +17411,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.11",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.4.1.0_quhom3L.exe",
+          "updatedAt": "2026-10-20T20:59:49.140Z",
+          "sizeBytes": 130440184,
+          "fileName": "Nagleishiy_ModPack_for_2.4.1.0_quhom3L.exe",
+          "fileExt": ".exe",
+          "changeLog": "⚙️Оновлені     \n-Адаптивна прицільна сітка       \n-Реальне коло зведення     \n-Діафрагмовий приціл  \n-Годинник   \n-Основний калібр   \n-MOEv1  \n-Небезпечний світлофор    \n-XVM      \n-Статистика від Наглейшого\n\n❌Видаленні     \nПриціли:    \n-Стандартний приціл    \n-Корейський    \n-Кристал   \n-Приціл від  POLIROID\n\n\n✔️Додані       \n-MOEv3     \n-Gunmarks приціл"
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "1.10",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Nagleishiy_ModPack_for_2.4.1.0.exe",
           "updatedAt": "2026-10-19T19:29:08.949Z",
@@ -17499,9 +17471,9 @@
         }
       ],
       "latest": {
-        "fileName": "Nagleishiy_ModPack_for_2.4.1.0.exe",
-        "modVersion": "1.10",
-        "changeLog": "Додано мод Власний ангар",
+        "fileName": "Nagleishiy_ModPack_for_2.4.1.0_quhom3L.exe",
+        "modVersion": "1.11",
+        "changeLog": "⚙️Оновлені     \n-Адаптивна прицільна сітка       \n-Реальне коло зведення     \n-Діафрагмовий приціл  \n-Годинник   \n-Основний калібр   \n-MOEv1  \n-Небезпечний світлофор    \n-XVM      \n-Статистика від Наглейшого\n\n❌Видаленні     \nПриціли:    \n-Стандартний приціл    \n-Корейський    \n-Кристал   \n-Приціл від  POLIROID\n\n\n✔️Додані       \n-MOEv3     \n-Gunmarks приціл",
         "wotGameVersionCompatibility": "safe"
       }
     },

@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.053",
+  "catalogVersion": "v2026.10.054",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8054",
+      "title": "Darth - Player Tags",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy the mod, as any other mods, in your mods folder. No special instructions."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8055",
@@ -1629,23 +1646,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "7896",
-      "title": "Assist Counter",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Close World of Tanks. 2. Copy the .wotmod file to: World_of_Tanks_EU/mods/<current game version>/ 3. Start or restart World of Tanks. The mod can be repositioned during battle by dragging it with the mouse, while its size can be adjusted in the garage settings. Requirements OpenWG GameFace 1.1.6+ ModsSettingsAPI 1.7.0+ ModsListAPI 1.7.9+"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "The archive's .wotmod file is copied into the current-version mods folder; listed requirements do not block installation.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "7905",
       "title": "Tier XI Ability Keybinds",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
@@ -3198,23 +3198,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "The guide directs moving the included .wotmod files to mods; the optional reporter mod is a compatible add-on, not an exclusive choice.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7777",
-      "title": "Salvo Gun Indicator",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Close World of Tanks. 2. Copy the .wotmod file to: World_of_Tanks_EU/mods/<current game version>/ 3. Start or restart World of Tanks. The mod does not require any additional configuration. Requirements OpenWG GameFace 1.1.6+"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "The archive is unpacked and its .wotmod file is copied into the current-version mods folder; the stated requirement is only a dependency.",
         "deleteDataWgpdc": false
       }
     },
