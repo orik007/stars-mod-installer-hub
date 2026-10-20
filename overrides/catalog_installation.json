@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.052",
+  "catalogVersion": "v2026.10.053",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8055",
+      "title": "Real World Weather - Local Weather & Time of Day",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close World of Tanks. Remove Actual Rain and any other map-lighting replacements. Extract the download with 7-Zip. Copy all supplied .wotmod files into World_of_Tanks/mods/x.x.x.x/ . Replace x.x.x.x with your current game version. Start the game. Open Aslain's Mod Menu, select Real World Weather , and enter a town or complete coordinates if you want to override approximate IP location. Use the improved graphics renderer for rain and snow. Check the weather-status panel in Aslain's Mod Menu to confirm the resolved location and latest observation. Location and settings changes apply to the next battle. On first launch, the mod prepares a small local cache and temporarily blocks battle entry. A loading notice explains setup. The game restarts automatically once generation and garage loading finish. Later launches reuse the cache."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy all supplied .wotmod files into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8035",
+      "title": "P.E.N.D.I.N.G.: Progress Empty Nodes Displayed In Name Garage",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Download the .wotmod file below. Groundbreaking, I know. Drop it into your World of Tanks mods folder for your client version, e.g. World_of_Tanks_EU/mods/2.4.1.0/. Yes, that folder. The one you never open. Restart the game. Go on, you were going to alt-F4 after the next loss anyway. Open the garage and enjoy the numbers judging you. Dependencies: None. It’s a single .wotmod — no libraries, no launcher, no 40-minute setup video. Tested on World of Tanks 2.4.1.0 (EU). Other versions may work, may not, may set your garage on fire. Probably fine."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8053",
@@ -60,13 +94,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unpack the archive into the game folder — where WorldOfTanks.exe is. The files land in mods/2.4.1.0/ by themselves. Start the game and enter a Random Battle: the native damage log is replaced by one with a roll column. Settings are in the mods list (the button at the right of the Garage footer), entry Roll Analyzer. To remove the mod, delete mods/2.4.1.0/wot_roll_analyzer_0.2.2.wotmod. Settings are stored in mods/configs/wot_roll_analyzer/."
+        "latestInstallGuide": "Unpack the archive into the game folder — where WorldOfTanks.exe is. The files land in mods/2.4.1.0/ by themselves. Start the game and enter a Random Battle: the native damage log is replaced by one with a roll column. Settings are in the mods list (the button at the right of the Garage footer), entry Roll Analyzer. To remove the mod, delete mods/2.4.1.0/wot_roll_analyzer_0.2.11.wotmod. Settings are stored in mods/configs/wot_roll_analyzer/."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "Extract the archive into the game folder; it provides the mods tree there.",
+        "decisionReason": "Extract the ZIP into the game folder; its files land in the mods tree.",
         "deleteDataWgpdc": false
       }
     },
@@ -106,6 +140,23 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "8039",
+      "title": "Bansliders Mods",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "Download BanslidersModsSetup.exe and run it (Windows 10/11, no archive to unpack). Step 1: the installer finds your World of Tanks EU folder itself; if not, press Browse and pick WorldOfTanks.exe, then Next. Step 2: tick the mods you want; for Space sky choose a sky, for Coloured trees a colour. Step 3: press Install and wait for the result, then start the game. To remove mods, tick them and press Remove selected; your settings are kept. Українською: завантажте й запустіть BanslidersModsSetup.exe (Windows 10/11, архів розпаковувати не треба). Крок 1: інсталятор сам знаходить папку гри, якщо ні, натисніть «Огляд» і виберіть WorldOfTanks.exe. Крок 2: позначте моди, для неба оберіть небо, для дерев колір. Крок 3: «Встановити» і запустіть гру. Видалення: позначте моди й «Видалити вибрані», налаштування лишаються."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Installing this package requires running its executable installer.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "8048",
       "title": "Mod Unique 3D Style Update 2.4.1",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
@@ -128,13 +179,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": ""
+        "latestInstallGuide": "1. Unzip the archive. 2. Copy ez.advances_room.wotmod to C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0\\). 3. Delete any older ez.advances_room_*.wotmod. Two versions at once make the client hang on startup. 4. Start the game. Source code & updates: https://github.com/dodojesuslol/wot-advances-room"
       },
-      "requiresReview": true,
+      "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "Unknown",
-        "installableByApp": false,
-        "decisionReason": "No installation guide is provided, so a usable installation procedure or destination cannot be determined.",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy the included .wotmod into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -1203,13 +1254,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unpack the archive into the game folder — where `WorldOfTanks.exe` is. Start the game. A mods list button appears in the Garage footer, with a Garage Audit entry in it. To remove the mod, delete the `wot_audit_log_1.3.19.wotmod` file."
+        "latestInstallGuide": "Unpack the archive into the game folder — where `WorldOfTanks.exe` is. Start the game. A mods list button appears in the Garage footer, with a Garage Audit entry in it. To remove the mod, delete the `wot_audit_log_1.3.30.wotmod` file."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractToGameRoot",
         "installableByApp": true,
-        "decisionReason": "The archive is unpacked into the game folder containing WorldOfTanks.exe.",
+        "decisionReason": "Extract the archive into the game folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -1543,7 +1594,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "EN_Simple：Short Name + Clip Size Included natively in Aslain's WoT Mod Manager Created using Tank Icon Maker software developed by Aslain ---------------------------------------------------------------------------------------------------------- 参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。 如果喜欢，请登录账号给个赞。谢谢 CN_Simple（标准版）：含型号名称+弹夹容量 CN_Armor（装甲版）：含型号名称+装甲值（车体） ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装方法： 下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。 或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。 PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。"
+        "latestInstallGuide": "参照巨响自制的中文图标，但是无法单独使用，直接安装敌人图标是镜像的。所以需要安装antimirror反镜像插件。 CN_Simple（标准版）：含型号名称+弹夹容量 * Classic magazine/传统弹夹车 + Autoreloader/弹鼓车 ^ Double-barreled/双管车 CN_Armor（装甲版）：含型号名称+装甲值（车体） ---------------------------------------------------------------------------------------------------------- 1/使用效果： 战斗的时候，左右对战列表的图标。按TAB及头顶仍然是原始图标。 2/图标颜色的含义： 背景颜色：灰色=重坦/黄色=中坦/蓝色=反坦克/绿色=轻坦/红色=火炮 名字颜色：白色=银币车/黄色=金币车/洋红=特种车/青色=收藏车 3/安装方法： 下载并解压文件，按压缩包里的路径，把文件放入\\World_of_Tanks_ASIA\\res_mods\\2.4.0.1\\gui\\flash\\atlases。 或者直接在阿斯兰插件包中直接选择安装，图标现在已经集成至阿斯兰插件包。 PS:这是亚服豆奶团自用图标文件，如果有什么错误或者问题，欢迎留言指正。不喜勿喷。 如果喜欢，请登录账号给个赞。谢谢 Created using Tank Icon Maker software developed by Aslain"
       },
       "requiresReview": true,
       "installationProcess": {
@@ -1555,7 +1606,7 @@
       "classifiedInstallationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToResMods",
         "installableByApp": true,
-        "decisionReason": "The guide directs extracting the archive into the supplied res_mods path, but lists Simple and Armor editions without explaining how they are packaged or whether to select one.",
+        "decisionReason": "Extract the archive into res_mods; the guide lists Simple and Armor editions but does not clarify how those editions are supplied.",
         "deleteDataWgpdc": false
       }
     },
@@ -4656,13 +4707,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Place the .wotmod file into: \"game installation folder\"\\mods\\\"game version\" For example: \"W:\\World_of_Tanks_EU\\mods\\2.3.0.0\""
+        "latestInstallGuide": "Place the .wotmod file into: \"game installation folder\"\\mods\\\"game version\" For example: \"W:\\World_of_Tanks_EU\\mods\\2.4.1.0\""
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The .wotmod is placed in the game-version mods directory.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
