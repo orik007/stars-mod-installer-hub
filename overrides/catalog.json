@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.055",
-  "sourceHash": "8f111b8464e2d28f956f7fdd6b83a7815a87e4544c06900cff26a4375fd04b01",
+  "catalogVersion": "v2026.10.056",
+  "sourceHash": "b81515aa5970c1610d8da6b95009e65eef8bbaf3fdf837bc5c6e0de30c4f73ce",
   "sources": [
     "wgmods",
     "modhub"
@@ -55,7 +55,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<ul><li><strong>Summary</strong><br><br><i>Player Tags</i> lets you keep private \"labels\" (Icons) on other players and see them at a glance in battle.&nbsp;<br><br>Pick/Set a tag by: &nbsp;<br><strong>CTRL+ Right-click</strong> a player (battle)&nbsp;<br>or&nbsp;<br><strong>Right-click </strong>(lobby, battle results, replays)<br><br>Every tag has its own icon, shown:&nbsp;<br>• <strong>Icon on the side panels</strong> (Ctrl+Tab panel) [<i>Picture 1]</i><br>• <strong>Above</strong> the player's <strong>tanks </strong>(can be switched off) &nbsp;[<i>Picture 2]</i><br><br><br><i><strong>Tags are personal notes</strong></i>, not proof — report cheaters with the in-game form.&nbsp;<br><br><strong>Features</strong><br><br><strong>- Can add custom tags/Icons </strong>by dropping them in the icons folder<br>• Works with other panel mods, no setup needed&nbsp;<br>• Settings page (Independent menu or with modsSettingsApi) [<i>Picture 3]</i><br>• Tagged players overview, clean-up (archive, never delete) and restore&nbsp;<br>• <strong>Statistics:</strong> a self-contained HTML page (local / no internet) with tag counts and encounters. [<i>Picture 4]</i><br>• Data is keyed by account ID, so renames do not lose a tag; crash-safe saves and a backup copy<br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings). Customizable in Tag settings. &nbsp;<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides. Automates the sync between the WOT blacklist and the negative tags.<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
+      "descriptionHtml": "<ul><li><strong>Summary</strong><br><br><i>Player Tags</i> lets you keep private \"labels\" (Icons) on other players and see them at a glance in battle.&nbsp;<br><br><br>Pick/Set a tag by: &nbsp;<br><strong>CTRL+ Right-click</strong> a player (battle)&nbsp;<br>or&nbsp;<br><strong>Right-click </strong>(lobby, battle results, replays)<br><br><strong>We all wanted to know and see in battle why we blacklisted that guy .. is he a &nbsp;camper&nbsp; ... or an arty drowner ... or ? &nbsp;:D &nbsp;</strong><br>&nbsp;</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/64ee1194-5961-4d38-9f7b-82665bd3d55d.png\"></figure><ul><li><br>Every tag has its own icon, shown:&nbsp;<br>• <strong>Icon on the side panels</strong> (Ctrl+Tab panel) [<i>Picture 1]</i><br>• <strong>Above</strong> the player's <strong>tanks </strong>(can be switched off) &nbsp;[<i>Picture 2]</i><br><br><br><i><strong>Tags are personal notes</strong></i>, not proof — report cheaters with the in-game form.&nbsp;<br><br><strong>Features</strong><br><br><strong>- Can add custom tags/Icons </strong>by dropping them in the icons folder<br>• Works with other panel mods, no setup needed&nbsp;<br>• Settings page (Independent menu or with modsSettingsApi) [<i>Picture 3]</i><br>• Tagged players overview, clean-up (archive, never delete) and restore&nbsp;<br>• <strong>Statistics:</strong> a self-contained HTML page (local / no internet) with tag counts and encounters. [<i>Picture 4]</i><br>• Data is keyed by account ID, so renames do not lose a tag; crash-safe saves and a backup copy<br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings). Customizable in Tag settings. &nbsp;<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides. Automates the sync between the WOT blacklist and the negative tags.<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
       "installationGuideHtml": "<p>Copy the mod, as any other mods, in your mods folder. No special instructions.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-10-21_01-40-48.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8054/",
@@ -64,6 +64,16 @@
         "14"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.1.wotmod",
+          "updatedAt": "2026-10-21T11:59:46.071Z",
+          "sizeBytes": 401280,
+          "fileName": "darth.player_tags_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "1.Removed the need to press ALT!\n2.New Settings per Tag/Icon:\n-Custom Icons can be added by the players. \n-Players can now change the Tag Labels/Names.\n3.Extended \"Blacklist\". \n4.Fixed a defect where in garage you could not clean a player tag.\n5.Minor improvements"
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0.0",
@@ -76,9 +86,9 @@
         }
       ],
       "latest": {
-        "fileName": "darth.player_tags_1.0.0_b0Nvvfh.wotmod",
-        "modVersion": "1.0.0",
-        "changeLog": "",
+        "fileName": "darth.player_tags_1.0.1.wotmod",
+        "modVersion": "1.0.1",
+        "changeLog": "1.Removed the need to press ALT!\n2.New Settings per Tag/Icon:\n-Custom Icons can be added by the players. \n-Players can now change the Tag Labels/Names.\n3.Extended \"Blacklist\". \n4.Fixed a defect where in garage you could not clean a player tag.\n5.Minor improvements",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1106,6 +1116,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.1.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.exterior_studio.2.4.1.0.1.1.3.zip",
+          "updatedAt": "2026-10-21T17:01:46.016Z",
+          "sizeBytes": 709363,
+          "fileName": "gravity.exterior_studio.2.4.1.0.1.1.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added an Emissions category for Camo Selector custom assets with animated previews and click-to-apply placement; apply emissions to the whole vehicle or copy them to all seasons; remove emissions from a selected part or clear the entire vehicle across all seasons; gun and mantlet share one emission assignment."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "1.1.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.exterior_studio.2.4.1.0.1.1.2.zip",
           "updatedAt": "2026-10-13T09:21:28.167Z",
@@ -1116,9 +1136,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.exterior_studio.2.4.1.0.1.1.2.zip",
-        "modVersion": "1.1.2",
-        "changeLog": "Fixed opening Exterior Studio and switching seasons; added translations for Camo Selector's style-owned item filters.",
+        "fileName": "gravity.exterior_studio.2.4.1.0.1.1.3.zip",
+        "modVersion": "1.1.3",
+        "changeLog": "Added an Emissions category for Camo Selector custom assets with animated previews and click-to-apply placement; apply emissions to the whole vehicle or copy them to all seasons; remove emissions from a selected part or clear the entire vehicle across all seasons; gun and mantlet share one emission assignment.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -4993,16 +5013,6 @@
           "fileName": "Ver_2.2.0.zip",
           "fileExt": ".zip",
           "changeLog": "Improvements\n1. The original Japanese voice lines were transcribed by ear. Based on these transcriptions, the Chinese and English subtitles were reviewed and corrected for accuracy. A Japanese subtitle version was also created.\n2. Added subtitle versions in Russian, German, French, Spanish, Polish, and Italian."
-        },
-        {
-          "wotGameVersion": "2.4.0.0",
-          "modVersion": "2.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ver_2.1.1.zip",
-          "updatedAt": "2026-09-13T05:09:35.247Z",
-          "sizeBytes": 988772880,
-          "fileName": "Ver_2.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": " Improvements\n1. You can now decide whether to ignore the unique voiceovers of special crew members.\nA new option, “GuP Voice Selector: Ignore the voices of special crews”, has been added at the bottom of Settings → Sound.\nThis option works as follows:\nWhen enabled: The voiceover selected in the GuP Voice Selector will always be used in battle, regardless of which crew members are assigned to the vehicle, including official Girls und Panzer collaboration crew members. The original unique voiceovers of all special crew members will be ignored.\nWhen disabled: Crew members with their own unique voiceovers will continue to use their original voiceovers, and the voiceover selected in the GuP Voice Selector will be ignored for those crew members.\n2. Added a Chinese version of the Girls und Panzer subtitles.\nYou can choose either subtitle version according to your preference, or install neither if you do not need subtitles."
         }
       ],
       "latest": {
@@ -10010,6 +10020,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "0.1.9.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd_p.l.a.y._1.9.5.wotmod",
+          "updatedAt": "2026-10-21T12:35:18.724Z",
+          "sizeBytes": 52977,
+          "fileName": "mjrd_p.l.a.y._1.9.5.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.0.1",
           "modVersion": "1.9.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
@@ -10681,6 +10701,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "3.2.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.1.0.3.2.3.zip",
+          "updatedAt": "2026-10-21T17:01:46.016Z",
+          "sizeBytes": 1630936,
+          "fileName": "gravity.camo_selector.2.4.1.0.3.2.3.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added custom colour-cycling paints and static, pulsing or colour-cycling emissions with colour pickers, adjustable timing and animated previews; create emissions in Camo Selector and apply them through Exterior Studio; choose the animation type when creating an asset; these custom effects remain local and are excluded from Style Share."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "3.2.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.camo_selector.2.4.1.0.3.2.2.zip",
           "updatedAt": "2026-10-14T08:51:11.101Z",
@@ -10701,9 +10731,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.camo_selector.2.4.1.0.3.2.2.zip",
-        "modVersion": "3.2.2",
-        "changeLog": "Fixed custom camouflage and decal textures requiring a restart after first use in a new game folder.",
+        "fileName": "gravity.camo_selector.2.4.1.0.3.2.3.zip",
+        "modVersion": "3.2.3",
+        "changeLog": "Added custom colour-cycling paints and static, pulsing or colour-cycling emissions with colour pickers, adjustable timing and animated previews; create emissions in Camo Selector and apply them through Exterior Studio; choose the animation type when creating an asset; these custom effects remain local and are excluded from Style Share.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -20159,6 +20189,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.0",
+          "modVersion": "2410a",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2410a.zip",
+          "updatedAt": "2026-10-21T12:46:27.437Z",
+          "sizeBytes": 45678538,
+          "fileName": "YaYa_tactical_minimaps2410a.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Updated maps for Himmelsdorf and Ruinberg."
+        },
+        {
+          "wotGameVersion": "2.4.1.0",
           "modVersion": "2410",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2410.rar",
           "updatedAt": "2026-10-18T11:55:28.541Z",
@@ -20206,22 +20246,12 @@
           "fileName": "YaYa_tactical_minimaps2313a.zip",
           "fileExt": ".zip",
           "changeLog": "- Folder name update\n- Fixed a small error leading to error messages in the python.log (did not affect function)."
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "2312",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/YaYa_tactical_minimaps2312.zip",
-          "updatedAt": "2026-09-11T13:05:12.516Z",
-          "sizeBytes": 47367156,
-          "fileName": "YaYa_tactical_minimaps2312.zip",
-          "fileExt": ".zip",
-          "changeLog": "- Just folder rename to 2.3.1.2."
         }
       ],
       "latest": {
-        "fileName": "YaYa_tactical_minimaps2410.rar",
-        "modVersion": "2410",
-        "changeLog": "- Added preliminary map for Nebelburg. (The changes on existing maps are being reviewed atm.)",
+        "fileName": "YaYa_tactical_minimaps2410a.zip",
+        "modVersion": "2410a",
+        "changeLog": "- Updated maps for Himmelsdorf and Ruinberg.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -30506,13 +30536,23 @@
       "recommended": true,
       "mark": 4.6,
       "descriptionHtml": "<p>Music Mod:</p><p>Garage Music, Battle Music, Screen Music, Result Music</p><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=dHFonUqC3p0\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/dHFonUqC3p0\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=_hT_e35rREI&amp;t=26s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/_hT_e35rREI\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=ewPookTUc9w&amp;t=56s\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/ewPookTUc9w\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=0pJZ7gmkWBw\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/0pJZ7gmkWBw\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=Wq4O_sFsVAA\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/Wq4O_sFsVAA\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=uf6ySsrvBxs\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/uf6ySsrvBxs\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=r7SAI5ov5do\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/r7SAI5ov5do\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=a4aS7HAhvc8\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/a4aS7HAhvc8\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=2ce432JBRUo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/2ce432JBRUo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><figure class=\"media\"><div data-oembed-url=\"https://www.youtube.com/watch?v=oFUIaPAVRP4\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/oFUIaPAVRP4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure><p><a href=\"https://www.mediafire.com/file_premium/jcw4joyk502usia/music_interactivesoundMod.wotmod/file\">Fury</a></p><p><a href=\"https://www.mediafire.com/file_premium/9nk6pk7uxthzgt8/music_interactivesoundMod.wotmod/file\">Old Basic Music</a></p><p><a href=\"https://www.mediafire.com/file_premium/f9glkwgxqt3w5du/music_interactivesoundMod.wotmod/file\">Old Garage Music</a></p><p><a href=\"https://www.mediafire.com/file_premium/o651z9qmihdx57a/music_interactivesoundMod.wotmod/file\">Old Victory Day music</a></p><p><a href=\"https://www.mediafire.com/file_premium/ppu9ebmny27is8m/music_interactivesoundMod.wotmod/file\">Old Premium Music 2016</a></p><p><a href=\"https://www.mediafire.com/file_premium/uulmgbg1hqft40c/music_interactivesoundMod.wotmod/file\">Old music menu</a></p><p><a href=\"https://www.mediafire.com/file_premium/h52tc3oyui643sg/music_interactivesoundMod.wotmod/file\">New Victories Await</a></p><p><a href=\"https://www.mediafire.com/file_premium/o0m0d4ekmn1u8xy/music_interactivesoundMod.wotmod/file\">Battle Loading Music Only</a></p><p><a href=\"https://www.mediafire.com/file_premium/7k4zqoqv9v9d8nx/music_interactivesoundMod.wotmod/file\">Only Garage and Battle Loading Music</a><br><br><a href=\"https://www.mediafire.com/file_premium/acaksd579nri8pz/music_interactivesoundMod.wotmod/file\">Full Mod + All Garage Music</a></p><p><a href=\"https://discord.gg/csyADJf68w\">Discord</a></p><p><a href=\"https://www.youtube.com/@WorldofTanksWarMod\">Youtube</a></p>",
-      "installationGuideHtml": "<p>Download the mod, unpack it and paste it into mods/2.0.1.0</p>",
+      "installationGuideHtml": "<p>Download the mod, unpack it and paste it into mods/2.4.1.0</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/sound_test_4_WzxDLS7.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7174/",
       "tagIds": [
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/music_interactivesoundMod_eEwQiOd.wotmod",
+          "updatedAt": "2026-10-21T12:07:14.669Z",
+          "sizeBytes": 171196809,
+          "fileName": "music_interactivesoundMod_eEwQiOd.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "Added battle music for the safe haven map\nAdded Ready for Action battle loading music for the widepark map\nAdded Full Mod + All Garage Music"
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.3",
@@ -30565,9 +30605,9 @@
         }
       ],
       "latest": {
-        "fileName": "music_interactivesoundMod_mL3ticM.wotmod",
-        "modVersion": "1.3",
-        "changeLog": "",
+        "fileName": "music_interactivesoundMod_eEwQiOd.wotmod",
+        "modVersion": "1.4",
+        "changeLog": "Added battle music for the safe haven map\nAdded Ready for Action battle loading music for the widepark map\nAdded Full Mod + All Garage Music",
         "wotGameVersionCompatibility": "safe"
       }
     },

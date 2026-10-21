@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.055",
+  "catalogVersion": "v2026.10.056",
   "mods": [
     {
       "source": "wgmods",
@@ -8174,14 +8174,14 @@
       "title": "YaYa's tactical minimaps",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Copy archive content into mods folder of the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the RAR archive and copy its contents into the game's mods folder.",
+        "decisionReason": "Extract the archive and copy its contents into the game's mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -12220,13 +12220,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod, unpack it and paste it into mods/2.0.1.0"
+        "latestInstallGuide": "Download the mod, unpack it and paste it into mods/2.4.1.0"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
