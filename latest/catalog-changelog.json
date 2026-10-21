@@ -1,72 +1,118 @@
 {
-  "catalogVersion": "v2026.10.054",
-  "previousCatalogVersion": "v2026.10.053",
+  "catalogVersion": "v2026.10.055",
+  "previousCatalogVersion": "v2026.10.054",
   "summary": {
     "added": 1,
-    "removed": 2,
-    "updated": 1,
-    "unchanged": 838
+    "removed": 1,
+    "updated": 4,
+    "unchanged": 835
   },
   "changes": [
     {
       "type": "added",
       "source": "wgmods",
-      "sourceId": "8054",
-      "title": "Darth - Player Tags",
+      "sourceId": "8057",
+      "title": "Commander View Hotkey",
       "previous": null,
       "current": {
         "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "darth.player_tags_1.0.0_b0Nvvfh.wotmod",
-        "updatedAt": "2026-10-20T19:34:19.326Z",
+        "fileName": "gravity.commander_view.2.4.1.0.1.0.0.zip",
+        "updatedAt": "2026-10-21T08:56:58.481Z",
         "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7535",
-      "title": "MODPAK Nagleishiy",
+      "sourceId": "8055",
+      "title": "Real World Weather - Local Weather & Time of Day",
       "previous": {
-        "modVersion": "1.10",
+        "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Nagleishiy_ModPack_for_2.4.1.0.exe",
-        "updatedAt": "2026-10-19T19:29:08.949Z",
-        "changeLog": "Додано мод Власний ангар"
+        "fileName": "real-world-weather-1.0.0-wot-2.4.1.0.zip",
+        "updatedAt": "2026-10-20T19:02:17.306Z",
+        "changeLog": ""
       },
       "current": {
-        "modVersion": "1.11",
+        "modVersion": "1.0.1",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Nagleishiy_ModPack_for_2.4.1.0_quhom3L.exe",
-        "updatedAt": "2026-10-20T20:59:49.140Z",
-        "changeLog": "⚙️Оновлені     \n-Адаптивна прицільна сітка       \n-Реальне коло зведення     \n-Діафрагмовий приціл  \n-Годинник   \n-Основний калібр   \n-MOEv1  \n-Небезпечний світлофор    \n-XVM      \n-Статистика від Наглейшого\n\n❌Видаленні     \nПриціли:    \n-Стандартний приціл    \n-Корейський    \n-Кристал   \n-Приціл від  POLIROID\n\n\n✔️Додані       \n-MOEv3     \n-Gunmarks приціл"
+        "fileName": "real-world-weather-1.0.1-wot-2.4.1.0.zip",
+        "updatedAt": "2026-10-21T08:50:48.168Z",
+        "changeLog": "Reduced light rain using reported rainfall amounts and added rainfall rates to the weather status; added bounded worker cleanup and an exit fallback; improved cloud cover, twilight and night sky selection."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8039",
+      "title": "Bansliders Mods",
+      "previous": {
+        "modVersion": "1.8.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "BanslidersModsSetup_1.8.3.exe",
+        "updatedAt": "2026-10-20T13:53:07.873Z",
+        "changeLog": "A mod has been added that calculates the HP of all tanks in the team lists."
+      },
+      "current": {
+        "modVersion": "1.8.7",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "BanslidersModsSetup_1.8.7_O57Rvr8.exe",
+        "updatedAt": "2026-10-21T07:16:31.186Z",
+        "changeLog": "Minor bug fixes. Improvements to team ears."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7724",
+      "title": "P.L.A.Y. – Playlists Live, Automatically Yielded",
+      "previous": {
+        "modVersion": "1.9.5",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "mjrd.dynpl.v1.9.5.wotmod",
+        "updatedAt": "2026-10-06T14:44:32.003Z",
+        "changeLog": "- found a dumb logic and make it smarter"
+      },
+      "current": {
+        "modVersion": "1.9.2",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "mjrd.dynpl.v1.9.2_AKhtEIm.wotmod",
+        "updatedAt": "2026-09-26T10:02:32.266Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "4963",
+      "title": "KorbenTeam Modpack",
+      "previous": {
+        "modVersion": "2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "KorbenTeamModpack_2.4.1.0_v2.exe",
+        "updatedAt": "2026-10-16T11:18:17.928Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "KorbenTeamModpack_2.4.1.0_v3.exe",
+        "updatedAt": "2026-10-21T09:31:39.182Z",
+        "changeLog": ""
       }
     },
     {
       "type": "removed",
       "source": "wgmods",
-      "sourceId": "7896",
-      "title": "Assist Counter",
+      "sourceId": "7920",
+      "title": "Improved Platoon Window",
       "previous": {
-        "modVersion": "1.0.0",
-        "wotGameVersion": "2.4.0.0",
-        "fileName": "AssistCounter_1.0.0.zip",
-        "updatedAt": "2026-09-11T12:19:31.836Z",
-        "changeLog": ""
-      },
-      "current": null
-    },
-    {
-      "type": "removed",
-      "source": "wgmods",
-      "sourceId": "7777",
-      "title": "Salvo Gun Indicator",
-      "previous": {
-        "modVersion": "1.0.0",
-        "wotGameVersion": "2.3.1.0",
-        "fileName": "SalvoGunIndicator_v1.0.0_70mvzLm.zip",
-        "updatedAt": "2026-09-12T20:20:28.792Z",
-        "changeLog": ""
+        "modVersion": "1.3",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Z4imon.platoon_header_2.4.1_1.3.zip",
+        "updatedAt": "2026-10-14T21:09:08.115Z",
+        "changeLog": "Update for 2.4.1"
       },
       "current": null
     }

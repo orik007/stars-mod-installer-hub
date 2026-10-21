@@ -1,11 +1,28 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.054",
+  "catalogVersion": "v2026.10.055",
   "mods": [
     {
       "source": "wgmods",
+      "sourceId": "8057",
+      "title": "Commander View Hotkey",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close World of Tanks and extract the ZIP archive. Copy all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Restart the client, enable Tactical View in the game settings, then use J in arcade view. Change the shortcut under Aslain Mod Menu > Commander View."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy its included mod files into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "8054",
-      "title": "Darth - Player Tags",
+      "title": "Player Tags",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
@@ -1499,23 +1516,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "The archive is extracted and its files are placed in the current-version mods tree.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7920",
-      "title": "Improved Platoon Window",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation. <yourWoT>/mods/<currentVersion>/..."
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "The guide directs copying all archive contents into the mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -4081,17 +4081,17 @@
     {
       "source": "wgmods",
       "sourceId": "7724",
-      "title": "the Dynamic Playlists Mod",
+      "title": "P.L.A.Y. – Playlists Live, Automatically Yielded",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "INSTALLATION ------------ 1. Find your current WoT client version folder name. It's the subfolder name under your WoT install directory's \"mods\" folder, e.g.: <WoT install>\\mods\\2.3.0.1\\ (open version.xml in your WoT root if you're not sure which version you're on) 2. Copy the .wotmod file from this archive's \"manual-install\" folder directly into that \"mods/<version>\\\" folder. 3. Restart World of Tanks completely (not just the garage - a full client restart is required for the mod to register). 4. Open Garage -> Fahrzeuge -> Fahrzeuglisten (Vehicle Lists). You should see \"# Mark 1 65%\", \"# Mark 2 85%\", \"# Mark 3 95%\", \"# Mark 4 100%\" and \"# Upgrades\" in the dropdown."
+        "latestInstallGuide": "INSTALLATION Extract the ZIP into your mods folder for the current client version. You’ll end up with: World_of_Tanks\\mods<version>\\mjrd_p.l.a.y._1.9.5.wotmod Restart the game completely. Your lists appear in the garage filter dropdown; configure them under Mods list → Mod Settings+ → P.L.A.Y. Everything is 100% local — no data leaves your machine."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "A downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
