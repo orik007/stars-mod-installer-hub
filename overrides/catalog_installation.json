@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.056",
+  "catalogVersion": "v2026.10.057",
   "mods": [
     {
       "source": "wgmods",
@@ -161,14 +161,14 @@
       "title": "Fixed: Girls und Panzer music mod",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".7z",
         "latestInstallGuide": ""
       },
       "requiresReview": true,
       "installationProcess": {
         "installationTemplate": "Unknown",
         "installableByApp": false,
-        "decisionReason": "No installation guide is provided, so a usable installation procedure or destination cannot be determined.",
+        "decisionReason": "The guide provides no installation instructions or usable destination.",
         "deleteDataWgpdc": false
       }
     },
@@ -1917,14 +1917,14 @@
       "title": "Evolved: Girls und Panzer Voice Selector (all voices)",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".7z",
         "latestInstallGuide": "Copy all files to latest version floder under mods floder in game client floder."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy all files into the latest-version folder under mods.",
+        "decisionReason": "Extract the archive and copy all files into the current-version folder under mods.",
         "deleteDataWgpdc": false
       }
     },
