@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.059",
+  "catalogVersion": "v2026.10.060",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8059",
+      "title": "Darth - QOL Features",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy the mod in WOT ... Mods/{LastVersion} folder"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8058",
+      "title": "WoBS — game data for streamer OBS widgets",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "1. Unpack the archive into the game folder (World_of_Tanks). 2. Start the game, press «Відкрити WoBS» (Open WoBS) in the garage notifications and link your account on the site. 3. After a game update, move the mod into the new mods/<game version>/ folder. To remove the mod, delete com.wobs.client.wotmod."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "The downloaded file is an .exe, so installation requires a manual external installer action.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8057",
@@ -254,6 +288,23 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "A downloaded .wotmod is copied unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8044",
+      "title": "Radio UA (Dance Radio)",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Розпакуйте архів та скопіюйте в папку з грою за допомогою C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "The guide says to extract the archive and copy it to the game’s mods/<version> folder.",
         "deleteDataWgpdc": false
       }
     },
