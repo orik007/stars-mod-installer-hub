@@ -1,111 +1,93 @@
 {
-  "catalogVersion": "v2026.10.059",
-  "previousCatalogVersion": "v2026.10.058",
+  "catalogVersion": "v2026.10.060",
+  "previousCatalogVersion": "v2026.10.059",
   "summary": {
-    "added": 0,
+    "added": 3,
     "removed": 0,
-    "updated": 5,
-    "unchanged": 835
+    "updated": 2,
+    "unchanged": 838
   },
   "changes": [
     {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8059",
+      "title": "Darth - QOL Features",
+      "previous": null,
+      "current": {
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "darth.wot-qol_1.0.0_BWFc8Rd.wotmod",
+        "updatedAt": "2026-10-22T16:37:46.814Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8058",
+      "title": "WoBS — game data for streamer OBS widgets",
+      "previous": null,
+      "current": {
+        "modVersion": "0.3.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "WoBS_Updater_0.3.0_x64-setup_czCJ7e2.exe",
+        "updatedAt": "2026-10-22T16:14:51.038Z",
+        "changeLog": "Для клієнта 2.4.1.0.\n• Мод тепер іде з застосунком WoBS: він сам знаходить гру (і в Steam) та ставить мод і OpenWG.Gameface, якщо його ще немає, — нічого не завантажуючи.\n• «Мінімапа бою» повернулась — локально: вона працює лише на вашому ПК як джерело OBS, позиції нікуди не йдуть; із сайту — лише її вигляд.\n• Кнопка WoBS унизу ангара: привʼязка, віджети, посилання на мінімапу.\n• «Челлендж» і «Статистика стріму» у вигляді клієнта — в ангарі й у випадкових боях.\n\nFor client 2.4.1.0.\n• The mod now comes with the WoBS app: it finds the game (Steam too) and puts in the mod and OpenWG.Gameface if it is missing, with nothing downloaded.\n• The Battle minimap is back, locally: it runs only on your PC as an OBS source, positions go nowhere; only its look comes from the site.\n• A WoBS button at the bottom of the garage: linking, widgets, the minimap link.\n• Challenge and Stream stats in the client's own look — in the garage and in random battles."
+      }
+    },
+    {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "8035",
-      "title": "P.E.N.D.I.N.G.: Progress Empty Nodes Displayed In Name Garage",
+      "sourceId": "8053",
+      "title": "Battle-Conquest",
       "previous": {
-        "modVersion": "0.1.18",
+        "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "mjrd_missing_mods_v0.1.16.wotmod",
-        "updatedAt": "2026-10-20T09:01:31.670Z",
+        "fileName": "eu.battle-conquest_1.0.0.wotmod",
+        "updatedAt": "2026-10-19T19:49:46.922Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "0.1.22",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "mjrd_p.e.n.d.i.n.g._0.1.22.wotmod",
-        "updatedAt": "2026-10-22T08:03:04.790Z",
-        "changeLog": "The logic wasn’t powerful enough to handle the Fieldmods properly. I’ve sorted it out!"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8039",
-      "title": "Bansliders Mods",
-      "previous": {
-        "modVersion": "1.8.7",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "BanslidersModsSetup_1.8.7_O57Rvr8.exe",
-        "updatedAt": "2026-10-21T07:16:31.186Z",
-        "changeLog": "Minor bug fixes. Improvements to team ears."
-      },
-      "current": {
-        "modVersion": "1.8.11",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "BanslidersModsSetup_1.8.11.exe",
-        "updatedAt": "2026-10-22T10:44:27.215Z",
-        "changeLog": "Bug fixes for \"Sixth Sense\" and team \"ears\""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8008",
-      "title": "WOTSubtitles SyncBridge",
-      "previous": {
         "modVersion": "1.1.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "wotsubtitles.syncbridge_1.1.0.wotmod",
-        "updatedAt": "2026-10-18T15:38:39.391Z",
-        "changeLog": "Version 1.1.0 — Babylon: Dark Tower\n\n- Adds Babylon event subtitle content and four portraits made for SyncBridge.\n- Uses the approved Babylon portrait framing and the shared battle/preview scale.\n- Activates a validated Babylon resource without waiting for unrelated profiles to finish checking.\n- In Automatic duration mode, ends Babylon captions when their uniquely associated native voice ends and discards already-ended captions. Explicit duration choices retain their configured behavior.\n- Adds the event option to hide ordinary captions while spectating after elimination, preserving player-death lines and restoring normal presentation after respawn.\n- Retains existing GuP compatibility. Subtitles for new GuP members are not included.\n- Quick access via Ctrl + F6; works in battles\nNo game audio or original game portraits are bundled. "
-      },
+        "fileName": "eu.battle-conquest_1.1.0.wotmod",
+        "updatedAt": "2026-10-22T16:24:57.766Z",
+        "changeLog": "Added\nInclude the played vehicle in each battle report.\n\nFixed\nKeep account linking and battle counters up to date in the settings menu.\nRemove decorative separators from settings headings.\nPackage the mod for World of Tanks EU 2.4.1.0.\n\nhttps://github.com/Battle-Conquest/battle-conquest-mod/releases/tag/v1.1.0"
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8044",
+      "title": "Radio UA (Dance Radio)",
+      "previous": null,
       "current": {
-        "modVersion": "1.1.1",
+        "modVersion": "1.2",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "wotsubtitles.syncbridge_1.1.1.wotmod",
-        "updatedAt": "2026-10-22T11:14:29.017Z",
-        "changeLog": "Improved diagnostics and recovery of owned local resources, preserving valid banks and preferences. Known causes and warnings remain visible; pending repairs are not reported as complete.\n\nCorrected independent event/profile positions and visibility, Native starting minimised when disabled and reactivation for the selected profile. Alt positioning guides survive internal view focus changes; Alt+Tab still releases controls.\n\nAdded Babylon Hybrid, Mirium and Dark Tower themes, shared Native artwork and separate theme choices per channel. Reorganised Settings, moved both language selectors to General and added History. Redesigned silent Preview: content, size, colour, themes, visibility, free positioning, passive HUD guides, Undo, Restore and Apply.\n\nIncludes all 1.1.0 changes. Approved subtitle texts, Media IDs, voice mappings and local audio recipes are preserved. Historical intermittent voice endings are not claimed fixed."
+        "fileName": "rid_radio_player.rar",
+        "updatedAt": "2026-10-21T17:13:31.471Z",
+        "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7535",
-      "title": "MODPAK Nagleishiy",
+      "sourceId": "7477",
+      "title": "YaYa's tactical minimaps",
       "previous": {
-        "modVersion": "1.11",
+        "modVersion": "2410a",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Nagleishiy_ModPack_for_2.4.1.0_quhom3L.exe",
-        "updatedAt": "2026-10-20T20:59:49.140Z",
-        "changeLog": "⚙️Оновлені     \n-Адаптивна прицільна сітка       \n-Реальне коло зведення     \n-Діафрагмовий приціл  \n-Годинник   \n-Основний калібр   \n-MOEv1  \n-Небезпечний світлофор    \n-XVM      \n-Статистика від Наглейшого\n\n❌Видаленні     \nПриціли:    \n-Стандартний приціл    \n-Корейський    \n-Кристал   \n-Приціл від  POLIROID\n\n\n✔️Додані       \n-MOEv3     \n-Gunmarks приціл"
+        "fileName": "YaYa_tactical_minimaps2410a.zip",
+        "updatedAt": "2026-10-21T12:46:27.437Z",
+        "changeLog": "- Updated maps for Himmelsdorf and Ruinberg."
       },
       "current": {
-        "modVersion": "1.12",
+        "modVersion": "2410b",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Nagleishiy_ModPack_for_2.4.1.0_5zVUXde.exe",
-        "updatedAt": "2026-10-22T07:39:52.996Z",
-        "changeLog": "Наразі всі помилки випправлені"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7445",
-      "title": "RenoDX - HDR - Bloom - Color Grade for World of Tanks",
-      "previous": {
-        "modVersion": "2.0",
-        "wotGameVersion": "2.4.0.1",
-        "fileName": "renodx-worldoftanks-wgmods_2jgWZqb.7z",
-        "updatedAt": "2026-09-22T10:44:53.335Z",
-        "changeLog": "* Tonemapping overhaul - New extended tonemapper implementation, and now ran in LMS instead of BT.709.\n* Color grading overhaul - Luminance-based adjustments are now applied before tonemapping.\n* Display Mapping is now done using Neutwo per-channel in LMS instead of RenoDRT by luminance. The \"RenoDRT\" label has now been renamed to \"Vanilla+ (HDR)\"\n* Support for lower graphics settings - Output shaders change depending on the lighting quality setting. Previously the mod was made using only Ultra as a reference, but I've added the shaders for lower settings now."
-      },
-      "current": {
-        "modVersion": "2.0.1",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "renodx-worldoftanks-wgmods_rrlfShG.7z",
-        "updatedAt": "2026-10-22T11:02:25.528Z",
-        "changeLog": "* Automatic peak brightness detection - Helpful for first time use as long as your display reports peak brightness via EDID correctly. If it's incorrect use the Windows HDR Calibration tool or Ctrl + left click on the slider to override it.\n* Fixed display mapping undershooting the user's set peak brightness.\n* Fixed gamut compression to avoid colors crushing.\n* Slight tweak to hue correction.\n* Vanilla tonemapper - I want to better support SDR users so I've made a few changes, more are to come in the future. The peak brightness slider is hidden when the vanilla tonemapper is selected, and all color grading sliders are available to use. Currently there is no logic to determine if the user is in SDR, so the brightness sliders still have to be lowered to 80 nits manually.\n* General code cleanup and optimizations."
+        "fileName": "YaYa_tactical_minimaps2410b.zip",
+        "updatedAt": "2026-10-22T12:12:30.396Z",
+        "changeLog": "- Updated the Nebelburg map with more concrete tactics.\n- Updated the map for Overlord."
       }
     }
   ]
