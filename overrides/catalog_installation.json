@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.057",
+  "catalogVersion": "v2026.10.058",
   "mods": [
     {
       "source": "wgmods",
@@ -485,13 +485,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Close World of Tanks. Copy wotsubtitles.syncbridge_1.X.X.wotmod into <World of Tanks>/mods/<current game version>/ . Start the game normally. Wait for setup to finish and restart when requested. Open SyncBridge from the mod menu and choose subtitle language and voice profiles. Generated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/<version>/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only. For optional GuP compatibility, install Girls und Panzer Subtitles Mod 1.X.X separately. SyncBridge manages the supported load order; keep other mods and existing load_order.xml. No separate Python install or manual support scripts are required."
+        "latestInstallGuide": "Close World of Tanks. Copy wotsubtitles.syncbridge_1.X.X.wotmod to <World of Tanks>/mods/<current game version>/. When updating, replace only the old SyncBridge package; preserve preferences, local resources, other mods and load_order.xml. Start the game, wait for setup and restart only when requested. Open settings from the mod menu or press Ctrl + F6. Generated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/<version>/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only. For optional GuP compatibility, install the supported Girls und Panzer Subtitles Mod 1.2.4 separately. SyncBridge manages the supported load relationship. No separate Python install or manual support scripts are required."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into the current-version mods folder.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
@@ -1914,7 +1914,7 @@
     {
       "source": "wgmods",
       "sourceId": "7872",
-      "title": "Evolved: Girls und Panzer Voice Selector (all voices)",
+      "title": "Evolved: Girls und Panzer Voice Selector (all voices)  and musics",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".7z",
