@@ -1,51 +1,111 @@
 {
-  "catalogVersion": "v2026.10.058",
-  "previousCatalogVersion": "v2026.10.057",
+  "catalogVersion": "v2026.10.059",
+  "previousCatalogVersion": "v2026.10.058",
   "summary": {
     "added": 0,
     "removed": 0,
-    "updated": 2,
-    "unchanged": 838
+    "updated": 5,
+    "unchanged": 835
   },
   "changes": [
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "4354",
-      "title": "Marksman Crosshair",
+      "sourceId": "8035",
+      "title": "P.E.N.D.I.N.G.: Progress Empty Nodes Displayed In Name Garage",
       "previous": {
-        "modVersion": "12.6",
-        "wotGameVersion": "2.4.0.0",
-        "fileName": "Marksman_Crosshairs_rzWOBiQ.zip",
-        "updatedAt": "2026-09-11T12:49:03.321Z",
+        "modVersion": "0.1.18",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "mjrd_missing_mods_v0.1.16.wotmod",
+        "updatedAt": "2026-10-20T09:01:31.670Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "12.7",
+        "modVersion": "0.1.22",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Marksman_Crosshairs_rJ79g2p.zip",
-        "updatedAt": "2026-10-21T21:55:05.992Z",
-        "changeLog": ""
+        "fileName": "mjrd_p.e.n.d.i.n.g._0.1.22.wotmod",
+        "updatedAt": "2026-10-22T08:03:04.790Z",
+        "changeLog": "The logic wasn’t powerful enough to handle the Fieldmods properly. I’ve sorted it out!"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "46",
-      "title": "Aslain's WoT Modpack",
+      "sourceId": "8039",
+      "title": "Bansliders Mods",
       "previous": {
-        "modVersion": "06",
+        "modVersion": "1.8.7",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_06.exe",
-        "updatedAt": "2026-10-18T18:02:56.876Z",
-        "changeLog": "v2.4.1.0 #06 (18-10-2026):\n- Updated Aim Info Pro 1.0.04\n- Updated Chat Filter 1.1.07\n- Updated Gun Reloaded Sounds 1.1.02\n- Updated HangMan Garage Manager 2.78\n- Updated Mod Menu 2.1.05\n- Updated Speed Panel 1.0.02\n- Updated Auto Equipment Return by Kurzdor 1.5.0, Badge Overrider 1.3.1, Remove Elite Levels 1.8.01, Extended Zoom Switcher 2.4.01, Free XP Helper 2.0.01, Outlining Colors by Kurzdor 1.6.01, Postmortem Fix 1.0.02, Discord Rich Presence Support 4.1.01 and Serial Number Changer (by Kurzdor) 1.9.01\n- Updated B.O.M.B. 0.1.17\n- Restored Vehicle State 2.4.00\n- Restored aim circle: More Visible 2.4.1.0\n- Fixed: Hitmarker Pro and Gun Reloaded Sounds could not add their sounds when War Mod Gun Sounds was installed"
+        "fileName": "BanslidersModsSetup_1.8.7_O57Rvr8.exe",
+        "updatedAt": "2026-10-21T07:16:31.186Z",
+        "changeLog": "Minor bug fixes. Improvements to team ears."
       },
       "current": {
-        "modVersion": "07",
+        "modVersion": "1.8.11",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.0_07.exe",
-        "updatedAt": "2026-10-21T22:14:44.993Z",
-        "changeLog": "- Added Real World Weather by Gravity_Assist\n- Added Commander View Hotkey by Gravity_Assist\n- Updated Custom Sixth Sense 1.1.04\n- Updated Custom UI Scale 1.2.03\n- Updated Hitmarker Pro 1.1.04\n- Updated Show vehicle body in the sniper view 2.1.05\n- Updated Depth of Field 1.0.02\n- Updated Mod Menu 2.1.06\n- Updated Aim Info Pro 1.0.05, AutoAim Indication+ 2.1.04, Chat Filter 1.1.08, Crew Skills Pro 1.1.06, Speed Panel 1.0.03 and Roentgen Detector 2.0.02\n- Updated Camo Selector 3.2.3, Exterior Studio 1.1.3, Scheduled Personal Reserves 2.2.0 and Vehicle Stat Inspector 2.0.8\n- Updated skill4ltu 1.5.10\n- Updated contour icons PogS, crosshair: Taipan and alt Minimap images: YaYa tactical\n- Updated contour icons ASMA and ASMA with armor\n- Updated HangMan Garage Manager 3.0.00"
+        "fileName": "BanslidersModsSetup_1.8.11.exe",
+        "updatedAt": "2026-10-22T10:44:27.215Z",
+        "changeLog": "Bug fixes for \"Sixth Sense\" and team \"ears\""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8008",
+      "title": "WOTSubtitles SyncBridge",
+      "previous": {
+        "modVersion": "1.1.0",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wotsubtitles.syncbridge_1.1.0.wotmod",
+        "updatedAt": "2026-10-18T15:38:39.391Z",
+        "changeLog": "Version 1.1.0 — Babylon: Dark Tower\n\n- Adds Babylon event subtitle content and four portraits made for SyncBridge.\n- Uses the approved Babylon portrait framing and the shared battle/preview scale.\n- Activates a validated Babylon resource without waiting for unrelated profiles to finish checking.\n- In Automatic duration mode, ends Babylon captions when their uniquely associated native voice ends and discards already-ended captions. Explicit duration choices retain their configured behavior.\n- Adds the event option to hide ordinary captions while spectating after elimination, preserving player-death lines and restoring normal presentation after respawn.\n- Retains existing GuP compatibility. Subtitles for new GuP members are not included.\n- Quick access via Ctrl + F6; works in battles\nNo game audio or original game portraits are bundled. "
+      },
+      "current": {
+        "modVersion": "1.1.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "wotsubtitles.syncbridge_1.1.1.wotmod",
+        "updatedAt": "2026-10-22T11:14:29.017Z",
+        "changeLog": "Improved diagnostics and recovery of owned local resources, preserving valid banks and preferences. Known causes and warnings remain visible; pending repairs are not reported as complete.\n\nCorrected independent event/profile positions and visibility, Native starting minimised when disabled and reactivation for the selected profile. Alt positioning guides survive internal view focus changes; Alt+Tab still releases controls.\n\nAdded Babylon Hybrid, Mirium and Dark Tower themes, shared Native artwork and separate theme choices per channel. Reorganised Settings, moved both language selectors to General and added History. Redesigned silent Preview: content, size, colour, themes, visibility, free positioning, passive HUD guides, Undo, Restore and Apply.\n\nIncludes all 1.1.0 changes. Approved subtitle texts, Media IDs, voice mappings and local audio recipes are preserved. Historical intermittent voice endings are not claimed fixed."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7535",
+      "title": "MODPAK Nagleishiy",
+      "previous": {
+        "modVersion": "1.11",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Nagleishiy_ModPack_for_2.4.1.0_quhom3L.exe",
+        "updatedAt": "2026-10-20T20:59:49.140Z",
+        "changeLog": "⚙️Оновлені     \n-Адаптивна прицільна сітка       \n-Реальне коло зведення     \n-Діафрагмовий приціл  \n-Годинник   \n-Основний калібр   \n-MOEv1  \n-Небезпечний світлофор    \n-XVM      \n-Статистика від Наглейшого\n\n❌Видаленні     \nПриціли:    \n-Стандартний приціл    \n-Корейський    \n-Кристал   \n-Приціл від  POLIROID\n\n\n✔️Додані       \n-MOEv3     \n-Gunmarks приціл"
+      },
+      "current": {
+        "modVersion": "1.12",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Nagleishiy_ModPack_for_2.4.1.0_5zVUXde.exe",
+        "updatedAt": "2026-10-22T07:39:52.996Z",
+        "changeLog": "Наразі всі помилки випправлені"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7445",
+      "title": "RenoDX - HDR - Bloom - Color Grade for World of Tanks",
+      "previous": {
+        "modVersion": "2.0",
+        "wotGameVersion": "2.4.0.1",
+        "fileName": "renodx-worldoftanks-wgmods_2jgWZqb.7z",
+        "updatedAt": "2026-09-22T10:44:53.335Z",
+        "changeLog": "* Tonemapping overhaul - New extended tonemapper implementation, and now ran in LMS instead of BT.709.\n* Color grading overhaul - Luminance-based adjustments are now applied before tonemapping.\n* Display Mapping is now done using Neutwo per-channel in LMS instead of RenoDRT by luminance. The \"RenoDRT\" label has now been renamed to \"Vanilla+ (HDR)\"\n* Support for lower graphics settings - Output shaders change depending on the lighting quality setting. Previously the mod was made using only Ultra as a reference, but I've added the shaders for lower settings now."
+      },
+      "current": {
+        "modVersion": "2.0.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "renodx-worldoftanks-wgmods_rrlfShG.7z",
+        "updatedAt": "2026-10-22T11:02:25.528Z",
+        "changeLog": "* Automatic peak brightness detection - Helpful for first time use as long as your display reports peak brightness via EDID correctly. If it's incorrect use the Windows HDR Calibration tool or Ctrl + left click on the slider to override it.\n* Fixed display mapping undershooting the user's set peak brightness.\n* Fixed gamut compression to avoid colors crushing.\n* Slight tweak to hue correction.\n* Vanilla tonemapper - I want to better support SDR users so I've made a few changes, more are to come in the future. The peak brightness slider is hidden when the vanilla tonemapper is selected, and all color grading sliders are available to use. Currently there is no logic to determine if the user is in SDR, so the brightness sliders still have to be lowered to 80 nits manually.\n* General code cleanup and optimizations."
       }
     }
   ]
