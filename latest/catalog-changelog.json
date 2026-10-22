@@ -1,93 +1,85 @@
 {
-  "catalogVersion": "v2026.10.060",
-  "previousCatalogVersion": "v2026.10.059",
+  "catalogVersion": "v2026.10.061",
+  "previousCatalogVersion": "v2026.10.060",
   "summary": {
-    "added": 3,
+    "added": 1,
     "removed": 0,
-    "updated": 2,
-    "unchanged": 838
+    "updated": 3,
+    "unchanged": 840
   },
   "changes": [
     {
-      "type": "added",
+      "type": "updated",
       "source": "wgmods",
       "sourceId": "8059",
       "title": "Darth - QOL Features",
-      "previous": null,
-      "current": {
+      "previous": {
         "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.0",
         "fileName": "darth.wot-qol_1.0.0_BWFc8Rd.wotmod",
         "updatedAt": "2026-10-22T16:37:46.814Z",
         "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.0.1",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "darth.wot-qol_1.0.1_0zpAFpr.wotmod",
+        "updatedAt": "2026-10-22T17:52:56.614Z",
+        "changeLog": "No user facing changes. Refactoring only. "
       }
     },
     {
       "type": "added",
       "source": "wgmods",
-      "sourceId": "8058",
-      "title": "WoBS — game data for streamer OBS widgets",
+      "sourceId": "7920",
+      "title": "Improved Platoon Window",
       "previous": null,
       "current": {
-        "modVersion": "0.3.0",
+        "modVersion": "1.4",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "WoBS_Updater_0.3.0_x64-setup_czCJ7e2.exe",
-        "updatedAt": "2026-10-22T16:14:51.038Z",
-        "changeLog": "Для клієнта 2.4.1.0.\n• Мод тепер іде з застосунком WoBS: він сам знаходить гру (і в Steam) та ставить мод і OpenWG.Gameface, якщо його ще немає, — нічого не завантажуючи.\n• «Мінімапа бою» повернулась — локально: вона працює лише на вашому ПК як джерело OBS, позиції нікуди не йдуть; із сайту — лише її вигляд.\n• Кнопка WoBS унизу ангара: привʼязка, віджети, посилання на мінімапу.\n• «Челлендж» і «Статистика стріму» у вигляді клієнта — в ангарі й у випадкових боях.\n\nFor client 2.4.1.0.\n• The mod now comes with the WoBS app: it finds the game (Steam too) and puts in the mod and OpenWG.Gameface if it is missing, with nothing downloaded.\n• The Battle minimap is back, locally: it runs only on your PC as an OBS source, positions go nowhere; only its look comes from the site.\n• A WoBS button at the bottom of the garage: linking, widgets, the minimap link.\n• Challenge and Stream stats in the client's own look — in the garage and in random battles."
+        "fileName": "Z4imon.platoon_header_2.4.1_1.4.zip",
+        "updatedAt": "2026-10-22T16:43:54.667Z",
+        "changeLog": "- bugfixes\n- Personalization of the layout and position are now possible\n- Added additional settings to the mod menu"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "8053",
-      "title": "Battle-Conquest",
+      "sourceId": "7745",
+      "title": "14th_ua's MoE Calculator",
       "previous": {
-        "modVersion": "1.0.0",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "eu.battle-conquest_1.0.0.wotmod",
-        "updatedAt": "2026-10-19T19:49:46.922Z",
-        "changeLog": ""
+        "modVersion": "7.0.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "MoECalculator_7.0.0.zip",
+        "updatedAt": "2026-10-10T10:50:14.283Z",
+        "changeLog": "Client upgrade: retargeted to WoT EU 2.4.0.2.\nIn-battle bars — MoE %: both centre bars now show your Mark of Excellence percentage in brackets beside the current damage, in both orientations. Moving Average: your live MoE % with this battle counted. Damage Efficiency: the MoE % this battle's damage alone is worth.\nNew settings (Progress Bar column, after Scale), all on by default:\nMoving Average: show % / Moving Average: show change\nDamage Efficiency: show % / Damage Efficiency: show change\nThe % uses the same font size as the damage number. Both bars' surfaces grew slightly to fit it (the horizontal Moving Average bar is wider; the vertical bars are wider on the left). Your saved bar position is kept."
       },
       "current": {
-        "modVersion": "1.1.0",
+        "modVersion": "8.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "eu.battle-conquest_1.1.0.wotmod",
-        "updatedAt": "2026-10-22T16:24:57.766Z",
-        "changeLog": "Added\nInclude the played vehicle in each battle report.\n\nFixed\nKeep account linking and battle counters up to date in the settings menu.\nRemove decorative separators from settings headings.\nPackage the mod for World of Tanks EU 2.4.1.0.\n\nhttps://github.com/Battle-Conquest/battle-conquest-mod/releases/tag/v1.1.0"
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8044",
-      "title": "Radio UA (Dance Radio)",
-      "previous": null,
-      "current": {
-        "modVersion": "1.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "rid_radio_player.rar",
-        "updatedAt": "2026-10-21T17:13:31.471Z",
-        "changeLog": ""
+        "fileName": "MoECalculator_8.0.0.zip",
+        "updatedAt": "2026-10-22T17:47:51.215Z",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.0."
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7477",
-      "title": "YaYa's tactical minimaps",
+      "sourceId": "7740",
+      "title": "Garage Progress Bar",
       "previous": {
-        "modVersion": "2410a",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "YaYa_tactical_minimaps2410a.zip",
-        "updatedAt": "2026-10-21T12:46:27.437Z",
-        "changeLog": "- Updated maps for Himmelsdorf and Ruinberg."
+        "modVersion": "7.0.0",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "GarageProgressBar-Bundle_7.0.0.zip",
+        "updatedAt": "2026-10-10T10:50:17.604Z",
+        "changeLog": "Compatible with World of Tanks EU 2.4.0.2."
       },
       "current": {
-        "modVersion": "2410b",
+        "modVersion": "8.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "YaYa_tactical_minimaps2410b.zip",
-        "updatedAt": "2026-10-22T12:12:30.396Z",
-        "changeLog": "- Updated the Nebelburg map with more concrete tactics.\n- Updated the map for Overlord."
+        "fileName": "GarageProgressBar-Bundle_8.0.0.zip",
+        "updatedAt": "2026-10-22T17:48:04.931Z",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.0."
       }
     }
   ]

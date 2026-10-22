@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.10.060",
-  "sourceHash": "f559489c56e0234534605d2abb61210439c61af915dc0c298363dff81129b8ac",
+  "catalogVersion": "v2026.10.061",
+  "sourceHash": "420912016f33888929e8f854e2c7a555ff5ef286857228be70407d53a4f6acb2",
   "sources": [
     "wgmods",
     "modhub"
@@ -17,7 +17,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p><strong>Quality Of Life Collection:</strong><br><br><strong>Playlist:</strong><br>Right Click a tank to:<br>-Add/Remove a tank to a playlist <strong>from TechTree</strong><br>-Create a new playlist from a <strong>garage filter</strong><br><br><strong>Settings Page:</strong><br>Enable/disable features</p>",
+      "descriptionHtml": "<p><strong>Quality Of Life Collection:</strong><br><br><br><strong>Playlists QOL:</strong></p><ul><li><strong>Tech-Tree:</strong> Right click a tank to Add/Remove it to a playlist.&nbsp;</li><li><strong>Garage:</strong> Right click any tank to create a new playlist from the current <strong>filter</strong><br><br><strong>Settings Page:</strong><br>Enable/disable features</li></ul>",
       "installationGuideHtml": "<p>Copy the mod in WOT ... Mods/{LastVersion} folder</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-10-22_12-57-49_I5CzvEF.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8059/",
@@ -25,6 +25,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.wot-qol_1.0.1_0zpAFpr.wotmod",
+          "updatedAt": "2026-10-22T17:52:56.614Z",
+          "sizeBytes": 20712,
+          "fileName": "darth.wot-qol_1.0.1_0zpAFpr.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "No user facing changes. Refactoring only. "
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0.0",
@@ -37,9 +47,9 @@
         }
       ],
       "latest": {
-        "fileName": "darth.wot-qol_1.0.0_BWFc8Rd.wotmod",
-        "modVersion": "1.0.0",
-        "changeLog": "",
+        "fileName": "darth.wot-qol_1.0.1_0zpAFpr.wotmod",
+        "modVersion": "1.0.1",
+        "changeLog": "No user facing changes. Refactoring only. ",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -3971,6 +3981,45 @@
         "modVersion": "1.0.0",
         "changeLog": "",
         "wotGameVersionCompatibility": "warning"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "7920",
+      "title": "Improved Platoon Window",
+      "ownerUsername": "Z4imon",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": true,
+      "mark": 5,
+      "descriptionHtml": "<p><strong>Replaces the platoon window by adding the functionality in the header of the garage.</strong></p><p>Tired of always having to open the platton window and then having it always open in your face? Now the whole platoon functinality is put next to the battle button.</p><p>Compact and simple</p><p>&nbsp;</p><p><strong>If you want it as a floating window and not next to the battle button, you can change that in the settings. Be aware, that the platton leader then can't ready up while in the battle results.&nbsp;</strong></p><p><strong>The style in which the tank class is displayed can be configured in the mod settings over the mod menu</strong></p><p>&nbsp;</p><p><i>Thanks to </i><a href=\"https://www.twitch.tv/einfachsmon\"><i>EinfachSmon </i></a><i>for the idea of the mod</i></p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p>",
+      "installationGuideHtml": "<p>Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation.</p><p>&lt;yourWoT&gt;/mods/&lt;currentVersion&gt;/...</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage_HtuJpfv.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/7920/",
+      "tagIds": [
+        "18",
+        "13",
+        "23"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.1_1.4.zip",
+          "updatedAt": "2026-10-22T16:43:54.667Z",
+          "sizeBytes": 702684,
+          "fileName": "Z4imon.platoon_header_2.4.1_1.4.zip",
+          "fileExt": ".zip",
+          "changeLog": "- bugfixes\n- Personalization of the layout and position are now possible\n- Added additional settings to the mod menu"
+        }
+      ],
+      "latest": {
+        "fileName": "Z4imon.platoon_header_2.4.1_1.4.zip",
+        "modVersion": "1.4",
+        "changeLog": "- bugfixes\n- Personalization of the layout and position are now possible\n- Added additional settings to the mod menu",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -9233,7 +9282,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.7,
       "descriptionHtml": "<p>Track your Marks of Excellence (MoE) progress for the vehicle you have selected, in the Garage and live in battle.</p><h2>What it shows</h2><p><strong>Garage MoE bar</strong></p><p>A <strong>percentile bar</strong> in the vehicle-parameters panel with milestone ticks at 65% / 85% / 95%. Every tick is labelled with the combined damage that mark requires, plus a fourth number for 100%, the top of the distribution.</p><p>Ctrl+drag the bar to reposition it (hold Shift to lock one axis). It can also optionally shift with the vehicle carousel so it never overlaps.</p><p><strong>Weekly MoE trend chart</strong> — the vehicle's mark tooltip shows a \"Last 7 Days\" chart: one dot per battle on a percentile axis, horizontal mark lines at 65% / 85% / 95% / 100%, day dividers, and an end-of-day moving-average label for each day.</p><p><strong>In-battle overlay</strong></p><p>A compact overlay over the HUD with two lines:</p><ul><li><strong>Live combined damage vs your projected average</strong> — the number is coloured by sign (red below your projection, white at it, green above).</li><li><strong>Your projected MoE percentage</strong> with the signed change versus where you started the battle.</li><li>An optional third line shows your <strong>counted assistance</strong> — the highest of track / spot / stun damage, with the icon of whichever is leading.</li></ul><p>The overlay can be set to appear only while you hold Alt.</p><p><strong>In-battle progress bar</strong></p><p>An optional bar &nbsp;that fades in when damage is dealt or assistance is counted. Hold Alt to summon it at any time. Two variants, one chosen in the settings:</p><ul><li><strong>Moving Average</strong> — where your career projected average combined damage sits between the mark you already hold and the next mark's requirement, with the requirement on each end, your pre-battle average marked on the axis, and this battle's signed contribution.</li><li><strong>Damage Efficiency</strong> — this battle's combined damage against all four requirements (65% / 85% / 95% / 100%) on four equal quarters. Each requirement lights up as you pass it and the bar recolours with it — white, green, blue, violet, then gold at 100% — flashing the signed increment of the hit that just landed.</li></ul><h2>Settings</h2><p>Everything is toggleable from the Modification list window (ModsSettingsAPI): the in-battle overlay, its Alt-only mode and its assistance line, the Garage bar and its pinned position, and the centre progress bar with its variant. The settings panel is translated into 11 languages and follows your client automatically. Your settings carry over when you update the mod.</p><h2>&nbsp;</h2><p>Free to include in modpacks with credit and a link — ship the <i>.wotmod</i> and list OpenWG GameFace as a dependency.</p><p>Inspired by other MoE calculators/trackers, specifically lebwa's.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/moe-calculator/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.moe_calculator_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.</p>",
@@ -9245,6 +9294,16 @@
         "22"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "8.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/MoECalculator_8.0.0.zip",
+          "updatedAt": "2026-10-22T17:47:51.215Z",
+          "sizeBytes": 2362086,
+          "fileName": "MoECalculator_8.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Retargeted to World of Tanks client 2.4.1.0."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "7.0.0",
@@ -9297,10 +9356,10 @@
         }
       ],
       "latest": {
-        "fileName": "MoECalculator_7.0.0.zip",
-        "modVersion": "7.0.0",
-        "changeLog": "Client upgrade: retargeted to WoT EU 2.4.0.2.\nIn-battle bars — MoE %: both centre bars now show your Mark of Excellence percentage in brackets beside the current damage, in both orientations. Moving Average: your live MoE % with this battle counted. Damage Efficiency: the MoE % this battle's damage alone is worth.\nNew settings (Progress Bar column, after Scale), all on by default:\nMoving Average: show % / Moving Average: show change\nDamage Efficiency: show % / Damage Efficiency: show change\nThe % uses the same font size as the damage number. Both bars' surfaces grew slightly to fit it (the horizontal Moving Average bar is wider; the vertical bars are wider on the left). Your saved bar position is kept.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "MoECalculator_8.0.0.zip",
+        "modVersion": "8.0.0",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.0.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -9639,7 +9698,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
@@ -9651,6 +9710,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.0",
+          "modVersion": "8.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_8.0.0.zip",
+          "updatedAt": "2026-10-22T17:48:04.931Z",
+          "sizeBytes": 813819,
+          "fileName": "GarageProgressBar-Bundle_8.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Retargeted to World of Tanks client 2.4.1.0."
+        },
         {
           "wotGameVersion": "2.4.0.2",
           "modVersion": "7.0.0",
@@ -9703,10 +9772,10 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_7.0.0.zip",
-        "modVersion": "7.0.0",
-        "changeLog": "Compatible with World of Tanks EU 2.4.0.2.",
-        "wotGameVersionCompatibility": "warning"
+        "fileName": "GarageProgressBar-Bundle_8.0.0.zip",
+        "modVersion": "8.0.0",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.0.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -12090,16 +12159,6 @@
           "updatedAt": "2026-09-12T04:49:03.991Z",
           "sizeBytes": 35704,
           "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke_MXuexco.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.1",
-          "modVersion": "1.0.6",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/LegacyHangarUI_Navbar_tDNeABa_lK6MCke.rar",
-          "updatedAt": "2026-09-11T19:26:57.103Z",
-          "sizeBytes": 35704,
-          "fileName": "LegacyHangarUI_Navbar_tDNeABa_lK6MCke.rar",
           "fileExt": ".rar",
           "changeLog": ""
         }
