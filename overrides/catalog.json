@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.11.002",
-  "sourceHash": "3ab70cd044d0863ea96e3e6947c5d672318362d533c2051524fa6e2cf46cd22e",
+  "catalogVersion": "v2026.11.003",
+  "sourceHash": "e131778dc1b06fbc54d19cbeb6903733a8e9eb300d03d32f620dd6bd19689466",
   "sources": [
     "wgmods",
     "modhub"
@@ -311,7 +311,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 5,
+      "mark": 4.4,
       "descriptionHtml": "<p>Your battle hits on the 3D vehicle in the hangar:</p><ul><li>hits on you and by you, filtered by result: damage, blocked, ricochet, no damage;</li><li>the shell's way to the armor, turret and gun turned as at the moment of the hit;</li><li>shooter view: the camera along the shell;</li><li>damage, penetration, armor, angle, distance, damaged modules and crew;</li><li>the game's armor views and armor tooltip;</li><li>battles kept for the session or on disk.</li></ul><p>&nbsp;</p><h2>Found a bug? Have an idea?</h2><blockquote><p>Discord (🐞bugs / 💡feedback): <a href=\"Discord\">https://discord.gg/gCtT9FP9E</a></p><p>GitHub Issues: <a href=\"Github\">https://github.com/pavel-bolhovitin/wot-armor-hits/issues/new/choose</a></p><p>Or comment here.</p></blockquote><h2>FAQ</h2><p><strong>1. Why is my last battle not in the list?</strong></p><p>Its mode group is set to <strong>Off</strong> in <strong>Keep battles</strong>. By default only Random and Competitive battles are kept.</p><p><strong>2. Where are the saved battles?</strong></p><p>In [WoT game directory]/mods/sagtary_armor_hits/hits/, one file per battle. The files stay on your computer; they hold the names of the players you hit and who hit you.</p><h2>Source code</h2><p>Source code is on GitHub: <a href=\"https://github.com/pavel-bolhovitin/wot-armor-hits\">https://github.com/pavel-bolhovitin/wot-armor-hits</a></p>",
       "installationGuideHtml": "<figure class=\"image\"><img src=\"//wgmods.net/media/m_images/34501ceb-28dd-45f8-9a36-b9e9f8eecd72.png\"></figure><ol><li>Open the archive.</li><li>Copy the mods folder into the game folder, where WorldOfTanks.exe is. Replace files if asked.</li><li>Check that the files are in the folders shown in the picture.</li><li>Start the game and click the <strong>Armor Hits</strong> button in the hangar.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_5XXuwfb.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -1039,9 +1039,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p><strong>Quality Of Life Collection:</strong><br><br><br><strong>Playlists QOL:</strong></p><ul><li><strong>Tech-Tree:</strong> Right click a tank to Add/Remove it to a playlist.</li><li><strong>Garage:</strong> Right click any tank to create a new playlist from the current <strong>filter</strong><br><br><strong>Settings Page:</strong><br>Enable/disable features</li></ul>",
-      "installationGuideHtml": "<p>Copy the mod in WOT ... Mods/{LastVersion} folder</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-10-22_12-57-49_I5CzvEF.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p><strong>Playlist Quality Of Life:</strong><br><br><strong>FEATURES:</strong><br><strong>1. Playlists from the tech tree&nbsp;</strong><br>Right-click a vehicle: \"Add to\" / \"Remove from\" any playlist.&nbsp;<br><br><strong>2. Playlist from the garage filter</strong><br>Set a filter, right-click a vehicle: \"New playlist from filter\".&nbsp;<br><br><strong>3. Playlist badges (new 1.0.3) !!!</strong><br>Badges on garage cards and tech tree show a tank's playlists.&nbsp;<br>Pick frame, colour, text style and priority per playlist.&nbsp;<br><br><br><strong>OTHER:</strong><br><strong>Rich settings page (new 1.0.3)</strong><br>Gear button in the garage or CTRL+SHIFT+D.&nbsp;<br><br><strong>Requires</strong> OpenWG Gameface and modsListApi!<br><br>MIT licence.&nbsp;<br>Fan mod, not affiliated with Wargaming.<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>Copy the mod in WOT ... Mods/{LastVersion} folder<br><strong>Requires</strong> OpenWG Gameface and modsListApi!</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/qol-cover_9ryC8PQ.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8059/",
       "tagIds": [
         "18"
@@ -1192,8 +1192,8 @@
       ],
       "recommended": false,
       "mark": 5,
-      "descriptionHtml": "<ul><li><strong>Summary</strong><br><br><i>Player Tags</i> lets you keep private \"labels\" (Icons) on other players and see them at a glance in battle.&nbsp;<br>Easy to test in replays or training rooms.<br><br>Pick/Set a tag by: &nbsp;<br><strong>CTRL+ Right-click</strong> a player in battle or replay&nbsp;<br>or&nbsp;<br><strong>Right-click </strong>(lobby, battle results)<br><br><strong>We all wanted to know and see in battle why we blacklisted that guy .. did he pushed someone .. is he a &nbsp;camper&nbsp; ... or an arty drowner ... or ? &nbsp;:D &nbsp;</strong><br>&nbsp;</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/64ee1194-5961-4d38-9f7b-82665bd3d55d.png\"></figure><ul><li><br>Every tag has its own icon, shown:&nbsp;<br>• <strong>Icon on the side panels</strong> (Ctrl+Tab panel) [<i>Picture 1]</i><br>• <strong>Above</strong> the player's <strong>tanks </strong>(can be switched off) &nbsp;[<i>Picture 2]</i><br><br><br><i><strong>Tags are personal notes</strong></i>, not proof — report cheaters with the in-game form.&nbsp;<br><br><strong>Features</strong><br><br>•&nbsp;<strong>Can add custom tags/Icons </strong>(64x64) by dropping them in the icons folder and setup in settings (add to ignore-list or not)<br>•&nbsp;Can deactivate a tag if is not used.<br>• Works with other panel mods, no setup needed&nbsp;<br>• Settings page (Independent menu or with modsSettingsApi) [<i>Picture 3]</i><br>• Tagged players overview, clean-up (archive, never delete) and restore&nbsp;<br>• <strong>Statistics:</strong> a self-contained HTML page (local / no internet) with tag counts and encounters. [<i>Picture 4]</i><br>• Data is keyed by account ID, so renames do not lose a tag; crash-safe saves and a backup copy<br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings). Customizable in Tag settings. &nbsp;<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides. Automates the sync between the WOT blacklist and the negative tags.<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
-      "installationGuideHtml": "<p>Copy the mod, as any other mods, in your mods folder. No special instructions.</p>",
+      "descriptionHtml": "<ul><li><strong>SUMMARY</strong><br><br><i>Player Tags</i> lets you keep private \"tags/labels\" (Icons) on other players and see them at a glance in battle.&nbsp;<br>Easy to test in replays or training rooms.<br><br>Pick/Set a tag by: &nbsp;<br><strong>CTRL+ Right-click</strong> a player in battle or replay&nbsp;<br>or&nbsp;<br><strong>Right-click </strong>(lobby, battle results)<br><br><strong>We all wanted to know and see in battle why we blacklisted that guy .. did he pushed someone .. is he a &nbsp;camper&nbsp; ... or an arty drowner ... or ? &nbsp;:D &nbsp;</strong><br>&nbsp;</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/64ee1194-5961-4d38-9f7b-82665bd3d55d.png\"></figure><ul><li><br>Every tag has its own icon, shown:&nbsp;<br>• <strong>Icon on the side panels</strong> (Ctrl+Tab panel)<br>• <strong>Above</strong> the player's <strong>tanks </strong>(can be switched off)<br><br><strong>FEATURES:</strong><br><br>•&nbsp;<strong>YOU can add custom tags/Icons </strong>(64x64) by dropping them in the icons folder and setup in settings (add to ignore-list or not)<br>- Change the tag/label text to your own preference.<br>•&nbsp;Can deactivate a tag if is not used.<br>• <strong>Statistics:</strong> a self-contained HTML page (local / no internet) with tag counts and encounters. [<i>Picture 4]</i><br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings). Customizable in Tag settings. &nbsp;<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides. Automates the sync between the WOT blacklist and the negative tags.<br><i>Tags are personal notes</i>, not proof — report cheaters with the in-game form.&nbsp;<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
+      "installationGuideHtml": "<p>Copy the mod in WOT ... Mods/{LastVersion} folder<br><strong>Requires</strong> OpenWG Gameface and modsListApi!</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-10-21_01-40-48.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8054/",
       "tagIds": [
@@ -1205,31 +1205,11 @@
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.2.wotmod",
-          "updatedAt": "2026-10-23T18:15:17.737Z",
+          "updatedAt": "2026-11-01T16:39:24.963Z",
           "sizeBytes": 406391,
           "fileName": "darth.player_tags_1.0.2.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "1.0.2:\n• Players you blocked yourself and never tagged stay blocked.\n• New setting: switch-off and archive can also remove hand blocks (off by default).\n• Each tag has an On switch. Off hides it from the menu; existing tags stay.\n• A new PNG icon (added in Icons folder) shows in settings right away, no restart needed."
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.1.wotmod",
-          "updatedAt": "2026-10-21T11:59:46.071Z",
-          "sizeBytes": 401280,
-          "fileName": "darth.player_tags_1.0.1.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "1.Removed the need to press ALT!\n2.New Settings per Tag/Icon:\n-Custom Icons can be added by the players. \n-Players can now change the Tag Labels/Names.\n3.Extended \"Blacklist\". \n4.Fixed a defect where in garage you could not clean a player tag.\n5.Minor improvements"
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.0_b0Nvvfh.wotmod",
-          "updatedAt": "2026-10-21T19:24:47.140Z",
-          "sizeBytes": 308995,
-          "fileName": "darth.player_tags_1.0.0_b0Nvvfh.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -3924,6 +3904,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_Nakom_xxgVw70.zip",
+          "updatedAt": "2026-11-01T17:42:59.084Z",
+          "sizeBytes": 4961343,
+          "fileName": "sound_mod_Nakom_xxgVw70.zip",
+          "fileExt": ".zip",
+          "changeLog": "support 2.4.1.1"
+        },
+        {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "2.2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_Nakom_FajM6Wp.zip",
@@ -3955,10 +3945,10 @@
         }
       ],
       "latest": {
-        "fileName": "sound_mod_Nakom_FajM6Wp.zip",
+        "fileName": "sound_mod_Nakom_xxgVw70.zip",
         "modVersion": "2.2",
-        "changeLog": "support 2.4.1.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "changeLog": "support 2.4.1.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -3980,6 +3970,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/sound_mod_fury_thai_yX1Jaxb.zip",
+          "updatedAt": "2026-11-01T17:42:09.052Z",
+          "sizeBytes": 13620606,
+          "fileName": "sound_mod_fury_thai_yX1Jaxb.zip",
+          "fileExt": ".zip",
+          "changeLog": "support 2.4.1.1"
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0",
@@ -4012,10 +4012,10 @@
         }
       ],
       "latest": {
-        "fileName": "sound_mod_fury_thai_AN0QAJY.zip",
+        "fileName": "sound_mod_fury_thai_yX1Jaxb.zip",
         "modVersion": "1.0",
-        "changeLog": "support 2.4.1.0",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "changeLog": "support 2.4.1.1",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -6187,7 +6187,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.6,
+      "mark": 4.5,
       "descriptionHtml": "<p>Dear tankers,</p><p>If my mods stop working after a game update, please allow a few days for stability testing and WG's review, which often takes several days. <strong>This does not mean I've stopped maintaining them.</strong> Please avoid negative reviews while updates are pending. For questions, email <a href=\"mailto:2551549074@qq.com\"><strong>2551549074@qq.com</strong></a>; I'll reply when I can.</p><p><strong>Bring your favorite Girls und Panzer voices into every battle!</strong></p><p><strong>GuP Voice Selector</strong> lets you choose <i>Girls und Panzer</i> crew voiceovers in <strong>World of Tanks</strong>, regardless of vehicle nation, type, or crew composition. It features <strong>65 voice options</strong> covering most major GuP schools, teams, and characters, including official collaboration voiceovers marked <strong>\"(by official)\"</strong>. Voice options have been reorganized, and their volumes balanced.</p><h2>Main Features</h2><p><strong>GuP music:</strong> An extensive music collection with an on/off toggle and volume control. Applying a change to the music toggle <strong>immediately restarts the game client</strong>.</p><p><strong>Nine subtitle languages:</strong> English, Simplified Chinese, Japanese, Russian, German, French, Spanish, Polish, and Italian. Choose a language or <strong>Off</strong> via <strong>Garage → Mods → Subtitle Selector</strong>.</p><p><strong>Saved preferences:</strong> Voice and subtitle selections are saved automatically.</p><p><strong>Optional extra voice lines:</strong> Enable or disable alerts such as Sixth Sense and reload-complete notifications.</p><p><strong>Special crew compatibility:</strong> Use <strong>\"GuP Voice Selector: Ignore the voices of special crews\"</strong> to set voice priority. <strong>On:</strong> your selected GuP voice overrides special crew voiceovers. <strong>Off:</strong> special crew members keep their original unique voiceovers. Most newly added Commanders with unique voices work without a mod update.</p><h2>Important Note</h2><p><strong>Do not use this mod alongside the official Girls und Panzer Subtitles Mod.</strong> They conflict and may cause game issues. Use this mod's built-in subtitle system instead.</p><h2>About This Mod</h2><p>GuP Voice Selector has long been one of my favorite WoT mods. When the original disappeared from Mod Hub, I lacked the skills to restore it. With AI tools and experience gained over time, I've brought it back and adapted it to current game versions. I remain grateful to the original creator and hope they return someday.</p><p>The mod should theoretically work with future game updates. As I'm busy with studies and research, updates may be infrequent, mainly addressing serious bugs, compatibility issues, or many newly added voiced crew members.</p><p>Bug reports and suggestions: <a href=\"mailto:2551549074@qq.com\"><strong>2551549074@qq.com</strong></a></p><p><strong>Thanks for using GuP Voice Selector! Panzer Vor!</strong></p>",
       "installationGuideHtml": "<p>Copy all files to latest version floder under mods floder in game client floder.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%E5%B0%91%E5%A5%B3%E6%88%98%E8%BD%A6%E9%9F%B3%E4%B9%90%E7%8B%82%E6%BD%AE.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -42306,7 +42306,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.3,
       "descriptionHtml": "<ul><li>მოდში გამოყენებულია ფრაზები ქართული კინოფილმებიდან და არა მარტო.</li><li>The mod uses phrases from Georgian films and not only.</li></ul><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/7ER6sc6tJmU\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/7ER6sc6tJmU\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<p>არქივის შიგთავსი (ფაილი audioww) მოათავსეთ აქ: «World_of_Tanks \\ res_mods \\ აქტუალური ვერსია.</p><p>Place the contents of the archive (file audioww) here: «World_of_Tanks \\ res_mods \\ current version.</p>",
@@ -42317,6 +42317,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "14",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audioww_2SGunan_sscQ7dx.rar",
+          "updatedAt": "2026-11-01T14:34:58.912Z",
+          "sizeBytes": 23323126,
+          "fileName": "audioww_2SGunan_sscQ7dx.rar",
+          "fileExt": ".rar",
+          "changeLog": "updated for patch 2.4.1.0 Added new sounds"
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "14",
@@ -42366,23 +42376,13 @@
           "fileName": "audioww_U2UeeSh_4dQ1Is6.rar",
           "fileExt": ".rar",
           "changeLog": "updated for patch 2.4.0.0"
-        },
-        {
-          "wotGameVersion": "2.3.1.3",
-          "modVersion": "13",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/audioww_U2UeeSh_LLCeyZ4.rar",
-          "updatedAt": "2026-09-12T12:49:27.964Z",
-          "sizeBytes": 21900035,
-          "fileName": "audioww_U2UeeSh_LLCeyZ4.rar",
-          "fileExt": ".rar",
-          "changeLog": "updated for patch 2.3.1.3"
         }
       ],
       "latest": {
-        "fileName": "audioww_2SGunan.rar",
+        "fileName": "audioww_2SGunan_sscQ7dx.rar",
         "modVersion": "14",
         "changeLog": "updated for patch 2.4.1.0 Added new sounds",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -49348,7 +49348,7 @@
       ],
       "recommended": true,
       "mark": 4.3,
-      "descriptionHtml": "<p>» <strong>PROMOD IS LISTED HERE TO ENSURE YOU ITS A LEGAL MODPACK.</strong><br><br>»&nbsp;<strong>GITHUB FOR SINGLE MODS: </strong><a href=\"https://github.com/deadhat\"><strong>https://github.com/deadhat</strong></a><br>»&nbsp;<strong>OLDSKOOL.VIP FOR THE PACK: </strong><a href=\"https://www.oldskool.vip/\"><strong>https://www.oldskool.vip</strong></a><br><br>OldSkool's ProMod installer has been rebuilt from the ground up for ProMod 2.0. It runs on .NET 8 and installs from our own content servers, which keeps downloads fast and stable. Your selection is stored per game installation — including every variant and setting — so a patch day no longer means clicking through a full setup again.</p><p>Use the ProMod shortcut to start the game and the installer checks for updates first, applies them and hands over to the Wargaming Game Center. Premium supporters get that fully automatic; everyone else confirms with a single click. Want to try someone else's setup? A streamer preset gives you their mod selection, their settings and, if you like, their sixth sense — and from that moment on it is yours to adjust. The built-in sixth sense builder turns any image into your own warning display, with a sound and a countdown to match.</p><p>A lot of the modifications in ProMod are written by us. We do our best to have the installer ready with the majority of features working on the day a new Wargaming patch lands, and we optimise our mods so that players on weaker machines don't lose frames in battle.</p><p>What matters most is that ProMod stays simple to use and quick to run. Nobody should have to wade through unnecessary information: every mod comes with a clear description and a preview image showing exactly what it does. Our focus is on well optimised mods that work properly, which is why ProMod is a modpack built on quality rather than quantity.<br>&nbsp;</p>",
+      "descriptionHtml": "<p><strong>ProMod is listed on WGMods so you can be sure it is a verified, legal modpack.</strong></p><p>🔗 <strong>Full modpack:</strong> <a href=\"https://www.oldskool.vip\">https://www.oldskool.vip</a><br>🔗 <strong>Single mods on GitHub:</strong> <a href=\"https://github.com/deadhat\">https://github.com/deadhat</a><br><br><strong>ProMod 2.0: rebuilt from the ground up</strong></p><p>The ProMod installer by OldSkool has been completely rewritten for ProMod 2.0. It runs on .NET 8 and downloads directly from our own content servers, so installs are fast and reliable.</p><p><strong>Set it up once, keep it forever</strong></p><p>Your selection is saved per game installation, including every variant and setting. On patch day there is no need to go through the full setup again.</p><p><strong>Updates on launch</strong></p><p>Start the game with the ProMod shortcut. The installer checks for updates first, applies them and then hands over to the Wargaming Game Center.</p><ul><li>Premium supporters: fully automatic</li><li>Everyone else: one click to confirm</li></ul><p><strong>Streamer presets</strong></p><p>Want to play with someone else’s setup? A streamer preset gives you their mod selection and settings, and their sixth sense if you want it. After that the setup is yours to adjust.</p><p><strong>Sixth Sense Builder</strong></p><p>Turn any image into your own sixth sense indicator, complete with a sound and a countdown timer.</p><p><strong>Our approach</strong></p><ul><li><strong>Ready on patch day:</strong> Many of the mods in ProMod are developed by us. We aim to have the installer and most of its features working on the day a new Wargaming patch is released.</li><li><strong>Performance first:</strong> Our mods are optimised so that players on lower end hardware keep their frame rate in battle.</li><li><strong>Clear and simple:</strong> Every mod has a short description and a preview image that shows exactly what it does. No clutter, no guesswork.</li><li><strong>Quality over quantity:</strong> We focus on well optimised mods that work properly, not on the longest possible list.</li></ul>",
       "installationGuideHtml": "<p>Run the installer, pick your mods and enjoy.&nbsp;<br>I highly recommend doing a clean install.<br><br><strong>You want to support my work?</strong><br><a href=\"https://promod.oldskool.vip/donate/\"><strong>https://promod.oldskool.vip/donate/</strong></a><br><br><strong>Support Discord:</strong><br><a href=\"https://discord.gg/oldskool\"><strong>https://discord.gg/oldskool</strong></a></p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/previewProMod.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/535/",
@@ -49358,6 +49358,16 @@
         "18"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "3.0.42",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_7XZ6kBi.zip",
+          "updatedAt": "2026-11-01T16:48:20.256Z",
+          "sizeBytes": 4957971,
+          "fileName": "ProMod_7XZ6kBi.zip",
+          "fileExt": ".zip",
+          "changeLog": "new: Hangar Poppyfield\nUpdated Aslain Mod Menu\nUpdated Arty Hit Log\nUpdated Battle Efficiency\nUpdated High Caliver Panel\nUpdated Improved Debug Panel\nUpdated Average Damage Log\nUpdated HangMan\nUpdated BalCalc\nUpdated Custom UI Scale\nUpdated Hitmarker Pro\nUpdated Hangar Clock\nUpdated AutoAim Snapping\nUpdated Aim Info\nUpdated Dynamic Flashlight Colors\nUpdated Centered Minimap\nUpdated Effects Control"
+        },
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "3.0.41",
@@ -49407,22 +49417,12 @@
           "fileName": "ProMod_TCm596K.zip",
           "fileExt": ".zip",
           "changeLog": "new: WarMod Engine Sounds\nnew: Friends Marker\nUpdated WarMod Gun Sounds\nUpdated HR Engine Sounds\nUpdated Mod Menu\nUpdated Advanced Personal Efficiency\nUpdated Aiminfo Pro\nUpdated HangMan Hangar Manager"
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "3.0.36",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_GXOLpua.zip",
-          "updatedAt": "2026-10-16T09:22:25.133Z",
-          "sizeBytes": 4938979,
-          "fileName": "ProMod_GXOLpua.zip",
-          "fileExt": ".zip",
-          "changeLog": "Updated Pro Core Engine (Clan Rewards Claim Fix)\nUpdated HangMan (Hangar Manager)"
         }
       ],
       "latest": {
-        "fileName": "ProMod_aBtqhZb.zip",
-        "modVersion": "3.0.41",
-        "changeLog": "Added Restore Event Entrys\nUpdated to XVM Build 14.0.0.0004\nUpdated AntiMirror\nUpdated OpenWG Common Utils (FPS Limiter)\nUpdated Minimalistic Hangar\nUpdated Hangar Clock\nUpdated HangMan\nUpdated Dynamic Flashlight Colors\nUpdated Vehicle Stat Inspector\nUpdated Effect Control\nUpdated Centered Minimap\nRemoved Battle Chat Fix (WG fixed it themselfs clap)",
+        "fileName": "ProMod_7XZ6kBi.zip",
+        "modVersion": "3.0.42",
+        "changeLog": "new: Hangar Poppyfield\nUpdated Aslain Mod Menu\nUpdated Arty Hit Log\nUpdated Battle Efficiency\nUpdated High Caliver Panel\nUpdated Improved Debug Panel\nUpdated Average Damage Log\nUpdated HangMan\nUpdated BalCalc\nUpdated Custom UI Scale\nUpdated Hitmarker Pro\nUpdated Hangar Clock\nUpdated AutoAim Snapping\nUpdated Aim Info\nUpdated Dynamic Flashlight Colors\nUpdated Centered Minimap\nUpdated Effects Control",
         "wotGameVersionCompatibility": "safe"
       }
     },
