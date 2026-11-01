@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "v2026.11.000",
+  "catalogVersion": "v2026.11.001",
   "sourceHash": "429ce0e09eb2ca33df24a9b9bf1298d9a2c1bb0b098e5731f2d0f90a6901cfa9",
   "sources": [
     "wgmods",
@@ -845,7 +845,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Credit Ledger tracks the credits you earn and spend directly in your garage.</p><p>COMPATIBILITY: World of Tanks PC 2.4.1.1 and 2.4.1.0, Wargaming Americas (NA), Europe (EU) and Asia (ASIA). One ZIP includes the offline Windows installer, both compatible client packages and English/Spanish guides. Blitz and Lesta/Mir Tankov are not supported.</p><p>FEATURES<br>- Movable garage widget that stays available during matchmaking across supported queue types. It hides on the tech tree, Service Record, unrelated pages and during battle.<br>- Minimal circle with live percentage, target amount, thick green ring, full-circle hover highlight and click-to-expand. Hover to reveal the Move handle.<br>- Editable 100,000-credit starting goal for new accounts and history periods. Updating the target preserves progress; 0 disables it for the period. A separate reset starts from your current balance.<br>- Income, repairs, ammunition, consumables and directives; profit or loss after costs. Personal and clan reserves have separate rows and are never counted twice.<br>- Filters by game mode and vehicle, native mode emblems, tank images and tiers.<br>- Server-day reset, manual reset and collapsible Daily battle history.<br>- Brief goal-completion feedback once the garage has loaded; positive amounts green, negative amounts red.<br>- Spanish by default with instant English selection.</p><p>INSTALLER<br>Extract the ZIP to a separate folder and run CreditLedger-Setup-0.22.14.exe. Select your game and click Install / Update. The classic installer shows real progress, then Finish closes it. It verifies the included mod and replaces duplicate/older Credit Ledger packages, including identified disabled copies. Install/update also removes this mod from older client-version folders in the selected installation; it deletes folders only when empty. Other files, account data and future client folders are preserved. Backups and rollback protect the update. Manual installation is available.</p><p>Account data stays on your computer, separated by realm/account. No telemetry, account login or external updater. History contains only results captured by the mod. Some optional reserve details or reward names may be unavailable; known amounts remain visible. Up to 100 recent battles are listed; totals include all recorded battles in the period. Goals follow the synchronized account balance.</p><p>Validation: 450 Python tests, 44 installer engine tests and 13 form checks. Earlier EU +49,640 and Asia +64,197 net accounting checks matched Financial Reports on 2.4.1.0; this is not a new all-region 2.4.1.1 live test. Queue contracts were audited; visual checks for every mode remain pending. Screenshots use demonstration data.</p><p>Source code / Código fuente: <a href=\"https://github.com/amayadiego22-cloud/credit-ledger\">https://github.com/amayadiego22-cloud/credit-ledger</a></p>",
+      "descriptionHtml": "<p>Credit Ledger tracks the credits you earn and spend directly in your garage.</p><p>COMPATIBILITY: World of Tanks PC 2.4.1.1 and 2.4.1.0, Wargaming Americas (NA), Europe (EU) and Asia (ASIA). One ZIP includes the offline Windows installer, both compatible client packages and English/Spanish guides. Blitz and Lesta/Mir Tankov are not supported.</p><p>FEATURES<br>- Movable garage widget that stays available during matchmaking across supported queue types. It hides on the tech tree, Service Record, unrelated pages and during battle.<br>- Minimal circle with live percentage, target amount, thick green ring, full-circle hover highlight and click-to-expand. Hover to reveal the Move handle.<br>- Editable 100,000-credit starting goal for new accounts and history periods. Updating the target preserves progress; 0 disables it for the period. A separate reset starts from your current balance.<br>- Income, repairs, ammunition, consumables and directives; profit or loss after costs. Personal and clan reserves have separate rows and are never counted twice.<br>- Filters by game mode and vehicle, native mode emblems, tank images and tiers.<br>- Server-day reset, manual reset and collapsible Daily battle history.<br>- Brief goal-completion feedback once the garage has loaded; positive amounts green, negative amounts red.<br>- Spanish by default with instant English selection.</p><p>INSTALLER<br>Extract the ZIP to a separate folder and run CreditLedger-Setup-0.22.14.exe. Select your game and click Install / Update. The classic installer shows real progress, then Finish closes it. It verifies the included mod and replaces duplicate/older Credit Ledger packages, including identified disabled copies. Install/update also removes this mod from older client-version folders in the selected installation; it deletes folders only when empty. Other files, account data and future client folders are preserved. Backups and rollback protect the update. Manual installation is available.</p><p>Account data stays on your computer, separated by realm/account. No telemetry, account login or external updater. History contains only results captured by the mod. Some optional reserve details or reward names may be unavailable; known amounts remain visible. Up to 100 recent battles are listed; totals include all recorded battles in the period. Goals follow the synchronized account balance.</p><p>Source code / Código fuente: <a href=\"https://github.com/amayadiego22-cloud/credit-ledger\">https://github.com/amayadiego22-cloud/credit-ledger</a></p>",
       "installationGuideHtml": "<p>1. Close World of Tanks completely.<br>2. Extract the ZIP to a separate folder. Open CreditLedger-Setup-0.22.14.exe, choose your game installation and click Install / Update. Wait for 100%, then click Finish to close.<br>3. The installer replaces duplicates and removes Credit Ledger from older client folders; folders are deleted only if empty. Your data and other files stay safe.<br>4. For manual installation, copy only the .wotmod matching the active client to mods\\2.4.1.1\\ or mods\\2.4.1.0\\. Keep one copy in the active folder.<br>5. Open WoT. The widget appears in the garage and supported matchmaking queues. Click the circle to expand; hover for Move. View details opens the breakdown; Spanish/English switches instantly.</p><p>To remove: use Remove mod for the active client, or delete its local.credit_ledger.wotmod while WoT is closed. Account data is retained.<br>Supported: Wargaming NA/EU/ASIA, WoT PC 2.4.1.1 and 2.4.1.0.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover-0.22.11-302x170.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8056/",
@@ -863,16 +863,6 @@
           "fileName": "CreditLedger-0.22.14-WoT-2.4.1.0-2.4.1.1.zip",
           "fileExt": ".zip",
           "changeLog": "Release 0.22.14\n- Garage widget stays available while searching for battle across supported queues, and hides on unrelated pages and during battle.\n- New accounts and history periods start with an editable 100,000-credit goal; 0 disables it for that period. Editing the target preserves progress.\n- Offline installer included inside the ZIP: classic design, real progress stages and percentage, and Finish to close.\n- Replaces older/duplicate Credit Ledger packages, including identified disabled copies. Install/update also removes this mod from older client folders in the selected installation; those folders are deleted only when empty. Other files, account data and future client folders are preserved.\n- Final verification, backups and rollback cover package and folder cleanup.\nValidation: 450 Python tests, 44 installer engine tests and 13 form checks. NA/EU/ASIA; WoT 2.4.1.1 and 2.4.1.0. No new all-region live test claimed."
-        },
-        {
-          "wotGameVersion": "2.4.1.1",
-          "modVersion": "0.22.11",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/CreditLedger-0.22.11-WoT-2.4.1.0-2.4.1.1.zip",
-          "updatedAt": "2026-10-29T08:43:14.696Z",
-          "sizeBytes": 417077,
-          "fileName": "CreditLedger-0.22.11-WoT-2.4.1.0-2.4.1.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "Release 0.22.11\n- New minimal circular shortcut with a thicker green progress ring, percentage and goal amount. The full circle highlights on hover and can be clicked anywhere to restore the widget; the Move handle appears on hover for dragging.\n- New accounts start with a 100,000-credit goal. Existing goals and history are preserved; entering 0 disables the goal.\n- Shared 8px layout for the widget, details and installer; thicker green progress bars.\n- Original offline Windows installer included inside this ZIP, together with the mod files and English/Spanish guides.\n- Removed beta labels from package metadata, client notices and guides.\n- The player confirmed the circle and full-circle hover in-game on WoT 2.4.1.1. 437 Python tests, 119 rendered-interface checks and 32 installer checks passed.\nCompatibility: Wargaming NA, EU and ASIA; WoT 2.4.1.1 and 2.4.1.0."
         }
       ],
       "latest": {
@@ -13007,9 +12997,9 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Original author was <a href=\"https://wgmods.net/6053/\"><strong>Pepelus</strong></a></p><p>I decided to remake this mod for WoT 2.0</p><p>Added letters for all the ammo types and other missing icons.</p><p>All ammo icons that are in the game.</p>",
-      "installationGuideHtml": "<p>Place the .wotmod file into:</p><p>\"game installation folder\"\\mods\\\"game version\"</p><p>For example:</p><p>\"W:\\World_of_Tanks_EU\\mods\\2.4.1.0\"</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod-cover.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>Original author was <a href=\"https://wgmods.net/6053/\"><strong>Pepelus</strong></a></p><p>I decided to remake this mod for WoT 2.0</p><p>Added marks for all of the ammo icons.</p>",
+      "installationGuideHtml": "<p>Place the .wotmod file into:</p><p>\"game installation folder\"\\mods\\\"game version\"</p><p>For example:</p><p>\"W:\\World_of_Tanks_EU\\mods\\2.4.1.1\"</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mod-cover_v2_Xp9vq3S.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/7695/",
       "tagIds": [
         "18",
@@ -13064,16 +13054,6 @@
           "updatedAt": "2026-09-11T19:34:05.460Z",
           "sizeBytes": 6089358,
           "fileName": "letter_shell_icons_2.0_v1.0_UupXVN9.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.0.1",
-          "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/letter_shell_icons_2.0_v1.0_eYj2e99.wotmod",
-          "updatedAt": "2026-06-11T18:42:09.386Z",
-          "sizeBytes": 6089358,
-          "fileName": "letter_shell_icons_2.0_v1.0_eYj2e99.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
@@ -48510,7 +48490,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.4,
+      "mark": 4.5,
       "descriptionHtml": "<p><strong>Aslain’s ModPack – The Ultimate Modding Experience for World of Tanks</strong></p><p>Enhance your World of Tanks gameplay with <strong>Aslain’s ModPack</strong>, the most comprehensive and user-friendly collection of mods, carefully curated to improve your battle experience while staying <strong>100% WG Fair Play compliant</strong>.</p><ul><li><strong>Massive Selection</strong> - Choose from <strong>hundreds of high-quality mods</strong>, including UI enhancements, sound packs, crosshairs, garage improvements, and more.</li><li><strong>Easy to Use</strong> - The intuitive installer provides a <strong>mod preview</strong>, so you always know what you’re selecting.</li><li><strong>Regular Updates</strong> - Stay ahead with <strong>frequent updates</strong> that ensure compatibility with the latest WoT versions.</li><li><strong>Fast &amp; Reliable Support</strong> - Got questions or need assistance? Get <strong>blazing-fast support</strong> via <a href=\"http://aslain.com/index.php?/forum/11--\"><strong>ASLAIN.COM</strong></a><strong> </strong>forums and <a href=\"https://discord.gg/6eWrNfT\"><strong>Discord</strong></a>.</li><li><strong>Safe &amp; Approved</strong> - Only mods that comply with <strong>Wargaming’s Fair Play Policy</strong> are included, ensuring a <strong>safe and fair</strong> gameplay experience.</li></ul><p><strong>Seamless Installation &amp; Customization</strong></p><p>With Aslain’s ModPack, you have <strong>full control</strong> over your modding experience. Simply launch the installer, pick your favorite mods, and jump straight into battle. <strong>The installer remembers your previous selections</strong>, making future updates quick and effortless.</p><p>Join <strong>millions of players</strong> who trust Aslain’s Modpack for the ultimate <strong>modding experience in World of Tanks</strong>. Download now and take your game to the next level!</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong><br>- Launch the installer.<br>- Select the folder where your WoT is installed.<br>- Choose your mods and options.<br>- To change mods later, run the installer again and make new selections (previously selected mods will be remembered).</p><p><strong>Update:</strong><br>- Do <i>not</i> uninstall the old modpack.<br>- Download and launch the new installer (previous selections will be remembered).<br>- Complete the installation.</p><p><strong>Removal:</strong><br>- Use the Windows \"Add or Remove Programs\" feature in the Control Panel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/classicaslain_pDRSzBw.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
