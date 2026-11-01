@@ -1,11 +1,402 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.10.061",
+  "catalogVersion": "v2026.11.000",
   "mods": [
     {
       "source": "wgmods",
+      "sourceId": "8087",
+      "title": "Armor Penetration Calculator",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close World of Tanks, then extract the .wotmod files from the ZIP into World_of_Tanks/mods/x.x.x.x/ . Replace x.x.x.x with your current game version. Restart the game and open Armor Penetration Calculator in Aslain's Mod Menu to customize the overlay."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy its .wotmod files into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8082",
+      "title": "Recovery Filters - filters for Recover Vehicle list",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Installation Close World of Tanks. Remove any previous Recovery Filters package, including files named recovery_filters_*.wotmod. Keep only one version installed. Copy recovery_filters_1.0.0.wotmod into the mods/2.4.1.1/ folder inside your World of Tanks installation. Do not extract the file. Start the game and open Depot → Vehicles in the Garage → Recovery . When upgrading from a previous version, press Reset once if you want to replace your saved selections with the defaults. Reset clears the filters, disables Can afford and restores Game order ; it keeps your panel position and language choice. Uninstallation Close the game and remove recovery_filters_1.0.0.wotmod from its mods folder."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8083",
+      "title": "Battle Timing Results",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close the game and extract the included .wotmod files into World_of_Tanks/mods/x.x.x.x/. Replace x.x.x.x with your current game version. The required GameFace dependency is included; avoid installing duplicate copies if it is already present. Restart the game."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy the included .wotmod files into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8081",
+      "title": "(unofficial) Anime MLP human Trixie crew skin",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Put the file Trixie_Portrait.wotmod into your WoT folder/mods/current game version"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8080",
+      "title": "MaxGamingFPS's Commander Voicemod",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Option 1: Standard Installation (Default Settings) Use this method if you just want the MaxGamingFPS's voice lines and wish to keep the ability to play with special commanders, like Santa Claus or Ermelinda Von Krieger. Place the dev.tochik.maxcommander_X.X.X.wotmod file (extracted from archive) into your World_of_Tanks/mods/2.X.X.X/ folder. In the game, go to Settings -> Sound -> Voice Messages in Battle. Select MaxGamingFPS from the dropdown menu. Option 2: ModConfigurator Installation (Global Override) Use this method if you want MaxGamingFPS to voice *every* commander in the game, overriding all special commanders. Extract the entire MaxCommander_X.X.X.zip archive into your World_of_Tanks/mods/2.X.X.X/ folder. This will add necessary mods for enabling the ModConfigurator menu in your game. Open the ModConfigurator menu and select MaxGamingFPS Voice (all commanders) in the Voiceover override dropdown that forces the MaxGamingFPS voiceover for all commanders, including special ones."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "The guide provides supported extraction into mods; its standard and global-override options are installation modes, not exclusive component variants.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8079",
+      "title": "Steel Hunter Ability Helper",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close World of Tanks and extract the ZIP archive. Copy all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Restart the game. In Steel Hunter, hold the configured preview key (either Ctrl key by default) and press a supported ability's normal slot key to preview its range. Release the preview key to hide the preview. Use the normal slot key without the preview key to activate the ability as usual. Open Aslain Mod Menu > Steel Hunter Ability Helper to change the preview key and customize ring colours. Range previews also work during Steel Hunter replay playback, including while paused. Use the same preview key and ability-slot key. Enable Toggle range preview in Aslain Mod Menu to keep a preview visible after releasing the keys; press the same shortcut again to hide it."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy all included .wotmod files into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8078",
+      "title": "Grid and Tech Garage's",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Drop 1 of the 2 .wotmods into \\mods\\{2.4.1.1}\\ folder"
+      },
+      "requiresReview": true,
+      "installationProcess": {
+        "installationTemplate": "DeterministicButUnsupported",
+        "installableByApp": false,
+        "decisionReason": "The guide directs installing only one of two .wotmod files, but the package-specific choice cannot be made automatically.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8076",
+      "title": "Armor Hits",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Open the archive. Copy the mods folder into the game folder, where WorldOfTanks.exe is. Replace files if asked. Check that the files are in the folders shown in the picture. Start the game and click the Armor Hits button in the hangar."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive's mods tree into the game folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8028",
+      "title": "Hangar FOV",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the .wotmod file in World_of_Tanks/mods/2.4.1.0/"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8074",
+      "title": "Live Credits & XP",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Unpack the archive into the game folder (for example C:\\Games\\World_of_Tanks_EU), keeping the folders. It adds two files to mods\\2.4.1.1: lazylazy.livecredits_1.0.1.wotmod — the mod; gambiter.guiflash_0.6.7.wotmod — GUIFlash, needed to draw the widget (skip it if you already have it). 2. Start the game and play a random battle. Ctrl + drag moves the widget, the spot is remembered. Hold Right Alt for the details. 3. Settings in the hangar: Mods list → Live Credits & XP (look, event ribbons, background opacity, visibility with Tab open). This page needs ModsSettingsAPI; without it, edit mods\\configs\\livecredits\\config.json. Updating from an older version: delete the old lazylazy.livecredits_*.wotmod first. To remove the mod, delete lazylazy.livecredits_1.0.1.wotmod and the folder mods\\configs\\livecredits."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive into the game folder while preserving its folder structure.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8073",
+      "title": "Zanju's Crucible Tracker",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "You can read the installation guide at the source repository ."
+      },
+      "requiresReview": true,
+      "installationProcess": {
+        "installationTemplate": "Unknown",
+        "installableByApp": false,
+        "decisionReason": "The guide points to an external repository without providing an installation procedure.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8072",
+      "title": "Tactical Tier Icons",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8071",
+      "title": "ChatLatinica",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8068",
+      "title": "Sniper Snap",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close World of Tanks and extract the ZIP archive. Copy all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current game version. Restart the game. Press K from arcade view on a non-artillery vehicle to enter sniper mode at your gun reticle. Use the same shortcut while already in sniper view or in top-down or trajectory artillery view to recenter the camera on the current gun marker. Change the shortcut, enable or disable the mod, or adjust the separate sniper and artillery snapping toggles under Aslain Mod Menu > Sniper Snap . Both snapping toggles are enabled by default."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy all included .wotmod files into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8066",
+      "title": "Armour Beats",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the supplied Armour Beats .wotmod in the mods folder matching your game version. Install Aslain Mod Menu separately if you want its settings integration. Current beta build for World of Tanks 2.4.1."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8065",
+      "title": "Live WTR Widget",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Copy the mods folder from the archive into your game folder and confirm merging. Play a Random Battle: the widget appears at the bottom left. Hold Ctrl and drag it where you like. GUIFlash (required) is included. Settings: hangar mod settings (with ModsSettingsAPI) or mods\\configs\\wtr_widget\\config.json. Note if updating from old version: Delete the old lazylazy.wtr_widget_1.0.0.wotmod or lazylazy.wtr_widget_1.1.0.wotmod from mods\\2.4.1.1 — only one version should be installed."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Merge the archive's mods tree into the game folder; the included dependency does not require filtering.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8064",
+      "title": "SZRXS's Crosshair",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8027",
+      "title": "Grove Street Hangar",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Download the archive and extract the file `renovo.grovestreet.hangar_1.0.0.wotmod`. 2. Copy the `.wotmod` file into your World of Tanks game directory: `<World_of_Tanks>/mods/<current_version>/` (for example: `C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0\\`) 3. Launch the game and enjoy your new garage! To uninstall, simply delete the `.wotmod` file from the folder."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8056",
+      "title": "Credit Ledger / Contabilidad de créditos",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "1. Close World of Tanks completely. 2. Extract the ZIP to a separate folder. Open CreditLedger-Setup-0.22.14.exe, choose your game installation and click Install / Update. Wait for 100%, then click Finish to close. 3. The installer replaces duplicates and removes Credit Ledger from older client folders; folders are deleted only if empty. Your data and other files stay safe. 4. For manual installation, copy only the .wotmod matching the active client to mods\\2.4.1.1\\ or mods\\2.4.1.0\\. Keep one copy in the active folder. 5. Open WoT. The widget appears in the garage and supported matchmaking queues. Click the circle to expand; hover for Move. View details opens the breakdown; Spanish/English switches instantly. To remove: use Remove mod for the active client, or delete its local.credit_ledger.wotmod while WoT is closed. Account data is retained. Supported: Wargaming NA/EU/ASIA, WoT PC 2.4.1.1 and 2.4.1.0."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "The guide offers manual copying as a supported alternative to running the external installer; the client-version folder is normalized to the current version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8060",
+      "title": "Stinger Silver for all ranks (improved lights + new chassis with tracks)",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 155mm gun sound effect and new tracks."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods; the guide also affirmatively instructs deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8063",
+      "title": "Stinger Legend for all ranks (improved lights + new chassis with tracks)",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 155mm gun sound effect and new tracks."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods; the guide also affirmatively instructs deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8062",
+      "title": "Stinger Master for all ranks (improved lights + new chassis with tracks)",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 155mm gun sound effect and new tracks."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods; the guide also affirmatively instructs deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8061",
+      "title": "Stinger Gold for all ranks (improved lights + new chassis with tracks)",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Paste the wotmod into the mods folder, newest version. WorldofTanks\\mods\\current version of game and paste mod in there. Delete file: data.wgpdc in main folder of game before run game, because game will crash while loading without deleting this file after instalation of mod, because of changed 155mm gun sound effect and new tracks."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "Copy the downloaded .wotmod unchanged into mods; the guide also affirmatively instructs deleting data.wgpdc.",
+        "deleteDataWgpdc": true
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "8059",
-      "title": "Darth - QOL Features",
+      "title": "Darth - Playlists QOL",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
@@ -56,7 +447,7 @@
     {
       "source": "wgmods",
       "sourceId": "8054",
-      "title": "Player Tags",
+      "title": "Darth - Player Tags",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
@@ -77,7 +468,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Close World of Tanks. Remove Actual Rain and any other map-lighting replacements. Extract the download with 7-Zip. Copy all supplied .wotmod files into World_of_Tanks/mods/x.x.x.x/ . Replace x.x.x.x with your current game version. Start the game. Open Aslain's Mod Menu, select Real World Weather , and enter a town or complete coordinates if you want to override approximate IP location. Use the improved graphics renderer for rain and snow. Check the weather-status panel in Aslain's Mod Menu to confirm the resolved location and latest observation. Location and settings changes apply to the next battle. On first launch, the mod prepares a small local cache and temporarily blocks battle entry. A loading notice explains setup. The game restarts automatically once generation and garage loading finish. Later launches reuse the cache."
+        "latestInstallGuide": "Close World of Tanks. Remove Actual Rain and any other map-lighting replacements. Extract the download with 7-Zip. Copy all supplied .wotmod files into World_of_Tanks/mods/x.x.x.x/. Replace x.x.x.x with your current game version. Start the game. Open Aslain's Mod Menu, select Real World Weather , and enter a town or complete coordinates if you want to override approximate IP location. Use the improved graphics renderer for rain and snow. Check the weather-status panel in Aslain's Mod Menu to confirm the resolved location and latest observation. Location and settings changes apply to the next battle. On first launch, the mod prepares a small local cache and temporarily blocks battle entry. A loading notice explains setup. The game restarts automatically once generation and garage loading finish. Later launches reuse the cache."
       },
       "requiresReview": false,
       "installationProcess": {
@@ -111,7 +502,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Put the wotmod inside World of Tanks\\eu\\mods\\2.4.1.0 Then start de game and link your account (see the notification tab)"
+        "latestInstallGuide": "Put the wotmod inside World of Tanks\\eu\\mods\\2.4.1.1 Then start de game and link your account (see the notification tab)"
       },
       "requiresReview": false,
       "installationProcess": {
@@ -225,23 +616,6 @@
     },
     {
       "source": "wgmods",
-      "sourceId": "8048",
-      "title": "Mod Unique 3D Style Update 2.4.1",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".zip",
-        "latestInstallGuide": "Paste at World_of_Tanks_ASIA\\mods\\2.4.1.0"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
-        "installableByApp": true,
-        "decisionReason": "The archive is to be placed in mods/current-version.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
       "sourceId": "8047",
       "title": "EZ_ROOM",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
@@ -288,6 +662,23 @@
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
         "decisionReason": "A downloaded .wotmod is copied unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8029",
+      "title": "Negev Voiceover — Girls' Frontline",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Place the negev_voice_X.X.X.wotmod file into: World_of_Tanks_EU/mods/2.X.X.X/ After launching the game, open the sound settings and select the Negev voiceover."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -468,13 +859,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy sagtary.fps_ping_1.0.0.wotmod into the [WoT game directory]/mods/[game version]/ folder."
+        "latestInstallGuide": "Download sagtary.fps_ping_<version>.wotmod. Copy it into mods/<game version> in the game folder, where WorldOfTanks.exe is. Replace the old version if asked. Check that the file is in the folder shown in the picture. Start a battle: FPS, ping and lag are in the top left corner."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Copy the downloaded .wotmod unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -732,14 +1123,14 @@
       "title": "Gun sounds selector by TheOnlyApocalypse",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".7z",
         "latestInstallGuide": "Copy all files to latest version floder under mods floder in game client floder."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The guide says to copy all archive files into the latest-version mods folder.",
+        "decisionReason": "The guide says to copy all archive files into the latest-version folder under mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -1021,13 +1412,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks\\mods\\2.4.1.0\\"
+        "latestInstallGuide": "Download the mod file. Open your World of Tanks installation folder. Copy the .wotmod file into: World_of_Tanks\\mods\\2.4.1.1\\"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -1675,7 +2066,7 @@
     {
       "source": "wgmods",
       "sourceId": "7906",
-      "title": "ASMA Battle Contours Icons 中文战斗轮廓图标",
+      "title": "ASMA中文战斗轮廓图标",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
@@ -2071,7 +2462,7 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract its contents straight into your main World of Tanks root folder. ie. \"[World_ of_ Tanks]\\mods\\2.4.1.0\\\" Turn off \" Show Vehicle Tier \" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
+        "latestInstallGuide": "Inside the archive you first have to choose the style you want to use, \"Style - Neon\" or \"Style - Apex\" and extract its contents straight into your main World of Tanks root folder. ie. \"[World_ of_ Tanks]\\mods\\2.4.1.1\\\" Turn off \" Show Vehicle Tier \" in Settings. Short Panel display is recommended. Note: Includes Aslain's Anti Mirror for corrected Enemy pane view."
       },
       "requiresReview": true,
       "installationProcess": {
@@ -2083,7 +2474,7 @@
       "classifiedInstallationProcess": {
         "installationTemplate": "DeterministicButUnsupported",
         "installableByApp": false,
-        "decisionReason": "The guide requires choosing one of the alternative Neon or Apex styles before extracting into mods; the installer cannot select between these variants.",
+        "decisionReason": "The guide requires choosing between the Neon and Apex styles, so the installer cannot determine which exclusive variant to extract.",
         "deleteDataWgpdc": false
       }
     },
@@ -2549,13 +2940,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Installation World of Tanks `2.4.1.x` or a compatible client is required. `net.openwg.gameface` is required for the carousel. Full package (recommended) [Download the ZIP ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.22/hangar_carousel_classic_1.0.22_full.zip ) and extract it into the WoT root directory. It includes HCC, Aslain's Mod Menu, ModsSettingsBridge, and GameFace for `mods/2.4.0.2/`. HCC only [Download the WOTMOD ->]( https://github.com/ticzz/world-of-tanks-mod-hangar-carousel-classic/releases/download/v1.0.22/mod_hangar_carousel_classic_1.0.22.wotmod ) and copy it to `mods/2.4.1.x/`. Also install the matching `net.openwg.gameface_*.wotmod` from the [OpenWG releases]( https://gitlab.com/openwg/wot.gameface/-/releases ). Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
+        "latestInstallGuide": "Installation World of Tanks `2.4.1.x` or a compatible client is required. `net.openwg.gameface` is required for the carousel. Full package (recommended) [Download the ZIp and extract it into the WoT root directory into mods/2.4.1.x/. It includes HCC and GameFace. HCC only Download the WOTMOD and copy it to `mods/2.4.1.x/`. Also install the matching `net.openwg.gameface_*.wotmod` from the OpenWG release page. Without Mod Menu and ModsSettingsBridge, HCC remains usable through the native carousel filter panel."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "ExtractToGameRoot",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The full ZIP package is extracted into the WoT root; included dependencies do not block installation.",
+        "decisionReason": "The guide provides a full-package extraction into mods; its included components and dependencies do not require payload selection.",
         "deleteDataWgpdc": false
       }
     },
@@ -2646,23 +3037,6 @@
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
         "decisionReason": "The archive contents are installed in the current mods version folder.",
-        "deleteDataWgpdc": false
-      }
-    },
-    {
-      "source": "wgmods",
-      "sourceId": "7823",
-      "title": "PZ-III/IV <RESKIN>",
-      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
-      "classificationInput": {
-        "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Download the mod and place it into the mod directory of your game (WorldofTanks\\mods\\x.x.x.x\\) (replace x.x.x.x with the current version of WoT)"
-      },
-      "requiresReview": false,
-      "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
-        "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -4791,14 +5165,14 @@
       "title": "Legacy interface UI",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Copy the compiled file renovo.legacyhangar_x.x.wotmod (and optionally renovo.legacyhangarnav_x.x.x.wotmod with net.openwg.gameface_x.x.x.wotmod for the Navbar) to the folder of the current game version inside the mods directory: <Game_Folder>/mods/<Current_Version>/ (Example: C:/Games/World_of_Tanks/mods/x.x.x.x/) Note for Open.WG: If not already installed, the Open.WG library must be placed in the following subdirectory: <Game_Folder>/mods/<Current_Version>/net.openwg/ Launch the game client."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The compiled mod and optional compatible navbar add-on are copied from the archive into mods/current-version; the add-on does not require choosing between variants.",
+        "decisionReason": "The guide directs copying the main mod and permits compatible optional add-ons into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -7643,13 +8017,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Unpack the zip and place all the .wotmod files into [WoT folder]/mods/[WoT version]. Example: C:\\Games\\World_of_Tanks_EU\\mods\\2.4.0.0"
+        "latestInstallGuide": "Unpack the zip and place all the .wotmod files into [WoT folder]/mods/[WoT version]. Example: C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.1"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The ZIP is unpacked and all .wotmod files are placed in mods/current-version.",
+        "decisionReason": "The guide says to unpack the archive and place all included .wotmod files into mods.",
         "deleteDataWgpdc": false
       }
     },
@@ -18137,6 +18511,23 @@
     },
     {
       "source": "wgmods",
+      "sourceId": "1321",
+      "title": "Aslain's Classic Modpack",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".exe",
+        "latestInstallGuide": "Installation: - Launch the installer. - Select the folder where your WoT is installed. - Choose your mods and options. - To change mods later, run the installer again and make new selections (previously selected mods will be remembered). Update: - Do not uninstall the old modpack. - Download and launch the new installer (previous selections will be remembered). - Complete the installation. Removal: - Use the Windows \"Add or Remove Programs\" feature in the Control Panel."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "RunExternalInstaller",
+        "installableByApp": false,
+        "decisionReason": "Installing this package requires launching its installer and making selections there.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
       "sourceId": "1295",
       "title": "RazerTeck's M4A3E8 V2",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
@@ -18405,13 +18796,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".exe",
-        "latestInstallGuide": "Install UML Run WoA_Installer.exe"
+        "latestInstallGuide": "Install UML (When WoA is up-to-date, UML has been tested to work in the current version) Run WoA_Installer.exe"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "The guide instructs running the included installer to install the package.",
+        "decisionReason": "The guide requires running WoA_Installer.exe to install the package.",
         "deleteDataWgpdc": false
       }
     },
@@ -18486,17 +18877,17 @@
     {
       "source": "wgmods",
       "sourceId": "46",
-      "title": "Aslain's WoT Modpack",
+      "title": "Aslain's Modern Modpack",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".exe",
-        "latestInstallGuide": "Installation: - Launch the installer. - Select the folder where your WoT is installed. - Choose your mods and options. - To change mods later, run the installer again and make new selections (previously selected mods will be remembered). Update: - Do not uninstall the old modpack. - Download and launch the new installer (previous selections will be remembered). - Complete the installation. Removal: - Use the Windows \"Add or Remove Programs\" feature in the Control Panel."
+        "latestInstallGuide": "Installation: - Download and run the Mod Manager setup. - The app finds your WoT clients (Game Center, Steam). You can also add the game folder yourself. - Select mods, press Install, then Play. Update: - The app updates itself and tells you about new and updated mods. Press Install to apply them. From the classic modpack: - Do not uninstall it first. On the first start the app offers to take over your mods and selections. Removal: - Mods: Client tab, Installed modifications, Delete. - The app: Windows \"Add or Remove Programs\"."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "RunExternalInstaller",
         "installableByApp": false,
-        "decisionReason": "The guide requires launching the installer to select and install mods.",
+        "decisionReason": "Installing this package requires running the Mod Manager setup and applying mods through the app.",
         "deleteDataWgpdc": false
       }
     },
