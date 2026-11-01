@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.002",
+  "catalogVersion": "v2026.11.003",
   "mods": [
     {
       "source": "wgmods",
@@ -400,13 +400,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy the mod in WOT ... Mods/{LastVersion} folder"
+        "latestInstallGuide": "Copy the mod in WOT ... Mods/{LastVersion} folder Requires OpenWG Gameface and modsListApi!"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods; the listed dependencies do not affect installation.",
         "deleteDataWgpdc": false
       }
     },
@@ -451,13 +451,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy the mod, as any other mods, in your mods folder. No special instructions."
+        "latestInstallGuide": "Copy the mod in WOT ... Mods/{LastVersion} folder Requires OpenWG Gameface and modsListApi!"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods; the listed dependencies do not affect installation.",
         "deleteDataWgpdc": false
       }
     },
