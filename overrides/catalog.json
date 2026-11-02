@@ -1,11 +1,49 @@
 {
-  "catalogVersion": "v2026.11.003",
-  "sourceHash": "e131778dc1b06fbc54d19cbeb6903733a8e9eb300d03d32f620dd6bd19689466",
+  "catalogVersion": "v2026.11.004",
+  "sourceHash": "f10e1e8d4afb03c1c15e9ff9a7096fd1a70faf2d15c79a3abb41481484f215a0",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8086",
+      "title": "Ping Distance",
+      "ownerUsername": "R0khar",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en",
+        "ru"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Keeps the distance visible on position markers placed with the contextual command (T by default, \"Attention to position\"). In the standard game the distance only shows while your crosshair is on the marker; with this mod every marker shows a live distance that changes as you move, and off-screen markers stay at the screen edge with an arrow.</p><p>It uses the game's own marker display, so it looks the same as the standard game. It only changes how your team's markers are drawn and shows no information about enemies.</p><p>Free and open source: github.com/maksforge/wot-ping-distance<br>Support: wotmods.support@maksforge.com<br>Fan-made mod, not affiliated with Wargaming.</p>",
+      "installationGuideHtml": "<ol><li>Copy maksforge.ping_distance_0.1.0.wotmod into World_of_Tanks/mods/&lt;game version&gt;/ (for example mods/2.4.1.1/).</li><li>Start the game. No other mods are needed.</li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/zoom_140235.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8086/",
+      "tagIds": [
+        "18"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/maksforge.ping_distance_0.1.0.wotmod",
+          "updatedAt": "2026-11-02T09:56:44.844Z",
+          "sizeBytes": 3318,
+          "fileName": "maksforge.ping_distance_0.1.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "maksforge.ping_distance_0.1.0.wotmod",
+        "modVersion": "0.1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8087",
@@ -661,6 +699,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "Beta3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/armourbeats_2.4.1_Beta3.wotmod",
+          "updatedAt": "2026-11-02T10:10:13.376Z",
+          "sizeBytes": 35414702,
+          "fileName": "armourbeats_2.4.1_Beta3.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "V3\n  Improvements:\n      Removed the PowerShell dependency; radio station searches now use\n      World of Tanks’ built-in networking API.\n\n  New Styles:\n      Added aged copper, dark aluminium and weathered wood backgrounds."
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "Beta2",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/armourbeats_2.4.1_Beta2.wotmod",
           "updatedAt": "2026-10-27T18:10:04.079Z",
@@ -681,9 +729,9 @@
         }
       ],
       "latest": {
-        "fileName": "armourbeats_2.4.1_Beta2.wotmod",
-        "modVersion": "Beta2",
-        "changeLog": "V2\n  Bug Fixes: \n      Resolved an issue where skipping tracks caused playback errors.\n      \n  New Transparent Styles: \n      Added new styles with \"trans\" in the name,\n      featuring transparent elements whose background colour can now be \n      customized in the mod menu.\n      \n  Match Button: \n      Added a \"Match\" button to quickly sync your background colour with your \n      accent colour.\n      \n  More Fonts: \n      Added a selection of new fonts to choose from.\n      \n  Solid Color Background: \n      Added an option to use a solid background colour instead of a background image.",
+        "fileName": "armourbeats_2.4.1_Beta3.wotmod",
+        "modVersion": "Beta3",
+        "changeLog": "V3\n  Improvements:\n      Removed the PowerShell dependency; radio station searches now use\n      World of Tanks’ built-in networking API.\n\n  New Styles:\n      Added aged copper, dark aluminium and weathered wood backgrounds.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1056,26 +1104,6 @@
           "fileName": "darth.wot-qol_1.0.2.wotmod",
           "fileExt": ".wotmod",
           "changeLog": "No user facing changes. Refactoring only. "
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "1.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.wot-qol_1.0.1_0zpAFpr.wotmod",
-          "updatedAt": "2026-10-22T17:52:56.614Z",
-          "sizeBytes": 20712,
-          "fileName": "darth.wot-qol_1.0.1_0zpAFpr.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "No user facing changes. Refactoring only. "
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "1.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.wot-qol_1.0.0_BWFc8Rd.wotmod",
-          "updatedAt": "2026-10-22T16:37:46.814Z",
-          "sizeBytes": 17854,
-          "fileName": "darth.wot-qol_1.0.0_BWFc8Rd.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -1507,6 +1535,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.9",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Dark_Pavilion_EU_2.4.1.1.zip",
+          "updatedAt": "2026-11-02T10:20:39.432Z",
+          "sizeBytes": 10698224,
+          "fileName": "Dark_Pavilion_EU_2.4.1.1.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "0.9",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Dark_Pavilion_EU_2.4.1.0_BETA.zip",
@@ -1518,10 +1556,10 @@
         }
       ],
       "latest": {
-        "fileName": "Dark_Pavilion_EU_2.4.1.0_BETA.zip",
+        "fileName": "Dark_Pavilion_EU_2.4.1.1.zip",
         "modVersion": "0.9",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -10721,7 +10759,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
       "descriptionHtml": "<p>A slim progress bar in the Garage for the vehicle you have selected. It shows that vehicle's research and progression at a glance — drawn with the game's own icons, ticks, and tooltips and styled to match the stock progress bars, so it looks like a native part of the client. It updates live as you switch vehicles or earn XP.</p><h2>WHAT IT SHOWS</h2><p>The bar automatically picks the right progression for the selected vehicle:</p><ul><li><strong>Tech-tree research</strong> — researched modules and the next vehicle to unlock.</li><li><strong>Field Modifications</strong> — the post-progression upgrade ladder.</li><li><strong>Elite Levels</strong> — the current grade-band progression once a vehicle is elite.</li><li><strong>Tier XI exclusive rewards</strong> — the milestone reward roadmap earned on Tier XI vehicles.</li><li><strong>Tier XI skill tree</strong> — how many skill-tree upgrades you've unlocked out of the total.</li><li><strong>Potential Tier XI</strong> — an opt-in projection on Tier X vehicles that have no Tier XI of their own, measuring your banked XP against the Tier XI unlock cost (off by default).</li></ul><h2>INTERACTIVE</h2><p>Click the bar to research modules, unlock the next vehicle, or apply Tier XI upgrades without leaving the Garage. Hover any tick or icon for a full tooltip — costs, requirements, prerequisite names, affordability, XP-to-reach, and a rough battles-remaining estimate.</p><h2>NATIVE LOOK &amp; LANGUAGES</h2><p>Everything is built from the game's own art and text. The mod is fully localized to support any client language.</p><h2>SETTINGS</h2><p>With ModsSettingsAPI installed, options appear in the Modification list window: hide the bar completely, or hide it only on fully-progressed vehicles.</p><h2>CREDITS</h2><p>Inspired by <a href=\"https://wgmods.net/7691\">Zanju's Research Progress Bar</a>.</p>",
       "installationGuideHtml": "<h2>Requirements</h2><ul><li><a href=\"https://gitlab.com/openwg/wot.gameface/-/releases\"><strong>OpenWG GameFace</strong></a> 1.1.6+</li><li><a href=\"https://github.com/Aslain/modssettingsapi\"><strong>ModsSettingsAPI</strong></a> 1.7.0+</li><li><a href=\"https://gitlab.com/wot-public-mods/mods-list\"><strong>ModsListAPI </strong></a>1.7.8+<br>&nbsp;</li></ul><h2>Installation<br>&nbsp;</h2><p>For a one-click setup on Windows, download the installer from the <a href=\"https://github.com/drizzer14/garage-research-progress/releases\">GitHub releases page</a>. It finds your game folder, installs the mod, and adds OpenWG GameFace and ModsSettingsAPI if you don't already have them.<br>&nbsp;</p><p>To install the <i>.wotmod</i> from here by hand:</p><p>1. Close World of Tanks and the Game Center launcher.</p><p>2. Make sure OpenWG GameFace is installed in <i>mods\\2.3.0.1\\</i>.</p><p>3. Copy <i>com.14th_ua.garageprogressbar_&lt;version&gt;.wotmod</i> into <i>mods\\2.3.0.1\\</i>.</p><p>4. Delete any older copy of the mod from that folder.</p><p>5. Start the game.</p><p>6. After a game update, move the <i>.wotmod</i> to the new <i>mods\\&lt;version&gt;\\</i> folder. A new client version may need a rebuilt mod.<br>&nbsp;</p>",
@@ -10733,6 +10771,16 @@
         "20"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "9.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/GarageProgressBar-Bundle_9.0.0.zip",
+          "updatedAt": "2026-11-02T10:41:24.703Z",
+          "sizeBytes": 813819,
+          "fileName": "GarageProgressBar-Bundle_9.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Retargeted to World of Tanks client 2.4.1.1."
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "8.0.0",
@@ -10785,10 +10833,10 @@
         }
       ],
       "latest": {
-        "fileName": "GarageProgressBar-Bundle_8.0.0.zip",
-        "modVersion": "8.0.0",
-        "changeLog": "Retargeted to World of Tanks client 2.4.1.0.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "GarageProgressBar-Bundle_9.0.0.zip",
+        "modVersion": "9.0.0",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.1.",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {

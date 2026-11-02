@@ -1,111 +1,85 @@
 {
-  "catalogVersion": "v2026.11.003",
-  "previousCatalogVersion": "v2026.11.002",
+  "catalogVersion": "v2026.11.004",
+  "previousCatalogVersion": "v2026.11.003",
   "summary": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "updated": 5,
-    "unchanged": 862
+    "updated": 3,
+    "unchanged": 864
   },
   "changes": [
     {
-      "type": "updated",
+      "type": "added",
       "source": "wgmods",
-      "sourceId": "8054",
-      "title": "Darth - Player Tags",
-      "previous": {
-        "modVersion": "1.0.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "darth.player_tags_1.0.2.wotmod",
-        "updatedAt": "2026-10-23T18:15:17.737Z",
-        "changeLog": "1.0.2:\n• Players you blocked yourself and never tagged stay blocked.\n• New setting: switch-off and archive can also remove hand blocks (off by default).\n• Each tag has an On switch. Off hides it from the menu; existing tags stay.\n• A new PNG icon (added in Icons folder) shows in settings right away, no restart needed."
-      },
+      "sourceId": "8086",
+      "title": "Ping Distance",
+      "previous": null,
       "current": {
-        "modVersion": "1.0.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "darth.player_tags_1.0.2.wotmod",
-        "updatedAt": "2026-11-01T16:39:24.963Z",
-        "changeLog": "1.0.2:\n• Players you blocked yourself and never tagged stay blocked.\n• New setting: switch-off and archive can also remove hand blocks (off by default).\n• Each tag has an On switch. Off hides it from the menu; existing tags stay.\n• A new PNG icon (added in Icons folder) shows in settings right away, no restart needed."
+        "modVersion": "0.1.0",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "maksforge.ping_distance_0.1.0.wotmod",
+        "updatedAt": "2026-11-02T09:56:44.844Z",
+        "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7947",
-      "title": "nakom crew sound mod thai edition",
+      "sourceId": "8066",
+      "title": "Armour Beats",
       "previous": {
-        "modVersion": "2.2",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "sound_mod_Nakom_FajM6Wp.zip",
-        "updatedAt": "2026-10-15T11:08:38.676Z",
-        "changeLog": "support 2.4.1.0"
+        "modVersion": "Beta2",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "armourbeats_2.4.1_Beta2.wotmod",
+        "updatedAt": "2026-10-27T18:10:04.079Z",
+        "changeLog": "V2\n  Bug Fixes: \n      Resolved an issue where skipping tracks caused playback errors.\n      \n  New Transparent Styles: \n      Added new styles with \"trans\" in the name,\n      featuring transparent elements whose background colour can now be \n      customized in the mod menu.\n      \n  Match Button: \n      Added a \"Match\" button to quickly sync your background colour with your \n      accent colour.\n      \n  More Fonts: \n      Added a selection of new fonts to choose from.\n      \n  Solid Color Background: \n      Added an option to use a solid background colour instead of a background image."
       },
       "current": {
-        "modVersion": "2.2",
+        "modVersion": "Beta3",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "sound_mod_Nakom_xxgVw70.zip",
-        "updatedAt": "2026-11-01T17:42:59.084Z",
-        "changeLog": "support 2.4.1.1"
+        "fileName": "armourbeats_2.4.1_Beta3.wotmod",
+        "updatedAt": "2026-11-02T10:10:13.376Z",
+        "changeLog": "V3\n  Improvements:\n      Removed the PowerShell dependency; radio station searches now use\n      World of Tanks’ built-in networking API.\n\n  New Styles:\n      Added aged copper, dark aluminium and weathered wood backgrounds."
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7948",
-      "title": "fury crew sound mod thai edition",
+      "sourceId": "8036",
+      "title": "Dark Pavilion",
       "previous": {
-        "modVersion": "1.0",
+        "modVersion": "0.9",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "sound_mod_fury_thai_AN0QAJY.zip",
-        "updatedAt": "2026-10-15T11:06:48.774Z",
-        "changeLog": "support 2.4.1.0"
+        "fileName": "Dark_Pavilion_EU_2.4.1.0_BETA.zip",
+        "updatedAt": "2026-10-19T10:55:30.302Z",
+        "changeLog": ""
       },
       "current": {
-        "modVersion": "1.0",
+        "modVersion": "0.9",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "sound_mod_fury_thai_yX1Jaxb.zip",
-        "updatedAt": "2026-11-01T17:42:09.052Z",
-        "changeLog": "support 2.4.1.1"
+        "fileName": "Dark_Pavilion_EU_2.4.1.1.zip",
+        "updatedAt": "2026-11-02T10:20:39.432Z",
+        "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "4958",
-      "title": "WG CLIENT  ONLY. ფრაზები ქართული კინოფილმებიდან. Phrases from Georgian movies.",
+      "sourceId": "7740",
+      "title": "Garage Progress Bar",
       "previous": {
-        "modVersion": "14",
+        "modVersion": "8.0.0",
         "wotGameVersion": "2.4.1.0",
-        "fileName": "audioww_2SGunan.rar",
-        "updatedAt": "2026-10-18T15:34:14.178Z",
-        "changeLog": "updated for patch 2.4.1.0 Added new sounds"
+        "fileName": "GarageProgressBar-Bundle_8.0.0.zip",
+        "updatedAt": "2026-10-22T17:48:04.931Z",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.0."
       },
       "current": {
-        "modVersion": "14",
+        "modVersion": "9.0.0",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "audioww_2SGunan_sscQ7dx.rar",
-        "updatedAt": "2026-11-01T14:34:58.912Z",
-        "changeLog": "updated for patch 2.4.1.0 Added new sounds"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "535",
-      "title": "OldSkools ProMod",
-      "previous": {
-        "modVersion": "3.0.41",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ProMod_aBtqhZb.zip",
-        "updatedAt": "2026-10-27T18:38:42.099Z",
-        "changeLog": "Added Restore Event Entrys\nUpdated to XVM Build 14.0.0.0004\nUpdated AntiMirror\nUpdated OpenWG Common Utils (FPS Limiter)\nUpdated Minimalistic Hangar\nUpdated Hangar Clock\nUpdated HangMan\nUpdated Dynamic Flashlight Colors\nUpdated Vehicle Stat Inspector\nUpdated Effect Control\nUpdated Centered Minimap\nRemoved Battle Chat Fix (WG fixed it themselfs clap)"
-      },
-      "current": {
-        "modVersion": "3.0.42",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ProMod_7XZ6kBi.zip",
-        "updatedAt": "2026-11-01T16:48:20.256Z",
-        "changeLog": "new: Hangar Poppyfield\nUpdated Aslain Mod Menu\nUpdated Arty Hit Log\nUpdated Battle Efficiency\nUpdated High Caliver Panel\nUpdated Improved Debug Panel\nUpdated Average Damage Log\nUpdated HangMan\nUpdated BalCalc\nUpdated Custom UI Scale\nUpdated Hitmarker Pro\nUpdated Hangar Clock\nUpdated AutoAim Snapping\nUpdated Aim Info\nUpdated Dynamic Flashlight Colors\nUpdated Centered Minimap\nUpdated Effects Control"
+        "fileName": "GarageProgressBar-Bundle_9.0.0.zip",
+        "updatedAt": "2026-11-02T10:41:24.703Z",
+        "changeLog": "Retargeted to World of Tanks client 2.4.1.1."
       }
     }
   ]
