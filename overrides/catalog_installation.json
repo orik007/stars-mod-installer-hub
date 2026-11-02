@@ -1,7 +1,109 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.004",
+  "catalogVersion": "v2026.11.005",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8098",
+      "title": "Session Encounters: who you keep meeting in battle",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy the .wotmod file to World_of_Tanks\\mods<game version>\\ Start the game."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8097",
+      "title": "Mute Fallback Voice Sound",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".rar",
+        "latestInstallGuide": "Installation Guide Locate Game Folder: Open your World of Tanks main installation directory (e.g., C:\\Games\\World_of_Tanks). Find Version Folder: Navigate to the res_mods directory, then open the folder corresponding to the current game update (e.g., 1.26.x.x). Paste File: Copy the downloaded XML file and paste it directly into this folder. Restart Game: Launch the game client. The audio and map pings will be muted immediately. Maintenance: When the game updates to a new patch, simply move the XML file into the newly created version folder inside res_mods. 安裝指南 開啟遊戲目錄： 進入《戰車世界》的主程式安裝資料夾（例如：C:\\Games\\World_of_Tanks）。 尋找版本資料夾： 進入 res_mods 資料夾，接著開啟對應當前遊戲版本的資料夾（例如：1.26.x.x）。 貼上檔案： 將下載的 XML 檔案複製，並直接貼上至該版本資料夾內。 重啟遊戲： 重新啟動遊戲客戶端，語音與小地圖信號將立即靜音。 維護提醒：當遊戲進行版本更新時，只需將該 XML 檔案移至 res_mods 內新生成的版本資料夾即可繼續使用。"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToResMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive and copy its contents into the current-version res_mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8096",
+      "title": "Maneuver/Skirmish: Loading data bugfix",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": ""
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8094",
+      "title": "POLONEZ - EBR 105",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Put it in mods folder."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8091",
+      "title": "Robo Pet",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "extract the .wotmod from the .zip and place in \\mods\\{version}"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy its contents into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8088",
+      "title": "Erika Itsumi Garage Pet Replacement",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "World_of_Tanks_EU > mods > 2.4.1.1"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8086",
@@ -705,14 +807,14 @@
       "title": "Radio UA (Dance Radio)",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".rar",
+        "latestFileExt": ".zip",
         "latestInstallGuide": "Розпакуйте архів та скопіюйте в папку з грою за допомогою C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The guide says to extract the archive and copy it to the game’s mods/<version> folder.",
+        "decisionReason": "Extract the archive and copy its contents into the specified current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
