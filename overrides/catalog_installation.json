@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.003",
+  "catalogVersion": "v2026.11.004",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8086",
+      "title": "Ping Distance",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Copy maksforge.ping_distance_0.1.0.wotmod into World_of_Tanks/mods/<game version>/ (for example mods/2.4.1.1/). Start the game. No other mods are needed."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8087",
