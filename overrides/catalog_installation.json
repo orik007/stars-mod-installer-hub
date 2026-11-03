@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.007",
+  "catalogVersion": "v2026.11.008",
   "mods": [
     {
       "source": "wgmods",
@@ -43,13 +43,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".rar",
-        "latestInstallGuide": "Copy the .wotmod file to World_of_Tanks\\mods<game version>\\ Start the game."
+        "latestInstallGuide": "INSTALLATION The archive contains three files: local_session_encounters_0_6_3.wotmod: the mod itself, required me_poliroid_modslistapi_1_8_0.wotmod: optional, adds the Session Encounters button to the mods list in the hangar net_openwg_gameface_1_2_2.wotmod: required by modsListApi, install it together with modsListApi Copy the files to World_of_Tanks / mods / (game version), for example World_of_Tanks/mods/2.4.1.1 For the button in the mods list, install modsListApi and openwg_gameface together. If you already have them from another mod or modpack, do not copy them again. Without the optional files, the statistics window opens with Ctrl+H in the hangar. Start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the RAR and copy its .wotmod file into the current-version mods folder.",
+        "decisionReason": "Extract the archive and copy its files into mods/current-version; the optional bundled dependencies do not require filtering or review.",
         "deleteDataWgpdc": false
       }
     },
@@ -774,13 +774,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "1. Unzip the archive. 2. Copy ez.advances_room.wotmod to C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0\\). 3. Delete any older ez.advances_room_*.wotmod. Two versions at once make the client hang on startup. 4. Start the game. Source code & updates: https://github.com/dodojesuslol/wot-advances-room"
+        "latestInstallGuide": "1. Unzip the archive. 2. Copy ez.advances_room.wotmod to C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.1\\ 3. Delete any older ez.advances_room_*.wotmod. Two versions at once make the client hang on startup. 4. Start the game. Source code & updates: https://github.com/dodojesuslol/wot-advances-room"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy the included .wotmod into the current-version mods folder.",
+        "decisionReason": "Extract the ZIP and copy the mod into mods/current-version; advice to remove older versions does not affect this package’s supported copy operation.",
         "deleteDataWgpdc": false
       }
     },
@@ -15753,17 +15753,17 @@
     {
       "source": "wgmods",
       "sourceId": "6370",
-      "title": "Unique 3D Style with Serial Number",
+      "title": "Unique 3D Style with Serial Number and Remove Built-in Style",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".zip",
-        "latestInstallGuide": "Close the game. Copy these files into the game’s mods\\2.4.1.1\\ folder: phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod net.openwg.gameface_1.2.2.wotmod Remove older Unique Styles versions. Keep only one copy of OpenWG 1.2.2. Launch the game and click 3D Styles beside the SPACE button in the Garage, or press Ctrl+F10 . Do not extract the .wotmod files. Remove the standalone Serial Number Changer if installed. Settings are stored in <game preferences folder>\\mods\\phuochung94\\ and remain saved when updating the mod."
+        "latestInstallGuide": "Close the game. Copy these files into the game’s mods\\2.4.1.1\\ folder: phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod net.openwg.gameface_1.2.2.wotmod"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy the listed mod files into the current-version mods folder; the older-version cleanup and dependency advice do not change the copy operation.",
+        "decisionReason": "Extract the ZIP and copy its files into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
