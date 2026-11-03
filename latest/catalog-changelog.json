@@ -1,159 +1,111 @@
 {
-  "catalogVersion": "v2026.11.007",
-  "previousCatalogVersion": "v2026.11.006",
+  "catalogVersion": "v2026.11.008",
+  "previousCatalogVersion": "v2026.11.007",
   "summary": {
-    "added": 2,
+    "added": 0,
     "removed": 0,
-    "updated": 6,
-    "unchanged": 866
+    "updated": 5,
+    "unchanged": 869
   },
   "changes": [
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8102",
-      "title": "minimap HD",
-      "previous": null,
-      "current": {
-        "modVersion": "1.0.1",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "com.charlyecho.minimap_hd_1.0.1.wotmod",
-        "updatedAt": "2026-11-03T15:51:57.127Z",
-        "changeLog": "maps are now in 2048x2048 format"
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8101",
-      "title": "ArgusEye",
-      "previous": null,
-      "current": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ArgusEye_1_0.wotmod",
-        "updatedAt": "2026-11-03T12:51:32.468Z",
-        "changeLog": ""
-      }
-    },
     {
       "type": "updated",
       "source": "wgmods",
       "sourceId": "8098",
       "title": "Session Encounters: who you keep meeting in battle",
       "previous": {
-        "modVersion": "0.5.4",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "local_session_encounters_0_5_4.wotmod",
-        "updatedAt": "2026-11-02T18:31:50.092Z",
-        "changeLog": ""
-      },
-      "current": {
         "modVersion": "0.6.1",
         "wotGameVersion": "2.4.1.1",
         "fileName": "Session_Encounters_ETFIPmu.rar",
         "updatedAt": "2026-11-03T13:11:56.369Z",
         "changeLog": "CURRENT VERSION CHANGES\n\nStatistics filters: Today, 3 days, 7 days, All time, Last 30 and Last 50 battles\nReset statistics button with automatic backup\nCompact after-battle notification instead of a long player list\nFull-screen statistics window with close button\nFixed double counting after reconnecting to a battle\nBattle results are requested again until they are available"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8059",
-      "title": "Darth - Playlists QOL",
-      "previous": {
-        "modVersion": "1.0.3",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "darth.wot-qol_1.0.3_JjEI8bO.wotmod",
-        "updatedAt": "2026-11-02T19:21:40.298Z",
-        "changeLog": "- Fixed: playlist badges no longer show on tanks with a similar name (T-34 badge on T-34-85)\n- Fixed: settings page no longer shows \"no answer from the game\" debug message"
       },
       "current": {
-        "modVersion": "1.0.4",
+        "modVersion": "0.6.3",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "darth.wot-qol_1.0.4.wotmod",
-        "updatedAt": "2026-11-03T16:27:35.025Z",
-        "changeLog": "- Stricter badge matching: a badge shows only on the exact vehicle name. Similar names no longer get each other's badge (SU-152 vs ISU-152).\n- Settings page reliability: no lost answers when you click fast, and none after reloading the page.\n-Badge settings are kept when the game loses its connection. \n\n"
+        "fileName": "Session_Encounters_nz08fa2.rar",
+        "updatedAt": "2026-11-03T20:19:10.141Z",
+        "changeLog": "VERSION CHANGES\n\nReset is cancelled with an error message if the backup cannot be saved\nBackup is made from the current in-memory history, so recent encounters are included, and verified after writing\nReset confirmation states that history for all accounts on this PC is deleted\nStatistics window explains history limits: per-battle log since 0.6.0, latest 1,500 entries, All time totals vs battles with results\nLast battle tab: period and battle filters are disabled and the cards show All time\nResult polling retries after temporary unavailability, handles cooldown, non-player and disconnected errors separately, cancels pending callbacks on unload and rechecks the current account when a callback runs\nPlayers with zero damage now show 0 instead of a dash"
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "8054",
-      "title": "Darth - Player Tags",
+      "sourceId": "8087",
+      "title": "Armor Penetration Calculator",
       "previous": {
-        "modVersion": "1.0.3",
+        "modVersion": "1.0.0",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "darth.player_tags_1.0.3_EBlKdAp.wotmod",
-        "updatedAt": "2026-11-02T19:29:09.944Z",
-        "changeLog": "- Fixed: settings page no longer shows \"no answer from the game\" debug message"
-      },
-      "current": {
-        "modVersion": "1.0.4",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "darth.player_tags_1.0.4.wotmod",
-        "updatedAt": "2026-11-03T16:21:19.718Z",
-        "changeLog": "- Settings page reliability: no lost answers when you click fast, and none after reloading the page. Your players, tags and settings are kept.\n"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7920",
-      "title": "Improved Platoon Window",
-      "previous": {
-        "modVersion": "1.4",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Z4imon.platoon_header_2.4.1.1_1.4.zip",
-        "updatedAt": "2026-10-27T10:37:18.308Z",
+        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.0.0.zip",
+        "updatedAt": "2026-10-31T22:57:41.779Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "1.5",
+        "modVersion": "1.2.0",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "Z4imon.platoon_header_2.4.1.1_1.5.zip",
-        "updatedAt": "2026-11-03T12:45:49.644Z",
-        "changeLog": "Fixed errors in the Frontline Hangar"
+        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
+        "updatedAt": "2026-11-03T20:18:18.604Z",
+        "changeLog": "Added bold, italic and underline template tags with independent off controls; added text-size tags and size reset with UI scaling; italic and underline use drawn battle styling and remain plain text in the menu preview."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8047",
+      "title": "EZ_ROOM",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "EZ_ROOM_0.7.51.zip",
+        "updatedAt": "2026-10-30T10:23:08.310Z",
+        "changeLog": "fixes and new features"
+      },
+      "current": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "EZ_ROOM_0.8.6.zip",
+        "updatedAt": "2026-11-03T18:57:38.574Z",
+        "changeLog": "new desingn and bug fixes\n"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7518",
+      "title": "SHELEST SoundMod",
+      "previous": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Shelest_soundmod_5wm0kXY.zip",
+        "updatedAt": "2026-10-17T17:52:37.419Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "Shelest_soundmod_o2FZzdj.zip",
+        "updatedAt": "2026-11-03T20:41:51.476Z",
+        "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
       "sourceId": "6370",
-      "title": "Unique 3D Style with Serial Number",
+      "title": "Unique 3D Style with Serial Number and Remove Built-in Style",
       "previous": {
-        "modVersion": "2.0.0.1",
-        "wotGameVersion": "2.0.0.1",
-        "fileName": "phuochung94.uniquestyles_mDs9pAh.7z",
-        "updatedAt": "2026-09-13T07:06:33.420Z",
-        "changeLog": ""
-      },
-      "current": {
         "modVersion": "2.4.1.1 #988",
         "wotGameVersion": "2.4.1.1",
         "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
         "updatedAt": "2026-11-03T16:12:12.897Z",
         "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "535",
-      "title": "OldSkools ProMod",
-      "previous": {
-        "modVersion": "3.0.42",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ProMod_7XZ6kBi.zip",
-        "updatedAt": "2026-11-01T16:48:20.256Z",
-        "changeLog": "new: Hangar Poppyfield\nUpdated Aslain Mod Menu\nUpdated Arty Hit Log\nUpdated Battle Efficiency\nUpdated High Caliver Panel\nUpdated Improved Debug Panel\nUpdated Average Damage Log\nUpdated HangMan\nUpdated BalCalc\nUpdated Custom UI Scale\nUpdated Hitmarker Pro\nUpdated Hangar Clock\nUpdated AutoAim Snapping\nUpdated Aim Info\nUpdated Dynamic Flashlight Colors\nUpdated Centered Minimap\nUpdated Effects Control"
       },
       "current": {
-        "modVersion": "3.0.43",
+        "modVersion": "2.4.1.1 #988",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "ProMod_k1RB2C8.zip",
-        "updatedAt": "2026-11-03T16:11:32.542Z",
-        "changeLog": "Added v1 Premium Hangar\nAdded v2 Hangar\nAdded v2 Premium Hangar\nAdded v2 Hangar\nAdded XMAS 2022 Hangar\nUpdated Platoon Window\nUpdated Research Progress Bar\nUpdated HangMan"
+        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
+        "updatedAt": "2026-11-03T18:46:44.383Z",
+        "changeLog": "Add Built-in Style remover."
       }
     }
   ]

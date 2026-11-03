@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.11.007",
-  "sourceHash": "e6fa6505b81b7b03913c40c561d6374da9de5b1fe9871dfb9e5b51c6c154a502",
+  "catalogVersion": "v2026.11.008",
+  "sourceHash": "400a5e228df8d506116b612009e2f781ccb599969a6fb8b4843a7cda1d5f61d3",
   "sources": [
     "wgmods",
     "modhub"
@@ -103,7 +103,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>Ever had the feeling you keep meeting the same players over and over? Session Encounters tracks it for you.</p><p><strong>In battle</strong><br>A small colored counter next to every nickname in the team panels and on the loading screen shows how many times you have already met this player:</p><p>grey [0]: first time</p><p>yellow [1]: met once before</p><p>orange [2–4]: regular</p><p>red [5+]: you know each other well</p><p>[?]: player uses the anonymizer (not tracked)</p><p><strong>After battle</strong><br>A summary in the notification center: who you met before, how many battles you had together and against each other, your win/loss record with them and their average damage.</p><p><strong>Statistics window</strong><br>Open the settings and statistics window using the button in the mods list (modsListApi) or by pressing <strong>Ctrl+H in the hangar</strong>:</p><p>all players you have met, sortable and searchable</p><p>best allies: who you win with most often</p><p>toughest opponents: who beats you most often</p><p>last battle: allies and enemies with encounter counters and damage</p><p>your overall win rate in tracked battles</p><p><strong>Privacy and safety</strong></p><p>Anonymized players are never resolved or counted</p><p>Uses only data the game client already shows you</p><p>History is stored only on your PC in %LOCALAPPDATA%\\SessionEncounters (delete the folder to reset)</p>",
-      "installationGuideHtml": "<ol><li>Copy the .wotmod file to World_of_Tanks\\mods&lt;game version&gt;\\</li><li>Start the game.</li></ol>",
+      "installationGuideHtml": "<p><strong>INSTALLATION</strong></p><p>The archive contains three files:</p><ul><li>local_session_encounters_0_6_3.wotmod: the mod itself, required</li><li>me_poliroid_modslistapi_1_8_0.wotmod: optional, adds the Session Encounters button to the mods list in the hangar</li><li>net_openwg_gameface_1_2_2.wotmod: required by modsListApi, install it together with modsListApi</li></ul><ol><li>Copy the files to World_of_Tanks / mods / (game version), for example World_of_Tanks/mods/2.4.1.1</li><li>For the button in the mods list, install modsListApi and openwg_gameface together. If you already have them from another mod or modpack, do not copy them again.</li><li>Without the optional files, the statistics window opens with Ctrl+H in the hangar.</li><li>Start the game.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/C9fOWUxQJ0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8098/",
       "tagIds": [
@@ -112,6 +112,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.6.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Session_Encounters_nz08fa2.rar",
+          "updatedAt": "2026-11-03T20:19:10.141Z",
+          "sizeBytes": 161257,
+          "fileName": "Session_Encounters_nz08fa2.rar",
+          "fileExt": ".rar",
+          "changeLog": "VERSION CHANGES\n\nReset is cancelled with an error message if the backup cannot be saved\nBackup is made from the current in-memory history, so recent encounters are included, and verified after writing\nReset confirmation states that history for all accounts on this PC is deleted\nStatistics window explains history limits: per-battle log since 0.6.0, latest 1,500 entries, All time totals vs battles with results\nLast battle tab: period and battle filters are disabled and the cards show All time\nResult polling retries after temporary unavailability, handles cooldown, non-player and disconnected errors separately, cancels pending callbacks on unload and rechecks the current account when a callback runs\nPlayers with zero damage now show 0 instead of a dash"
+        },
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "0.6.1",
@@ -134,9 +144,9 @@
         }
       ],
       "latest": {
-        "fileName": "Session_Encounters_ETFIPmu.rar",
-        "modVersion": "0.6.1",
-        "changeLog": "CURRENT VERSION CHANGES\n\nStatistics filters: Today, 3 days, 7 days, All time, Last 30 and Last 50 battles\nReset statistics button with automatic backup\nCompact after-battle notification instead of a long player list\nFull-screen statistics window with close button\nFixed double counting after reconnecting to a battle\nBattle results are requested again until they are available",
+        "fileName": "Session_Encounters_nz08fa2.rar",
+        "modVersion": "0.6.3",
+        "changeLog": "VERSION CHANGES\n\nReset is cancelled with an error message if the backup cannot be saved\nBackup is made from the current in-memory history, so recent encounters are included, and verified after writing\nReset confirmation states that history for all accounts on this PC is deleted\nStatistics window explains history limits: per-battle log since 0.6.0, latest 1,500 entries, All time totals vs battles with results\nLast battle tab: period and battle filters are disabled and the cards show All time\nResult polling retries after temporary unavailability, handles cooldown, non-player and disconnected errors separately, cancels pending callbacks on unload and rechecks the current account when a callback runs\nPlayers with zero damage now show 0 instead of a dash",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -402,6 +412,26 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
+          "updatedAt": "2026-11-03T20:18:18.604Z",
+          "sizeBytes": 1392004,
+          "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added bold, italic and underline template tags with independent off controls; added text-size tags and size reset with UI scaling; italic and underline use drawn battle styling and remain plain text in the menu preview."
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.armor_penetration_calculator.2.4.1.1.1.1.0.zip",
+          "updatedAt": "2026-11-03T18:37:03.348Z",
+          "sizeBytes": 1387146,
+          "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.1.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added per-line left, center and right alignment tags; added selectable armor-layer detail, spaced/main-layer breakdowns, layer counts, armor chains and three new presets; expanded the spaced-armor preview to show multiple layers."
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.armor_penetration_calculator.2.4.1.1.1.0.0.zip",
           "updatedAt": "2026-10-31T22:57:41.779Z",
@@ -412,9 +442,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.0.0.zip",
-        "modVersion": "1.0.0",
-        "changeLog": "",
+        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
+        "modVersion": "1.2.0",
+        "changeLog": "Added bold, italic and underline template tags with independent off controls; added text-size tags and size reset with UI scaling; italic and underline use drawn battle styling and remain plain text in the menu preview.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2048,15 +2078,25 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<figure class=\"image image-style-side\"><img src=\"//wgmods.net/media/m_images/c48e279c-9332-4c77-ba94-6c55979f0954.png\"></figure><ul><li>EZ_ROOM replaces the old Flash battle room of Stronghold / Advances with a clean, modern Gameface interface.&nbsp;<br>WG's original room keeps running in the background and does all the work.<br>EZ_ROOM only shows the same data in a new layout, and every click goes through WG's own functions.<br><br>-Fail save, just go back to the normal room (1)<br>- Filters (2-3)<br>- New Desing&nbsp;<br>- More Overview<br><br><br><br>made with AI, go and make your own mods.<br>just try&nbsp;<br>https://giphy.com/gifs/fH985LNdqFZXOFHygK<br>&nbsp;</li></ul>",
-      "installationGuideHtml": "<p>1. Unzip the archive.<br>2. Copy ez.advances_room.wotmod to &nbsp;C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.0\\).<br>3. Delete any older ez.advances_room_*.wotmod. Two versions at once make the client hang on startup.<br>4. Start the game.</p><p><br>Source code &amp; updates:<a href=\" https://github.com/dodojesuslol/wot-advances-room\"> https://github.com/dodojesuslol/wot-advances-room</a><br><br>&nbsp;</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Bildschirmfoto_20261026_234805.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<h2>What is EZ ROOM?</h2><p>EZ ROOM replaces the old Flash battle room of <strong>Stronghold / Advances</strong> with a clean, modern Gameface interface.</p><p>WG's original room keeps running in the background and does all the work. EZ ROOM only shows the same data in a new layout, and every click goes through WG's own functions. Nothing is changed on the server side.</p><h2>Features</h2><ul><li><strong>Clean overview</strong></li><li><strong>Filters &amp; sorting</strong> – tank type counters in the header, identical tanks are grouped</li><li><strong>Session stats</strong> – battles, win rate and battle time of the current room</li></ul><h2>Good to know</h2><p>EZ ROOM only changes how the room looks. It does not give you any advantage in battle.</p><p>Made with AI – go and make your own mods. Just try!<br>https://giphy.com/gifs/fH985LNdqFZXOFHygK</p>",
+      "installationGuideHtml": "<p>1. Unzip the archive.<br>2. Copy ez.advances_room.wotmod to C:\\Games\\World_of_Tanks_EU\\mods\\2.4.1.1\\<br>3. Delete any older ez.advances_room_*.wotmod. Two versions at once make the client hang on startup.<br>4. Start the game.</p><p>Source code &amp; updates: <a href=\"https://github.com/dodojesuslol/wot-advances-room\">https://github.com/dodojesuslol/wot-advances-room</a></p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/titelbild_v2.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8047/",
       "tagIds": [
         "18",
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/EZ_ROOM_0.8.6.zip",
+          "updatedAt": "2026-11-03T18:57:38.574Z",
+          "sizeBytes": 812394,
+          "fileName": "EZ_ROOM_0.8.6.zip",
+          "fileExt": ".zip",
+          "changeLog": "new desingn and bug fixes\n"
+        },
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "1.1",
@@ -2079,9 +2119,9 @@
         }
       ],
       "latest": {
-        "fileName": "EZ_ROOM_0.7.51.zip",
-        "modVersion": "1.1",
-        "changeLog": "fixes and new features",
+        "fileName": "EZ_ROOM_0.8.6.zip",
+        "modVersion": "1.2",
+        "changeLog": "new desingn and bug fixes\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -19907,7 +19947,7 @@
         "en",
         "ru"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.4,
       "descriptionHtml": "<p>This mod replaces all crew voiceovers in battle with phrases from the anime “Girls und Panzer.” Penetration sounds have been replaced with moans + the phrase “Uncle Sasha” (those who understand, understand).</p>",
       "installationGuideHtml": "<p>1) Choose the desired voice pack version—go to the appropriate folder, copy everything inside the folder (the audioww folder and the gui folder), and move them to the worldOfTanks/res_mods/*current game version* folder<br>2) Launch the game and set the crew voice to “Standard” or ‘Shelest’<br>3) Click the “Test” button—you should hear moans or the voices of anime girls speaking Japanese<br>4) Click “Into Battle” and enjoy)<br>5) To use the custom “Sixth Sense” sound, go to the game settings, select ‘Sounds’ &gt; “Sixth Sense” &gt; “Custom Version”</p><p>The mod may have some bugs or not work; I would really appreciate your feedback)<br>If you encounter bugs or the mod doesn’t work, please leave a comment under the video where I released this mod</p><p>I’ve also added two versions—one with the phrase “Uncle Sasha” and one without, with the corresponding name)</p><p>Peace and kindness to all of us!</p><p>P.S.<br>And remember—always stay human!</p><p>P.S.S.<br>Spread kindness in this world)</p><p>Translated with DeepL.com (free version)</p>",
@@ -19917,6 +19957,16 @@
         "17"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Shelest_soundmod_o2FZzdj.zip",
+          "updatedAt": "2026-11-03T20:41:51.476Z",
+          "sizeBytes": 9873278,
+          "fileName": "Shelest_soundmod_o2FZzdj.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.2",
@@ -19966,23 +20016,13 @@
           "fileName": "Shelest_soundmod.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.3.1.2",
-          "modVersion": "1.2",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Shelest_soundmod_L13bVNY.zip",
-          "updatedAt": "2026-09-12T04:51:06.705Z",
-          "sizeBytes": 9873278,
-          "fileName": "Shelest_soundmod_L13bVNY.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Shelest_soundmod_5wm0kXY.zip",
+        "fileName": "Shelest_soundmod_o2FZzdj.zip",
         "modVersion": "1.2",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39226,7 +39266,7 @@
     {
       "source": "wgmods",
       "sourceId": "6370",
-      "title": "Unique 3D Style with Serial Number",
+      "title": "Unique 3D Style with Serial Number and Remove Built-in Style",
       "ownerUsername": "phuochung94",
       "languageCode": "en",
       "availableLanguageCodes": [
@@ -39234,9 +39274,9 @@
       ],
       "recommended": true,
       "mark": 4.5,
-      "descriptionHtml": "<ul><li>Customize your vehicles with 3D styles. Changes are visible only to you.</li><li>Browse styles for vehicles in your Garage.</li><li>Filter by nation, vehicle type, tier, applied styles, and serial support.</li><li>Apply or remove styles and select supported progression levels.</li><li>Set and save a serial number for each vehicle, defaulting to <strong>1994</strong>. Original serial numbers are protected.</li><li>English and Vietnamese interface with saved preferences.</li></ul><p>Feedback me via Discord: https://discord.gg/bv6S45wyf</p><p><i>How to use:&nbsp;</i></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/YsSO24ifpGo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/YsSO24ifpGo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<ol><li>Close the game.</li><li>Copy these files into the game’s mods\\2.4.1.1\\ folder:<ul><li>phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod</li><li>net.openwg.gameface_1.2.2.wotmod</li></ul></li><li>Remove older Unique Styles versions. Keep only one copy of OpenWG 1.2.2.</li><li>Launch the game and click <strong>3D Styles</strong> beside the <strong>SPACE</strong> button in the Garage, or press <strong>Ctrl+F10</strong>.</li></ol><p>Do not extract the .wotmod files. Remove the standalone Serial Number Changer if installed.</p><p>Settings are stored in &lt;game preferences folder&gt;\\mods\\phuochung94\\ and remain saved when updating the mod.</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1796_NbcZV7I.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<p>Customize your vehicles with an easy-to-use Gameface interface designed to blend into the World of Tanks Garage.</p><h2>3D Style Collection</h2><ul><li>Browse available 3D styles for vehicles in your Garage.</li><li>Apply or remove a style with a single click.</li><li>Choose progression levels for supported styles.</li><li>Apply or remove styles in bulk.</li></ul><h2>Custom Serial Numbers</h2><ul><li>Enter a custom serial number for each supported vehicle.</li><li>Save different numbers for different vehicles.</li><li>Use <strong>1994</strong> as the default serial number.</li><li>Enter between <strong>1 and 5 digits</strong>.</li><li>View serial numbers directly on supported style cards.</li><li>Access the serial editor when selecting an eligible serial-enabled style.</li></ul><p>Styles with an existing native serial number remain visible but are dimmed and protected from modification.</p><h2>Built-in Style Removal</h2><p>A separate <strong>Remove Styles</strong> interface allows you to remove or restore built-in styles on supported vehicles with locked appearances.</p><ul><li>Lists eligible vehicles in your Garage.</li><li>Click a vehicle to remove its built-in style locally.</li><li>Click it again to restore the original appearance.</li><li>Saves your choices for future sessions.</li><li>Protects vehicles with existing native serial numbers.</li></ul><p>Availability depends on whether the vehicle has a supported alternative base model.</p><h2>Important Notes</h2><ul><li>Appearance changes are <strong>client-side and visible only to you</strong>.</li><li>The mod does not grant ownership of styles or change vehicle combat statistics.</li><li>Serial editing and built-in style removal are available only for supported styles and vehicles.</li></ul><p>Feedback me via Discord: https://discord.gg/bv6S45wyf</p><p><i>How to use:&nbsp;</i></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/BxeK1M9PrgQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/BxeK1M9PrgQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "installationGuideHtml": "<ol><li>Close the game.</li><li>Copy these files into the game’s mods\\2.4.1.1\\ folder:<ul><li>phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod</li><li>net.openwg.gameface_1.2.2.wotmod</li></ul></li></ol>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1824_dYeU0os.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6370/",
       "tagIds": [
         "16",
@@ -39247,28 +39287,28 @@
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "2.4.1.1 #988",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
+          "updatedAt": "2026-11-03T18:46:44.383Z",
+          "sizeBytes": 152377,
+          "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
+          "fileExt": ".zip",
+          "changeLog": "Add Built-in Style remover."
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.4.1.1 #988",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
           "updatedAt": "2026-11-03T16:12:12.897Z",
           "sizeBytes": 134734,
           "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
           "fileExt": ".zip",
           "changeLog": ""
-        },
-        {
-          "wotGameVersion": "2.4.1.1",
-          "modVersion": "2.4.1.1 #988",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
-          "updatedAt": "2026-11-03T13:50:13.397Z",
-          "sizeBytes": 118617,
-          "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
+        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
         "modVersion": "2.4.1.1 #988",
-        "changeLog": "",
+        "changeLog": "Add Built-in Style remover.",
         "wotGameVersionCompatibility": "safe"
       }
     },

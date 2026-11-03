@@ -1,0 +1,112 @@
+{
+  "catalogVersion": "v2026.11.008",
+  "previousCatalogVersion": "v2026.11.007",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "updated": 5,
+    "unchanged": 869
+  },
+  "changes": [
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8098",
+      "title": "Session Encounters: who you keep meeting in battle",
+      "previous": {
+        "modVersion": "0.6.1",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "Session_Encounters_ETFIPmu.rar",
+        "updatedAt": "2026-11-03T13:11:56.369Z",
+        "changeLog": "CURRENT VERSION CHANGES\n\nStatistics filters: Today, 3 days, 7 days, All time, Last 30 and Last 50 battles\nReset statistics button with automatic backup\nCompact after-battle notification instead of a long player list\nFull-screen statistics window with close button\nFixed double counting after reconnecting to a battle\nBattle results are requested again until they are available"
+      },
+      "current": {
+        "modVersion": "0.6.3",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "Session_Encounters_nz08fa2.rar",
+        "updatedAt": "2026-11-03T20:19:10.141Z",
+        "changeLog": "VERSION CHANGES\n\nReset is cancelled with an error message if the backup cannot be saved\nBackup is made from the current in-memory history, so recent encounters are included, and verified after writing\nReset confirmation states that history for all accounts on this PC is deleted\nStatistics window explains history limits: per-battle log since 0.6.0, latest 1,500 entries, All time totals vs battles with results\nLast battle tab: period and battle filters are disabled and the cards show All time\nResult polling retries after temporary unavailability, handles cooldown, non-player and disconnected errors separately, cancels pending callbacks on unload and rechecks the current account when a callback runs\nPlayers with zero damage now show 0 instead of a dash"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8087",
+      "title": "Armor Penetration Calculator",
+      "previous": {
+        "modVersion": "1.0.0",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.0.0.zip",
+        "updatedAt": "2026-10-31T22:57:41.779Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.2.0",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
+        "updatedAt": "2026-11-03T20:18:18.604Z",
+        "changeLog": "Added bold, italic and underline template tags with independent off controls; added text-size tags and size reset with UI scaling; italic and underline use drawn battle styling and remain plain text in the menu preview."
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8047",
+      "title": "EZ_ROOM",
+      "previous": {
+        "modVersion": "1.1",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "EZ_ROOM_0.7.51.zip",
+        "updatedAt": "2026-10-30T10:23:08.310Z",
+        "changeLog": "fixes and new features"
+      },
+      "current": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "EZ_ROOM_0.8.6.zip",
+        "updatedAt": "2026-11-03T18:57:38.574Z",
+        "changeLog": "new desingn and bug fixes\n"
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "7518",
+      "title": "SHELEST SoundMod",
+      "previous": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.0",
+        "fileName": "Shelest_soundmod_5wm0kXY.zip",
+        "updatedAt": "2026-10-17T17:52:37.419Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "1.2",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "Shelest_soundmod_o2FZzdj.zip",
+        "updatedAt": "2026-11-03T20:41:51.476Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "6370",
+      "title": "Unique 3D Style with Serial Number and Remove Built-in Style",
+      "previous": {
+        "modVersion": "2.4.1.1 #988",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
+        "updatedAt": "2026-11-03T16:12:12.897Z",
+        "changeLog": ""
+      },
+      "current": {
+        "modVersion": "2.4.1.1 #988",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
+        "updatedAt": "2026-11-03T18:46:44.383Z",
+        "changeLog": "Add Built-in Style remover."
+      }
+    }
+  ]
+}
