@@ -1,21 +1,55 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.006",
+  "catalogVersion": "v2026.11.007",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8102",
+      "title": "minimap HD",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "1. Close World of Tanks. 2. Open your game folder (for example C:\\Games\\World_of_Tanks_NA) and go to mods\\2.4.1.1\\ (the folder named after the current client version). 3. Copy com.charlyecho.minimap_hd_1.0.0.wotmod into that folder. Do not unzip it. 4. If you have an older version of HD Minimaps in the same folder, delete it: only one version should be installed. 5. Start the game. The new minimap backgrounds are shown in battle. To uninstall, delete the .wotmod file and restart the game."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods; the older-version cleanup instruction does not change this package's installation operation.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8101",
+      "title": "ArgusEye",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".wotmod",
+        "latestInstallGuide": "Put into mods folder with current version of World of Tanks"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "CopyAllToMods",
+        "installableByApp": true,
+        "decisionReason": "The downloaded .wotmod is copied unchanged into the current-version mods folder.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8098",
       "title": "Session Encounters: who you keep meeting in battle",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".wotmod",
+        "latestFileExt": ".rar",
         "latestInstallGuide": "Copy the .wotmod file to World_of_Tanks\\mods<game version>\\ Start the game."
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "CopyAllToMods",
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "Extract the RAR and copy its .wotmod file into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -43,13 +77,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": ""
+        "latestInstallGuide": "Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation. <yourWoT>/mods/<currentVersion>/..."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into the current-version mods folder.",
         "deleteDataWgpdc": false
       }
     },
@@ -570,13 +604,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".wotmod",
-        "latestInstallGuide": "Copy the mod in WOT ... Mods/{LastVersion} folder Requires OpenWG Gameface and modsListApi!"
+        "latestInstallGuide": "Copy the mod in WOT ... Mods/{LastVersion} folder Requires OpenWG Gameface and preferably modsListApi!"
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "The downloaded .wotmod is copied unchanged into mods; the listed dependencies do not affect installation.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into the current-version mods folder; the listed dependencies do not affect installation.",
         "deleteDataWgpdc": false
       }
     },
@@ -15719,17 +15753,17 @@
     {
       "source": "wgmods",
       "sourceId": "6370",
-      "title": "Unique 3D Style",
+      "title": "Unique 3D Style with Serial Number",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".7z",
-        "latestInstallGuide": "Copy to: *\\World_of_Tanks\\mods\\"
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Close the game. Copy these files into the game’s mods\\2.4.1.1\\ folder: phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod net.openwg.gameface_1.2.2.wotmod Remove older Unique Styles versions. Keep only one copy of OpenWG 1.2.2. Launch the game and click 3D Styles beside the SPACE button in the Garage, or press Ctrl+F10 . Do not extract the .wotmod files. Remove the standalone Serial Number Changer if installed. Settings are stored in <game preferences folder>\\mods\\phuochung94\\ and remain saved when updating the mod."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "The archive is copied into the game's mods folder.",
+        "decisionReason": "Extract the ZIP and copy the listed mod files into the current-version mods folder; the older-version cleanup and dependency advice do not change the copy operation.",
         "deleteDataWgpdc": false
       }
     },
