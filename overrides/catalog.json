@@ -1,11 +1,96 @@
 {
-  "catalogVersion": "v2026.11.006",
-  "sourceHash": "7a73d94dd931f47a7fcc7aaf4b5d6f069bc2a257ad40bbc64bfec2b71612579e",
+  "catalogVersion": "v2026.11.007",
+  "sourceHash": "e6fa6505b81b7b03913c40c561d6374da9de5b1fe9871dfb9e5b51c6c154a502",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8102",
+      "title": "minimap HD",
+      "ownerUsername": "charly_foxtrot",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>HD Minimaps replaces the flat, low-resolution background of the in-game minimap with a high-definition top-down render of each map.<br><br>Every image is rendered in 3D from the game's own map data: terrain, ground textures, vegetation, buildings and water, seen straight from above. You see the real streets, houses, rocks, fields, rivers and shorelines instead of dark blobs and blurry colors, so it is much easier to read the map and judge where cover and open ground really are.<br><br>Features<br>- 68 maps covered (including map variants)<br>- 2048 x 2048 textures for every covered map. Most original minimaps are 512 x 512; a few special-mode maps (Grand Battle, Steel Hunter) already use 1024 x 1024 or 1536 x 1536<br>- Same map bounds as the original minimap: icons, grid, spotting and arty markers stay exactly where they should be<br>- Background image only: no script, no change to the minimap behavior<br>- Maps that are not covered keep their original minimap<br><br>Good to know<br>- The original minimap draws diagonal hatching over buildings and impassable areas. HD Minimaps shows these areas as they actually look in the game (roofs, cliffs, rocks) instead.<br>- Event-specific minimap overlays (special modes with their own objectives image) are not replaced.<br><br>Compatibility<br>- World of Tanks 2.4.1.1<br>- Standalone .wotmod package, no dependency<br>- Not compatible with other mods that replace the minimap background images<br><br>Uninstalling<br>Delete the com.charlyecho.minimap_hd_&lt;version&gt;.wotmod file from your mods folder and restart the game: the original minimaps come back.<br>&nbsp;</p>",
+      "installationGuideHtml": "<p>1. Close World of Tanks.<br>2. Open your game folder (for example C:\\Games\\World_of_Tanks_NA) and go to mods\\2.4.1.1\\ (the folder named after the current client version).<br>3. Copy com.charlyecho.minimap_hd_1.0.0.wotmod into that folder. Do not unzip it.<br>4. If you have an older version of HD Minimaps in the same folder, delete it: only one version should be installed.<br>5. Start the game. The new minimap backgrounds are shown in battle.<br><br>To uninstall, delete the .wotmod file and restart the game.<br>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover_NkY4IRA.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8102/",
+      "tagIds": [
+        "19"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/com.charlyecho.minimap_hd_1.0.1.wotmod",
+          "updatedAt": "2026-11-03T15:51:57.127Z",
+          "sizeBytes": 142634408,
+          "fileName": "com.charlyecho.minimap_hd_1.0.1.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "maps are now in 2048x2048 format"
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/com.charlyecho.minimap_hd_1.0.0.wotmod",
+          "updatedAt": "2026-11-03T12:58:51.025Z",
+          "sizeBytes": 35679656,
+          "fileName": "com.charlyecho.minimap_hd_1.0.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "com.charlyecho.minimap_hd_1.0.1.wotmod",
+        "modVersion": "1.0.1",
+        "changeLog": "maps are now in 2048x2048 format",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8101",
+      "title": "ArgusEye",
+      "ownerUsername": "Snabb___________________",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>More visible spotted tanks</p>",
+      "installationGuideHtml": "<p>Put into mods folder with current version of World of Tanks</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/Zrzut_ekranu_2026-11-03_013941.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8101/",
+      "tagIds": [
+        "18",
+        "14"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ArgusEye_1_0.wotmod",
+          "updatedAt": "2026-11-03T12:51:32.468Z",
+          "sizeBytes": 532813,
+          "fileName": "ArgusEye_1_0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "ArgusEye_1_0.wotmod",
+        "modVersion": "1.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8098",
@@ -19,14 +104,24 @@
       "mark": null,
       "descriptionHtml": "<p>Ever had the feeling you keep meeting the same players over and over? Session Encounters tracks it for you.</p><p><strong>In battle</strong><br>A small colored counter next to every nickname in the team panels and on the loading screen shows how many times you have already met this player:</p><p>grey [0]: first time</p><p>yellow [1]: met once before</p><p>orange [2–4]: regular</p><p>red [5+]: you know each other well</p><p>[?]: player uses the anonymizer (not tracked)</p><p><strong>After battle</strong><br>A summary in the notification center: who you met before, how many battles you had together and against each other, your win/loss record with them and their average damage.</p><p><strong>Statistics window</strong><br>Open the settings and statistics window using the button in the mods list (modsListApi) or by pressing <strong>Ctrl+H in the hangar</strong>:</p><p>all players you have met, sortable and searchable</p><p>best allies: who you win with most often</p><p>toughest opponents: who beats you most often</p><p>last battle: allies and enemies with encounter counters and damage</p><p>your overall win rate in tracked battles</p><p><strong>Privacy and safety</strong></p><p>Anonymized players are never resolved or counted</p><p>Uses only data the game client already shows you</p><p>History is stored only on your PC in %LOCALAPPDATA%\\SessionEncounters (delete the folder to reset)</p>",
       "installationGuideHtml": "<ol><li>Copy the .wotmod file to World_of_Tanks\\mods&lt;game version&gt;\\</li><li>Start the game.</li></ol>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/1_%D0%BC%D0%BE%D0%B4_1.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/C9fOWUxQJ0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8098/",
       "tagIds": [
+        "18",
         "22",
-        "20",
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.6.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Session_Encounters_ETFIPmu.rar",
+          "updatedAt": "2026-11-03T13:11:56.369Z",
+          "sizeBytes": 159539,
+          "fileName": "Session_Encounters_ETFIPmu.rar",
+          "fileExt": ".rar",
+          "changeLog": "CURRENT VERSION CHANGES\n\nStatistics filters: Today, 3 days, 7 days, All time, Last 30 and Last 50 battles\nReset statistics button with automatic backup\nCompact after-battle notification instead of a long player list\nFull-screen statistics window with close button\nFixed double counting after reconnecting to a battle\nBattle results are requested again until they are available"
+        },
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "0.5.4",
@@ -39,9 +134,9 @@
         }
       ],
       "latest": {
-        "fileName": "local_session_encounters_0_5_4.wotmod",
-        "modVersion": "0.5.4",
-        "changeLog": "",
+        "fileName": "Session_Encounters_ETFIPmu.rar",
+        "modVersion": "0.6.1",
+        "changeLog": "CURRENT VERSION CHANGES\n\nStatistics filters: Today, 3 days, 7 days, All time, Last 30 and Last 50 battles\nReset statistics button with automatic backup\nCompact after-battle notification instead of a long player list\nFull-screen statistics window with close button\nFixed double counting after reconnecting to a battle\nBattle results are requested again until they are available",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -94,7 +189,7 @@
       "recommended": false,
       "mark": null,
       "descriptionHtml": "<p>This mod fixes the loading data bug that occurs when leaving the battle early in a skirmish/maneuver battle.</p><p>&nbsp;</p><h2>Support my work</h2><p><a href=\"https://www.patreon.com/Z4imon\">Support me on Patreon</a></p>",
-      "installationGuideHtml": "<p>&nbsp;</p>",
+      "installationGuideHtml": "<p>Copy all the wotmod files in the downloaded zip file into your mod folder of the WoT installation.</p><p>&lt;yourWoT&gt;/mods/&lt;currentVersion&gt;/...</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/TitleImage_NxT2Ptr.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8096/",
       "tagIds": [
@@ -1338,19 +1433,19 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.wot-qol_1.0.3_JjEI8bO.wotmod",
-          "updatedAt": "2026-11-02T19:21:40.298Z",
-          "sizeBytes": 348746,
-          "fileName": "darth.wot-qol_1.0.3_JjEI8bO.wotmod",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.wot-qol_1.0.4.wotmod",
+          "updatedAt": "2026-11-03T16:27:35.025Z",
+          "sizeBytes": 358288,
+          "fileName": "darth.wot-qol_1.0.4.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "- Fixed: playlist badges no longer show on tanks with a similar name (T-34 badge on T-34-85)\n- Fixed: settings page no longer shows \"no answer from the game\" debug message"
+          "changeLog": "- Stricter badge matching: a badge shows only on the exact vehicle name. Similar names no longer get each other's badge (SU-152 vs ISU-152).\n- Settings page reliability: no lost answers when you click fast, and none after reloading the page.\n-Badge settings are kept when the game loses its connection. \n\n"
         }
       ],
       "latest": {
-        "fileName": "darth.wot-qol_1.0.3_JjEI8bO.wotmod",
-        "modVersion": "1.0.3",
-        "changeLog": "- Fixed: playlist badges no longer show on tanks with a similar name (T-34 badge on T-34-85)\n- Fixed: settings page no longer shows \"no answer from the game\" debug message",
+        "fileName": "darth.wot-qol_1.0.4.wotmod",
+        "modVersion": "1.0.4",
+        "changeLog": "- Stricter badge matching: a badge shows only on the exact vehicle name. Similar names no longer get each other's badge (SU-152 vs ISU-152).\n- Settings page reliability: no lost answers when you click fast, and none after reloading the page.\n-Badge settings are kept when the game loses its connection. \n\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -1461,8 +1556,8 @@
       ],
       "recommended": true,
       "mark": 5,
-      "descriptionHtml": "<ul><li><strong>SUMMARY</strong><br><br><i>Player Tags</i> lets you keep private \"tags/labels\" (Icons) on other players and see them at a glance in battle.&nbsp;<br>Easy to test in replays or training rooms.<br><br>Pick/Set a tag by: &nbsp;<br><strong>CTRL+ Right-click</strong> a player in battle or replay&nbsp;<br>or&nbsp;<br><strong>Right-click </strong>(lobby, battle results)<br><br><strong>We all wanted to know and see in battle why we blacklisted that guy .. did he pushed someone .. is he a &nbsp;camper&nbsp; ... or an arty drowner ... or ? &nbsp;:D &nbsp;</strong><br>&nbsp;</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/64ee1194-5961-4d38-9f7b-82665bd3d55d.png\"></figure><ul><li><br>Every tag has its own icon, shown:&nbsp;<br>• <strong>Icon on the side panels</strong> (Ctrl+Tab panel)<br>• <strong>Above</strong> the player's <strong>tanks </strong>(can be switched off)<br><br><strong>FEATURES:</strong><br><br>•&nbsp;<strong>YOU can add custom tags/Icons </strong>(64x64) by dropping them in the icons folder and setup in settings (add to ignore-list or not)<br>- Change the tag/label text to your own preference.<br>•&nbsp;Can deactivate a tag if is not used.<br>• <strong>Statistics:</strong> a self-contained HTML page (local / no internet) with tag counts and encounters. [<i>Picture 4]</i><br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings). Customizable in Tag settings. &nbsp;<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides. Automates the sync between the WOT blacklist and the negative tags.<br><i>Tags are personal notes</i>, not proof — report cheaters with the in-game form.&nbsp;<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
-      "installationGuideHtml": "<p>Copy the mod in WOT ... Mods/{LastVersion} folder<br><strong>Requires</strong> OpenWG Gameface and modsListApi!</p>",
+      "descriptionHtml": "<ul><li><strong>SUMMARY</strong><br><br><i>Player Tags</i> lets you keep private \"tags/labels\" (Icons) on other players and see them at a glance in battle.&nbsp;<br>Easy to test in replays or training rooms.<br><br>Pick/Set a tag by: &nbsp;<br><strong>CTRL+ Right-click</strong> a player in battle or replay&nbsp;<br>or&nbsp;<br><strong>Right-click </strong>(lobby, battle results)<br><br><strong>We all wanted to know and see in battle why we blacklisted that guy .. did he pushed someone .. is he a &nbsp;camper&nbsp; ... or an arty drowner ... or ? &nbsp;:D &nbsp;</strong><br>&nbsp;</li></ul><figure class=\"image\"><img src=\"//wgmods.net/media/m_images/64ee1194-5961-4d38-9f7b-82665bd3d55d.png\"></figure><ul><li><br>Every tag has its own icon, shown:&nbsp;<br>• <strong>Icon on the side panels</strong> (Ctrl+Tab panel)<br>• <strong>Above</strong> the player's <strong>tanks </strong>(can be switched off)<br><br><strong>FEATURES:</strong><br><br>-&nbsp;<strong>YOU can add custom tags/Icons </strong>(64x64) by dropping them in the icons folder and setup in settings (add to ignore-list or not)<br>- Change the tag/label text to your own preference.<br>-&nbsp;Can deactivate a tag if is not used.<br>- <strong>Statistics:</strong> a self-contained HTML page (local / no internet) with tag counts and encounters. [<i>Picture 4]</i><br>- Players tagged negatively will be added to the standard WOT blacklist (can be disabled in the settings). Customizable in Tag settings. &nbsp;<br><br><strong>DETAILS:</strong><br><strong>- </strong>Automates the sync between the WOT blacklist and the \"negative\" tags.<br>- A tag with Blacklist set to Yes can take over an existing manual block.<br>- Removing that tag or changing it to No can then unblock that player.&nbsp;<br>- Extended blacklist also hides chat and rejects platoon invites and friend requests automatically.<br><br><strong>Privacy and fair play</strong><br>Everything stays on your PC (mods/configs/player_tags/etc).&nbsp;<br>The mod has no online features, other players cannot see your tags, it shows no information the client hides.&nbsp;<br><i>Tags are personal notes</i>, not proof — report cheaters with the in-game form.&nbsp;<br><br>MIT licence.&nbsp;<br>Unofficial fan mod, not affiliated with Wargaming.</li></ul>",
+      "installationGuideHtml": "<p>Copy the mod in WOT ... Mods/{LastVersion} folder<br><strong>Requires</strong> OpenWG Gameface and preferably modsListApi!</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/photo_2026-10-21_01-40-48.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8054/",
       "tagIds": [
@@ -1472,29 +1567,19 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.3_EBlKdAp.wotmod",
-          "updatedAt": "2026-11-02T19:29:09.944Z",
-          "sizeBytes": 623206,
-          "fileName": "darth.player_tags_1.0.3_EBlKdAp.wotmod",
+          "modVersion": "1.0.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.4.wotmod",
+          "updatedAt": "2026-11-03T16:21:19.718Z",
+          "sizeBytes": 624036,
+          "fileName": "darth.player_tags_1.0.4.wotmod",
           "fileExt": ".wotmod",
-          "changeLog": "- Fixed: settings page no longer shows \"no answer from the game\" debug message"
-        },
-        {
-          "wotGameVersion": "2.4.1.1",
-          "modVersion": "1.0.3",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/darth.player_tags_1.0.3.wotmod",
-          "updatedAt": "2026-11-02T14:12:57.750Z",
-          "sizeBytes": 622770,
-          "fileName": "darth.player_tags_1.0.3.wotmod",
-          "fileExt": ".wotmod",
-          "changeLog": "- New full-screen settings page (needs OpenWG Gameface; modsListApi optional for the garage mods menu entry)\n- Tags table: icon, name and Blacklist Yes/No per tag; icon position table\n- Friend-request decline fixed: the request is cancelled only after the game creates it\n- Archive runs only when you press Archive now and confirm; default filter now 1 year\n- Clearer texts: hand-block takeover and unblocking, extended blacklist, short How to"
+          "changeLog": "- Settings page reliability: no lost answers when you click fast, and none after reloading the page. Your players, tags and settings are kept.\n"
         }
       ],
       "latest": {
-        "fileName": "darth.player_tags_1.0.3_EBlKdAp.wotmod",
-        "modVersion": "1.0.3",
-        "changeLog": "- Fixed: settings page no longer shows \"no answer from the game\" debug message",
+        "fileName": "darth.player_tags_1.0.4.wotmod",
+        "modVersion": "1.0.4",
+        "changeLog": "- Settings page reliability: no lost answers when you click fast, and none after reloading the page. Your players, tags and settings are kept.\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -5356,6 +5441,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.5",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.1.1_1.5.zip",
+          "updatedAt": "2026-11-03T12:45:49.644Z",
+          "sizeBytes": 702859,
+          "fileName": "Z4imon.platoon_header_2.4.1.1_1.5.zip",
+          "fileExt": ".zip",
+          "changeLog": "Fixed errors in the Frontline Hangar"
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.platoon_header_2.4.1.1_1.4.zip",
           "updatedAt": "2026-10-27T10:37:18.308Z",
@@ -5366,9 +5461,9 @@
         }
       ],
       "latest": {
-        "fileName": "Z4imon.platoon_header_2.4.1.1_1.4.zip",
-        "modVersion": "1.4",
-        "changeLog": "",
+        "fileName": "Z4imon.platoon_header_2.4.1.1_1.5.zip",
+        "modVersion": "1.5",
+        "changeLog": "Fixed errors in the Frontline Hangar",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -39131,17 +39226,17 @@
     {
       "source": "wgmods",
       "sourceId": "6370",
-      "title": "Unique 3D Style",
+      "title": "Unique 3D Style with Serial Number",
       "ownerUsername": "phuochung94",
       "languageCode": "en",
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
+      "recommended": true,
       "mark": 4.5,
-      "descriptionHtml": "<p>This mod displays a 3D model that only you can see.</p><p>UNZIP and copy all file to *\\World of Tanks\\mods\\&lt;version-game&gt; (Look Like 2.4.1.1)</p><p><i>How to use:&nbsp;</i></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/h9L5ciADRA4\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/h9L5ciADRA4\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
-      "installationGuideHtml": "<p>Copy to: *\\World_of_Tanks\\mods\\</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_470_BQkOnGB.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "descriptionHtml": "<ul><li>Customize your vehicles with 3D styles. Changes are visible only to you.</li><li>Browse styles for vehicles in your Garage.</li><li>Filter by nation, vehicle type, tier, applied styles, and serial support.</li><li>Apply or remove styles and select supported progression levels.</li><li>Set and save a serial number for each vehicle, defaulting to <strong>1994</strong>. Original serial numbers are protected.</li><li>English and Vietnamese interface with saved preferences.</li></ul><p>Feedback me via Discord: https://discord.gg/bv6S45wyf</p><p><i>How to use:&nbsp;</i></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/YsSO24ifpGo\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/YsSO24ifpGo\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
+      "installationGuideHtml": "<ol><li>Close the game.</li><li>Copy these files into the game’s mods\\2.4.1.1\\ folder:<ul><li>phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod</li><li>net.openwg.gameface_1.2.2.wotmod</li></ul></li><li>Remove older Unique Styles versions. Keep only one copy of OpenWG 1.2.2.</li><li>Launch the game and click <strong>3D Styles</strong> beside the <strong>SPACE</strong> button in the Garage, or press <strong>Ctrl+F10</strong>.</li></ol><p>Do not extract the .wotmod files. Remove the standalone Serial Number Changer if installed.</p><p>Settings are stored in &lt;game preferences folder&gt;\\mods\\phuochung94\\ and remain saved when updating the mod.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1796_NbcZV7I.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6370/",
       "tagIds": [
         "16",
@@ -39150,31 +39245,31 @@
       ],
       "files": [
         {
-          "wotGameVersion": "2.0.0.1",
-          "modVersion": "2.0.0.1",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/phuochung94.uniquestyles_mDs9pAh.7z",
-          "updatedAt": "2026-09-13T07:06:33.420Z",
-          "sizeBytes": 336754,
-          "fileName": "phuochung94.uniquestyles_mDs9pAh.7z",
-          "fileExt": ".7z",
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.4.1.1 #988",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
+          "updatedAt": "2026-11-03T16:12:12.897Z",
+          "sizeBytes": 134734,
+          "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
+          "fileExt": ".zip",
           "changeLog": ""
         },
         {
-          "wotGameVersion": "2.0.0.0",
-          "modVersion": "2.0.0.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/phuochung94.uniquestyles.zip",
-          "updatedAt": "2026-09-13T05:23:49.342Z",
-          "sizeBytes": 494764,
-          "fileName": "phuochung94.uniquestyles.zip",
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.4.1.1 #988",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
+          "updatedAt": "2026-11-03T13:50:13.397Z",
+          "sizeBytes": 118617,
+          "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
           "fileExt": ".zip",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "phuochung94.uniquestyles_mDs9pAh.7z",
-        "modVersion": "2.0.0.1",
+        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
+        "modVersion": "2.4.1.1 #988",
         "changeLog": "",
-        "wotGameVersionCompatibility": "risky"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -48755,7 +48850,7 @@
         "en"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.4,
       "descriptionHtml": "<p><strong>Aslain’s ModPack – The Ultimate Modding Experience for World of Tanks</strong></p><p>Enhance your World of Tanks gameplay with <strong>Aslain’s ModPack</strong>, the most comprehensive and user-friendly collection of mods, carefully curated to improve your battle experience while staying <strong>100% WG Fair Play compliant</strong>.</p><ul><li><strong>Massive Selection</strong> - Choose from <strong>hundreds of high-quality mods</strong>, including UI enhancements, sound packs, crosshairs, garage improvements, and more.</li><li><strong>Easy to Use</strong> - The intuitive installer provides a <strong>mod preview</strong>, so you always know what you’re selecting.</li><li><strong>Regular Updates</strong> - Stay ahead with <strong>frequent updates</strong> that ensure compatibility with the latest WoT versions.</li><li><strong>Fast &amp; Reliable Support</strong> - Got questions or need assistance? Get <strong>blazing-fast support</strong> via <a href=\"http://aslain.com/index.php?/forum/11--\"><strong>ASLAIN.COM</strong></a><strong> </strong>forums and <a href=\"https://discord.gg/6eWrNfT\"><strong>Discord</strong></a>.</li><li><strong>Safe &amp; Approved</strong> - Only mods that comply with <strong>Wargaming’s Fair Play Policy</strong> are included, ensuring a <strong>safe and fair</strong> gameplay experience.</li></ul><p><strong>Seamless Installation &amp; Customization</strong></p><p>With Aslain’s ModPack, you have <strong>full control</strong> over your modding experience. Simply launch the installer, pick your favorite mods, and jump straight into battle. <strong>The installer remembers your previous selections</strong>, making future updates quick and effortless.</p><p>Join <strong>millions of players</strong> who trust Aslain’s Modpack for the ultimate <strong>modding experience in World of Tanks</strong>. Download now and take your game to the next level!</p>",
       "installationGuideHtml": "<p><strong>Installation:</strong><br>- Launch the installer.<br>- Select the folder where your WoT is installed.<br>- Choose your mods and options.<br>- To change mods later, run the installer again and make new selections (previously selected mods will be remembered).</p><p><strong>Update:</strong><br>- Do <i>not</i> uninstall the old modpack.<br>- Download and launch the new installer (previous selections will be remembered).<br>- Complete the installation.</p><p><strong>Removal:</strong><br>- Use the Windows \"Add or Remove Programs\" feature in the Control Panel.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/classicaslain_pDRSzBw.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -49635,6 +49730,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "3.0.43",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_k1RB2C8.zip",
+          "updatedAt": "2026-11-03T16:11:32.542Z",
+          "sizeBytes": 4957971,
+          "fileName": "ProMod_k1RB2C8.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added v1 Premium Hangar\nAdded v2 Hangar\nAdded v2 Premium Hangar\nAdded v2 Hangar\nAdded XMAS 2022 Hangar\nUpdated Platoon Window\nUpdated Research Progress Bar\nUpdated HangMan"
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "3.0.42",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_7XZ6kBi.zip",
           "updatedAt": "2026-11-01T16:48:20.256Z",
@@ -49682,22 +49787,12 @@
           "fileName": "ProMod_VxHOycZ.zip",
           "fileExt": ".zip",
           "changeLog": "Updated Improved Platoon Window\nUpdated Mod Menu\nUpdated HangMan\nUpdated Hitmarker Pro\nUpdated Aiminfo Pro"
-        },
-        {
-          "wotGameVersion": "2.4.1.0",
-          "modVersion": "3.0.37",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ProMod_TCm596K.zip",
-          "updatedAt": "2026-10-19T17:03:16.979Z",
-          "sizeBytes": 4944514,
-          "fileName": "ProMod_TCm596K.zip",
-          "fileExt": ".zip",
-          "changeLog": "new: WarMod Engine Sounds\nnew: Friends Marker\nUpdated WarMod Gun Sounds\nUpdated HR Engine Sounds\nUpdated Mod Menu\nUpdated Advanced Personal Efficiency\nUpdated Aiminfo Pro\nUpdated HangMan Hangar Manager"
         }
       ],
       "latest": {
-        "fileName": "ProMod_7XZ6kBi.zip",
-        "modVersion": "3.0.42",
-        "changeLog": "new: Hangar Poppyfield\nUpdated Aslain Mod Menu\nUpdated Arty Hit Log\nUpdated Battle Efficiency\nUpdated High Caliver Panel\nUpdated Improved Debug Panel\nUpdated Average Damage Log\nUpdated HangMan\nUpdated BalCalc\nUpdated Custom UI Scale\nUpdated Hitmarker Pro\nUpdated Hangar Clock\nUpdated AutoAim Snapping\nUpdated Aim Info\nUpdated Dynamic Flashlight Colors\nUpdated Centered Minimap\nUpdated Effects Control",
+        "fileName": "ProMod_k1RB2C8.zip",
+        "modVersion": "3.0.43",
+        "changeLog": "Added v1 Premium Hangar\nAdded v2 Hangar\nAdded v2 Premium Hangar\nAdded v2 Hangar\nAdded XMAS 2022 Hangar\nUpdated Platoon Window\nUpdated Research Progress Bar\nUpdated HangMan",
         "wotGameVersionCompatibility": "safe"
       }
     },
