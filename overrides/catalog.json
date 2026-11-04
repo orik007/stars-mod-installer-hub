@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "v2026.11.009",
-  "sourceHash": "400a5e228df8d506116b612009e2f781ccb599969a6fb8b4843a7cda1d5f61d3",
+  "catalogVersion": "v2026.11.010",
+  "sourceHash": "6af194caf418b61ff68caa77590950f35bd6617e371bdfb161b5c34603d26bc6",
   "sources": [
     "wgmods",
     "modhub"
@@ -274,7 +274,7 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Changes the dog to RoboCop, it has 36 animations.</p>",
+      "descriptionHtml": "<p>Changes the dog to RoboCop, it has 54 animations.<br><br>Robopet now also functions as a <strong>pet model loader</strong>, with new models being released in themed packs (e.g. <strong>Robopet Pack 1</strong>).</p><p>Pet models can be switched through the <strong>\"Robopet\"</strong> section of Aslain's Mod Menu.</p><p>To install additional models, simply place the corresponding .wotmod file into:</p><p>\\mods\\{version}\\</p><p>All custom model files must use the RoboPet_ prefix (e.g. RoboPet_vader.wotmod).</p><p>Basic instructions for creating your own models can be found in the ADDING MODEL PACKS.txt file included within the .wotmod package.</p>",
       "installationGuideHtml": "<p>extract the .wotmod from the .zip and place in \\mods\\{version}</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Robo-Pet.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8091/",
@@ -412,6 +412,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.3.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.armor_penetration_calculator.2.4.1.1.1.3.0.zip",
+          "updatedAt": "2026-11-04T10:26:08.743Z",
+          "sizeBytes": 1401321,
+          "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.3.0.zip",
+          "fileExt": ".zip",
+          "changeLog": "Added conditional styles, colors, sizes and visibility blocks; added strikethrough tags; moved advanced formatting below common template help; fixed stale overlay readings after death and restored the display after respawning."
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "1.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
           "updatedAt": "2026-11-03T20:18:18.604Z",
@@ -442,9 +452,9 @@
         }
       ],
       "latest": {
-        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.2.0.zip",
-        "modVersion": "1.2.0",
-        "changeLog": "Added bold, italic and underline template tags with independent off controls; added text-size tags and size reset with UI scaling; italic and underline use drawn battle styling and remain plain text in the menu preview.",
+        "fileName": "gravity.armor_penetration_calculator.2.4.1.1.1.3.0.zip",
+        "modVersion": "1.3.0",
+        "changeLog": "Added conditional styles, colors, sizes and visibility blocks; added strikethrough tags; moved advanced formatting below common template help; fixed stale overlay readings after death and restored the display after respawning.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -750,7 +760,7 @@
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.0.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.1.0_ArmorHits_1.0.0.zip",
-          "updatedAt": "2026-10-27T17:31:01.452Z",
+          "updatedAt": "2026-11-04T07:15:07.301Z",
           "sizeBytes": 344332,
           "fileName": "2.4.1.0_ArmorHits_1.0.0.zip",
           "fileExt": ".zip",
@@ -2931,6 +2941,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.2.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotsubtitles.syncbridge_1.2.0.wotmod",
+          "updatedAt": "2026-11-04T14:15:36.106Z",
+          "sizeBytes": 59206225,
+          "fileName": "wotsubtitles.syncbridge_1.2.0.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "1. Adds Irene Engel and Wilhelm Strasse and includes approved Japanese male/female corrections. ;\n2. Organises local audio by category and improves selective generation, integrity, reuse, migration and recovery. ; \n3. Superseded owned copies are retired only after their replacements are validated and the game exits normally. ;\n4. A regional calendar manages Babylon's exclusive voices while retaining its themes and permanent content. ;\n5. Adds family/gender filters, clarifies resource states and improves localised notices. Updates History and credits. ;\n6. Both frames now default to an overall scale of 80%, with matching sizes in Preview and battle. ;\n7. Only the first start of 1.2.0 resets all settings, with a recoverable backup. Subsequent starts and later versions preserve customisations. ;"
+        },
+        {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "1.1.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/wotsubtitles.syncbridge_1.1.1.wotmod",
@@ -2962,10 +2982,10 @@
         }
       ],
       "latest": {
-        "fileName": "wotsubtitles.syncbridge_1.1.1.wotmod",
-        "modVersion": "1.1.1",
-        "changeLog": "Improved diagnostics and recovery of owned local resources, preserving valid banks and preferences. Known causes and warnings remain visible; pending repairs are not reported as complete.\n\nCorrected independent event/profile positions and visibility, Native starting minimised when disabled and reactivation for the selected profile. Alt positioning guides survive internal view focus changes; Alt+Tab still releases controls.\n\nAdded Babylon Hybrid, Mirium and Dark Tower themes, shared Native artwork and separate theme choices per channel. Reorganised Settings, moved both language selectors to General and added History. Redesigned silent Preview: content, size, colour, themes, visibility, free positioning, passive HUD guides, Undo, Restore and Apply.\n\nIncludes all 1.1.0 changes. Approved subtitle texts, Media IDs, voice mappings and local audio recipes are preserved. Historical intermittent voice endings are not claimed fixed.",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "fileName": "wotsubtitles.syncbridge_1.2.0.wotmod",
+        "modVersion": "1.2.0",
+        "changeLog": "1. Adds Irene Engel and Wilhelm Strasse and includes approved Japanese male/female corrections. ;\n2. Organises local audio by category and improves selective generation, integrity, reuse, migration and recovery. ; \n3. Superseded owned copies are retired only after their replacements are validated and the game exits normally. ;\n4. A regional calendar manages Babylon's exclusive voices while retaining its themes and permanent content. ;\n5. Adds family/gender filters, clarifies resource states and improves localised notices. Updates History and credits. ;\n6. Both frames now default to an overall scale of 80%, with matching sizes in Preview and battle. ;\n7. Only the first start of 1.2.0 resets all settings, with a recoverable backup. Subsequent starts and later versions preserve customisations. ;",
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39276,7 +39296,7 @@
       "mark": 4.5,
       "descriptionHtml": "<p>Customize your vehicles with an easy-to-use Gameface interface designed to blend into the World of Tanks Garage.</p><h2>3D Style Collection</h2><ul><li>Browse available 3D styles for vehicles in your Garage.</li><li>Apply or remove a style with a single click.</li><li>Choose progression levels for supported styles.</li><li>Apply or remove styles in bulk.</li></ul><h2>Custom Serial Numbers</h2><ul><li>Enter a custom serial number for each supported vehicle.</li><li>Save different numbers for different vehicles.</li><li>Use <strong>1994</strong> as the default serial number.</li><li>Enter between <strong>1 and 5 digits</strong>.</li><li>View serial numbers directly on supported style cards.</li><li>Access the serial editor when selecting an eligible serial-enabled style.</li></ul><p>Styles with an existing native serial number remain visible but are dimmed and protected from modification.</p><h2>Built-in Style Removal</h2><p>A separate <strong>Remove Styles</strong> interface allows you to remove or restore built-in styles on supported vehicles with locked appearances.</p><ul><li>Lists eligible vehicles in your Garage.</li><li>Click a vehicle to remove its built-in style locally.</li><li>Click it again to restore the original appearance.</li><li>Saves your choices for future sessions.</li><li>Protects vehicles with existing native serial numbers.</li></ul><p>Availability depends on whether the vehicle has a supported alternative base model.</p><h2>Important Notes</h2><ul><li>Appearance changes are <strong>client-side and visible only to you</strong>.</li><li>The mod does not grant ownership of styles or change vehicle combat statistics.</li><li>Serial editing and built-in style removal are available only for supported styles and vehicles.</li></ul><p>Feedback me via Discord: https://discord.gg/bv6S45wyf</p><p><i>How to use:&nbsp;</i></p><figure class=\"media\"><div data-oembed-url=\"https://youtu.be/BxeK1M9PrgQ\"><div style=\"position: relative; padding-bottom: 100%; height: 0; padding-bottom: 56.2493%;\"><iframe src=\"https://www.youtube.com/embed/BxeK1M9PrgQ\" style=\"position: absolute; width: 100%; height: 100%; top: 0; left: 0;\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\"></iframe></div></div></figure>",
       "installationGuideHtml": "<ol><li>Close the game.</li><li>Copy these files into the game’s mods\\2.4.1.1\\ folder:<ul><li>phuochung94.uniquestyles-ASIA 2.4.1.1 #988.wotmod</li><li>net.openwg.gameface_1.2.2.wotmod</li></ul></li></ol>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1824_dYeU0os.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1832.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6370/",
       "tagIds": [
         "18",
@@ -48893,6 +48913,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "05",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.1.1_05.exe",
+          "updatedAt": "2026-11-04T11:01:16.757Z",
+          "sizeBytes": 76249948,
+          "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.1_05.exe",
+          "fileExt": ".exe",
+          "changeLog": "- Added Garage: Birthday 2015, Birthday 2016 CN, Grand Final 2016 (by Aslain)\n- Updated HangMan Garage Manager 3.0.07 (the new garages are named in the list, with previews and places for your pet and its den; fixed: when the garage chosen last time was removed or its event ended, the warning read as if the game's garage was broken, now it names the garage that is gone)\n- Updated Garage Mastery by OldSkool 1.3.0 \n- Updated Armor Penetration Calculator by Gravity_Assist 1.3.0\n"
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "04",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslains_WoT_Modpack_Installer_v.2.4.1.1_04.exe",
           "updatedAt": "2026-11-02T22:24:29.415Z",
@@ -48923,9 +48953,9 @@
         }
       ],
       "latest": {
-        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.1_04.exe",
-        "modVersion": "04",
-        "changeLog": "- Added Garage: V1 Premium, V2, V2 Premium, V3, Poppy field, Girls und Panzer (by Aslain)\n- Added Chat Translator\n- Added Battle Timing Results (by Gravity_Assist) (battle duration and the time your vehicle was destroyed in the battle results)\n- Added Armor Penetration Calculator by Gravity_Assist\n- Updated HangMan Garage Manager 3.0.06 (the new garages are named in the list, with places for your pet and its den; fixed: Babylon: Dark Tower had none of its own sounds and the garage music played on)\n- Updated Garage: New Year 2022 1.0.02\n- Updated Garage: Miku v1 1.0.01\n- Updated Garage: Minimalistic\n- Updated Marked ammo icons 2.0\n- Updated contour icons ASMA and ASMA with armor (update for WoT 2.4.1.1)\n- Updated Average Damage Log 1.2.1\n- Updated Arty Log 2.0.2\n- Updated Battle efficiency by OldSkool 1.5.1\n- Updated High caliber progress in the battle 1.2.1\n- Updated Exterior Studio 1.1.5\n- Updated Camo Selector 3.3.0\n",
+        "fileName": "Aslains_WoT_Modpack_Installer_v.2.4.1.1_05.exe",
+        "modVersion": "05",
+        "changeLog": "- Added Garage: Birthday 2015, Birthday 2016 CN, Grand Final 2016 (by Aslain)\n- Updated HangMan Garage Manager 3.0.07 (the new garages are named in the list, with previews and places for your pet and its den; fixed: when the garage chosen last time was removed or its event ended, the warning read as if the game's garage was broken, now it names the garage that is gone)\n- Updated Garage Mastery by OldSkool 1.3.0 \n- Updated Armor Penetration Calculator by Gravity_Assist 1.3.0\n",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -50105,18 +50135,18 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
-          "modVersion": "1.3.25",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslain_WoT_Mod_Manager_Setup.exe",
-          "updatedAt": "2026-10-31T08:53:39.430Z",
-          "sizeBytes": 7085859,
-          "fileName": "Aslain_WoT_Mod_Manager_Setup.exe",
+          "modVersion": "1.3.32",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Aslain_WoT_Mod_Manager_Setup_PYLDdiw.exe",
+          "updatedAt": "2026-11-04T11:05:04.235Z",
+          "sizeBytes": 7096033,
+          "fileName": "Aslain_WoT_Mod_Manager_Setup_PYLDdiw.exe",
           "fileExt": ".exe",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Aslain_WoT_Mod_Manager_Setup.exe",
-        "modVersion": "1.3.25",
+        "fileName": "Aslain_WoT_Mod_Manager_Setup_PYLDdiw.exe",
+        "modVersion": "1.3.32",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
