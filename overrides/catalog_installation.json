@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.008",
+  "catalogVersion": "v2026.11.009",
   "mods": [
     {
       "source": "wgmods",
@@ -43,13 +43,13 @@
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
         "latestFileExt": ".rar",
-        "latestInstallGuide": "INSTALLATION The archive contains three files: local_session_encounters_0_6_3.wotmod: the mod itself, required me_poliroid_modslistapi_1_8_0.wotmod: optional, adds the Session Encounters button to the mods list in the hangar net_openwg_gameface_1_2_2.wotmod: required by modsListApi, install it together with modsListApi Copy the files to World_of_Tanks / mods / (game version), for example World_of_Tanks/mods/2.4.1.1 For the button in the mods list, install modsListApi and openwg_gameface together. If you already have them from another mod or modpack, do not copy them again. Without the optional files, the statistics window opens with Ctrl+H in the hangar. Start the game."
+        "latestInstallGuide": "The archive contains three files: local_session_encounters_0_6_4.wotmod: the mod itself, required me_poliroid_modslistapi_1_8_0.wotmod: optional, adds the Session Encounters button to the mods list in the hangar net_openwg_gameface_1_2_2.wotmod: required by modsListApi, install it together with modsListApi Copy the files to World_of_Tanks / mods / (game version), for example World_of_Tanks/mods/2.4.1.1 For the button in the mods list, install modsListApi and openwg_gameface together. If you already have them from another mod or modpack, you do not need to copy them again. Without the optional files, the statistics window opens with Ctrl+H in the hangar. Start the game."
       },
       "requiresReview": false,
       "installationProcess": {
         "installationTemplate": "ExtractArchiveThenCopyToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the archive and copy its files into mods/current-version; the optional bundled dependencies do not require filtering or review.",
+        "decisionReason": "Extract the archive and copy its files into mods/current-version; the optional compatible add-ons can be installed with the main mod, with no payload choice required.",
         "deleteDataWgpdc": false
       }
     },

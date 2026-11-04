@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "v2026.11.008",
+  "catalogVersion": "v2026.11.009",
   "sourceHash": "400a5e228df8d506116b612009e2f781ccb599969a6fb8b4843a7cda1d5f61d3",
   "sources": [
     "wgmods",
@@ -102,8 +102,8 @@
       ],
       "recommended": false,
       "mark": null,
-      "descriptionHtml": "<p>Ever had the feeling you keep meeting the same players over and over? Session Encounters tracks it for you.</p><p><strong>In battle</strong><br>A small colored counter next to every nickname in the team panels and on the loading screen shows how many times you have already met this player:</p><p>grey [0]: first time</p><p>yellow [1]: met once before</p><p>orange [2–4]: regular</p><p>red [5+]: you know each other well</p><p>[?]: player uses the anonymizer (not tracked)</p><p><strong>After battle</strong><br>A summary in the notification center: who you met before, how many battles you had together and against each other, your win/loss record with them and their average damage.</p><p><strong>Statistics window</strong><br>Open the settings and statistics window using the button in the mods list (modsListApi) or by pressing <strong>Ctrl+H in the hangar</strong>:</p><p>all players you have met, sortable and searchable</p><p>best allies: who you win with most often</p><p>toughest opponents: who beats you most often</p><p>last battle: allies and enemies with encounter counters and damage</p><p>your overall win rate in tracked battles</p><p><strong>Privacy and safety</strong></p><p>Anonymized players are never resolved or counted</p><p>Uses only data the game client already shows you</p><p>History is stored only on your PC in %LOCALAPPDATA%\\SessionEncounters (delete the folder to reset)</p>",
-      "installationGuideHtml": "<p><strong>INSTALLATION</strong></p><p>The archive contains three files:</p><ul><li>local_session_encounters_0_6_3.wotmod: the mod itself, required</li><li>me_poliroid_modslistapi_1_8_0.wotmod: optional, adds the Session Encounters button to the mods list in the hangar</li><li>net_openwg_gameface_1_2_2.wotmod: required by modsListApi, install it together with modsListApi</li></ul><ol><li>Copy the files to World_of_Tanks / mods / (game version), for example World_of_Tanks/mods/2.4.1.1</li><li>For the button in the mods list, install modsListApi and openwg_gameface together. If you already have them from another mod or modpack, do not copy them again.</li><li>Without the optional files, the statistics window opens with Ctrl+H in the hangar.</li><li>Start the game.</li></ol>",
+      "descriptionHtml": "<p>Ever had the feeling you keep meeting the same players over and over? Session Encounters tracks it for you.</p><p><strong>In battle</strong><br>A counter next to every nickname in the team panels and on the loading screen shows how many times you have already met this player. [0] means first time, [?] means the player uses the anonymizer and is not tracked.</p><p><strong>After battle</strong><br>A short notification: how many players you met before, how many are new, and who you met most often.</p><p><strong>Statistics window</strong><br>Open it with the Session Encounters button in the mods list (modsListApi) or press Ctrl+H in the hangar.</p><ul><li>Filters by period: Today, 3 days, 7 days, All time</li><li>Filters by battles: Last 30, Last 50</li><li>All players: sortable table with search by nickname</li><li>Best allies and toughest opponents</li><li>Last battle: allies and enemies with encounter counters and damage</li><li>Your win rate, battles together and against, average damage</li><li>Color badges: grey new, yellow 1, orange 2-4, red 5+</li><li>Reset statistics with a verified backup</li></ul><p><strong>Privacy and safety</strong></p><ul><li>Works fully offline, no external servers</li><li>Anonymized players are never resolved or counted</li><li>Uses only data the game client already shows you</li><li>History is stored only on your PC in %LOCALAPPDATA%\\SessionEncounters</li></ul><p>The mods list button uses modsListApi by poliroid and openwg_gameface by OpenWG.</p>",
+      "installationGuideHtml": "<p>The archive contains three files:</p><ul><li>local_session_encounters_0_6_4.wotmod: the mod itself, required</li><li>me_poliroid_modslistapi_1_8_0.wotmod: optional, adds the Session Encounters button to the mods list in the hangar</li><li>net_openwg_gameface_1_2_2.wotmod: required by modsListApi, install it together with modsListApi</li></ul><ol><li>Copy the files to World_of_Tanks / mods / (game version), for example World_of_Tanks/mods/2.4.1.1</li><li>For the button in the mods list, install modsListApi and openwg_gameface together. If you already have them from another mod or modpack, you do not need to copy them again.</li><li>Without the optional files, the statistics window opens with Ctrl+H in the hangar.</li><li>Start the game.</li></ol>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/C9fOWUxQJ0.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8098/",
       "tagIds": [
@@ -316,7 +316,7 @@
       "mark": null,
       "descriptionHtml": "<p><strong>Replaces:</strong> Standard Garage Dog<br>Model: Warusa P</p>",
       "installationGuideHtml": "<p>World_of_Tanks_EU &gt; mods &gt; 2.4.1.1</p>",
-      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-10-31_213125_Avhr2RS.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2026-11-04_035656.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8088/",
       "tagIds": [
         "11",
@@ -39279,9 +39279,9 @@
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1824_dYeU0os.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/6370/",
       "tagIds": [
+        "18",
         "16",
-        "21",
-        "23"
+        "21"
       ],
       "files": [
         {
@@ -39293,16 +39293,6 @@
           "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
           "fileExt": ".zip",
           "changeLog": "Add Built-in Style remover."
-        },
-        {
-          "wotGameVersion": "2.4.1.1",
-          "modVersion": "2.4.1.1 #988",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
-          "updatedAt": "2026-11-03T16:12:12.897Z",
-          "sizeBytes": 134734,
-          "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_17KKDMi.zip",
-          "fileExt": ".zip",
-          "changeLog": ""
         }
       ],
       "latest": {
