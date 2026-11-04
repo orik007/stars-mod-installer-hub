@@ -1,11 +1,85 @@
 {
-  "catalogVersion": "v2026.11.010",
-  "sourceHash": "6af194caf418b61ff68caa77590950f35bd6617e371bdfb161b5c34603d26bc6",
+  "catalogVersion": "v2026.11.011",
+  "sourceHash": "6fc6278ec5c51d8d0fd4ddeb5c40a6a4ff8ea5a9b0b7e4d0402c0628602f98a1",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8107",
+      "title": "Settings Profiles",
+      "ownerUsername": "Gravity_Assist",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Enter exact mouse sensitivity values beside the stock sliders in Settings → Controls. Numeric fields are available for Arcade, Sniper, both SPG aiming modes, and the postmortem free camera.</p><p>Use Export profile to save supported game settings as a JSON file, then use Import profile to choose that file on another account or PC running the same game build. Profiles cover editable settings such as graphics quality, sound, reticles, hotkeys, sensitivity, markers, and battle feedback. Machine-specific display and capture selections are excluded. The game may ask you to confirm graphics changes or restart.</p><p><strong>Support, questions and suggestions</strong><br><a href=\"https://discord.gg/DqZ8fuX43C\">Join the Discord</a></p><p><strong>Support my work</strong><br><a href=\"https://www.patreon.com/c/Gravity_Assist\">Gravity Assist on Patreon</a></p>",
+      "installationGuideHtml": "<p>Download and extract the ZIP archive. Copy all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current World of Tanks version. Restart the game client.</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/cover-settings-profiles-banner.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8107/",
+      "tagIds": [
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.0.0",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/gravity.settings_profiles.2.4.1.1.1.0.0.zip",
+          "updatedAt": "2026-11-04T14:58:19.443Z",
+          "sizeBytes": 6808854,
+          "fileName": "gravity.settings_profiles.2.4.1.1.1.0.0.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "gravity.settings_profiles.2.4.1.1.1.0.0.zip",
+        "modVersion": "1.0.0",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8105",
+      "title": "Mafia Project",
+      "ownerUsername": "_Timi_CZ_",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<ul><li>Na žádost hráčů jsem vytvořil nově <strong>Mafia projekt</strong>. Je plně funkční jak samostatně tak s&nbsp;ostatními módy.&nbsp;</li><li>POZOR: pokud zapnete hru s módem poprvé nebo přidáte jiný zvukový mód bude to vyžadovat restart hry, pak už to pojede správně.</li></ul>",
+      "installationGuideHtml": "<p>Rozbalte, pak složku mods nakopírujte do hry</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/mafia.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8105/",
+      "tagIds": [
+        "17"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Mafia_Project.zip",
+          "updatedAt": "2026-11-04T14:55:43.948Z",
+          "sizeBytes": 18987174,
+          "fileName": "Mafia_Project.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "Mafia_Project.zip",
+        "modVersion": "0.1",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8102",
@@ -114,6 +188,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.6.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Session_Encounters.rar",
+          "updatedAt": "2026-11-04T14:58:09.994Z",
+          "sizeBytes": 161370,
+          "fileName": "Session_Encounters.rar",
+          "fileExt": ".rar",
+          "changeLog": "The Battles and Your record cards now keep up to the latest 3,000 completed battle records (all accounts together), and the window explains this limit next to the All time player totals\nInstallation guide file names match the archive"
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "0.6.3",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Session_Encounters_nz08fa2.rar",
           "updatedAt": "2026-11-03T20:19:10.141Z",
@@ -144,9 +228,9 @@
         }
       ],
       "latest": {
-        "fileName": "Session_Encounters_nz08fa2.rar",
-        "modVersion": "0.6.3",
-        "changeLog": "VERSION CHANGES\n\nReset is cancelled with an error message if the backup cannot be saved\nBackup is made from the current in-memory history, so recent encounters are included, and verified after writing\nReset confirmation states that history for all accounts on this PC is deleted\nStatistics window explains history limits: per-battle log since 0.6.0, latest 1,500 entries, All time totals vs battles with results\nLast battle tab: period and battle filters are disabled and the cards show All time\nResult polling retries after temporary unavailability, handles cooldown, non-player and disconnected errors separately, cancels pending callbacks on unload and rechecks the current account when a callback runs\nPlayers with zero damage now show 0 instead of a dash",
+        "fileName": "Session_Encounters.rar",
+        "modVersion": "0.6.4",
+        "changeLog": "The Battles and Your record cards now keep up to the latest 3,000 completed battle records (all accounts together), and the window explains this limit next to the All time player totals\nInstallation guide file names match the archive",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -210,16 +294,16 @@
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "1.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.load_data_fix_1.0_ZLhKuhy.wotmod",
-          "updatedAt": "2026-11-02T14:18:44.679Z",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Z4imon.load_data_fix_2.4.1.1_1.0.wotmod",
+          "updatedAt": "2026-11-04T16:03:10.588Z",
           "sizeBytes": 6784,
-          "fileName": "Z4imon.load_data_fix_1.0_ZLhKuhy.wotmod",
+          "fileName": "Z4imon.load_data_fix_2.4.1.1_1.0.wotmod",
           "fileExt": ".wotmod",
           "changeLog": ""
         }
       ],
       "latest": {
-        "fileName": "Z4imon.load_data_fix_1.0_ZLhKuhy.wotmod",
+        "fileName": "Z4imon.load_data_fix_2.4.1.1_1.0.wotmod",
         "modVersion": "1.0",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
@@ -286,6 +370,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "V2.3",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Robopet_v2.3_ceWXZJz.wotmod",
+          "updatedAt": "2026-11-04T15:13:07.456Z",
+          "sizeBytes": 95834053,
+          "fileName": "Robopet_v2.3_ceWXZJz.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "V1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Robo-Pet_2.4.1.1_V1.zip",
           "updatedAt": "2026-11-02T13:31:57.991Z",
@@ -296,8 +390,8 @@
         }
       ],
       "latest": {
-        "fileName": "Robo-Pet_2.4.1.1_V1.zip",
-        "modVersion": "V1",
+        "fileName": "Robopet_v2.3_ceWXZJz.wotmod",
+        "modVersion": "V2.3",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -326,6 +420,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.2",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ERIKA_2.3.wotmod",
+          "updatedAt": "2026-11-04T14:28:56.266Z",
+          "sizeBytes": 21119579,
+          "fileName": "ERIKA_2.3.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": "A new stand has been added for the main model, and its color palette has been updated—giving it a more attractive, high-quality appearance. A gradual fade-out effect has been implemented for when the camera approaches the model, an orange outline has been added, various bugs have been fixed, and shaders have been incorporated.\nДля основной модели добавлена ​​новая подставка, а её цветовая палитра обновлена ​​— теперь она выглядит более привлекательно и качественно. Реализован эффект плавного исчезновения при приближении камеры к модели, добавлен оранжевый контур, исправлены различные ошибки, а также внедрены шейдеры."
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "2.1",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/ERIKA_ITSUMI_2.1.wotmod",
           "updatedAt": "2026-11-02T19:17:53.251Z",
@@ -346,9 +450,9 @@
         }
       ],
       "latest": {
-        "fileName": "ERIKA_ITSUMI_2.1.wotmod",
-        "modVersion": "2.1",
-        "changeLog": "New animation: upon entering the hangar, Erika waves at the player (I’ll fix the issues with her hands within a day or two).\nНовая анимация: при входе в ангар Эрика машет игроку (проблемы с её кистями рук я исправлю в течение дня-двух).",
+        "fileName": "ERIKA_2.3.wotmod",
+        "modVersion": "2.2",
+        "changeLog": "A new stand has been added for the main model, and its color palette has been updated—giving it a more attractive, high-quality appearance. A gradual fade-out effect has been implemented for when the camera approaches the model, an orange outline has been added, various bugs have been fixed, and shaders have been incorporated.\nДля основной модели добавлена ​​новая подставка, а её цветовая палитра обновлена ​​— теперь она выглядит более привлекательно и качественно. Реализован эффект плавного исчезновения при приближении камеры к модели, добавлен оранжевый контур, исправлены различные ошибки, а также внедрены шейдеры.",
         "wotGameVersionCompatibility": "safe"
       }
     },
@@ -2307,16 +2411,6 @@
           "fileName": "Radio_UA.zip",
           "fileExt": ".zip",
           "changeLog": "Додано функцію зміни оболонки (скінів) радіоплеєра "
-        },
-        {
-          "wotGameVersion": "2.4.1.1",
-          "modVersion": "1.5",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Radio_UA.rar",
-          "updatedAt": "2026-10-27T13:18:03.008Z",
-          "sizeBytes": 2678546,
-          "fileName": "Radio_UA.rar",
-          "fileExt": ".rar",
-          "changeLog": ""
         }
       ],
       "latest": {
@@ -2929,9 +3023,9 @@
       "availableLanguageCodes": [
         "en"
       ],
-      "recommended": false,
-      "mark": null,
-      "descriptionHtml": "<p>WOTSubtitles SyncBridge displays Native, English and Latin American Spanish subtitles for supported World of Tanks voice profiles. It includes movable dialogue frames, character names and portrait references, a silent visual preview, and a portrait gallery. Settings are available in English, Spanish and Russian.&nbsp;<br><br>The download contains no original audio recordings, bundled voice banks or official character portraits. Audio resources are prepared locally from the installed game or a separately installed supported mod. Keep the game open while setup completes, then restart only when SyncBridge asks. Individual voice profiles can be enabled or disabled; exclusive local resources are cleaned up after a normal game exit, while shared resources remain available to active profiles.&nbsp;<br><br>Optional Girls und Panzer compatibility requires the original supported Girls und Panzer Subtitles Mod, installed separately. SyncBridge handles the supported load relationship automatically. That original mod is not included.&nbsp;<br><br>This is an unofficial mod, not affiliated with, endorsed or sponsored by Wargaming. World of Tanks and the corresponding trademarks and content belong to their respective owners.</p>",
+      "recommended": true,
+      "mark": 4.2,
+      "descriptionHtml": "<p>WOTSubtitles SyncBridge displays Native, English and Latin American Spanish subtitles for supported World of Tanks voice profiles. It includes movable dialogue frames, character names and portrait references, a silent visual preview and a portrait gallery. Settings are available in English, Spanish and Russian.</p><p>Version 1.2.0 includes all features from 1.1.1. It adds Irene Engel and Wilhelm Strasse, Japanese male/female corrections, and improvements to profile search, frame sizes and local audio management. Generated packages are organised by nations, special commanders, Girls und Panzer and events, with integrity checks, reuse and migration between client-version folders. <strong>The bundled Babylon 2026 calendar covers NA only; automatic pausing of Babylon-exclusive voices based on this calendar may not apply on other regions.</strong> Babylon themes and permanent content remain available.</p><p><strong>IMPORTANT BEFORE UPDATING:</strong> The first launch of 1.2.0 resets all settings to defaults and creates a recoverable backup. This occurs only once per configuration folder. The backup is saved as config.before_1.2.0_*.json in &lt;World of Tanks&gt;/mods/configs/WOTSubtitlesSyncBridge/.</p><p><strong>To restore previous settings:</strong> Close the game; save a safety copy of the current config.json; copy the chosen config.before_1.2.0_*.json backup to config.json in that same folder, replacing the current file; then restart the game. Keep settings_reset_1.2.0.json in place.</p><p>Subsequent launches and future versions preserve your customisations. Both frames now default to an overall scale of 80%.</p><p>The download contains no original audio recordings, bundled voice banks or official character portraits. Audio resources are prepared locally from the installed game or a separately installed supported mod. Keep the game open while preparation completes, then restart only when SyncBridge asks. Voice profiles can be enabled or disabled individually.</p><p>Optional Girls und Panzer compatibility requires Girls und Panzer Subtitles Mod 1.2.4, installed separately. SyncBridge manages the supported load relationship automatically. That mod is not included.</p><p>This is an unofficial mod, not affiliated with, endorsed or sponsored by Wargaming. World of Tanks and the corresponding trademarks and content belong to their respective owners.</p>",
       "installationGuideHtml": "<p>Close World of Tanks. Copy wotsubtitles.syncbridge_1.X.X.wotmod to &lt;World of Tanks&gt;/mods/&lt;current game version&gt;/. When updating, replace only the old SyncBridge package; preserve preferences, local resources, other mods and load_order.xml. Start the game, wait for setup and restart only when requested. Open settings from the mod menu or press Ctrl + F6.&nbsp;<br><br>Generated banks: mods/configs/WOTSubtitlesSyncBridge/generated_audio/. Mounted local packages: mods/&lt;version&gt;/WOTSubtitlesSyncBridge/generated_audio/. They stay on your PC and are not in the download. Official resources are read only.&nbsp;<br><br>For optional GuP compatibility, install the supported Girls und Panzer Subtitles Mod 1.2.4 separately. SyncBridge manages the supported load relationship. No separate Python install or manual support scripts are required.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/Logo_DYfid4i.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
       "detailUrl": "https://wgmods.net/8008/",
@@ -6661,7 +6755,7 @@
         "ru"
       ],
       "recommended": true,
-      "mark": 4.5,
+      "mark": 4.6,
       "descriptionHtml": "<p>Dear tankers,</p><p>If my mods stop working after a game update, please allow a few days for stability testing and WG's review, which often takes several days. <strong>This does not mean I've stopped maintaining them.</strong> Please avoid negative reviews while updates are pending. For questions, email <a href=\"mailto:2551549074@qq.com\"><strong>2551549074@qq.com</strong></a>; I'll reply when I can.</p><p><strong>Bring your favorite Girls und Panzer voices into every battle!</strong></p><p><strong>GuP Voice Selector</strong> lets you choose <i>Girls und Panzer</i> crew voiceovers in <strong>World of Tanks</strong>, regardless of vehicle nation, type, or crew composition. It features <strong>65 voice options</strong> covering most major GuP schools, teams, and characters, including official collaboration voiceovers marked <strong>\"(by official)\"</strong>. Voice options have been reorganized, and their volumes balanced.</p><h2>Main Features</h2><p><strong>GuP music:</strong> An extensive music collection with an on/off toggle and volume control. Applying a change to the music toggle <strong>immediately restarts the game client</strong>.</p><p><strong>Nine subtitle languages:</strong> English, Simplified Chinese, Japanese, Russian, German, French, Spanish, Polish, and Italian. Choose a language or <strong>Off</strong> via <strong>Garage → Mods → Subtitle Selector</strong>.</p><p><strong>Saved preferences:</strong> Voice and subtitle selections are saved automatically.</p><p><strong>Optional extra voice lines:</strong> Enable or disable alerts such as Sixth Sense and reload-complete notifications.</p><p><strong>Special crew compatibility:</strong> Use <strong>\"GuP Voice Selector: Ignore the voices of special crews\"</strong> to set voice priority. <strong>On:</strong> your selected GuP voice overrides special crew voiceovers. <strong>Off:</strong> special crew members keep their original unique voiceovers. Most newly added Commanders with unique voices work without a mod update.</p><h2>Important Note</h2><p><strong>Do not use this mod alongside the official Girls und Panzer Subtitles Mod.</strong> They conflict and may cause game issues. Use this mod's built-in subtitle system instead.</p><h2>About This Mod</h2><p>GuP Voice Selector has long been one of my favorite WoT mods. When the original disappeared from Mod Hub, I lacked the skills to restore it. With AI tools and experience gained over time, I've brought it back and adapted it to current game versions. I remain grateful to the original creator and hope they return someday.</p><p>The mod should theoretically work with future game updates. As I'm busy with studies and research, updates may be infrequent, mainly addressing serious bugs, compatibility issues, or many newly added voiced crew members.</p><p>Bug reports and suggestions: <a href=\"mailto:2551549074@qq.com\"><strong>2551549074@qq.com</strong></a></p><p><strong>Thanks for using GuP Voice Selector! Panzer Vor!</strong></p>",
       "installationGuideHtml": "<p>Copy all files to latest version floder under mods floder in game client floder.</p>",
       "coverCatalogUrl": "https://wgmods.net/media/mod_files/%E5%B0%91%E5%A5%B3%E6%88%98%E8%BD%A6%E9%9F%B3%E4%B9%90%E7%8B%82%E6%BD%AE.png.302x170_q85_crop_detail_replace_alpha-white.jpg",
@@ -6672,6 +6766,16 @@
         "23"
       ],
       "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "3.1.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ver_3.1.1.7z",
+          "updatedAt": "2026-11-04T17:10:13.625Z",
+          "sizeBytes": 1332104093,
+          "fileName": "Ver_3.1.1.7z",
+          "fileExt": ".7z",
+          "changeLog": ""
+        },
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "3.1.0",
@@ -6721,21 +6825,11 @@
           "fileName": "Ver_2.4.0.zip",
           "fileExt": ".zip",
           "changeLog": "Bug Fix\n1. Fixed an issue where using the official subtitles could cause a drop in game performance.\nImprovement\n1. For all special crew members unrelated to Girls und Panzer, their additional voice lines—such as reloading voice lines and battlefield communication lines—have been changed from the Girls und Panzer versions back to the default versions to provide a more consistent overall experience."
-        },
-        {
-          "wotGameVersion": "2.4.0.1",
-          "modVersion": "2.3.0",
-          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/Ver_2.3.0.1.zip",
-          "updatedAt": "2026-09-22T12:35:48.406Z",
-          "sizeBytes": 1027841136,
-          "fileName": "Ver_2.3.0.1.zip",
-          "fileExt": ".zip",
-          "changeLog": "Improvements\n1. Added the “GuP Voice Selector: Ignore the voices of special crews” option to the Mods menu in the Garage. It works in the same way as the corresponding option at the bottom of Settings → Sound. This provides an alternative way to access the setting in case the option in the game client settings does not appear due to conflicts with other mods.\n2. Based on advice from experienced players, the way voice options are integrated into the mod has been improved. Newly added Commanders with their own unique voiceovers can now use their original unique voiceovers normally without having to wait for an update to this mod.\n3. Fixed several issues in the Polish subtitle version based on player feedback.\n4. Updated the additional voice lines for Alice (by official) so that they better match the story and character context of Girls und Panzer."
         }
       ],
       "latest": {
-        "fileName": "Ver_3.1.0.7z",
-        "modVersion": "3.1.0",
+        "fileName": "Ver_3.1.1.7z",
+        "modVersion": "3.1.1",
         "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
@@ -9590,6 +9684,16 @@
       ],
       "files": [
         {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "0.1.4",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.4_JaAmu1N.zip",
+          "updatedAt": "2026-11-04T14:44:38.519Z",
+          "sizeBytes": 6133036,
+          "fileName": "AVG_Damage0.1.4_JaAmu1N.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
           "wotGameVersion": "2.4.1.0",
           "modVersion": "0.1.4",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/AVG_Damage0.1.4.zip",
@@ -9601,10 +9705,10 @@
         }
       ],
       "latest": {
-        "fileName": "AVG_Damage0.1.4.zip",
+        "fileName": "AVG_Damage0.1.4_JaAmu1N.zip",
         "modVersion": "0.1.4",
         "changeLog": "",
-        "wotGameVersionCompatibility": "likelyCompatible"
+        "wotGameVersionCompatibility": "safe"
       }
     },
     {
@@ -39307,6 +39411,16 @@
         {
           "wotGameVersion": "2.4.1.1",
           "modVersion": "2.4.1.1 #988",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
+          "updatedAt": "2026-11-04T17:10:50.829Z",
+          "sizeBytes": 156552,
+          "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
+          "fileExt": ".zip",
+          "changeLog": ""
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.4.1.1 #988",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
           "updatedAt": "2026-11-03T18:46:44.383Z",
           "sizeBytes": 152377,
@@ -39316,9 +39430,9 @@
         }
       ],
       "latest": {
-        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
+        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
         "modVersion": "2.4.1.1 #988",
-        "changeLog": "Add Built-in Style remover.",
+        "changeLog": "",
         "wotGameVersionCompatibility": "safe"
       }
     },
