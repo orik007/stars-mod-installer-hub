@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v2026.11.010",
+  "catalogVersion": "v2026.11.011",
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8107",
+      "title": "Settings Profiles",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Download and extract the ZIP archive. Copy all included .wotmod files into World_of_Tanks/mods/x.x.x.x/, replacing x.x.x.x with your current World of Tanks version. Restart the game client."
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installableByApp": true,
+        "decisionReason": "Extract the ZIP and copy all included .wotmod files into mods/current-version.",
+        "deleteDataWgpdc": false
+      }
+    },
+    {
+      "source": "wgmods",
+      "sourceId": "8105",
+      "title": "Mafia Project",
+      "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
+      "classificationInput": {
+        "latestFileExt": ".zip",
+        "latestInstallGuide": "Rozbalte, pak složku mods nakopírujte do hry"
+      },
+      "requiresReview": false,
+      "installationProcess": {
+        "installationTemplate": "ExtractToGameRoot",
+        "installableByApp": true,
+        "decisionReason": "Extract the archive and copy its mods folder into the game directory.",
+        "deleteDataWgpdc": false
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8102",
@@ -110,14 +144,14 @@
       "title": "Robo Pet",
       "classificationRevision": "b86c341df17bdc9f8f7ecb1aa93331f565c0c73f7c3fc66b63a296a23144daa1",
       "classificationInput": {
-        "latestFileExt": ".zip",
+        "latestFileExt": ".wotmod",
         "latestInstallGuide": "extract the .wotmod from the .zip and place in \\mods\\{version}"
       },
       "requiresReview": false,
       "installationProcess": {
-        "installationTemplate": "ExtractArchiveThenCopyToMods",
+        "installationTemplate": "CopyAllToMods",
         "installableByApp": true,
-        "decisionReason": "Extract the ZIP and copy its contents into the current-version mods folder.",
+        "decisionReason": "The downloaded .wotmod is copied unchanged into mods/current-version.",
         "deleteDataWgpdc": false
       }
     },
