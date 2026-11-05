@@ -1,11 +1,50 @@
 {
-  "catalogVersion": "v2026.11.011",
-  "sourceHash": "6fc6278ec5c51d8d0fd4ddeb5c40a6a4ff8ea5a9b0b7e4d0402c0628602f98a1",
+  "catalogVersion": "v2026.11.012",
+  "sourceHash": "a878618ba73a9cfdf884e77357b41d753db969b38038f99098a91eb554683371",
   "sources": [
     "wgmods",
     "modhub"
   ],
   "mods": [
+    {
+      "source": "wgmods",
+      "sourceId": "8109",
+      "title": "Missing Dogs",
+      "ownerUsername": "phuochung94",
+      "languageCode": "en",
+      "availableLanguageCodes": [
+        "en"
+      ],
+      "recommended": false,
+      "mark": null,
+      "descriptionHtml": "<p>Display dogs you do not own in the game’s native Den interface. Select a dog to display locally in your Garage and choose from the game’s built-in pet names.</p><p>Features:</p><ul><li>Native Den cards, models and animations.</li><li>Saves your selected dog separately for each account.</li><li>Provides a local dog preview for accounts without pets, when the game’s pet system is available.</li><li>Keeps the Garage label and tooltip consistent with the displayed dog.</li><li>Does not require OpenWG Gameface.</li></ul><p>Local previews do not grant pet ownership, rewards or additional bonuses.</p>",
+      "installationGuideHtml": "<p>&nbsp;</p>",
+      "coverCatalogUrl": "https://wgmods.net/media/mod_files/shot_1834.jpg.302x170_q85_crop_detail_replace_alpha-white.jpg",
+      "detailUrl": "https://wgmods.net/8109/",
+      "tagIds": [
+        "18",
+        "21",
+        "13"
+      ],
+      "files": [
+        {
+          "wotGameVersion": "2.4.1.1",
+          "modVersion": "2.4.1.1 #988",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/phuochung94.missingdogs-ASIA_2.4.1.1_988.wotmod",
+          "updatedAt": "2026-11-04T21:47:49.196Z",
+          "sizeBytes": 15309,
+          "fileName": "phuochung94.missingdogs-ASIA_2.4.1.1_988.wotmod",
+          "fileExt": ".wotmod",
+          "changeLog": ""
+        }
+      ],
+      "latest": {
+        "fileName": "phuochung94.missingdogs-ASIA_2.4.1.1_988.wotmod",
+        "modVersion": "2.4.1.1 #988",
+        "changeLog": "",
+        "wotGameVersionCompatibility": "safe"
+      }
+    },
     {
       "source": "wgmods",
       "sourceId": "8107",
@@ -842,6 +881,16 @@
       "files": [
         {
           "wotGameVersion": "2.4.1.1",
+          "modVersion": "1.3.1",
+          "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.1.1_ArmorHits_1.3.1.zip",
+          "updatedAt": "2026-11-04T21:46:17.737Z",
+          "sizeBytes": 357360,
+          "fileName": "2.4.1.1_ArmorHits_1.3.1.zip",
+          "fileExt": ".zip",
+          "changeLog": "- Changed: Modules and crew looks like the battle damage panel and shows the exact track, wheel or crew member hit\n- Changed: vehicles on the screen have no camouflage, styles or gun marks\n- Fixed: after changing vehicle in a battle, hits were shown on the wrong vehicle\n- Fixed: Modules and crew stayed empty on a killing shot or a hit on something already damaged\n- Fixed: a battle you left early showed no victory or defeat\n- Fixed: back in the garage after the shooter view, the camera turned around the hit\n- Fixed: a damaged battle file could stop the other battles from loading or keep the screen from opening"
+        },
+        {
+          "wotGameVersion": "2.4.1.1",
           "modVersion": "1.2.0",
           "downloadUrl": "https://modp.wgcdn.co/media/mod_files/2.4.1.1_ArmorHits_1.2.0.zip",
           "updatedAt": "2026-10-29T20:44:34.933Z",
@@ -872,9 +921,9 @@
         }
       ],
       "latest": {
-        "fileName": "2.4.1.1_ArmorHits_1.2.0.zip",
-        "modVersion": "1.2.0",
-        "changeLog": "- Fixed: the armor tooltip popped up by itself, also instead of the turret, gun and shell tooltips; now it is smooth and shows up right away",
+        "fileName": "2.4.1.1_ArmorHits_1.3.1.zip",
+        "modVersion": "1.3.1",
+        "changeLog": "- Changed: Modules and crew looks like the battle damage panel and shows the exact track, wheel or crew member hit\n- Changed: vehicles on the screen have no camouflage, styles or gun marks\n- Fixed: after changing vehicle in a battle, hits were shown on the wrong vehicle\n- Fixed: Modules and crew stayed empty on a killing shot or a hit on something already damaged\n- Fixed: a battle you left early showed no victory or defeat\n- Fixed: back in the garage after the shooter view, the camera turned around the hit\n- Fixed: a damaged battle file could stop the other battles from loading or keep the screen from opening",
         "wotGameVersionCompatibility": "safe"
       }
     },
