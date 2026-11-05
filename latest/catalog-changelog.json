@@ -1,71 +1,59 @@
 {
-  "catalogVersion": "v2026.11.013",
-  "previousCatalogVersion": "v2026.11.012",
+  "catalogVersion": "v2026.11.014",
+  "previousCatalogVersion": "v2026.11.013",
   "summary": {
-    "added": 0,
+    "added": 2,
     "removed": 0,
-    "updated": 3,
-    "unchanged": 874
+    "updated": 1,
+    "unchanged": 876
   },
   "changes": [
     {
-      "type": "updated",
+      "type": "added",
       "source": "wgmods",
-      "sourceId": "8109",
-      "title": "Missing Dogs",
-      "previous": {
-        "modVersion": "2.4.1.1 #988",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "phuochung94.missingdogs-ASIA_2.4.1.1_988.wotmod",
-        "updatedAt": "2026-11-04T21:47:49.196Z",
-        "changeLog": ""
-      },
+      "sourceId": "8112",
+      "title": "Clean Garage Header",
+      "previous": null,
       "current": {
         "modVersion": "2.4.1.1 #991",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "phuochung94.missingdogs-ASIA_2.4.1.1_991.wotmod",
-        "updatedAt": "2026-11-05T11:26:50.077Z",
+        "fileName": "phuochung94.cleanheader-ASIA_2.4.1.1_991.wotmod",
+        "updatedAt": "2026-11-05T13:07:46.519Z",
+        "changeLog": ""
+      }
+    },
+    {
+      "type": "added",
+      "source": "wgmods",
+      "sourceId": "8111",
+      "title": "Focus Fire",
+      "previous": null,
+      "current": {
+        "modVersion": "1",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "FocusFire_0.5.3_QptnE25.zip",
+        "updatedAt": "2026-11-05T14:23:11.527Z",
         "changeLog": ""
       }
     },
     {
       "type": "updated",
       "source": "wgmods",
-      "sourceId": "7906",
-      "title": "ASMA中文战斗轮廓图标",
+      "sourceId": "7499",
+      "title": "Vehicle Reskin Renamer",
       "previous": {
-        "modVersion": "2.4.1.1.1",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ASMA.Icons.2.4.1.1.1.zip",
-        "updatedAt": "2026-11-02T18:04:44.475Z",
-        "changeLog": "1/继续微调，基本就这样式了。2/更新豹1换皮车”蒸汽时代“"
-      },
-      "current": {
-        "modVersion": "2.4.1.1.2",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ASMA.Icons.2.4.1.1.2.zip",
-        "updatedAt": "2026-11-05T12:12:30.929Z",
-        "changeLog": "更新战令附加章节的9级美国车Jezevec（“獾”）的图标。"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "6370",
-      "title": "Unique 3D Style with Serial Number and Remove Built-in Style",
-      "previous": {
-        "modVersion": "2.4.1.1 #988",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
-        "updatedAt": "2026-11-04T17:10:50.829Z",
+        "modVersion": "1.1.1",
+        "wotGameVersion": "2.4.0.2",
+        "fileName": "breeeze.vehicle_reskin_renamer_1.1.1_xhH2eaE.zip",
+        "updatedAt": "2026-10-04T07:25:53.300Z",
         "changeLog": ""
       },
       "current": {
-        "modVersion": "2.4.1.1. #991",
+        "modVersion": "1.1.2",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_991.zip",
-        "updatedAt": "2026-11-05T11:51:07.787Z",
-        "changeLog": ""
+        "fileName": "breeeze.vehicle_reskin_renamer_1.1.2.zip",
+        "updatedAt": "2026-11-05T12:39:55.418Z",
+        "changeLog": "- Added new reskins:\n    - Dream Chaser (Grom)\n    - Eclipse (Obj. 265-II)\n    - Automaton (Leopard 1)\n    - Erlang Shen (WT E 100 T)\n    - Twin Guardians (Canopener)\n    - Fireborn (BZ-75)\n- Updated ModsSettings API to 1.7.1\n- Updated ModsList API to 1.8.0\n- Updated OpenWG Gameface to 1.2.2"
       }
     }
   ]
