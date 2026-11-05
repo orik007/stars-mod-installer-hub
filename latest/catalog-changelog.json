@@ -1,179 +1,45 @@
 {
-  "catalogVersion": "v2026.11.011",
-  "previousCatalogVersion": "v2026.11.010",
+  "catalogVersion": "v2026.11.012",
+  "previousCatalogVersion": "v2026.11.011",
   "summary": {
-    "added": 2,
+    "added": 1,
     "removed": 0,
-    "updated": 7,
-    "unchanged": 867
+    "updated": 1,
+    "unchanged": 875
   },
   "changes": [
     {
       "type": "added",
       "source": "wgmods",
-      "sourceId": "8107",
-      "title": "Settings Profiles",
+      "sourceId": "8109",
+      "title": "Missing Dogs",
       "previous": null,
-      "current": {
-        "modVersion": "1.0.0",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "gravity.settings_profiles.2.4.1.1.1.0.0.zip",
-        "updatedAt": "2026-11-04T14:58:19.443Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "added",
-      "source": "wgmods",
-      "sourceId": "8105",
-      "title": "Mafia Project",
-      "previous": null,
-      "current": {
-        "modVersion": "0.1",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Mafia_Project.zip",
-        "updatedAt": "2026-11-04T14:55:43.948Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8098",
-      "title": "Session Encounters: who you keep meeting in battle",
-      "previous": {
-        "modVersion": "0.6.3",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Session_Encounters_nz08fa2.rar",
-        "updatedAt": "2026-11-03T20:19:10.141Z",
-        "changeLog": "VERSION CHANGES\n\nReset is cancelled with an error message if the backup cannot be saved\nBackup is made from the current in-memory history, so recent encounters are included, and verified after writing\nReset confirmation states that history for all accounts on this PC is deleted\nStatistics window explains history limits: per-battle log since 0.6.0, latest 1,500 entries, All time totals vs battles with results\nLast battle tab: period and battle filters are disabled and the cards show All time\nResult polling retries after temporary unavailability, handles cooldown, non-player and disconnected errors separately, cancels pending callbacks on unload and rechecks the current account when a callback runs\nPlayers with zero damage now show 0 instead of a dash"
-      },
-      "current": {
-        "modVersion": "0.6.4",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Session_Encounters.rar",
-        "updatedAt": "2026-11-04T14:58:09.994Z",
-        "changeLog": "The Battles and Your record cards now keep up to the latest 3,000 completed battle records (all accounts together), and the window explains this limit next to the All time player totals\nInstallation guide file names match the archive"
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8096",
-      "title": "Maneuver/Skirmish: Loading data bugfix",
-      "previous": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Z4imon.load_data_fix_1.0_ZLhKuhy.wotmod",
-        "updatedAt": "2026-11-02T14:18:44.679Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "1.0",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Z4imon.load_data_fix_2.4.1.1_1.0.wotmod",
-        "updatedAt": "2026-11-04T16:03:10.588Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8091",
-      "title": "Robo Pet",
-      "previous": {
-        "modVersion": "V1",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Robo-Pet_2.4.1.1_V1.zip",
-        "updatedAt": "2026-11-02T13:31:57.991Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "V2.3",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Robopet_v2.3_ceWXZJz.wotmod",
-        "updatedAt": "2026-11-04T15:13:07.456Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "8088",
-      "title": "Erika Itsumi Garage Pet Replacement",
-      "previous": {
-        "modVersion": "2.1",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ERIKA_ITSUMI_2.1.wotmod",
-        "updatedAt": "2026-11-02T19:17:53.251Z",
-        "changeLog": "New animation: upon entering the hangar, Erika waves at the player (I’ll fix the issues with her hands within a day or two).\nНовая анимация: при входе в ангар Эрика машет игроку (проблемы с её кистями рук я исправлю в течение дня-двух)."
-      },
-      "current": {
-        "modVersion": "2.2",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "ERIKA_2.3.wotmod",
-        "updatedAt": "2026-11-04T14:28:56.266Z",
-        "changeLog": "A new stand has been added for the main model, and its color palette has been updated—giving it a more attractive, high-quality appearance. A gradual fade-out effect has been implemented for when the camera approaches the model, an orange outline has been added, various bugs have been fixed, and shaders have been incorporated.\nДля основной модели добавлена ​​новая подставка, а её цветовая палитра обновлена ​​— теперь она выглядит более привлекательно и качественно. Реализован эффект плавного исчезновения при приближении камеры к модели, добавлен оранжевый контур, исправлены различные ошибки, а также внедрены шейдеры."
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7872",
-      "title": "Evolved: Girls und Panzer Voice Selector (all voices)  and musics",
-      "previous": {
-        "modVersion": "3.1.0",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Ver_3.1.0.7z",
-        "updatedAt": "2026-10-28T22:26:14.316Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "3.1.1",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "Ver_3.1.1.7z",
-        "updatedAt": "2026-11-04T17:10:13.625Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "7789",
-      "title": "AVG Damage",
-      "previous": {
-        "modVersion": "0.1.4",
-        "wotGameVersion": "2.4.1.0",
-        "fileName": "AVG_Damage0.1.4.zip",
-        "updatedAt": "2026-10-18T15:33:57.130Z",
-        "changeLog": ""
-      },
-      "current": {
-        "modVersion": "0.1.4",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "AVG_Damage0.1.4_JaAmu1N.zip",
-        "updatedAt": "2026-11-04T14:44:38.519Z",
-        "changeLog": ""
-      }
-    },
-    {
-      "type": "updated",
-      "source": "wgmods",
-      "sourceId": "6370",
-      "title": "Unique 3D Style with Serial Number and Remove Built-in Style",
-      "previous": {
-        "modVersion": "2.4.1.1 #988",
-        "wotGameVersion": "2.4.1.1",
-        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988_eKSyAxa.zip",
-        "updatedAt": "2026-11-03T18:46:44.383Z",
-        "changeLog": "Add Built-in Style remover."
-      },
       "current": {
         "modVersion": "2.4.1.1 #988",
         "wotGameVersion": "2.4.1.1",
-        "fileName": "UNZIP-phuochung94.uniquestyles-ASIA_2.4.1.1_988.zip",
-        "updatedAt": "2026-11-04T17:10:50.829Z",
+        "fileName": "phuochung94.missingdogs-ASIA_2.4.1.1_988.wotmod",
+        "updatedAt": "2026-11-04T21:47:49.196Z",
         "changeLog": ""
+      }
+    },
+    {
+      "type": "updated",
+      "source": "wgmods",
+      "sourceId": "8076",
+      "title": "Armor Hits",
+      "previous": {
+        "modVersion": "1.2.0",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "2.4.1.1_ArmorHits_1.2.0.zip",
+        "updatedAt": "2026-10-29T20:44:34.933Z",
+        "changeLog": "- Fixed: the armor tooltip popped up by itself, also instead of the turret, gun and shell tooltips; now it is smooth and shows up right away"
+      },
+      "current": {
+        "modVersion": "1.3.1",
+        "wotGameVersion": "2.4.1.1",
+        "fileName": "2.4.1.1_ArmorHits_1.3.1.zip",
+        "updatedAt": "2026-11-04T21:46:17.737Z",
+        "changeLog": "- Changed: Modules and crew looks like the battle damage panel and shows the exact track, wheel or crew member hit\n- Changed: vehicles on the screen have no camouflage, styles or gun marks\n- Fixed: after changing vehicle in a battle, hits were shown on the wrong vehicle\n- Fixed: Modules and crew stayed empty on a killing shot or a hit on something already damaged\n- Fixed: a battle you left early showed no victory or defeat\n- Fixed: back in the garage after the shooter view, the camera turned around the hit\n- Fixed: a damaged battle file could stop the other battles from loading or keep the screen from opening"
       }
     }
   ]
