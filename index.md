@@ -1,3 +1,23 @@
+---
+description: Development has ended. For World of Tanks mods, switch to Aslain’s WoT Mod Manager.
+aslain_download_url: "https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/"
+---
+
+## Development of Stars Mod Installer has ended
+
+Hi everyone,
+
+I’ve decided to end development of **Stars Mod Installer**. The new **Aslain’s WoT Mod Manager** does everything I built Stars Mod Installer to do and has much broader support. If you use Stars Mod Installer to install and manage your World of Tanks mods, I recommend switching to Aslain’s app.
+
+[Download Aslain’s WoT Mod Manager from the official website]({{ page.aslain_download_url }})
+
+Thanks to everyone who gave Stars Mod Installer a try, used it, or sent me feedback. I really appreciate it.
+
+See you on the battlefield!  
+Pavel
+
+## About Stars Mod Installer
+
 Stars Mod Installer keeps your selected mods **up to date** when a new mod version is released or when World of Tanks is updated.
 
 **Set it up once. After that, the app starts automatically with Windows and runs quietly in the system tray. You do not need to launch a mod installer again after every game update.**
@@ -12,9 +32,7 @@ No manual downloads. No rerunning a mod installer after every update. No copying
 
 ## Alpha version
 
-Stars Mod Installer is currently in **alpha**. Some things may still change, and some mods may not be supported yet.
-
-Found a bug or have an idea? Join us on [Discord](https://discord.gg/yYyep74YHh) and let us know.
+Stars Mod Installer was released as an **alpha**.
 
 ## Screenshots
 

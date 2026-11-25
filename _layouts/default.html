@@ -26,9 +26,15 @@
         Discord
       </a>
 
+      {% if page.aslain_download_url %}
+      <a href="{{ page.aslain_download_url | escape }}" class="btn">
+        Download Aslain’s Mod Manager
+      </a>
+      {% else %}
       <a href="https://github.com/orik007/stars-mod-installer-hub/releases/latest/download/StarsModInstaller-win-Setup.exe" class="btn">
         Install
       </a>
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
