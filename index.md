@@ -14,7 +14,7 @@ Iâ€™ve decided to end development of **Stars Mod Installer**. The new **Aslainâ€
 Thanks to everyone who gave Stars Mod Installer a try, used it, or sent me feedback. I really appreciate it.
 
 See you on the battlefield!  
-Pavel
+Stars
 
 ## About Stars Mod Installer
 
