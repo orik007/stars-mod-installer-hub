@@ -1,4 +1,5 @@
 ---
+title: Stars Mod Installer
 description: Development has ended. For World of Tanks mods, switch to Aslain’s WoT Mod Manager.
 aslain_download_url: "https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/"
 ---
